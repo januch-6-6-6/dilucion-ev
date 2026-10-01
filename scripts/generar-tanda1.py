@@ -66,6 +66,14 @@ fuentes = [
         'consultado': CONSULTA,
     },
     {
+        'id': 'URGENCIA-UC-SRI-2015',
+        'titulo': 'Secuencia rápida de intubación en el Servicio de Urgencia (Series clínicas de Medicina de Urgencia; Maluenda, Aguilera, Kripper, Navea, Basaure). Rev Chil Med Intensiva 2015;30(1):23-32',
+        'institucion': 'Programa de Medicina de Urgencia, Pontificia Universidad Católica de Chile',
+        'url': 'https://urgencia.uc.cl/htdocs/content/uploads/2021/04/secuencia-rapida-de-intubacion-servicio-de-urgencia-series-clinicas-urgencia-uc-articulo-2015.pdf',
+        'anio': 2015,
+        'consultado': CONSULTA,
+    },
+    {
         'id': 'FDA-ADENOSINA',
         'titulo': 'Adenosine injection — Prescribing information (Dosage and administration, adult patients)',
         'institucion': 'U.S. FDA / DailyMed',
@@ -329,6 +337,7 @@ def fichas(stab):
         'administracion': {'vias': ['bolo', 'infusion_intermitente', 'infusion_continua'], 'texto': 'Solo donde se pueda controlar la vía aérea. Inyección IV lenta (reduce efectos adversos).', 'fuente': C('fentanilo', '4.2')},
         'dosis': [
             {'indicacion': 'Analgésico complementario en anestesia, procedimientos menores', 'poblacion': 'adulto', 'unidad': 'mcg/kg', 'max': 2, 'fuente': C('fentanilo', '4.2: dosis bajas 2 mcg/kg')},
+            {'indicacion': 'Premedicación en secuencia rápida de intubación (3 min antes de la inducción)', 'poblacion': 'adulto', 'unidad': 'mcg/kg', 'min': 2, 'max': 3, 'fuente': fu('URGENCIA-UC-SRI-2015', 'Fentanilo: dosis recomendada 2–3 µg/kg tres minutos antes de la inducción')},
             {'indicacion': 'Dolor agudo/posoperatorio grave (cada 1–2 h si es necesario)', 'poblacion': 'pediatrico', 'unidad': 'mcg/kg', 'min': 1, 'max': 2, 'fuente': PED('fentanilo', 'Manejo del dolor agudo: 1–2 µg/kg/dosis')},
             {'indicacion': 'Dolor agudo: infusión IV', 'poblacion': 'pediatrico', 'unidad': 'mcg/kg/h', 'min': 0.5, 'max': 3, 'fuente': PED('fentanilo', 'Infusión IV: 0,5–3 µg/kg/h')},
         ],
@@ -342,7 +351,7 @@ def fichas(stab):
         ],
         'efectosAdversos': {'frecuentes': [], 'graves': ['Depresión respiratoria', 'Hipotensión', 'Bradicardia', 'Rigidez muscular'], 'vigilar': ['Frecuencia respiratoria y SatO2', 'Presión arterial y frecuencia cardíaca'], 'fuente': P('Anexo 6, Fentanilo: RAM')},
         'alertas': ['Medicamento de alto riesgo.', 'Antagonista: naloxona.', 'Cuidado con mcg y mg: 0,1 mg = 100 mcg.'],
-        'meta': meta([{'campo': 'dosis adulto en urgencia', 'valores': ['CIMA solo informa dosis en anestesia'], 'decision': 'No se registran dosis de analgesia en urgencia para adultos hasta contar con una fuente que las indique.'}]),
+        'meta': meta([{'campo': 'dosis adulto en urgencia', 'valores': ['CIMA solo informa dosis en anestesia', 'Urgencia UC (2015): 2–3 µg/kg como premedicación en secuencia rápida de intubación'], 'decision': 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): usar protocolos de Medicina de Urgencia UC o U. de Chile. Se agrega la dosis de intubación de Urgencia UC; la dosis de analgesia en adultos queda pendiente hasta obtener la serie «Sedación y analgesia en la unidad de emergencia» (Urgencia UC, 2013), que no está disponible en línea.'}]),
     }
 
     F['morfina'] = {
