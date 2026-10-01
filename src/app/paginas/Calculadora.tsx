@@ -18,7 +18,7 @@ import type { Dosis, Ficha } from '../../esquema/ficha'
 
 const MODOS = ['Concentración', 'Volumen a cargar', 'Velocidad por tiempo', 'Velocidad por dosis', 'Dosis → velocidad', 'Velocidad → dosis', 'Pediátrica'] as const
 type Modo = (typeof MODOS)[number]
-const UNIDADES: UnidadMasa[] = ['g', 'mg', 'mcg', 'UI']
+const UNIDADES: UnidadMasa[] = ['g', 'mg', 'mcg', 'UI', 'mEq', 'mmol']
 const fmt = (n: number) => String(n).replace('.', ',')
 const num = (t: string) => parsearNumero(t) ?? 0
 const seguro = (f: () => Alerta[]): Alerta[] => {
@@ -152,7 +152,7 @@ function ModoVolumen({ ficha }: { ficha?: Ficha }) {
       )}
       <Campo etiqueta="Dosis" valor={dosis} onCambio={setDosis} />
       <SelectorUnidad etiqueta="Unidad de la dosis" valor={unidad} onCambio={setUnidad} />
-      <Salida r={r} texto={(v) => `${fmt(v.ml)} ml · ${v.unidades} ${forma}${v.unidades > 1 ? 's' : ''}`} />
+      <Salida r={r} texto={(v) => `${fmt(v.ml)} ml · ${v.unidades} × ${forma}`} />
     </>
   )
 }

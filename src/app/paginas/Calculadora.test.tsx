@@ -74,7 +74,7 @@ describe('Calculadora', () => {
     await userEvent.click(screen.getByRole('tab', { name: 'Volumen a cargar' }))
     await userEvent.type(screen.getByLabelText('Dosis'), '300')
     expect(screen.getByRole('status')).toHaveTextContent('6 ml')
-    expect(screen.getByRole('status')).toHaveTextContent('2 ampolla')
+    expect(screen.getByRole('status')).toHaveTextContent('2 × ampolla')
   })
 
   it('cambiar la unidad de dosis no reetiqueta la concentración (fentanilo)', async () => {
@@ -121,5 +121,14 @@ describe('Calculadora', () => {
     await userEvent.click(screen.getByRole('tab', { name: 'Velocidad por dosis' }))
     await userEvent.type(screen.getByLabelText('Dosis'), '10')
     expect(screen.getByRole('alert')).toHaveTextContent('supera la dosis máxima')
+  })
+
+  it('cloruro de potasio: el selector de unidad muestra mEq y el resultado no pluraliza la forma', async () => {
+    montar(obtenerFicha('cloruro-de-potasio')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Volumen a cargar' }))
+    expect(screen.getByLabelText('Unidad de la dosis')).toHaveValue('mEq')
+    await userEvent.type(screen.getByLabelText('Dosis'), '20')
+    expect(screen.getByRole('status')).toHaveTextContent('14,91 ml · 2 × ampolla 10 % (1 g)')
+    expect(screen.getByRole('status')).not.toHaveTextContent('(1 g)s')
   })
 })
