@@ -109,6 +109,8 @@ h3 { font-size: 1.05rem; margin: 20px 0 8px; }
 .subtitulo { margin: 2px 0 0; font-size: 0.9rem; opacity: 0.9; }
 .pie { text-align: center; padding: 20px 16px 28px; color: var(--suave); font-size: 0.85rem; }
 .pie a { color: var(--suave); }
+.pie p { margin: 4px 0; }
+.pie .autor { color: var(--texto); }
 
 /* ====== Buscador ====== */
 .inicio { margin-top: -30px; }

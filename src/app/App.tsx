@@ -30,7 +30,13 @@ export default function App() {
         </Routes>
       </main>
       <footer className="pie">
-        <Link to="/acerca">Material de formación · Acerca de</Link>
+        <p className="autor">
+          Creado por <strong>Héctor Salvo Agüero</strong> · TENS e Ingeniero en Informática
+        </p>
+        <p>
+          <a href="https://github.com/januch-6-6-6/dilucion-ev" target="_blank" rel="noreferrer">Código en GitHub</a> ·{' '}
+          <Link to="/acerca">Material de formación · Acerca de</Link>
+        </p>
       </footer>
       <AvisoInicial />
     </HashRouter>

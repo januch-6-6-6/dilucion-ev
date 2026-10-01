@@ -7,4 +7,8 @@ describe('App', () => {
     render(<App />)
     expect(screen.getByRole('heading', { name: 'Dilución EV' })).toBeInTheDocument()
   })
+  it('el pie de página muestra al autor', () => {
+    render(<App />)
+    expect(screen.getByRole('contentinfo')).toHaveTextContent('Creado por Héctor Salvo Agüero')
+  })
 })
