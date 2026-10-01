@@ -1,14 +1,23 @@
-import { HashRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Link, Route, Routes } from 'react-router-dom'
+import Inicio from './paginas/Inicio'
+import Lista from './paginas/Lista'
 
 export default function App() {
   return (
     <HashRouter>
-      <header>
-        <h1>Dilución EV</h1>
+      <header className="cabecera">
+        <h1>
+          <Link to="/">Dilución EV</Link>
+        </h1>
       </header>
-      <Routes>
-        <Route path="*" element={null} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/ambito/:ambito" element={<Lista />} />
+          <Route path="/grupo/:grupo" element={<Lista />} />
+          <Route path="*" element={<p>Página no encontrada.</p>} />
+        </Routes>
+      </main>
     </HashRouter>
   )
 }
