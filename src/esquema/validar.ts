@@ -1,7 +1,7 @@
 import { convertirMasa, parsearUnidadDosis } from '../calculos/unidades'
 import { Ficha, Fuente } from './ficha'
 
-const unidadValida = (u: string) => parsearUnidadDosis(u) !== null || /^(g|mg|mcg|UI)(\/kg)?\/24 ?h$/.test(u)
+const unidadValida = (u: string) => parsearUnidadDosis(u) !== null || /^(g|mg|mcg|UI|mEq|mmol)(\/kg)?\/24 ?h$/.test(u)
 
 /** Recorre un objeto y devuelve todas las referencias `fuente.ref` con su ruta. */
 function refsDeFuente(valor: unknown, ruta: string, salida: { ruta: string; ref: string }[]) {

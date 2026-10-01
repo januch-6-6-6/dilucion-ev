@@ -51,6 +51,15 @@ describe('dosisAVelocidad', () => {
     expect(dosisAVelocidad({ pesoKg: 0, dosis: { valor: 0.1, unidad: 'mcg', tiempo: 'min' }, concentracionPorMl: { valor: 16, unidad: 'mcg' } })).toEqual({ ok: false, error: 'Falta el peso' }))
 })
 
+describe('unidades no convertibles', () => {
+  it('heparina 18 UI/kg/h, 70 kg, 100 UI/ml = 12,6 ml/h', () =>
+    expect(valor(dosisAVelocidad({ pesoKg: 70, dosis: { valor: 18, unidad: 'UI', tiempo: 'h' }, concentracionPorMl: { valor: 100, unidad: 'UI' } }))).toBe(12.6))
+  it('potasio 10 mEq/h a 0,2 mEq/ml = 50 ml/h', () =>
+    expect(valor(velocidadPorDosis({ valor: 10, unidad: 'mEq' }, { valor: 0.2, unidad: 'mEq' }))).toBe(50))
+  it('mEq contra mg da error explícito', () =>
+    expect(velocidadPorDosis({ valor: 10, unidad: 'mEq' }, { valor: 1, unidad: 'mg' })).toMatchObject({ ok: false }))
+})
+
 describe('velocidadADosis', () => {
   it('26,25 ml/h de 16 mcg/ml en 70 kg = 0,1 mcg/kg/min', () =>
     expect(valor(velocidadADosis({ pesoKg: 70, mlh: 26.25, concentracionPorMl: { valor: 16, unidad: 'mcg' }, unidadSalida: 'mcg', tiempo: 'min' }))).toBe(0.1))

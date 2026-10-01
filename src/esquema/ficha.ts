@@ -12,7 +12,7 @@ export const Fuente = z.strictObject({
   consultado: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 })
 
-export const UnidadMasa = z.enum(['g', 'mg', 'mcg', 'UI'])
+export const UnidadMasa = z.enum(['g', 'mg', 'mcg', 'UI', 'mEq', 'mmol'])
 export const Cantidad = z.strictObject({ valor: positivo, unidad: UnidadMasa })
 const CantidadConFuente = Cantidad.extend({ fuente: FuenteRef })
 
