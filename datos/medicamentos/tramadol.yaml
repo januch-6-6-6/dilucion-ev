@@ -1,0 +1,109 @@
+id: tramadol
+nombre: Tramadol
+comerciales: []
+grupo: analgesico-opioide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-100mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 4 y 6, Tramadol: 100 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 1.2
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Tramadol: 1,2 mg/ml'
+  estandar:
+  - descripcion: 300 mg en 250 ml (1,2 mg/ml)
+    cantidad:
+      valor: 300
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Tramadol: habitualmente 300 mg/250 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'Inyección IV lenta de 2–3 minutos o perfusión diluida. Antídoto: naloxona.'
+  tiempoMinimoMin: 2
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: 4.2.2
+dosis:
+- indicacion: 'Dolor intenso: dosis inicial'
+  poblacion: adulto
+  unidad: mg
+  min: 100
+  max: 100
+  maximaAbsoluta: 400
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: '4.2.1: 100 mg; luego 50–100 mg cada 4–6 h; máx. 400 mg/día'
+- indicacion: Dolor, niños desde 3 años (3–4 veces al día)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 1
+  max: 2
+  topeAdulto:
+    valor: 100
+    unidad: mg
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: '4.2.1: 1–2 mg/kg; máx. 8 mg/kg/día o 400 mg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: IMAO
+  efecto: Interacciones con riesgo vital (SNC, respiratorio, cardiovascular); contraindicado
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: '4.5'
+- con: Depresores del SNC (benzodiazepinas, alcohol, otros opioides)
+  efecto: Sedación y depresión respiratoria
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Mareos
+  - Somnolencia
+  - Sudoración
+  graves:
+  - Depresión respiratoria
+  - Convulsiones
+  - Síndrome serotoninérgico
+  vigilar:
+  - Frecuencia respiratoria y sedación
+  fuente:
+    ref: CIMA-TRAMADOL
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- Contraindicado en menores de 3 años.
+- Incompatible en la misma solución con diazepam, midazolam, diclofenaco y nitroglicerina.
+meta:
+  discrepancias: []

@@ -1,0 +1,123 @@
+id: fenitoina
+nombre: Fenitoína
+comerciales: []
+grupo: anticonvulsivante
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-250mg-5ml
+  forma: ampolla
+  cantidad:
+    valor: 250
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fenitoína: 250 mg/5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  concentracionMin:
+    valor: 1
+    unidad: mg
+    fuente:
+      ref: CIMA-FENITOINA
+      detalle: '6.2: solo SF, 1–10 mg/ml'
+  concentracionMax:
+    valor: 10
+    unidad: mg
+    fuente:
+      ref: CIMA-FENITOINA
+      detalle: '6.2: solo SF, 1–10 mg/ml'
+  estandar:
+  - descripcion: 1 g en 100 ml de SF (10 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fenitoína: dilución 1 a 10 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Diluir solo en suero fisiológico (precipita con glucosa). Velocidad máxima 50 mg/min en adultos (25 mg/min o menos
+    en adultos mayores) y 1–3 mg/kg/min en niños, con ECG y PA. Lavar con SF antes y después.
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: 4.2 Forma de administración; 6.2
+dosis:
+- indicacion: 'Status epiléptico: carga (a ≤ 50 mg/min)'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 18
+  max: 18
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2: carga aprox. 18 mg/kg'
+- indicacion: Mantención desde las 24 h (en 3–4 dosis)
+  poblacion: adulto
+  unidad: mg/kg/24 h
+  min: 5
+  max: 7
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2: 5–7 mg/kg/día'
+- indicacion: 'Status epiléptico: carga (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 15
+  max: 20
+  topeAdulto:
+    valor: 1260
+    unidad: mg
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2 Neonatos y niños pequeños: 15–20 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Inhibidores del CYP2C9/2C19
+  efecto: 'Aumento importante de la concentración de fenitoína: toxicidad'
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.5'
+- con: Fármacos metabolizados por enzimas hepáticas
+  efecto: 'Fenitoína es inductor potente: reduce sus niveles'
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Mareo
+  - Nistagmo
+  - Cefalea
+  graves:
+  - Colapso cardiovascular y arritmias con administración rápida
+  - Depresión del SNC
+  - Necrosis por extravasación (síndrome del guante púrpura)
+  vigilar:
+  - ECG y PA durante la infusión
+  - Sitio de punción
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- Diluir solo en SF. No superar 50 mg/min.
+meta:
+  discrepancias:
+  - campo: tope pediátrico
+    valores:
+    - 'CIMA adulto: 18 mg/kg (≈1260 mg en 70 kg)'
+    decision: Tope adulto de la carga pediátrica fijado en 1260 mg (18 mg/kg × 70 kg); confirmar en revisión.

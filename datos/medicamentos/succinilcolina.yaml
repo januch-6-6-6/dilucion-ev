@@ -1,0 +1,120 @@
+id: succinilcolina
+nombre: Succinilcolina (suxametonio)
+comerciales: []
+grupo: bloqueador-neuromuscular
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-100mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '2: 50 mg/ml; ampolla de 2 ml = 100 mg'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  concentracionMax:
+    valor: 2
+    unidad: mg
+    fuente:
+      ref: CIMA-SUCCINILCOLINA
+      detalle: '4.2: perfusión al 0,1–0,2 % (1–2 mg/ml)'
+  estandar:
+  - descripcion: 500 mg en 500 ml (0,1 %, 1 mg/ml)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-SUCCINILCOLINA
+      detalle: '4.2: solución al 0,1 %'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV para intubación; perfusión al 0,1–0,2 % a 2,5–4 mg/min. Solo con manejo de vía aérea y ventilación. No mezclar
+    con soluciones alcalinas (barbitúricos).
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: 4.2; 6.2
+dosis:
+- indicacion: Intubación traqueal
+  poblacion: adulto
+  unidad: mg/kg
+  min: 1
+  max: 1
+  maximaAbsoluta: 500
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.2: 1 mg/kg; dosis total máx. 500 mg'
+- indicacion: Perfusión
+  poblacion: adulto
+  unidad: mg/min
+  min: 2.5
+  max: 4
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.2: 2,5–4 mg/min'
+- indicacion: Intubación, niños 1–12 años
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 1
+  max: 2
+  topeAdulto:
+    valor: 150
+    unidad: mg
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.2: 1–2 mg/kg (lactantes 2 mg/kg)'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '6.3: usar inmediatamente una vez abierto'
+compatibilidad: []
+interaccionesGraves:
+- con: Lidocaína, procainamida, quinidina, verapamilo
+  efecto: Potencian la relajación muscular
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.5'
+- con: Aminoglucósidos
+  efecto: Potencian el bloqueo
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Fasciculaciones
+  - Aumento de la presión intraocular
+  - Bradicardia o taquicardia
+  graves:
+  - Hiperkalemia con arritmias o paro
+  - Hipertermia maligna
+  - Anafilaxia
+  vigilar:
+  - ECG
+  - Temperatura
+  - Ventilación asegurada
+  fuente:
+    ref: CIMA-SUCCINILCOLINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- Contraindicada con antecedente de hipertermia maligna e hiperkalemia.
+meta:
+  discrepancias:
+  - campo: fuente chilena / tope pediátrico
+    valores:
+    - Pucón 2022 no incluye succinilcolina
+    - 'Pediamécum: dosis total no superior a 150 mg'
+    decision: Ficha basada en CIMA; tope pediátrico de 150 mg según Pediamécum.

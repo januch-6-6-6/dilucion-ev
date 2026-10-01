@@ -1,0 +1,129 @@
+id: fenilefrina
+nombre: Fenilefrina
+comerciales: []
+grupo: vasoactivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-10mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 4 y 6, Fenilefrina: 10 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 40 mg en 100 ml (400 mcg/ml)
+    cantidad:
+      valor: 40
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fenilefrina: habitual 40 mg/100 ml'
+  - descripcion: 10 mg en 100 ml (100 mcg/ml) para bolos
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-FENILEFRINA
+      detalle: Presentación lista de 100 mcg/ml para bolo IV
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV de 50–100 mcg repetible, o infusión continua por bomba. No usar soluciones de color café o con precipitado.
+    La extravasación puede causar necrosis.
+  requiereBomba: true
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fenilefrina: precauciones'
+dosis:
+- indicacion: Bolo IV (no superar 100 mcg por bolo)
+  poblacion: adulto
+  unidad: mcg
+  min: 50
+  max: 100
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '4.2: 50–100 mcg'
+- indicacion: Infusión continua
+  poblacion: adulto
+  unidad: mcg/min
+  min: 25
+  max: 100
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '4.2: inicio 25–50, hasta 100 mcg/min'
+- indicacion: 'Hipotensión/shock: infusión (niños)'
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 0.1
+  max: 0.5
+  fuente:
+    ref: PEDIAMECUM-FENILEFRINA
+    detalle: Infusión IV 0,1–0,5 mcg/kg/min
+- indicacion: 'Hipotensión/shock: bolo IV (niños)'
+  poblacion: pediatrico
+  unidad: mcg/kg
+  min: 5
+  max: 20
+  topeAdulto:
+    valor: 100
+    unidad: mcg
+  fuente:
+    ref: PEDIAMECUM-FENILEFRINA
+    detalle: Bolo IV 5–20 mcg/kg cada 10–15 min
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '6.3: una vez abierto, utilizar inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: IMAO no selectivos
+  efecto: Hipertensión paroxística e hipertermia posiblemente mortal (contraindicado)
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '4.5'
+- con: Antidepresivos tricíclicos
+  efecto: Hipertensión paroxística con posible arritmia
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas y vómitos
+  - Cefalea
+  graves:
+  - Bradicardia refleja
+  - Hipertensión
+  - Arritmias
+  - Necrosis por extravasación
+  vigilar:
+  - PA y FC frecuentes
+  - Sitio de infusión
+  fuente:
+    ref: CIMA-FENILEFRINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- La ampolla de 10 mg/ml debe diluirse; no confundir con la presentación de 100 mcg/ml.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: sin datos en niños'
+    - 'Pediamécum: bolo 5–20 mcg/kg; infusión 0,1–0,5 mcg/kg/min'
+    decision: Se registra la pauta de Pediamécum con tope de bolo adulto de 100 mcg.

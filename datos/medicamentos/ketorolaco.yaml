@@ -1,0 +1,106 @@
+id: ketorolaco
+nombre: Ketorolaco
+comerciales: []
+grupo: analgesico-no-opioide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-30mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 30
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketorolaco: 30 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 90 mg en 250 ml (infusión continua de 24 h)
+    cantidad:
+      valor: 90
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketorolaco: habitualmente 90 mg/250 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV en no menos de 15 segundos o infusión continua. Duración máxima del tratamiento parenteral 2 días. No mezclar
+    en la misma jeringa con morfina, meperidina, prometazina o hidroxizina (precipita). Proteger de la luz.
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: 4.2; 6.2
+dosis:
+- indicacion: 'Dolor: dosis inicial 10 mg (30 mg si es intenso), luego 10–30 mg cada 4–6 h'
+  poblacion: adulto
+  unidad: mg
+  min: 10
+  max: 30
+  maximaAbsoluta: 90
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: '4.2: máx. 90 mg/día (60 mg en ancianos)'
+- indicacion: Dolor 2–16 años, cada 6–8 h (fuera de ficha técnica)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.5
+  max: 0.5
+  topeAdulto:
+    valor: 30
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-KETOROLACO
+    detalle: IV 0,5 mg/kg/dosis, máx. 30 mg/dosis, 48–72 h
+sinDosisPediatrica: false
+estabilidad:
+  protegerLuz: true
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketorolaco: protegido de la luz, a temperatura ambiente'
+compatibilidad: []
+interaccionesGraves:
+- con: Otros AINE, incluida aspirina
+  efecto: Mayor riesgo de úlcera y hemorragia digestiva; evitar
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: '4.5'
+- con: Anticoagulantes
+  efecto: Potencian el riesgo de sangrado
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Dispepsia
+  - Cefalea
+  - Dolor en el sitio de inyección
+  graves:
+  - Úlcera, perforación o hemorragia digestiva
+  - Insuficiencia renal aguda
+  vigilar:
+  - Signos de sangrado
+  - Diuresis y función renal
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: '4.8'
+alertas:
+- Máximo 2 días por vía parenteral.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: no recomendado en menores de 16 años'
+    - 'Pediamécum: 0,5 mg/kg/dosis (máx. 30 mg), uso fuera de ficha técnica'
+    decision: Se registra la pauta de Pediamécum indicada como fuera de ficha técnica; revisar si se mantiene.

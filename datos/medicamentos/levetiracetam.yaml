@@ -1,0 +1,101 @@
+id: levetiracetam
+nombre: Levetiracetam
+comerciales: []
+grupo: anticonvulsivante
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: vial-500mg-5ml
+  forma: vial
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: Concentrado 100 mg/ml, vial de 5 ml
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 500 mg en 100 ml (perfusión de 15 min)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-LEVETIRACETAM
+      detalle: 6.6 Tabla 1
+  - descripcion: 1.500 mg en 100 ml (perfusión de 15 min)
+    cantidad:
+      valor: 1500
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-LEVETIRACETAM
+      detalle: 6.6 Tabla 1
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Diluir en 100 ml de SF, Ringer lactato o SG5 % y perfundir en 15 minutos, dos veces al día. Paso oral ↔ IV sin cambiar
+    la dosis.
+  tiempoMinimoMin: 15
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: 4.2; 6.6
+dosis:
+- indicacion: Crisis epilépticas, dos veces al día
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 1500
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: '4.2: 500 mg c/12 h, hasta 1.500 mg c/12 h'
+- indicacion: Crisis epilépticas 4–17 años (< 50 kg), dos veces al día
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 30
+  topeAdulto:
+    valor: 1500
+    unidad: mg
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: '4.2: 10 mg/kg c/12 h, hasta 30 mg/kg c/12 h'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: '6.3: microbiológicamente usar de inmediato; máximo 24 h a 2–8 °C'
+compatibilidad: []
+interaccionesGraves: []
+efectosAdversos:
+  frecuentes:
+  - Somnolencia
+  - Cefalea
+  - Fatiga
+  - Mareo
+  graves:
+  - Alteraciones conductuales y psiquiátricas
+  - Ideación suicida
+  vigilar:
+  - Estado de conciencia y conducta
+  fuente:
+    ref: CIMA-LEVETIRACETAM
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: fuente chilena / status epiléptico
+    valores:
+    - Pucón 2022 no incluye levetiracetam
+    - CIMA no incluye dosis de status epiléptico
+    decision: Solo se registran dosis de ficha técnica; la dosis de carga en status depende del protocolo local.

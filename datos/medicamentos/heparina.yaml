@@ -1,0 +1,133 @@
+id: heparina
+nombre: Heparina sódica
+comerciales: []
+grupo: hematologico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: fa-25000ui-5ml
+  forma: frasco ampolla
+  cantidad:
+    valor: 25000
+    unidad: UI
+  volumenMl: 5
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '2: 5.000 UI/ml, vial de 5 ml = 25.000 UI (Pucón Anexo 4: heparina 25.000 UI FA)'
+- id: fa-5000ui-5ml
+  forma: frasco ampolla
+  cantidad:
+    valor: 5000
+    unidad: UI
+  volumenMl: 5
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '2: 1.000 UI/ml, vial de 5 ml = 5.000 UI'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 25.000 UI en 250 ml (100 UI/ml)
+    cantidad:
+      valor: 25000
+      unidad: UI
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-HEPARINA
+      detalle: '4.2: infusión IV continua ajustada por TTPA'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV seguido de infusión continua por bomba, ajustada por TTPA (1,5–2,5 veces el control), con control a las 4–6
+    h de iniciar y de cada cambio. No mezclar con otras soluciones. No usar vía IM.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: 4.2; 6.2
+dosis:
+- indicacion: 'Tromboembolismo: bolo inicial'
+  poblacion: adulto
+  unidad: UI/kg
+  min: 80
+  max: 80
+  maximaAbsoluta: 120
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.2: 80 UI/kg; hasta 120 UI/kg en TEP grave'
+- indicacion: 'Tromboembolismo: mantención'
+  poblacion: adulto
+  unidad: UI/kg/h
+  min: 18
+  max: 18
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.2: 18 UI/kg/h ajustada por TTPA'
+- indicacion: 'Angina inestable o IAM sin trombolisis: bolo'
+  poblacion: adulto
+  unidad: UI
+  min: 5000
+  max: 5000
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.2: bolo de 5.000 UI, luego 32.000 UI/24 h'
+- indicacion: 'Anticoagulación: bolo (niños)'
+  poblacion: pediatrico
+  unidad: UI/kg
+  min: 80
+  max: 80
+  topeAdulto:
+    valor: 5000
+    unidad: UI
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.2 Población pediátrica: 80 UI/kg en bolo'
+- indicacion: 'Anticoagulación: mantención (niños)'
+  poblacion: pediatrico
+  unidad: UI/kg/h
+  min: 18
+  max: 18
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.2 Población pediátrica: 18 UI/kg/h'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '6.3: una vez abierto el vial, administrar inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: Anticoagulantes, antiagregantes, fibrinolíticos, AINE
+  efecto: 'Potencian el efecto: riesgo de hemorragia'
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hemorragias
+  - Trombocitopenia inducida por heparina
+  vigilar:
+  - TTPA
+  - Plaquetas
+  - Signos de sangrado
+  fuente:
+    ref: CIMA-HEPARINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- 'Existen frascos de 1.000 y 5.000 UI/ml: verificar la concentración antes de cargar.'
+meta:
+  discrepancias:
+  - campo: tope pediátrico y dilución
+    valores:
+    - 'CIMA: 80 UI/kg en bolo sin tope explícito'
+    - 'Pediamécum (otras fuentes): 75 UI/kg y 20 UI/kg/h'
+    - Dilución 25.000 UI/250 ml no está en las fuentes; es un ejemplo de 100 UI/ml
+    decision: Tope del bolo pediátrico = bolo adulto fijo de 5.000 UI; confirmar dilución con el protocolo local.

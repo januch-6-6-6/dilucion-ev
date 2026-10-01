@@ -126,3 +126,327 @@
   url: https://www.aeped.es/comite-medicamentos/pediamecum/amiodarona
   anio: 2026
   consultado: '2026-10-01'
+- id: CIMA-DOPAMINA
+  titulo: 'Ficha técnica: Dopamina Basi 40 mg/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/90395/FT_90395.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-DOBUTAMINA
+  titulo: 'Ficha técnica: Dobutamina Hospira 12,5 mg/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/61952/FT_61952.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FENILEFRINA
+  titulo: 'Ficha técnica: Fenilefrina Aguettant 100 microgramos/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/85084/FT_85084.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-NITROGLICERINA
+  titulo: 'Ficha técnica: Solinitrina Fuerte 5 mg/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/57127/FT_57127.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-LABETALOL
+  titulo: 'Ficha técnica: Labetalol S.A.L.F. 5 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/89082/FT_89082.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-LIDOCAINA
+  titulo: 'Ficha técnica: Lidocaína B. Braun 20 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/44792/FT_44792.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FUROSEMIDA
+  titulo: 'Ficha técnica: Furosemida Physan 20 mg/2 ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62168/FT_62168.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-METOCLOPRAMIDA
+  titulo: 'Ficha técnica: Metoclopramida Basi 5 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/89715/FT_89715.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ONDANSETRON
+  titulo: 'Ficha técnica: Zofran 4 mg solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59071/FT_59071.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-KETOROLACO
+  titulo: 'Ficha técnica: Ketorolaco trometamol Normon 30 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/70102/FT_70102.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-TRAMADOL
+  titulo: 'Ficha técnica: Adolonta 100 mg/2 ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59086/FT_59086.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-METAMIZOL
+  titulo: 'Ficha técnica: Metamizol Normon 0,4 g/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63430/FT_63430.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-HIDROCORTISONA
+  titulo: 'Ficha técnica: Actocortina 373 mg polvo para solución inyectable (hidrocortisona fosfato sódico)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/52105/FT_52105.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-DEXAMETASONA
+  titulo: 'Ficha técnica: Dexametasona Kalceks 4 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/86438/FT_86438.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-METILPREDNISOLONA
+  titulo: 'Ficha técnica: Metilprednisolona Normon 20 mg polvo y disolvente para solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/71864/FT_71864.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FENITOINA
+  titulo: 'Ficha técnica: Fenitoína Altan 50 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/65372/FT_65372.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-LEVETIRACETAM
+  titulo: 'Ficha técnica: Keppra 100 mg/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/100146033/FT_100146033.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-DIAZEPAM
+  titulo: 'Ficha técnica: Diazepam Basi 5 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/89559/FT_89559.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-NALOXONA
+  titulo: 'Ficha técnica: Fomed 0,4 mg/ml solución inyectable y para perfusión (naloxona)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/82819/FT_82819.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FLUMAZENIL
+  titulo: 'Ficha técnica: Flumazenilo Hikma 0,1 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/82049/FT_82049.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ACIDO-TRANEXAMICO
+  titulo: 'Ficha técnica: Amchafibrin 500 mg solución inyectable (ácido tranexámico)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/53939/FT_53939.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-HEPARINA
+  titulo: 'Ficha técnica: Heparina sódica Rovi 1.000 UI/ml y 5.000 UI/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58691/FT_58691.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-INSULINA-CRISTALINA
+  titulo: 'Ficha técnica: Actrapid 100 UI/ml solución inyectable en vial (insulina humana)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/02230003/FT_02230003.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-BICARBONATO-DE-SODIO
+  titulo: 'Ficha técnica: Bicarbonato sódico 1M Grifols solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/60324/FT_60324.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-GLUCOSA-30
+  titulo: 'Ficha técnica: Glucosa B. Braun 30 % solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67634/FT_67634.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-PROPOFOL
+  titulo: 'Ficha técnica: Diprivan 10 mg/ml emulsión inyectable y para perfusión (propofol)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58785/FT_58785.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ETOMIDATO
+  titulo: 'Ficha técnica: Etomidato-Lipuro 2 mg/ml emulsión inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/64095/FT_64095.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ROCURONIO
+  titulo: 'Ficha técnica: Esmeron 10 mg/ml solución inyectable y para perfusión (rocuronio)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/61141/FT_61141.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-SUCCINILCOLINA
+  titulo: 'Ficha técnica: Suxametonio Ethypharm 50 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/84088/FT_84088.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-DOPAMINA
+  titulo: 'Pediamécum: Dopamina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/dopamina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-DOBUTAMINA
+  titulo: 'Pediamécum: Dobutamina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/dobutamina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-FENILEFRINA
+  titulo: 'Pediamécum: Fenilefrina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/fenilefrina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-NITROGLICERINA
+  titulo: 'Pediamécum: Nitroglicerina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/nitroglicerina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-LABETALOL
+  titulo: 'Pediamécum: Labetalol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/labetalol
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-LIDOCAINA
+  titulo: 'Pediamécum: Lidocaína (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/lidocaina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ONDANSETRON
+  titulo: 'Pediamécum: Ondansetrón (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/ondansetron
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-FUROSEMIDA
+  titulo: 'Pediamécum: Furosemida (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/furosemida
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-KETOROLACO
+  titulo: 'Pediamécum: Ketorolaco (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/ketorolaco
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-HIDROCORTISONA
+  titulo: 'Pediamécum: Hidrocortisona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/hidrocortisona
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-DEXAMETASONA
+  titulo: 'Pediamécum: Dexametasona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/dexametasona
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-METILPREDNISOLONA
+  titulo: 'Pediamécum: Metilprednisolona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/metilprednisolona
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-LEVETIRACETAM
+  titulo: 'Pediamécum: Levetiracetam (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/levetiracetam
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-DIAZEPAM
+  titulo: 'Pediamécum: Diazepam (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/diazepam
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-NALOXONA
+  titulo: 'Pediamécum: Naloxona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/naloxona
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-FLUMAZENIL
+  titulo: 'Pediamécum: Flumazenilo (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/flumazenilo
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ACIDO-TRANEXAMICO
+  titulo: 'Pediamécum: Ácido tranexámico (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/acido-tranexamico
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-HEPARINA
+  titulo: 'Pediamécum: Heparina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/heparina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ETOMIDATO
+  titulo: 'Pediamécum: Etomidato (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/etomidato
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ROCURONIO
+  titulo: 'Pediamécum: Rocuronio (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/rocuronio
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-SUCCINILCOLINA
+  titulo: 'Pediamécum: Succinilcolina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/suxametonio
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-POTASIO
+  titulo: Potassium chloride for injection concentrate — Prescribing information (Dosage and administration, Warnings)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=559a0a8c-a8fe-40a5-b196-21f9308780ab
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-GLUCONATO-CALCIO
+  titulo: Calcium gluconate injection 100 mg/ml — Prescribing information (sección 2, Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13d7cfc9-ff7a-437e-8c21-d9709ac07d48
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-DEXTROSA-50
+  titulo: Dextrose 50 % injection — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3842a9c0-8b15-1c94-e063-6394a90ae120
+  anio: 2025
+  consultado: '2026-10-01'
+- id: FDA-LIDOCAINA-SG5
+  titulo: Lidocaine hydrochloride and 5% dextrose injection — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bf999b5-e290-dcbd-e063-6294a90a2bab
+  anio: 2026
+  consultado: '2026-10-01'

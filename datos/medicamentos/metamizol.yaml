@@ -1,0 +1,124 @@
+id: metamizol
+nombre: Metamizol (dipirona)
+comerciales: []
+grupo: analgesico-no-opioide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-2g-5ml
+  forma: ampolla
+  cantidad:
+    valor: 2
+    unidad: g
+  volumenMl: 5
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: Presentación 0,4 g/ml
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMin:
+    valor: 2
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metamizol: 2 a 10 mg/ml'
+  concentracionMax:
+    valor: 10
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metamizol: 2 a 10 mg/ml'
+  estandar:
+  - descripcion: 1 g en 100 ml (10 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metamizol: 1000 mg/100 ml'
+  - descripcion: 1 g en 500 ml (2 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 500
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metamizol: 1000 mg/500 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'Administrar muy lentamente: la causa más frecuente de hipotensión grave y shock es la velocidad de inyección excesiva.
+    Tener disponible equipo para tratar el shock. No mezclar con otros fármacos en la misma jeringa.'
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.2'
+dosis:
+- indicacion: Dolor o fiebre (≥ 15 años, > 53 kg), hasta 4 veces al día
+  poblacion: adulto
+  unidad: mg
+  max: 1000
+  maximaAbsoluta: 4000
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.2: hasta 1000 mg por dosis; máx. 4000 mg/día'
+- indicacion: Dolor o fiebre, niños hasta 14 años
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 8
+  max: 16
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.2: 8–16 mg/kg en dosis única'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Metotrexato y otros antineoplásicos
+  efecto: Mayor toxicidad hematológica; evitar
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.5'
+- con: Clorpromazina
+  efecto: Hipotermia grave
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión
+  - Prurito
+  - Sudoración
+  graves:
+  - Agranulocitosis
+  - Shock anafiláctico
+  - Hipotensión grave con inyección rápida
+  vigilar:
+  - PA durante la administración
+  - Fiebre o dolor de garganta (agranulocitosis)
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Metamizol: RAM'
+alertas:
+- 'Administrar lento: riesgo de hipotensión grave.'
+meta:
+  discrepancias:
+  - campo: presentación
+    valores:
+    - 'Pucón: ampolla de 1 g (sin volumen indicado)'
+    - 'CIMA: 0,4 g/ml (ampolla de 2 g/5 ml)'
+    decision: Se registra la de CIMA; verificar la ampolla disponible en Chile.

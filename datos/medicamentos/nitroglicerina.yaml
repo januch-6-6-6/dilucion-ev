@@ -1,0 +1,108 @@
+id: nitroglicerina
+nombre: Nitroglicerina
+comerciales: []
+grupo: antihipertensivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-50mg-10ml
+  forma: ampolla
+  cantidad:
+    valor: 50
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '6.6: ampolla de 10 ml con 50 mg (5 mg/ml)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  estandar:
+  - descripcion: 50 mg en 500 ml (100 mcg/ml), retirando 10 ml del suero
+    cantidad:
+      valor: 50
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-NITROGLICERINA
+      detalle: '6.6: 1 ampolla de 50 mg en 500 ml → 100 mcg/ml'
+administracion:
+  vias:
+  - infusion_continua
+  texto: 'Perfusión continua por bomba con monitorización de PA y FC. Preparar en envase de vidrio o polietileno: el PVC absorbe
+    40–80 % del fármaco. No bajar la PAS más de 10–15 mmHg en normotensos.'
+  requiereBomba: true
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: 4.2; 6.2
+dosis:
+- indicacion: Inicio (aumentar 10–20 mcg/min cada 5–10 min)
+  poblacion: adulto
+  unidad: mcg/min
+  min: 10
+  max: 100
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '4.2: inicio 10–20 mcg/min; efectiva 50–100'
+- indicacion: Angina grave, IAM o edema pulmonar
+  poblacion: adulto
+  unidad: mg/h
+  min: 2
+  max: 8
+  maximaAbsoluta: 10
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '4.2: 2–8 mg/h; máx. excepcional 10 mg/h'
+- indicacion: Infusión continua (niños)
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 0.25
+  max: 3
+  fuente:
+    ref: PEDIAMECUM-NITROGLICERINA
+    detalle: Inicio 0,25–0,5; habitual 1–3 mcg/kg/min
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Inhibidores de la fosfodiesterasa 5 (sildenafilo, tadalafilo, vardenafilo)
+  efecto: Hipotensión grave; contraindicado
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '4.5'
+- con: Riociguat
+  efecto: Potenciación del efecto hipotensor; contraindicado
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Rubor
+  - Mareo
+  graves:
+  - Hipotensión
+  - Taquicardia refleja
+  - Metahemoglobinemia (dosis altas)
+  vigilar:
+  - PA y FC continuas
+  fuente:
+    ref: CIMA-NITROGLICERINA
+    detalle: '4.8'
+alertas:
+- Usar envase de vidrio o polietileno y equipo sin PVC.
+- Contraindicada con sildenafilo y similares.
+meta:
+  discrepancias:
+  - campo: fuente chilena
+    valores:
+    - Protocolo Pucón 2022 no incluye nitroglicerina
+    decision: Ficha basada en CIMA (y Pediamécum para niños); confirmar presentación disponible en Chile.

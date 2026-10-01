@@ -1,0 +1,123 @@
+id: propofol
+nombre: Propofol 1 %
+comerciales: []
+grupo: anestesico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-200mg-20ml
+  forma: ampolla 1 %
+  cantidad:
+    valor: 200
+    unidad: mg
+  volumenMl: 20
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Propofol 1 %: ampolla de 20 ml y FA de 50 ml (10 mg/ml)'
+- id: fa-500mg-50ml
+  forma: frasco ampolla 1 %
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 50
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Propofol 1 %: ampolla de 20 ml y FA de 50 ml (10 mg/ml)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  concentracionMin:
+    valor: 2
+    unidad: mg
+    fuente:
+      ref: CIMA-PROPOFOL
+      detalle: '6.6 Tabla 1: 1 parte con hasta 4 partes de SG5 % (≥ 2 mg/ml)'
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Agitar antes de usar. Inducción en bolo lento (≈ 40 mg cada 10 s) o perfusión; mantención por bomba. Preferir vena
+    gruesa o CVC y máxima asepsia (emulsión lipídica). Solo la presentación al 1 % puede diluirse, y únicamente en SG5 %.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: 4.2.1; 6.2
+dosis:
+- indicacion: Inducción anestésica (< 55 años)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 1.5
+  max: 2.5
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '4.2.1: 1,5–2,5 mg/kg'
+- indicacion: Mantención de la anestesia
+  poblacion: adulto
+  unidad: mg/kg/h
+  min: 4
+  max: 12
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '4.2.1: 4–12 mg/kg/h'
+- indicacion: Sedación en UCI (ventilación mecánica)
+  poblacion: adulto
+  unidad: mg/kg/h
+  min: 0.3
+  max: 4
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '4.2.1: 0,3–4 mg/kg/h; no superar 4 mg/kg/h'
+- indicacion: Inducción anestésica (> 8 años; 1 mes–3 años hasta 4 mg/kg)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 2.5
+  max: 4
+  topeAdulto:
+    valor: 200
+    unidad: mg
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '4.2.1 Población pediátrica: 2,5 mg/kg (2,5–4 en menores)'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 6
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '6.3: diluido, usar dentro de 6 h'
+compatibilidad: []
+interaccionesGraves:
+- con: Depresores del SNC (opioides, benzodiazepinas)
+  efecto: Depresión respiratoria y circulatoria aditiva
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión
+  - Dolor en el sitio de inyección
+  - Apnea transitoria
+  graves:
+  - Bradicardia
+  - Síndrome de perfusión por propofol (> 4 mg/kg/h por más de 48 h)
+  - Anafilaxia
+  vigilar:
+  - PA, FC, SatO2 y ventilación
+  - Triglicéridos en uso prolongado
+  fuente:
+    ref: CIMA-PROPOFOL
+    detalle: 4.8; 4.4
+alertas:
+- Medicamento de alto riesgo.
+- Contraindicado para sedación en UCI en menores de 16 años.
+- Desechar la emulsión sobrante.
+meta:
+  discrepancias:
+  - campo: tope pediátrico
+    valores:
+    - 'CIMA adulto: 1,5–2,5 mg/kg (≈ 175 mg en 70 kg)'
+    decision: Tope adulto de 200 mg fijado para el cálculo; confirmar.

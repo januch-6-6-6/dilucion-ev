@@ -1,0 +1,98 @@
+id: acido-tranexamico
+nombre: Ácido tranexámico
+comerciales: []
+grupo: hematologico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-1g-10ml
+  forma: ampolla
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ácido tranexámico: 1 g/10 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 10
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ácido tranexámico: dilución 10 mg/ml'
+  estandar:
+  - descripcion: 1 g en 100 ml (10 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ácido tranexámico: 10 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Inyección IV lenta (no más de 1 ml/min, es decir 100 mg/min). La inyección rápida puede causar hipotensión. No añadir
+    a sangre para transfusión ni a soluciones con penicilina.
+  fuente:
+    ref: CIMA-ACIDO-TRANEXAMICO
+    detalle: 4.2.1; 6.2
+dosis:
+- indicacion: Fibrinólisis general, cada 6–8 h (≈15 mg/kg)
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 1
+  fuente:
+    ref: CIMA-ACIDO-TRANEXAMICO
+    detalle: '4.2.1: 1 g IV lenta'
+- indicacion: Niños > 1 año (cada 6–8 h)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 15
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: PEDIAMECUM-ACIDO-TRANEXAMICO
+    detalle: IV 10–15 mg/kg/dosis cada 6–8 h
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ACIDO-TRANEXAMICO
+    detalle: '6.3: usar inmediatamente tras abrir la ampolla'
+compatibilidad: []
+interaccionesGraves:
+- con: Anticoagulantes y fármacos que actúan sobre la hemostasia
+  efecto: Usar con precaución; riesgo teórico de trombosis
+  fuente:
+    ref: CIMA-ACIDO-TRANEXAMICO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Diarrea
+  graves:
+  - Hipotensión con inyección rápida
+  - Trombosis
+  - Convulsiones
+  vigilar:
+  - PA durante la inyección
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ácido tranexámico: RAM'
+alertas:
+- Reducir dosis en insuficiencia renal.
+meta:
+  discrepancias: []

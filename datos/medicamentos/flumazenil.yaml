@@ -1,0 +1,102 @@
+id: flumazenil
+nombre: Flumazenilo
+comerciales: []
+grupo: antidoto
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-0.5mg-5ml
+  forma: ampolla
+  cantidad:
+    valor: 0.5
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Flumazenil: 0,5 mg/5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV en 15 segundos; no requiere dilución. Repetir 0,1 mg cada 60 s según conciencia. En perfusión, diluir solo
+    en SF o SG5 %.
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: 4.2; 6.6
+dosis:
+- indicacion: 'Reversión en anestesia: inicial 0,2 mg, luego 0,1 mg c/60 s'
+  poblacion: adulto
+  unidad: mg
+  min: 0.2
+  max: 0.2
+  maximaAbsoluta: 1
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: '4.2: máx. 1 mg'
+- indicacion: 'Cuidados intensivos: inicial 0,3 mg, luego 0,1 mg c/60 s'
+  poblacion: adulto
+  unidad: mg
+  min: 0.3
+  max: 0.3
+  maximaAbsoluta: 2
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: '4.2: hasta 2 mg en total'
+- indicacion: Perfusión si reaparece la somnolencia
+  poblacion: adulto
+  unidad: mg/h
+  min: 0.1
+  max: 0.4
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: '4.2: 0,1–0,4 mg/h'
+- indicacion: Reversión de benzodiazepinas (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.01
+  max: 0.01
+  topeAdulto:
+    valor: 0.2
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-FLUMAZENIL
+    detalle: 0,01 mg/kg (máx. 0,2 mg), repetible; máx. acumulado 0,05 mg/kg o 1 mg
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: '6.3: diluido 24 h a 25 °C; no refrigerar'
+compatibilidad: []
+interaccionesGraves:
+- con: Benzodiazepinas en uso prolongado
+  efecto: Síndrome de abstinencia y convulsiones
+  fuente:
+    ref: CIMA-FLUMAZENIL
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Vómitos
+  graves:
+  - Convulsiones
+  - Arritmias
+  vigilar:
+  - Resedación
+  - Convulsiones
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Flumazenil: RAM'
+alertas:
+- 'Su efecto es más corto que el de muchas benzodiazepinas: vigilar resedación.'
+meta:
+  discrepancias: []

@@ -1,0 +1,104 @@
+id: bicarbonato-de-sodio
+nombre: Bicarbonato de sodio 8,4 %
+comerciales: []
+grupo: electrolito
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-10meq-10ml
+  forma: ampolla 8,4 % (1 M)
+  cantidad:
+    valor: 10
+    unidad: mEq
+  volumenMl: 10
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '2: 840 mg = 10 mmol (10 mEq) por ampolla de 10 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: 'Inyección IV lenta de la solución hipertónica sin diluir o diluida en perfusión, asegurando ventilación adecuada.
+    Incompatible con muchos fármacos (catecolaminas, calcio): lavar la vía antes y después.'
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: 4.2; 6.2; 6.6
+dosis:
+- indicacion: 'Paro cardíaco: dosis inicial'
+  poblacion: adulto
+  unidad: mEq/kg
+  min: 1
+  max: 1
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.2: 1 mEq/kg (1 ml/kg de 8,4 %)'
+- indicacion: Acidosis grave menos crítica (perfusión en 4–8 h)
+  poblacion: adulto
+  unidad: mEq/kg
+  min: 2
+  max: 5
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.2: 2–5 mEq/kg'
+- indicacion: Dosis inicial (niños), IV lenta
+  poblacion: pediatrico
+  unidad: mEq/kg
+  min: 1
+  max: 1
+  topeAdulto:
+    valor: 70
+    unidad: mEq
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.2: 1 mEq/kg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '6.3: usar inmediatamente tras abrir'
+compatibilidad: []
+interaccionesGraves:
+- con: Corticoides con acción mineralocorticoide o ACTH
+  efecto: Retención de agua y sodio
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.5'
+- con: Litio
+  efecto: Aumenta la excreción renal de litio
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Alcalosis metabólica
+  - Hipokalemia
+  - Hipocalcemia
+  - Hipernatremia e hiperosmolaridad
+  - Necrosis por extravasación
+  vigilar:
+  - Gases arteriales
+  - Potasio y calcio
+  - Sitio de punción
+  fuente:
+    ref: CIMA-BICARBONATO-DE-SODIO
+    detalle: '4.8'
+alertas:
+- No administrar por la misma vía que catecolaminas o calcio sin lavar.
+meta:
+  discrepancias:
+  - campo: fuente chilena / tope pediátrico
+    valores:
+    - Pucón 2022 no incluye bicarbonato
+    - 'CIMA: 1 mEq/kg en niños sin tope'
+    decision: Tope adulto de 70 mEq (1 mEq/kg × 70 kg) fijado para el cálculo; confirmar presentación (ampolla 8,4 % de 10
+      o 20 ml).

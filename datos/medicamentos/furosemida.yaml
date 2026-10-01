@@ -1,0 +1,120 @@
+id: furosemida
+nombre: Furosemida
+comerciales: []
+grupo: diuretico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-20mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 20
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: 'Presentación: 20 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 10
+    unidad: mg
+    fuente:
+      ref: PEDIAMECUM-FUROSEMIDA
+      detalle: 'Perfusión: no superar 10 mg/ml'
+  estandar:
+  - descripcion: 100 mg en 100 ml (1 mg/ml)
+    cantidad:
+      valor: 100
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Furosemida: dilución 1 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Inyectar o perfundir lentamente, a no más de 4 mg/min (2,5 mg/min si creatinina > 5 mg/dl). No mezclar en jeringa
+    con otros fármacos (pH 9; precipita con soluciones ácidas).
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: 4.2.2; 6.2
+dosis:
+- indicacion: 'Insuficiencia cardíaca aguda: bolo inicial'
+  poblacion: adulto
+  unidad: mg
+  min: 20
+  max: 40
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2: 20–40 mg IV'
+- indicacion: Perfusión continua
+  poblacion: adulto
+  unidad: mg/h
+  min: 50
+  max: 100
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2: 50–100 mg/h en IRA'
+- indicacion: 'Niños: dosis parenteral máxima'
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  max: 1
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2 Población pediátrica: 1 mg/kg hasta 20 mg/día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Aminoglucósidos y otros ototóxicos
+  efecto: Ototoxicidad que puede ser irreversible
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.5'
+- con: Hidrato de cloral
+  efecto: Rubor, sudoración, hipertensión y taquicardia
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Alteraciones electrolíticas
+  - Deshidratación
+  - Hipotensión
+  graves:
+  - Hipokalemia grave
+  - Ototoxicidad (administración rápida)
+  - Pancreatitis
+  vigilar:
+  - Diuresis
+  - Potasio y sodio
+  - PA
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.8'
+alertas:
+- Velocidad máxima 4 mg/min.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: máx. 1 mg/kg/día parenteral hasta 20 mg/día'
+    - 'Pediamécum: IV inicial 0,1–2 mg/kg (máx. 40 mg)'
+    decision: Se registra la pauta más conservadora (CIMA).
+  - campo: presentación
+    valores:
+    - 'Pucón: «20 mg/ml»'
+    - 'CIMA: ampolla 20 mg/2 ml (10 mg/ml)'
+    decision: Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local.

@@ -1,0 +1,107 @@
+id: metoclopramida
+nombre: Metoclopramida
+comerciales: []
+grupo: antiemetico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-10mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Metoclopramida: 10 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metoclopramida: concentración máxima 5 mg/ml'
+  estandar:
+  - descripcion: 10 mg en 50 ml (0,2 mg/ml)
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenFinalMl: 50
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Metoclopramida: 0,2 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Bolo IV lento de al menos 3 minutos. Intervalo mínimo de 6 h entre dosis, aunque haya vómito. Precaución en niños
+    y adultos mayores por reacciones extrapiramidales.
+  tiempoMinimoMin: 3
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: 4.2 Forma de administración
+dosis:
+- indicacion: Náuseas y vómitos (hasta 3 veces al día)
+  poblacion: adulto
+  unidad: mg
+  min: 10
+  max: 10
+  maximaAbsoluta: 30
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '4.2: 10 mg; máx. 30 mg/día'
+- indicacion: Náuseas y vómitos, 1–18 años (hasta 3 veces al día)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.1
+  max: 0.15
+  topeAdulto:
+    valor: 10
+    unidad: mg
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '4.2: 0,1–0,15 mg/kg; máx. 0,5 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '6.3: tras abrir o diluir, usar inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: Levodopa y agonistas dopaminérgicos
+  efecto: Antagonismo mutuo (contraindicado)
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '4.5'
+- con: Depresores del SNC y alcohol
+  efecto: Potenciación de la sedación
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Somnolencia
+  - Astenia
+  graves:
+  - Reacciones extrapiramidales
+  - Síndrome neuroléptico maligno
+  - Bradicardia o hipotensión con bolo rápido
+  vigilar:
+  - Movimientos anormales
+  - PA
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA
+    detalle: '4.8'
+alertas:
+- Contraindicada en menores de 1 año.
+- Incompatible con bicarbonato de sodio.
+meta:
+  discrepancias: []

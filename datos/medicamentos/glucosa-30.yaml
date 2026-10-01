@@ -1,0 +1,88 @@
+id: glucosa-30
+nombre: Glucosa 30 %
+comerciales: []
+grupo: metabolico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-30pct-500ml
+  forma: frasco 30 % (500 ml)
+  cantidad:
+    valor: 150
+    unidad: g
+  volumenMl: 500
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: '2: 300 mg/ml; 150 g en 500 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: 'Hipertónica: preferir vía central; en hipoglicemia puede pasarse lento por vena periférica. Tomar glicemia antes,
+    sin retrasar el tratamiento.'
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: 4.2 Forma de administración
+dosis:
+- indicacion: Hipoglicemia por insulina (repetible)
+  poblacion: adulto
+  unidad: g
+  min: 10
+  max: 25
+  fuente:
+    ref: FDA-DEXTROSA-50
+    detalle: 10–25 g IV lenta
+- indicacion: Aporte máximo
+  poblacion: adulto
+  unidad: g/kg/h
+  max: 0.3
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: '4.2: hasta 0,3 g/kg/h'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: 6.3 (no informa estabilidad tras abrir)
+compatibilidad: []
+interaccionesGraves:
+- con: Insulina y antidiabéticos
+  efecto: Antagonismo del efecto hipoglicemiante
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: '4.5'
+- con: Digoxina
+  efecto: Aumento de la actividad digitálica (hipokalemia)
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hiperglicemia
+  - Síndrome hiperosmolar con administración rápida
+  - Flebitis y trombosis venosa
+  vigilar:
+  - Glicemia
+  - Potasio, magnesio y fósforo
+  - Sitio de punción
+  fuente:
+    ref: CIMA-GLUCOSA-30
+    detalle: '4.8'
+alertas:
+- 'Solución hipertónica: riesgo de flebitis por vía periférica.'
+meta:
+  discrepancias:
+  - campo: presentación
+    valores:
+    - 'CIMA: frasco de 500 ml al 30 %'
+    - En Chile es habitual la ampolla de 20 ml al 30 % (6 g), no confirmada en fuente chilena
+    decision: Se registra la de CIMA; confirmar la presentación local. «Volumen a cargar» usa 300 mg/ml en ambos casos.

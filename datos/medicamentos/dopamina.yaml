@@ -1,0 +1,135 @@
+id: dopamina
+nombre: Dopamina
+comerciales: []
+grupo: vasoactivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-200mg-5ml
+  forma: ampolla
+  cantidad:
+    valor: 200
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dopamina: 200 mg/5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 3.2
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Dopamina: máximo habitual 800 mg/250 ml (3,2 mg/ml)'
+  estandar:
+  - descripcion: 400 mg en 100 ml (4 mg/ml)
+    cantidad:
+      valor: 400
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Dopamina: habitual 400 mg/100 ml'
+  - descripcion: 200 mg en 250 ml (800 mcg/ml)
+    cantidad:
+      valor: 200
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-DOPAMINA
+      detalle: '6.6: 5 ml (200 mg) en 250 ml → 800 mcg/ml'
+  - descripcion: 200 mg en 500 ml (400 mcg/ml)
+    cantidad:
+      valor: 200
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-DOPAMINA
+      detalle: '6.6: 5 ml (200 mg) en 500 ml → 400 mcg/ml'
+administracion:
+  vias:
+  - infusion_continua
+  texto: Solo diluida, en perfusión continua por bomba, en vena de grueso calibre (riesgo de isquemia tisular por extravasación).
+    No mezclar con soluciones alcalinas como bicarbonato. Ajustar según PA, diuresis y perfusión.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: 4.2 Forma de administración; 6.2
+dosis:
+- indicacion: Inicio en respuesta modesta esperada
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 2.5
+  max: 5
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '4.2: iniciar a 2,5 mcg/kg/min'
+- indicacion: 'Casos graves: aumentar de 5 a 10 mcg/kg/min hasta efecto'
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 5
+  max: 20
+  maximaAbsoluta: 50
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '4.2: hasta 20–50 mcg/kg/min'
+- indicacion: Infusión continua (niños)
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 5
+  max: 20
+  maximaAbsoluta: 50
+  fuente:
+    ref: PEDIAMECUM-DOPAMINA
+    detalle: 'Niños: 5–20 mcg/kg/min; máx. 50 mcg/kg/min'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '6.3: utilizar inmediatamente después de la dilución'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos halogenados o ciclopropano
+  efecto: Arritmias ventriculares e hipertensión; evitar
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '4.5'
+- con: Inhibidores de la monoaminooxidasa (IMAO)
+  efecto: Potenciación marcada del efecto presor
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Náuseas y vómitos
+  - Palpitaciones
+  - Disnea
+  graves:
+  - Taquiarritmias y extrasístoles ventriculares
+  - Dolor anginoso
+  - Necrosis o gangrena por extravasación
+  vigilar:
+  - PA, FC y ECG continuos
+  - Diuresis
+  - Sitio de infusión
+  fuente:
+    ref: CIMA-DOPAMINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- No administrar sin diluir. Incompatible con bicarbonato de sodio.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: seguridad no establecida en niños'
+    - 'Pediamécum: 5–20 mcg/kg/min, máx. 50'
+    decision: Se registra la pauta de Pediamécum, marcada como fuente pediátrica.

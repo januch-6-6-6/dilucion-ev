@@ -1,0 +1,82 @@
+id: etomidato
+nombre: Etomidato
+comerciales: []
+grupo: anestesico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-20mg-10ml
+  forma: ampolla
+  cantidad:
+    valor: 20
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 4 y 6, Etomidato: 20 mg/10 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  texto: Sin diluir, IV lenta en unos 30 segundos. Agitar la ampolla. No mezclar con otros fármacos. Precaución con hipotensión.
+  tiempoMinimoMin: 0.5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Etomidato: 0,3 mg/kg en 30 segundos; no requiere dilución'
+dosis:
+- indicacion: Inducción / secuencia rápida
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.3
+  max: 0.3
+  maximaAbsoluta: 60
+  fuente:
+    ref: CIMA-ETOMIDATO
+    detalle: '4.2.1: 0,3 mg/kg; no exceder 3 ampollas (60 mg)'
+- indicacion: Inducción (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.15
+  max: 0.3
+  topeAdulto:
+    valor: 60
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-ETOMIDATO
+    detalle: 0,15–0,3 mg/kg; hasta 0,4 mg/kg
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ETOMIDATO
+    detalle: '6.3: usar inmediatamente una vez abierto'
+compatibilidad: []
+interaccionesGraves:
+- con: Opioides, sedantes, neurolépticos, alcohol
+  efecto: Potencian el efecto hipnótico
+  fuente:
+    ref: CIMA-ETOMIDATO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Mioclonías
+  - Dolor en el sitio de inyección
+  - Náuseas y vómitos
+  graves:
+  - Supresión suprarrenal
+  - Depresión respiratoria
+  vigilar:
+  - PA
+  - Ventilación
+  fuente:
+    ref: CIMA-ETOMIDATO
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+meta:
+  discrepancias: []

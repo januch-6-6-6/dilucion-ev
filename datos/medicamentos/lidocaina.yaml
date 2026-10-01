@@ -1,0 +1,151 @@
+id: lidocaina
+nombre: Lidocaína (antiarrítmico)
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-2pct-5ml
+  forma: ampolla 2 %
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Lidocaína 2 %: ampollas de 5 y 10 ml (20 mg/ml)'
+- id: amp-2pct-10ml
+  forma: ampolla 2 %
+  cantidad:
+    valor: 200
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Lidocaína 2 %: ampollas de 5 y 10 ml (20 mg/ml)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  concentracionMax:
+    valor: 8
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Lidocaína: máximo 8 mg/ml en infusión continua'
+  estandar:
+  - descripcion: 1 g en 250 ml (4 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 250
+    fuente:
+      ref: FDA-LIDOCAINA-SG5
+      detalle: Solución 0,4 % (4 mg/ml)
+  - descripcion: 2 g en 250 ml (8 mg/ml), restricción de volumen
+    cantidad:
+      valor: 2
+      unidad: g
+    volumenFinalMl: 250
+    fuente:
+      ref: FDA-LIDOCAINA-SG5
+      detalle: Solución 0,8 % (8 mg/ml)
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV de 1–1,5 mg/kg a 25–50 mg/min, seguido de infusión continua de 1–4 mg/min con bomba y ECG continuo. Reducir
+    la velocidad a la mitad tras 24 h (acumulación).
+  requiereBomba: true
+  fuente:
+    ref: FDA-LIDOCAINA-SG5
+    detalle: Dosage and administration
+dosis:
+- indicacion: 'Arritmia ventricular: bolo'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 1
+  max: 1.5
+  fuente:
+    ref: FDA-LIDOCAINA-SG5
+    detalle: Bolo 1,0–1,5 mg/kg
+- indicacion: Infusión de mantención
+  poblacion: adulto
+  unidad: mg/min
+  min: 1
+  max: 4
+  fuente:
+    ref: FDA-LIDOCAINA-SG5
+    detalle: 1–4 mg/min
+- indicacion: 'Antiarrítmico: bolo (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 1
+  max: 1
+  topeAdulto:
+    valor: 100
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-LIDOCAINA
+    detalle: Bolo IV 1 mg/kg
+- indicacion: 'Antiarrítmico: infusión (niños)'
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 20
+  max: 50
+  fuente:
+    ref: PEDIAMECUM-LIDOCAINA
+    detalle: Infusión 20–50 mcg/kg/min
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-LIDOCAINA
+    detalle: '6.3: tras la dilución, usar inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: Inhibidores de su metabolismo (p. ej., cimetidina)
+  efecto: Concentraciones tóxicas con dosis altas repetidas
+  fuente:
+    ref: CIMA-LIDOCAINA
+    detalle: '4.5'
+- con: Otros antiarrítmicos de clase I
+  efecto: Riesgo de efectos adversos cardíacos graves; evitar
+  fuente:
+    ref: CIMA-LIDOCAINA
+    detalle: '4.5'
+- con: Adrenalina o noradrenalina
+  efecto: Potencian los efectos adversos cardíacos
+  fuente:
+    ref: CIMA-LIDOCAINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Mareo
+  - Somnolencia
+  - Parestesias
+  - Visión borrosa
+  graves:
+  - Convulsiones
+  - Depresión respiratoria
+  - Bradicardia y paro cardíaco
+  - Metahemoglobinemia
+  vigilar:
+  - ECG continuo
+  - Nivel de conciencia (signos de toxicidad)
+  fuente:
+    ref: FDA-LIDOCAINA-SG5
+    detalle: Adverse reactions
+alertas:
+- Medicamento de alto riesgo.
+- Usar solo la presentación sin adrenalina para vía EV.
+meta:
+  discrepancias:
+  - campo: tope pediátrico del bolo
+    valores:
+    - 'Pediamécum: 1 mg/kg sin tope explícito'
+    - 'FDA adulto: 1–1,5 mg/kg (≈100 mg en 70 kg)'
+    decision: Se usa 100 mg como tope adulto del bolo pediátrico; confirmar en revisión.

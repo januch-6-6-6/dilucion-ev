@@ -1,0 +1,110 @@
+id: cloruro-de-potasio
+nombre: Cloruro de potasio 10 %
+comerciales: []
+grupo: electrolito
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-10pct-10ml
+  forma: ampolla 10 % (1 g)
+  cantidad:
+    valor: 13.41
+    unidad: mEq
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Cloruro de potasio 10 %: ampolla de 10 ml, 1 g = 13,41 mEq de K'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 0.04
+    unidad: mEq
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Cloruro de potasio: máximo por vía periférica 40 mEq/L (central 80 mEq/L)'
+  estandar:
+  - descripcion: 20 mEq en 500 ml (40 mEq/L), vía periférica
+    cantidad:
+      valor: 20
+      unidad: mEq
+    volumenFinalMl: 500
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Cloruro de potasio: máximo periférico 40 mEq/L'
+administracion:
+  vias:
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'NUNCA en bolo ni sin diluir: la inyección directa puede causar paro cardíaco instantáneo. Mezclar completamente
+    en el suero, infundir por bomba y con ECG si la velocidad es alta. En críticos preferir SF (la glucosa puede bajar el
+    potasio).'
+  requiereBomba: true
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Warnings; Dosage and administration
+dosis:
+- indicacion: Reposición con K sérico > 2,5 mEq/L
+  poblacion: adulto
+  unidad: mEq/h
+  max: 10
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Hasta 10 mEq/h, concentración hasta 40 mEq/L; máx. 200 mEq/24 h
+- indicacion: 'Urgente: K < 2,0 mEq/L con cambios en ECG o parálisis (monitor continuo)'
+  poblacion: adulto
+  unidad: mEq/h
+  max: 40
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Hasta 40 mEq/h; hasta 400 mEq/24 h
+- indicacion: Dosis diaria máxima habitual
+  poblacion: adulto
+  unidad: mEq/24 h
+  max: 200
+  maximaAbsoluta: 400
+  fuente:
+    ref: FDA-POTASIO
+    detalle: No exceder 200 mEq/24 h (400 en urgencia)
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Dosage and administration (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Digitálicos
+  efecto: Guiar la terapia con ECG seriados
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Precautions
+efectosAdversos:
+  frecuentes:
+  - Dolor o flebitis en el sitio de infusión
+  graves:
+  - Hiperkalemia
+  - Arritmias y paro cardíaco con infusión rápida o sin diluir
+  vigilar:
+  - ECG
+  - Potasio sérico
+  - Diuresis
+  - Sitio de infusión
+  fuente:
+    ref: FDA-POTASIO
+    detalle: Adverse reactions
+alertas:
+- Medicamento de alto riesgo.
+- NUNCA en bolo. Diluir siempre y agitar la mezcla.
+- Máximo 40 mEq/L por vía periférica y 80 mEq/L por vía central.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - Pucón y FDA no indican dosis pediátrica
+    decision: 'Sin dosis pediátrica: usar el protocolo pediátrico local.'

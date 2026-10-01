@@ -1,0 +1,69 @@
+id: clorfenamina
+nombre: Clorfenamina
+comerciales: []
+grupo: antihistaminico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-10mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Clorfenamina: 10 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 10 mg en 10 ml de SF (bolo)
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenFinalMl: 10
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Clorfenamina: bolo directo diluido en 10 cc de SF 0,9 %'
+administracion:
+  vias:
+  - bolo
+  texto: Bolo directo diluido en 10 ml de SF, administrado en 1 a 3 minutos. También IM.
+  tiempoMinimoMin: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Clorfenamina: administrar en 1–3 min'
+dosis: []
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Clorfenamina (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves: []
+efectosAdversos:
+  frecuentes:
+  - Somnolencia
+  - Disminución de la acción refleja
+  graves: []
+  vigilar:
+  - Nivel de conciencia
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Clorfenamina: RAM'
+alertas:
+- 'Las fuentes revisadas no indican dosis: seguir la indicación médica.'
+meta:
+  discrepancias:
+  - campo: dosis
+    valores:
+    - 'Pucón: sin dosis'
+    - CIMA solo tiene dexclorfeniramina (otra molécula)
+    - Pediamécum sin ficha de clorfenamina
+    decision: Ficha sin dosis; buscar una fuente chilena con dosis en la revisión.

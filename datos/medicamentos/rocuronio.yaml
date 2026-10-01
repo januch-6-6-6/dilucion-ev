@@ -1,0 +1,104 @@
+id: rocuronio
+nombre: Rocuronio
+comerciales: []
+grupo: bloqueador-neuromuscular
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: fa-50mg-5ml
+  forma: frasco ampolla
+  cantidad:
+    valor: 50
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '2: 10 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV; perfusión por bomba (compatible a 0,5–2 mg/ml en SF o SG5 %). Solo con manejo avanzado de vía aérea y ventilación.
+    Monitorizar el bloqueo (tren de cuatro).
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: 4.2; 6.6
+dosis:
+- indicacion: Secuencia rápida de intubación
+  poblacion: adulto
+  unidad: mg/kg
+  min: 1
+  max: 1.2
+  fuente:
+    ref: URGENCIA-UC-SRI-2015
+    detalle: 'Rocuronio 1–1,2 mg/kg (CIMA 4.2: 1,0 mg/kg)'
+- indicacion: Mantención (bolos)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.15
+  max: 0.15
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '4.2: 0,15 mg/kg'
+- indicacion: Perfusión continua
+  poblacion: adulto
+  unidad: mg/kg/h
+  min: 0.3
+  max: 0.6
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '4.2: 0,3–0,6 mg/kg/h'
+- indicacion: Secuencia rápida de intubación (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.9
+  max: 1.2
+  topeAdulto:
+    valor: 84
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-ROCURONIO
+    detalle: SRI 0,9–1,2 mg/kg
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '6.3: diluido, estabilidad en uso 72 h a 30 °C; microbiológicamente usar de inmediato'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos volátiles halogenados
+  efecto: Potencian el bloqueo neuromuscular
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Dolor en el sitio de inyección
+  graves:
+  - Anafilaxia
+  - Bloqueo neuromuscular prolongado
+  vigilar:
+  - Ventilación asegurada
+  - Tren de cuatro
+  fuente:
+    ref: CIMA-ROCURONIO
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- 'Paraliza la respiración: solo con vía aérea y ventilación aseguradas.'
+- Incompatible en Y con varios fármacos (p. ej., cefazolina, dexametasona, diazepam, furosemida).
+meta:
+  discrepancias:
+  - campo: tope pediátrico
+    valores:
+    - 'Urgencia UC: 1–1,2 mg/kg (≈ 84 mg con 1,2 mg/kg × 70 kg)'
+    decision: Tope adulto de 84 mg fijado para el cálculo; confirmar.

@@ -1,0 +1,134 @@
+id: gluconato-de-calcio
+nombre: Gluconato de calcio 10 %
+comerciales: []
+grupo: electrolito
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-10pct-10ml
+  forma: ampolla 10 %
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: '100 mg/ml; vial de 10 ml = 1.000 mg (Pucón: ampolla de 10 ml al 10 %)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 50
+    unidad: mg
+    fuente:
+      ref: FDA-GLUCONATO-CALCIO
+      detalle: '2.1: bolo diluido a 10–50 mg/ml'
+  estandar:
+  - descripcion: 1 g en 20 ml (50 mg/ml), bolo lento
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 20
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Calcio gluconato 10 %: dilución 50 mg/ml'
+  - descripcion: 1 g en 100 ml (10 mg/ml), infusión
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: FDA-GLUCONATO-CALCIO
+      detalle: '2.1: infusión continua 5,8–10 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Diluir en SG5 % o SF. Bolo lento sin superar 200 mg/min en adultos y 100 mg/min en niños, con ECG. Vía IV segura
+    (necrosis y calcinosis por extravasación). No mezclar con fosfato ni bicarbonato; nunca con ceftriaxona en neonatos.
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: 2.1; 2.5
+dosis:
+- indicacion: 'Hipocalcemia: bolo (repetible cada 6 h)'
+  poblacion: adulto
+  unidad: mg
+  min: 1000
+  max: 2000
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: 'Tabla 1: 1.000–2.000 mg'
+- indicacion: 'Hipocalcemia: infusión continua inicial'
+  poblacion: adulto
+  unidad: mg/kg/h
+  min: 5.4
+  max: 21.5
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: 'Tabla 1: 5,4–21,5 mg/kg/h'
+- indicacion: 'Hipocalcemia: bolo (> 1 mes a < 17 años)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 29
+  max: 60
+  topeAdulto:
+    valor: 2000
+    unidad: mg
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: 'Tabla 1: 29–60 mg/kg'
+- indicacion: 'Hipocalcemia: infusión inicial (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg/h
+  min: 8
+  max: 13
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: 'Tabla 1: 8–13 mg/kg/h'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: '2.1: usar la dilución inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: Digoxina
+  efecto: Arritmias sinérgicas
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: '7.1'
+- con: Ceftriaxona
+  efecto: Precipitados de ceftriaxona-calcio; contraindicado en neonatos
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: '2.5'
+efectosAdversos:
+  frecuentes:
+  - Vasodilatación
+  - Sensación de calor
+  graves:
+  - Bradicardia, hipotensión y arritmias
+  - Necrosis y calcinosis por extravasación
+  vigilar:
+  - ECG durante el bolo
+  - Calcemia
+  - Sitio de punción
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Calcio gluconato 10 %: RAM'
+alertas:
+- Medicamento de alto riesgo.
+- No confundir con cloruro de calcio 10 % (tres veces más calcio).
+meta:
+  discrepancias:
+  - campo: composición
+    valores:
+    - 'Pucón: ampolla de 10 ml; 0,47 mEq de calcio (por ml)'
+    - 'FDA: 100 mg/ml = 0,465 mEq/ml de calcio elemental'
+    decision: Concordantes; se registra en mg de gluconato (1 g/10 ml).

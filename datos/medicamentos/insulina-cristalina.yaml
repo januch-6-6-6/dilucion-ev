@@ -1,0 +1,104 @@
+id: insulina-cristalina
+nombre: Insulina cristalina (regular)
+comerciales: []
+grupo: metabolico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: fa-1000ui-10ml
+  forma: frasco ampolla
+  cantidad:
+    valor: 1000
+    unidad: UI
+  volumenMl: 10
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '2: vial de 10 ml con 100 UI/ml (Pucón Anexo 4: insulina cristalina 100 UI/ml FA)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMin:
+    valor: 0.05
+    unidad: UI
+    fuente:
+      ref: CIMA-INSULINA-CRISTALINA
+      detalle: '4.2: 0,05 a 1,0 UI/ml'
+  concentracionMax:
+    valor: 1
+    unidad: UI
+    fuente:
+      ref: CIMA-INSULINA-CRISTALINA
+      detalle: '4.2: 0,05 a 1,0 UI/ml'
+  estandar:
+  - descripcion: 100 UI en 100 ml de SF (1 UI/ml)
+    cantidad:
+      valor: 100
+      unidad: UI
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-INSULINA-CRISTALINA
+      detalle: '4.2: concentraciones de 0,05 a 1,0 UI/ml en SF o SG'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Vía IV solo por profesionales, con vial (no plumas), en bolsa de polipropileno y bomba de infusión, con control frecuente
+    de glicemia y potasio. Antes de usar purgar el equipo (la insulina se adsorbe al plástico).
+  requiereBomba: true
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: 4.2 Administración intravenosa
+dosis:
+- indicacion: Necesidades habituales de insulina
+  poblacion: adulto
+  unidad: UI/kg/24 h
+  min: 0.3
+  max: 1
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '4.2: 0,3–1,0 UI/kg/día'
+sinDosisPediatrica: true
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '4.2: diluida 0,05–1 UI/ml estable 24 h a temperatura ambiente'
+compatibilidad: []
+interaccionesGraves:
+- con: Betabloqueadores
+  efecto: Pueden enmascarar los síntomas de hipoglicemia
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '4.5'
+- con: Glucocorticoides y tiazidas
+  efecto: Aumentan las necesidades de insulina
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hipoglicemia
+  - Hipokalemia (vía IV)
+  vigilar:
+  - Glicemia capilar frecuente
+  - Potasio
+  fuente:
+    ref: CIMA-INSULINA-CRISTALINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- Solo insulina cristalina (regular) por vía EV.
+- Rotular siempre UI/ml de la dilución.
+meta:
+  discrepancias:
+  - campo: dosis EV
+    valores:
+    - CIMA no indica dosis EV por indicación (cetoacidosis, hiperkalemia)
+    decision: 'Sin dosis EV por indicación: seguir el protocolo local de la institución.'

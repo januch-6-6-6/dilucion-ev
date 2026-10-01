@@ -1,0 +1,105 @@
+id: diazepam
+nombre: Diazepam
+comerciales: []
+grupo: anticonvulsivante
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-10mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '2: ampolla de 2 ml con 10 mg'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: 'Inyección IV muy lenta (aprox. 0,5–1 ml/min) en vena de grueso calibre: la administración rápida puede causar apnea.
+    Preferir sin diluir; el PVC adsorbe diazepam.'
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: 4.2; 6.2
+dosis:
+- indicacion: Estatus epiléptico (repetible cada 10–15 min)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.15
+  max: 0.25
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '4.2: 0,15–0,25 mg/kg; máx. 3 mg/kg en 24 h'
+- indicacion: Ansiedad media/grave
+  poblacion: adulto
+  unidad: mg
+  min: 2
+  max: 10
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '4.2: 2–10 mg, repetible a las 3–4 h'
+- indicacion: Crisis o estatus epiléptico, lactantes > 30 días y niños
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.1
+  max: 0.3
+  topeAdulto:
+    valor: 10
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-DIAZEPAM
+    detalle: 0,1–0,3 mg/kg/dosis (máx. 10 mg), en 3–5 min
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '6.3: estabilidad en uso de 24 h a temperatura ambiente'
+compatibilidad: []
+interaccionesGraves:
+- con: Opioides y otros depresores del SNC
+  efecto: Sedación profunda, depresión respiratoria, coma y muerte
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '4.4'
+- con: Inhibidores del CYP3A4 y CYP2C19
+  efecto: Aumentan el efecto del diazepam
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Somnolencia
+  - Fatiga
+  - Debilidad muscular
+  graves:
+  - Apnea con inyección rápida
+  - Hipotensión
+  - Depresión respiratoria
+  vigilar:
+  - Frecuencia respiratoria y SatO2
+  - Nivel de conciencia
+  fuente:
+    ref: CIMA-DIAZEPAM
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- Tener flumazenilo y apoyo ventilatorio disponibles.
+meta:
+  discrepancias:
+  - campo: fuente chilena
+    valores:
+    - Protocolo Pucón 2022 no incluye diazepam
+    decision: Ficha basada en CIMA y Pediamécum.

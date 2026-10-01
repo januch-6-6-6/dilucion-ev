@@ -1,0 +1,123 @@
+id: dobutamina
+nombre: Dobutamina
+comerciales: []
+grupo: vasoactivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-250mg-5ml
+  forma: ampolla
+  cantidad:
+    valor: 250
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dobutamina: 250 mg/5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: CIMA-DOBUTAMINA
+      detalle: '4.2: no superar 5 mg/ml (5000 mcg/ml)'
+  estandar:
+  - descripcion: 250 mg en 100 ml (2,5 mg/ml)
+    cantidad:
+      valor: 250
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Dobutamina: habitual 250 mg/100 ml'
+  - descripcion: 250 mg en 250 ml (1 mg/ml)
+    cantidad:
+      valor: 250
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-DOBUTAMINA
+      detalle: '4.2: 250 mg en 250 ml = 1000 mcg/ml'
+  - descripcion: 250 mg en 50 ml (5 mg/ml), restricción de volumen
+    cantidad:
+      valor: 250
+      unidad: mg
+    volumenFinalMl: 50
+    fuente:
+      ref: CIMA-DOBUTAMINA
+      detalle: '4.2: 250 mg en 50 ml = 5000 mcg/ml'
+administracion:
+  vias:
+  - infusion_continua
+  texto: Diluir justo antes de usar en SG5 %, SF o Ringer lactato y administrar en perfusión continua por bomba. Ajustar según
+    FC, PA, diuresis y gasto cardíaco. Retirar gradualmente.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-DOBUTAMINA
+    detalle: '4.2'
+dosis:
+- indicacion: Perfusión habitual (rango 0,5–40)
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 2.5
+  max: 10
+  maximaAbsoluta: 40
+  fuente:
+    ref: CIMA-DOBUTAMINA
+    detalle: '4.2: mayoría responde a 2,5–10; raramente hasta 40 mcg/kg/min'
+- indicacion: Perfusión continua (niños)
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 2
+  max: 15
+  maximaAbsoluta: 40
+  fuente:
+    ref: PEDIAMECUM-DOBUTAMINA
+    detalle: 'Neonatos y niños: 2–15 mcg/kg/min; máx. 40'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 12
+  refrigeradoH: 24
+  fuente:
+    ref: CIMA-DOBUTAMINA
+    detalle: '6.3: 24 h a 15–25 °C si dilución aséptica estricta; si no, 24 h en refrigerador o 12 h a temperatura ambiente
+      (se registra lo conservador)'
+compatibilidad: []
+interaccionesGraves:
+- con: Betabloqueadores
+  efecto: Disminuyen el efecto inotrópico; posible vasoconstricción
+  fuente:
+    ref: CIMA-DOBUTAMINA
+    detalle: '4.5'
+- con: Anestésicos inhalatorios
+  efecto: Mayor riesgo de arritmias ventriculares
+  fuente:
+    ref: CIMA-DOBUTAMINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Náuseas
+  - Palpitaciones
+  graves:
+  - Taquiarritmias y extrasístoles ventriculares
+  - Angina
+  - Hipotensión o hipertensión
+  vigilar:
+  - FC, PA y ECG continuos
+  - Potasio (hipokalemia)
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dobutamina: RAM'
+alertas:
+- Medicamento de alto riesgo.
+- Incompatible con bicarbonato de sodio y otras soluciones alcalinas (furosemida, fenitoína).
+meta:
+  discrepancias: []

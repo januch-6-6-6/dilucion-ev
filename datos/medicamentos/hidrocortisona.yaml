@@ -1,0 +1,118 @@
+id: hidrocortisona
+nombre: Hidrocortisona
+comerciales: []
+grupo: corticoide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-100mg
+  forma: frasco ampolla liofilizado
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Hidrocortisona: frasco liofilizado 100 mg; reconstitución 50 mg/ml'
+reconstitucion:
+  diluyente: Agua para inyectables
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Hidrocortisona: reconstitución 50 mg/ml (100 mg en 2 ml)'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMin:
+    valor: 1
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Hidrocortisona: dilución 1–5 mg/ml'
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Hidrocortisona: dilución 1–5 mg/ml'
+  estandar:
+  - descripcion: 100 mg en 100 ml (1 mg/ml)
+    cantidad:
+      valor: 100
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Hidrocortisona: 1–5 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Inyección IV lenta (1 a 10 minutos) o perfusión diluida. Repetible cada 2, 4 o 6 h según respuesta. No mezclar con
+    otros fármacos.
+  tiempoMinimoMin: 1
+  fuente:
+    ref: CIMA-HIDROCORTISONA
+    detalle: 4.2.1; 6.2
+dosis:
+- indicacion: Dosis IV única (repetible cada 2–6 h)
+  poblacion: adulto
+  unidad: mg
+  max: 373
+  fuente:
+    ref: CIMA-HIDROCORTISONA
+    detalle: '4.2.1: hasta aprox. 373 mg por dosis; máx. 6 g/día'
+- indicacion: 'Insuficiencia suprarrenal aguda: dosis inicial (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 2
+  max: 3
+  topeAdulto:
+    valor: 100
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-HIDROCORTISONA
+    detalle: Dosis inicial 2–3 mg/kg (hasta 100 mg/dosis)
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: CIMA-HIDROCORTISONA
+    detalle: '6.3: solución reconstituida 24 h entre 2 y 8 °C'
+compatibilidad: []
+interaccionesGraves:
+- con: Inductores enzimáticos (rifampicina, fenitoína, carbamazepina, barbitúricos)
+  efecto: Reducen el efecto del corticoide
+  fuente:
+    ref: CIMA-HIDROCORTISONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hiperglicemia
+  - Hipertensión
+  - Edema
+  - Insomnio
+  graves:
+  - Hipokalemia
+  - Hemorragia digestiva
+  vigilar:
+  - Glicemia
+  - Potasio
+  - PA
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Hidrocortisona: RAM'
+alertas: []
+meta:
+  discrepancias:
+  - campo: presentación y dosis adulto
+    valores:
+    - 'Pucón: frasco liofilizado de 100 mg (succinato)'
+    - 'CIMA: Actocortina, hidrocortisona fosfato 373 mg'
+    decision: Presentación de Pucón; la dosis adulta se cita de CIMA (otra sal). Revisar dosis según protocolo local (p. ej.,
+      100 mg en crisis suprarrenal).

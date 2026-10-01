@@ -1,0 +1,106 @@
+id: naloxona
+nombre: Naloxona
+comerciales: []
+grupo: antidoto
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-0.4mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 0.4
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Naloxona: 0,4 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 2 mg en 500 ml (4 mcg/ml), infusión
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-NALOXONA
+      detalle: '6.6: 5 ampollas (2 mg) en 500 ml = 4 mcg/ml'
+  - descripcion: 2 mg en 50 ml (40 mcg/ml), infusión
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenFinalMl: 50
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Naloxona: infusión 2 mg en 50 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: 'Bolos IV repetibles cada 2 minutos hasta respiración y conciencia satisfactorias; perfusión si el opioide es de
+    acción prolongada. Su efecto puede durar menos que el del opioide: vigilar la resedación.'
+  fuente:
+    ref: CIMA-NALOXONA
+    detalle: 4.2.1
+dosis:
+- indicacion: 'Depresión respiratoria por opioides: bolo inicial (repetir 0,1 mg c/2 min)'
+  poblacion: adulto
+  unidad: mg
+  min: 0.1
+  max: 0.2
+  fuente:
+    ref: CIMA-NALOXONA
+    detalle: '4.2.1: 0,1–0,2 mg IV'
+- indicacion: Depresión por opioides (niños), cada 2–3 min
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.01
+  max: 0.02
+  topeAdulto:
+    valor: 0.2
+    unidad: mg
+  fuente:
+    ref: CIMA-NALOXONA
+    detalle: '4.2.1 Población pediátrica: 0,01–0,02 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-NALOXONA
+    detalle: '6.3: diluida estable 30 h (se registran 24 h por criterio conservador)'
+compatibilidad: []
+interaccionesGraves:
+- con: Opioides en pacientes dependientes
+  efecto: 'Síndrome de abstinencia intenso: hipertensión, arritmias, edema pulmonar, paro'
+  fuente:
+    ref: CIMA-NALOXONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Vómitos
+  - Taquicardia
+  graves:
+  - Arritmias ventriculares
+  - Edema pulmonar
+  - Hipertensión
+  vigilar:
+  - Frecuencia respiratoria
+  - Resedación tras terminar el efecto
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Naloxona: RAM'
+alertas: []
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: 0,01–0,02 mg/kg'
+    - 'Pediamécum (PALS): 0,1 mg/kg hasta 2 mg en reversión total'
+    decision: Se registra la pauta de ficha técnica (conservadora); la de PALS queda para revisión.

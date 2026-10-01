@@ -1,0 +1,119 @@
+id: dexametasona
+nombre: Dexametasona
+comerciales: []
+grupo: corticoide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-4mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dexametasona: 4 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Preferentemente IV directa o en el tubo de perfusión. Dosis menores de 10 mg no requieren dilución.
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dexametasona: dosis menor a 10 mg no requiere dilución'
+dosis:
+- indicacion: 'Edema cerebral: dosis inicial'
+  poblacion: adulto
+  unidad: mg
+  min: 8
+  max: 10
+  maximaAbsoluta: 80
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: 8–10 mg IV (hasta 80 mg)'
+- indicacion: 'Asma grave: dosis inicial'
+  poblacion: adulto
+  unidad: mg
+  min: 8
+  max: 40
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: 8–40 mg IV'
+- indicacion: Crisis suprarrenal aguda
+  poblacion: adulto
+  unidad: mg
+  min: 4
+  max: 8
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: 4–8 mg IV'
+- indicacion: Asma grave aguda (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.15
+  max: 0.3
+  topeAdulto:
+    valor: 40
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-DEXAMETASONA
+    detalle: 0,15–0,3 mg/kg
+- indicacion: 'Edema cerebral: dosis inicial (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 1
+  max: 2
+  topeAdulto:
+    valor: 10
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-DEXAMETASONA
+    detalle: 1–2 mg/kg (máx. 10–20 mg)
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 48
+  refrigeradoH: 48
+  protegerLuz: true
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '6.3: diluida estable 48 h a 25 °C protegida de la luz y a 2–8 °C'
+compatibilidad: []
+interaccionesGraves:
+- con: Digitálicos
+  efecto: Mayor efecto digitálico por hipokalemia
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.5'
+- con: Inductores del CYP3A4 (rifampicina, fenitoína, carbamazepina)
+  efecto: Reducen el efecto del corticoide
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hiperglicemia
+  - Hipertensión
+  - Cefalea
+  graves:
+  - Hipokalemia
+  - Úlcera digestiva
+  vigilar:
+  - Glicemia
+  - Potasio
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Dexametasona: RAM'
+alertas: []
+meta:
+  discrepancias: []

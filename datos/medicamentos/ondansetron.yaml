@@ -1,0 +1,117 @@
+id: ondansetron
+nombre: Ondansetrón
+comerciales: []
+grupo: antiemetico
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-4mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ondansetrón: 4 mg/2 ml'
+- id: amp-8mg-4ml
+  forma: ampolla
+  cantidad:
+    valor: 8
+    unidad: mg
+  volumenMl: 4
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ondansetrón: 8 mg/4 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 8 mg en 50 ml
+    cantidad:
+      valor: 8
+      unidad: mg
+    volumenFinalMl: 50
+    fuente:
+      ref: CIMA-ONDANSETRON
+      detalle: '4.2: dosis diluida en 50–100 ml de SF'
+  - descripcion: 16 mg en 100 ml (en ≥ 15 min)
+    cantidad:
+      valor: 16
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-ONDANSETRON
+      detalle: '4.2: 16 mg en 50–100 ml en no menos de 15 min'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Bolo IV lento (no menos de 30 segundos) o perfusión de 15 minutos. Dosis IV única máxima 16 mg (prolongación del
+    QT). La administración rápida puede provocar hipotensión transitoria.
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2'
+dosis:
+- indicacion: Náuseas y vómitos (dosis única IV)
+  poblacion: adulto
+  unidad: mg
+  min: 8
+  max: 8
+  maximaAbsoluta: 16
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2: 8 mg; máx. 16 mg por dosis IV'
+- indicacion: Náuseas y vómitos ≥ 6 meses (por peso)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.15
+  max: 0.15
+  topeAdulto:
+    valor: 8
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-ONDANSETRON
+    detalle: 0,15 mg/kg; dosis IV máx. 8 mg
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 168
+  refrigeradoH: 168
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '6.6: estable 7 días bajo 25 °C o en nevera con los fluidos indicados'
+compatibilidad: []
+interaccionesGraves:
+- con: Fármacos que prolongan el QT
+  efecto: Prolongación aditiva del QT
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.4'
+- con: Fármacos serotoninérgicos (ISRS, IRSN)
+  efecto: Síndrome serotoninérgico
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Estreñimiento
+  - Rubor
+  graves:
+  - Prolongación del QT
+  - Reacciones de hipersensibilidad
+  vigilar:
+  - ECG si hay riesgo de QT largo
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.8'
+alertas:
+- No superar 16 mg IV por dosis (QT).
+meta:
+  discrepancias: []

@@ -1,0 +1,128 @@
+id: metilprednisolona
+nombre: Metilprednisolona
+comerciales: []
+grupo: corticoide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-40mg
+  forma: frasco ampolla en polvo + disolvente
+  cantidad:
+    valor: 40
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '6.6: viales de 20 y 40 mg disueltos en 1 ml'
+- id: fa-20mg
+  forma: frasco ampolla en polvo + disolvente
+  cantidad:
+    valor: 20
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '6.6: viales de 20 y 40 mg disueltos en 1 ml'
+reconstitucion:
+  diluyente: Agua para inyectables (ampolla de disolvente)
+  volumenMl: 1
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '6.6'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Inyección IV lenta o perfusión. No mezclar en la misma jeringa con soluciones distintas de SF o SG5 %. Usar la solución
+    reconstituida de inmediato.
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: 6.2; 6.3
+dosis:
+- indicacion: Situación con riesgo vital (shock anafiláctico, status asmático, edema cerebral)
+  poblacion: adulto
+  unidad: mg
+  min: 250
+  max: 500
+  maximaAbsoluta: 1000
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.2.1: 250–500 mg; riesgo vital 250–1000 mg'
+- indicacion: Exacerbación aguda de asma
+  poblacion: adulto
+  unidad: mg/24 h
+  min: 30
+  max: 90
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.2.1: 30–90 mg al día'
+- indicacion: Situación con riesgo vital (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 4
+  max: 20
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.2.1: 4–20 mg/kg'
+- indicacion: 'Status asmático (niños): dosis inicial'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 2
+  max: 2
+  topeAdulto:
+    valor: 500
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-METILPREDNISOLONA
+    detalle: IV 2 mg/kg/dosis; luego 0,5–1 mg/kg cada 6 h
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '6.3: usar inmediatamente tras reconstituir'
+compatibilidad: []
+interaccionesGraves:
+- con: Anfotericina B
+  efecto: Hipokalemia con riesgo de toxicidad
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.5'
+- con: Anticolinesterásicos (neostigmina)
+  efecto: Antagonismo con depresión muscular; algunos casos requirieron ventilación
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hiperglicemia
+  - Retención de líquidos
+  graves:
+  - Hipokalemia
+  - Úlcera digestiva
+  - Arritmias con bolos rápidos de dosis altas
+  vigilar:
+  - Glicemia
+  - Potasio
+  - PA
+  fuente:
+    ref: CIMA-METILPREDNISOLONA
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: fuente chilena
+    valores:
+    - Protocolo Pucón 2022 no incluye metilprednisolona
+    decision: 'Ficha basada en CIMA y Pediamécum; en Chile son habituales viales de 40, 125, 500 y 1000 mg: confirmar.'

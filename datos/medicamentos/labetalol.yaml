@@ -1,0 +1,134 @@
+id: labetalol
+nombre: Labetalol
+comerciales: []
+grupo: antihipertensivo
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-100mg-20ml
+  forma: ampolla
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 20
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Labetalol: 100 mg/20 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Labetalol: 1 a 5 mg/ml'
+  estandar:
+  - descripcion: 200 mg en 200 ml (1 mg/ml)
+    cantidad:
+      valor: 200
+      unidad: mg
+    volumenFinalMl: 200
+    fuente:
+      ref: CIMA-LABETALOL
+      detalle: '4.2: 2 ampollas de 100 mg diluidas a 200 ml'
+  - descripcion: 100 mg en 100 ml (1 mg/ml)
+    cantidad:
+      valor: 100
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Labetalol: habitual 100 mg/100 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV de 50 mg en 1 minuto, repetible cada 5 min (total máx. 200 mg), o perfusión a 1 mg/ml. Paciente acostado.
+    Usar vía exclusiva.
+  tiempoMinimoMin: 1
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '4.2'
+dosis:
+- indicacion: 'Hipertensión grave: bolo (total máx. 200 mg)'
+  poblacion: adulto
+  unidad: mg
+  min: 50
+  max: 50
+  maximaAbsoluta: 200
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '4.2: 50 mg cada 5 min hasta 200 mg'
+- indicacion: Perfusión
+  poblacion: adulto
+  unidad: mg/h
+  min: 20
+  max: 160
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '4.2: habitual 160 mg/h; embarazo desde 20 mg/h'
+- indicacion: 'Hipertensión grave: bolo (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.2
+  max: 1
+  topeAdulto:
+    valor: 40
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-LABETALOL
+    detalle: 0,2–1 mg/kg/dosis, máx. 40 mg
+- indicacion: 'Emergencia hipertensiva: infusión (niños)'
+  poblacion: pediatrico
+  unidad: mg/kg/h
+  min: 0.25
+  max: 3
+  fuente:
+    ref: PEDIAMECUM-LABETALOL
+    detalle: 0,25–3 mg/kg/h
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '6.3: estabilidad en uso de 24 h a 25 °C; microbiológicamente usar de inmediato'
+compatibilidad: []
+interaccionesGraves:
+- con: Otros antihipertensivos
+  efecto: 'Sinergismo aditivo: hipotensión'
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '4.5'
+- con: AINE
+  efecto: Reducen el efecto hipotensor
+  fuente:
+    ref: CIMA-LABETALOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión ortostática
+  - Fatiga
+  - Cefalea
+  - Náuseas
+  - Congestión nasal
+  graves:
+  - Insuficiencia cardíaca
+  - Broncoespasmo
+  - Bloqueo cardíaco
+  vigilar:
+  - PA y FC
+  - Mantener al paciente acostado 3 h tras la dosis
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Labetalol: RAM'
+alertas:
+- Incompatible con bicarbonato de sodio.
+meta:
+  discrepancias: []
