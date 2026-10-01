@@ -65,6 +65,14 @@ dosis:
   fuente:
     ref: CIMA-FENTANILO
     detalle: '4.2: dosis bajas 2 mcg/kg'
+- indicacion: 'Analgesia para procedimientos dolorosos en urgencia, titulable cada 1–2 min (fuente extranjera: España)'
+  poblacion: adulto
+  unidad: mcg/kg
+  min: 0.5
+  max: 1
+  fuente:
+    ref: ES-RIOJA-SEDOANALGESIA-2024
+    detalle: 'Fentanilo — Dosis: dosis única de 0,5 a 1 mcg/kg IV, titulable cada 1–2 minutos'
 - indicacion: Premedicación en secuencia rápida de intubación (3 min antes de la inducción)
   poblacion: adulto
   unidad: mcg/kg
@@ -191,5 +199,6 @@ meta:
     - CIMA solo informa dosis en anestesia
     - 'Urgencia UC (2015): 2–3 µg/kg como premedicación en secuencia rápida de intubación'
     decision: 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): usar protocolos de Medicina de Urgencia UC o U. de
-      Chile. Se agrega la dosis de intubación de Urgencia UC; la dosis de analgesia en adultos queda pendiente hasta obtener
-      la serie «Sedación y analgesia en la unidad de emergencia» (Urgencia UC, 2013), que no está disponible en línea.'
+      Chile. Se agrega la dosis de intubación de Urgencia UC; la dosis de analgesia en adultos se toma, por decisión de Héctor,
+      de una fuente extranjera (Hospital Universitario San Pedro, España, 2024: 0,5–1 mcg/kg) hasta obtener la serie «Sedación
+      y analgesia en la unidad de emergencia» (Urgencia UC, 2013), que no está disponible en línea.'

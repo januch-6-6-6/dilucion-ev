@@ -74,6 +74,14 @@ fuentes = [
         'consultado': CONSULTA,
     },
     {
+        'id': 'ES-RIOJA-SEDOANALGESIA-2024',
+        'titulo': 'FUENTE EXTRANJERA (España) — Sedoanalgesia para procedimientos en urgencias, versión 1 (19-04-2024)',
+        'institucion': 'Servicio de Urgencias, Hospital Universitario San Pedro (Logroño, La Rioja, España)',
+        'url': 'https://www.riojasalud.es/files/content/servicios/urgencias/profesionales/Sedoanalgesia%20para%20procedimientos%20en%20urgencias.pdf',
+        'anio': 2024,
+        'consultado': CONSULTA,
+    },
+    {
         'id': 'FDA-ADENOSINA',
         'titulo': 'Adenosine injection — Prescribing information (Dosage and administration, adult patients)',
         'institucion': 'U.S. FDA / DailyMed',
@@ -337,6 +345,7 @@ def fichas(stab):
         'administracion': {'vias': ['bolo', 'infusion_intermitente', 'infusion_continua'], 'texto': 'Solo donde se pueda controlar la vía aérea. Inyección IV lenta (reduce efectos adversos).', 'fuente': C('fentanilo', '4.2')},
         'dosis': [
             {'indicacion': 'Analgésico complementario en anestesia, procedimientos menores', 'poblacion': 'adulto', 'unidad': 'mcg/kg', 'max': 2, 'fuente': C('fentanilo', '4.2: dosis bajas 2 mcg/kg')},
+            {'indicacion': 'Analgesia para procedimientos dolorosos en urgencia, titulable cada 1–2 min (fuente extranjera: España)', 'poblacion': 'adulto', 'unidad': 'mcg/kg', 'min': 0.5, 'max': 1, 'fuente': fu('ES-RIOJA-SEDOANALGESIA-2024', 'Fentanilo — Dosis: dosis única de 0,5 a 1 mcg/kg IV, titulable cada 1–2 minutos')},
             {'indicacion': 'Premedicación en secuencia rápida de intubación (3 min antes de la inducción)', 'poblacion': 'adulto', 'unidad': 'mcg/kg', 'min': 2, 'max': 3, 'fuente': fu('URGENCIA-UC-SRI-2015', 'Fentanilo: dosis recomendada 2–3 µg/kg tres minutos antes de la inducción')},
             {'indicacion': 'Dolor agudo/posoperatorio grave (cada 1–2 h si es necesario)', 'poblacion': 'pediatrico', 'unidad': 'mcg/kg', 'min': 1, 'max': 2, 'fuente': PED('fentanilo', 'Manejo del dolor agudo: 1–2 µg/kg/dosis')},
             {'indicacion': 'Dolor agudo: infusión IV', 'poblacion': 'pediatrico', 'unidad': 'mcg/kg/h', 'min': 0.5, 'max': 3, 'fuente': PED('fentanilo', 'Infusión IV: 0,5–3 µg/kg/h')},
@@ -351,7 +360,7 @@ def fichas(stab):
         ],
         'efectosAdversos': {'frecuentes': [], 'graves': ['Depresión respiratoria', 'Hipotensión', 'Bradicardia', 'Rigidez muscular'], 'vigilar': ['Frecuencia respiratoria y SatO2', 'Presión arterial y frecuencia cardíaca'], 'fuente': P('Anexo 6, Fentanilo: RAM')},
         'alertas': ['Medicamento de alto riesgo.', 'Antagonista: naloxona.', 'Cuidado con mcg y mg: 0,1 mg = 100 mcg.'],
-        'meta': meta([{'campo': 'dosis adulto en urgencia', 'valores': ['CIMA solo informa dosis en anestesia', 'Urgencia UC (2015): 2–3 µg/kg como premedicación en secuencia rápida de intubación'], 'decision': 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): usar protocolos de Medicina de Urgencia UC o U. de Chile. Se agrega la dosis de intubación de Urgencia UC; la dosis de analgesia en adultos queda pendiente hasta obtener la serie «Sedación y analgesia en la unidad de emergencia» (Urgencia UC, 2013), que no está disponible en línea.'}]),
+        'meta': meta([{'campo': 'dosis adulto en urgencia', 'valores': ['CIMA solo informa dosis en anestesia', 'Urgencia UC (2015): 2–3 µg/kg como premedicación en secuencia rápida de intubación'], 'decision': 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): usar protocolos de Medicina de Urgencia UC o U. de Chile. Se agrega la dosis de intubación de Urgencia UC; la dosis de analgesia en adultos se toma, por decisión de Héctor, de una fuente extranjera (Hospital Universitario San Pedro, España, 2024: 0,5–1 mcg/kg) hasta obtener la serie «Sedación y analgesia en la unidad de emergencia» (Urgencia UC, 2013), que no está disponible en línea.'}]),
     }
 
     F['morfina'] = {

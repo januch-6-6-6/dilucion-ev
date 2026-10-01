@@ -66,7 +66,7 @@ Fuentes buscadas que no se pudieron usar:
 |---|---|---|
 | Noradrenalina, presentación | Ampolla 4 mg/4 ml | Se mantiene; sigue pendiente verificar si el rotulado chileno es base o sal. |
 | Adenosina, dosis adulto | 6 mg → 12 mg | Dosis cambiada a 6–12 mg, citando la etiqueta FDA (FDA-ADENOSINA). |
-| Fentanilo, adulto en urgencia | Usar protocolos de Medicina de Urgencia (MUD) de la U. de Chile o la UC | Se agregó la dosis de premedicación para secuencia rápida de intubación de Urgencia UC (2–3 µg/kg, URGENCIA-UC-SRI-2015). La dosis de analgesia en adultos sigue pendiente: la serie «Sedación y analgesia en la unidad de emergencia» (Urgencia UC, 2013) no está disponible en línea. |
+| Fentanilo, adulto en urgencia | Usar protocolos de Medicina de Urgencia (MUD) de la U. de Chile o la UC | Se agregó la dosis de premedicación para secuencia rápida de intubación de Urgencia UC (2–3 µg/kg, URGENCIA-UC-SRI-2015). Analgesia en adultos: por decisión de Héctor se usa una **fuente extranjera** (Hospital Universitario San Pedro, España, 2024): 0,5–1 mcg/kg EV, titulable cada 1–2 min (ES-RIOJA-SEDOANALGESIA-2024). Reemplazar si se obtiene la serie UC «Sedación y analgesia en la unidad de emergencia» (2013). |
 
 ## Para la revisión clínica
 

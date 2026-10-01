@@ -30,6 +30,12 @@
   url: https://urgencia.uc.cl/htdocs/content/uploads/2021/04/secuencia-rapida-de-intubacion-servicio-de-urgencia-series-clinicas-urgencia-uc-articulo-2015.pdf
   anio: 2015
   consultado: '2026-10-01'
+- id: ES-RIOJA-SEDOANALGESIA-2024
+  titulo: FUENTE EXTRANJERA (España) — Sedoanalgesia para procedimientos en urgencias, versión 1 (19-04-2024)
+  institucion: Servicio de Urgencias, Hospital Universitario San Pedro (Logroño, La Rioja, España)
+  url: https://www.riojasalud.es/files/content/servicios/urgencias/profesionales/Sedoanalgesia%20para%20procedimientos%20en%20urgencias.pdf
+  anio: 2024
+  consultado: '2026-10-01'
 - id: FDA-ADENOSINA
   titulo: Adenosine injection — Prescribing information (Dosage and administration, adult patients)
   institucion: U.S. FDA / DailyMed
