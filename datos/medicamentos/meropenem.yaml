@@ -1,0 +1,112 @@
+id: meropenem
+nombre: Meropenem
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Meropenem: FA 1 g en 20 ml de SF'
+- id: fa-500mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Meropenem: FA 500 mg en 10 ml de SF'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 20 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: Hasta 2 g en 100 ml
+    cantidad:
+      valor: 2
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Meropenem: ≤ 2 g en 100 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'Infusión prolongada de 4 horas (Iquique); CIMA: perfusión de 15–30 min o bolo de hasta 1 g en 5 min. Diluir solo
+    en SF.'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Cada 8 h (2 g en meningitis)
+  poblacion: adulto
+  unidad: g
+  min: 0.5
+  max: 2
+  fuente:
+    ref: CIMA-MEROPENEM
+    detalle: '4.2: 500 mg–2 g cada 8 h'
+- indicacion: Niños 3 meses–11 años (≤ 50 kg), cada 8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 40
+  topeAdulto:
+    valor: 2
+    unidad: g
+  fuente:
+    ref: PEDIAMECUM-MEROPENEM
+    detalle: 10–20 mg/kg; 40 mg/kg en meningitis
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Meropenem: reconstituido 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Probenecid
+  efecto: Aumenta la concentración de meropenem
+  fuente:
+    ref: CIMA-MEROPENEM
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-MEROPENEM
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: aciclovir, anfotericina B, cloruro de potasio, gluconato de calcio, diazepam,
+  metronidazol y ondansetrón.'
+meta:
+  discrepancias:
+  - campo: reconstitución
+    valores:
+    - 'Iquique: 500 mg en 10 ml y 1 g en 20 ml (ambos 50 mg/ml)'
+    decision: Ambas presentaciones a 50 mg/ml; la ficha registra 20 ml (frasco de 1 g) como volumen de reconstitución.

@@ -1,0 +1,109 @@
+id: cefazolina
+nombre: Cefazolina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefazolina: FA 1 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1 g en 10 ml (bolo de 3–5 min)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 10
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cefazolina: 1 g en 10 ml, bolo 3 a 5 minutos (profilaxis)'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Bolo IV de 3 a 5 minutos (profilaxis quirúrgica 30–60 min antes de la incisión).
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 3
+dosis:
+- indicacion: Dosis diaria total (en 2–4 dosis); hasta 6 g/día en infecciones graves
+  poblacion: adulto
+  unidad: g/24 h
+  min: 1
+  max: 4
+  maximaAbsoluta: 6
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: '4.2: 1–2 g/día (sensibles), 3–4 g/día (menos sensibles), hasta 6 g/día'
+- indicacion: Profilaxis quirúrgica (30–60 min antes)
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 2
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: '4.2: 1–2 g IV'
+- indicacion: Niños > 1 mes (en 2–4 dosis)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 25
+  max: 50
+  maximaAbsoluta: 100
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: '4.2 Población pediátrica: 25–50 mg/kg/día; hasta 100 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefazolina: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Antibióticos bacteriostáticos (tetraciclinas, eritromicina, cloranfenicol)
+  efecto: Posible antagonismo
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: '4.5'
+- con: Probenecid
+  efecto: Reduce el aclaramiento renal de cefazolina
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-CEFAZOLINA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: amiodarona, anfotericina B y vancomicina.'
+meta:
+  discrepancias: []

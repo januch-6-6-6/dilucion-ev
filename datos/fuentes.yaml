@@ -450,3 +450,183 @@
   url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bf999b5-e290-dcbd-e063-6294a90a2bab
   anio: 2026
   consultado: '2026-10-01'
+- id: CIMA-CEFAZOLINA
+  titulo: 'Ficha técnica: Cefazolina Qilu 1 g polvo para solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/83507/FT_83507.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CEFTRIAXONA
+  titulo: 'Ficha técnica: Ceftriaxona Fresenius Kabi 1 g polvo para solución inyectable intravenosa'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/64538/FT_64538.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CEFOTAXIMA
+  titulo: 'Ficha técnica: Cefotaxima Normon 1 g polvo y disolvente para solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/57720/FT_57720.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CEFTAZIDIMA
+  titulo: 'Ficha técnica: Ceftazidima Normon 1 g polvo y disolvente para solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67007/FT_67007.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CEFEPIME
+  titulo: 'Ficha técnica: Cefepima Accord 1 g polvo para solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/75148/FT_75148.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CLOXACILINA
+  titulo: 'Ficha técnica: Cloxacilina Normon 1 g polvo para solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63636/FT_63636.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-PENICILINA-G-SODICA
+  titulo: 'Ficha técnica: Penilevel 1.000.000 UI polvo y disolvente para solución inyectable (bencilpenicilina sódica)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/33580/FT_33580.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-PIPERACILINA-TAZOBACTAM
+  titulo: 'Ficha técnica: Piperacilina/Tazobactam Sandoz 4 g/0,5 g polvo para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/71286/FT_71286.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-IMIPENEM
+  titulo: 'Ficha técnica: Imipenem/Cilastatina Aurovitas 500 mg/500 mg polvo para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/72637/FT_72637.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-MEROPENEM
+  titulo: 'Ficha técnica: Meropenem Hikma 1 g polvo para solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/84438/FT_84438.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ERTAPENEM
+  titulo: 'Ficha técnica: Ertapenem Aurovitas 1 g polvo para concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/83011/FT_83011.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-VANCOMICINA
+  titulo: 'Ficha técnica: Vancomicina Normon 1.000 mg polvo para concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/85651/FT_85651.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CLINDAMICINA
+  titulo: 'Ficha técnica: Clindamicina Normon 300 mg/2 ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63667/FT_63667.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-METRONIDAZOL
+  titulo: 'Ficha técnica: Metronidazol Altan 5 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/68091/FT_68091.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-GENTAMICINA
+  titulo: 'Ficha técnica: Gentamicina Braun 3 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63854/FT_63854.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-AMIKACINA
+  titulo: 'Ficha técnica: Amikacina Normon 500 mg/2 ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/57012/FT_57012.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CIPROFLOXACINO
+  titulo: 'Ficha técnica: Ciprofloxacino Altan 2 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67554/FT_67554.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-LEVOFLOXACINO
+  titulo: 'Ficha técnica: Levofloxacino Altan 5 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/68867/FT_68867.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-COTRIMOXAZOL
+  titulo: 'Ficha técnica: Soltrim 160 mg/800 mg polvo y solución para solución inyectable (trimetoprim/sulfametoxazol)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/54920/FT_54920.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FLUCONAZOL
+  titulo: 'Ficha técnica: Fluconazol Altan 2 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67818/FT_67818.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ACICLOVIR
+  titulo: 'Ficha técnica: Aciclovir Accord 25 mg/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/85222/FT_85222.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-LINEZOLID
+  titulo: 'Ficha técnica: Linezolid Altan 2 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/80258/FT_80258.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-AZITROMICINA
+  titulo: 'Ficha técnica: Azitromicina Tecnigen 500 mg polvo para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/85006/FT_85006.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-MEROPENEM
+  titulo: 'Pediamécum: Meropenem (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/meropenem
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-FLUCONAZOL
+  titulo: 'Pediamécum: Fluconazol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/fluconazol
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-LINEZOLID
+  titulo: 'Pediamécum: Linezolid (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/linezolid
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ACICLOVIR
+  titulo: 'Pediamécum: Aciclovir (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/aciclovir
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-AMPICILINA
+  titulo: Ampicillin for injection — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06ca924c-5f3a-4924-90f4-5ba623daaa0e
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-UNASYN
+  titulo: Unasyn (ampicillin sodium/sulbactam sodium) — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12eeb72a-403d-41be-bae4-4cb930862884
+  anio: 2026
+  consultado: '2026-10-01'
+- id: IQUIQUE-2020
+  titulo: Recomendaciones de administración de antiinfecciosos intravenosos en pacientes adultos
+  institucion: Unidad de Farmacia y Prótesis, Hospital Dr. Ernesto Torres Galdames (Iquique, Chile)
+  url: https://www.hospitaliquique.cl/images/FARMACIA/Recomendaciones_adultos.pdf
+  anio: 2020
+  consultado: '2026-10-01'

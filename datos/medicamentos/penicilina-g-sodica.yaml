@@ -1,0 +1,109 @@
+id: penicilina-g-sodica
+nombre: Penicilina G sódica
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1mui
+  forma: frasco ampolla (polvo) 1.000.000 UI
+  cantidad:
+    valor: 1000000
+    unidad: UI
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Penicilina sódica: FAL 1.000.000 UI'
+- id: fa-2mui
+  forma: frasco ampolla (polvo) 2.000.000 UI
+  cantidad:
+    valor: 2000000
+    unidad: UI
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Penicilina sódica: FA 1–2 millones'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: Hasta 3 millones UI en 50 ml
+    cantidad:
+      valor: 3000000
+      unidad: UI
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Penicilina sódica: ≤ 3 millones en 50 ml; > 3 millones en 100 ml'
+  concentracionMax:
+    valor: 100000
+    unidad: UI
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Penicilina sódica: dilución 50.000–100.000 UI/ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión intermitente de 30 a 60 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Dosis diaria en dosis cada 4 h (hasta 24 MUI/día en infecciones graves)
+  poblacion: adulto
+  unidad: UI/24 h
+  min: 1000000
+  max: 24000000
+  fuente:
+    ref: CIMA-PENICILINA-G-SODICA
+    detalle: '4.2: 1–3 MUI/día; infecciones respiratorias 5–24 MUI/día'
+- indicacion: Niños hasta 12 años (cada 4–6 h; máx. 24 MUI/día)
+  poblacion: pediatrico
+  unidad: UI/kg/24 h
+  min: 100000
+  max: 300000
+  fuente:
+    ref: CIMA-PENICILINA-G-SODICA
+    detalle: '4.2: 100.000–300.000 UI/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Penicilina sódica: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Metotrexato
+  efecto: 'Reduce su excreción: toxicidad; evitar'
+  fuente:
+    ref: CIMA-PENICILINA-G-SODICA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-PENICILINA-G-SODICA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, clorpromazina, heparina, metilprednisolona y cloruro de
+  potasio.'
+meta:
+  discrepancias: []

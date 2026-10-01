@@ -1,0 +1,106 @@
+id: cefotaxima
+nombre: Cefotaxima
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefotaxima: FA 1 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1 g en 10 ml (bolo de 3–5 min)
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 10
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cefotaxima: 1 g en 10 ml, bolo 3 a 5 minutos'
+  concentracionMax:
+    valor: 100
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Cefotaxima: 20–60 mg/ml, hasta un máximo de 100 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Bolo IV de 3 a 5 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 3
+dosis:
+- indicacion: Por dosis, cada 12 h (cada 6–8 h en infecciones graves; máx. 12 g/día)
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 2
+  fuente:
+    ref: CIMA-CEFOTAXIMA
+    detalle: '4.2: 1–2 g cada 12 h; hasta 12 g/día'
+- indicacion: Lactantes y niños < 12 años (en dosis cada 6–12 h)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 50
+  max: 100
+  maximaAbsoluta: 200
+  fuente:
+    ref: CIMA-CEFOTAXIMA
+    detalle: '4.2: 50–100 mg/kg/día (hasta 150; 200 en riesgo vital)'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefotaxima: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Antibióticos bacteriostáticos
+  efecto: Antagonismo in vitro; no combinar
+  fuente:
+    ref: CIMA-CEFOTAXIMA
+    detalle: '4.5'
+- con: Probenecid
+  efecto: Duplica aproximadamente la exposición a cefotaxima
+  fuente:
+    ref: CIMA-CEFOTAXIMA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-CEFOTAXIMA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: filgrastim, fluconazol, midazolam y vancomicina.'
+meta:
+  discrepancias: []

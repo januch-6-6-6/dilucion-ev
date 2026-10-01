@@ -1,0 +1,110 @@
+id: cotrimoxazol
+nombre: Cotrimoxazol (sulfametoxazol/trimetoprim)
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-80mg-5ml
+  forma: ampolla 400/80 mg (expresada en trimetoprim)
+  cantidad:
+    valor: 80
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cotrimoxazol: 400 mg/80 mg en 5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  estandar:
+  - descripcion: 80 mg de trimetoprim (1 ampolla) en 125 ml
+    cantidad:
+      valor: 80
+      unidad: mg
+    volumenFinalMl: 125
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cotrimoxazol: 400/80 mg en 125 ml'
+  - descripcion: 160 mg de trimetoprim (2 ampollas) en 250 ml
+    cantidad:
+      valor: 160
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cotrimoxazol: 800/160 mg en 250 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Diluir solo en SG5 %. Infusión de 60 minutos (90 min si ≥ 1200/240 mg). No refrigerar.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 60
+dosis:
+- indicacion: 'Dosis en trimetoprim, cada 12 h (graves: 320 mg cada 6–12 h)'
+  poblacion: adulto
+  unidad: mg
+  min: 160
+  max: 320
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.2.1: 160 mg de trimetoprim cada 12 h'
+- indicacion: Niños 2 meses–12 años, en trimetoprim, cada 12 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 3.2
+  max: 3.2
+  topeAdulto:
+    valor: 160
+    unidad: mg
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.2.1: 3,2 mg/kg de trimetoprim'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cotrimoxazol: preparar y administrar; no refrigerar'
+compatibilidad: []
+interaccionesGraves:
+- con: Ciclosporina
+  efecto: Mayor nefrotoxicidad y menor nivel de ciclosporina
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.5'
+- con: Antiarrítmicos (procainamida y otros)
+  efecto: Prolongación del QT
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Exantema
+  graves:
+  - Reacciones cutáneas graves (Stevens-Johnson)
+  - Hiperkalemia
+  - Discrasias sanguíneas
+  vigilar:
+  - Piel
+  - Potasio
+  - Hemograma
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: fluconazol, linezolid y midazolam.'
+- Dosis expresadas en trimetoprim (1 ampolla = 80 mg de trimetoprim + 400 mg de sulfametoxazol).
+meta:
+  discrepancias:
+  - campo: presentación
+    valores:
+    - 'Iquique: ampolla 400/80 mg en 5 ml'
+    - 'CIMA (Soltrim): vial 800/160 mg'
+    decision: Presentación de Iquique; dosis de CIMA en trimetoprim.

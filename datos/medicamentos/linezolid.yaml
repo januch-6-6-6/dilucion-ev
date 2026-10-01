@@ -1,0 +1,86 @@
+id: linezolid
+nombre: Linezolid
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: bolsa-600mg-300ml
+  forma: bolsa lista para usar
+  cantidad:
+    valor: 600
+    unidad: mg
+  volumenMl: 300
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Linezolid: 600 mg/300 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'No requiere dilución. Infusión de 2 horas (Iquique); CIMA: 30–120 min. Proteger de la luz.'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Cada 12 h (máx. 28 días)
+  poblacion: adulto
+  unidad: mg
+  min: 600
+  max: 600
+  fuente:
+    ref: CIMA-LINEZOLID
+    detalle: '4.2.1: 600 mg dos veces al día'
+- indicacion: Lactantes y niños, cada 8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 10
+  topeAdulto:
+    valor: 600
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-LINEZOLID
+    detalle: 10 mg/kg/dosis cada 8 h
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Linezolid: preparar y administrar'
+  protegerLuz: true
+compatibilidad: []
+interaccionesGraves:
+- con: IMAO y fármacos serotoninérgicos o adrenérgicos
+  efecto: 'Linezolid es IMAO: síndrome serotoninérgico o crisis hipertensiva'
+  fuente:
+    ref: CIMA-LINEZOLID
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Cefalea
+  - Náuseas
+  graves:
+  - Mielosupresión (uso > 2 semanas)
+  - Neuropatía óptica y periférica
+  - Acidosis láctica
+  vigilar:
+  - Hemograma semanal
+  fuente:
+    ref: CIMA-LINEZOLID
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, clorpromazina, diazepam, fenitoína y cotrimoxazol.'
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: no establecida en menores de 18 años'
+    - 'Pediamécum: 10 mg/kg cada 8 h'
+    decision: Se registra la de Pediamécum.

@@ -1,0 +1,93 @@
+id: gentamicina
+nombre: Gentamicina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-80mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 80
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Gentamicina: 80 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: Hasta 160 mg en 100 ml
+    cantidad:
+      valor: 160
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Gentamicina: ≤ 160 mg en 100 ml; ≥ 240 mg en 250 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión de 30 a 60 minutos, preferentemente en dosis única diaria.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Dosis diaria (única, preferente)
+  poblacion: adulto
+  unidad: mg/kg/24 h
+  min: 3
+  max: 6
+  fuente:
+    ref: CIMA-GENTAMICINA
+    detalle: '4.2: 3–6 mg/kg/día'
+- indicacion: Niños 2–12 años (2–2,5 mg/kg cada 8 h)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 6
+  max: 7.5
+  fuente:
+    ref: CIMA-GENTAMICINA
+    detalle: '4.2: 6–7,5 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Gentamicina: diluida, preparar y administrar'
+compatibilidad: []
+interaccionesGraves:
+- con: Relajantes musculares
+  efecto: Potencian el bloqueo neuromuscular
+  fuente:
+    ref: CIMA-GENTAMICINA
+    detalle: '4.5'
+- con: Diuréticos de asa y otros nefro/ototóxicos
+  efecto: Mayor nefrotoxicidad y ototoxicidad
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Nefrotoxicidad
+  - Ototoxicidad
+  - Bloqueo neuromuscular
+  vigilar:
+  - Función renal
+  - Niveles plasmáticos
+  - Audición
+  fuente:
+    ref: CIMA-GENTAMICINA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, furosemida, heparina, fenitoína, filgrastim, piperacilina-tazobactam
+  y propofol.'
+meta:
+  discrepancias: []

@@ -1,0 +1,95 @@
+id: ertapenem
+nombre: Ertapenem
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ertapenem: FA 1 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1 g en 50 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Ertapenem: 1 g en 50 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión de 30 minutos. No usar soluciones con dextrosa; no mezclar con otros fármacos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Una vez al día
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 1
+  fuente:
+    ref: CIMA-ERTAPENEM
+    detalle: '4.2: 1 g una vez al día'
+- indicacion: Lactantes y niños 3 meses–12 años, cada 12 h (máx. 1 g/día)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 15
+  max: 15
+  topeAdulto:
+    valor: 500
+    unidad: mg
+  fuente:
+    ref: CIMA-ERTAPENEM
+    detalle: '4.2: 15 mg/kg dos veces al día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ertapenem: utilizar inmediatamente'
+compatibilidad: []
+interaccionesGraves:
+- con: Ácido valproico
+  efecto: Reducción de sus niveles bajo el rango terapéutico
+  fuente:
+    ref: CIMA-ERTAPENEM
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-ERTAPENEM
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: soluciones con dextrosa y cualquier otro medicamento por la misma vía.'
+meta:
+  discrepancias: []

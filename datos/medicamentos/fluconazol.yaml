@@ -1,0 +1,87 @@
+id: fluconazol
+nombre: Fluconazol
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-200mg-100ml
+  forma: frasco listo para usar
+  cantidad:
+    valor: 200
+    unidad: mg
+  volumenMl: 100
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Fluconazol: 200 mg/100 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: No requiere dilución. Infusión de 200 mg en 30 a 60 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: 'Candidiasis invasiva: carga el 1.er día'
+  poblacion: adulto
+  unidad: mg
+  min: 800
+  max: 800
+  fuente:
+    ref: CIMA-FLUCONAZOL
+    detalle: '4.2: 800 mg el primer día'
+- indicacion: 'Candidiasis invasiva: luego una vez al día'
+  poblacion: adulto
+  unidad: mg
+  min: 400
+  max: 400
+  fuente:
+    ref: CIMA-FLUCONAZOL
+    detalle: '4.2: 400 mg una vez al día'
+- indicacion: Candidiasis sistémica (28 días a 11 años), una vez al día (máx. 400 mg/día)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 6
+  max: 12
+  fuente:
+    ref: PEDIAMECUM-FLUCONAZOL
+    detalle: 6–12 mg/kg/día
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Fluconazol: 24 h a temperatura ambiente en circuito cerrado'
+compatibilidad: []
+interaccionesGraves:
+- con: Cisaprida y otros fármacos que prolongan el QT
+  efecto: Torsade de pointes; uso contraindicado
+  fuente:
+    ref: CIMA-FLUCONAZOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Náuseas
+  - Dolor abdominal
+  graves:
+  - Hepatotoxicidad
+  - Prolongación del QT
+  vigilar:
+  - Función hepática
+  fuente:
+    ref: CIMA-FLUCONAZOL
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, ampicilina, gluconato de calcio, cefotaxima, ceftazidima,
+  ceftriaxona, clindamicina, cotrimoxazol, diazepam, furosemida, haloperidol, imipenem y piperacilina-tazobactam.'
+meta:
+  discrepancias: []

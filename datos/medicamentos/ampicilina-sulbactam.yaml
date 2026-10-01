@@ -1,0 +1,100 @@
+id: ampicilina-sulbactam
+nombre: Ampicilina/sulbactam
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1.5g
+  forma: frasco ampolla (polvo) 1 g/0,5 g
+  cantidad:
+    valor: 1.5
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ampicilina/sulbactam: FA 1 g/0,5 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1,5 g en 100 ml
+    cantidad:
+      valor: 1.5
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Ampicilina/sulbactam: 1 g/0,5 g en 100 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión intermitente de 15 a 30 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Cada 6 h (dosis total ampicilina + sulbactam; sulbactam máx. 4 g/día)
+  poblacion: adulto
+  unidad: g
+  min: 1.5
+  max: 3
+  fuente:
+    ref: FDA-UNASYN
+    detalle: 1,5–3 g cada 6 h
+- indicacion: Niños ≥ 1 año (en 4 dosis; total ampicilina + sulbactam)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 300
+  max: 300
+  fuente:
+    ref: FDA-UNASYN
+    detalle: 300 mg/kg/día
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ampicilina/sulbactam: utilizar inmediatamente tras reconstituir'
+compatibilidad: []
+interaccionesGraves:
+- con: Aminoglucósidos
+  efecto: 'Inactivación in vitro: no reconstituir ni mezclar juntos'
+  fuente:
+    ref: FDA-UNASYN
+    detalle: Drug interactions
+- con: Alopurinol
+  efecto: Aumenta la incidencia de exantema
+  fuente:
+    ref: FDA-UNASYN
+    detalle: Drug interactions
+efectosAdversos:
+  frecuentes:
+  - Dolor en el sitio de inyección
+  - Diarrea
+  - Exantema
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia
+  fuente:
+    ref: FDA-UNASYN
+    detalle: Adverse reactions
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: clindamicina, anfotericina B, ciprofloxacino, epinefrina, fluconazol, midazolam,
+  ondansetrón, gluconato de calcio, vancomicina y aminoglucósidos.'
+meta:
+  discrepancias:
+  - campo: fuente
+    valores:
+    - No hay ficha técnica en CIMA (no comercializado en España)
+    decision: Dosis desde FDA (Unasyn).

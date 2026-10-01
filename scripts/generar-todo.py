@@ -6,11 +6,11 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fichas import tanda1, tanda1b  # noqa: E402
+from fichas import tanda1, tanda1b, tanda2  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
 STAB_T1 = RAIZ / 'datos' / 'crudos' / 'stabilis-y-2026-10-01.json'
-MODULOS = [tanda1, tanda1b]
+MODULOS = [tanda1, tanda1b, tanda2]
 
 
 def main():

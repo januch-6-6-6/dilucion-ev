@@ -1,0 +1,84 @@
+id: metronidazol
+nombre: Metronidazol
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-500mg-100ml
+  forma: frasco listo para usar
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 100
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Metronidazol: 500 mg/100 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'No requiere dilución. Infusión de 30 a 60 minutos (CIMA: 5 ml/min).'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Cada 8 h
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 500
+  fuente:
+    ref: CIMA-METRONIDAZOL
+    detalle: '4.2: 100 ml (500 mg) cada 8 h'
+- indicacion: Niños < 12 años (en 2–3 perfusiones)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 20
+  max: 30
+  fuente:
+    ref: CIMA-METRONIDAZOL
+    detalle: '4.2: 20–30 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Metronidazol: 24 h a temperatura ambiente en circuito cerrado'
+  protegerLuz: true
+compatibilidad: []
+interaccionesGraves:
+- con: Alcohol
+  efecto: Reacción disulfirámica (hasta un día después del tratamiento)
+  fuente:
+    ref: CIMA-METRONIDAZOL
+    detalle: '4.5'
+- con: Disulfiram
+  efecto: Reacciones psicóticas
+  fuente:
+    ref: CIMA-METRONIDAZOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Náuseas
+  - Sabor metálico
+  graves:
+  - Neuropatía periférica
+  - Convulsiones
+  vigilar:
+  - Síntomas neurológicos
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Metronidazol: RAM'
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, dopamina, filgrastim y meropenem.'
+meta:
+  discrepancias: []

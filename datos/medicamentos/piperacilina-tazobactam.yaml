@@ -1,0 +1,97 @@
+id: piperacilina-tazobactam
+nombre: Piperacilina/tazobactam
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-4.5g
+  forma: frasco ampolla (polvo) 4 g/0,5 g
+  cantidad:
+    valor: 4.5
+    unidad: g
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Piperacilina/tazobactam: FA 4 g/0,5 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 20 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 4,5 g en 100 ml
+    cantidad:
+      valor: 4.5
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Piperacilina/tazobactam: 4,5 g en 100 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión prolongada de 4 horas según la guía de Iquique.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Cada 8 h (cada 6 h en neumonía grave o neutropenia febril)
+  poblacion: adulto
+  unidad: g
+  min: 4.5
+  max: 4.5
+  fuente:
+    ref: CIMA-PIPERACILINA-TAZOBACTAM
+    detalle: '4.2: 4 g/0,5 g'
+- indicacion: Niños 2–12 años, cada 8 h (dosis total 100 mg + 12,5 mg por kg)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 112.5
+  max: 112.5
+  topeAdulto:
+    valor: 4.5
+    unidad: g
+  fuente:
+    ref: CIMA-PIPERACILINA-TAZOBACTAM
+    detalle: '4.2 Población pediátrica: 100 mg de piperacilina/12,5 mg de tazobactam por kg'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Piperacilina/tazobactam: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Relajantes musculares no despolarizantes (vecuronio)
+  efecto: Prolongación del bloqueo neuromuscular
+  fuente:
+    ref: CIMA-PIPERACILINA-TAZOBACTAM
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-PIPERACILINA-TAZOBACTAM
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: bicarbonato de sodio, amikacina, aciclovir, amiodarona, anfotericina B,
+  dobutamina, fluconazol, gentamicina, haloperidol, ondansetrón y vancomicina.'
+meta:
+  discrepancias: []

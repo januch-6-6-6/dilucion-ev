@@ -1,0 +1,109 @@
+id: imipenem
+nombre: Imipenem/cilastatina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-500mg
+  forma: frasco ampolla (polvo) 500 mg/500 mg
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Imipenem-cilastatina: FA 500 mg'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 500 mg en 100 ml
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Imipenem: 500 mg en 100 ml'
+  - descripcion: 1 g en 250 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 250
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Imipenem: 1 g en 250 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión de 2 horas; diluir solo en SF por mayor estabilidad.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: 500 mg cada 6 h o 1 g cada 6–8 h (máx. 4 g/día)
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 1000
+  fuente:
+    ref: CIMA-IMIPENEM
+    detalle: '4.2'
+- indicacion: Niños ≥ 1 año, cada 6 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 15
+  max: 25
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-IMIPENEM
+    detalle: '4.2: 15/15 o 25/25 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Imipenem: reconstituido 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Ganciclovir
+  efecto: Convulsiones generalizadas
+  fuente:
+    ref: CIMA-IMIPENEM
+    detalle: '4.5'
+- con: Ácido valproico
+  efecto: Descenso de sus niveles bajo el rango terapéutico
+  fuente:
+    ref: CIMA-IMIPENEM
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-IMIPENEM
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, amiodarona, bicarbonato de sodio, fluconazol, lorazepam,
+  midazolam y milrinona.'
+meta:
+  discrepancias: []

@@ -1,0 +1,105 @@
+id: cefepime
+nombre: Cefepime
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefepime: FA 1 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 1 g en 50 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cefepime: 1 g en 50 ml'
+  - descripcion: 2 g en 100 ml
+    cantidad:
+      valor: 2
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cefepime: 2 g en 100 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión prolongada de 3 horas según la guía de Iquique.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Infecciones graves, cada 12 h (muy graves cada 8 h)
+  poblacion: adulto
+  unidad: g
+  min: 2
+  max: 2
+  fuente:
+    ref: CIMA-CEFEPIME
+    detalle: '4.2: 2 g cada 12 u 8 horas'
+- indicacion: Niños > 2 meses (≤ 40 kg), cada 12 h (graves cada 8 h)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 50
+  max: 50
+  topeAdulto:
+    valor: 2
+    unidad: g
+  fuente:
+    ref: CIMA-CEFEPIME
+    detalle: '4.2: 50 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cefepime: reconstituido 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Anticoagulantes cumarínicos
+  efecto: Posible potenciación del efecto anticoagulante
+  fuente:
+    ref: CIMA-CEFEPIME
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-CEFEPIME
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: aciclovir, anfotericina B, ciprofloxacino, diazepam, dobutamina, dopamina,
+  fenitoína, haloperidol, sulfato de magnesio, metoclopramida, midazolam, morfina, ondansetrón, propofol y vancomicina.'
+meta:
+  discrepancias: []

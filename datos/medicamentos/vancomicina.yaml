@@ -1,0 +1,141 @@
+id: vancomicina
+nombre: Vancomicina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Vancomicina: FA 1 g en 20 ml de SF'
+- id: fa-500mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Vancomicina: FA 500 mg en 10 ml de SF'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 20
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 20 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 500 mg en 100 ml (5 mg/ml)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-VANCOMICINA
+      detalle: '4.2: al menos 100 ml por 500 mg'
+  - descripcion: 1 g en 250 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 250
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Vancomicina: > 1 g en 250 ml'
+  concentracionMax:
+    valor: 10
+    unidad: mg
+    fuente:
+      ref: CIMA-VANCOMICINA
+      detalle: '4.2: con restricción de líquidos 500 mg/50 ml (10 mg/ml)'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Infusión de al menos 60 minutos y no más de 10 mg/min (dosis > 1 g en 2 h): la infusión rápida causa reacciones
+    (enrojecimiento, hipotensión).'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 60
+dosis:
+- indicacion: '≥ 12 años: cada 8–12 h (máx. 2 g por dosis)'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 15
+  max: 20
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: '4.2: 15–20 mg/kg'
+- indicacion: Dosis de carga en paciente grave
+  poblacion: adulto
+  unidad: mg/kg
+  min: 25
+  max: 30
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: '4.2: 25–30 mg/kg'
+- indicacion: Lactantes y niños 1 mes–12 años, cada 6 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 15
+  topeAdulto:
+    valor: 2
+    unidad: g
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: '4.2: 10–15 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Vancomicina: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos
+  efecto: Eritema, enrojecimiento histaminoide y reacciones anafilactoides
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: '4.5'
+- con: Fármacos nefrotóxicos u ototóxicos (aminoglucósidos)
+  efecto: Toxicidad aditiva
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Flebitis
+  - Exantema
+  graves:
+  - Reacción a la infusión rápida (enrojecimiento, hipotensión)
+  - Nefrotoxicidad
+  - Ototoxicidad
+  vigilar:
+  - Niveles plasmáticos
+  - Función renal
+  - Velocidad de infusión
+  fuente:
+    ref: CIMA-VANCOMICINA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: albúmina, anfotericina B, aminofilina, ampicilina, cefazolina, cefepime,
+  cefotaxima, ceftazidima, ceftriaxona, ciprofloxacino, heparina, omeprazol, piperacilina-tazobactam y propofol.'
+meta:
+  discrepancias:
+  - campo: concentración
+    valores:
+    - 'CIMA: al menos 100 ml por 500 mg (5 mg/ml); 10 mg/ml solo con restricción de líquidos'
+    - 'Iquique: ≤ 1 g en 100 ml (10 mg/ml)'
+    decision: Máximo registrado 10 mg/ml; la dilución habitual de 5 mg/ml es la de CIMA.

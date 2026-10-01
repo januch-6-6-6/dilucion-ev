@@ -1,0 +1,95 @@
+id: clindamicina
+nombre: Clindamicina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-600mg-4ml
+  forma: ampolla
+  cantidad:
+    valor: 600
+    unidad: mg
+  volumenMl: 4
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Clindamicina: 600 mg/4 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 600 mg en 100 ml (6 mg/ml)
+    cantidad:
+      valor: 600
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Clindamicina: ≤ 600 mg en 100 ml; > 600 mg en 250 ml'
+  concentracionMax:
+    valor: 12
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Clindamicina: dilución 6–12 mg/ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión de 30 a 60 minutos; no infundir rápido (máx. 30 mg/min).
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Dosis diaria (en 2–4 dosis); máx. recomendada 2,7 g/día
+  poblacion: adulto
+  unidad: g/24 h
+  min: 1.2
+  max: 2.7
+  maximaAbsoluta: 4.8
+  fuente:
+    ref: CIMA-CLINDAMICINA
+    detalle: '4.2: 1,2–1,8 g/día; graves 2,4–2,7 g/día'
+- indicacion: Lactantes y niños (en 3–4 dosis)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 20
+  max: 40
+  fuente:
+    ref: CIMA-CLINDAMICINA
+    detalle: '4.2 Población pediátrica: 20–40 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Clindamicina: diluida, preparar y administrar'
+compatibilidad: []
+interaccionesGraves:
+- con: Relajantes musculares no despolarizantes y anestésicos inhalatorios
+  efecto: Potencia el bloqueo neuromuscular
+  fuente:
+    ref: CIMA-CLINDAMICINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Tromboflebitis
+  graves:
+  - Colitis por Clostridioides difficile
+  - Hipotensión o arritmia con infusión rápida
+  vigilar:
+  - Deposiciones
+  - Velocidad de infusión
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Clindamicina: RAM'
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: aminofilina, ampicilina, fenobarbital, fenitoína, fluconazol y gluconato
+  de calcio.'
+meta:
+  discrepancias: []

@@ -1,0 +1,120 @@
+id: aciclovir
+nombre: Aciclovir
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-250mg-10ml
+  forma: ampolla
+  cantidad:
+    valor: 250
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Aciclovir: 250 mg/10 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 250 mg en 50 ml
+    cantidad:
+      valor: 250
+      unidad: mg
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Aciclovir: 250 mg en 50 ml'
+  - descripcion: 500 mg en 100 ml
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Aciclovir: 500 mg en 100 ml'
+  - descripcion: 750 mg en 250 ml
+    cantidad:
+      valor: 750
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Aciclovir: ≥ 750 mg en 250 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Perfusión lenta de 1 hora; nunca en bolo. Hidratar al paciente para reducir la nefrotoxicidad.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 60
+dosis:
+- indicacion: Herpes simple o varicela-zóster (inmunocompetente), cada 8 h
+  poblacion: adulto
+  unidad: mg/kg
+  min: 5
+  max: 5
+  fuente:
+    ref: CIMA-ACICLOVIR
+    detalle: '4.2: 5 mg/kg cada 8 h'
+- indicacion: Encefalitis herpética o zóster en inmunodeprimido, cada 8 h
+  poblacion: adulto
+  unidad: mg/kg
+  min: 10
+  max: 10
+  fuente:
+    ref: CIMA-ACICLOVIR
+    detalle: '4.2: 10 mg/kg cada 8 h'
+- indicacion: 'Niños < 12 años: herpes simple o varicela (inmunocompetente), cada 8 h'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 10
+  max: 10
+  fuente:
+    ref: CIMA-ACICLOVIR
+    detalle: '4.2: 10 mg/kg cada 8 h'
+- indicacion: Encefalitis herpética (3 meses–12 años), cada 8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 20
+  max: 20
+  fuente:
+    ref: PEDIAMECUM-ACICLOVIR
+    detalle: 60 mg/kg/día cada 8 h (20 mg/kg/dosis)
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Aciclovir: preparar y administrar; no refrigerar'
+compatibilidad: []
+interaccionesGraves:
+- con: Probenecid y cimetidina
+  efecto: Aumentan la concentración de aciclovir
+  fuente:
+    ref: CIMA-ACICLOVIR
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Flebitis
+  - Náuseas
+  graves:
+  - Insuficiencia renal (cristaluria)
+  - Encefalopatía
+  vigilar:
+  - Hidratación y diuresis
+  - Creatinina
+  fuente:
+    ref: CIMA-ACICLOVIR
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: cefepime, ceftriaxona, dobutamina, dopamina, gentamicina, meropenem, metoclopramida,
+  morfina, ondansetrón y piperacilina-tazobactam.'
+meta:
+  discrepancias: []

@@ -1,0 +1,107 @@
+id: cloxacilina
+nombre: Cloxacilina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-500mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cloxacilina: FA 500 mg'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: Hasta 1 g en 100 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Cloxacilina: ≤ 1000 mg en 100 ml; > 1000 mg en 250 ml'
+  concentracionMax:
+    valor: 50
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Cloxacilina: dilución 10–50 mg/ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Infusión intermitente de 30 a 60 minutos (CIMA permite IV directa lenta de 3–4 min).
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Cada 6–8 h
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 1000
+  fuente:
+    ref: CIMA-CLOXACILINA
+    detalle: '4.2: 500 mg–1 g cada 6–8 h'
+- indicacion: Niños > 2 años, cada 6–8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 12.5
+  max: 25
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-CLOXACILINA
+    detalle: '4.2: 12,5–25 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Cloxacilina: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Antibióticos bacteriostáticos
+  efecto: Antagonizan su acción bactericida
+  fuente:
+    ref: CIMA-CLOXACILINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-CLOXACILINA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: gentamicina y amikacina.'
+meta:
+  discrepancias:
+  - campo: reconstitución
+    valores:
+    - 'Iquique: 10 ml de SF (50 mg/ml)'
+    - 'Pucón: 100 mg/ml'
+    decision: Se registra la de Iquique.

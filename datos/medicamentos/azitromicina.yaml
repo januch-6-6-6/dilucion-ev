@@ -1,0 +1,98 @@
+id: azitromicina
+nombre: Azitromicina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-500mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Azitromicina: FA 500 mg'
+reconstitucion:
+  diluyente: agua bidestilada
+  volumenMl: 5
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 5 ml de agua bidestilada'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 500 mg en 250 ml (2 mg/ml)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Azitromicina: 500 mg en 250 ml'
+  - descripcion: 500 mg en 500 ml (1 mg/ml)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Azitromicina: 500 mg en 500 ml (3 h)'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Infusión prolongada de 3 horas (Iquique); CIMA: al menos 60 minutos. Nunca en bolo ni IM.'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 60
+dosis:
+- indicacion: Neumonía adquirida en la comunidad, una vez al día
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 500
+  fuente:
+    ref: CIMA-AZITROMICINA
+    detalle: '4.2: 500 mg una vez al día'
+sinDosisPediatrica: true
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Azitromicina: reconstituida 24 h a temperatura ambiente'
+compatibilidad: []
+interaccionesGraves:
+- con: Fármacos que prolongan el QT
+  efecto: Prolongación del QT y torsade de pointes
+  fuente:
+    ref: CIMA-AZITROMICINA
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Náuseas
+  - Dolor en el sitio de infusión
+  graves:
+  - Prolongación del QT
+  - Hepatotoxicidad
+  vigilar:
+  - ECG si hay riesgo de QT largo
+  fuente:
+    ref: CIMA-AZITROMICINA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: amikacina, cefotaxima, ceftazidima, ceftriaxona, ciprofloxacino, clindamicina,
+  cloxacilina, gentamicina, fentanilo, furosemida, imipenem, ketorolaco, morfina, piperacilina-tazobactam y potasio.'
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: seguridad IV no establecida en niños'
+    decision: Sin dosis pediátrica IV.

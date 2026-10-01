@@ -1,0 +1,109 @@
+id: ampicilina
+nombre: Ampicilina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-500mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ampicilina: FA 500 mg'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: Hasta 1 g en 50 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Ampicilina: ≤ 1 g en 50 ml; > 1 g en 100 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Infusión intermitente de 10 a 15 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Infecciones respiratorias y de partes blandas (≥ 40 kg), cada 6 h
+  poblacion: adulto
+  unidad: mg
+  min: 250
+  max: 500
+  fuente:
+    ref: FDA-AMPICILINA
+    detalle: 250–500 mg cada 6 h
+- indicacion: Meningitis bacteriana (adultos y niños), en dosis cada 3–4 h
+  poblacion: adulto
+  unidad: mg/kg/24 h
+  min: 150
+  max: 200
+  fuente:
+    ref: FDA-AMPICILINA
+    detalle: 150–200 mg/kg/día
+- indicacion: Niños < 40 kg (cada 6–8 h)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 25
+  max: 50
+  fuente:
+    ref: FDA-AMPICILINA
+    detalle: 25–50 mg/kg/día
+- indicacion: Meningitis bacteriana (niños), en dosis cada 3–4 h
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 150
+  max: 200
+  fuente:
+    ref: FDA-AMPICILINA
+    detalle: 150–200 mg/kg/día
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 8
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ampicilina: reconstituida 8 h en refrigeración'
+compatibilidad: []
+interaccionesGraves: []
+efectosAdversos:
+  frecuentes:
+  - Exantema
+  - Diarrea
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ampicilina: RAM'
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: clindamicina, anfotericina B, ciprofloxacino, epinefrina, fluconazol, midazolam,
+  ondansetrón, gluconato de calcio, vancomicina y aminoglucósidos.'
+meta:
+  discrepancias:
+  - campo: fuente de dosis
+    valores:
+    - CIMA no tiene ficha técnica de ampicilina IV disponible
+    - 'Pucón: bolo a 100 mg/ml'
+    - 'Iquique: infusión de 10–15 min'
+    decision: 'Dosis desde FDA; las dosis de adulto de FDA son bajas para infecciones graves: revisar con protocolo local.'

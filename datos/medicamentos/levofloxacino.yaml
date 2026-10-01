@@ -1,0 +1,75 @@
+id: levofloxacino
+nombre: Levofloxacino
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-500mg-100ml
+  forma: bolsa lista para usar
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 100
+  fuente:
+    ref: CIMA-LEVOFLOXACINO
+    detalle: '2: 500 mg en 100 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Perfusión IV lenta: mínimo 60 minutos para 500 mg (30 min para 250 mg).'
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 60
+dosis:
+- indicacion: Una o dos veces al día
+  poblacion: adulto
+  unidad: mg
+  min: 500
+  max: 500
+  fuente:
+    ref: CIMA-LEVOFLOXACINO
+    detalle: '4.2.1: 500 mg una o dos veces al día'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-LEVOFLOXACINO
+    detalle: 6.3 (no informa estabilidad tras abrir)
+compatibilidad: []
+interaccionesGraves:
+- con: AINE y teofilina
+  efecto: Disminución marcada del umbral convulsivo
+  fuente:
+    ref: CIMA-LEVOFLOXACINO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Diarrea
+  graves:
+  - Tendinitis y rotura tendinosa
+  - Prolongación del QT
+  - Convulsiones
+  vigilar:
+  - ECG si hay riesgo de QT largo
+  fuente:
+    ref: CIMA-LEVOFLOXACINO
+    detalle: 4.8; 4.4
+alertas:
+- Contraindicado en niños y adolescentes en crecimiento.
+meta:
+  discrepancias:
+  - campo: fuente chilena / pediatría
+    valores:
+    - La guía de Iquique no incluye levofloxacino
+    - 'CIMA: contraindicado en niños'
+    - 'Pediamécum: 10 mg/kg cada 12–24 h'
+    decision: Sin dosis pediátrica (se respeta la contraindicación de la ficha técnica).

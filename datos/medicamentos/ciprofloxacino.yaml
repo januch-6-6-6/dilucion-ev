@@ -1,0 +1,83 @@
+id: ciprofloxacino
+nombre: Ciprofloxacino
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-200mg-100ml
+  forma: frasco listo para usar
+  cantidad:
+    valor: 200
+    unidad: mg
+  volumenMl: 100
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ciprofloxacino: 200 mg/100 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: No requiere dilución. Infusión de 30 a 60 minutos (200 mg).
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Cada 8–12 h
+  poblacion: adulto
+  unidad: mg
+  min: 400
+  max: 400
+  fuente:
+    ref: CIMA-CIPROFLOXACINO
+    detalle: '4.2: 400 mg dos o tres veces al día'
+- indicacion: ITU complicada o pielonefritis (niños), cada 8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 6
+  max: 10
+  topeAdulto:
+    valor: 400
+    unidad: mg
+  fuente:
+    ref: CIMA-CIPROFLOXACINO
+    detalle: '4.2 Población pediátrica: 6–10 mg/kg, máx. 400 mg por dosis'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ciprofloxacino: 24 h a temperatura ambiente en circuito cerrado'
+  protegerLuz: true
+compatibilidad: []
+interaccionesGraves:
+- con: Fármacos que prolongan el QT
+  efecto: Prolongación aditiva del QT
+  fuente:
+    ref: CIMA-CIPROFLOXACINO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Diarrea
+  graves:
+  - Tendinitis y rotura tendinosa
+  - Prolongación del QT
+  - Convulsiones
+  vigilar:
+  - ECG si hay riesgo de QT largo
+  fuente:
+    ref: CIMA-CIPROFLOXACINO
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: aminofilina, ampicilina, bicarbonato de sodio, cefepime, dexametasona,
+  fenitoína, furosemida, heparina, hidrocortisona, metilprednisolona, propofol, clindamicina, sulfato de magnesio y vancomicina.'
+meta:
+  discrepancias: []

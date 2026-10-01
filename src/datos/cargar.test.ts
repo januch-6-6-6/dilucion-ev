@@ -19,4 +19,12 @@ describe('cargar', () => {
     const r = volumenACargar({ valor: 20, unidad: 'mEq' }, { cantidad: amp.cantidad, volumenMl: amp.volumenMl })
     expect(r).toMatchObject({ ok: true, valor: { ml: 14.91, unidades: 2 } })
   })
+  it('cefazolina: el volumen a cargar usa la concentración reconstituida (1 g en 10 ml = 100 mg/ml)', () => {
+    const cef = obtenerFicha('cefazolina')
+    expect(cef?.reconstitucion?.volumenMl).toBe(10)
+    const fa = cef!.presentaciones[0]
+    expect(fa.volumenMl).toBe(cef!.reconstitucion!.volumenMl)
+    const r = volumenACargar({ valor: 2, unidad: 'g' }, { cantidad: fa.cantidad, volumenMl: fa.volumenMl })
+    expect(r).toMatchObject({ ok: true, valor: { ml: 20, unidades: 2 } })
+  })
 })

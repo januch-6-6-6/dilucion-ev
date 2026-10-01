@@ -1,0 +1,92 @@
+id: amikacina
+nombre: Amikacina
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-500mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Amikacina: 500 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: Hasta 1 g en 100 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Amikacina: ≤ 1 g en 100 ml; > 1 g en 250 ml'
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Amikacina: dilución 0,25–5 mg/ml; nunca exceder 10 mg/ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión de 30 a 60 minutos.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+  tiempoMinimoMin: 30
+dosis:
+- indicacion: Dosis diaria (única o en 2–3 dosis); máx. 1,5 g/día
+  poblacion: adulto
+  unidad: mg/kg/24 h
+  min: 15
+  max: 15
+  fuente:
+    ref: CIMA-AMIKACINA
+    detalle: '4.2: 15 mg/kg/día'
+- indicacion: Niños < 12 años (única o en 2–3 dosis)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 15
+  max: 15
+  fuente:
+    ref: CIMA-AMIKACINA
+    detalle: '4.2: 15 mg/kg/día'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Amikacina: diluida, preparar y administrar'
+compatibilidad: []
+interaccionesGraves:
+- con: Betalactámicos en la misma mezcla
+  efecto: Inactivación mutua
+  fuente:
+    ref: CIMA-AMIKACINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Nefrotoxicidad
+  - Ototoxicidad
+  - Neurotoxicidad
+  vigilar:
+  - Función renal
+  - Niveles plasmáticos
+  - Audición
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Amikacina: RAM'
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: anfotericina B, ampicilina, furosemida, heparina, cefazolina y propofol.'
+meta:
+  discrepancias: []

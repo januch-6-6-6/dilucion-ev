@@ -1,0 +1,101 @@
+id: ceftazidima
+nombre: Ceftazidima
+comerciales: []
+grupo: antiinfeccioso
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-1g
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ceftazidima: FA 1 g'
+reconstitucion:
+  diluyente: suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Reconstitución: 10 ml de suero fisiológico'
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1 g en 50 ml
+    cantidad:
+      valor: 1
+      unidad: g
+    volumenFinalMl: 50
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Ceftazidima: 1 g en 50 ml'
+  - descripcion: 2 g en 100 ml
+    cantidad:
+      valor: 2
+      unidad: g
+    volumenFinalMl: 100
+    fuente:
+      ref: IQUIQUE-2020
+      detalle: 'Ceftazidima: 2 g en 100 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Infusión prolongada de 3 horas según la guía de Iquique.
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: Tiempo y detalles de administración
+dosis:
+- indicacion: Por dosis, cada 8 h (máx. 9 g/día)
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 2
+  fuente:
+    ref: CIMA-CEFTAZIDIMA
+    detalle: '4.2 Tabla 1: 1–2 g cada 8 h'
+- indicacion: Lactantes > 2 meses y niños < 40 kg (en 3 dosis)
+  poblacion: pediatrico
+  unidad: mg/kg/24 h
+  min: 100
+  max: 150
+  fuente:
+    ref: CIMA-CEFTAZIDIMA
+    detalle: '4.2 Tabla 2: 100–150 mg/kg/día, máx. 6 g/día'
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: IQUIQUE-2020
+    detalle: 'Ceftazidima: reconstituida 24 h en refrigeración'
+compatibilidad: []
+interaccionesGraves:
+- con: Medicamentos nefrotóxicos en dosis altas
+  efecto: Puede empeorar la función renal
+  fuente:
+    ref: CIMA-CEFTAZIDIMA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Diarrea
+  - Exantema
+  - Flebitis en el sitio de infusión
+  graves:
+  - Anafilaxia
+  - Colitis por Clostridioides difficile
+  vigilar:
+  - Signos de alergia en la primera dosis
+  - Deposiciones
+  fuente:
+    ref: CIMA-CEFTAZIDIMA
+    detalle: 4.8; 4.4
+alertas:
+- 'Incompatible en Y según la guía de Iquique con: amiodarona, aminofilina, bicarbonato de sodio, anfotericina B, dobutamina,
+  fluconazol, midazolam, propofol y vancomicina.'
+meta:
+  discrepancias: []
