@@ -44,6 +44,14 @@ describe('validarDatos', () => {
     expect(validarDatos([ficha], fuentesPrueba).join('\n')).toContain('sinDosisPediatrica')
   })
 
+  it('los booleanos sin dato en la fuente pueden omitirse', () => {
+    const ficha = fichaValida('droga-a', {
+      administracion: { vias: ['bolo'], texto: 'Bolo', fuente: f },
+      estabilidad: { fuente: f },
+    })
+    expect(validarDatos([ficha], fuentesPrueba)).toEqual([])
+  })
+
   it('ids repetidos son error', () => {
     expect(validarDatos([fichaValida(), fichaValida()], fuentesPrueba).join('\n')).toContain('repetido')
   })
