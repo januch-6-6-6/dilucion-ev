@@ -1,4 +1,7 @@
+import { convertirMasa, parsearUnidadDosis } from '../calculos/unidades'
 import { Ficha, Fuente } from './ficha'
+
+const unidadValida = (u: string) => parsearUnidadDosis(u) !== null || /^(g|mg|mcg|UI)(\/kg)?\/24 ?h$/.test(u)
 
 /** Recorre un objeto y devuelve todas las referencias `fuente.ref` con su ruta. */
 function refsDeFuente(valor: unknown, ruta: string, salida: { ruta: string; ref: string }[]) {
@@ -45,10 +48,21 @@ export function validarDatos(fichasCrudas: unknown[], fuentesCrudas: unknown[]):
 
     ficha.dosis.forEach((d, j) => {
       if (d.min !== undefined && d.max !== undefined && d.min > d.max) errores.push(`${ficha.id}: dosis[${j}] min mayor que max`)
+      if (d.min === undefined && d.max === undefined) errores.push(`${ficha.id}: dosis[${j}] necesita min o max`)
+      if (d.maximaAbsoluta !== undefined && d.max !== undefined && d.maximaAbsoluta < d.max) {
+        errores.push(`${ficha.id}: dosis[${j}] maximaAbsoluta menor que max`)
+      }
+      if (!unidadValida(d.unidad)) errores.push(`${ficha.id}: dosis[${j}] unidad "${d.unidad}" no reconocida`)
     })
     const { concentracionMin: cmin, concentracionMax: cmax } = ficha.dilucion
-    if (cmin && cmax && cmin.unidad === cmax.unidad && cmin.valor > cmax.valor) {
-      errores.push(`${ficha.id}: dilucion concentracionMin mayor que concentracionMax (min mayor que max)`)
+    if (cmin && cmax) {
+      try {
+        if (convertirMasa(cmin.valor, cmin.unidad, cmax.unidad) > cmax.valor) {
+          errores.push(`${ficha.id}: dilucion concentracionMin mayor que concentracionMax (min mayor que max)`)
+        }
+      } catch {
+        errores.push(`${ficha.id}: dilucion concentracionMin y concentracionMax en unidades incompatibles`)
+      }
     }
 
     const tienePediatrica = ficha.dosis.some((d) => d.poblacion === 'pediatrico')

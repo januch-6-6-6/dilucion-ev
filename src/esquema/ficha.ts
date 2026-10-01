@@ -2,8 +2,8 @@ import { z } from 'zod'
 
 const positivo = z.number().positive()
 
-export const FuenteRef = z.object({ ref: z.string().min(1), detalle: z.string().min(1) })
-export const Fuente = z.object({
+export const FuenteRef = z.strictObject({ ref: z.string().min(1), detalle: z.string().min(1) })
+export const Fuente = z.strictObject({
   id: z.string().min(1),
   titulo: z.string().min(1),
   institucion: z.string().min(1),
@@ -13,14 +13,14 @@ export const Fuente = z.object({
 })
 
 export const UnidadMasa = z.enum(['g', 'mg', 'mcg', 'UI'])
-export const Cantidad = z.object({ valor: positivo, unidad: UnidadMasa })
+export const Cantidad = z.strictObject({ valor: positivo, unidad: UnidadMasa })
 const CantidadConFuente = Cantidad.extend({ fuente: FuenteRef })
 
 export const Ambito = z.enum(['samu', 'urgencia', 'upc', 'hospitalizacion', 'aps'])
 export const Via = z.enum(['bolo', 'infusion_intermitente', 'infusion_continua'])
 export const EstadoCompatibilidad = z.enum(['compatible', 'incompatible', 'sin_datos'])
 
-export const Dosis = z.object({
+export const Dosis = z.strictObject({
   indicacion: z.string().min(1),
   poblacion: z.enum(['adulto', 'pediatrico']),
   unidad: z.string().min(1),
@@ -31,7 +31,7 @@ export const Dosis = z.object({
   fuente: FuenteRef,
 })
 
-export const Ficha = z.object({
+export const Ficha = z.strictObject({
   id: z.string().regex(/^[a-z0-9-]+$/),
   nombre: z.string().min(1),
   comerciales: z.array(z.string()),
@@ -39,18 +39,18 @@ export const Ficha = z.object({
   ambitos: z.array(Ambito).min(1),
   altoRiesgo: z.boolean(),
   presentaciones: z
-    .array(z.object({ id: z.string().min(1), forma: z.string().min(1), cantidad: Cantidad, volumenMl: positivo, fuente: FuenteRef }))
+    .array(z.strictObject({ id: z.string().min(1), forma: z.string().min(1), cantidad: Cantidad, volumenMl: positivo, fuente: FuenteRef }))
     .min(1),
-  reconstitucion: z.object({ diluyente: z.string().min(1), volumenMl: positivo, fuente: FuenteRef }).nullable(),
-  dilucion: z.object({
+  reconstitucion: z.strictObject({ diluyente: z.string().min(1), volumenMl: positivo, fuente: FuenteRef }).nullable(),
+  dilucion: z.strictObject({
     sueros: z.array(z.string()),
     concentracionMin: CantidadConFuente.optional(),
     concentracionMax: CantidadConFuente.optional(),
     estandar: z.array(
-      z.object({ descripcion: z.string().min(1), cantidad: Cantidad, volumenFinalMl: positivo, fuente: FuenteRef }),
+      z.strictObject({ descripcion: z.string().min(1), cantidad: Cantidad, volumenFinalMl: positivo, fuente: FuenteRef }),
     ),
   }),
-  administracion: z.object({
+  administracion: z.strictObject({
     vias: z.array(Via).min(1),
     texto: z.string().min(1),
     tiempoMinimoMin: positivo.optional(),
@@ -60,25 +60,25 @@ export const Ficha = z.object({
   }),
   dosis: z.array(Dosis),
   sinDosisPediatrica: z.boolean(),
-  estabilidad: z.object({
+  estabilidad: z.strictObject({
     ambienteH: positivo.optional(),
     refrigeradoH: positivo.optional(),
     protegerLuz: z.boolean().optional(),
     fuente: FuenteRef,
   }),
-  compatibilidad: z.array(z.object({ con: z.string().min(1), estado: EstadoCompatibilidad, fuente: FuenteRef })),
-  interaccionesGraves: z.array(z.object({ con: z.string().min(1), efecto: z.string().min(1), fuente: FuenteRef })),
-  efectosAdversos: z.object({
+  compatibilidad: z.array(z.strictObject({ con: z.string().min(1), estado: EstadoCompatibilidad, fuente: FuenteRef })),
+  interaccionesGraves: z.array(z.strictObject({ con: z.string().min(1), efecto: z.string().min(1), fuente: FuenteRef })),
+  efectosAdversos: z.strictObject({
     frecuentes: z.array(z.string()),
     graves: z.array(z.string()),
     vigilar: z.array(z.string()),
     fuente: FuenteRef,
   }),
   alertas: z.array(z.string()),
-  meta: z.object({
+  meta: z.strictObject({
     revisadoPor: z.string().optional(),
     fechaRevision: z.string().optional(),
-    discrepancias: z.array(z.object({ campo: z.string(), valores: z.array(z.string()), decision: z.string() })),
+    discrepancias: z.array(z.strictObject({ campo: z.string(), valores: z.array(z.string()), decision: z.string() })),
   }),
 })
 
