@@ -1,0 +1,95 @@
+id: dexmedetomidina
+nombre: Dexmedetomidina
+comerciales: []
+grupo: sedante
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-200mcg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 200
+    unidad: mcg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: '2: 100 mcg/ml; ampolla de 2 ml = 200 mcg'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 200 mcg en 50 ml (4 mcg/ml)
+    cantidad:
+      valor: 200
+      unidad: mcg
+    volumenFinalMl: 50
+    fuente:
+      ref: CIMA-DEXMEDETOMIDINA
+      detalle: '6.6: concentración de 4 mcg/ml'
+  - descripcion: 400 mcg en 50 ml (8 mcg/ml)
+    cantidad:
+      valor: 400
+      unidad: mcg
+    volumenFinalMl: 50
+    fuente:
+      ref: CIMA-DEXMEDETOMIDINA
+      detalle: '6.6: concentración de 8 mcg/ml'
+administracion:
+  vias:
+  - infusion_continua
+  texto: Perfusión continua por bomba, diluida a 4 u 8 mcg/ml. No se recomienda dosis de carga en UCI. Tras cada ajuste, el
+    nuevo equilibrio tarda 1 hora.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: 4.2; 6.6
+dosis:
+- indicacion: Sedación en UCI (inicio 0,7; máx. 1,4 mcg/kg/h)
+  poblacion: adulto
+  unidad: mcg/kg/h
+  min: 0.2
+  max: 1.4
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: '4.2: 0,2–1,4 mcg/kg/h'
+- indicacion: Mantención (niños; datos limitados)
+  poblacion: pediatrico
+  unidad: mcg/kg/h
+  min: 0.2
+  max: 0.7
+  fuente:
+    ref: PEDIAMECUM-DEXMEDETOMIDINA
+    detalle: 0,2–0,7 mcg/kg/h; descrito hasta 1
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: '6.3: diluida, estabilidad en uso de 24 h a 25 °C; microbiológicamente usar de inmediato'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos, sedantes, hipnóticos y opioides
+  efecto: Aumento de efectos sedantes, anestésicos y cardiorrespiratorios
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión
+  - Bradicardia
+  - Hipertensión
+  graves:
+  - Bradicardia grave y paro sinusal
+  vigilar:
+  - FC y PA continuas
+  fuente:
+    ref: CIMA-DEXMEDETOMIDINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+meta:
+  discrepancias: []

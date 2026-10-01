@@ -1,0 +1,88 @@
+id: metoprolol
+nombre: Metoprolol
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-5mg-5ml
+  forma: ampolla 1 mg/ml
+  cantidad:
+    valor: 5
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '2: 1 mg/ml; dosis IV de 5 mg'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  texto: Bolo IV a 1–2 mg/min, repetible cada 5 minutos según respuesta. Monitorizar FC y PA.
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.2'
+dosis:
+- indicacion: 'Arritmias: bolo (repetible cada 5 min; total habitual 10–15 mg)'
+  poblacion: adulto
+  unidad: mg
+  min: 5
+  max: 5
+  maximaAbsoluta: 20
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.2: hasta 5 mg; total 10–15 mg; ≥ 20 mg sin beneficio'
+- indicacion: 'Infarto agudo: 3 bolos cada 2 min'
+  poblacion: adulto
+  unidad: mg
+  min: 5
+  max: 5
+  maximaAbsoluta: 15
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.2: 5 mg por bolo, total 15 mg'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: 6.3 (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: Verapamilo IV
+  efecto: No administrar a pacientes con betabloqueadores
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.4'
+- con: Inhibidores del CYP2D6
+  efecto: Aumentan el nivel de metoprolol
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Fatiga
+  - Mareo
+  - Bradicardia
+  graves:
+  - Bradicardia grave y bloqueo AV
+  - Hipotensión
+  - Broncoespasmo
+  vigilar:
+  - FC y PA
+  fuente:
+    ref: CIMA-METOPROLOL
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: presentación y pediatría
+    valores:
+    - 'CIMA: 1 mg/ml (volumen de ampolla no confirmado en el extracto)'
+    - Pediamécum solo tiene pautas orales
+    decision: Se registra ampolla de 5 ml (5 mg); sin dosis pediátrica IV.

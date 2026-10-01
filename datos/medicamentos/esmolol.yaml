@@ -1,0 +1,94 @@
+id: esmolol
+nombre: Esmolol
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: vial-100mg-10ml
+  forma: vial 10 mg/ml
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '2: vial de 10 ml con 100 mg'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Solución lista para usar (10 mg/ml). Carga de 500 mcg/kg/min durante 1 minuto y luego mantención por bomba, ajustando
+    según FC y PA.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.2'
+dosis:
+- indicacion: 'Taquiarritmia supraventricular: carga (1 min)'
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 500
+  max: 500
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.2: 500 mcg/kg/min durante 1 minuto'
+- indicacion: Mantención
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 50
+  max: 200
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.2: 50–200 mcg/kg/min'
+- indicacion: 'TSV (niños): infusión tras carga de 100–500 mcg/kg'
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 200
+  max: 1000
+  fuente:
+    ref: PEDIAMECUM-ESMOLOL
+    detalle: Infusión 200 mcg/kg/min, ajustable; máx. 1000
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: 6.3 (no informa estabilidad en este extracto)
+compatibilidad: []
+interaccionesGraves:
+- con: Verapamilo IV
+  efecto: No administrar dentro de 48 h tras suspender verapamilo
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.3'
+- con: Otros fármacos que causan hipotensión o bradicardia
+  efecto: Efectos aditivos
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión
+  - Sudoración
+  graves:
+  - Bradicardia
+  - Broncoespasmo
+  - Necrosis por extravasación
+  vigilar:
+  - FC y PA continuas
+  fuente:
+    ref: CIMA-ESMOLOL
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: fuente chilena
+    valores:
+    - Protocolo Pucón 2022 no incluye esmolol
+    decision: Ficha basada en CIMA y Pediamécum.

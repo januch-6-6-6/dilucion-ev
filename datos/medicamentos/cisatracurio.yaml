@@ -1,0 +1,103 @@
+id: cisatracurio
+nombre: Cisatracurio
+comerciales: []
+grupo: bloqueador-neuromuscular
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: vial-10mg-5ml
+  forma: vial
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '2: 2 mg/ml; viales de 2,5 y 5 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV o perfusión por bomba. No mezclar en la misma jeringa ni por la misma aguja con propofol o soluciones alcalinas.
+    Solo con vía aérea y ventilación aseguradas.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.2'
+dosis:
+- indicacion: Intubación traqueal
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.15
+  max: 0.15
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.2: 0,15 mg/kg'
+- indicacion: Mantención (bolos)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.03
+  max: 0.03
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.2: 0,03 mg/kg'
+- indicacion: Perfusión (inicio 3 mcg/kg/min)
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 0.5
+  max: 10.2
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.2: 3 mcg/kg/min; intervalo 0,5–10,2'
+- indicacion: Intubación (niños)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.15
+  max: 0.15
+  topeAdulto:
+    valor: 10.5
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-CISATRACURIO
+    detalle: 0,15 mg/kg en 5–10 s
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '6.3 (sin conservante: uso en un solo paciente)'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos inhalatorios (isoflurano, halotano)
+  efecto: Incrementan el bloqueo neuromuscular
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Bloqueo prolongado
+  - Bradicardia
+  - Anafilaxia
+  vigilar:
+  - Ventilación
+  - Tren de cuatro
+  fuente:
+    ref: CIMA-CISATRACURIO
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- 'Paraliza la respiración: solo con vía aérea y ventilación aseguradas.'
+meta:
+  discrepancias:
+  - campo: tope pediátrico
+    valores:
+    - Adulto 0,15 mg/kg × 70 kg = 10,5 mg
+    decision: Tope fijado en 10,5 mg; confirmar.

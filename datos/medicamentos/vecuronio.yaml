@@ -1,0 +1,117 @@
+id: vecuronio
+nombre: Vecuronio
+comerciales: []
+grupo: bloqueador-neuromuscular
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: fa-10mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: Vial de 10 mg
+reconstitucion:
+  diluyente: Agua para inyectables
+  volumenMl: 10
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: Reconstituir con agua estéril (volumen no indicado en la etiqueta; se asumen 10 ml = 1 mg/ml)
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 10 mg en 100 ml (0,1 mg/ml) para perfusión
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: FDA-VECURONIO
+      detalle: 'Infusión: 0,1 mg/ml (10 mg en 100 ml)'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Solo IV, por o bajo supervisión de clínicos expertos. Monitorizar la respuesta al estimulador de nervio periférico.
+    Iniciar la infusión solo tras evidencia de recuperación espontánea del bolo.
+  requiereBomba: true
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: Dosage and administration
+dosis:
+- indicacion: Intubación (dosis inicial)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.08
+  max: 0.1
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: 0,08–0,1 mg/kg en bolo
+- indicacion: Mantención (bolos)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 0.01
+  max: 0.015
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: 0,01–0,015 mg/kg
+- indicacion: Perfusión continua
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 1
+  max: 1
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: 1 mcg/kg/min
+- indicacion: Lactantes > 7 semanas–1 año (repetible cada hora)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.1
+  max: 0.1
+  topeAdulto:
+    valor: 7
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-VECURONIO
+    detalle: 0,1 mg/kg/dosis
+sinDosisPediatrica: false
+estabilidad:
+  refrigeradoH: 24
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: 'Reconstituido con agua estéril: refrigerar y usar dentro de 24 h'
+compatibilidad: []
+interaccionesGraves:
+- con: Anestésicos inhalatorios y succinilcolina previa
+  efecto: Potencian el bloqueo
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: Dosage and administration
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Bloqueo prolongado
+  - Debilidad o parálisis persistente
+  vigilar:
+  - Ventilación
+  - Tren de cuatro
+  fuente:
+    ref: FDA-VECURONIO
+    detalle: Adverse reactions
+alertas:
+- Medicamento de alto riesgo.
+- 'Paraliza la respiración: solo con vía aérea y ventilación aseguradas.'
+meta:
+  discrepancias:
+  - campo: fuente y reconstitución
+    valores:
+    - No hay vecuronio en CIMA ni en Pucón
+    - FDA no indica el volumen de reconstitución en el extracto revisado
+    decision: 'Fuente FDA; se asumen 10 ml (1 mg/ml), práctica habitual: confirmar. Tope pediátrico 7 mg (0,1 mg/kg × 70 kg).'

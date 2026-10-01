@@ -1,0 +1,98 @@
+id: manitol
+nombre: Manitol 20 %
+comerciales: []
+grupo: diuretico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-20pct-250ml
+  forma: frasco 20 % (250 ml)
+  cantidad:
+    valor: 50
+    unidad: g
+  volumenMl: 250
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '2: 200 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Hipertensión intracraneal: infundir en 30–60 minutos. Usar sistema de perfusión con filtro (puede cristalizar).
+    Vigilar diuresis y osmolaridad.'
+  tiempoMinimoMin: 30
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.2'
+dosis:
+- indicacion: Hipertensión intracraneal (en 30–60 min)
+  poblacion: adulto
+  unidad: g/kg
+  min: 1.5
+  max: 2
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.2: 1,5–2 g/kg'
+- indicacion: Test de infusión en oliguria (bolo)
+  poblacion: adulto
+  unidad: g/kg
+  min: 0.2
+  max: 0.2
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.2: 0,2 g/kg'
+- indicacion: Hipertensión intracraneal (niños), en 20–30 min
+  poblacion: pediatrico
+  unidad: g/kg
+  min: 0.5
+  max: 1
+  topeAdulto:
+    valor: 100
+    unidad: g
+  fuente:
+    ref: PEDIAMECUM-MANITOL
+    detalle: 0,5–1 g/kg (máx. 1,5 g/kg/día)
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: 6.3 (no informa estabilidad tras abrir)
+compatibilidad: []
+interaccionesGraves:
+- con: Glucósidos cardíacos
+  efecto: Alteración de la digoxinemia por cambios de potasio
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.5'
+- con: Diuréticos
+  efecto: Ajustar la dosis
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Sobrecarga de volumen y edema pulmonar
+  - Alteraciones electrolíticas
+  - Insuficiencia renal
+  vigilar:
+  - Diuresis
+  - Electrolitos y osmolaridad
+  fuente:
+    ref: CIMA-MANITOL
+    detalle: '4.8'
+alertas:
+- 'Presentación del 20 %: puede cristalizar con frío.'
+meta:
+  discrepancias:
+  - campo: tope pediátrico y presentación
+    valores:
+    - Tope 100 g = 1,5 g/kg × 70 kg (aprox.)
+    - Volumen de frasco de 250 ml no confirmado en la ficha (Osmofundina)
+    decision: Confirmar presentación local (250 o 500 ml).

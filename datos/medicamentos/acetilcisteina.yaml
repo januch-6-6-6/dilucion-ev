@@ -1,0 +1,95 @@
+id: acetilcisteina
+nombre: Acetilcisteína (antídoto)
+comerciales: []
+grupo: antidoto
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: vial-5g-25ml
+  forma: vial 200 mg/ml
+  cantidad:
+    valor: 5
+    unidad: g
+  volumenMl: 25
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: Hidonac antídoto 200 mg/ml
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Tres perfusiones consecutivas sin descanso: 150 mg/kg en 200 ml en 1 h; 50 mg/kg en 500 ml en 4 h; 100 mg/kg en
+    1 L en 16 h. Preferir SG5 %. Iniciar idealmente dentro de 8 h de la ingesta de paracetamol.'
+  requiereBomba: true
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: '4.2'
+dosis:
+- indicacion: 'Intoxicación por paracetamol: 1.ª perfusión (1 h)'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 150
+  max: 150
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: '4.2: 150 mg/kg en 200 ml'
+- indicacion: 2.ª perfusión (4 h)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 50
+  max: 50
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: '4.2: 50 mg/kg en 500 ml'
+- indicacion: 3.ª perfusión (16 h)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 100
+  max: 100
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: '4.2: 100 mg/kg en 1 L'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: 6.3 (no informa estabilidad de la dilución en este extracto)
+compatibilidad: []
+interaccionesGraves:
+- con: Nitroglicerina
+  efecto: Hipotensión significativa y vasodilatación
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Vómitos
+  - Rubor
+  graves:
+  - Reacciones anafilactoides (sobre todo en la 1.ª perfusión)
+  - Broncoespasmo
+  vigilar:
+  - Signos de reacción durante la 1.ª hora
+  fuente:
+    ref: CIMA-ACETILCISTEINA
+    detalle: 4.8; 4.4
+alertas: []
+meta:
+  discrepancias:
+  - campo: pediatría
+    valores:
+    - CIMA indica las mismas dosis por kg en niños con volúmenes menores (tabla por peso)
+    decision: 'Sin dosis pediátrica separada en esta versión: usar la tabla por peso de la ficha técnica.'
+  - campo: fuente chilena
+    valores:
+    - Pucón 2022 no incluye acetilcisteína
+    decision: Ficha basada en CIMA (Hidonac antídoto).

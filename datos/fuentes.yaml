@@ -630,3 +630,165 @@
   url: https://www.hospitaliquique.cl/images/FARMACIA/Recomendaciones_adultos.pdf
   anio: 2020
   consultado: '2026-10-01'
+- id: CIMA-OMEPRAZOL
+  titulo: 'Ficha técnica: Omeprazol Normon 40 mg polvo para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67270/FT_67270.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-PARACETAMOL
+  titulo: 'Ficha técnica: Paracetamol B. Braun 10 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/75594/FT_75594.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-KETOPROFENO
+  titulo: 'Ficha técnica: Orudis 100 mg solución inyectable (ketoprofeno)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/55857/FT_55857.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-DEXMEDETOMIDINA
+  titulo: 'Ficha técnica: Dexmedetomidina Altan 100 microgramos/ml concentrado para solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/84372/FT_84372.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-REMIFENTANILO
+  titulo: 'Ficha técnica: Remifentanilo Noridem 1 mg polvo para concentrado para solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/79906/FT_79906.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-CISATRACURIO
+  titulo: 'Ficha técnica: Cisatracurio Normon 2 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/76000/FT_76000.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-HALOPERIDOL
+  titulo: 'Ficha técnica: Haloperidol Esteve 5 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58345/FT_58345.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-DIGOXINA
+  titulo: 'Ficha técnica: Digoxina Kern Pharma 0,25 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/34753/FT_34753.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-MANITOL
+  titulo: 'Ficha técnica: Osmofundina concentrada 20 % solución para perfusión (manitol)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/43560/FT_43560.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FITOMENADIONA
+  titulo: 'Ficha técnica: Konakion 10 mg/ml solución oral/solución inyectable (fitomenadiona)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/27262/FT_27262.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-TIAMINA
+  titulo: 'Ficha técnica: Benerva 100 mg/ml solución inyectable (tiamina)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/17464/FT_17464.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-OCTREOTIDO
+  titulo: 'Ficha técnica: Octreotida GP-Pharm 0,1 mg/ml solución inyectable y para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/69524/FT_69524.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-FOSFATO-DE-POTASIO
+  titulo: 'Ficha técnica: Fosfato dipotásico 1M Fresenius Kabi 174,2 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63546/FT_63546.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ACETILCISTEINA
+  titulo: 'Ficha técnica: Hidonac antídoto 200 mg/ml concentrado para solución para perfusión (acetilcisteína)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58931/FT_58931.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-NEOSTIGMINA
+  titulo: 'Ficha técnica: Neostigmina Braun 0,5 mg/ml solución inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/36384/FT_36384.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-ESMOLOL
+  titulo: 'Ficha técnica: Brevibloc 10 mg/ml solución inyectable (esmolol)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/72349/FT_72349.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-NIMODIPINO
+  titulo: 'Ficha técnica: Nimodipino Altan 0,2 mg/ml solución para perfusión'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67042/FT_67042.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: CIMA-METOPROLOL
+  titulo: 'Ficha técnica: Beloken 1 mg/ml solución inyectable (metoprolol)'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/56989/FT_56989.html
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-DEXMEDETOMIDINA
+  titulo: 'Pediamécum: Dexmedetomidina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/dexmedetomidina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-CISATRACURIO
+  titulo: 'Pediamécum: Cisatracurio (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/cisatracurio
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-VECURONIO
+  titulo: 'Pediamécum: Vecuronio (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/vecuronio
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-MANITOL
+  titulo: 'Pediamécum: Manitol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/manitol
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-TIAMINA
+  titulo: 'Pediamécum: Tiamina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/tiamina
+  anio: 2026
+  consultado: '2026-10-01'
+- id: PEDIAMECUM-ESMOLOL
+  titulo: 'Pediamécum: Esmolol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comite-medicamentos/pediamecum/esmolol
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-VECURONIO
+  titulo: Vecuronium bromide for injection — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=582c7f44-b614-18df-e063-6294a90a74b6
+  anio: 2026
+  consultado: '2026-10-01'
+- id: FDA-ENALAPRILATO
+  titulo: Enalaprilat injection 1,25 mg/ml — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d398da1-020c-ccb1-a775-ce8e0b29d621
+  anio: 2024
+  consultado: '2026-10-01'
+- id: FDA-NACL-3
+  titulo: 3 % Sodium chloride injection (hipertónica) — Prescribing information
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a8058593-48af-457a-b0f0-166935c7d10c
+  anio: 2021
+  consultado: '2026-10-01'

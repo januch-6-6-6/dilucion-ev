@@ -1,0 +1,75 @@
+id: octreotido
+nombre: Octreótido
+comerciales: []
+grupo: protector-gastrico
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-0.1mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 0.1
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: '2: 0,1 mg/1 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Para uso IV, diluir en suero fisiológico. En perfusión IV continua no superar 50 mcg/h.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: 4.2; 4.4
+dosis:
+- indicacion: 'Varices esofágicas sangrantes (cirróticos): perfusión IV hasta 5 días'
+  poblacion: adulto
+  unidad: mcg/h
+  max: 50
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: '4.4: bolo de 50 mcg seguido de 50 mcg/h; no superar 50 mcg/h'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: 6.3 (no informa estabilidad de la dilución en este extracto)
+compatibilidad: []
+interaccionesGraves:
+- con: Betabloqueadores, antagonistas del calcio, fármacos del balance hidroelectrolítico
+  efecto: Puede requerir ajuste de sus dosis
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Dolor abdominal
+  - Náuseas
+  - Diarrea
+  graves:
+  - Bradicardia
+  - Colelitiasis
+  - Hiper o hipoglicemia
+  vigilar:
+  - FC
+  - Glicemia
+  fuente:
+    ref: CIMA-OCTREOTIDO
+    detalle: 4.8; 4.4
+alertas: []
+meta:
+  discrepancias:
+  - campo: indicación y fuente
+    valores:
+    - CIMA menciona la perfusión en varices solo como dato de tolerancia (no como indicación aprobada)
+    - Pucón 2022 no incluye octreótido
+    decision: Se registra con esa salvedad; confirmar protocolo local de hemorragia variceal.

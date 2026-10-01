@@ -1,0 +1,120 @@
+id: remifentanilo
+nombre: Remifentanilo
+comerciales: []
+grupo: analgesico-opioide
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: fa-1mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 1
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '2: tras reconstituir, 1 mg/ml'
+reconstitucion:
+  diluyente: Agua para inyectables o suero
+  volumenMl: 1
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '2: cada ml reconstituido contiene 1 mg'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMin:
+    valor: 20
+    unidad: mcg
+    fuente:
+      ref: CIMA-REMIFENTANILO
+      detalle: '4.2: diluir a 20–250 mcg/ml'
+  concentracionMax:
+    valor: 250
+    unidad: mcg
+    fuente:
+      ref: CIMA-REMIFENTANILO
+      detalle: '4.2: diluir a 20–250 mcg/ml'
+  estandar:
+  - descripcion: 1 mg en 20 ml (50 mcg/ml, recomendada en adultos)
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenFinalMl: 20
+    fuente:
+      ref: CIMA-REMIFENTANILO
+      detalle: '4.2: 50 mcg/ml es la dilución recomendada para adultos'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Solo IV, con bomba calibrada y vía conectada cerca de la cánula (mínimo espacio muerto). Bolo de no menos de 30 segundos.
+    Purgar la vía al terminar. Solo con soporte ventilatorio disponible.
+  requiereBomba: true
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.2'
+dosis:
+- indicacion: Inducción anestésica (perfusión)
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 0.5
+  max: 1
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.2: 0,5–1 mcg/kg/min'
+- indicacion: Bolo inicial opcional (≥ 30 s)
+  poblacion: adulto
+  unidad: mcg/kg
+  min: 1
+  max: 1
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.2: 1 mcg/kg'
+- indicacion: Mantención en paciente ventilado
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 0.05
+  max: 2
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.2: 0,05–2 mcg/kg/min'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: 6.3 (no informa estabilidad de la dilución en este extracto)
+compatibilidad: []
+interaccionesGraves:
+- con: Benzodiazepinas y otros depresores del SNC
+  efecto: Depresión respiratoria aditiva
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Hipotensión
+  - Bradicardia
+  graves:
+  - Depresión respiratoria y apnea
+  - Rigidez muscular
+  vigilar:
+  - Ventilación
+  - FC y PA
+  fuente:
+    ref: CIMA-REMIFENTANILO
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- 'Efecto muy corto: planificar la analgesia antes de suspender.'
+meta:
+  discrepancias:
+  - campo: dosis pediátrica y presentación
+    valores:
+    - 'CIMA: vial de 1 mg; en Chile existen viales de 2 y 5 mg'
+    - 'Pediamécum: pauta pediátrica según ficha técnica (1–12 años)'
+    decision: Sin dosis pediátrica en esta versión; confirmar presentación local.

@@ -1,0 +1,88 @@
+id: fitomenadiona
+nombre: Fitomenadiona (vitamina K1)
+comerciales: []
+grupo: hematologico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-10mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: '2: ampolla de 10 mg en 1 ml (Pucón: 10 mg/ml)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  concentracionMin:
+    valor: 1
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fitomenadiona: 1–2 mg/ml'
+  concentracionMax:
+    valor: 2
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fitomenadiona: 1–2 mg/ml'
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: IV lenta (al menos 30 segundos). La vía IV se reserva para cuando otras vías no son posibles.
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: '4.2'
+dosis:
+- indicacion: Hemorragia grave con anticoagulante cumarínico (con PFC o CCP)
+  poblacion: adulto
+  unidad: mg
+  min: 5
+  max: 10
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: '4.2: 5–10 mg IV lenta'
+- indicacion: INR 5–9 sin hemorragia grave (warfarina)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 1
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: '4.2 tabla: 0,5–1 mg IV'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad: []
+interaccionesGraves:
+- con: Anticoagulantes cumarínicos (acenocumarol, warfarina)
+  efecto: Antagoniza su efecto
+  fuente:
+    ref: CIMA-FITOMENADIONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Dolor en el sitio de inyección
+  graves:
+  - Reacciones anafilactoides con la vía IV
+  - Hipotensión
+  vigilar:
+  - PA durante la administración
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fitomenadiona: RAM'
+alertas:
+- En neonatos y menores de 1 año usar la presentación pediátrica de 2 mg/0,2 ml.
+meta:
+  discrepancias: []

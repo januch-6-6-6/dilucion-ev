@@ -1,0 +1,83 @@
+id: enalaprilato
+nombre: Enalaprilato
+comerciales: []
+grupo: antihipertensivo
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: vial-1.25mg-1ml
+  forma: vial 1,25 mg/ml
+  cantidad:
+    valor: 1.25
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Enalaprilat injection 1,25 mg/ml
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  texto: IV en 5 minutos. Respuesta en unos 15 minutos; efecto máximo de la 1.ª dosis hasta 4 h.
+  tiempoMinimoMin: 5
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Dosage and administration
+dosis:
+- indicacion: 'Hipertensión: cada 6 h'
+  poblacion: adulto
+  unidad: mg
+  min: 1.25
+  max: 5
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: 1,25 mg cada 6 h; hasta 5 mg cada 6 h
+- indicacion: 'Paciente con diuréticos: dosis inicial'
+  poblacion: adulto
+  unidad: mg
+  min: 0.625
+  max: 0.625
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: 0,625 mg
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Dosage and administration (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: Diuréticos
+  efecto: Hipotensión excesiva tras la primera dosis
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Drug interactions
+- con: AINE
+  efecto: Deterioro de la función renal; menor efecto antihipertensivo
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Drug interactions
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hipotensión
+  - Angioedema
+  - Hiperkalemia
+  vigilar:
+  - PA
+  - Potasio y creatinina
+  fuente:
+    ref: FDA-ENALAPRILATO
+    detalle: Warnings
+alertas: []
+meta:
+  discrepancias:
+  - campo: fuente
+    valores:
+    - No está en CIMA ni en Pucón
+    decision: Fuente FDA; confirmar disponibilidad en Chile.

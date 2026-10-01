@@ -1,0 +1,76 @@
+id: tiamina
+nombre: Tiamina (vitamina B1)
+comerciales: []
+grupo: metabolico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-100mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: '2: ampolla de 1 ml con 100 mg'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: IV lenta o perfusión corta. No mezclar con otros productos parenterales en la misma solución.
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: 4.2 Forma de administración
+dosis:
+- indicacion: Síndrome de Wernicke / urgencia (IV lenta, 3 días)
+  poblacion: adulto
+  unidad: mg
+  min: 100
+  max: 200
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: '4.2: 100 mg/día (200 mg si es necesario)'
+- indicacion: Beriberi grave, niños hasta 2 años (dosis inicial IV)
+  poblacion: pediatrico
+  unidad: mg
+  min: 25
+  max: 50
+  fuente:
+    ref: PEDIAMECUM-TIAMINA
+    detalle: 25–50 mg iniciales IV
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: 6.3 (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: 5-fluorouracilo, capecitabina, tegafur
+  efecto: Inhiben el efecto de la tiamina
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Reacciones anafilácticas (vía IV)
+  vigilar:
+  - Signos de alergia
+  fuente:
+    ref: CIMA-TIAMINA
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: fuente chilena
+    valores:
+    - Protocolo Pucón 2022 no incluye tiamina
+    decision: Ficha basada en CIMA y Pediamécum.

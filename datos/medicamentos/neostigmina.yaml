@@ -1,0 +1,70 @@
+id: neostigmina
+nombre: Neostigmina
+comerciales: []
+grupo: antidoto
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-0.5mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 0.5
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Neostigmina: 0,5 mg/1 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  texto: 'IV lenta, con atropina (0,6–1,2 mg) antes o al mismo tiempo en jeringa separada y disponible para bloquear efectos
+    muscarínicos. No requiere dilución (si se diluye: 0,167 mg/ml).'
+  fuente:
+    ref: CIMA-NEOSTIGMINA
+    detalle: '4.2'
+dosis:
+- indicacion: Reversión del bloqueo neuromuscular (repetir; total máx. 5 mg)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 2
+  maximaAbsoluta: 5
+  fuente:
+    ref: CIMA-NEOSTIGMINA
+    detalle: '4.2: 0,5–2 mg IV lenta'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-NEOSTIGMINA
+    detalle: 6.3 (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: Aminoglucósidos, anestésicos inhalatorios, lidocaína IV
+  efecto: Antagonizan su efecto
+  fuente:
+    ref: CIMA-NEOSTIGMINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Hiperperistaltismo
+  - Sialorrea
+  graves:
+  - Bradicardia
+  - Bloqueo AV y asistolia
+  vigilar:
+  - FC y ECG
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Neostigmina: RAM'
+alertas:
+- Tener atropina preparada.
+meta:
+  discrepancias: []

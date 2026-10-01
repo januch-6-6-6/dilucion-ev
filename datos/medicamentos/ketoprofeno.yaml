@@ -1,0 +1,110 @@
+id: ketoprofeno
+nombre: Ketoprofeno
+comerciales: []
+grupo: analgesico-no-opioide
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-100mg
+  forma: frasco ampolla
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-KETOPROFENO
+    detalle: 'Orudis 100 mg (ampolla de 2 ml; Pucón: ketoprofeno 100 mg FA)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMin:
+    valor: 1
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketoprofeno: 1 a 2 mg/ml'
+  concentracionMax:
+    valor: 2
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketoprofeno: 1 a 2 mg/ml'
+  estandar:
+  - descripcion: 100 mg en 100 ml (1 mg/ml)
+    cantidad:
+      valor: 100
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketoprofeno: habitual 100 mg/100 ml'
+  - descripcion: 300 mg en 250 ml (1,2 mg/ml), infusión continua
+    cantidad:
+      valor: 300
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketoprofeno: 300 mg/250 ml'
+administracion:
+  vias:
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'Solo en infusión diluida: en bolo es muy venoirritante (flebitis y dolor).'
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketoprofeno: la administración directa en bolo puede provocar flebitis'
+dosis:
+- indicacion: Dosis diaria (en 2 dosis, intervalo mínimo 6 h)
+  poblacion: adulto
+  unidad: mg/24 h
+  min: 100
+  max: 200
+  fuente:
+    ref: CIMA-KETOPROFENO
+    detalle: '4.2: 100–200 mg al día; máx. 200 mg/día'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Ketoprofeno (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: Otros AINE y salicilatos en dosis altas
+  efecto: Mayor riesgo de úlcera y hemorragia digestiva
+  fuente:
+    ref: CIMA-KETOPROFENO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Irritación gastrointestinal
+  - Cefalea
+  graves:
+  - Hemorragia digestiva (melena, hematemesis)
+  - Hematuria
+  vigilar:
+  - Signos de sangrado
+  - Función renal
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketoprofeno: RAM'
+alertas:
+- 'En la ficha técnica española la ampolla de 100 mg es solo para uso intramuscular: verificar que la presentación local esté
+  autorizada para vía EV.'
+meta:
+  discrepancias:
+  - campo: vía
+    valores:
+    - 'Pucón: infusión EV intermitente y continua'
+    - 'CIMA (Orudis): no debe administrarse por vía intravenosa'
+    decision: Se registra la preparación EV de Pucón con alerta; la dosis diaria se cita de CIMA. REVISAR PRIMERO.
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: no usar en menores de 3 años; sin dosis pediátrica'
+    decision: Sin dosis pediátrica.

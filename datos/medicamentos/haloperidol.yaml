@@ -1,0 +1,97 @@
+id: haloperidol
+nombre: Haloperidol
+comerciales: []
+grupo: antipsicotico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-5mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 5
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Haloperidol: 5 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  concentracionMin:
+    valor: 1
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Haloperidol: 1 a 5 mg/ml'
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Haloperidol: 1 a 5 mg/ml'
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  texto: Pucón permite EV directa e infusión; la ficha técnica española la autoriza solo IM. Por vía EV vigilar ECG (QT).
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Haloperidol: EV directa, infusión intermitente y continua'
+dosis:
+- indicacion: Síndrome confusional agudo (repetible cada 2–4 h)
+  poblacion: adulto
+  unidad: mg
+  min: 1
+  max: 10
+  fuente:
+    ref: CIMA-HALOPERIDOL
+    detalle: '4.2.1: 1–10 mg (vía IM en la ficha)'
+- indicacion: Agitación psicomotora grave (repetible cada hora; máx. 20 mg/día)
+  poblacion: adulto
+  unidad: mg
+  min: 5
+  max: 5
+  maximaAbsoluta: 20
+  fuente:
+    ref: CIMA-HALOPERIDOL
+    detalle: '4.2.1: 5 mg (vía IM en la ficha)'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Haloperidol (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves:
+- con: Fármacos que prolongan el QT (antiarrítmicos IA y III, otros)
+  efecto: 'Contraindicado: riesgo de arritmia'
+  fuente:
+    ref: CIMA-HALOPERIDOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Sedación
+  - Reacciones extrapiramidales (distonía)
+  graves:
+  - Prolongación del QT y torsade de pointes
+  - Síndrome neuroléptico maligno
+  - Hipotensión
+  vigilar:
+  - ECG
+  - Movimientos anormales
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Haloperidol: RAM'
+alertas:
+- 'Uso EV fuera de ficha técnica en España: requiere monitorización ECG.'
+meta:
+  discrepancias:
+  - campo: vía
+    valores:
+    - 'Pucón: EV directa, intermitente y continua'
+    - 'CIMA: solo intramuscular'
+    decision: Se registra la preparación EV de Pucón con alerta; dosis de CIMA (IM). REVISAR PRIMERO.

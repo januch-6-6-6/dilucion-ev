@@ -1,0 +1,92 @@
+id: omeprazol
+nombre: Omeprazol
+comerciales: []
+grupo: protector-gastrico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fa-40mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 40
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Omeprazol: 40 mg FA; reconstitución 10 ml de suero por 40 mg (4 mg/ml)'
+reconstitucion:
+  diluyente: Suero fisiológico
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Omeprazol: 10 ml de suero por 40 mg'
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 40 mg en 100 ml
+    cantidad:
+      valor: 40
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: CIMA-OMEPRAZOL
+      detalle: '6.6: disolver y diluir hasta 100 ml de SF o SG5 %'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: Perfusión IV de 20 a 30 minutos. Diluir solo en SF o SG5 % hasta 100 ml (el pH afecta su estabilidad). No administrar
+    otros medicamentos por la misma vía; lavar al terminar.
+  tiempoMinimoMin: 20
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: 4.2.2; 6.6
+dosis:
+- indicacion: Alternativa a la vía oral, una vez al día
+  poblacion: adulto
+  unidad: mg
+  min: 40
+  max: 40
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: '4.2.1: 40 mg una vez al día'
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: 6.3 (usar la solución preparada según 6.6)
+compatibilidad: []
+interaccionesGraves:
+- con: Clopidogrel
+  efecto: Posible reducción de su efecto; desaconsejado
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Dolor abdominal
+  - Diarrea
+  graves:
+  - Hipomagnesemia (uso prolongado)
+  - Reacciones de hipersensibilidad
+  vigilar: []
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: '4.8'
+alertas: []
+meta:
+  discrepancias:
+  - campo: dilución
+    valores:
+    - 'Pucón: «dilución 0,04 mg/ml» y «40 mg/100 ml» (0,4 mg/ml)'
+    - 'CIMA: 40 mg en 100 ml'
+    decision: Se registra 40 mg en 100 ml; el «0,04 mg/ml» de Pucón parece un error de tipeo.
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: sin datos IV en niños'
+    decision: Sin dosis pediátrica.

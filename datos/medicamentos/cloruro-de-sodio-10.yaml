@@ -1,0 +1,65 @@
+id: cloruro-de-sodio-10
+nombre: Cloruro de sodio 10 %
+comerciales: []
+grupo: electrolito
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-10pct-10ml
+  forma: ampolla 10 % (1 g)
+  cantidad:
+    valor: 17.1
+    unidad: mEq
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Cloruro de sodio 10 %: ampolla 10 ml; 10 g/100 ml = 1.710 mEq/L de sodio'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: EV directa solo en bolo por vía central. En infusión intermitente o continua, diluido según la necesidad y el objetivo
+    terapéutico; infusión intermitente en 15 a 30 minutos.
+  requiereViaCentral: true
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Cloruro de sodio 10 %
+dosis: []
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Cloruro de sodio 10 % (no informa estabilidad)
+compatibilidad: []
+interaccionesGraves: []
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hipernatremia
+  - Sobrecarga de volumen
+  - Mielinólisis osmótica por corrección rápida
+  vigilar:
+  - Balance de fluidos
+  - Electrolitos (sodio seriado)
+  - Estado ácido-base
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Cloruro de sodio 10 %: evaluar balance, electrolitos y ácido-base'
+alertas:
+- Medicamento de alto riesgo.
+- 'Solución hipertónica: no confundir con suero fisiológico.'
+- 'Las fuentes no indican dosis: seguir la indicación médica.'
+meta:
+  discrepancias:
+  - campo: dosis
+    valores:
+    - 'Pucón: «según necesidad y objetivo terapéutico», sin dosis'
+    decision: Ficha sin dosis.

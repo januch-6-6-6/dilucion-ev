@@ -1,0 +1,76 @@
+id: nimodipino
+nombre: Nimodipino
+comerciales: []
+grupo: antihipertensivo
+ambitos:
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-10mg-50ml
+  forma: frasco 0,2 mg/ml
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 50
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: '2: frasco de 50 ml con 10 mg'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_continua
+  texto: Infusión IV continua por catéter central con bomba, mediante llave de tres vías junto con otra solución. Proteger
+    de la luz.
+  requiereBomba: true
+  requiereViaCentral: true
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: 4.2.2
+dosis:
+- indicacion: Inicio (2 h), luego 2 mg/h si se tolera
+  poblacion: adulto
+  unidad: mg/h
+  min: 0.5
+  max: 2
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: '4.2.1: 1 mg/h 2 h, luego 2 mg/h; 0,5 mg/h si < 70 kg o PA inestable'
+sinDosisPediatrica: true
+estabilidad:
+  protegerLuz: true
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: '6.4: proteger de la luz; evitar luz solar directa durante la infusión'
+compatibilidad: []
+interaccionesGraves:
+- con: Cimetidina y ácido valproico
+  efecto: Aumentan la concentración de nimodipino
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Hipotensión
+  - Cefalea
+  - Rubor
+  graves:
+  - Hipotensión grave
+  - Flebitis
+  vigilar:
+  - PA
+  fuente:
+    ref: CIMA-NIMODIPINO
+    detalle: '4.8'
+alertas:
+- Contiene etanol.
+meta:
+  discrepancias:
+  - campo: pediatría y fuente chilena
+    valores:
+    - 'CIMA: no establecido en menores de 18 años'
+    - Pucón 2022 no incluye nimodipino
+    decision: Sin dosis pediátrica; ficha basada en CIMA.

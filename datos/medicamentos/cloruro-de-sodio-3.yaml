@@ -1,0 +1,64 @@
+id: cloruro-de-sodio-3
+nombre: Cloruro de sodio 3 % (hipertónico)
+comerciales: []
+grupo: electrolito
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: bolsa-3pct-500ml
+  forma: bolsa 3 % (500 ml)
+  cantidad:
+    valor: 256.5
+    unidad: mEq
+  volumenMl: 500
+  fuente:
+    ref: FDA-NACL-3
+    detalle: 500 ml; 513 mEq/L de sodio (15 g de NaCl)
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  - infusion_continua
+  texto: Dosis, velocidad y duración individualizadas según indicación, peso y controles de laboratorio. Usar inmediatamente
+    tras abrir; descartar lo no usado.
+  requiereBomba: true
+  fuente:
+    ref: FDA-NACL-3
+    detalle: Dosage and administration
+dosis: []
+sinDosisPediatrica: true
+estabilidad:
+  fuente:
+    ref: FDA-NACL-3
+    detalle: Usar inmediatamente tras abrir el envase
+compatibilidad: []
+interaccionesGraves: []
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hipernatremia
+  - Mielinólisis osmótica por corrección rápida
+  - Sobrecarga de volumen
+  vigilar:
+  - Sodio seriado
+  - Estado neurológico
+  - Balance hídrico
+  fuente:
+    ref: FDA-NACL-3
+    detalle: Description; Dosage and administration
+alertas:
+- Medicamento de alto riesgo.
+- 'Las fuentes no indican dosis: seguir el protocolo de hiponatremia de la institución.'
+meta:
+  discrepancias:
+  - campo: fuente chilena y preparación
+    valores:
+    - No se encontró fuente chilena para NaCl 3 %
+    - En Chile suele prepararse a partir de NaCl 10 %; no hay receta citable
+    decision: Ficha con la presentación comercial de FDA; sin dosis ni receta de preparación.

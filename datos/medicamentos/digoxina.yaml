@@ -1,0 +1,104 @@
+id: digoxina
+nombre: Digoxina
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-0.5mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 0.5
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '2: ampolla de 2 ml con 0,5 mg (0,25 mg/ml)'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 0,5 mg en 500 ml
+    cantidad:
+      valor: 0.5
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-DIGOXINA
+      detalle: 'Dilución: ampolla de 2 ml (500 mcg) en 500 ml; estable 48 h'
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'Cada dosis en infusión IV de 10 a 20 minutos. La carga se divide: la mitad primero y el resto cada 4–8 h según respuesta.
+    Reducir la dosis al menos 33 % al pasar de oral a IV.'
+  tiempoMinimoMin: 10
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.2'
+dosis:
+- indicacion: Dosis de carga IV total (dividida)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 1
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.2: 0,5–1 mg según edad, peso y función renal'
+- indicacion: Carga IV en 24 h, niños 2–5 años (dividida)
+  poblacion: pediatrico
+  unidad: mcg/kg/24 h
+  max: 35
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.2: 35 mcg/kg en 24 h'
+- indicacion: Carga IV en 24 h, niños 5–10 años (dividida)
+  poblacion: pediatrico
+  unidad: mcg/kg/24 h
+  max: 25
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.2: 25 mcg/kg en 24 h'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 48
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: 'Dilución: estable hasta 48 h a temperatura ambiente'
+compatibilidad: []
+interaccionesGraves:
+- con: Amiodarona y otros (quinidina, propafenona, espironolactona)
+  efecto: 'Aumentan la digoxinemia: toxicidad'
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.5'
+- con: Calcio IV
+  efecto: Arritmias sinérgicas
+  fuente:
+    ref: FDA-GLUCONATO-CALCIO
+    detalle: '7.1'
+efectosAdversos:
+  frecuentes:
+  - Náuseas
+  - Anorexia
+  graves:
+  - Arritmias por toxicidad digitálica
+  - Bloqueo AV
+  - Alteraciones visuales
+  vigilar:
+  - FC y ECG
+  - Potasio
+  - Digoxinemia
+  - Función renal
+  fuente:
+    ref: CIMA-DIGOXINA
+    detalle: '4.8'
+alertas:
+- Medicamento de alto riesgo.
+- La hipokalemia aumenta la toxicidad.
+meta:
+  discrepancias: []

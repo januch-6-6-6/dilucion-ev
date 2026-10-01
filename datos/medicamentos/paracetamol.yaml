@@ -1,0 +1,100 @@
+id: paracetamol
+nombre: Paracetamol
+comerciales: []
+grupo: analgesico-no-opioide
+ambitos:
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: fco-1g-100ml
+  forma: frasco 10 mg/ml
+  cantidad:
+    valor: 1
+    unidad: g
+  volumenMl: 100
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Paracetamol: 10 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - infusion_intermitente
+  texto: 'No requiere dilución. Infusión de 15 minutos (Pucón: 15 a 30 min). El volumen y el frasco dependen del peso: no
+    superar la dosis calculada.'
+  tiempoMinimoMin: 15
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Paracetamol: no requiere dilución; administrar en 15–30 minutos'
+dosis:
+- indicacion: '> 50 kg: cada 6 h (máx. 4 g/día)'
+  poblacion: adulto
+  unidad: g
+  min: 1
+  max: 1
+  maximaAbsoluta: 4
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: '4.2.1: 1 g por administración'
+- indicacion: '33–50 kg: cada 6 h (máx. 60 mg/kg/día, sin exceder 3 g)'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 15
+  max: 15
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: '4.2.1: 15 mg/kg'
+- indicacion: 'Niños > 10 kg hasta 33 kg: cada 6 h (máx. 60 mg/kg/día, sin exceder 2 g)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 15
+  max: 15
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: '4.2.1: 15 mg/kg'
+- indicacion: 'Lactantes ≤ 10 kg: cada 6 h (máx. 30 mg/kg/día)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 7.5
+  max: 7.5
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: '4.2.1: 7,5 mg/kg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: 6.3 (usar tras abrir)
+compatibilidad: []
+interaccionesGraves:
+- con: Probenecid
+  efecto: Reduce casi a la mitad el aclaramiento de paracetamol
+  fuente:
+    ref: CIMA-PARACETAMOL
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hepatotoxicidad por sobredosis
+  - Hipotensión
+  vigilar:
+  - Dosis acumulada diaria
+  - Función hepática
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Paracetamol: RAM'
+alertas:
+- 'Riesgo de sobredosis por error de volumen en niños: calcular por peso.'
+- 'Antídoto: acetilcisteína.'
+meta:
+  discrepancias: []
