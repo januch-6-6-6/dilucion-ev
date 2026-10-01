@@ -43,6 +43,8 @@ describe('velocidadPorDosis', () => {
 describe('dosisAVelocidad', () => {
   it('noradrenalina 0,1 mcg/kg/min, 70 kg, 16 mcg/ml = 26,3 ml/h', () =>
     expect(valor(dosisAVelocidad({ pesoKg: 70, dosis: { valor: 0.1, unidad: 'mcg', tiempo: 'min' }, concentracionPorMl: { valor: 16, unidad: 'mcg' } }))).toBe(26.3))
+  it('redondeo half-up sin ruido acumulado: 0,15 mcg/kg/min, 46 kg, 40 mcg/ml = 10,4 ml/h', () =>
+    expect(valor(dosisAVelocidad({ pesoKg: 46, dosis: { valor: 0.15, unidad: 'mcg', tiempo: 'min' }, concentracionPorMl: { valor: 40, unidad: 'mcg' } }))).toBe(10.4))
   it('midazolam 0,05 mg/kg/h, 80 kg, 1 mg/ml = 4 ml/h', () =>
     expect(valor(dosisAVelocidad({ pesoKg: 80, dosis: { valor: 0.05, unidad: 'mg', tiempo: 'h' }, concentracionPorMl: { valor: 1, unidad: 'mg' } }))).toBe(4))
   it('sin peso dice qué falta', () =>
