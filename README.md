@@ -2,6 +2,8 @@
 
 Aplicación web instalable (PWA) para **preparar y administrar medicamentos endovenosos usados en Chile**: presentaciones, dilución, velocidad de infusión, compatibilidad en Y, interacciones graves, efectos adversos y calculadoras de dosis (ml/h, gotas/min, dosis por peso y pediatría con tope).
 
+**App publicada:** https://januch-6-6-6.github.io/dilucion-ev/ (se puede instalar en el celular y funciona sin internet).
+
 > **Material de formación. No reemplaza el protocolo local ni la indicación médica. Verifique siempre con la fuente y la normativa de su institución.**
 
 ## Qué la hace distinta
