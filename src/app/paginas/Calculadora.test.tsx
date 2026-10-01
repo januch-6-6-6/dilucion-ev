@@ -76,4 +76,50 @@ describe('Calculadora', () => {
     expect(screen.getByRole('status')).toHaveTextContent('6 ml')
     expect(screen.getByRole('status')).toHaveTextContent('2 ampolla')
   })
+
+  it('cambiar la unidad de dosis no reetiqueta la concentración (fentanilo)', async () => {
+    montar(obtenerFicha('fentanilo')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis → velocidad' }))
+    expect(screen.getByLabelText('Concentración')).toHaveValue('10')
+    expect(screen.getByLabelText('Unidad de concentración')).toHaveValue('mcg')
+    await userEvent.selectOptions(screen.getByLabelText('Unidad de dosis'), 'mg/kg/h')
+    expect(screen.getByLabelText('Unidad de concentración')).toHaveValue('mcg')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '70')
+    await userEvent.type(screen.getByLabelText('Dosis'), '0,001')
+    expect(screen.getByRole('status')).toHaveTextContent('7 ml/h')
+  })
+
+  it('pediátrica en bolo avisa si la dosis por kg supera el máximo de la ficha', async () => {
+    montar(obtenerFicha('fentanilo')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '20')
+    const porKg = screen.getByLabelText('Dosis por kg (mcg/kg)')
+    await userEvent.clear(porKg)
+    await userEvent.type(porKg, '20')
+    expect(screen.getByRole('alert')).toHaveTextContent('supera la dosis máxima')
+  })
+
+  it('pediátrica: elegir una infusión no oculta las opciones en bolo', async () => {
+    montar(obtenerFicha('ketamina')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    await userEvent.selectOptions(screen.getByLabelText('Indicación'), 'Sedación: infusión')
+    const opciones = Array.from((screen.getByLabelText('Indicación') as HTMLSelectElement).options).map((o) => o.text)
+    expect(opciones).toContain('Inducción de anestesia (bolo)')
+    expect(screen.getByLabelText('Peso (kg)')).toBeInTheDocument()
+  })
+
+  it('velocidad por dosis convierte mcg/min a ml/h (noradrenalina)', async () => {
+    montar(obtenerFicha('noradrenalina')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Velocidad por dosis' }))
+    await userEvent.selectOptions(screen.getByLabelText('Indicación'), 'Dosis inicial y mantención (adulto)')
+    await userEvent.type(screen.getByLabelText('Dosis'), '8')
+    expect(screen.getByRole('status')).toHaveTextContent('12 ml/h')
+  })
+
+  it('velocidad por dosis avisa fuera de rango (morfina 10 mg/h)', async () => {
+    montar(obtenerFicha('morfina')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Velocidad por dosis' }))
+    await userEvent.type(screen.getByLabelText('Dosis'), '10')
+    expect(screen.getByRole('alert')).toHaveTextContent('supera la dosis máxima')
+  })
 })

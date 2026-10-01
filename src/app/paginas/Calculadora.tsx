@@ -175,84 +175,118 @@ function ModoTiempo({ ficha }: { ficha?: Ficha }) {
   )
 }
 
-function ModoPorDosis({ ficha }: { ficha?: Ficha }) {
-  const [iDil, setIDil] = useState(0)
-  const [unidad, setUnidad] = useState<UnidadMasa>(ficha?.dilucion.estandar[0]?.cantidad.unidad ?? 'mg')
-  const [dosis, setDosis] = useState('')
-  const [conc, setConc] = useState(concentracionEstandar(ficha, 0, unidad))
-  const r = velocidadPorDosis({ valor: num(dosis), unidad }, { valor: num(conc), unidad })
+/** Campo de concentración con su propia unidad: cambiar la unidad de la dosis nunca la reetiqueta. */
+function CampoConcentracion({ valor, unidad, onValor, onUnidad }: { valor: string; unidad: UnidadMasa; onValor: (v: string) => void; onUnidad: (u: UnidadMasa) => void }) {
   return (
     <>
-      <SelectorDilucion ficha={ficha} indice={iDil} onCambio={(i) => { setIDil(i); setConc(concentracionEstandar(ficha, i, unidad)) }} />
-      <Campo etiqueta="Dosis por hora" valor={dosis} onCambio={setDosis} />
-      <SelectorUnidad etiqueta="Unidad" valor={unidad} onCambio={(u) => { setUnidad(u); setConc(concentracionEstandar(ficha, iDil, u)) }} />
-      <Campo etiqueta="Concentración" valor={conc} onCambio={setConc} />
-      <Salida r={r} texto={(v) => `${fmt(v)} ml/h`} />
+      <Campo etiqueta="Concentración" valor={valor} onCambio={onValor} />
+      <SelectorUnidad etiqueta="Unidad de concentración" valor={unidad} onCambio={onUnidad} />
+      <p className="unidad">{unidad}/ml</p>
+    </>
+  )
+}
+
+const tiempoDe = (u: string) => parsearUnidadDosis(u)?.tiempo ?? null
+const esTasaSinPeso = (d: Dosis) => { const u = parsearUnidadDosis(d.unidad); return Boolean(u && !u.porKg && u.tiempo) }
+const esTasaPorPeso = (d: Dosis) => { const u = parsearUnidadDosis(d.unidad); return Boolean(u && u.porKg && u.tiempo) }
+
+function ModoPorDosis({ ficha }: { ficha?: Ficha }) {
+  const opciones = (ficha?.dosis ?? []).filter((d) => d.poblacion === 'adulto' && esTasaSinPeso(d))
+  const [iOp, setIOp] = useState(0)
+  const actual = opciones[iOp] as Dosis | undefined
+  const [masaLibre, setMasaLibre] = useState<UnidadMasa>(ficha?.dilucion.estandar[0]?.cantidad.unidad ?? 'mg')
+  const [tiempoLibre, setTiempoLibre] = useState<'min' | 'h'>('h')
+  const masa = actual ? parsearUnidadDosis(actual.unidad)!.masa : masaLibre
+  const tiempo = actual ? tiempoDe(actual.unidad)! : tiempoLibre
+  const [iDil, setIDil] = useState(0)
+  const [dosis, setDosis] = useState('')
+  const [concUnidad, setConcUnidad] = useState<UnidadMasa>(masa)
+  const [conc, setConc] = useState(concentracionEstandar(ficha, 0, masa))
+  const factor = tiempo === 'min' ? 60 : 1
+  const r = velocidadPorDosis({ valor: num(dosis) * factor, unidad: masa }, { valor: num(conc), unidad: concUnidad })
+  const alertas = r.ok ? [...(actual ? alertaDosis(num(dosis), actual.unidad, actual) : []), ...seguro(() => alertaConcentracion({ valor: num(conc), unidad: concUnidad }, ficha?.dilucion.concentracionMax))] : []
+  return (
+    <>
+      {opciones.length > 0 ? (
+        <label className="campo">
+          <span>Indicación</span>
+          <select aria-label="Indicación" value={iOp} onChange={(e) => setIOp(Number(e.target.value))}>
+            {opciones.map((d, i) => (
+              <option key={d.indicacion} value={i}>{d.indicacion}</option>
+            ))}
+          </select>
+        </label>
+      ) : (
+        <>
+          <SelectorUnidad etiqueta="Unidad de la dosis" valor={masaLibre} onCambio={setMasaLibre} />
+          <label className="campo">
+            <span>Por</span>
+            <select aria-label="Por" value={tiempoLibre} onChange={(e) => setTiempoLibre(e.target.value as 'min' | 'h')}>
+              <option value="h">hora</option>
+              <option value="min">minuto</option>
+            </select>
+          </label>
+        </>
+      )}
+      <SelectorDilucion ficha={ficha} indice={iDil} onCambio={(i) => { setIDil(i); setConc(concentracionEstandar(ficha, i, concUnidad)) }} />
+      <Campo etiqueta="Dosis" valor={dosis} onCambio={setDosis} />
+      <p className="unidad">Unidad: {masa}/{tiempo}</p>
+      <CampoConcentracion valor={conc} unidad={concUnidad} onValor={setConc} onUnidad={(u) => { setConcUnidad(u); setConc(concentracionEstandar(ficha, iDil, u)) }} />
+      <Salida r={r} alertas={alertas} texto={(v) => `${fmt(v)} ml/h`} />
     </>
   )
 }
 
 const UNIDADES_LIBRES = ['mcg/kg/min', 'mcg/kg/h', 'mg/kg/min', 'mg/kg/h']
 
-function useIndicacion(ficha: Ficha | undefined, poblacion: Dosis['poblacion']) {
-  const opciones = useMemo(
-    () => (ficha?.dosis ?? []).filter((d) => d.poblacion === poblacion && parsearUnidadDosis(d.unidad)?.porKg && parsearUnidadDosis(d.unidad)?.tiempo),
-    [ficha, poblacion],
-  )
-  const [i, setI] = useState(0)
-  return { opciones, actual: opciones[i] as Dosis | undefined, setI }
-}
-
-function ModoDosisVelocidad({ ficha, inverso = false, poblacion = 'adulto' }: { ficha?: Ficha; inverso?: boolean; poblacion?: Dosis['poblacion'] }) {
-  const { opciones, actual, setI } = useIndicacion(ficha, poblacion)
+function ModoDosisVelocidad({ ficha, inverso = false, indicacionFija }: { ficha?: Ficha; inverso?: boolean; indicacionFija?: Dosis }) {
+  const opciones = useMemo(() => (ficha?.dosis ?? []).filter((d) => d.poblacion === 'adulto' && esTasaPorPeso(d)), [ficha])
+  const [iOp, setIOp] = useState(0)
+  const actual = indicacionFija ?? (opciones[iOp] as Dosis | undefined)
   const [unidadLibre, setUnidadLibre] = useState(UNIDADES_LIBRES[0])
   const ud = parsearUnidadDosis(actual?.unidad ?? unidadLibre)!
+  const tiempo = ud.tiempo ?? 'min'
   const [iDil, setIDil] = useState(0)
   const [peso, setPeso] = useState('')
   const [dosis, setDosis] = useState('')
   const [mlh, setMlh] = useState('')
+  const [concUnidad, setConcUnidad] = useState<UnidadMasa>(ud.masa)
   const [conc, setConc] = useState(concentracionEstandar(ficha, 0, ud.masa))
-  const concentracionPorMl: Cantidad = { valor: num(conc), unidad: ud.masa }
-  const tiempo = ud.tiempo ?? 'min'
+  const concentracionPorMl: Cantidad = { valor: num(conc), unidad: concUnidad }
   const r = inverso
     ? velocidadADosis({ pesoKg: num(peso), mlh: num(mlh), concentracionPorMl, unidadSalida: ud.masa, tiempo })
     : dosisAVelocidad({ pesoKg: num(peso), dosis: { valor: num(dosis), unidad: ud.masa, tiempo }, concentracionPorMl })
   const dosisEvaluada = inverso ? (r.ok ? (r.valor as number) : 0) : num(dosis)
   const alertas = r.ok
-    ? [
-        ...(actual ? alertaDosis(dosisEvaluada, actual.unidad, actual) : []),
-        ...seguro(() => alertaConcentracion(concentracionPorMl, ficha?.dilucion.concentracionMax)),
-      ]
+    ? [...(actual ? alertaDosis(dosisEvaluada, actual.unidad, actual) : []), ...seguro(() => alertaConcentracion(concentracionPorMl, ficha?.dilucion.concentracionMax))]
     : []
   return (
     <>
-      {opciones.length > 0 ? (
-        <label className="campo">
-          <span>Indicación</span>
-          <select aria-label="Indicación" onChange={(e) => { const i = Number(e.target.value); setI(i); const u = parsearUnidadDosis(opciones[i].unidad)!; setConc(concentracionEstandar(ficha, iDil, u.masa)) }}>
-            {opciones.map((d, i) => (
-              <option key={d.indicacion} value={i}>
-                {d.indicacion}
-              </option>
-            ))}
-          </select>
-        </label>
-      ) : (
-        <label className="campo">
-          <span>Unidad de dosis</span>
-          <select aria-label="Unidad de dosis" value={unidadLibre} onChange={(e) => setUnidadLibre(e.target.value)}>
-            {UNIDADES_LIBRES.map((u) => (
-              <option key={u}>{u}</option>
-            ))}
-          </select>
-        </label>
-      )}
-      <SelectorDilucion ficha={ficha} indice={iDil} onCambio={(i) => { setIDil(i); setConc(concentracionEstandar(ficha, i, ud.masa)) }} />
+      {!indicacionFija &&
+        (opciones.length > 0 ? (
+          <label className="campo">
+            <span>Indicación</span>
+            <select aria-label="Indicación" value={iOp} onChange={(e) => setIOp(Number(e.target.value))}>
+              {opciones.map((d, i) => (
+                <option key={d.indicacion} value={i}>{d.indicacion}</option>
+              ))}
+            </select>
+          </label>
+        ) : (
+          <label className="campo">
+            <span>Unidad de dosis</span>
+            <select aria-label="Unidad de dosis" value={unidadLibre} onChange={(e) => setUnidadLibre(e.target.value)}>
+              {UNIDADES_LIBRES.map((u) => (
+                <option key={u}>{u}</option>
+              ))}
+            </select>
+          </label>
+        ))}
+      <SelectorDilucion ficha={ficha} indice={iDil} onCambio={(i) => { setIDil(i); setConc(concentracionEstandar(ficha, i, concUnidad)) }} />
       <Campo etiqueta="Peso (kg)" valor={peso} onCambio={setPeso} />
       {inverso ? <Campo etiqueta="Velocidad (ml/h)" valor={mlh} onCambio={setMlh} /> : <Campo etiqueta="Dosis" valor={dosis} onCambio={setDosis} />}
       <p className="unidad">Unidad: {actual?.unidad ?? unidadLibre}</p>
-      <Campo etiqueta="Concentración" valor={conc} onCambio={setConc} />
-      <p className="unidad">{ud.masa}/ml</p>
+      <CampoConcentracion valor={conc} unidad={concUnidad} onValor={setConc} onUnidad={(u) => { setConcUnidad(u); setConc(concentracionEstandar(ficha, iDil, u)) }} />
       <Salida r={r} alertas={alertas} texto={(v) => (inverso ? `${fmt(v as number)} ${ud.masa}/kg/${tiempo}` : `${fmt(v as number)} ml/h`)} />
     </>
   )
@@ -262,37 +296,35 @@ function ModoPediatrico({ ficha }: { ficha?: Ficha }) {
   const opciones = (ficha?.dosis ?? []).filter((d) => d.poblacion === 'pediatrico')
   const [i, setI] = useState(0)
   const [peso, setPeso] = useState('')
-  const d = opciones[i]
+  const d = opciones[i] as Dosis | undefined
   const ud = d ? parsearUnidadDosis(d.unidad) : null
   const [porKg, setPorKg] = useState(d ? fmt(d.max ?? d.min ?? 0) : '')
 
-  if (!ficha || ficha.sinDosisPediatrica || opciones.length === 0) {
+  if (!ficha || ficha.sinDosisPediatrica || !d) {
     return <p className="sin-datos">sin dosis pediátrica en la fuente</p>
   }
-  if (ud?.porKg && ud.tiempo) return <ModoDosisVelocidad ficha={ficha} poblacion="pediatrico" />
 
   const selector = (
     <label className="campo">
       <span>Indicación</span>
       <select aria-label="Indicación" value={i} onChange={(e) => { const j = Number(e.target.value); setI(j); setPorKg(fmt(opciones[j].max ?? opciones[j].min ?? 0)) }}>
         {opciones.map((o, j) => (
-          <option key={o.indicacion} value={j}>
-            {o.indicacion}
-          </option>
+          <option key={o.indicacion} value={j}>{o.indicacion}</option>
         ))}
       </select>
     </label>
   )
+  if (ud?.porKg && ud.tiempo) return <>{selector}<ModoDosisVelocidad key={i} ficha={ficha} indicacionFija={d} /></>
   if (!ud?.porKg) return <>{selector}<p className="sin-datos">Esta dosis no se calcula por peso: {d.unidad}.</p></>
 
   const dosisPorKg: Cantidad = { valor: num(porKg), unidad: ud.masa }
-  const r = d.topeAdulto
-    ? dosisPediatrica({ pesoKg: num(peso), dosisPorKg, topeAdulto: d.topeAdulto })
-    : dosisPediatrica({ pesoKg: num(peso), dosisPorKg, topeAdulto: { valor: Number.MAX_SAFE_INTEGER, unidad: ud.masa } })
-  const alertas: Alerta[] =
-    r.ok && r.valor.limitada && d.topeAdulto
-      ? [{ nivel: 'rojo', mensaje: `Dosis limitada a la dosis tope (${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad}).` }]
-      : []
+  const r = dosisPediatrica({ pesoKg: num(peso), dosisPorKg, topeAdulto: d.topeAdulto ?? { valor: Number.MAX_SAFE_INTEGER, unidad: ud.masa } })
+  const alertas: Alerta[] = r.ok
+    ? [
+        ...alertaDosis(num(porKg), d.unidad, d),
+        ...(r.valor.limitada && d.topeAdulto ? [{ nivel: 'rojo' as const, mensaje: `Dosis limitada a la dosis tope (${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad}).` }] : []),
+      ]
+    : []
   return (
     <>
       {selector}
