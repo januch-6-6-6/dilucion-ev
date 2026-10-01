@@ -3,7 +3,7 @@
 **Fecha de consulta de fuentes:** 2026-10-01
 **Medicamentos (10):** adrenalina, noradrenalina, amiodarona, atropina, adenosina,
 midazolam, fentanilo, morfina, ketamina, sulfato de magnesio.
-**Estado:** pendiente de revisión clínica (Héctor Salvo Agüero, TENS).
+**Estado:** revisión clínica parcial (Héctor Salvo Agüero, TENS, 2026-10-01): resueltos noradrenalina y adenosina; fentanilo en adultos pendiente de fuente chilena de urgencia.
 
 Las fichas están en `datos/medicamentos/` y se generan con
 `python3 scripts/generar-tanda1.py datos/crudos/stabilis-y-2026-10-01.json`.
@@ -59,6 +59,14 @@ Fuentes buscadas que no se pudieron usar:
 7. **Adrenalina y noradrenalina en SF:** Stabilis las da como compatibles, pero FDA
    no recomienda diluirlas solo en SF (pérdida de potencia por oxidación). Se
    indica en el texto de administración.
+
+## Revisión clínica (2026-10-01)
+
+| Punto | Decisión de Héctor | Cambio en las fichas |
+|---|---|---|
+| Noradrenalina, presentación | Ampolla 4 mg/4 ml | Se mantiene; sigue pendiente verificar si el rotulado chileno es base o sal. |
+| Adenosina, dosis adulto | 6 mg → 12 mg | Dosis cambiada a 6–12 mg, citando la etiqueta FDA (FDA-ADENOSINA). |
+| Fentanilo, adulto en urgencia | Usar un protocolo de urgenciólogos chilenos (p. ej., «MUD») | Sin dosis hasta conseguir esa fuente. Se buscó en internet sin encontrarla publicada; el protocolo de dolor de Coquimbo solo trae dosis pediátricas (1–2 mcg/kg, igual que Pediamécum). |
 
 ## Para la revisión clínica
 

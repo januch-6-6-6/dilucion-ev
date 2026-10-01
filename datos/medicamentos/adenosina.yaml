@@ -29,14 +29,14 @@ administracion:
     ref: PUCON-2022
     detalle: Anexo 6, Adenosina
 dosis:
-- indicacion: 'TPSV: 3 mg, luego 6 mg y 12 mg si no cede en 1–2 min'
+- indicacion: 'TPSV: 6 mg en bolo rápido; si no cede en 1–2 min, 12 mg'
   poblacion: adulto
   unidad: mg
-  min: 3
+  min: 6
   max: 12
   fuente:
-    ref: CIMA-ADENOSINA
-    detalle: 4.2 Dosis terapéutica adultos
+    ref: FDA-ADENOSINA
+    detalle: 'Adult patients: initial dose 6 mg; repeat 12 mg'
 - indicacion: 'TPSV: primer bolo (incrementos de 0,1 mg/kg hasta máx. 12 mg)'
   poblacion: pediatrico
   unidad: mg/kg
@@ -140,5 +140,5 @@ meta:
   - campo: dosis adulto
     valores:
     - 'CIMA: primera dosis 3 mg, luego 6 mg y 12 mg'
-    - Protocolos de reanimación de uso habitual parten con 6 mg
-    decision: Se registra el esquema de CIMA (más conservador); revisar con el protocolo local.
+    - 'FDA y práctica chilena: 6 mg, luego 12 mg'
+    decision: 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): se usa 6 → 12 mg, respaldado por la etiqueta FDA.'

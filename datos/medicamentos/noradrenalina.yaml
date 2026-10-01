@@ -194,4 +194,5 @@ meta:
     valores:
     - CIMA expresa la dosis como noradrenalina base (1 mg de bitartrato = 0,5 mg de base)
     - 'FDA: ampolla 4 mg/4 ml = 4 mg de base'
-    decision: Se asume ampolla chilena 4 mg/4 ml expresada como base; verificar el rotulado del producto local.
+    decision: Presentación 4 mg/4 ml confirmada en revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01). Se asume expresada
+      como base; verificar el rotulado del producto local.

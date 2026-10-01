@@ -65,6 +65,14 @@ fuentes = [
         'anio': 2025,
         'consultado': CONSULTA,
     },
+    {
+        'id': 'FDA-ADENOSINA',
+        'titulo': 'Adenosine injection — Prescribing information (Dosage and administration, adult patients)',
+        'institucion': 'U.S. FDA / DailyMed',
+        'url': 'https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=296af833-5724-3e23-e063-6394a90a6251',
+        'anio': 2024,
+        'consultado': CONSULTA,
+    },
 ]
 for k, (nreg, nombre) in CIMA.items():
     fuentes.append({
@@ -187,7 +195,7 @@ def fichas(stab):
         ],
         'efectosAdversos': {'frecuentes': ['Cefalea', 'Ansiedad'], 'graves': ['Hipertensión', 'Arritmia', 'Bradicardia o taquicardia', 'Dificultad respiratoria'], 'vigilar': ['Presión arterial cada 2–5 min', 'Sitio de infusión'], 'fuente': P('Anexo 6, Norepinefrina: RAM')},
         'alertas': ['Medicamento de alto riesgo.', 'Incompatible en Y con sulfato de magnesio.'],
-        'meta': meta([{'campo': 'presentaciones / dosis', 'valores': ['CIMA expresa la dosis como noradrenalina base (1 mg de bitartrato = 0,5 mg de base)', 'FDA: ampolla 4 mg/4 ml = 4 mg de base'], 'decision': 'Se asume ampolla chilena 4 mg/4 ml expresada como base; verificar el rotulado del producto local.'}]),
+        'meta': meta([{'campo': 'presentaciones / dosis', 'valores': ['CIMA expresa la dosis como noradrenalina base (1 mg de bitartrato = 0,5 mg de base)', 'FDA: ampolla 4 mg/4 ml = 4 mg de base'], 'decision': 'Presentación 4 mg/4 ml confirmada en revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01). Se asume expresada como base; verificar el rotulado del producto local.'}]),
     }
 
     F['amiodarona'] = {
@@ -253,7 +261,7 @@ def fichas(stab):
         'reconstitucion': None,
         'dilucion': {'sueros': [], 'estandar': []},
         'administracion': {'vias': ['bolo'], 'texto': 'Bolo IV rápido sin diluir (1–2 s), lo más proximal posible, seguido de 10 ml de SF en bolo por llave de 3 pasos. Con monitorización ECG continua.', 'fuente': P('Anexo 6, Adenosina')},
-        'dosis': [{'indicacion': 'TPSV: 3 mg, luego 6 mg y 12 mg si no cede en 1–2 min', 'poblacion': 'adulto', 'unidad': 'mg', 'min': 3, 'max': 12, 'fuente': C('adenosina', '4.2 Dosis terapéutica adultos')},
+        'dosis': [{'indicacion': 'TPSV: 6 mg en bolo rápido; si no cede en 1–2 min, 12 mg', 'poblacion': 'adulto', 'unidad': 'mg', 'min': 6, 'max': 12, 'fuente': fu('FDA-ADENOSINA', 'Adult patients: initial dose 6 mg; repeat 12 mg')},
                   {'indicacion': 'TPSV: primer bolo (incrementos de 0,1 mg/kg hasta máx. 12 mg)', 'poblacion': 'pediatrico', 'unidad': 'mg/kg', 'max': 0.1, 'topeAdulto': {'valor': 6, 'unidad': 'mg'}, 'fuente': C('adenosina', '4.2 Población pediátrica: 0,1 mg/kg, primer bolo máx. 6 mg')}],
         'sinDosisPediatrica': False,
         'estabilidad': {'fuente': C('adenosina', '6.3: utilizar inmediatamente tras abrir')},
@@ -264,7 +272,7 @@ def fichas(stab):
         ],
         'efectosAdversos': {'frecuentes': ['Sofoco', 'Náuseas', 'Mareos', 'Cefalea', 'Sabor metálico'], 'graves': ['Dolor torácico'], 'vigilar': ['Monitorización ECG continua'], 'fuente': P('Anexo 6, Adenosina: RAM y precauciones')},
         'alertas': ['Tener equipo de reanimación disponible durante la administración.'],
-        'meta': meta([{'campo': 'dosis adulto', 'valores': ['CIMA: primera dosis 3 mg, luego 6 mg y 12 mg', 'Protocolos de reanimación de uso habitual parten con 6 mg'], 'decision': 'Se registra el esquema de CIMA (más conservador); revisar con el protocolo local.'}]),
+        'meta': meta([{'campo': 'dosis adulto', 'valores': ['CIMA: primera dosis 3 mg, luego 6 mg y 12 mg', 'FDA y práctica chilena: 6 mg, luego 12 mg'], 'decision': 'Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-01): se usa 6 → 12 mg, respaldado por la etiqueta FDA.'}]),
     }
 
     F['midazolam'] = {
