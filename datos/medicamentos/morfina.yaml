@@ -1,0 +1,199 @@
+id: morfina
+nombre: Morfina
+comerciales: []
+grupo: analgesico-opioide
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: true
+presentaciones:
+- id: amp-10mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Morfina: 10 mg/ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - Agua estéril
+  concentracionMin:
+    valor: 0.5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Morfina: 0,5–5 mg/ml'
+  concentracionMax:
+    valor: 5
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Morfina: 0,5–5 mg/ml'
+  estandar:
+  - descripcion: 50 mg en 100 ml (0,5 mg/ml)
+    cantidad:
+      valor: 50
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Morfina: habitual 50 mg/100 ml'
+  - descripcion: 125 mg en 250 ml (0,5 mg/ml)
+    cantidad:
+      valor: 125
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Morfina: 125 mg/250 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Inyección IV lenta. Diluir con agua estéril o SF.
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: 4.2 y 6.6
+dosis:
+- indicacion: 'Dolor agudo: inyección IV lenta'
+  poblacion: adulto
+  unidad: mg
+  min: 2
+  max: 15
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: 4.2 Administración intravenosa
+- indicacion: 'Dolor agudo: perfusión tras la dosis inicial'
+  poblacion: adulto
+  unidad: mg/h
+  min: 2.5
+  max: 5
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: 4.2 Administración intravenosa
+- indicacion: IV lenta (máx. 15 mg/24 h)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.05
+  max: 0.1
+  fuente:
+    ref: PEDIAMECUM-MORFINA
+    detalle: 'Vía intravenosa lenta: 0,05–0,1 mg/kg, máx. 15 mg/24 h'
+- indicacion: 'Analgesia posoperatoria: infusión'
+  poblacion: pediatrico
+  unidad: mg/kg/h
+  min: 0.01
+  max: 0.04
+  fuente:
+    ref: PEDIAMECUM-MORFINA
+    detalle: En analgesia posoperatoria 0,01–0,04 mg/kg/h
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '6.3: usar inmediatamente tras abrir la ampolla'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: atropina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: fentanilo
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: incompatible
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '6.2: incompatible con sales de magnesio'
+- con: midazolam
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: noradrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+interaccionesGraves:
+- con: Benzodiacepinas y otros sedantes
+  efecto: Sedación profunda, depresión respiratoria, coma
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '4.5'
+- con: Alcohol
+  efecto: Potenciación de la depresión del SNC
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '4.5'
+- con: IMAO
+  efecto: Usar con precaución y en dosis reducida
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Constipación
+  - Retención urinaria
+  - Somnolencia
+  - Náuseas y vómitos
+  - Sudoración
+  graves:
+  - Depresión del SNC y respiratoria
+  - Hipotensión
+  vigilar:
+  - Frecuencia respiratoria y SatO2
+  - Nivel de sedación
+  - Presión arterial
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Morfina: RAM e intoxicación'
+alertas:
+- Medicamento de alto riesgo.
+- 'Antagonista: naloxona.'
+meta:
+  discrepancias:
+  - campo: compatibilidad con sulfato de magnesio
+    valores:
+    - 'Stabilis: sin datos'
+    - 'CIMA morfina 6.2: incompatible con sales de magnesio'
+    decision: Se registra incompatible (criterio conservador).

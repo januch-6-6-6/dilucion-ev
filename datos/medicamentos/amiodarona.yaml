@@ -1,0 +1,199 @@
+id: amiodarona
+nombre: Amiodarona
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-150mg-3ml
+  forma: ampolla
+  cantidad:
+    valor: 150
+    unidad: mg
+  volumenMl: 3
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Amiodarona: 150 mg/3 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  concentracionMin:
+    valor: 0.6
+    unidad: mg
+    fuente:
+      ref: CIMA-AMIODARONA
+      detalle: '6.6: no emplear concentraciones menores de 600 mg/litro'
+  estandar:
+  - descripcion: '300 mg en 20 ml de SG5 % (paro: FV/TV sin pulso)'
+    cantidad:
+      valor: 300
+      unidad: mg
+    volumenFinalMl: 20
+    fuente:
+      ref: CIMA-AMIODARONA
+      detalle: 4.2 Resucitación cardiopulmonar
+  - descripcion: 600 mg en 250 ml de SG5 % (mantención 24 h)
+    cantidad:
+      valor: 600
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-AMIODARONA
+      detalle: 4.2 Dosis de mantenimiento en 250 ml de dextrosa al 5 %
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: 'Diluir solo en SG5 %. Inyección IV nunca en menos de 3 min (salvo paro: inyección rápida); no repetir la inyección
+    antes de 15 min. Carga en perfusión de 20 min a 2 h. Evitar extravasación.'
+  tiempoMinimoMin: 3
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: 4.2 y 6.6
+dosis:
+- indicacion: FV/TV sin pulso resistente a desfibrilación (adicional 150 mg)
+  poblacion: adulto
+  unidad: mg
+  min: 150
+  max: 300
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: 4.2 Resucitación cardiopulmonar
+- indicacion: Dosis de carga (perfusión 20 min–2 h)
+  poblacion: adulto
+  unidad: mg/kg
+  max: 5
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: '4.2 Perfusión intravenosa: 5 mg/kg'
+- indicacion: Mantención
+  poblacion: adulto
+  unidad: mg/24 h
+  min: 600
+  max: 800
+  maximaAbsoluta: 1200
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: '4.2: 600–800 mg/24 h, límite 1.200 mg/24 h'
+- indicacion: TV sin pulso o FV
+  poblacion: pediatrico
+  unidad: mg/kg
+  max: 5
+  topeAdulto:
+    valor: 300
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-AMIODARONA
+    detalle: 'Administración i.v.: 5 mg/kg (máximo 300 mg/dosis)'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad:
+- con: SF
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Incompatibilidad en Y (casilla roja)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: atropina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: fentanilo
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: midazolam
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: morfina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: noradrenalina
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+interaccionesGraves:
+- con: Fármacos que pueden inducir torsade de pointes
+  efecto: Prolongación del QT y torsade de pointes (contraindicado)
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: 4.3 y 4.5
+- con: Digoxina
+  efecto: Bradicardia y trastornos de conducción; aumenta digoxinemia
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: '4.5'
+- con: Warfarina
+  efecto: Potencia el efecto anticoagulante
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: '4.5'
+- con: Betabloqueantes, verapamilo, diltiazem
+  efecto: Bradicardia y trastornos de conducción
+  fuente:
+    ref: CIMA-AMIODARONA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Temblores
+  - Fatiga
+  graves:
+  - Neuropatía periférica
+  - Ataxia
+  vigilar:
+  - ECG y frecuencia cardíaca
+  - Presión arterial
+  - Sitio de infusión (extravasación)
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Amiodarona: RAM'
+alertas:
+- 'Diluir solo en SG5 %: incompatible con SF 0,9 % en Y.'
+- Usar preferentemente equipos sin DEHP.
+meta:
+  discrepancias:
+  - campo: dosis pediátrica
+    valores:
+    - 'CIMA: seguridad y eficacia no establecidas en pediatría'
+    - 'Pediamécum: 5 mg/kg (máx. 300 mg) en TV sin pulso/FV'
+    decision: Se registra la dosis de Pediamécum con la advertencia de CIMA.

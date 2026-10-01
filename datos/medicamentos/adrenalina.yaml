@@ -1,0 +1,173 @@
+id: adrenalina
+nombre: Adrenalina (epinefrina)
+comerciales: []
+grupo: vasoactivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-1mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 1
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Adrenalina: 1 mg/1 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  - SF
+  estandar:
+  - descripcion: 1 mg en 10 ml de SF (0,1 mg/ml, 1:10.000) para bolo
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenFinalMl: 10
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Adrenalina: dilución estándar 1 mg/10 ml SF'
+  - descripcion: 4 mg en 100 ml (40 mcg/ml) para infusión
+    cantidad:
+      valor: 4
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Adrenalina: habitual 4 mg en 100 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV/IO en paro; infusión continua diluida en solución glucosada, en vena de grueso calibre. La FDA no recomienda
+    diluir solo en suero fisiológico (pérdida de potencia por oxidación).
+  fuente:
+    ref: FDA-EPINEFRINA
+    detalle: 2.2 Hypotension associated with septic shock
+dosis:
+- indicacion: Paro cardiorrespiratorio (cada 3–5 min)
+  poblacion: adulto
+  unidad: mg
+  min: 1
+  max: 1
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: 4.2 Reanimación cardiopulmonar
+- indicacion: Anafilaxia aguda (bolos IV según respuesta)
+  poblacion: adulto
+  unidad: mcg
+  min: 50
+  max: 50
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: '4.2 Anafilaxia aguda: bolos de 0,05 mg'
+- indicacion: Hipotensión en shock séptico (infusión)
+  poblacion: adulto
+  unidad: mcg/kg/min
+  min: 0.05
+  max: 2
+  fuente:
+    ref: FDA-EPINEFRINA
+    detalle: '2.2: 0.05 to 2 mcg/kg/min'
+- indicacion: Paro cardíaco (> 5 kg), cada 3–5 min
+  poblacion: pediatrico
+  unidad: mcg/kg
+  max: 10
+  topeAdulto:
+    valor: 1
+    unidad: mg
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: '4.2 Paro cardiaco en niños: 10 mcg/kg, máx. 1 mg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: 6.3 Periodo de validez (no informa estabilidad de la dilución)
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: atropina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: fentanilo
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: midazolam
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: morfina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: noradrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+interaccionesGraves:
+- con: Anestésicos halogenados volátiles
+  efecto: Arritmia ventricular grave
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: '4.5'
+- con: Antidepresivos tipo imipramina (tricíclicos)
+  efecto: Hipertensión arterial paroxística
+  fuente:
+    ref: CIMA-ADRENALINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Hemorragia cerebrovascular y arritmias con administración rápida
+  - Necrosis por extravasación
+  vigilar:
+  - Monitorización continua
+  - Sitio de infusión (extravasación)
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Adrenalina: precauciones y RAM'
+alertas:
+- Medicamento de alto riesgo.
+- No confundir la ampolla 1 mg/ml (1:1.000) con la dilución 0,1 mg/ml (1:10.000).
+meta:
+  discrepancias: []

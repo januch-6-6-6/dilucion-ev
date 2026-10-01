@@ -1,0 +1,144 @@
+id: adenosina
+nombre: Adenosina
+comerciales: []
+grupo: antiarritmico
+ambitos:
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-6mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 6
+    unidad: mg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Adenosina: 6 mg/2 ml'
+reconstitucion: null
+dilucion:
+  sueros: []
+  estandar: []
+administracion:
+  vias:
+  - bolo
+  texto: Bolo IV rápido sin diluir (1–2 s), lo más proximal posible, seguido de 10 ml de SF en bolo por llave de 3 pasos.
+    Con monitorización ECG continua.
+  fuente:
+    ref: PUCON-2022
+    detalle: Anexo 6, Adenosina
+dosis:
+- indicacion: 'TPSV: 3 mg, luego 6 mg y 12 mg si no cede en 1–2 min'
+  poblacion: adulto
+  unidad: mg
+  min: 3
+  max: 12
+  fuente:
+    ref: CIMA-ADENOSINA
+    detalle: 4.2 Dosis terapéutica adultos
+- indicacion: 'TPSV: primer bolo (incrementos de 0,1 mg/kg hasta máx. 12 mg)'
+  poblacion: pediatrico
+  unidad: mg/kg
+  max: 0.1
+  topeAdulto:
+    valor: 6
+    unidad: mg
+  fuente:
+    ref: CIMA-ADENOSINA
+    detalle: '4.2 Población pediátrica: 0,1 mg/kg, primer bolo máx. 6 mg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ADENOSINA
+    detalle: '6.3: utilizar inmediatamente tras abrir'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: amiodarona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: atropina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: adrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: fentanilo
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: ketamina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: sulfato-de-magnesio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: midazolam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: morfina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: noradrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+interaccionesGraves:
+- con: Dipiridamol
+  efecto: Potencia la adenosina; reducir considerablemente la dosis
+  fuente:
+    ref: CIMA-ADENOSINA
+    detalle: '4.5'
+- con: Teofilina, aminofilina, cafeína (xantinas)
+  efecto: Antagonizan la adenosina; evitar 24 h antes
+  fuente:
+    ref: CIMA-ADENOSINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Sofoco
+  - Náuseas
+  - Mareos
+  - Cefalea
+  - Sabor metálico
+  graves:
+  - Dolor torácico
+  vigilar:
+  - Monitorización ECG continua
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Adenosina: RAM y precauciones'
+alertas:
+- Tener equipo de reanimación disponible durante la administración.
+meta:
+  discrepancias:
+  - campo: dosis adulto
+    valores:
+    - 'CIMA: primera dosis 3 mg, luego 6 mg y 12 mg'
+    - Protocolos de reanimación de uso habitual parten con 6 mg
+    decision: Se registra el esquema de CIMA (más conservador); revisar con el protocolo local.

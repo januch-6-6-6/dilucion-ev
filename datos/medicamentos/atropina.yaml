@@ -1,0 +1,160 @@
+id: atropina
+nombre: Atropina
+comerciales: []
+grupo: anticolinergico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: false
+presentaciones:
+- id: amp-1mg-1ml
+  forma: ampolla
+  cantidad:
+    valor: 1
+    unidad: mg
+  volumenMl: 1
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Atropina: 1 mg/1 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  estandar:
+  - descripcion: 1 mg en 10 ml de SF (0,1 mg/ml)
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenFinalMl: 10
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Atropina: dilución estándar'
+administracion:
+  vias:
+  - bolo
+  texto: 'Bolo IV rápido: la administración lenta puede provocar bradicardia paradojal.'
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Atropina: precauciones'
+dosis:
+- indicacion: Bradicardia sinusal (cada 2–5 min)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 0.5
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: '4.2'
+- indicacion: Bloqueo AV (cada 3–5 min, máx. 3 mg)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 0.5
+  maximaAbsoluta: 3
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: '4.2'
+- indicacion: Intoxicación por organofosforados (repetir según signos)
+  poblacion: adulto
+  unidad: mg
+  min: 0.5
+  max: 2
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: '4.2'
+- indicacion: Bradicardia con compromiso hemodinámico
+  poblacion: pediatrico
+  unidad: mg/kg
+  max: 0.02
+  topeAdulto:
+    valor: 0.6
+    unidad: mg
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: '4.2: 0,02 mg/kg dosis única, máx. 0,6 mg'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: 6.3 (no informa estabilidad de la dilución)
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: fentanilo
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: midazolam
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: morfina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: noradrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+interaccionesGraves:
+- con: Otros anticolinérgicos (tricíclicos, antihistamínicos H1, fenotiazinas, neurolépticos)
+  efecto: Suma de efectos anticolinérgicos
+  fuente:
+    ref: CIMA-ATROPINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Taquicardia
+  - Cefalea
+  - Náuseas
+  graves:
+  - Arritmia
+  - Hipotensión
+  - Delirium
+  - Ataxia
+  vigilar:
+  - Frecuencia cardíaca y ECG
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Atropina: RAM'
+alertas: []
+meta:
+  discrepancias: []

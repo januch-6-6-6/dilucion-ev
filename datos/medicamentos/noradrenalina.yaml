@@ -1,0 +1,197 @@
+id: noradrenalina
+nombre: Noradrenalina (norepinefrina)
+comerciales: []
+grupo: vasoactivo
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-4mg-4ml
+  forma: ampolla
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 4
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Norepinefrina: 4 mg/4 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SG5
+  concentracionMax:
+    valor: 160
+    unidad: mcg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Norepinefrina: en restricción de volumen hasta 160 mcg/ml'
+  estandar:
+  - descripcion: 4 mg en 100 ml (40 mcg/ml)
+    cantidad:
+      valor: 4
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Norepinefrina: habitual 4 mg/100 ml'
+  - descripcion: 8 mg en 200 ml (40 mcg/ml)
+    cantidad:
+      valor: 8
+      unidad: mg
+    volumenFinalMl: 200
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Norepinefrina: 8 mg/200 ml'
+  - descripcion: 16 mg en 100 ml (160 mcg/ml), restricción de volumen
+    cantidad:
+      valor: 16
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Norepinefrina: 16 mg/100 ml'
+  - descripcion: 4 mg en 1.000 ml de SG5 % (4 mcg/ml)
+    cantidad:
+      valor: 4
+      unidad: mg
+    volumenFinalMl: 1000
+    fuente:
+      ref: FDA-NOREPINEFRINA
+      detalle: 2.3 Preparation of diluted solution
+administracion:
+  vias:
+  - infusion_continua
+  texto: Infusión continua por bomba en vena de grueso calibre. Diluir en solución glucosada (la dextrosa reduce la oxidación);
+    no se recomienda suero fisiológico solo. Controlar la PA cada 2 min hasta el efecto y luego cada 5 min. Retirar gradualmente.
+  requiereBomba: true
+  fuente:
+    ref: FDA-NOREPINEFRINA
+    detalle: 2.1–2.3
+dosis:
+- indicacion: Dosis inicial y mantención (adulto)
+  poblacion: adulto
+  unidad: mcg/min
+  min: 2
+  max: 12
+  fuente:
+    ref: FDA-NOREPINEFRINA
+    detalle: '2.2: inicial 8–12 mcg/min; mantención 2–4 mcg/min'
+- indicacion: Shock séptico
+  poblacion: adulto
+  unidad: mcg/kg/min
+  max: 1
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: '4.2: alrededor de 0,5 hasta un máximo de 1 mcg/kg/min'
+- indicacion: Infusión pediátrica
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 0.1
+  max: 1
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: 4.2 Población pediátrica
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: '6.3: administrar inmediatamente tras la apertura'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: atropina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: adrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: fentanilo
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Incompatibilidad en Y (casilla roja)
+- con: midazolam
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: morfina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+interaccionesGraves:
+- con: Anestésicos (ciclopropano, halotano)
+  efecto: Arritmias; uso contraindicado
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: '4.5'
+- con: Antidepresivos tricíclicos o maprotilina
+  efecto: Potenciación del efecto presor
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: '4.5'
+- con: Inhibidores de la monoaminooxidasa (IMAO)
+  efecto: Riesgo de crisis hipertensiva
+  fuente:
+    ref: CIMA-NORADRENALINA
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes:
+  - Cefalea
+  - Ansiedad
+  graves:
+  - Hipertensión
+  - Arritmia
+  - Bradicardia o taquicardia
+  - Dificultad respiratoria
+  vigilar:
+  - Presión arterial cada 2–5 min
+  - Sitio de infusión
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Norepinefrina: RAM'
+alertas:
+- Medicamento de alto riesgo.
+- Incompatible en Y con sulfato de magnesio.
+meta:
+  discrepancias:
+  - campo: presentaciones / dosis
+    valores:
+    - CIMA expresa la dosis como noradrenalina base (1 mg de bitartrato = 0,5 mg de base)
+    - 'FDA: ampolla 4 mg/4 ml = 4 mg de base'
+    decision: Se asume ampolla chilena 4 mg/4 ml expresada como base; verificar el rotulado del producto local.

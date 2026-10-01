@@ -1,0 +1,175 @@
+id: sulfato-de-magnesio
+nombre: Sulfato de magnesio
+comerciales: []
+grupo: electrolito
+ambitos:
+- samu
+- urgencia
+- upc
+- hospitalizacion
+altoRiesgo: false
+presentaciones:
+- id: amp-25pct-5ml
+  forma: ampolla 25 %
+  cantidad:
+    valor: 1.25
+    unidad: g
+  volumenMl: 5
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Sulfato de magnesio 25 %: 5 ml = 1,25 g'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 4 g en 250 ml
+    cantidad:
+      valor: 4
+      unidad: g
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-SULFATO-DE-MAGNESIO
+      detalle: '6.6 Perfusión IV: 4–5 g en 250 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: Diluir en 100 a 500 ml de suero. La perfusión debe mantenerse en general bajo 2 g/h, salvo torsade de pointes o eclampsia.
+    La administración rápida puede causar hipotensión y asistolia.
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.2'
+dosis:
+- indicacion: 'Torsade de pointes: 2 g en 1–2 min (repetible, total 6 g)'
+  poblacion: adulto
+  unidad: g
+  min: 2
+  max: 2
+  maximaAbsoluta: 6
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.2'
+- indicacion: 'Eclampsia: carga en 5–10 min'
+  poblacion: adulto
+  unidad: g
+  min: 4
+  max: 4
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.2'
+- indicacion: 'Eclampsia: perfusión continua'
+  poblacion: adulto
+  unidad: g/h
+  min: 1
+  max: 4
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.2'
+- indicacion: Torsade de pointes (bolo lento sin pulso; 10–20 min con pulso)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 25
+  max: 50
+  topeAdulto:
+    valor: 2
+    unidad: g
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.2 Población pediátrica: máx. 2 g'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  refrigeradoH: 24
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '6.3: diluido al 2 %, 24 h a 20–25 °C y a 2–8 °C'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: atropina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: adrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: fentanilo
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: midazolam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: morfina
+  estado: incompatible
+  fuente:
+    ref: CIMA-MORFINA
+    detalle: '6.2: incompatible con sales de magnesio'
+- con: noradrenalina
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Incompatibilidad en Y (casilla roja)
+interaccionesGraves:
+- con: Bloqueantes neuromusculares (suxametonio, vecuronio)
+  efecto: Potencia y prolonga el bloqueo; riesgo de depresión respiratoria
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: '4.5'
+- con: Sales de calcio
+  efecto: Efecto antagonista; no administrar juntas
+  fuente:
+    ref: CIMA-SULFATO-DE-MAGNESIO
+    detalle: 4.4 y 4.5
+efectosAdversos:
+  frecuentes:
+  - Rubor
+  - Somnolencia
+  - Diarrea
+  graves:
+  - Hipotensión y asistolia con administración rápida
+  - Depresión del SNC
+  vigilar:
+  - Presión arterial
+  - Reflejos osteotendíneos y frecuencia respiratoria
+  - ECG en dosis altas
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Sulfato de magnesio: RAM'
+alertas:
+- La ampolla chilena es al 25 % (250 mg/ml); otras presentaciones son al 15 % o al 50 %.
+- Incompatible en Y con noradrenalina.
+meta:
+  discrepancias: []

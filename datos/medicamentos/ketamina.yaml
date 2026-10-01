@@ -1,0 +1,186 @@
+id: ketamina
+nombre: Ketamina
+comerciales: []
+grupo: anestesico
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: fa-500mg-10ml
+  forma: frasco ampolla
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketamina: 500 mg/10 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  concentracionMax:
+    valor: 50
+    unidad: mg
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketamina: 50 mg/ml máxima concentración para bolo'
+  estandar:
+  - descripcion: 500 mg en 500 ml (1 mg/ml)
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 500
+    fuente:
+      ref: CIMA-KETAMINA
+      detalle: '6.6 Dilución: 10 ml en 500 ml'
+  - descripcion: 500 mg en 250 ml (2 mg/ml), restricción de volumen
+    cantidad:
+      valor: 500
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: CIMA-KETAMINA
+      detalle: '6.6: 250 ml, 2 mg/ml'
+  - descripcion: 400 mg en 100 ml (4 mg/ml)
+    cantidad:
+      valor: 400
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Ketamina: habitual 400 mg/100 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_continua
+  texto: Bolo IV lento, en al menos 60 s (más rápido puede causar depresión respiratoria). No mezclar en la misma jeringa
+    con barbitúricos ni diazepam.
+  tiempoMinimoMin: 1
+  fuente:
+    ref: CIMA-KETAMINA
+    detalle: 4.2 y 6.2
+dosis:
+- indicacion: Inducción de anestesia general (media 2 mg/kg)
+  poblacion: adulto
+  unidad: mg/kg
+  min: 1
+  max: 4.5
+  fuente:
+    ref: CIMA-KETAMINA
+    detalle: 4.2 Vía intravenosa
+- indicacion: Inducción de anestesia (bolo)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 1
+  max: 2
+  fuente:
+    ref: PEDIAMECUM-KETAMINA
+    detalle: 'Inducción: bolo 1–2 mg/kg IV'
+- indicacion: 'Sedación: infusión'
+  poblacion: pediatrico
+  unidad: mcg/kg/min
+  min: 5
+  max: 20
+  fuente:
+    ref: PEDIAMECUM-KETAMINA
+    detalle: 'Sedación: 5–20 µg/kg/min IV'
+sinDosisPediatrica: false
+estabilidad:
+  fuente:
+    ref: CIMA-KETAMINA
+    detalle: '6.3: tras la dilución, usar inmediatamente'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: atropina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: fentanilo
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: midazolam
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: morfina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: noradrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+interaccionesGraves:
+- con: Teofilina o aminofilina
+  efecto: Disminución del umbral convulsivo
+  fuente:
+    ref: CIMA-KETAMINA
+    detalle: '4.5'
+- con: Hormonas tiroideas (terapia de reemplazo)
+  efecto: Riesgo aumentado de hipertensión y taquicardia
+  fuente:
+    ref: CIMA-KETAMINA
+    detalle: '4.4'
+efectosAdversos:
+  frecuentes:
+  - Hipertensión
+  - Taquicardia
+  graves:
+  - Hipotensión
+  - Bradicardia
+  - Aumento de la presión intracraneana
+  vigilar:
+  - Presión arterial y frecuencia cardíaca
+  - Vía aérea y respiración
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Ketamina: RAM'
+alertas:
+- Medicamento de alto riesgo.
+- Incompatible en Y con Ringer lactato.
+meta:
+  discrepancias:
+  - campo: estabilidad de la dilución
+    valores:
+    - 'CIMA 6.3: usar inmediatamente'
+    - 'CIMA 6.6: la solución 1 mg/ml es estable 24 h'
+    decision: Se registra «usar inmediatamente» (criterio conservador).

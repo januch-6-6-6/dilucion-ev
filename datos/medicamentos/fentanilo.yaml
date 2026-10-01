@@ -1,0 +1,184 @@
+id: fentanilo
+nombre: Fentanilo
+comerciales: []
+grupo: analgesico-opioide
+ambitos:
+- samu
+- urgencia
+- upc
+altoRiesgo: true
+presentaciones:
+- id: amp-0.1mg-2ml
+  forma: ampolla
+  cantidad:
+    valor: 100
+    unidad: mcg
+  volumenMl: 2
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fentanilo: 0,1 mg/2 ml'
+- id: amp-0.5mg-10ml
+  forma: ampolla
+  cantidad:
+    valor: 500
+    unidad: mcg
+  volumenMl: 10
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fentanilo: 0,5 mg/10 ml'
+reconstitucion: null
+dilucion:
+  sueros:
+  - SF
+  - SG5
+  estandar:
+  - descripcion: 1 mg en 100 ml (10 mcg/ml)
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenFinalMl: 100
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fentanilo: habitual 1 mg/100 ml'
+  - descripcion: 2,5 mg en 250 ml (10 mcg/ml)
+    cantidad:
+      valor: 2.5
+      unidad: mg
+    volumenFinalMl: 250
+    fuente:
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Fentanilo: 2,5 mg/250 ml'
+administracion:
+  vias:
+  - bolo
+  - infusion_intermitente
+  - infusion_continua
+  texto: Solo donde se pueda controlar la vía aérea. Inyección IV lenta (reduce efectos adversos).
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '4.2'
+dosis:
+- indicacion: Analgésico complementario en anestesia, procedimientos menores
+  poblacion: adulto
+  unidad: mcg/kg
+  max: 2
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '4.2: dosis bajas 2 mcg/kg'
+- indicacion: Dolor agudo/posoperatorio grave (cada 1–2 h si es necesario)
+  poblacion: pediatrico
+  unidad: mcg/kg
+  min: 1
+  max: 2
+  fuente:
+    ref: PEDIAMECUM-FENTANILO
+    detalle: 'Manejo del dolor agudo: 1–2 µg/kg/dosis'
+- indicacion: 'Dolor agudo: infusión IV'
+  poblacion: pediatrico
+  unidad: mcg/kg/h
+  min: 0.5
+  max: 3
+  fuente:
+    ref: PEDIAMECUM-FENTANILO
+    detalle: 'Infusión IV: 0,5–3 µg/kg/h'
+sinDosisPediatrica: false
+estabilidad:
+  ambienteH: 24
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '6.3: diluido, estable 24 h a 25 °C'
+compatibilidad:
+- con: SF
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: SG5
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: amiodarona
+  estado: incompatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+- con: atropina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: adrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: ketamina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: sulfato-de-magnesio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: midazolam
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+- con: morfina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: Sin datos de compatibilidad (casilla blanca)
+- con: noradrenalina
+  estado: compatible
+  fuente:
+    ref: STABILIS-Y
+    detalle: Compatibilidad física en Y (casilla verde)
+interaccionesGraves:
+- con: Benzodiacepinas, barbitúricos y otros depresores del SNC
+  efecto: Depresión respiratoria, sedación profunda, coma
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '4.5'
+- con: Fármacos serotoninérgicos (ISRS, IRSN, IMAO)
+  efecto: Síndrome serotoninérgico
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '4.5'
+- con: Inhibidores potentes del CYP3A4
+  efecto: Aumentan el efecto y la depresión respiratoria
+  fuente:
+    ref: CIMA-FENTANILO
+    detalle: '4.5'
+efectosAdversos:
+  frecuentes: []
+  graves:
+  - Depresión respiratoria
+  - Hipotensión
+  - Bradicardia
+  - Rigidez muscular
+  vigilar:
+  - Frecuencia respiratoria y SatO2
+  - Presión arterial y frecuencia cardíaca
+  fuente:
+    ref: PUCON-2022
+    detalle: 'Anexo 6, Fentanilo: RAM'
+alertas:
+- Medicamento de alto riesgo.
+- 'Antagonista: naloxona.'
+- 'Cuidado con mcg y mg: 0,1 mg = 100 mcg.'
+meta:
+  discrepancias:
+  - campo: dosis adulto en urgencia
+    valores:
+    - CIMA solo informa dosis en anestesia
+    decision: No se registran dosis de analgesia en urgencia para adultos hasta contar con una fuente que las indique.
