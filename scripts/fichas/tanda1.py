@@ -1,23 +1,5 @@
-"""Genera datos/fuentes.yaml y las 10 fichas de la tanda 1 (parte 1).
-
-Los valores salen de las fuentes citadas en cada campo; ver informes/tanda-1-parte-1.md.
-La matriz de compatibilidad en Y se lee de la tabla de Stabilis (stab.json, generada el
-2026-10-01 a partir del PDF «Tableau de compatibilités en Y AVEC solvants usuels»).
-Uso: python3 scripts/generar-tanda1.py <ruta a stab.json>
-"""
-import json
-import sys
-from pathlib import Path
-
-import yaml
-
-RAIZ = Path(__file__).resolve().parent.parent
-CONSULTA = '2026-10-01'
-
-
-def fu(ref, detalle):
-    return {'ref': ref, 'detalle': detalle}
-
+"""Tanda 1, parte 1 (10 medicamentos). Valores citados; ver informes/tanda-1-parte-1.md."""
+from .comun import CONSULTA, C, P, PED, ajustar, fu, meta  # noqa: F401
 
 CIMA = {
     'adrenalina': ('80831', 'Adrenalina Aguettant 0,1 mg/ml solución inyectable en jeringa precargada'),
@@ -32,7 +14,7 @@ CIMA = {
     'sulfato-de-magnesio': ('78350', 'Sulfato de Magnesio Altan 150 mg/ml solución inyectable y para perfusión'),
 }
 
-fuentes = [
+FUENTES = [
     {
         'id': 'PUCON-2022',
         'titulo': 'Protocolo de administración de medicamentos endovenosos GCL 1.2.6, 2.ª edición (Anexo 4: alto riesgo; Anexo 6: tabla de dilución)',
@@ -91,7 +73,7 @@ fuentes = [
     },
 ]
 for k, (nreg, nombre) in CIMA.items():
-    fuentes.append({
+    FUENTES.append({
         'id': f'CIMA-{k.upper()}',
         'titulo': f'Ficha técnica: {nombre}',
         'institucion': 'AEMPS — CIMA (España)',
@@ -100,7 +82,7 @@ for k, (nreg, nombre) in CIMA.items():
         'consultado': CONSULTA,
     })
 for k in ['fentanilo', 'morfina', 'ketamina', 'amiodarona']:
-    fuentes.append({
+    FUENTES.append({
         'id': f'PEDIAMECUM-{k.upper()}',
         'titulo': f'Pediamécum: {k.capitalize()} (Dosis y pautas de administración)',
         'institucion': 'Asociación Española de Pediatría',
@@ -109,9 +91,6 @@ for k in ['fentanilo', 'morfina', 'ketamina', 'amiodarona']:
         'consultado': CONSULTA,
     })
 
-P = lambda d: fu('PUCON-2022', d)  # noqa: E731
-C = lambda k, d: fu(f'CIMA-{k.upper()}', d)  # noqa: E731
-PED = lambda k, d: fu(f'PEDIAMECUM-{k.upper()}', d)  # noqa: E731
 
 # --- Compatibilidad en Y desde Stabilis ---
 COL = {'SF': 'SF', 'SG5': 'SG5', 'adenosina': 'adenosina', 'amiodarona': 'amiodarona', 'atropina': 'atropina',
@@ -136,14 +115,7 @@ def compatibilidad(stab, fila):
     return res
 
 
-def ajustar(lista, con, estado, fuente):
-    for c in lista:
-        if c['con'] == con:
-            c['estado'], c['fuente'] = estado, fuente
 
-
-def meta(discrepancias=()):
-    return {'discrepancias': list(discrepancias)}
 
 
 def fichas(stab):
@@ -458,16 +430,7 @@ def fichas(stab):
     return F
 
 
-def main():
-    stab = json.load(open(sys.argv[1]))
-    (RAIZ / 'datos').mkdir(exist_ok=True)
-    with open(RAIZ / 'datos' / 'fuentes.yaml', 'w') as f:
-        yaml.safe_dump(fuentes, f, allow_unicode=True, sort_keys=False, width=120)
-    for k, ficha in fichas(stab).items():
-        with open(RAIZ / 'datos' / 'medicamentos' / f'{k}.yaml', 'w') as f:
-            yaml.safe_dump(ficha, f, allow_unicode=True, sort_keys=False, width=120)
-    print('ok')
 
 
-if __name__ == '__main__':
-    main()
+def fuentes():
+    return FUENTES

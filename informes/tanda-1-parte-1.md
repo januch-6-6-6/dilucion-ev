@@ -6,7 +6,7 @@ midazolam, fentanilo, morfina, ketamina, sulfato de magnesio.
 **Estado:** revisión clínica parcial (Héctor Salvo Agüero, TENS, 2026-10-01): resueltos noradrenalina y adenosina; fentanilo en adultos pendiente de fuente chilena de urgencia.
 
 Las fichas están en `datos/medicamentos/` y se generan con
-`python3 scripts/generar-tanda1.py datos/crudos/stabilis-y-2026-10-01.json`.
+`python3 scripts/generar-todo.py`.
 Cada dato numérico cita su fuente y sección.
 
 ## Fuentes usadas
