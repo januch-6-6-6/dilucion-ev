@@ -1,4 +1,5 @@
 import { HashRouter, Link, Route, Routes } from 'react-router-dom'
+import Ficha from './paginas/Ficha'
 import Inicio from './paginas/Inicio'
 import Lista from './paginas/Lista'
 
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/ambito/:ambito" element={<Lista />} />
           <Route path="/grupo/:grupo" element={<Lista />} />
+          <Route path="/m/:id" element={<Ficha />} />
           <Route path="*" element={<p>Página no encontrada.</p>} />
         </Routes>
       </main>
