@@ -1,0 +1,79 @@
+import { render, screen } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
+import { MemoryRouter } from 'react-router-dom'
+import { describe, expect, it } from 'vitest'
+import { obtenerFicha } from '../../datos/cargar'
+import { fichaValida } from '../../esquema/__fixtures__/fichas'
+import type { Ficha } from '../../esquema/ficha'
+import { CalculadoraVista } from './Calculadora'
+
+function montar(ficha?: Ficha) {
+  return render(
+    <MemoryRouter>
+      <CalculadoraVista ficha={ficha} />
+    </MemoryRouter>,
+  )
+}
+
+const nora = () => obtenerFicha('noradrenalina')!
+
+describe('Calculadora', () => {
+  it('noradrenalina precargada (4 mg en 100 ml): 0,1 mcg/kg/min en 70 kg = 10,5 ml/h', async () => {
+    montar(nora())
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis → velocidad' }))
+    expect(screen.getByLabelText('Concentración')).toHaveValue('40')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '70')
+    await userEvent.type(screen.getByLabelText('Dosis'), '0,1')
+    expect(screen.getByRole('status')).toHaveTextContent('10,5 ml/h')
+    expect(screen.getByText(/ml\/h = dosis × peso × 60 ÷ concentración/)).toBeInTheDocument()
+  })
+
+  it('dosis sobre la máxima de la ficha muestra alerta', async () => {
+    montar(nora())
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis → velocidad' }))
+    await userEvent.selectOptions(screen.getByLabelText('Indicación'), 'Shock séptico')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '70')
+    await userEvent.type(screen.getByLabelText('Dosis'), '3')
+    expect(screen.getByRole('alert')).toHaveTextContent('supera la dosis máxima')
+  })
+
+  it('sin peso dice qué falta y no muestra resultado', async () => {
+    montar(nora())
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis → velocidad' }))
+    await userEvent.type(screen.getByLabelText('Dosis'), '0,1')
+    expect(screen.getByRole('status')).toHaveTextContent('Falta el peso')
+    expect(screen.getByRole('status')).not.toHaveTextContent('ml/h')
+  })
+
+  it('ficha sin dosis pediátrica no calcula', async () => {
+    montar(fichaValida('droga-a') as Ficha)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    expect(screen.getByText('sin dosis pediátrica en la fuente')).toBeInTheDocument()
+    expect(screen.queryByLabelText('Peso (kg)')).not.toBeInTheDocument()
+  })
+
+  it('pediátrica sobre el tope se limita y avisa', async () => {
+    montar(obtenerFicha('atropina')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '50')
+    expect(screen.getByRole('status')).toHaveTextContent('0,6 mg')
+    expect(screen.getByRole('alert')).toHaveTextContent('limitada a la dosis tope')
+  })
+
+  it('velocidad por tiempo calcula gotas', async () => {
+    montar()
+    await userEvent.click(screen.getByRole('tab', { name: 'Velocidad por tiempo' }))
+    await userEvent.type(screen.getByLabelText('Volumen (ml)'), '100')
+    await userEvent.type(screen.getByLabelText('Tiempo (min)'), '30')
+    expect(screen.getByRole('status')).toHaveTextContent('200 ml/h')
+    expect(screen.getByRole('status')).toHaveTextContent('67 gotas/min')
+  })
+
+  it('volumen a cargar usa la presentación chilena', async () => {
+    montar(obtenerFicha('amiodarona')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Volumen a cargar' }))
+    await userEvent.type(screen.getByLabelText('Dosis'), '300')
+    expect(screen.getByRole('status')).toHaveTextContent('6 ml')
+    expect(screen.getByRole('status')).toHaveTextContent('2 ampolla')
+  })
+})
