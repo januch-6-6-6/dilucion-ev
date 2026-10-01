@@ -45,7 +45,457 @@ estabilidad:
   fuente:
     ref: PUCON-2022
     detalle: Anexo 6, Clorfenamina (no informa estabilidad)
-compatibilidad: []
+compatibilidad:
+- con: SF
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: SG5
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: acetilcisteina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: aciclovir
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: acido-tranexamico
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: adenosina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: adrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: amikacina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: amiodarona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ampicilina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ampicilina-sulbactam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: atropina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: azitromicina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: bicarbonato-de-sodio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cefazolina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cefepime
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cefotaxima
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ceftazidima
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ceftriaxona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ciprofloxacino
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cisatracurio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: clindamicina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cloruro-de-potasio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cloruro-de-sodio-10
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cloruro-de-sodio-3
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cloxacilina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: cotrimoxazol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: dexametasona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: dexmedetomidina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: diazepam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: digoxina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: dobutamina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: dopamina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: enalaprilato
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ertapenem
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: esmolol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: etomidato
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fenilefrina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fenitoina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fentanilo
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fitomenadiona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fluconazol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: flumazenil
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: fosfato-de-potasio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: furosemida
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: gentamicina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: gluconato-de-calcio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: glucosa-30
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: haloperidol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: heparina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: hidrocortisona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: imipenem
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: insulina-cristalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ketamina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ketoprofeno
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ketorolaco
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: labetalol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: levetiracetam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: levofloxacino
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: lidocaina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: linezolid
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: manitol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: meropenem
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: metamizol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: metilprednisolona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: metoclopramida
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: metoprolol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: metronidazol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: midazolam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: morfina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: naloxona
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: neostigmina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: nimodipino
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: nitroglicerina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: noradrenalina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: octreotido
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: omeprazol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: ondansetron
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: paracetamol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: penicilina-g-sodica
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: piperacilina-tazobactam
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: propofol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: remifentanilo
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: rocuronio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: succinilcolina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: sulfato-de-magnesio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: tiamina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: tramadol
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: vancomicina
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
+- con: vecuronio
+  estado: sin_datos
+  fuente:
+    ref: STABILIS-Y
+    detalle: 'Sin datos: clorfenamina no figura en Stabilis'
 interaccionesGraves: []
 efectosAdversos:
   frecuentes:

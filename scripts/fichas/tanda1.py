@@ -25,7 +25,7 @@ FUENTES = [
     },
     {
         'id': 'STABILIS-Y',
-        'titulo': 'Tabla de compatibilidades en Y con solventes usuales (generada para los 10 medicamentos de la tanda 1)',
+        'titulo': 'Tabla de compatibilidades en Y con solventes usuales (generada para los 84 medicamentos de la app que figuran en Stabilis)',
         'institucion': 'Stabilis / Infostab',
         'url': 'https://www.stabilis.org/TableIncompatibilites.php',
         'anio': 2026,
