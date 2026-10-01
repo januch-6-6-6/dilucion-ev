@@ -10,9 +10,12 @@ export default function App() {
   return (
     <HashRouter>
       <header className="cabecera">
-        <h1>
-          <Link to="/">Dilución EV</Link>
-        </h1>
+        <div className="cabecera-contenido">
+          <h1>
+            <Link to="/">Dilución EV</Link>
+          </h1>
+          <p className="subtitulo">Dilución, velocidad y compatibilidad EV</p>
+        </div>
       </header>
       <main>
         <Routes>

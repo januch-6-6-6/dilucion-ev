@@ -40,6 +40,11 @@ describe('Inicio', () => {
     expect(within(item).getByText('Alto riesgo')).toBeInTheDocument()
   })
 
+  it('cada medicamento lleva el color de su grupo', () => {
+    montar('/grupo/vasoactivo')
+    expect(screen.getByRole('link', { name: /Adrenalina/ })).toHaveAttribute('data-color', 'naranjo')
+  })
+
   it('funciona aunque localStorage falle', () => {
     vi.spyOn(Storage.prototype, 'getItem').mockImplementation(() => {
       throw new Error('bloqueado')

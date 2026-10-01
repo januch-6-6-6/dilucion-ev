@@ -3,6 +3,8 @@ import { Link, useParams } from 'react-router-dom'
 import { fuentes, obtenerFicha } from '../../datos/cargar'
 import type { Ficha as TFicha } from '../../esquema/ficha'
 import Dato from '../componentes/Dato'
+import { colorGrupo } from '../colores'
+import { etiquetaGrupo } from '../etiquetas'
 import { registrarReciente } from '../recientes'
 
 const PESTANAS = ['Preparar', 'Administrar', 'Compatibilidad', 'Seguridad', 'Fuentes'] as const
@@ -110,7 +112,9 @@ function Compatibilidad({ f }: { f: TFicha }) {
         {f.compatibilidad.map((c) => (
           <tr key={c.con} className={`estado-${c.estado}`}>
             <td>{obtenerFicha(c.con)?.nombre ?? c.con}</td>
-            <td>{ESTADO[c.estado]}</td>
+            <td>
+              <span className={`pildora pildora-${c.estado}`}>{ESTADO[c.estado]}</span>
+            </td>
             <td>
               <cite title={c.fuente.detalle}>{c.fuente.ref}</cite>
             </td>
@@ -207,18 +211,19 @@ export default function Ficha() {
   if (!f) return <p>Medicamento no encontrado</p>
 
   return (
-    <article className="ficha">
+    <article className="ficha" data-color={colorGrupo(f.grupo)}>
       <p>
         <Link to="/">← Inicio</Link>
       </p>
-      <h2>
-        {f.nombre} {f.altoRiesgo && <span className="etiqueta alto-riesgo">Alto riesgo</span>}
-      </h2>
-      <p>
+      <header className="ficha-encabezado">
+        <span className="chip-grupo">{etiquetaGrupo(f.grupo)}</span>
+        <h2>
+          {f.nombre} {f.altoRiesgo && <span className="etiqueta alto-riesgo">Alto riesgo</span>}
+        </h2>
         <Link to={`/m/${f.id}/calcular`} className="boton">
           Calcular
         </Link>
-      </p>
+      </header>
       <div role="tablist" aria-label="Secciones de la ficha" className="pestanas">
         {PESTANAS.map((p) => (
           <button key={p} role="tab" type="button" aria-selected={activa === p} aria-controls={`panel-${p}`} id={`tab-${p}`} onClick={() => setActiva(p)}>

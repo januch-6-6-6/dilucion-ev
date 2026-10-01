@@ -15,7 +15,7 @@ export default defineConfig({
         short_name: 'Dilución EV',
         description: 'Dilución, velocidad de infusión y compatibilidad de medicamentos endovenosos. Material de formación.',
         lang: 'es-CL',
-        theme_color: '#0d6e78',
+        theme_color: '#0e7490',
         background_color: '#ffffff',
         display: 'standalone',
         start_url: './',
