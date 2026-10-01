@@ -1,4 +1,6 @@
 import { HashRouter, Link, Route, Routes } from 'react-router-dom'
+import AvisoInicial from './componentes/AvisoInicial'
+import Acerca from './paginas/Acerca'
 import Calculadora from './paginas/Calculadora'
 import Ficha from './paginas/Ficha'
 import Inicio from './paginas/Inicio'
@@ -20,9 +22,14 @@ export default function App() {
           <Route path="/m/:id" element={<Ficha />} />
           <Route path="/m/:id/calcular" element={<Calculadora />} />
           <Route path="/calcular" element={<Calculadora />} />
+          <Route path="/acerca" element={<Acerca />} />
           <Route path="*" element={<p>Página no encontrada.</p>} />
         </Routes>
       </main>
+      <footer className="pie">
+        <Link to="/acerca">Material de formación · Acerca de</Link>
+      </footer>
+      <AvisoInicial />
     </HashRouter>
   )
 }
