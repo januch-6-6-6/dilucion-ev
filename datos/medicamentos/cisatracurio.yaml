@@ -65,6 +65,7 @@ dosis:
   topeAdulto:
     valor: 10.5
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-CISATRACURIO
     detalle: 0,15 mg/kg en 5–10 s
@@ -550,4 +551,5 @@ meta:
   - campo: tope pediátrico
     valores:
     - Adulto 0,15 mg/kg × 70 kg = 10,5 mg
-    decision: Tope fijado en 10,5 mg; confirmar.
+    decision: 'Tope fijado en 10,5 mg; confirmar. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): tope = dosis de
+      adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente».'

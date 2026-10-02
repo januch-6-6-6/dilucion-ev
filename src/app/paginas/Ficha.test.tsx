@@ -34,6 +34,18 @@ describe('Ficha', () => {
     expect(screen.getByRole('row', { name: /adenosina.*Sin datos/i })).toBeInTheDocument()
   })
 
+  it('un tope pediátrico calculado (adulto 70 kg) lo dice en la ficha', async () => {
+    montar('rocuronio')
+    await userEvent.click(screen.getByRole('tab', { name: 'Administrar' }))
+    expect(screen.getByText(/tope 84 mg, calculado: adulto 70 kg, no de fuente/)).toBeInTheDocument()
+  })
+
+  it('un tope que sí viene de la fuente no muestra el aviso de cálculo', async () => {
+    montar('atropina')
+    await userEvent.click(screen.getByRole('tab', { name: 'Administrar' }))
+    expect(screen.queryByText(/calculado: adulto 70 kg/)).not.toBeInTheDocument()
+  })
+
   it('id inexistente muestra "Medicamento no encontrado"', () => {
     montar('no-existe')
     expect(screen.getByText('Medicamento no encontrado')).toBeInTheDocument()

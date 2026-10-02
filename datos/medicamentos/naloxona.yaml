@@ -57,7 +57,7 @@ dosis:
   fuente:
     ref: CIMA-NALOXONA
     detalle: '4.2.1: 0,1–0,2 mg IV'
-- indicacion: Depresión por opioides (niños), cada 2–3 min
+- indicacion: Depresión respiratoria postoperatoria por opioides (niños), cada 2–3 min
   poblacion: pediatrico
   unidad: mg/kg
   min: 0.01
@@ -68,6 +68,17 @@ dosis:
   fuente:
     ref: CIMA-NALOXONA
     detalle: '4.2.1 Población pediátrica: 0,01–0,02 mg/kg'
+- indicacion: Intoxicación por opioides / reversión total (niños, pauta PALS)
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 0.1
+  max: 0.1
+  topeAdulto:
+    valor: 2
+    unidad: mg
+  fuente:
+    ref: PEDIAMECUM-NALOXONA
+    detalle: 'PALS: 0,1 mg/kg hasta 2 mg en reversión total'
 sinDosisPediatrica: false
 estabilidad:
   ambienteH: 24
@@ -553,4 +564,5 @@ meta:
     valores:
     - 'CIMA: 0,01–0,02 mg/kg'
     - 'Pediamécum (PALS): 0,1 mg/kg hasta 2 mg en reversión total'
-    decision: Se registra la pauta de ficha técnica (conservadora); la de PALS queda para revisión.
+    decision: 'Se registra la pauta de ficha técnica (conservadora); la de PALS queda para revisión. Revisión clínica (Héctor
+      Salvo Agüero, TENS, 2026-10-02): se muestran ambas pautas, cada una con su indicación.'

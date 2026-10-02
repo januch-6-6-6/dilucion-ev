@@ -535,7 +535,8 @@ meta:
     valores:
     - 'Pucón: «dilución 0,04 mg/ml» y «40 mg/100 ml» (0,4 mg/ml)'
     - 'CIMA: 40 mg en 100 ml'
-    decision: Se registra 40 mg en 100 ml; el «0,04 mg/ml» de Pucón parece un error de tipeo.
+    decision: 'Se registra 40 mg en 100 ml; el «0,04 mg/ml» de Pucón parece un error de tipeo. Revisión clínica (Héctor Salvo
+      Agüero, TENS, 2026-10-02): criterio conservador aprobado.'
   - campo: dosis pediátrica
     valores:
     - 'CIMA: sin datos IV en niños'

@@ -65,6 +65,7 @@ dosis:
   topeAdulto:
     valor: 84
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-ROCURONIO
     detalle: SRI 0,9–1,2 mg/kg
@@ -551,4 +552,5 @@ meta:
   - campo: tope pediátrico
     valores:
     - 'Urgencia UC: 1–1,2 mg/kg (≈ 84 mg con 1,2 mg/kg × 70 kg)'
-    decision: Tope adulto de 84 mg fijado para el cálculo; confirmar.
+    decision: 'Tope adulto de 84 mg fijado para el cálculo; confirmar. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente».'

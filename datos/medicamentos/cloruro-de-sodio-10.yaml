@@ -512,4 +512,5 @@ meta:
   - campo: dosis
     valores:
     - 'Pucón: «según necesidad y objetivo terapéutico», sin dosis'
-    decision: Ficha sin dosis.
+    decision: 'Ficha sin dosis. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): la búsqueda no encontró una fuente
+      chilena citable; sigue sin dosis.'

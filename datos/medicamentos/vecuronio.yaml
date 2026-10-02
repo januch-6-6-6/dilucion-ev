@@ -78,6 +78,7 @@ dosis:
   topeAdulto:
     valor: 7
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-VECURONIO
     detalle: 0,1 mg/kg/dosis
@@ -564,4 +565,6 @@ meta:
     valores:
     - No hay vecuronio en CIMA ni en Pucón
     - FDA no indica el volumen de reconstitución en el extracto revisado
-    decision: 'Fuente FDA; se asumen 10 ml (1 mg/ml), práctica habitual: confirmar. Tope pediátrico 7 mg (0,1 mg/kg × 70 kg).'
+    decision: 'Fuente FDA; se asumen 10 ml (1 mg/ml), práctica habitual: confirmar. Tope pediátrico 7 mg (0,1 mg/kg × 70 kg).
+      Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): reconstitución con 10 ml (1 mg/ml) confirmada por experiencia
+      clínica; tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente».'

@@ -537,11 +537,12 @@ efectosAdversos:
     ref: PUCON-2022
     detalle: 'Anexo 6, Haloperidol: RAM'
 alertas:
-- 'Uso EV fuera de ficha técnica en España: requiere monitorización ECG.'
+- 'Uso EV fuera de ficha técnica (en CIMA solo IM): riesgo de QT largo y torsade de pointes; monitorizar ECG.'
 meta:
   discrepancias:
   - campo: vía
     valores:
     - 'Pucón: EV directa, intermitente y continua'
     - 'CIMA: solo intramuscular'
-    decision: Se registra la preparación EV de Pucón con alerta; dosis de CIMA (IM). REVISAR PRIMERO.
+    decision: 'Se registra la preparación EV de Pucón con alerta; dosis de CIMA (IM). Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): se mantiene la vía EV de Pucón, con alerta de QT largo y monitorización ECG.'

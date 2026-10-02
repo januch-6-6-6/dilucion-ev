@@ -535,4 +535,5 @@ meta:
     valores:
     - 'CIMA: 1 mg/ml (volumen de ampolla no confirmado en el extracto)'
     - Pediamécum solo tiene pautas orales
-    decision: Se registra ampolla de 5 ml (5 mg); sin dosis pediátrica IV.
+    decision: 'Se registra ampolla de 5 ml (5 mg); sin dosis pediátrica IV. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      ampolla de 5 mg/5 ml NO confirmada: verificar el rotulado local.'

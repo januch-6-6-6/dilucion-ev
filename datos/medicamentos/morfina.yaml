@@ -591,4 +591,5 @@ meta:
     valores:
     - 'Stabilis: sin datos'
     - 'CIMA morfina 6.2: incompatible con sales de magnesio'
-    decision: Se registra incompatible (criterio conservador).
+    decision: 'Se registra incompatible (criterio conservador). Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      criterio conservador aprobado.'

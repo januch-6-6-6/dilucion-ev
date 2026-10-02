@@ -9,15 +9,15 @@ ambitos:
 - hospitalizacion
 altoRiesgo: false
 presentaciones:
-- id: amp-2g-5ml
+- id: amp-1g-2ml
   forma: ampolla
   cantidad:
-    valor: 2
+    valor: 1
     unidad: g
-  volumenMl: 5
+  volumenMl: 2
   fuente:
-    ref: CIMA-METAMIZOL
-    detalle: Presentación 0,4 g/ml
+    ref: REVISION-CLINICA-2026-10-02
+    detalle: 'Ampolla de 1 g/2 ml (500 mg/ml); Pucón: ampolla de 1 g'
 reconstitucion: null
 dilucion:
   sueros:
@@ -571,4 +571,5 @@ meta:
     valores:
     - 'Pucón: ampolla de 1 g (sin volumen indicado)'
     - 'CIMA: 0,4 g/ml (ampolla de 2 g/5 ml)'
-    decision: Se registra la de CIMA; verificar la ampolla disponible en Chile.
+    decision: 'Se registra la de CIMA; verificar la ampolla disponible en Chile. Revisión clínica (Héctor Salvo Agüero, TENS,
+      2026-10-02): ampolla de 1 g/2 ml (500 mg/ml).'

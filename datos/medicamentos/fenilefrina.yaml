@@ -82,6 +82,7 @@ dosis:
   topeAdulto:
     valor: 100
     unidad: mcg
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-FENILEFRINA
     detalle: Bolo IV 5–20 mcg/kg cada 10–15 min
@@ -576,4 +577,6 @@ meta:
     valores:
     - 'CIMA: sin datos en niños'
     - 'Pediamécum: bolo 5–20 mcg/kg; infusión 0,1–0,5 mcg/kg/min'
-    decision: Se registra la pauta de Pediamécum con tope de bolo adulto de 100 mcg.
+    decision: 'Se registra la pauta de Pediamécum con tope de bolo adulto de 100 mcg. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente». Pauta
+      pediátrica de Pediamécum aceptada.'

@@ -575,4 +575,6 @@ meta:
   - campo: fuente chilena
     valores:
     - Protocolo Pucón 2022 no incluye metilprednisolona
-    decision: 'Ficha basada en CIMA y Pediamécum; en Chile son habituales viales de 40, 125, 500 y 1000 mg: confirmar.'
+    decision: 'Ficha basada en CIMA y Pediamécum; en Chile son habituales viales de 40, 125, 500 y 1000 mg: confirmar. Revisión
+      clínica (Héctor Salvo Agüero, TENS, 2026-10-02): viales de 40, 125, 500 y 1000 mg confirmados; solo se registran 20
+      y 40 mg porque no hay fuente para el volumen de reconstitución de los demás.'

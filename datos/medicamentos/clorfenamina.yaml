@@ -516,4 +516,5 @@ meta:
     - 'Pucón: sin dosis'
     - CIMA solo tiene dexclorfeniramina (otra molécula)
     - Pediamécum sin ficha de clorfenamina
-    decision: Ficha sin dosis; buscar una fuente chilena con dosis en la revisión.
+    decision: 'Ficha sin dosis; buscar una fuente chilena con dosis en la revisión. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): queda sin dosis (solo preparación y compatibilidad).'

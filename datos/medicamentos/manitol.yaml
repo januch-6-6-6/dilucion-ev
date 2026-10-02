@@ -17,6 +17,15 @@ presentaciones:
   fuente:
     ref: CIMA-MANITOL
     detalle: '2: 200 mg/ml'
+- id: fco-20pct-500ml
+  forma: frasco 20 % (500 ml)
+  cantidad:
+    valor: 100
+    unidad: g
+  volumenMl: 500
+  fuente:
+    ref: REVISION-CLINICA-2026-10-02
+    detalle: Frasco de 500 ml al 20 % (100 g), además del de 250 ml
 reconstitucion: null
 dilucion:
   sueros: []
@@ -55,6 +64,7 @@ dosis:
   topeAdulto:
     valor: 100
     unidad: g
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-MANITOL
     detalle: 0,5–1 g/kg (máx. 1,5 g/kg/día)
@@ -545,4 +555,6 @@ meta:
     valores:
     - Tope 100 g = 1,5 g/kg × 70 kg (aprox.)
     - Volumen de frasco de 250 ml no confirmado en la ficha (Osmofundina)
-    decision: Confirmar presentación local (250 o 500 ml).
+    decision: 'Confirmar presentación local (250 o 500 ml). Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): tope
+      = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente». Revisión clínica (Héctor Salvo
+      Agüero, TENS, 2026-10-02): se usan ambos frascos, 250 ml (50 g) y 500 ml (100 g).'

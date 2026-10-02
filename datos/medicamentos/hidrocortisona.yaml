@@ -60,13 +60,14 @@ administracion:
     ref: CIMA-HIDROCORTISONA
     detalle: 4.2.1; 6.2
 dosis:
-- indicacion: Dosis IV única habitual, hasta aprox. 373 mg (la ficha indica que no está limitada; repetible cada 2–6 h)
+- indicacion: 'Dosis inicial (crisis suprarrenal: 100 mg EV en bolo), repetible cada 2, 4 o 6 h'
   poblacion: adulto
   unidad: mg
-  max: 373
+  min: 100
+  max: 500
   fuente:
-    ref: CIMA-HIDROCORTISONA
-    detalle: '4.2.1: desde una fracción del vial hasta aprox. 373 mg por dosis, «aunque no está limitado»'
+    ref: FDA-SOLU-CORTEF
+    detalle: 'Dosage and administration: dosis inicial de 100 a 500 mg según la indicación; repetible cada 2, 4 o 6 h'
 - indicacion: 'Insuficiencia suprarrenal aguda: dosis inicial (niños)'
   poblacion: pediatrico
   unidad: mg/kg
@@ -564,5 +565,6 @@ meta:
     valores:
     - 'Pucón: frasco liofilizado de 100 mg (succinato)'
     - 'CIMA: Actocortina, hidrocortisona fosfato 373 mg'
-    decision: Presentación de Pucón; la dosis adulta se cita de CIMA (otra sal). Revisar dosis según protocolo local (p. ej.,
-      100 mg en crisis suprarrenal).
+    decision: 'Presentación de Pucón; la dosis adulta se cita de CIMA (otra sal). Revisar dosis según protocolo local (p.
+      ej., 100 mg en crisis suprarrenal). Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): se reemplaza la dosis
+      de la otra sal (CIMA) por la de succinato de FDA (Solu-Cortef), 100 mg EV en crisis suprarrenal.'

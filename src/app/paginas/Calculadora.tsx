@@ -323,7 +323,7 @@ function ModoPediatrico({ ficha }: { ficha?: Ficha }) {
   const alertas: Alerta[] = r.ok
     ? [
         ...alertaDosis(num(porKg), d.unidad, d),
-        ...(r.valor.limitada && d.topeAdulto ? [{ nivel: 'rojo' as const, mensaje: `Dosis limitada a la dosis tope (${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad}).` }] : []),
+        ...(r.valor.limitada && d.topeAdulto ? [{ nivel: 'rojo' as const, mensaje: `Dosis limitada a la dosis tope (${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad})${d.topeEstimado ? ': tope calculado como dosis de adulto (70 kg), no indicado por la fuente' : ''}.` }] : []),
       ]
     : []
   return (

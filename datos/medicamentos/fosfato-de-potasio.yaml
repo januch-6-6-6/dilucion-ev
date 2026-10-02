@@ -550,4 +550,5 @@ meta:
     valores:
     - 'CIMA: diluir al menos 1:1 (hasta 1000 mEq/L de K)'
     - 'Pucón (KCl): máximo periférico 40 mEq/L de K'
-    decision: Se aplica el límite de potasio periférico de Pucón (0,02 mmol/ml), el más conservador.
+    decision: 'Se aplica el límite de potasio periférico de Pucón (0,02 mmol/ml), el más conservador. Revisión clínica (Héctor
+      Salvo Agüero, TENS, 2026-10-02): criterio conservador aprobado.'

@@ -9,15 +9,15 @@ ambitos:
 - hospitalizacion
 altoRiesgo: false
 presentaciones:
-- id: fco-30pct-500ml
-  forma: frasco 30 % (500 ml)
+- id: amp-30pct-20ml
+  forma: ampolla 30 % (20 ml)
   cantidad:
-    valor: 150
+    valor: 6
     unidad: g
-  volumenMl: 500
+  volumenMl: 20
   fuente:
-    ref: CIMA-GLUCOSA-30
-    detalle: '2: 300 mg/ml; 150 g en 500 ml'
+    ref: REVISION-CLINICA-2026-10-02
+    detalle: Ampolla de 20 ml al 30 % (6 g), la habitual en Chile
 reconstitucion: null
 dilucion:
   sueros: []
@@ -535,4 +535,5 @@ meta:
     valores:
     - 'CIMA: frasco de 500 ml al 30 %'
     - En Chile es habitual la ampolla de 20 ml al 30 % (6 g), no confirmada en fuente chilena
-    decision: Se registra la de CIMA; confirmar la presentación local. «Volumen a cargar» usa 300 mg/ml en ambos casos.
+    decision: 'Se registra la de CIMA; confirmar la presentación local. «Volumen a cargar» usa 300 mg/ml en ambos casos. Revisión
+      clínica (Héctor Salvo Agüero, TENS, 2026-10-02): se usa la ampolla de 20 ml al 30 % (6 g).'

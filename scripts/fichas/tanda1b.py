@@ -102,7 +102,7 @@ def dil(descripcion, valor, unidad, volumen_final, fuente):
     return {'descripcion': descripcion, 'cantidad': {'valor': valor, 'unidad': unidad}, 'volumenFinalMl': volumen_final, 'fuente': fuente}
 
 
-def dosis(indicacion, poblacion, unidad, fuente, mn=None, mx=None, maxima=None, tope=None):
+def dosis(indicacion, poblacion, unidad, fuente, mn=None, mx=None, maxima=None, tope=None, estimado=False):
     d = {'indicacion': indicacion, 'poblacion': poblacion, 'unidad': unidad}
     if mn is not None:
         d['min'] = mn
@@ -112,6 +112,8 @@ def dosis(indicacion, poblacion, unidad, fuente, mn=None, mx=None, maxima=None, 
         d['maximaAbsoluta'] = maxima
     if tope is not None:
         d['topeAdulto'] = {'valor': tope[0], 'unidad': tope[1]}
+        if estimado:
+            d['topeEstimado'] = True
     d['fuente'] = fuente
     return d
 
@@ -194,7 +196,7 @@ def fichas(stab=None):
         [dosis('Bolo IV (no superar 100 mcg por bolo)', 'adulto', 'mcg', C('fenilefrina', '4.2: 50–100 mcg'), mn=50, mx=100),
          dosis('Infusión continua', 'adulto', 'mcg/min', C('fenilefrina', '4.2: inicio 25–50, hasta 100 mcg/min'), mn=25, mx=100),
          dosis('Hipotensión/shock: infusión (niños)', 'pediatrico', 'mcg/kg/min', PED('fenilefrina', 'Infusión IV 0,1–0,5 mcg/kg/min'), mn=0.1, mx=0.5),
-         dosis('Hipotensión/shock: bolo IV (niños)', 'pediatrico', 'mcg/kg', PED('fenilefrina', 'Bolo IV 5–20 mcg/kg cada 10–15 min'), mn=5, mx=20, tope=(100, 'mcg'))],
+         dosis('Hipotensión/shock: bolo IV (niños)', 'pediatrico', 'mcg/kg', PED('fenilefrina', 'Bolo IV 5–20 mcg/kg cada 10–15 min'), mn=5, mx=20, tope=(100, 'mcg'), estimado=True)],
         {'fuente': C('fenilefrina', '6.3: una vez abierto, utilizar inmediatamente')},
         [ix('IMAO no selectivos', 'Hipertensión paroxística e hipertermia posiblemente mortal (contraindicado)', C('fenilefrina', '4.5')),
          ix('Antidepresivos tricíclicos', 'Hipertensión paroxística con posible arritmia', C('fenilefrina', '4.5'))],
@@ -248,7 +250,7 @@ def fichas(stab=None):
         {'vias': ['bolo', 'infusion_continua'], 'texto': 'Bolo IV de 1–1,5 mg/kg a 25–50 mg/min, seguido de infusión continua de 1–4 mg/min con bomba y ECG continuo. Reducir la velocidad a la mitad tras 24 h (acumulación).', 'requiereBomba': True, 'fuente': fu('FDA-LIDOCAINA-SG5', 'Dosage and administration')},
         [dosis('Arritmia ventricular: bolo', 'adulto', 'mg/kg', fu('FDA-LIDOCAINA-SG5', 'Bolo 1,0–1,5 mg/kg'), mn=1, mx=1.5),
          dosis('Infusión de mantención', 'adulto', 'mg/min', fu('FDA-LIDOCAINA-SG5', '1–4 mg/min'), mn=1, mx=4),
-         dosis('Antiarrítmico: bolo (niños)', 'pediatrico', 'mg/kg', PED('lidocaina', 'Bolo IV 1 mg/kg'), mn=1, mx=1, tope=(100, 'mg')),
+         dosis('Antiarrítmico: bolo (niños)', 'pediatrico', 'mg/kg', PED('lidocaina', 'Bolo IV 1 mg/kg'), mn=1, mx=1, tope=(100, 'mg'), estimado=True),
          dosis('Antiarrítmico: infusión (niños)', 'pediatrico', 'mcg/kg/min', PED('lidocaina', 'Infusión 20–50 mcg/kg/min'), mn=20, mx=50)],
         {'fuente': C('lidocaina', '6.3: tras la dilución, usar inmediatamente')},
         [ix('Inhibidores de su metabolismo (p. ej., cimetidina)', 'Concentraciones tóxicas con dosis altas repetidas', C('lidocaina', '4.5')),
@@ -419,7 +421,7 @@ def fichas(stab=None):
         {'vias': ['bolo', 'infusion_intermitente'], 'texto': 'Diluir solo en suero fisiológico (precipita con glucosa). Velocidad máxima 50 mg/min en adultos (25 mg/min o menos en adultos mayores) y 1–3 mg/kg/min en niños, con ECG y PA. Lavar con SF antes y después.', 'fuente': C('fenitoina', '4.2 Forma de administración; 6.2')},
         [dosis('Status epiléptico: carga (a ≤ 50 mg/min)', 'adulto', 'mg/kg', C('fenitoina', '4.2: carga aprox. 18 mg/kg'), mn=18, mx=18),
          dosis('Mantención desde las 24 h (en 3–4 dosis)', 'adulto', 'mg/kg/24 h', C('fenitoina', '4.2: 5–7 mg/kg/día'), mn=5, mx=7),
-         dosis('Status epiléptico: carga (niños)', 'pediatrico', 'mg/kg', C('fenitoina', '4.2 Neonatos y niños pequeños: 15–20 mg/kg'), mn=15, mx=20, tope=(1260, 'mg'))],
+         dosis('Status epiléptico: carga (niños)', 'pediatrico', 'mg/kg', C('fenitoina', '4.2 Neonatos y niños pequeños: 15–20 mg/kg'), mn=15, mx=20, tope=(1260, 'mg'), estimado=True)],
         {'fuente': C('fenitoina', '6.3 (no informa estabilidad de la dilución)')},
         [ix('Inhibidores del CYP2C9/2C19', 'Aumento importante de la concentración de fenitoína: toxicidad', C('fenitoina', '4.5')),
          ix('Fármacos metabolizados por enzimas hepáticas', 'Fenitoína es inductor potente: reduce sus niveles', C('fenitoina', '4.5'))],
@@ -515,7 +517,7 @@ def fichas(stab=None):
         [dosis('Tromboembolismo: bolo inicial', 'adulto', 'UI/kg', C('heparina', '4.2: 80 UI/kg; hasta 120 UI/kg en TEP grave'), mn=80, mx=80, maxima=120),
          dosis('Tromboembolismo: mantención', 'adulto', 'UI/kg/h', C('heparina', '4.2: 18 UI/kg/h ajustada por TTPA'), mn=18, mx=18),
          dosis('Angina inestable o IAM sin trombolisis: bolo', 'adulto', 'UI', C('heparina', '4.2: bolo de 5.000 UI, luego 32.000 UI/24 h'), mn=5000, mx=5000),
-         dosis('Anticoagulación: bolo (niños)', 'pediatrico', 'UI/kg', C('heparina', '4.2 Población pediátrica: 80 UI/kg en bolo'), mn=80, mx=80, tope=(5000, 'UI')),
+         dosis('Anticoagulación: bolo (niños)', 'pediatrico', 'UI/kg', C('heparina', '4.2 Población pediátrica: 80 UI/kg en bolo'), mn=80, mx=80, tope=(5000, 'UI'), estimado=True),
          dosis('Anticoagulación: mantención (niños)', 'pediatrico', 'UI/kg/h', C('heparina', '4.2 Población pediátrica: 18 UI/kg/h'), mn=18, mx=18)],
         {'fuente': C('heparina', '6.3: una vez abierto el vial, administrar inmediatamente')},
         [ix('Anticoagulantes, antiagregantes, fibrinolíticos, AINE', 'Potencian el efecto: riesgo de hemorragia', C('heparina', '4.5'))],
@@ -562,7 +564,7 @@ def fichas(stab=None):
         {'vias': ['bolo', 'infusion_intermitente'], 'texto': 'Inyección IV lenta de la solución hipertónica sin diluir o diluida en perfusión, asegurando ventilación adecuada. Incompatible con muchos fármacos (catecolaminas, calcio): lavar la vía antes y después.', 'fuente': C('bicarbonato-de-sodio', '4.2; 6.2; 6.6')},
         [dosis('Paro cardíaco: dosis inicial', 'adulto', 'mEq/kg', C('bicarbonato-de-sodio', '4.2: 1 mEq/kg (1 ml/kg de 8,4 %)'), mn=1, mx=1),
          dosis('Acidosis grave menos crítica (perfusión en 4–8 h)', 'adulto', 'mEq/kg', C('bicarbonato-de-sodio', '4.2: 2–5 mEq/kg'), mn=2, mx=5),
-         dosis('Dosis inicial (niños), IV lenta', 'pediatrico', 'mEq/kg', C('bicarbonato-de-sodio', '4.2: 1 mEq/kg'), mn=1, mx=1, tope=(70, 'mEq'))],
+         dosis('Dosis inicial (niños), IV lenta', 'pediatrico', 'mEq/kg', C('bicarbonato-de-sodio', '4.2: 1 mEq/kg'), mn=1, mx=1, tope=(70, 'mEq'), estimado=True)],
         {'fuente': C('bicarbonato-de-sodio', '6.3: usar inmediatamente tras abrir')},
         [ix('Corticoides con acción mineralocorticoide o ACTH', 'Retención de agua y sodio', C('bicarbonato-de-sodio', '4.5')),
          ix('Litio', 'Aumenta la excreción renal de litio', C('bicarbonato-de-sodio', '4.5'))],
@@ -615,7 +617,7 @@ def fichas(stab=None):
         [dosis('Inducción anestésica (< 55 años)', 'adulto', 'mg/kg', C('propofol', '4.2.1: 1,5–2,5 mg/kg'), mn=1.5, mx=2.5),
          dosis('Mantención de la anestesia', 'adulto', 'mg/kg/h', C('propofol', '4.2.1: 4–12 mg/kg/h'), mn=4, mx=12),
          dosis('Sedación en UCI (ventilación mecánica)', 'adulto', 'mg/kg/h', C('propofol', '4.2.1: 0,3–4 mg/kg/h; no superar 4 mg/kg/h'), mn=0.3, mx=4),
-         dosis('Inducción anestésica (> 8 años; 1 mes–3 años hasta 4 mg/kg)', 'pediatrico', 'mg/kg', C('propofol', '4.2.1 Población pediátrica: 2,5 mg/kg (2,5–4 en menores)'), mn=2.5, mx=4, tope=(200, 'mg'))],
+         dosis('Inducción anestésica (> 8 años; 1 mes–3 años hasta 4 mg/kg)', 'pediatrico', 'mg/kg', C('propofol', '4.2.1 Población pediátrica: 2,5 mg/kg (2,5–4 en menores)'), mn=2.5, mx=4, tope=(200, 'mg'), estimado=True)],
         {'ambienteH': 6, 'fuente': C('propofol', '6.3: diluido, usar dentro de 6 h')},
         [ix('Depresores del SNC (opioides, benzodiazepinas)', 'Depresión respiratoria y circulatoria aditiva', C('propofol', '4.5'))],
         ea(['Hipotensión', 'Dolor en el sitio de inyección', 'Apnea transitoria'], ['Bradicardia', 'Síndrome de perfusión por propofol (> 4 mg/kg/h por más de 48 h)', 'Anafilaxia'], ['PA, FC, SatO2 y ventilación', 'Triglicéridos en uso prolongado'], C('propofol', '4.8; 4.4')),
@@ -644,7 +646,7 @@ def fichas(stab=None):
         [dosis('Secuencia rápida de intubación', 'adulto', 'mg/kg', fu('URGENCIA-UC-SRI-2015', 'Rocuronio 1–1,2 mg/kg (CIMA 4.2: 1,0 mg/kg)'), mn=1, mx=1.2),
          dosis('Mantención (bolos)', 'adulto', 'mg/kg', C('rocuronio', '4.2: 0,15 mg/kg'), mn=0.15, mx=0.15),
          dosis('Perfusión continua', 'adulto', 'mg/kg/h', C('rocuronio', '4.2: 0,3–0,6 mg/kg/h'), mn=0.3, mx=0.6),
-         dosis('Secuencia rápida de intubación (niños)', 'pediatrico', 'mg/kg', PED('rocuronio', 'SRI 0,9–1,2 mg/kg'), mn=0.9, mx=1.2, tope=(84, 'mg'))],
+         dosis('Secuencia rápida de intubación (niños)', 'pediatrico', 'mg/kg', PED('rocuronio', 'SRI 0,9–1,2 mg/kg'), mn=0.9, mx=1.2, tope=(84, 'mg'), estimado=True)],
         {'fuente': C('rocuronio', '6.3: diluido, estabilidad en uso 72 h a 30 °C; microbiológicamente usar de inmediato')},
         [ix('Anestésicos volátiles halogenados', 'Potencian el bloqueo neuromuscular', C('rocuronio', '4.5'))],
         ea(['Dolor en el sitio de inyección'], ['Anafilaxia', 'Bloqueo neuromuscular prolongado'], ['Ventilación asegurada', 'Tren de cuatro'], C('rocuronio', '4.8')),

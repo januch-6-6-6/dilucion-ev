@@ -52,6 +52,14 @@ describe('Calculadora', () => {
     expect(screen.queryByLabelText('Peso (kg)')).not.toBeInTheDocument()
   })
 
+  it('pediátrica limitada por un tope calculado avisa que no viene de la fuente', async () => {
+    montar(obtenerFicha('rocuronio')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '90')
+    expect(screen.getByRole('status')).toHaveTextContent('84 mg')
+    expect(screen.getByRole('alert')).toHaveTextContent('tope calculado como dosis de adulto (70 kg), no indicado por la fuente')
+  })
+
   it('pediátrica sobre el tope se limita y avisa', async () => {
     montar(obtenerFicha('atropina')!)
     await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))

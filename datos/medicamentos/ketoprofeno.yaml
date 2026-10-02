@@ -553,7 +553,8 @@ meta:
     valores:
     - 'Pucón: infusión EV intermitente y continua'
     - 'CIMA (Orudis): no debe administrarse por vía intravenosa'
-    decision: Se registra la preparación EV de Pucón con alerta; la dosis diaria se cita de CIMA. REVISAR PRIMERO.
+    decision: 'Se registra la preparación EV de Pucón con alerta; la dosis diaria se cita de CIMA. Revisión clínica (Héctor
+      Salvo Agüero, TENS, 2026-10-02): se mantiene la infusión EV de Pucón, con la alerta de que la ficha española no la autoriza.'
   - campo: dosis pediátrica
     valores:
     - 'CIMA: no usar en menores de 3 años; sin dosis pediátrica'

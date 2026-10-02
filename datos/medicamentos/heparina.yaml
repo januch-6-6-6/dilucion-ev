@@ -85,6 +85,7 @@ dosis:
   topeAdulto:
     valor: 5000
     unidad: UI
+  topeEstimado: true
   fuente:
     ref: CIMA-HEPARINA
     detalle: '4.2 Población pediátrica: 80 UI/kg en bolo'
@@ -580,4 +581,6 @@ meta:
     - 'CIMA: 80 UI/kg en bolo sin tope explícito'
     - 'Pediamécum (otras fuentes): 75 UI/kg y 20 UI/kg/h'
     - Dilución 25.000 UI/250 ml no está en las fuentes; es un ejemplo de 100 UI/ml
-    decision: Tope del bolo pediátrico = bolo adulto fijo de 5.000 UI; confirmar dilución con el protocolo local.
+    decision: 'Tope del bolo pediátrico = bolo adulto fijo de 5.000 UI; confirmar dilución con el protocolo local. Revisión
+      clínica (Héctor Salvo Agüero, TENS, 2026-10-02): tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado,
+      no de fuente».'

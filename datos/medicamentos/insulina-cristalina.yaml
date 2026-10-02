@@ -63,6 +63,30 @@ dosis:
   fuente:
     ref: CIMA-INSULINA-CRISTALINA
     detalle: '4.2: 0,3–1,0 UI/kg/día'
+- indicacion: 'Cetoacidosis diabética: infusión de tasa fija'
+  poblacion: adulto
+  unidad: UI/kg/h
+  min: 0.1
+  max: 0.1
+  fuente:
+    ref: ADA-CRISIS-HIPERGLICEMICAS-2024
+    detalle: 'Insulin therapy: fixed-rate intravenous insulin infusion started at 0.1 units/kg/h'
+- indicacion: 'Cetoacidosis: al bajar la glicemia de 250 mg/dl (agregar dextrosa 5–10 %)'
+  poblacion: adulto
+  unidad: UI/kg/h
+  min: 0.05
+  max: 0.05
+  fuente:
+    ref: ADA-CRISIS-HIPERGLICEMICAS-2024
+    detalle: reduce the insulin infusion rate to 0.05 units/kg/h
+- indicacion: 'Hiperkalemia: 10 UI en 25 g de glucosa EV en 15–30 min (controlar glicemia)'
+  poblacion: adulto
+  unidad: UI
+  min: 10
+  max: 10
+  fuente:
+    ref: UKKA-HIPERKALEMIA-2026
+    detalle: 10 units soluble insulin in 25 g glucose by intravenous infusion over 15–30 min
 sinDosisPediatrica: true
 estabilidad:
   ambienteH: 24
@@ -551,4 +575,5 @@ meta:
   - campo: dosis EV
     valores:
     - CIMA no indica dosis EV por indicación (cetoacidosis, hiperkalemia)
-    decision: 'Sin dosis EV por indicación: seguir el protocolo local de la institución.'
+    decision: 'Sin dosis EV por indicación: seguir el protocolo local de la institución. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): se agregan las dosis EV de cetoacidosis (ADA 2024) e hiperkalemia (UKKA 2026); fuentes extranjeras.'

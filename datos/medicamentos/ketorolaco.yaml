@@ -553,4 +553,5 @@ meta:
     valores:
     - 'CIMA: no recomendado en menores de 16 años'
     - 'Pediamécum: 0,5 mg/kg/dosis (máx. 30 mg), uso fuera de ficha técnica'
-    decision: Se registra la pauta de Pediamécum indicada como fuera de ficha técnica; revisar si se mantiene.
+    decision: 'Se registra la pauta de Pediamécum indicada como fuera de ficha técnica; revisar si se mantiene. Revisión clínica
+      (Héctor Salvo Agüero, TENS, 2026-10-02): se mantiene la pauta de Pediamécum rotulada «fuera de ficha técnica».'

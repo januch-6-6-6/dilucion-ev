@@ -591,4 +591,5 @@ meta:
     valores:
     - 'CIMA: seguridad y eficacia no establecidas en pediatría'
     - 'Pediamécum: 5 mg/kg (máx. 300 mg) en TV sin pulso/FV'
-    decision: Se registra la dosis de Pediamécum con la advertencia de CIMA.
+    decision: 'Se registra la dosis de Pediamécum con la advertencia de CIMA. Revisión clínica (Héctor Salvo Agüero, TENS,
+      2026-10-02): se acepta la pauta de Pediamécum con la advertencia de la ficha técnica visible.'

@@ -582,4 +582,5 @@ meta:
     valores:
     - 'CIMA: seguridad no establecida en niños'
     - 'Pediamécum: 5–20 mcg/kg/min, máx. 50'
-    decision: Se registra la pauta de Pediamécum, marcada como fuente pediátrica.
+    decision: 'Se registra la pauta de Pediamécum, marcada como fuente pediátrica. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): se acepta la pauta de Pediamécum con la advertencia de la ficha técnica visible.'

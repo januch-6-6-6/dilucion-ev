@@ -80,6 +80,7 @@ dosis:
   topeAdulto:
     valor: 200
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: CIMA-PROPOFOL
     detalle: '4.2.1 Población pediátrica: 2,5 mg/kg (2,5–4 en menores)'
@@ -570,4 +571,5 @@ meta:
   - campo: tope pediátrico
     valores:
     - 'CIMA adulto: 1,5–2,5 mg/kg (≈ 175 mg en 70 kg)'
-    decision: Tope adulto de 200 mg fijado para el cálculo; confirmar.
+    decision: 'Tope adulto de 200 mg fijado para el cálculo; confirmar. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente».'

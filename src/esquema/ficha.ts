@@ -28,6 +28,8 @@ export const Dosis = z.strictObject({
   max: positivo.optional(),
   maximaAbsoluta: positivo.optional(),
   topeAdulto: Cantidad.optional(),
+  /** El tope no viene de la fuente: se calculó como dosis de adulto en 70 kg (decisión de la revisión clínica). */
+  topeEstimado: z.boolean().optional(),
   fuente: FuenteRef,
 })
 

@@ -554,4 +554,5 @@ meta:
     valores:
     - 'Iquique: 10 ml de SF (50 mg/ml)'
     - 'Pucón: 100 mg/ml'
-    decision: Se registra la de Iquique.
+    decision: 'Se registra la de Iquique. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): aprobado; revisar con
+      el protocolo local.'

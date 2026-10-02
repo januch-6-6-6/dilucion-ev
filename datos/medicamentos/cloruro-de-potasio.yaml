@@ -557,4 +557,5 @@ meta:
   - campo: dosis pediátrica
     valores:
     - Pucón y FDA no indican dosis pediátrica
-    decision: 'Sin dosis pediátrica: usar el protocolo pediátrico local.'
+    decision: 'Sin dosis pediátrica: usar el protocolo pediátrico local. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      la búsqueda no encontró fuente citable (FDA: no usar en niños); sigue «protocolo local».'

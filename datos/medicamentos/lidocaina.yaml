@@ -89,6 +89,7 @@ dosis:
   topeAdulto:
     valor: 100
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: PEDIAMECUM-LIDOCAINA
     detalle: Bolo IV 1 mg/kg
@@ -598,4 +599,5 @@ meta:
     valores:
     - 'Pediamécum: 1 mg/kg sin tope explícito'
     - 'FDA adulto: 1–1,5 mg/kg (≈100 mg en 70 kg)'
-    decision: Se usa 100 mg como tope adulto del bolo pediátrico; confirmar en revisión.
+    decision: 'Se usa 100 mg como tope adulto del bolo pediátrico; confirmar en revisión. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado, no de fuente».'

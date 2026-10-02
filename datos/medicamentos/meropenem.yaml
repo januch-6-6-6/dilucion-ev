@@ -570,4 +570,5 @@ meta:
   - campo: reconstitución
     valores:
     - 'Iquique: 500 mg en 10 ml y 1 g en 20 ml (ambos 50 mg/ml)'
-    decision: Ambas presentaciones a 50 mg/ml; la ficha registra 20 ml (frasco de 1 g) como volumen de reconstitución.
+    decision: 'Ambas presentaciones a 50 mg/ml; la ficha registra 20 ml (frasco de 1 g) como volumen de reconstitución. Revisión
+      clínica (Héctor Salvo Agüero, TENS, 2026-10-02): aprobado; revisar con el protocolo local.'

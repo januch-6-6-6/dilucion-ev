@@ -793,3 +793,33 @@
   url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a8058593-48af-457a-b0f0-166935c7d10c
   anio: 2021
   consultado: '2026-10-01'
+- id: REVISION-CLINICA-2026-10-02
+  titulo: 'Revisión clínica v0.2: decisiones documentadas (confirmación por experiencia clínica, no por fuente publicada)'
+  institucion: Héctor Salvo Agüero, TENS (autor); no reemplaza la validación de un químico farmacéutico
+  url: https://github.com/januch-6-6-6/dilucion-ev/blob/main/informes/v0.2-decisiones-revision.md
+  anio: 2026
+  consultado: '2026-10-02'
+- id: FDA-SOLU-CORTEF
+  titulo: Solu-Cortef (hydrocortisone sodium succinate) — Prescribing information (Dosage and administration)
+  institucion: U.S. FDA / DailyMed
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65eefd58-b166-4d71-ade6-45c8fdf86922
+  anio: 2026
+  consultado: '2026-10-02'
+- id: ADA-CRISIS-HIPERGLICEMICAS-2024
+  titulo: 'Hyperglycemic Crises in Adults With Diabetes: A Consensus Report (Diabetes Care 2024;47(8):1257–1275)'
+  institucion: ADA, EASD, JBDS, AACE y DTS
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/
+  anio: 2024
+  consultado: '2026-10-02'
+- id: UKKA-HIPERKALEMIA-2026
+  titulo: 'Clinical Practice Guideline: Management of Hyperkalaemia in Adults (actualizada julio 2026)'
+  institucion: UK Kidney Association
+  url: https://www.ukkidney.org/sites/default/files/documents/FINAL%20VERSION%20-%20UKKA%20CLINICAL%20PRACTICE%20GUIDELINE%20-%20MANAGEMENT%20OF%20HYPERKALAEMIA%20IN%20ADULTS%20-%20UPDATED%20JULY%202026_0.pdf
+  anio: 2026
+  consultado: '2026-10-02'
+- id: ESETT-2019
+  titulo: Randomized Trial of Three Anticonvulsant Medications for Status Epilepticus (ESETT; N Engl J Med 2019;381:2103–2113)
+  institucion: Kapur J, et al. — NINDS / NETT, PECARN
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7098487/
+  anio: 2019
+  consultado: '2026-10-02'

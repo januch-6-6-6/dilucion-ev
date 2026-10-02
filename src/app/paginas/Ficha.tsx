@@ -84,7 +84,7 @@ function Administrar({ f }: { f: TFicha }) {
                     etiqueta={d.indicacion}
                     valor={[d.min !== undefined && d.max !== undefined && d.min !== d.max ? `${fmt(d.min)}–${fmt(d.max)}` : fmt(d.max ?? d.min ?? NaN), d.unidad].join(' ') +
                       (d.maximaAbsoluta ? ` (máximo ${fmt(d.maximaAbsoluta)})` : '') +
-                      (d.topeAdulto ? ` (tope ${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad})` : '')}
+                      (d.topeAdulto ? ` (tope ${fmt(d.topeAdulto.valor)} ${d.topeAdulto.unidad}${d.topeEstimado ? ', calculado: adulto 70 kg, no de fuente' : ''})` : '')}
                     fuente={d.fuente}
                   />
                 ))}

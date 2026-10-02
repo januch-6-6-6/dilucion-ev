@@ -57,6 +57,7 @@ dosis:
   topeAdulto:
     valor: 70
     unidad: mEq
+  topeEstimado: true
   fuente:
     ref: CIMA-BICARBONATO-DE-SODIO
     detalle: '4.2: 1 mEq/kg'
@@ -550,5 +551,7 @@ meta:
     valores:
     - Pucón 2022 no incluye bicarbonato
     - 'CIMA: 1 mEq/kg en niños sin tope'
-    decision: Tope adulto de 70 mEq (1 mEq/kg × 70 kg) fijado para el cálculo; confirmar presentación (ampolla 8,4 % de 10
-      o 20 ml).
+    decision: 'Tope adulto de 70 mEq (1 mEq/kg × 70 kg) fijado para el cálculo; confirmar presentación (ampolla 8,4 % de 10
+      o 20 ml). Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): tope = dosis de adulto en 70 kg aceptado; la app
+      lo muestra como «calculado, no de fuente». Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): ampolla de 10 ml
+      (10 mEq) confirmada.'

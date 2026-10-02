@@ -7,18 +7,27 @@ ambitos:
 - hospitalizacion
 altoRiesgo: true
 presentaciones:
-- id: fa-1mg
+- id: fa-2mg
   forma: frasco ampolla (polvo)
   cantidad:
-    valor: 1
+    valor: 2
     unidad: mg
-  volumenMl: 1
+  volumenMl: 2
   fuente:
-    ref: CIMA-REMIFENTANILO
-    detalle: '2: tras reconstituir, 1 mg/ml'
+    ref: REVISION-CLINICA-2026-10-02
+    detalle: 'Vial de 2 mg (en Chile); CIMA: 1 mg/ml tras reconstituir'
+- id: fa-5mg
+  forma: frasco ampolla (polvo)
+  cantidad:
+    valor: 5
+    unidad: mg
+  volumenMl: 5
+  fuente:
+    ref: REVISION-CLINICA-2026-10-02
+    detalle: 'Vial de 5 mg (en Chile); CIMA: 1 mg/ml tras reconstituir'
 reconstitucion:
-  diluyente: Agua para inyectables o suero
-  volumenMl: 1
+  diluyente: Agua para inyectables o suero, 1 ml por cada mg (vial de 2 mg; el de 5 mg lleva 5 ml)
+  volumenMl: 2
   fuente:
     ref: CIMA-REMIFENTANILO
     detalle: '2: cada ml reconstituido contiene 1 mg'
@@ -39,11 +48,19 @@ dilucion:
       ref: CIMA-REMIFENTANILO
       detalle: '4.2: diluir a 20–250 mcg/ml'
   estandar:
-  - descripcion: 1 mg en 20 ml (50 mcg/ml, recomendada en adultos)
+  - descripcion: 2 mg en 40 ml (50 mcg/ml, recomendada en adultos)
     cantidad:
-      valor: 1
+      valor: 2
       unidad: mg
-    volumenFinalMl: 20
+    volumenFinalMl: 40
+    fuente:
+      ref: CIMA-REMIFENTANILO
+      detalle: '4.2: 50 mcg/ml es la dilución recomendada para adultos'
+  - descripcion: 5 mg en 100 ml (50 mcg/ml, recomendada en adultos)
+    cantidad:
+      valor: 5
+      unidad: mg
+    volumenFinalMl: 100
     fuente:
       ref: CIMA-REMIFENTANILO
       detalle: '4.2: 50 mcg/ml es la dilución recomendada para adultos'
@@ -567,4 +584,5 @@ meta:
     valores:
     - 'CIMA: vial de 1 mg; en Chile existen viales de 2 y 5 mg'
     - 'Pediamécum: pauta pediátrica según ficha técnica (1–12 años)'
-    decision: Sin dosis pediátrica en esta versión; confirmar presentación local.
+    decision: 'Sin dosis pediátrica en esta versión; confirmar presentación local. Revisión clínica (Héctor Salvo Agüero,
+      TENS, 2026-10-02): viales de 2 y 5 mg (los de Chile); la dilución estándar se mantiene en 50 mcg/ml.'

@@ -69,6 +69,25 @@ dosis:
   fuente:
     ref: CIMA-LEVETIRACETAM
     detalle: '4.2: 10 mg/kg c/12 h, hasta 30 mg/kg c/12 h'
+- indicacion: 'Status epiléptico refractario a benzodiacepinas: carga única en 10 min (máx. 4500 mg)'
+  poblacion: adulto
+  unidad: mg/kg
+  min: 60
+  max: 60
+  fuente:
+    ref: ESETT-2019
+    detalle: levetiracetam 60 mg per kilogram (maximum, 4500 mg), infused over 10 minutes
+- indicacion: 'Status epiléptico refractario a benzodiacepinas (≥ 2 años): carga única en 10 min'
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 60
+  max: 60
+  topeAdulto:
+    valor: 4500
+    unidad: mg
+  fuente:
+    ref: ESETT-2019
+    detalle: levetiracetam 60 mg per kilogram (maximum, 4500 mg); pacientes de 2 años o más
 sinDosisPediatrica: false
 estabilidad:
   refrigeradoH: 24
@@ -548,4 +567,5 @@ meta:
     valores:
     - Pucón 2022 no incluye levetiracetam
     - CIMA no incluye dosis de status epiléptico
-    decision: Solo se registran dosis de ficha técnica; la dosis de carga en status depende del protocolo local.
+    decision: 'Solo se registran dosis de ficha técnica; la dosis de carga en status depende del protocolo local. Revisión
+      clínica (Héctor Salvo Agüero, TENS, 2026-10-02): se agrega la carga de status de ESETT (NEJM 2019), fuente extranjera.'

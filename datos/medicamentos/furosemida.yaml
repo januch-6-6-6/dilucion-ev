@@ -566,9 +566,11 @@ meta:
     valores:
     - 'Pucón: «20 mg/ml»'
     - 'CIMA: ampolla 20 mg/2 ml (10 mg/ml)'
-    decision: Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local.
+    decision: 'Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local. Revisión clínica (Héctor Salvo Agüero, TENS,
+      2026-10-02): ampolla de 20 mg/2 ml (10 mg/ml) confirmada.'
   - campo: suero
     valores:
     - 'Pediamécum: SF o SG5 %'
     - 'Stabilis: SG5 % incompatible en Y (casilla roja); CIMA 6.2: precipita con pH < 7'
-    decision: Solo SF por criterio conservador.
+    decision: 'Solo SF por criterio conservador. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): criterio conservador
+      aprobado.'

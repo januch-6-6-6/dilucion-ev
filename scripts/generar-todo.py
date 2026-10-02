@@ -6,7 +6,7 @@ from pathlib import Path
 import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fichas import tanda1, tanda1b, tanda2, tanda3  # noqa: E402
+from fichas import revision, tanda1, tanda1b, tanda2, tanda3  # noqa: E402
 from fichas.comun import compat_desde_matriz  # noqa: E402
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -24,6 +24,8 @@ def main():
                 vistos.add(f['id'])
                 fuentes.append(f)
         fichas.update(m.fichas(stab))
+    fuentes += revision.fuentes()
+    revision.aplicar(fichas)
     matriz = json.load(open(STAB_GLOBAL))
     for k, ficha in fichas.items():
         ficha['compatibilidad'] = compat_desde_matriz(matriz, k, list(fichas))

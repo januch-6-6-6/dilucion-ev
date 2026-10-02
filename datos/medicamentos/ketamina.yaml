@@ -578,4 +578,5 @@ meta:
     valores:
     - 'CIMA 6.3: usar inmediatamente'
     - 'CIMA 6.6: la solución 1 mg/ml es estable 24 h'
-    decision: Se registra «usar inmediatamente» (criterio conservador).
+    decision: 'Se registra «usar inmediatamente» (criterio conservador). Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02):
+      criterio conservador aprobado.'

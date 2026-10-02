@@ -533,4 +533,5 @@ meta:
     valores:
     - 'CIMA: no establecida en menores de 18 años'
     - 'Pediamécum: 10 mg/kg cada 8 h'
-    decision: Se registra la de Pediamécum.
+    decision: 'Se registra la de Pediamécum. Revisión clínica (Héctor Salvo Agüero, TENS, 2026-10-02): se acepta la pauta
+      de Pediamécum con la advertencia de la ficha técnica visible.'

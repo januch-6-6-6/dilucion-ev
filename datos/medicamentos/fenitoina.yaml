@@ -77,6 +77,7 @@ dosis:
   topeAdulto:
     valor: 1260
     unidad: mg
+  topeEstimado: true
   fuente:
     ref: CIMA-FENITOINA
     detalle: '4.2 Neonatos y niños pequeños: 15–20 mg/kg'
@@ -570,4 +571,6 @@ meta:
   - campo: tope pediátrico
     valores:
     - 'CIMA adulto: 18 mg/kg (≈1260 mg en 70 kg)'
-    decision: Tope adulto de la carga pediátrica fijado en 1260 mg (18 mg/kg × 70 kg); confirmar en revisión.
+    decision: 'Tope adulto de la carga pediátrica fijado en 1260 mg (18 mg/kg × 70 kg); confirmar en revisión. Revisión clínica
+      (Héctor Salvo Agüero, TENS, 2026-10-02): tope = dosis de adulto en 70 kg aceptado; la app lo muestra como «calculado,
+      no de fuente».'
