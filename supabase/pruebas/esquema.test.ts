@@ -62,8 +62,9 @@ describe('el público no ve datos sensibles', () => {
     const publico = clientePublico()
     for (const tabla of ['personas', 'administradores', 'historial_hospital', 'propuestas', 'votos', 'bitacora', 'ajustes']) {
       const { data, error } = await publico.from(tabla).select('*')
-      expect(error, `${tabla} devolvió error`).toBeNull()
-      expect(data, `${tabla} no debería mostrar filas al público`).toEqual([])
+      // Vacío por RLS, o negado de plano (la bitácora le revoca todo al público): en ambos casos no ve filas.
+      if (error) expect(error.code, `${tabla} falló por otro motivo`).toBe('42501')
+      expect(data ?? [], `${tabla} no debería mostrar filas al público`).toEqual([])
     }
   })
 })
