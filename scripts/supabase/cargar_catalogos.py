@@ -129,13 +129,16 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
     ap.add_argument('--destino', choices=['prueba', 'real'], required=True)
     ap.add_argument('--deis', help='CSV del DEIS ya descargado (si no, se baja de datos.gob.cl)')
+    ap.add_argument('--solo-medicamentos', action='store_true', help='sincroniza solo las fichas (para CI: no usa el DEIS)')
     args = ap.parse_args(argv)
     _cargar_env()
     n = args.destino.upper()
     url, clave = os.environ[f'SUPABASE_{n}_URL'], os.environ[f'SUPABASE_{n}_SERVICE_KEY']
     meds = filas_medicamentos(RAIZ / 'datos' / 'medicamentos')
-    ests = filas_establecimientos(leer_deis(args.deis or _descargar_deis()))
     print(f'medicamentos: {subir(url, clave, "medicamentos", meds, "id")}')
+    if args.solo_medicamentos:
+        return 0
+    ests = filas_establecimientos(leer_deis(args.deis or _descargar_deis()))
     print(f'establecimientos: {subir(url, clave, "establecimientos", ests, "codigo")}')
     print(f'marcados como no vigentes: {marcar_no_vigentes(url, clave, {e["codigo"] for e in ests})}')
     return 0

@@ -101,3 +101,16 @@ def test_las_peticiones_a_supabase_no_se_hacen_pasar_por_un_navegador(monkeypatc
     cc._http('GET', 'https://x.supabase.co/rest/v1/medicamentos', 'sb_secret_x')
     ua = vistas[0].get_header('User-agent')
     assert ua and 'Mozilla' not in ua
+
+
+def test_solo_medicamentos_no_descarga_ni_toca_el_catalogo_deis(monkeypatch):
+    """En CI el catálogo DEIS ya está guardado: solo se sincronizan las fichas, sin depender de datos.gob.cl."""
+    enviadas = []
+    monkeypatch.setenv('SUPABASE_PRUEBA_URL', 'https://x.supabase.co')
+    monkeypatch.setenv('SUPABASE_PRUEBA_SERVICE_KEY', 'clave')
+    monkeypatch.setattr(cc, '_cargar_env', lambda: None)
+    monkeypatch.setattr(cc, 'subir', lambda url, clave, tabla, filas, conflicto, http=None: enviadas.append(tabla) or len(filas))
+    monkeypatch.setattr(cc, '_descargar_deis', lambda: (_ for _ in ()).throw(AssertionError('no debe descargar el DEIS')))
+    monkeypatch.setattr(cc, 'marcar_no_vigentes', lambda *a, **k: (_ for _ in ()).throw(AssertionError('no debe tocar el DEIS')))
+    assert cc.main(['--destino', 'prueba', '--solo-medicamentos']) == 0
+    assert enviadas == ['medicamentos']

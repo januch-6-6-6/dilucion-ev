@@ -30,8 +30,49 @@ jobs:
         with:
           path: dist
 
+  # Pruebas de permisos de la comunidad contra el proyecto Supabase de PRUEBAS.
+  # Si fallan, no se publica. Sin los secretos (p. ej. en un fork) se omite con un aviso.
+  supabase:
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_PRUEBA_REF: ${{ secrets.SUPABASE_PRUEBA_REF }}
+      SUPABASE_PRUEBA_URL: ${{ secrets.SUPABASE_PRUEBA_URL }}
+      SUPABASE_PRUEBA_ANON_KEY: ${{ secrets.SUPABASE_PRUEBA_ANON_KEY }}
+      SUPABASE_PRUEBA_SERVICE_KEY: ${{ secrets.SUPABASE_PRUEBA_SERVICE_KEY }}
+      SUPABASE_PRUEBA_DB_PASSWORD: ${{ secrets.SUPABASE_PRUEBA_DB_PASSWORD }}
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Avisar si faltan los secretos
+        if: env.SUPABASE_PRUEBA_REF == ''
+        run: |
+          echo "::warning::Sin secretos de Supabase: se omiten las pruebas de permisos."
+      - uses: actions/setup-node@v4
+        if: env.SUPABASE_PRUEBA_REF != ''
+        with:
+          node-version: 24
+          cache: npm
+      - if: env.SUPABASE_PRUEBA_REF != ''
+        run: npm ci
+      - name: Aplicar migraciones al proyecto de pruebas
+        if: env.SUPABASE_PRUEBA_REF != ''
+        run: bash scripts/supabase/aplicar.sh prueba
+      - name: Sincronizar los medicamentos
+        if: env.SUPABASE_PRUEBA_REF != ''
+        run: |
+          pip install pyyaml
+          python3 scripts/supabase/cargar_catalogos.py --destino prueba --solo-medicamentos
+      - name: Pruebas del cargador de catálogos
+        if: env.SUPABASE_PRUEBA_REF != ''
+        run: |
+          pip install pytest
+          python3 -m pytest scripts/supabase -q
+      - name: Pruebas de permisos
+        if: env.SUPABASE_PRUEBA_REF != ''
+        run: npm run test:supabase
+
   publicar:
-    needs: construir
+    needs: [construir, supabase]
     runs-on: ubuntu-latest
     environment:
       name: github-pages
