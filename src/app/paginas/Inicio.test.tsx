@@ -26,12 +26,29 @@ describe('Inicio', () => {
     expect(screen.getByRole('link', { name: /Noradrenalina/ })).toHaveAttribute('href', '/m/noradrenalina')
   })
 
-  it('el acceso SAMU lista solo medicamentos de ese ámbito', async () => {
+  it('el acceso Prehospitalario lista solo medicamentos de ese ámbito', async () => {
     montar()
-    await userEvent.click(screen.getByRole('link', { name: 'SAMU' }))
+    await userEvent.click(screen.getByRole('link', { name: 'Prehospitalario' }))
     const lista = screen.getByRole('list', { name: /medicamentos/i })
     expect(within(lista).getByRole('link', { name: /Adrenalina/ })).toBeInTheDocument()
     expect(within(lista).queryByRole('link', { name: /Adenosina/ })).not.toBeInTheDocument()
+  })
+
+  it('los favoritos aparecen primero, antes de los últimos consultados', () => {
+    localStorage.setItem('dilucion-ev:favoritos', JSON.stringify(['fentanilo', 'no-existe']))
+    localStorage.setItem('dilucion-ev:recientes', JSON.stringify(['atropina']))
+    montar()
+    const titulos = screen.getAllByRole('heading', { level: 2 }).map((h) => h.textContent)
+    expect(titulos.indexOf('Mis favoritos')).toBeGreaterThanOrEqual(0)
+    expect(titulos.indexOf('Mis favoritos')).toBeLessThan(titulos.indexOf('Últimos consultados'))
+    const lista = screen.getByRole('list', { name: 'Medicamentos favoritos' })
+    expect(within(lista).getByRole('link', { name: /Fentanilo/ })).toBeInTheDocument()
+    expect(within(lista).getAllByRole('link')).toHaveLength(1)
+  })
+
+  it('sin favoritos no muestra la sección', () => {
+    montar()
+    expect(screen.queryByText('Mis favoritos')).not.toBeInTheDocument()
   })
 
   it('marca los medicamentos de alto riesgo', () => {

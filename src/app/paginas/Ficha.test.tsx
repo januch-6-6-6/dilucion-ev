@@ -51,6 +51,18 @@ describe('Ficha', () => {
     expect(screen.getByText('Medicamento no encontrado')).toBeInTheDocument()
   })
 
+  it('la estrella marca y desmarca el medicamento como favorito', async () => {
+    montar('atropina')
+    const estrella = screen.getByRole('button', { name: 'Favorito' })
+    expect(estrella).toHaveAttribute('aria-pressed', 'false')
+    await userEvent.click(estrella)
+    expect(estrella).toHaveAttribute('aria-pressed', 'true')
+    expect(localStorage.getItem('dilucion-ev:favoritos')).toContain('atropina')
+    await userEvent.click(estrella)
+    expect(estrella).toHaveAttribute('aria-pressed', 'false')
+    expect(localStorage.getItem('dilucion-ev:favoritos')).not.toContain('atropina')
+  })
+
   it('registra el medicamento en recientes', () => {
     montar('atropina')
     expect(localStorage.getItem('dilucion-ev:recientes')).toContain('atropina')

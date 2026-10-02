@@ -5,6 +5,7 @@ import type { Ficha as TFicha } from '../../esquema/ficha'
 import Dato from '../componentes/Dato'
 import { colorGrupo } from '../colores'
 import { etiquetaGrupo } from '../etiquetas'
+import { alternarFavorito, esFavorito } from '../favoritos'
 import { registrarReciente } from '../recientes'
 
 const PESTANAS = ['Preparar', 'Administrar', 'Compatibilidad', 'Seguridad', 'Fuentes'] as const
@@ -204,11 +205,14 @@ export default function Ficha() {
   const { id = '' } = useParams()
   const f = obtenerFicha(id)
   const [activa, setActiva] = useState<Pestana>('Preparar')
+  // Se lee del almacenamiento en cada render: así sigue correcto al pasar de una ficha a otra.
+  const [, refrescar] = useState(0)
   useEffect(() => {
     if (f) registrarReciente(f.id)
   }, [f])
 
   if (!f) return <p>Medicamento no encontrado</p>
+  const favorito = esFavorito(f.id)
 
   return (
     <article className="ficha" data-color={colorGrupo(f.grupo)}>
@@ -220,6 +224,19 @@ export default function Ficha() {
         <h2>
           {f.nombre} {f.altoRiesgo && <span className="etiqueta alto-riesgo">Alto riesgo</span>}
         </h2>
+        <button
+          type="button"
+          className="estrella"
+          aria-label="Favorito"
+          aria-pressed={favorito}
+          title={favorito ? 'Quitar de favoritos' : 'Agregar a favoritos'}
+          onClick={() => {
+            alternarFavorito(f.id)
+            refrescar((n) => n + 1)
+          }}
+        >
+          {favorito ? '★' : '☆'}
+        </button>
         <Link to={`/m/${f.id}/calcular`} className="boton">
           Calcular
         </Link>

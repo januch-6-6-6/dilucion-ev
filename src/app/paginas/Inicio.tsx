@@ -6,11 +6,16 @@ import type { Ficha } from '../../esquema/ficha'
 import ListaMedicamentos from '../componentes/ListaMedicamentos'
 import { colorGrupo } from '../colores'
 import { AMBITOS, etiquetaGrupo } from '../etiquetas'
+import { leerFavoritos } from '../favoritos'
 import { leerRecientes } from '../recientes'
 
 export default function Inicio() {
   const [texto, setTexto] = useState('')
   const resultados = useMemo(() => buscar(texto, medicamentos), [texto])
+  const favoritos = useMemo(
+    () => leerFavoritos().map(obtenerFicha).filter((f): f is Ficha => f !== undefined),
+    [],
+  )
   const recientes = useMemo(
     () => leerRecientes().map(obtenerFicha).filter((f): f is Ficha => f !== undefined),
     [],
@@ -45,6 +50,12 @@ export default function Inicio() {
               </Link>
             ))}
           </nav>
+          {favoritos.length > 0 && (
+            <>
+              <h2 className="titulo-seccion">Mis favoritos</h2>
+              <ListaMedicamentos fichas={favoritos} titulo="Medicamentos favoritos" />
+            </>
+          )}
           {recientes.length > 0 && (
             <>
               <h2 className="titulo-seccion">Últimos consultados</h2>

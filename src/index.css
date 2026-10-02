@@ -162,7 +162,13 @@ h3 { font-size: 1.05rem; margin: 20px 0 8px; }
   background: var(--superficie); border-radius: 20px; padding: 16px 18px 18px; box-shadow: var(--sombra); margin-top: 8px;
   border-top: 6px solid var(--c, var(--neutro));
 }
-.ficha-encabezado h2 { margin: 8px 0 12px; }
+.ficha-encabezado h2 { margin: 8px 0 12px; padding-right: 48px; }
+.ficha-encabezado { position: relative; }
+.estrella {
+  position: absolute; top: 12px; right: 12px; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--borde);
+  background: var(--superficie); color: var(--suave); font-size: 1.5rem; line-height: 1; cursor: pointer;
+}
+.estrella[aria-pressed='true'] { color: var(--ambar); background: var(--ambar-suave); border-color: var(--ambar); }
 .pestanas { display: flex; gap: 6px; overflow-x: auto; margin: 16px 0 8px; padding: 4px; background: var(--superficie-2); border-radius: 14px; border: 1px solid var(--borde); }
 .pestanas button {
   flex: 0 0 auto; padding: 9px 14px; border: none; border-radius: 10px; background: none; color: var(--suave); font-size: 0.95rem; font-weight: 650; cursor: pointer;

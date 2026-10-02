@@ -1,5 +1,5 @@
 export const AMBITOS: Record<string, string> = {
-  samu: 'SAMU',
+  samu: 'Prehospitalario',
   urgencia: 'Urgencia',
   upc: 'UPC',
   hospitalizacion: 'Hospitalización',
