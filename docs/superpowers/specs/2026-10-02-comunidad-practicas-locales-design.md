@@ -123,7 +123,7 @@ país si trabaja fuera de Chile), `fecha`. Clave única (`propuesta`, `persona`)
 **`ajustes`** — una sola fila: `umbral_votos` (por defecto 3).
 
 **`bitacora`** — `id`, `fecha`, `actor` (persona), `accion` (texto corto: `propuso`, `voto`,
-`cambio_voto`, `cambio_hospital`, `aprobo`, `edito_y_aprobo`, `rechazo`, `retiro`, `invito`,
+`cambio_voto`, `cambio_hospital`, `paso_a_bandeja`, `aprobo`, `edito_y_aprobo`, `rechazo`, `retiro`, `invito`,
 `suspendio`, `reactivo`, `cambio_umbral`), `objeto` (id afectado), `detalle` (JSON con antes y
 después). **Solo se insertan filas**: no hay permiso de UPDATE ni DELETE para nadie, ni siquiera
 para el administrador desde la app.
@@ -143,8 +143,8 @@ establecimiento, `texto_publicado`, `resuelta_el` y cantidad de votos a favor. *
 - Los votos de quien trabaja fuera de Chile cuentan en el total a favor/en contra, pero nunca para
   el umbral del mismo hospital.
 - Solo quien tiene un hospital chileno puede proponer (para su propio hospital).
-- Nadie vota su propia propuesta. Una persona suspendida no propone ni vota (sus votos previos se
-  conservan y Héctor los ve marcados).
+- Nadie vota su propia propuesta. Una persona suspendida no propone ni vota; sus votos previos se
+  conservan y Héctor los ve marcados, pero dejan de contar en las evaluaciones siguientes.
 - Mientras está `en_votacion`, la autora puede retirarla; no puede editarla.
 - Cambiar el umbral afecta las votaciones siguientes; no mueve propuestas ya evaluadas.
 
