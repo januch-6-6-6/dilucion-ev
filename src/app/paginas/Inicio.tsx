@@ -15,7 +15,7 @@ export default function Inicio() {
     () => leerRecientes().map(obtenerFicha).filter((f): f is Ficha => f !== undefined),
     [],
   )
-  const grupos = useMemo(() => [...new Set(medicamentos.map((m) => m.grupo))].sort(), [])
+  const grupos = useMemo(() => [...new Set(medicamentos.map((m) => m.grupo))].sort((a, b) => etiquetaGrupo(a).localeCompare(etiquetaGrupo(b), 'es')), [])
 
   return (
     <section className="inicio">
