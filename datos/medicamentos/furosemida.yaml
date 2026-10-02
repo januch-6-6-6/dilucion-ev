@@ -22,7 +22,6 @@ reconstitucion: null
 dilucion:
   sueros:
   - SF
-  - SG5
   concentracionMax:
     valor: 10
     unidad: mg
@@ -568,3 +567,8 @@ meta:
     - 'Pucón: «20 mg/ml»'
     - 'CIMA: ampolla 20 mg/2 ml (10 mg/ml)'
     decision: Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local.
+  - campo: suero
+    valores:
+    - 'Pediamécum: SF o SG5 %'
+    - 'Stabilis: SG5 % incompatible en Y (casilla roja); CIMA 6.2: precipita con pH < 7'
+    decision: Solo SF por criterio conservador.

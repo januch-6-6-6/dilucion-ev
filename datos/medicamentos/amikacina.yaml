@@ -31,7 +31,7 @@ dilucion:
       ref: IQUIQUE-2020
       detalle: 'Amikacina: ≤ 1 g en 100 ml; > 1 g en 250 ml'
   concentracionMax:
-    valor: 5
+    valor: 10
     unidad: mg
     fuente:
       ref: PUCON-2022
@@ -538,5 +538,6 @@ efectosAdversos:
     detalle: 'Anexo 6, Amikacina: RAM'
 alertas:
 - 'Incompatible en Y según la guía de Iquique con: anfotericina B, ampicilina, furosemida, heparina, cefazolina y propofol.'
+- Pucón recomienda 0,25–5 mg/ml; 10 mg/ml es el máximo absoluto.
 meta:
   discrepancias: []

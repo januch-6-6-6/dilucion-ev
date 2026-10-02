@@ -31,13 +31,15 @@ administracion:
     ref: CIMA-OCTREOTIDO
     detalle: 4.2; 4.4
 dosis:
-- indicacion: 'Varices esofágicas sangrantes (cirróticos): perfusión IV hasta 5 días'
+- indicacion: 'Varices gastroesofágicas sangrantes: perfusión IV continua durante 5 días'
   poblacion: adulto
   unidad: mcg/h
-  max: 50
+  min: 25
+  max: 25
+  maximaAbsoluta: 50
   fuente:
     ref: CIMA-OCTREOTIDO
-    detalle: '4.4: bolo de 50 mcg seguido de 50 mcg/h; no superar 50 mcg/h'
+    detalle: '4.2: 25 microgramos/hora durante 5 días; tolerado hasta 50 mcg/h'
 sinDosisPediatrica: true
 estabilidad:
   fuente:
@@ -518,8 +520,7 @@ efectosAdversos:
 alertas: []
 meta:
   discrepancias:
-  - campo: indicación y fuente
+  - campo: fuente chilena
     valores:
-    - CIMA menciona la perfusión en varices solo como dato de tolerancia (no como indicación aprobada)
     - Pucón 2022 no incluye octreótido
-    decision: Se registra con esa salvedad; confirmar protocolo local de hemorragia variceal.
+    decision: Ficha basada en CIMA; confirmar protocolo local de hemorragia variceal.

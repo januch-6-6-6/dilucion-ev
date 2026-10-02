@@ -23,11 +23,11 @@ dilucion:
   - SF
   - SG5
   concentracionMax:
-    valor: 3.2
+    valor: 4
     unidad: mg
     fuente:
       ref: PUCON-2022
-      detalle: 'Anexo 6, Dopamina: máximo habitual 800 mg/250 ml (3,2 mg/ml)'
+      detalle: 'Anexo 6, Dopamina: 4 mg/ml (habitual 400 mg/100 ml)'
   estandar:
   - descripcion: 400 mg en 100 ml (4 mg/ml)
     cantidad:

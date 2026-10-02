@@ -131,4 +131,12 @@ describe('Calculadora', () => {
     expect(screen.getByRole('status')).toHaveTextContent('14,91 ml · 2 × ampolla 10 % (1 g)')
     expect(screen.getByRole('status')).not.toHaveTextContent('(1 g)s')
   })
+
+  it('pediátrica con dosis diaria (mg/kg/24 h): cefazolina 20 kg da el total del día', async () => {
+    montar(obtenerFicha('cefazolina')!)
+    await userEvent.click(screen.getByRole('tab', { name: 'Pediátrica' }))
+    expect(screen.queryByText(/no se calcula por peso/)).toBeNull()
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '20')
+    expect(screen.getByRole('status')).toHaveTextContent('1000 mg en 24 h')
+  })
 })

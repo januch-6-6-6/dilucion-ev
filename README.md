@@ -15,7 +15,7 @@ Aplicación web instalable (PWA) para **preparar y administrar medicamentos endo
 
 ## Estado
 
-Versión 0.1: 10 medicamentos de urgencia y prehospitalario (adrenalina, noradrenalina, amiodarona, atropina, adenosina, midazolam, fentanilo, morfina, ketamina, sulfato de magnesio). Ver `informes/` para fuentes, discrepancias y estado de la revisión clínica.
+Versión 0.2: 89 medicamentos en tres tandas — urgencia/SAMU (42), antiinfecciosos (25) y hospitalarios (22) — con compatibilidad en Y para todos los pares (Stabilis). Pendiente de revisión clínica: ver `informes/v0.2-revision-clinica.md` (discrepancias entre fuentes y decisiones tomadas).
 
 ## Desarrollo
 

@@ -243,7 +243,8 @@ def fichas(stab=None):
         ['SF'], [dil('Hasta 2 g en 100 ml', 2, 'g', 100, I('Meropenem: ≤ 2 g en 100 ml'))],
         ['bolo', 'infusion_intermitente', 'infusion_continua'], 'Infusión prolongada de 4 horas (Iquique); CIMA: perfusión de 15–30 min o bolo de hasta 1 g en 5 min. Diluir solo en SF.',
         [dosis('Cada 8 h (2 g en meningitis)', 'adulto', 'g', C('meropenem', '4.2: 500 mg–2 g cada 8 h'), mn=0.5, mx=2),
-         dosis('Niños 3 meses–11 años (≤ 50 kg), cada 8 h', 'pediatrico', 'mg/kg', PED('meropenem', '10–20 mg/kg; 40 mg/kg en meningitis'), mn=10, mx=40, tope=(2, 'g'))],
+         dosis('Niños 3 meses–11 años (≤ 50 kg), cada 8 h (mayoría de infecciones)', 'pediatrico', 'mg/kg', PED('meropenem', '10–20 mg/kg cada 8 h'), mn=10, mx=20, tope=(1, 'g')),
+         dosis('Meningitis bacteriana o fibrosis quística (niños), cada 8 h', 'pediatrico', 'mg/kg', PED('meropenem', '40 mg/kg cada 8 h'), mn=40, mx=40, tope=(2, 'g'))],
         {'refrigeradoH': 24, 'fuente': I('Meropenem: reconstituido 24 h en refrigeración')},
         [ix('Probenecid', 'Aumenta la concentración de meropenem', C('meropenem', '4.5'))],
         EA_BL('meropenem'), 'aciclovir, anfotericina B, cloruro de potasio, gluconato de calcio, diazepam, metronidazol y ondansetrón',
@@ -327,7 +328,8 @@ def fichas(stab=None):
         [ix('Betalactámicos en la misma mezcla', 'Inactivación mutua', C('amikacina', '4.5'))],
         ea([], ['Nefrotoxicidad', 'Ototoxicidad', 'Neurotoxicidad'], ['Función renal', 'Niveles plasmáticos', 'Audición'], P('Anexo 6, Amikacina: RAM')),
         'anfotericina B, ampicilina, furosemida, heparina, cefazolina y propofol', tmin=30,
-        cmax=conc(5, 'mg', P('Anexo 6, Amikacina: dilución 0,25–5 mg/ml; nunca exceder 10 mg/ml')))
+        cmax=conc(10, 'mg', P('Anexo 6, Amikacina: dilución 0,25–5 mg/ml; nunca exceder 10 mg/ml')),
+        alertas=['Pucón recomienda 0,25–5 mg/ml; 10 mg/ml es el máximo absoluto.'])
 
     F['ciprofloxacino'] = polvo(
         'ciprofloxacino', 'Ciprofloxacino',

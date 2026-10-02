@@ -55,7 +55,7 @@ administracion:
     ref: CIMA-INSULINA-CRISTALINA
     detalle: 4.2 Administración intravenosa
 dosis:
-- indicacion: Necesidades habituales de insulina
+- indicacion: Requerimiento total diario habitual (vía SC; referencia)
   poblacion: adulto
   unidad: UI/kg/24 h
   min: 0.3

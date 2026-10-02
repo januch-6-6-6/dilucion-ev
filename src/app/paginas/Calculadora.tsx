@@ -297,7 +297,8 @@ function ModoPediatrico({ ficha }: { ficha?: Ficha }) {
   const [i, setI] = useState(0)
   const [peso, setPeso] = useState('')
   const d = opciones[i] as Dosis | undefined
-  const ud = d ? parsearUnidadDosis(d.unidad) : null
+  const diaria = d ? /^(g|mg|mcg|UI|mEq|mmol)\/kg\/24 ?h$/.exec(d.unidad) : null
+  const ud = d ? (diaria ? { masa: diaria[1] as UnidadMasa, porKg: true, tiempo: null } : parsearUnidadDosis(d.unidad)) : null
   const [porKg, setPorKg] = useState(d ? fmt(d.max ?? d.min ?? 0) : '')
 
   if (!ficha || ficha.sinDosisPediatrica || !d) {
@@ -329,11 +330,11 @@ function ModoPediatrico({ ficha }: { ficha?: Ficha }) {
     <>
       {selector}
       <Campo etiqueta="Peso (kg)" valor={peso} onCambio={setPeso} />
-      <Campo etiqueta={`Dosis por kg (${ud.masa}/kg)`} valor={porKg} onCambio={setPorKg} />
+      <Campo etiqueta={`Dosis por kg (${ud.masa}/kg${diaria ? '/24 h' : ''})`} valor={porKg} onCambio={setPorKg} />
       <Salida
         r={r}
         alertas={alertas}
-        texto={(v) => `${fmt(v.dosis.valor)} ${v.dosis.unidad}`}
+        texto={(v) => `${fmt(v.dosis.valor)} ${v.dosis.unidad}${diaria ? ' en 24 h (repartir según la indicación)' : ''}`}
         extra={!d.topeAdulto && r.ok ? <p className="aviso">La fuente no indica dosis tope para esta indicación.</p> : null}
       />
     </>

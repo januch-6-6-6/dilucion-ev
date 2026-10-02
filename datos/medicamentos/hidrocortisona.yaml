@@ -60,13 +60,13 @@ administracion:
     ref: CIMA-HIDROCORTISONA
     detalle: 4.2.1; 6.2
 dosis:
-- indicacion: Dosis IV única (repetible cada 2–6 h)
+- indicacion: Dosis IV única habitual, hasta aprox. 373 mg (la ficha indica que no está limitada; repetible cada 2–6 h)
   poblacion: adulto
   unidad: mg
   max: 373
   fuente:
     ref: CIMA-HIDROCORTISONA
-    detalle: '4.2.1: hasta aprox. 373 mg por dosis; máx. 6 g/día'
+    detalle: '4.2.1: desde una fracción del vial hasta aprox. 373 mg por dosis, «aunque no está limitado»'
 - indicacion: 'Insuficiencia suprarrenal aguda: dosis inicial (niños)'
   poblacion: pediatrico
   unidad: mg/kg

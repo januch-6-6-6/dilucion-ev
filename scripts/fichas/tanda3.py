@@ -252,12 +252,12 @@ def fichas(stab=None):
         [pres('amp-0.1mg-1ml', 'ampolla', 0.1, 'mg', 1, C('octreotido', '2: 0,1 mg/1 ml'))],
         {'sueros': ['SF'], 'estandar': []},
         {'vias': ['bolo', 'infusion_continua'], 'texto': 'Para uso IV, diluir en suero fisiológico. En perfusión IV continua no superar 50 mcg/h.', 'requiereBomba': True, 'fuente': C('octreotido', '4.2; 4.4')},
-        [dosis('Varices esofágicas sangrantes (cirróticos): perfusión IV hasta 5 días', 'adulto', 'mcg/h', C('octreotido', '4.4: bolo de 50 mcg seguido de 50 mcg/h; no superar 50 mcg/h'), mx=50)],
+        [dosis('Varices gastroesofágicas sangrantes: perfusión IV continua durante 5 días', 'adulto', 'mcg/h', C('octreotido', '4.2: 25 microgramos/hora durante 5 días; tolerado hasta 50 mcg/h'), mn=25, mx=25, maxima=50)],
         {'fuente': C('octreotido', '6.3 (no informa estabilidad de la dilución en este extracto)')},
         [ix('Betabloqueadores, antagonistas del calcio, fármacos del balance hidroelectrolítico', 'Puede requerir ajuste de sus dosis', C('octreotido', '4.5'))],
         ea(['Dolor abdominal', 'Náuseas', 'Diarrea'], ['Bradicardia', 'Colelitiasis', 'Hiper o hipoglicemia'], ['FC', 'Glicemia'], C('octreotido', '4.8; 4.4')),
         [],
-        discrepancias=[{'campo': 'indicación y fuente', 'valores': ['CIMA menciona la perfusión en varices solo como dato de tolerancia (no como indicación aprobada)', 'Pucón 2022 no incluye octreótido'], 'decision': 'Se registra con esa salvedad; confirmar protocolo local de hemorragia variceal.'}],
+        discrepancias=[{'campo': 'fuente chilena', 'valores': ['Pucón 2022 no incluye octreótido'], 'decision': 'Ficha basada en CIMA; confirmar protocolo local de hemorragia variceal.'}],
     )
 
     F['cloruro-de-sodio-10'] = ficha(
@@ -289,16 +289,17 @@ def fichas(stab=None):
     F['fosfato-de-potasio'] = ficha(
         'fosfato-de-potasio', 'Fosfato de potasio', 'electrolito', HOSP, True,
         [pres('amp-10mmol-10ml', 'ampolla 1 M (10 ml)', 10, 'mmol', 10, C('fosfato-de-potasio', '2: 1 mmol de fosfato y 2 mEq de K por ml; ampollas de 10 ml'))],
-        {'sueros': ['SF', 'SG5'], 'concentracionMax': conc(0.5, 'mmol', C('fosfato-de-potasio', '6.6: diluir como mínimo con igual cantidad de diluyente')), 'estandar': []},
+        {'sueros': ['SF', 'SG5'], 'concentracionMax': conc(0.02, 'mmol', P('Anexo 6, Cloruro de potasio: máximo periférico 40 mEq/L de K (0,02 mmol/ml de fosfato dipotásico = 40 mEq/L de K)')), 'estandar': []},
         {'vias': ['infusion_intermitente'], 'texto': 'Siempre diluido, en perfusión IV (p. ej., 0,08 mmol/kg en 6 h). Aporta potasio: 1 ml = 2 mEq de K. En cetoacidosis no superar 5 mEq/h.', 'requiereBomba': True, 'fuente': C('fosfato-de-potasio', '4.2; 6.6')},
         [dosis('Hipofosfatemia reciente no complicada (en 6 h)', 'adulto', 'mmol/kg', C('fosfato-de-potasio', '4.2.1: 0,08 mmol/kg; puede duplicarse'), mn=0.08, mx=0.16),
          dosis('Pauta alternativa según fósforo inicial', 'adulto', 'mmol/kg', C('fosfato-de-potasio', '4.2.1: 0,25 mmol/kg (P > 0,5 mg/dl) o 0,5 mmol/kg (P < 0,5)'), mn=0.25, mx=0.5),
-         dosis('Niños: según requerimiento de potasio', 'pediatrico', 'mEq/kg/24 h', C('fosfato-de-potasio', '4.2.1: 2–3 mEq de K/kg/día'), mn=2, mx=3)],
+         dosis('Niños: según requerimiento de potasio (2–3 mEq de K/kg/día)', 'pediatrico', 'mmol/kg/24 h', C('fosfato-de-potasio', '4.2.1: 2–3 mEq de K/kg/día; 1 ml = 1 mmol de fosfato = 2 mEq de K, es decir 1–1,5 mmol/kg/día'), mn=1, mx=1.5)],
         {'fuente': C('fosfato-de-potasio', '6.6: compatible 24 h a 22 °C con nutrición parenteral')},
         [ix('Digitálicos (con bloqueo cardíaco)', 'Riesgo de hiperkalemia; no recomendado', C('fosfato-de-potasio', '4.5'))],
         ea([], ['Hiperkalemia', 'Hipocalcemia', 'Arritmias con infusión rápida'], ['Fósforo, potasio y calcio', 'ECG'], C('fosfato-de-potasio', '4.8')),
         [ALTO, 'NUNCA en bolo. Contiene potasio (2 mEq/ml).'],
-        discrepancias=[{'campo': 'fuente chilena', 'valores': ['Protocolo Pucón 2022 no incluye fosfato de potasio'], 'decision': 'Ficha basada en CIMA (fosfato dipotásico 1 M); confirmar la sal disponible en Chile.'}],
+        discrepancias=[{'campo': 'fuente chilena', 'valores': ['Protocolo Pucón 2022 no incluye fosfato de potasio'], 'decision': 'Ficha basada en CIMA (fosfato dipotásico 1 M); confirmar la sal disponible en Chile.'},
+                       {'campo': 'concentración máxima', 'valores': ['CIMA: diluir al menos 1:1 (hasta 1000 mEq/L de K)', 'Pucón (KCl): máximo periférico 40 mEq/L de K'], 'decision': 'Se aplica el límite de potasio periférico de Pucón (0,02 mmol/ml), el más conservador.'}],
     )
 
     F['acetilcisteina'] = ficha(

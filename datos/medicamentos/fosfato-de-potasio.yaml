@@ -22,11 +22,12 @@ dilucion:
   - SF
   - SG5
   concentracionMax:
-    valor: 0.5
+    valor: 0.02
     unidad: mmol
     fuente:
-      ref: CIMA-FOSFATO-DE-POTASIO
-      detalle: '6.6: diluir como mínimo con igual cantidad de diluyente'
+      ref: PUCON-2022
+      detalle: 'Anexo 6, Cloruro de potasio: máximo periférico 40 mEq/L de K (0,02 mmol/ml de fosfato dipotásico = 40 mEq/L
+        de K)'
   estandar: []
 administracion:
   vias:
@@ -54,14 +55,14 @@ dosis:
   fuente:
     ref: CIMA-FOSFATO-DE-POTASIO
     detalle: '4.2.1: 0,25 mmol/kg (P > 0,5 mg/dl) o 0,5 mmol/kg (P < 0,5)'
-- indicacion: 'Niños: según requerimiento de potasio'
+- indicacion: 'Niños: según requerimiento de potasio (2–3 mEq de K/kg/día)'
   poblacion: pediatrico
-  unidad: mEq/kg/24 h
-  min: 2
-  max: 3
+  unidad: mmol/kg/24 h
+  min: 1
+  max: 1.5
   fuente:
     ref: CIMA-FOSFATO-DE-POTASIO
-    detalle: '4.2.1: 2–3 mEq de K/kg/día'
+    detalle: '4.2.1: 2–3 mEq de K/kg/día; 1 ml = 1 mmol de fosfato = 2 mEq de K, es decir 1–1,5 mmol/kg/día'
 sinDosisPediatrica: false
 estabilidad:
   fuente:
@@ -545,3 +546,8 @@ meta:
     valores:
     - Protocolo Pucón 2022 no incluye fosfato de potasio
     decision: Ficha basada en CIMA (fosfato dipotásico 1 M); confirmar la sal disponible en Chile.
+  - campo: concentración máxima
+    valores:
+    - 'CIMA: diluir al menos 1:1 (hasta 1000 mEq/L de K)'
+    - 'Pucón (KCl): máximo periférico 40 mEq/L de K'
+    decision: Se aplica el límite de potasio periférico de Pucón (0,02 mmol/ml), el más conservador.

@@ -79,10 +79,10 @@ estabilidad:
     detalle: 'Cefazolina: reconstituida 24 h en refrigeración'
 compatibilidad:
 - con: SF
-  estado: incompatible
+  estado: compatible
   fuente:
-    ref: STABILIS-Y
-    detalle: Datos contradictorios en la literatura (casilla amarilla); se registra como incompatible por criterio conservador
+    ref: IQUIQUE-2020
+    detalle: 'Cefazolina: reconstituir y diluir en SF (Stabilis: datos contradictorios)'
 - con: SG5
   estado: compatible
   fuente:

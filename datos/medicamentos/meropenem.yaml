@@ -63,17 +63,28 @@ dosis:
   fuente:
     ref: CIMA-MEROPENEM
     detalle: '4.2: 500 mg–2 g cada 8 h'
-- indicacion: Niños 3 meses–11 años (≤ 50 kg), cada 8 h
+- indicacion: Niños 3 meses–11 años (≤ 50 kg), cada 8 h (mayoría de infecciones)
   poblacion: pediatrico
   unidad: mg/kg
   min: 10
+  max: 20
+  topeAdulto:
+    valor: 1
+    unidad: g
+  fuente:
+    ref: PEDIAMECUM-MEROPENEM
+    detalle: 10–20 mg/kg cada 8 h
+- indicacion: Meningitis bacteriana o fibrosis quística (niños), cada 8 h
+  poblacion: pediatrico
+  unidad: mg/kg
+  min: 40
   max: 40
   topeAdulto:
     valor: 2
     unidad: g
   fuente:
     ref: PEDIAMECUM-MEROPENEM
-    detalle: 10–20 mg/kg; 40 mg/kg en meningitis
+    detalle: 40 mg/kg cada 8 h
 sinDosisPediatrica: false
 estabilidad:
   refrigeradoH: 24

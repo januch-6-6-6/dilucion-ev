@@ -151,7 +151,7 @@ def fichas(stab=None):
     F['dopamina'] = ficha(
         'dopamina', 'Dopamina', 'vasoactivo', URG, True,
         [pres('amp-200mg-5ml', 'ampolla', 200, 'mg', 5, P('Anexo 6, Dopamina: 200 mg/5 ml'))],
-        {'sueros': ['SF', 'SG5'], 'concentracionMax': conc(3.2, 'mg', P('Anexo 6, Dopamina: máximo habitual 800 mg/250 ml (3,2 mg/ml)')),
+        {'sueros': ['SF', 'SG5'], 'concentracionMax': conc(4, 'mg', P('Anexo 6, Dopamina: 4 mg/ml (habitual 400 mg/100 ml)')),
          'estandar': [dil('400 mg en 100 ml (4 mg/ml)', 400, 'mg', 100, P('Anexo 6, Dopamina: habitual 400 mg/100 ml')),
                       dil('200 mg en 250 ml (800 mcg/ml)', 200, 'mg', 250, C('dopamina', '6.6: 5 ml (200 mg) en 250 ml → 800 mcg/ml')),
                       dil('200 mg en 500 ml (400 mcg/ml)', 200, 'mg', 500, C('dopamina', '6.6: 5 ml (200 mg) en 500 ml → 400 mcg/ml'))]},
@@ -262,7 +262,7 @@ def fichas(stab=None):
     F['furosemida'] = ficha(
         'furosemida', 'Furosemida', 'diuretico', URG_H, False,
         [pres('amp-20mg-2ml', 'ampolla', 20, 'mg', 2, C('furosemida', 'Presentación: 20 mg/2 ml'))],
-        {'sueros': ['SF', 'SG5'], 'concentracionMax': conc(10, 'mg', PED('furosemida', 'Perfusión: no superar 10 mg/ml')),
+        {'sueros': ['SF'], 'concentracionMax': conc(10, 'mg', PED('furosemida', 'Perfusión: no superar 10 mg/ml')),
          'estandar': [dil('100 mg en 100 ml (1 mg/ml)', 100, 'mg', 100, P('Anexo 6, Furosemida: dilución 1 mg/ml'))]},
         {'vias': ['bolo', 'infusion_continua'], 'texto': 'Inyectar o perfundir lentamente, a no más de 4 mg/min (2,5 mg/min si creatinina > 5 mg/dl). No mezclar en jeringa con otros fármacos (pH 9; precipita con soluciones ácidas).', 'fuente': C('furosemida', '4.2.2; 6.2')},
         [dosis('Insuficiencia cardíaca aguda: bolo inicial', 'adulto', 'mg', C('furosemida', '4.2: 20–40 mg IV'), mn=20, mx=40),
@@ -274,7 +274,8 @@ def fichas(stab=None):
         ea(['Alteraciones electrolíticas', 'Deshidratación', 'Hipotensión'], ['Hipokalemia grave', 'Ototoxicidad (administración rápida)', 'Pancreatitis'], ['Diuresis', 'Potasio y sodio', 'PA'], C('furosemida', '4.8')),
         ['Velocidad máxima 4 mg/min.'],
         discrepancias=[{'campo': 'dosis pediátrica', 'valores': ['CIMA: máx. 1 mg/kg/día parenteral hasta 20 mg/día', 'Pediamécum: IV inicial 0,1–2 mg/kg (máx. 40 mg)'], 'decision': 'Se registra la pauta más conservadora (CIMA).'},
-                       {'campo': 'presentación', 'valores': ['Pucón: «20 mg/ml»', 'CIMA: ampolla 20 mg/2 ml (10 mg/ml)'], 'decision': 'Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local.'}],
+                       {'campo': 'presentación', 'valores': ['Pucón: «20 mg/ml»', 'CIMA: ampolla 20 mg/2 ml (10 mg/ml)'], 'decision': 'Se registra 20 mg/2 ml; verificar el rotulado de la ampolla local.'},
+                       {'campo': 'suero', 'valores': ['Pediamécum: SF o SG5 %', 'Stabilis: SG5 % incompatible en Y (casilla roja); CIMA 6.2: precipita con pH < 7'], 'decision': 'Solo SF por criterio conservador.'}],
     )
 
     F['metoclopramida'] = ficha(
@@ -363,7 +364,7 @@ def fichas(stab=None):
         {'sueros': ['SF', 'SG5'], 'concentracionMin': conc(1, 'mg', P('Anexo 6, Hidrocortisona: dilución 1–5 mg/ml')), 'concentracionMax': conc(5, 'mg', P('Anexo 6, Hidrocortisona: dilución 1–5 mg/ml')),
          'estandar': [dil('100 mg en 100 ml (1 mg/ml)', 100, 'mg', 100, P('Anexo 6, Hidrocortisona: 1–5 mg/ml'))]},
         {'vias': ['bolo', 'infusion_intermitente'], 'texto': 'Inyección IV lenta (1 a 10 minutos) o perfusión diluida. Repetible cada 2, 4 o 6 h según respuesta. No mezclar con otros fármacos.', 'tiempoMinimoMin': 1, 'fuente': C('hidrocortisona', '4.2.1; 6.2')},
-        [dosis('Dosis IV única (repetible cada 2–6 h)', 'adulto', 'mg', C('hidrocortisona', '4.2.1: hasta aprox. 373 mg por dosis; máx. 6 g/día'), mx=373),
+        [dosis('Dosis IV única habitual, hasta aprox. 373 mg (la ficha indica que no está limitada; repetible cada 2–6 h)', 'adulto', 'mg', C('hidrocortisona', '4.2.1: desde una fracción del vial hasta aprox. 373 mg por dosis, «aunque no está limitado»'), mx=373),
          dosis('Insuficiencia suprarrenal aguda: dosis inicial (niños)', 'pediatrico', 'mg/kg', PED('hidrocortisona', 'Dosis inicial 2–3 mg/kg (hasta 100 mg/dosis)'), mn=2, mx=3, tope=(100, 'mg'))],
         {'refrigeradoH': 24, 'fuente': C('hidrocortisona', '6.3: solución reconstituida 24 h entre 2 y 8 °C')},
         [ix('Inductores enzimáticos (rifampicina, fenitoína, carbamazepina, barbitúricos)', 'Reducen el efecto del corticoide', C('hidrocortisona', '4.5'))],
@@ -529,7 +530,7 @@ def fichas(stab=None):
         {'sueros': ['SF', 'SG5'], 'concentracionMin': conc(0.05, 'UI', C('insulina-cristalina', '4.2: 0,05 a 1,0 UI/ml')), 'concentracionMax': conc(1, 'UI', C('insulina-cristalina', '4.2: 0,05 a 1,0 UI/ml')),
          'estandar': [dil('100 UI en 100 ml de SF (1 UI/ml)', 100, 'UI', 100, C('insulina-cristalina', '4.2: concentraciones de 0,05 a 1,0 UI/ml en SF o SG'))]},
         {'vias': ['bolo', 'infusion_continua'], 'texto': 'Vía IV solo por profesionales, con vial (no plumas), en bolsa de polipropileno y bomba de infusión, con control frecuente de glicemia y potasio. Antes de usar purgar el equipo (la insulina se adsorbe al plástico).', 'requiereBomba': True, 'fuente': C('insulina-cristalina', '4.2 Administración intravenosa')},
-        [dosis('Necesidades habituales de insulina', 'adulto', 'UI/kg/24 h', C('insulina-cristalina', '4.2: 0,3–1,0 UI/kg/día'), mn=0.3, mx=1)],
+        [dosis('Requerimiento total diario habitual (vía SC; referencia)', 'adulto', 'UI/kg/24 h', C('insulina-cristalina', '4.2: 0,3–1,0 UI/kg/día'), mn=0.3, mx=1)],
         {'ambienteH': 24, 'fuente': C('insulina-cristalina', '4.2: diluida 0,05–1 UI/ml estable 24 h a temperatura ambiente')},
         [ix('Betabloqueadores', 'Pueden enmascarar los síntomas de hipoglicemia', C('insulina-cristalina', '4.5')),
          ix('Glucocorticoides y tiazidas', 'Aumentan las necesidades de insulina', C('insulina-cristalina', '4.5'))],

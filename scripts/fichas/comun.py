@@ -93,6 +93,12 @@ AJUSTES = [
 ]
 
 
+# Sueros que el protocolo chileno indica para preparar y que Stabilis marca en amarillo (datos contradictorios).
+AJUSTES_SUERO = [
+    ('cefazolina', 'SF', fu('IQUIQUE-2020', 'Cefazolina: reconstituir y diluir en SF (Stabilis: datos contradictorios)')),
+]
+
+
 def compat_desde_matriz(matriz, id_, ids):
     """Entradas de compatibilidad de id_ contra SF, SG5 y cada id de ids (excepto sí mismo)."""
     fila = matriz.get(STABILIS.get(id_, ''))
@@ -111,4 +117,9 @@ def compat_desde_matriz(matriz, id_, ids):
             for c in res:
                 if c['con'] == otro:
                     c['estado'], c['fuente'] = 'incompatible', fuente
+    for a, suero, fuente in AJUSTES_SUERO:
+        if id_ == a:
+            for c in res:
+                if c['con'] == suero:
+                    c['estado'], c['fuente'] = 'compatible', fuente
     return res
