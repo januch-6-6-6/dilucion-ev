@@ -5,19 +5,21 @@ Dos proyectos gratuitos: **`dilucion-ev`** (real) y **`dilucion-ev-pruebas`** (p
 
 ## Credenciales
 - Locales: `.env.supabase` (ignorado por git; plantilla en `.env.supabase.ejemplo`).
-- CI: secretos de GitHub `SUPABASE_PRUEBA_REF`, `_URL`, `_ANON_KEY`, `_SERVICE_KEY`, `_DB_PASSWORD` y `SUPABASE_ACCESS_TOKEN`
-  (solo del proyecto de **pruebas**; el real nunca se toca desde CI).
+- CI: secretos de GitHub `SUPABASE_PRUEBA_REF`, `_URL`, `_ANON_KEY`, `_SERVICE_KEY` y `_DB_PASSWORD`
+  (solo del proyecto de **pruebas**). **CI no tiene el token de la API de gestión** (`SUPABASE_ACCESS_TOKEN`): ese token
+  sirve también sobre el proyecto real y una dependencia comprometida podría usarlo. Cada paso recibe solo los secretos que necesita.
 - Nunca se pasan por argumentos de línea de comandos: npm los imprime. Los scripts leen el entorno.
 - La clave secreta (`sb_secret_…`) la rechaza Supabase (HTTP 401) si la petición se identifica como navegador.
 - El access token vence a los 90 días (31-dic-2026): se genera otro, gratis, en Account → Access Tokens.
 
 ## Migraciones (`supabase/migrations/`)
-1. `ajustes` · 2. `esquema` · 3. `personas_bitacora` · 4. `propuestas` · 5. `votos_consenso` · 6. `administracion`
-- Aplicar: `npm run db:aplicar -- prueba` y, con las pruebas en verde, `npm run db:aplicar -- real`.
+1. `ajustes` · 2. `esquema` · 3. `personas_bitacora` · 4. `propuestas` · 5. `votos_consenso` · 6. `administracion` · 7. `bloqueos_votos`
+- Aplicar: `npm run db:aplicar -- prueba` y, con las pruebas en verde, `npm run db:aplicar -- real` (usa el token local).
+  En CI el script entra solo con la contraseña de la base de pruebas (`SUPABASE_PRUEBA_POOLER_HOST`, `--db-url`).
 - **Una migración ya aplicada no se edita**: toda corrección va en una migración nueva.
 
 ## Pruebas
-- `npm run test:supabase` — permisos y reglas contra el proyecto de pruebas (cada archivo crea sus datos con un sufijo
+- `npm run test:supabase` — permisos, reglas, concurrencia (votos simultáneos) y escalada directa contra el proyecto de pruebas (cada archivo crea sus datos con un sufijo
   aleatorio y no borra nada: la bitácora es inmutable). `npm test` no usa Supabase.
 - `python3 -m pytest scripts/supabase -q` — el cargador de catálogos (sin red).
 - En CI (`.github/workflows/publicar.yml`, job `supabase`): aplica migraciones, sincroniza medicamentos, corre ambas
