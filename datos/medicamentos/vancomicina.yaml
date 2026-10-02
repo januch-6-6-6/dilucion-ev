@@ -1,7 +1,7 @@
 id: vancomicina
 nombre: Vancomicina
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

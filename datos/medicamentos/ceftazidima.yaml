@@ -1,7 +1,7 @@
 id: ceftazidima
 nombre: Ceftazidima
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

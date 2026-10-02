@@ -1,7 +1,7 @@
 id: fluconazol
 nombre: Fluconazol
 comerciales: []
-grupo: antiinfeccioso
+grupo: antiviral-antifungico
 ambitos:
 - urgencia
 - upc

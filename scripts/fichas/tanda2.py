@@ -56,6 +56,8 @@ CIMA = {
     'linezolid': ('80258', 'Linezolid Altan 2 mg/ml solución para perfusión'),
     'azitromicina': ('85006', 'Azitromicina Tecnigen 500 mg polvo para solución para perfusión'),
 }
+# Los únicos de la tanda que no son antibióticos (decisión de Héctor, 2-oct-2026).
+ANTIVIRAL_ANTIFUNGICO = {'aciclovir', 'fluconazol'}
 PEDIAMECUM = {'meropenem': 'Meropenem', 'fluconazol': 'Fluconazol', 'linezolid': 'Linezolid', 'aciclovir': 'Aciclovir'}
 PEDIAMECUM_SLUG = {}
 
@@ -88,7 +90,8 @@ def polvo(k, nombre, pres_, recon_ml, recon_txt, sueros, estandar, vias, texto, 
     if proteger_luz:
         estab = {**estab, 'protegerLuz': True}
     rec = {'diluyente': recon_txt, 'volumenMl': recon_ml, 'fuente': I(f'Reconstitución: {recon_ml} ml de {recon_txt}')} if recon_ml else None
-    return ficha(k, nombre, 'antiinfeccioso', AMB, False, pres_, dl, adm, dosis_, estab, inter, efectos,
+    grupo = 'antiviral-antifungico' if k in ANTIVIRAL_ANTIFUNGICO else 'antibiotico'
+    return ficha(k, nombre, grupo, AMB, False, pres_, dl, adm, dosis_, estab, inter, efectos,
                  [incompatibles(incompat), *alertas] if incompat else list(alertas), reconstitucion=rec, discrepancias=discrepancias)
 
 

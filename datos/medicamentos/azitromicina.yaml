@@ -1,7 +1,7 @@
 id: azitromicina
 nombre: Azitromicina
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

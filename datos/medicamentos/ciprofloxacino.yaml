@@ -1,7 +1,7 @@
 id: ciprofloxacino
 nombre: Ciprofloxacino
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

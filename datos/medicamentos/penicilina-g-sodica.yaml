@@ -1,7 +1,7 @@
 id: penicilina-g-sodica
 nombre: Penicilina G sódica
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

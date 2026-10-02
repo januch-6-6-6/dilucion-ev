@@ -1,7 +1,7 @@
 id: clindamicina
 nombre: Clindamicina
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

@@ -1,7 +1,7 @@
 id: cloxacilina
 nombre: Cloxacilina
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

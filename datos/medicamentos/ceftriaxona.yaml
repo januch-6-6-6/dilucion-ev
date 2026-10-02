@@ -1,7 +1,7 @@
 id: ceftriaxona
 nombre: Ceftriaxona
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

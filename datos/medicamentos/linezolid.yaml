@@ -1,7 +1,7 @@
 id: linezolid
 nombre: Linezolid
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

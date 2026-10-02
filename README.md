@@ -15,7 +15,7 @@ Aplicación web instalable (PWA) para **preparar y administrar medicamentos endo
 
 ## Estado
 
-Versión 0.2: 89 medicamentos en tres tandas — urgencia/prehospitalario (42), antiinfecciosos (25) y hospitalarios (22) — con compatibilidad en Y para todos los pares (Stabilis).
+Versión 0.2: 89 medicamentos en tres tandas — urgencia/prehospitalario (42), antibióticos, antivirales y antifúngicos (25) y hospitalarios (22) — con compatibilidad en Y para todos los pares (Stabilis).
 Revisión clínica del autor aplicada el 2-oct-2026: decisiones documentadas en `informes/v0.2-decisiones-revision.md` y aplicadas en `scripts/fichas/revision.py`; discrepancias entre fuentes en `informes/v0.2-revision-clinica.md`. Las fichas **no están firmadas como validadas**: falta la validación de un químico farmacéutico antes de cualquier uso en terreno.
 
 ## Desarrollo

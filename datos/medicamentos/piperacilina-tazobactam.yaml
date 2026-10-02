@@ -1,7 +1,7 @@
 id: piperacilina-tazobactam
 nombre: Piperacilina/tazobactam
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

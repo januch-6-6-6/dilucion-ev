@@ -1,7 +1,7 @@
 id: meropenem
 nombre: Meropenem
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

@@ -1,7 +1,7 @@
 id: aciclovir
 nombre: Aciclovir
 comerciales: []
-grupo: antiinfeccioso
+grupo: antiviral-antifungico
 ambitos:
 - urgencia
 - upc

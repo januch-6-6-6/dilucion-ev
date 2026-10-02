@@ -1,7 +1,7 @@
 id: cefepime
 nombre: Cefepime
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

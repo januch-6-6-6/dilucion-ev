@@ -1,7 +1,7 @@
 id: levofloxacino
 nombre: Levofloxacino
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

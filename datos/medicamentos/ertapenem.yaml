@@ -1,7 +1,7 @@
 id: ertapenem
 nombre: Ertapenem
 comerciales: []
-grupo: antiinfeccioso
+grupo: antibiotico
 ambitos:
 - urgencia
 - upc

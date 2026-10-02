@@ -17,7 +17,7 @@ describe('colorGrupo', () => {
       vasoactivo: 'naranjo', antiarritmico: 'violeta', antihipertensivo: 'violeta', diuretico: 'violeta', sedante: 'indigo',
       anticonvulsivante: 'indigo', antipsicotico: 'indigo', 'analgesico-opioide': 'azul', 'analgesico-no-opioide': 'azul',
       anestesico: 'turquesa', 'bloqueador-neuromuscular': 'turquesa', antiemetico: 'lima', 'protector-gastrico': 'lima',
-      corticoide: 'lima', electrolito: 'verde', metabolico: 'verde', hematologico: 'neutro', antiinfeccioso: 'cian',
+      corticoide: 'lima', electrolito: 'verde', metabolico: 'verde', hematologico: 'neutro', antibiotico: 'cian', 'antiviral-antifungico': 'cian',
       antidoto: 'ambar', antihistaminico: 'ambar', anticolinergico: 'ambar',
     }
     for (const [g, c] of Object.entries(tabla)) expect(colorGrupo(g)).toBe(c)
