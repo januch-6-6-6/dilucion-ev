@@ -42,6 +42,11 @@ export default function Acerca() {
         ))}
       </ul>
       <p>Proyecto de formación y portafolio de Héctor Salvo Agüero (TENS e Ingeniero en Informática).</p>
+      <p>
+        Privacidad: la app cuenta visitas de forma anónima con{' '}
+        <a href="https://www.goatcounter.com/" target="_blank" rel="noreferrer">GoatCounter</a> (sin cookies ni datos personales). Lo que
+        escribe en las calculadoras no sale de su dispositivo.
+      </p>
     </section>
   )
 }

@@ -5,10 +5,12 @@ import Calculadora from './paginas/Calculadora'
 import Ficha from './paginas/Ficha'
 import Inicio from './paginas/Inicio'
 import Lista from './paginas/Lista'
+import ContadorVisitas from './visitas'
 
 export default function App() {
   return (
     <HashRouter>
+      <ContadorVisitas />
       <header className="cabecera">
         <div className="cabecera-contenido">
           <h1>

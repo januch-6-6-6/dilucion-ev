@@ -18,6 +18,11 @@
     <meta property="og:locale" content="es_CL" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="author" content="Héctor Salvo Agüero" />
+    <!-- Visitas anónimas (sin cookies). La primera pantalla la cuenta el script; las demás, src/app/visitas.tsx -->
+    <script>
+      window.goatcounter = { path: function () { return location.hash.replace(/^#/, '') || '/' } }
+    </script>
+    <script data-goatcounter="https://dilucion-ev.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   </head>
   <body>
     <div id="root"></div>
