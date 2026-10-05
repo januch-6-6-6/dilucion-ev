@@ -29,6 +29,18 @@ export const GRUPOS: Record<string, string> = {
   hematologico: 'Hematológicos',
   metabolico: 'Metabólicos',
   'protector-gastrico': 'Protectores gástricos',
+  aine: 'Antiinflamatorios (AINE)',
+  'relajante-muscular': 'Relajantes musculares',
+  antigotoso: 'Antigotosos',
+  antiparasitario: 'Antiparasitarios',
+  antianginoso: 'Antianginosos',
+  hipolipemiante: 'Hipolipemiantes',
+  digestivo: 'Digestivos',
+  antidiabetico: 'Antidiabéticos',
+  hormonal: 'Hormonales',
+  antidepresivo: 'Antidepresivos',
+  'hipnotico-ansiolitico': 'Hipnóticos y ansiolíticos',
+  'vitamina-mineral': 'Vitaminas y minerales',
 }
 
 export const etiquetaGrupo = (g: string) => GRUPOS[g] ?? g
