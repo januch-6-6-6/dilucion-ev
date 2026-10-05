@@ -58,37 +58,48 @@ function sugerenciaLiquida(ficha: FichaOral, actual: PresentacionOral): string |
   return l ? `Prueba con la presentación líquida (${l.forma}) de esta ficha` : undefined
 }
 
-/** Presentación elegida; si es líquida, su concentración es editable y obligatoria. */
-function usePresentacion(ficha: FichaOral) {
-  const [indice, setIndice] = useState(0)
-  const base = ficha.presentaciones[indice]
-  const [conc, setConc] = useState(base.concentracion ? fmt(base.concentracion.valor) : '')
-  const liquida = esLiquida(base)
-  const unidadConc = base.concentracion?.unidad ?? 'mg'
+/** Presentaciones que aplican a la dosis (todas si la dosis no restringe). */
+function presentacionesAplicables(ficha: FichaOral, dosis: DosisOral | undefined): PresentacionOral[] {
+  const ids = dosis?.presentaciones
+  return ids ? ficha.presentaciones.filter((p) => ids.includes(p.id)) : ficha.presentaciones
+}
+
+/**
+ * Presentación elegida entre las que aplican a la dosis. Si la elegida deja de aplicar, se usa la primera aplicable.
+ * Si es líquida, su concentración es editable y obligatoria.
+ */
+function usePresentacion(ficha: FichaOral, dosis: DosisOral | undefined) {
+  const aplicables = presentacionesAplicables(ficha, dosis)
+  const [idElegido, setIdElegido] = useState(ficha.presentaciones[0].id)
+  const [concEditada, setConcEditada] = useState<{ id: string; texto: string } | null>(null)
+  const base = aplicables.find((p) => p.id === idElegido) ?? aplicables[0]
+  const conc = concEditada && concEditada.id === base?.id ? concEditada.texto : base?.concentracion ? fmt(base.concentracion.valor) : ''
+  const liquida = base !== undefined && esLiquida(base)
+  const unidadConc = base?.concentracion?.unidad ?? 'mg'
   const valorConc = parsearNumero(conc)
   const faltaConcentracion = liquida && valorConc === null
-  const presentacion: PresentacionOral =
-    liquida && valorConc !== null ? { ...base, concentracion: { valor: valorConc, unidad: unidadConc } } : base
+  const presentacion: PresentacionOral | undefined =
+    base && liquida && valorConc !== null ? { ...base, concentracion: { valor: valorConc, unidad: unidadConc } } : base
 
   const elegir = (id: string) => {
-    const i = ficha.presentaciones.findIndex((p) => p.id === id)
-    const p = ficha.presentaciones[i]
-    setIndice(i)
-    setConc(p.concentracion ? fmt(p.concentracion.valor) : '')
+    setIdElegido(id)
+    setConcEditada(null)
   }
   const controles: ReactNode = (
     <>
       <label className="campo">
         <span>Presentación</span>
-        <select aria-label="Presentación" value={base.id} onChange={(e) => elegir(e.target.value)}>
-          {ficha.presentaciones.map((p) => (
+        <select aria-label="Presentación" value={base?.id ?? ''} onChange={(e) => elegir(e.target.value)}>
+          {aplicables.map((p) => (
             <option key={p.id} value={p.id}>
               {etiquetaPresentacion(p)}
             </option>
           ))}
         </select>
       </label>
-      {liquida && <Campo etiqueta={`Concentración del frasco (${unidadConc}/ml)`} valor={conc} onCambio={setConc} />}
+      {liquida && (
+        <Campo etiqueta={`Concentración del frasco (${unidadConc}/ml)`} valor={conc} onCambio={(t) => setConcEditada({ id: base.id, texto: t })} />
+      )}
     </>
   )
   return { presentacion, faltaConcentracion, controles }
@@ -171,21 +182,22 @@ function ModoPorPeso({ ficha }: { ficha: FichaOral }) {
   const opciones = ficha.dosis.filter((d) => d.poblacion === 'pediatrico')
   const [iDosis, setIDosis] = useState(0)
   const [peso, setPeso] = useState('')
-  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha)
   const dosis = opciones[iDosis]
+  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha, dosis)
   const pesoKg = parsearNumero(peso)
   let r: Resultado<ResultadoOral>
   if (!dosis) r = { ok: false, error: 'Sin dosis pediátrica en la fuente' }
   else if (pesoKg === null) r = { ok: false, error: 'Falta el peso' }
+  else if (!presentacion) r = { ok: false, error: 'Ninguna presentación de la ficha aplica a esta dosis' }
   else if (faltaConcentracion) r = { ok: false, error: 'Falta la concentración' }
-  else r = calcularPorPeso({ pesoKg, dosis, presentacion, topeAdulto: topeAdultoDe(ficha) })
+  else r = calcularPorPeso({ pesoKg, dosis, presentacion, presentacionesDeFicha: ficha.presentaciones, topeAdulto: topeAdultoDe(ficha) })
   const falloCalculo = dosis !== undefined && pesoKg !== null && !faltaConcentracion
   return (
     <>
       <Campo etiqueta="Peso (kg)" valor={peso} onCambio={setPeso} />
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo ? sugerenciaLiquida(ficha, presentacion) : undefined} />
+      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(ficha, presentacion) : undefined} />
     </>
   )
 }
@@ -193,18 +205,19 @@ function ModoPorPeso({ ficha }: { ficha: FichaOral }) {
 function ModoFija({ ficha }: { ficha: FichaOral }) {
   const opciones = ficha.dosis.filter((d) => d.poblacion === 'adulto')
   const [iDosis, setIDosis] = useState(0)
-  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha)
   const dosis = opciones[iDosis]
+  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha, dosis)
   let r: Resultado<ResultadoOral>
   if (!dosis) r = { ok: false, error: 'Sin dosis de adulto en la fuente' }
+  else if (!presentacion) r = { ok: false, error: 'Ninguna presentación de la ficha aplica a esta dosis' }
   else if (faltaConcentracion) r = { ok: false, error: 'Falta la concentración' }
-  else r = calcularFija({ dosis, presentacion })
+  else r = calcularFija({ dosis, presentacion, presentacionesDeFicha: ficha.presentaciones })
   const falloCalculo = dosis !== undefined && !faltaConcentracion
   return (
     <>
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo ? sugerenciaLiquida(ficha, presentacion) : undefined} />
+      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(ficha, presentacion) : undefined} />
     </>
   )
 }

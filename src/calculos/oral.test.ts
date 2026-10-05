@@ -294,3 +294,41 @@ describe('calcularPorPeso: régimen, topes y redondeo (ronda de correcciones)', 
     expect(r.valor.alertas[1].mensaje).toContain('calculada 1500 mg')
   })
 })
+
+describe('dosis restringida a presentaciones (presentaciones)', () => {
+  const tramadolRetard = pres({ id: 'ret-100', forma: 'comprimido', cantidad: { valor: 100, unidad: 'mg' }, partible: 'no', liberacionProlongada: true })
+  const tramadolIr = pres({ id: 'ir-50', forma: 'capsula', cantidad: { valor: 50, unidad: 'mg' }, partible: 'no', liberacionProlongada: false })
+  const ficha = [tramadolRetard, tramadolIr]
+  const soloIr = { presentaciones: ['ir-50'] }
+
+  it('presentación aplicable: calcula igual que sin restricción', () => {
+    const r = calcularFija({ dosis: fijaAdulto({ max: 50, intervaloH: 6, ...soloIr }), presentacion: tramadolIr, presentacionesDeFicha: ficha })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.salida).toMatchObject({ tipo: 'unidades', unidades: 1 })
+  })
+
+  it('presentación no aplicable: error que nombra las aplicables, sin calcular', () => {
+    const r = calcularFija({ dosis: fijaAdulto({ max: 50, intervaloH: 6, ...soloIr }), presentacion: tramadolRetard, presentacionesDeFicha: ficha })
+    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula 50 mg' })
+  })
+
+  it('por peso: presentación no aplicable devuelve el error, sin calcular', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 10, tomasPorDia: 2, ...soloIr }), presentacion: tramadolRetard, presentacionesDeFicha: ficha })
+    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula 50 mg' })
+  })
+
+  it('sin lista de la ficha, el error usa los ids aplicables', () => {
+    const r = calcularFija({ dosis: fijaAdulto({ max: 50, ...soloIr }), presentacion: tramadolRetard })
+    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa ir-50' })
+  })
+
+  it('sin presentaciones en la dosis, calcula con cualquier presentación (como antes)', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 10, tomasPorDia: 2 }), presentacion: tramadolRetard, presentacionesDeFicha: ficha })
+    expect(r.ok).toBe(true)
+    const f = calcularFija({ dosis: fijaAdulto({ max: 100 }), presentacion: tramadolRetard })
+    expect(f.ok).toBe(true)
+  })
+})
+
+const fijaAdulto = (d: Partial<DosisOral>) => dosis({ poblacion: 'adulto', regimen: 'fija', base: undefined, unidad: 'mg', ...d })

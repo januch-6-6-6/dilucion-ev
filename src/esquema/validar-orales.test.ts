@@ -83,6 +83,20 @@ describe('validarOrales', () => {
     expect(val({ ...base, discrepancias: d })).toEqual([])
   })
 
+  it('una dosis que cita una presentación inexistente da error con la ruta', () => {
+    const base = fichaOralValida()
+    const dosis = [{ ...base.dosis[0], presentaciones: ['comp-500', 'fantasma'] }, base.dosis[1]]
+    const errores = val({ ...base, dosis })
+    expect(errores.some((e) => e.includes('dosis[0].presentaciones[1]') && e.includes('"fantasma"'))).toBe(true)
+    expect(errores.some((e) => e.includes('presentaciones[0]'))).toBe(false)
+  })
+
+  it('una dosis con presentaciones existentes no da error', () => {
+    const base = fichaOralValida()
+    const dosis = [{ ...base.dosis[0], presentaciones: ['jarabe-32'] }, base.dosis[1]]
+    expect(val({ ...base, dosis })).toEqual([])
+  })
+
   it('id repetido', () => {
     const errores = validarOrales([fichaOralValida(), fichaOralValida()], fuentesOralesPrueba)
     expect(errores).toContain('paracetamol: id repetido')

@@ -155,16 +155,39 @@ function validarRegimen(d: DosisOral, esperado: 'fija' | 'por_peso'): string | n
   return null
 }
 
+/** Forma y concentración de una presentación, p. ej. «comprimido 100 mg de liberación prolongada», «jarabe 100 mg/ml». */
+export function describirPresentacion(p: PresentacionOral): string {
+  const forma = p.forma.replace(/_/g, ' ')
+  const cifra = p.cantidad
+    ? `${String(p.cantidad.valor).replace('.', ',')} ${p.cantidad.unidad}`
+    : p.concentracion
+      ? `${String(p.concentracion.valor).replace('.', ',')} ${p.concentracion.unidad}/ml`
+      : ''
+  return [forma, cifra, p.liberacionProlongada ? 'de liberación prolongada' : ''].filter(Boolean).join(' ')
+}
+
+/** Si la dosis no aplica a la presentación elegida, el mensaje de error; si aplica, null. */
+function noAplica(d: DosisOral, presentacion: PresentacionOral, presentacionesDeFicha?: PresentacionOral[]): string | null {
+  if (!d.presentaciones || d.presentaciones.includes(presentacion.id)) return null
+  const aplicables = presentacionesDeFicha?.filter((x) => d.presentaciones?.includes(x.id)) ?? []
+  const lista = aplicables.length > 0 ? aplicables.map(describirPresentacion).join(' o ') : d.presentaciones.join(' o ')
+  return `Esta dosis no aplica a esta presentación: usa ${lista}`
+}
+
 export function calcularPorPeso(p: {
   pesoKg: number
   dosis: DosisOral
   presentacion: PresentacionOral
+  /** Todas las presentaciones de la ficha; sirven para nombrar las aplicables en el error. */
+  presentacionesDeFicha?: PresentacionOral[]
   topeAdulto?: TopeAdulto
 }): Resultado<ResultadoOral> {
   if (!positivo(p.pesoKg)) return error('Falta el peso')
   const d = p.dosis
   const inv = validarRegimen(d, 'por_peso')
   if (inv) return error(inv)
+  const noApl = noAplica(d, p.presentacion, p.presentacionesDeFicha)
+  if (noApl) return error(noApl)
   const porKg = d.max ?? d.min
   if (!positivo(porKg)) return error('Falta la dosis')
   const unidad = unidadBase(d)
@@ -191,10 +214,16 @@ export function calcularPorPeso(p: {
   return resolver({ toma, unidad, presentacion: p.presentacion, tomasPorDia: n, topesToma, topesDiarios, pasos, alertas })
 }
 
-export function calcularFija(p: { dosis: DosisOral; presentacion: PresentacionOral }): Resultado<ResultadoOral> {
+export function calcularFija(p: {
+  dosis: DosisOral
+  presentacion: PresentacionOral
+  presentacionesDeFicha?: PresentacionOral[]
+}): Resultado<ResultadoOral> {
   const d = p.dosis
   const inv = validarRegimen(d, 'fija')
   if (inv) return error(inv)
+  const noApl = noAplica(d, p.presentacion, p.presentacionesDeFicha)
+  if (noApl) return error(noApl)
   const valor = d.max ?? d.min
   if (!positivo(valor)) return error('Falta la dosis')
   const unidad = unidadBase(d)

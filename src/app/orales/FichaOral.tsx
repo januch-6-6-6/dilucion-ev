@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { fuentesOrales, obtenerOral, verificacion } from '../../datos/cargarOrales'
+import { describirPresentacion } from '../../calculos/oral'
 import type { DosisOral, FichaOral as TFichaOral, PresentacionOral } from '../../esquema/ficha-oral'
 import Dato from '../componentes/Dato'
 import { colorGrupo } from '../colores'
@@ -17,7 +18,7 @@ const PARTIBLE = { no: 'No partible', mitades: 'Partible en mitades', cuartos: '
 const COMIDA = { ayunas: 'En ayunas', con_comida: 'Con comida', indiferente: 'Indiferente', antes: 'Antes de comer', despues: 'Después de comer' } as const
 const fmt = (n: number) => String(n).replace('.', ',')
 
-function textoDosis(d: DosisOral): string {
+function textoDosis(d: DosisOral, presentaciones: PresentacionOral[]): string {
   const rango = d.min !== undefined && d.max !== undefined && d.min !== d.max ? `${fmt(d.min)}–${fmt(d.max)}` : fmt((d.max ?? d.min) as number)
   const partes = d.min === undefined && d.max === undefined ? [d.texto ?? ''] : [`${rango} ${d.unidad}`, d.texto ?? '']
   if (d.base) partes.push(d.base === 'toma' ? 'por toma' : 'por día')
@@ -26,6 +27,10 @@ function textoDosis(d: DosisOral): string {
   if (d.topePorToma) partes.push(`tope por toma ${fmt(d.topePorToma.valor)} ${d.topePorToma.unidad}`)
   if (d.topeDiario) partes.push(`tope diario ${fmt(d.topeDiario.valor)} ${d.topeDiario.unidad}`)
   if (d.condicion) partes.push(d.condicion)
+  if (d.presentaciones) {
+    const solo = presentaciones.filter((p) => d.presentaciones?.includes(p.id)).map(describirPresentacion)
+    partes.push(`Solo con: ${solo.join('; ')}`)
+  }
   return partes.filter(Boolean).join(', ')
 }
 
@@ -50,7 +55,7 @@ function Dosis({ f }: { f: TFichaOral }) {
                     etiqueta={d.indicacion}
                     valor={
                       <>
-                        {textoDosis(d)}{' '}
+                        {textoDosis(d, f.presentaciones)}{' '}
                         <span className={`etiqueta ${d.estatus === 'autorizada' ? 'autorizada' : 'off-label'}`}>
                           {d.estatus === 'autorizada' ? 'Autorizada' : 'Off-label'}
                         </span>

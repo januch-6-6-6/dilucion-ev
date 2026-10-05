@@ -80,3 +80,22 @@ describe('FichaOral', () => {
     expect(FichaOral.safeParse(fichaOralValida('x', { ajusteRenalHepatico: { renal: 'Reducir', fuente: f } })).success).toBe(true)
   })
 })
+
+describe('DosisOral.presentaciones', () => {
+  it('acepta una dosis sin presentaciones (aplica a todas) y una con ids', () => {
+    expect(FichaOral.safeParse(fichaOralValida()).success).toBe(true)
+    const restringida = { ...dosisPed, presentaciones: ['jarabe-32'] }
+    expect(FichaOral.safeParse(fichaOralValida('x', { dosis: [dosisAdulto, restringida] })).success).toBe(true)
+  })
+
+  it('una lista vacía de presentaciones es inválida', () => {
+    const r = FichaOral.safeParse(fichaOralValida('x', { dosis: [dosisAdulto, { ...dosisPed, presentaciones: [] }] }))
+    expect(r.success).toBe(false)
+    expect(rutas(r).some((p) => p === 'dosis.1.presentaciones')).toBe(true)
+  })
+
+  it('un id vacío es inválido', () => {
+    const r = FichaOral.safeParse(fichaOralValida('x', { dosis: [dosisAdulto, { ...dosisPed, presentaciones: [''] }] }))
+    expect(r.success).toBe(false)
+  })
+})

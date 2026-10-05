@@ -180,6 +180,35 @@ describe('CalculadoraOral', () => {
     expect(screen.getByLabelText('Dosis')).toHaveTextContent('según edad')
   })
 
+  it('dosis restringida a una presentación: solo ofrece esa presentación', async () => {
+    const soloJarabe = { ...dosisAdulto, indicacion: 'Solo jarabe', max: 300, presentaciones: ['jarabe-100'] }
+    crear('restringida', { presentaciones, dosis: [dosisAdulto, soloJarabe, dosisPeso] })
+    montar('restringida')
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis fija' }))
+    await userEvent.selectOptions(screen.getByLabelText('Dosis'), '1')
+    const opciones = within(screen.getByLabelText('Presentación')).getAllByRole('option')
+    expect(opciones.map((o) => o.textContent)).toEqual(['jarabe 100 mg/ml'])
+    expect(screen.getByLabelText('Presentación')).toHaveValue('jarabe-100')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('3 ml')
+  })
+
+  it('si la presentación elegida no aplica a la dosis nueva, cambia a la primera aplicable', async () => {
+    const soloJarabe = { ...dosisAdulto, indicacion: 'Solo jarabe', max: 300, presentaciones: ['jarabe-100'] }
+    crear('restringida2', { presentaciones, dosis: [dosisAdulto, soloJarabe, dosisPeso] })
+    montar('restringida2')
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis fija' }))
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'comp-500')
+    expect(screen.getByLabelText('Presentación')).toHaveValue('comp-500')
+    await userEvent.selectOptions(screen.getByLabelText('Dosis'), '1')
+    expect(screen.getByLabelText('Presentación')).toHaveValue('jarabe-100')
+    expect(screen.getByLabelText('Concentración del frasco (mg/ml)')).toHaveValue('100')
+  })
+
+  it('dosis sin presentaciones: el selector muestra todas las presentaciones', async () => {
+    montar('para')
+    expect(within(screen.getByLabelText('Presentación')).getAllByRole('option')).toHaveLength(presentaciones.length)
+  })
+
   it('gotas: el resultado muestra gotas', async () => {
     const gotas = { id: 'gotas-2', forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20, partible: 'no', liberacionProlongada: false, registroChile: 'verificado', fuente: f }
     crear('gotero', { presentaciones: [gotas] })

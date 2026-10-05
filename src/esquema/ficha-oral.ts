@@ -61,6 +61,8 @@ export const DosisOral = z
     estatus: z.enum(['autorizada', 'off_label']),
     condicion: z.string().optional(),
     texto: z.string().min(1).optional(),
+    /** Ids de `presentaciones` de la ficha a las que aplica la dosis; ausente = todas. */
+    presentaciones: z.array(z.string().min(1)).min(1).optional(),
     fuente: FuenteRef,
   })
   .superRefine((d, ctx) => {

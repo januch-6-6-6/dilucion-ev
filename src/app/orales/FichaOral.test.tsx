@@ -71,6 +71,28 @@ describe('FichaOral', () => {
     expect(screen.queryByRole('note')).not.toBeInTheDocument()
   })
 
+  it('una dosis restringida muestra «Solo con» con forma y concentración de cada presentación', () => {
+    crear('restr', {
+      dosis: [
+        { indicacion: 'Dolor', poblacion: 'adulto', regimen: 'fija', base: 'toma', unidad: 'mg', max: 100, tomasPorDia: 3, estatus: 'autorizada', fuente: f, presentaciones: ['lp', 'nr'] },
+        { indicacion: 'Dolor', poblacion: 'pediatrico', regimen: 'por_peso', base: 'toma', unidad: 'mg/kg', max: 1, tomasPorDia: 3, estatus: 'autorizada', fuente: f, presentaciones: ['lp'] },
+      ],
+      presentaciones: [
+        { id: 'lp', forma: 'comprimido', cantidad: { valor: 100, unidad: 'mg' }, partible: 'cuartos', liberacionProlongada: true, registroChile: 'sin_verificar', fuente: f },
+        { id: 'nr', forma: 'capsula', cantidad: { valor: 50, unidad: 'mg' }, partible: 'no', liberacionProlongada: false, registroChile: 'no_registrado', fuente: f },
+        { id: 'jar', forma: 'jarabe', concentracion: { valor: 100, unidad: 'mg' }, partible: 'no', liberacionProlongada: false, registroChile: 'verificado', fuente: f },
+      ],
+    })
+    montar('restr')
+    expect(screen.getByText(/Solo con: comprimido 100 mg de liberación prolongada; capsula 50 mg/)).toBeInTheDocument()
+    expect(screen.queryByText(/Solo con: .*jarabe/)).not.toBeInTheDocument()
+  })
+
+  it('una dosis sin presentaciones no muestra «Solo con»', () => {
+    montar('doble')
+    expect(screen.queryByText(/Solo con:/)).not.toBeInTheDocument()
+  })
+
   it('muestra las cinco pestañas', () => {
     montar('doble')
     for (const n of ['Dosis', 'Presentaciones', 'Administración', 'Discrepancias', 'Fuentes']) {

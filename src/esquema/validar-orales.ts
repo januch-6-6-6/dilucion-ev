@@ -81,6 +81,12 @@ export function validarOrales(fichasCrudas: unknown[], fuentesCrudas: unknown[])
       idsPres.add(p.id)
     })
 
+    ficha.dosis.forEach((d, j) => {
+      d.presentaciones?.forEach((id, k) => {
+        if (!idsPres.has(id)) errores.push(`${ficha.id}: dosis[${j}].presentaciones[${k}] la presentación "${id}" no existe en presentaciones de esta ficha`)
+      })
+    })
+
     const refs: { ruta: string; ref: string }[] = []
     refsDeFuente(ficha, ficha.id, refs)
     for (const { ruta, ref } of refs) {
