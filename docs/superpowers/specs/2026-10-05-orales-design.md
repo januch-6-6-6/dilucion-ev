@@ -21,7 +21,7 @@ químico farmacéutico.
 
 1. **Cada dato cita su fuente.** Donde dos fuentes difieren, se muestran ambas y se calcula con la más
    conservadora (más baja).
-2. **Una sola fuente se avisa.** Los 16 fármacos con una única fuente se publican **con un aviso visible
+2. **Una sola fuente se avisa.** Los 15 fármacos con una única fuente se publican **con un aviso visible
    en la ficha** (decisión de Héctor, 5-oct-2026).
 3. **Lo que ninguna fuente respalda no se calcula.** Sin dosis pediátrica en los fármacos donde la ficha
    la desaconseja o hay alerta de seguridad.
@@ -64,7 +64,7 @@ avisos; tabla de discrepancias por ficha; favoritos y recientes propios; estado 
 | 5 | Ante topes distintos, se muestra y calcula el más bajo | Supuesto presentado y aceptado (aplica a paracetamol y metamizol adulto) |
 | 6 | Registro en Chile solo como «presentación registrada»; parte en `sin_verificar` | Supuesto presentado y aceptado |
 | 7 | Rama `orales-v1` desde `main`, independiente de `comunidad-etapa-1` | Propuesta aceptada |
-| 8 | 80 fichas cargadas en 3 tandas con una sola revisión al final; `meta.revisadoPor` vacío | Heredado del EV |
+| 8 | 79 fichas cargadas en 3 tandas con una sola revisión al final; `meta.revisadoPor` vacío | Heredado del EV |
 
 ## 4. Modelo de datos: `FichaOral`
 
@@ -204,7 +204,7 @@ aviso de formación visible. El repo es público: la copia del informe en `infor
 | Ninguna de las dos fuentes es chilena: no se sabe cuál rige aquí | Aviso visible; mostrar ambas; registro en Chile como dato aparte |
 | Errores de unidad o concentración (el más peligroso en líquidos) | Concentración obligatoria; conversión solo por concentración; pruebas con los casos del informe |
 | Ficha CIMA del producto equivocado (ya ocurrió 8 veces) | Filtro por `vtm` exacto y exclusión de liberación prolongada al descargar; prueba que cruza fármaco y presentación |
-| 16 fichas de una sola fuente | Aviso visible y automático; segunda fuente (DailyMed/ISP) cuando se consiga |
+| 15 fichas de una sola fuente | Aviso visible y automático; segunda fuente (DailyMed/ISP) cuando se consiga |
 | ISP bloquea la consulta | Un proceso, pausas largas; estado `sin_verificar` mientras tanto |
 | Alguien lo use como prescripción | Aviso de formación; sin firma de fichas; propósito declarado en «Acerca» |
 
