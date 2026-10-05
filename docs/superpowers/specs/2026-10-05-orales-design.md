@@ -79,7 +79,7 @@ FichaOral
   presentaciones[]
     id, forma         comprimido | capsula | jarabe | suspension | gotas | sobre | comprimido_efervescente
     cantidad          { valor, unidad }           // por unidad (comprimido, cápsula, sobre)
-    concentracion?    { valor, unidad, porMl }    // líquidos: mg por ml
+    concentracion?    { valor, unidad }           // líquidos: cantidad por 1 ml
     gotasPorMl?       number                      // obligatorio si forma = gotas
     partible          no | mitades | cuartos
     liberacionProlongada  boolean
