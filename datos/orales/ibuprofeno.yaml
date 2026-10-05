@@ -30,6 +30,17 @@ presentaciones:
   fuente:
     ref: CIMA-IBUPROFENO-74559
     detalle: 'Difenadol Rapid 400 mg granulado: "400 mg (1 sobre)" (4.2.1)'
+- id: comprimido-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 02.01: Ibuprofeno, Gragea o cápsula 200 mg (el arsenal solo indica la dosis; no dice si es partible)'
 - id: suspension-20-mg-ml
   forma: suspension
   concentracion:
@@ -84,7 +95,8 @@ dosis:
     valor: 2400
     unidad: mg
   estatus: autorizada
-  condicion: Autorizado en niños ≥6 meses según Pediamécum; con la suspensión (20 o 40 mg/ml)
+  condicion: Pediamécum (A), autorizado en niños ≥6 meses; la ficha CIMA cargada (Difenadol 400 mg) es de una presentación
+    adulta y no se recomienda en <40 kg o <12 años por su dosis fija. Usar la suspensión (20 o 40 mg/ml)
   texto: 40 mg/kg/día repartidos cada 6-8 horas; dosis máxima 2400 mg/día
   fuente:
     ref: PEDIAMECUM-IBUPROFENO
@@ -98,10 +110,11 @@ discrepancias:
   - fuente: CIMA-IBUPROFENO-88314
     valor: '1200 mg/24 h: adultos y adolescentes ≥12 años y ≥40 kg, 400 mg cada 6-8 h (CIMA, Difenadol 400 mg)'
   - fuente: PEDIAMECUM-IBUPROFENO
-    valor: '2400 mg/día: pauta por peso (40 mg/kg/día, ≥6 meses) y adolescentes 400-600 mg cada 6-8 h (Pediamécum)'
+    valor: '2400 mg/día: adolescentes, 400-600 mg cada 6-8 h (Pediamécum, párrafo de dismenorrea primaria)'
   mostrado: 1200 mg/día como tope de adulto
-  motivo: Regla del tope más bajo para el adulto/adolescente ≥40 kg con 400 mg cada 6-8 h. La pauta por peso de Pediamécum
-    es otro régimen y conserva su propio máximo (2400 mg/día); la calculadora aplica además el tope de adulto (1200 mg/día).
+  motivo: 'Regla del tope más bajo para el adulto/adolescente ≥40 kg con dosis fija cada 6-8 h. La pauta por peso de Pediamécum
+    (40 mg/kg/día, ≥6 meses) es otro régimen con su propio máximo de 2400 mg/día (Ruling 9): no se reemplaza; la calculadora
+    aplica además el tope de adulto (1200 mg/día).'
 - campo: Tabla por peso de Pediamécum (20-29 kg, 30-39 kg, ≥40 kg)
   valores:
   - fuente: PEDIAMECUM-IBUPROFENO

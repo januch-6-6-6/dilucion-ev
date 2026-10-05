@@ -2,7 +2,6 @@ id: morfina
 nombre: Morfina
 comerciales:
 - MST Continus
-- Dropizol
 grupo: analgesico-opioide
 ambitos:
 - aps
@@ -42,18 +41,6 @@ presentaciones:
     ref: ARSENAL-APS-ATACAMA
     detalle: 'Grupos 01.05 y 02.02: Morfina, Solución para gotas orales 20 mg/mL. Se carga como solución: ninguna fuente da
       gotas por ml'
-- id: gotas-10-mg-ml-dropizol
-  forma: jarabe
-  concentracion:
-    valor: 10
-    unidad: mg
-  partible: 'no'
-  liberacionProlongada: false
-  registroChile: sin_verificar
-  fuente:
-    ref: CIMA-MORFINA-83323
-    detalle: 'Dropizol 10 mg/ml gotas orales en solución (antidiarreico). Se carga como solución: la ficha no da gotas por
-      ml'
 dosis:
 - indicacion: Dolor crónico intenso, comprimidos de liberación prolongada (adultos)
   poblacion: adulto
@@ -118,8 +105,9 @@ dosis:
   poblacion: pediatrico
   regimen: por_edad
   unidad: mg
-  estatus: autorizada
-  condicion: 'Tabla por edad: se muestra, no se calcula. Confirmar la concentración del frasco antes de convertir a ml'
+  estatus: off_label
+  condicion: 'Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero la única ficha CIMA de gotas cargada (Dropizol)
+    dice que no se debe utilizar en <18 años; opioide de alto riesgo ⇒ off-label. Confirmar la concentración del frasco'
   texto: '>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar
     en menores de 1 año'
   fuente:
@@ -135,9 +123,9 @@ discrepancias:
     valor: 'Dropizol (CIMA): 10 mg/ml'
   - fuente: ARSENAL-APS-ATACAMA
     valor: 'Arsenal de APS de Atacama: solución para gotas orales 20 mg/mL'
-  mostrado: 'Ambas concentraciones como presentaciones separadas: elegir siempre la del frasco'
-  motivo: Riesgo de error de concentración (doble). La calculadora convierte por concentración, nunca copia ml ni gotas de
-    otra ficha.
+  mostrado: Solo se carga la concentración del arsenal chileno como presentación; elegir siempre la concentración del frasco
+  motivo: Riesgo de error de concentración (doble). Dropizol no se carga como presentación porque es antidiarreico y ninguna
+    dosis de la ficha la usa.
 - campo: Población de las gotas
   valores:
   - fuente: CIMA-MORFINA-83323
@@ -165,6 +153,8 @@ ajusteRenalHepatico:
 alertas:
 - 'Opioide de alto riesgo: confirmar concentración y forma (liberación prolongada cada 12 h vs. liberación normal cada 4 h)
   antes de calcular.'
+- 'La fuente no da tope pediátrico para 0,2-0,8 mg/kg cada 12 h (dolor oncológico crónico); la dosis inicial de adulto es
+  30 mg cada 12 h (CIMA 57898): no usar sin supervisión especializada.'
 - 'Los comprimidos de liberación prolongada se tragan enteros: rotos, masticados o triturados liberan rápidamente una dosis
   potencialmente letal (CIMA 57898).'
 - 'Liberación prolongada: no en las primeras 24 h del postoperatorio; en niños no se recomienda para dolor postoperatorio

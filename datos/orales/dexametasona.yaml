@@ -101,4 +101,6 @@ alertas:
 - 'Pediamécum: la pauta antiinflamatoria de 0,08-0,3 mg/kg/día es por vía IM o IV; no se carga como dosis oral.'
 - 'Tratamientos prolongados: reducir gradualmente; tras la terapia inicial, cambiar a prednisona/prednisolona (CIMA, 4.2).'
 - Evitar bebidas con alcohol o cafeína (CIMA, 4.2).
+- 'Pediamécum no da dosis máxima para el crup (0,6 mg/kg en dosis única); la dosis habitual de adulto en CIMA es «de 0,5 a
+  10 mg al día»: con 70 kg el cálculo daría 42 mg.'
 meta: {}

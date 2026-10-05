@@ -28,9 +28,10 @@ dosis:
   max: 100
   tomasPorDia: 2
   topeDiario:
-    valor: 150
+    valor: 100
     unidad: mg
   estatus: autorizada
+  condicion: 'Tope mostrado: 100 mg/día, el extremo conservador; la ficha permite hasta 150 mg/día'
   texto: 'Casos leves y tratamientos prolongados: 75-100 mg al día en 2-3 tomas; dosis máxima diaria recomendada 100-150 mg'
   fuente:
     ref: CIMA-DICLOFENACO
@@ -52,7 +53,7 @@ dosis:
   fuente:
     ref: PEDIAMECUM-DICLOFENACO
     detalle: 'Oral: "Niños de 1 a 12 años: 0,5-3 mg/kg/día, repartidos en 2-4 dosis. Máximo de 150 mg/día"'
-- indicacion: Dolor e inflamación (niños >12 años)
+- indicacion: Dolor e inflamación (niños de 12 a 14 años)
   poblacion: pediatrico
   regimen: fija
   unidad: mg
@@ -61,12 +62,27 @@ dosis:
   tomasPorDia: 2
   intervaloH: 12
   estatus: off_label
-  condicion: Pediamécum lo autoriza en >14 años; entre 12 y 14 años la ficha técnica no lo recomienda
+  condicion: Pediamécum autoriza (A) solo en mayores de 14 años; la ficha técnica no lo recomienda en <14 años
   texto: Dosis inicial 50 mg cada 8-12 horas; mantenimiento 50 mg cada 12 horas
   fuente:
     ref: PEDIAMECUM-DICLOFENACO
     detalle: 'Oral: "Niños >12 años: La dosis inicial es de 50 mg cada 8-12 horas; la dosis de mantenimiento 50 mg cada 12
       horas"'
+- indicacion: Dolor, fiebre e inflamación (adolescentes mayores de 14 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Pediamécum (A) en mayores de 14 años; la ficha técnica solo lo desaconseja en <14 años
+  texto: Dosis inicial 50 mg cada 8-12 horas; mantenimiento 50 mg cada 12 horas
+  fuente:
+    ref: PEDIAMECUM-DICLOFENACO
+    detalle: 'Uso clínico: "en mayores de 14 años ( A )"; dosis: "Niños >12 años: ... 50 mg cada 8-12 horas; ... mantenimiento
+      50 mg cada 12 horas"'
 pediatria:
   estado: con_dosis
 discrepancias:
@@ -79,6 +95,14 @@ discrepancias:
   mostrado: Se muestra la dosis pediátrica de Pediamécum, marcada como uso fuera de ficha técnica (off-label)
   motivo: 'Contradicción de población, no de cifra: la ficha técnica no respalda la dosis en <14 años. El rango por peso es
     amplio (6 veces).'
+- campo: Tope diario del adulto
+  valores:
+  - fuente: CIMA-DICLOFENACO
+    valor: '100 mg/día: extremo inferior de "La dosis máxima diaria recomendada es de 100 a 150 mg"'
+  - fuente: CIMA-DICLOFENACO
+    valor: '150 mg/día: extremo superior del mismo rango'
+  mostrado: 100 mg/día
+  motivo: La ficha da un rango para el máximo; se muestra el extremo conservador y se avisa que permite hasta 150 mg/día.
 administracion:
   comida: antes
   texto: Comprimidos entéricos enteros, con líquido, preferentemente antes de las comidas; no dividir ni masticar (CIMA).

@@ -102,8 +102,8 @@ discrepancias:
   - fuente: PEDIAMECUM-ALOPURINOL
     valor: '800 mg/día: 10-20 mg/kg/día cada 8 h; por edad >10 años y adolescentes 600-800 mg/día (Pediamécum)'
   mostrado: 400 mg/día
-  motivo: 'Mismo régimen y población (niños, por peso): se muestra el tope más bajo. La tabla por edad de Pediamécum (<6 años
-    150, 6-10 años 300, >10 años 600-800 mg/día) no se carga porque supera ese tope.'
+  motivo: 'Mismo régimen y población (niños, por peso): se muestra el tope más bajo. En la tabla por edad de Pediamécum (<6
+    años 150, 6-10 años 300, >10 años 600-800 mg/día) solo la fila >10 años supera ese tope; la tabla no se carga como dosis.'
 administracion:
   comida: despues
   texto: Una vez al día después de las comidas; se tolera mejor tras la ingesta. Si la dosis supera 300 mg y hay intolerancia
@@ -115,9 +115,11 @@ ajusteRenalHepatico:
   renal: 'Iniciar con un máximo de 100 mg/día y aumentar solo si la respuesta no es satisfactoria. Insuficiencia renal grave:
     menos de 100 mg/día o 100 mg a intervalos mayores de un día. Diálisis 2-3 veces por semana: 300-400 mg inmediatamente
     después de cada sesión.'
+  hepatico: En pacientes con alteración hepática se debe reducir la dosis; pruebas periódicas de función hepática al inicio
+    del tratamiento.
   fuente:
     ref: CIMA-ALOPURINOL
-    detalle: 4.2 Dosis recomendada en casos de insuficiencia renal / diálisis renal
+    detalle: 4.2 Dosis recomendada en casos de insuficiencia renal / diálisis renal / insuficiencia hepática
 alertas:
 - 'Riesgo de error de unidad: las fuentes pediátricas dosifican en mg/m², mg/kg/día y mg fijos (Pediamécum).'
 - Iniciar a dosis bajas para reducir el riesgo de reacciones adversas (CIMA, 4.2).

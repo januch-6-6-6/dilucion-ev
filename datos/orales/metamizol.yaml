@@ -69,7 +69,8 @@ dosis:
   tomasPorDia: 4
   intervaloH: 6
   estatus: autorizada
-  condicion: En fiebre, 10 mg/kg suele bastar. Con la solución o comprimidos; la cápsula de 575 mg no es para <15 años
+  condicion: Pediamécum (A) para la forma oral; la ficha CIMA cargada (cápsula 575 mg) es de una presentación adulta. En fiebre,
+    10 mg/kg suele bastar. Usar solución o comprimidos
   texto: 8-16 mg/kg cada 6-8 horas
   fuente:
     ref: PEDIAMECUM-METAMIZOL
@@ -79,15 +80,19 @@ dosis:
   poblacion: pediatrico
   regimen: por_edad
   unidad: mg
+  topePorToma:
+    valor: 875
+    unidad: mg
   estatus: autorizada
-  condicion: 'Tabla por edad: se muestra, no se calcula'
+  condicion: 'Tabla por edad: se muestra, no se calcula. Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una
+    presentación adulta'
   texto: '<12 meses (<9 kg): 25-125 mg/dosis, máx. 100-500 mg/día. 1-3 años (9-15 kg): 75-250 mg/dosis, máx. 300-1000 mg/día.
     4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día.
     10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500
     mg/día'
   fuente:
     ref: PEDIAMECUM-METAMIZOL
-    detalle: Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral
+    detalle: Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral; tope por toma = fila 13-14 años "375-875"
 pediatria:
   estado: con_dosis
 discrepancias:
@@ -99,8 +104,9 @@ discrepancias:
   - fuente: PEDIAMECUM-METAMIZOL
     valor: '4000 mg/día: "En general, la dosis oral máxima de metamizol magnésico es de 4000 mg/día" (Pediamécum)'
   mostrado: 3450 mg/día
-  motivo: Los 4000 mg/día corresponden a otra sal y formulación (metamizol magnésico); no se usan como tope de las cápsulas
-    de 575 mg (Ruling 9).
+  motivo: 'Misma sal (la cápsula Metamizol Cinfa 575 mg es metamizol magnésico) y misma población (≥15 años, >53 kg): se aplica
+    la regla del tope más bajo y se muestran 3450 mg/día. En CIMA, los 4000 mg/día corresponden al uso oral de la ampolla
+    en el dolor oncológico (media ampolla hasta 4 veces al día, máximo 7 días): otra presentación e indicación.'
 administracion:
   comida: indiferente
   texto: Cápsulas enteras, sin masticar, con un poco de líquido. El efecto suele aparecer a los 30-60 minutos.
@@ -121,5 +127,7 @@ alertas:
 - La cápsula de 575 mg no se recomienda en <15 años por su cantidad fija; existen otras formas para niños (CIMA, 4.2).
 - 'Gotas orales 500 mg/ml: ninguna fuente cargada indica cuántas gotas tiene 1 ml; la calculadora da el volumen en ml.'
 - Pediamécum describe dosis off-label de 12,5-20 mg/kg cada 6 h; no se cargan.
+- La pauta de 8-16 mg/kg no trae tope propio; los máximos por dosis y por día están en la tabla por edad (hasta 875 mg/dosis
+  en 13-14 años).
 - Reducir la dosis en ancianos, pacientes debilitados y con aclaramiento de creatinina disminuido (CIMA, 4.2).
 meta: {}

@@ -82,6 +82,8 @@ def ibuprofeno():
              fuente=fu(IBU_C, 'Difenadol 400 mg: "deben tragarse enteros, sin masticar, triturar ni chupar" (4.2)')),
         pres('sobre-400-mg', 'sobre', mg=400, partible='no',
              fuente=fu(IBU_S, 'Difenadol Rapid 400 mg granulado: "400 mg (1 sobre)" (4.2.1)')),
+        pres('comprimido-200-mg', 'comprimido', mg=200, partible='no',
+             fuente=fu(ARSENAL, 'Grupo 02.01: Ibuprofeno, Gragea o cápsula 200 mg (el arsenal solo indica la dosis; no dice si es partible)')),
         pres('suspension-20-mg-ml', 'suspension', mg_ml=20,
              fuente=fu(P, 'Presentaciones de Pediamécum: IBUPROFENO CINFA 20 MG/ML SUSPENSIÓN ORAL EFG')),
         pres('suspension-40-mg-ml', 'suspension', mg_ml=40,
@@ -95,17 +97,19 @@ def ibuprofeno():
               fuente=fu(IBU_C, '4.2: "400 mg (1 comprimido) cada 6-8 horas ... no debe ser inferior a 6 horas. La dosis máxima diaria es de 1.200 mg (3 comprimidos)"')),
         dosis('Antipirético y analgésico (niños ≥6 meses)', 'pediatrico', 'por_peso', 'mg/kg', base='dia', max=40,
               tomas=4, intervalo_h=6, tope_dia=(2400, 'mg'),
-              condicion='Autorizado en niños ≥6 meses según Pediamécum; con la suspensión (20 o 40 mg/ml)',
+              condicion='Pediamécum (A), autorizado en niños ≥6 meses; la ficha CIMA cargada (Difenadol 400 mg) es de una presentación adulta '
+                        'y no se recomienda en <40 kg o <12 años por su dosis fija. Usar la suspensión (20 o 40 mg/ml)',
               texto='40 mg/kg/día repartidos cada 6-8 horas; dosis máxima 2400 mg/día',
               fuente=fu(P, 'Oral: "Antipirético y analgésico ( A ) (autorizado en niños ≥6 meses): 40 mg/kg/día cada 6-8 horas. Dosis máxima: 2400 mg/día"')),
     ]
     disc = [
         discrepancia('Tope diario',
                      [(IBU_C, '1200 mg/24 h: adultos y adolescentes ≥12 años y ≥40 kg, 400 mg cada 6-8 h (CIMA, Difenadol 400 mg)'),
-                      (P, '2400 mg/día: pauta por peso (40 mg/kg/día, ≥6 meses) y adolescentes 400-600 mg cada 6-8 h (Pediamécum)')],
+                      (P, '2400 mg/día: adolescentes, 400-600 mg cada 6-8 h (Pediamécum, párrafo de dismenorrea primaria)')],
                      '1200 mg/día como tope de adulto',
-                     'Regla del tope más bajo para el adulto/adolescente ≥40 kg con 400 mg cada 6-8 h. La pauta por peso de Pediamécum '
-                     'es otro régimen y conserva su propio máximo (2400 mg/día); la calculadora aplica además el tope de adulto (1200 mg/día).'),
+                     'Regla del tope más bajo para el adulto/adolescente ≥40 kg con dosis fija cada 6-8 h. La pauta por peso de Pediamécum '
+                     '(40 mg/kg/día, ≥6 meses) es otro régimen con su propio máximo de 2400 mg/día (Ruling 9): no se reemplaza; '
+                     'la calculadora aplica además el tope de adulto (1200 mg/día).'),
         discrepancia('Tabla por peso de Pediamécum (20-29 kg, 30-39 kg, ≥40 kg)',
                      [(P, '20-30 mg/kg/día en 3-4 dosis con topes de 600, 800 y 1200 mg/día por peso: aparece bajo el epígrafe «Intravenoso»')],
                      'No se carga como dosis oral',
@@ -144,7 +148,8 @@ def diclofenaco():
     ]
     dosis_ = [
         dosis('Enfermedades reumáticas, gota aguda, dolor e inflamación postraumática (adultos)', 'adulto', 'fija', 'mg', base='dia',
-              min=75, max=100, tomas=2, tope_dia=(150, 'mg'),
+              min=75, max=100, tomas=2, tope_dia=(100, 'mg'),
+              condicion='Tope mostrado: 100 mg/día, el extremo conservador; la ficha permite hasta 150 mg/día',
               texto='Casos leves y tratamientos prolongados: 75-100 mg al día en 2-3 tomas; dosis máxima diaria recomendada 100-150 mg',
               fuente=fu(DIC, '4.2.1: "75-100 mg al día. La dosis máxima diaria recomendada es de 100 a 150 mg ... en 2-3 tomas diarias"')),
         dosis('Dolor, fiebre e inflamación (niños de 1 a 12 años)', 'pediatrico', 'por_peso', 'mg/kg', base='dia', min=0.5, max=3,
@@ -152,10 +157,14 @@ def diclofenaco():
               condicion='La ficha técnica no lo recomienda en <14 años; el único comprimido (50 mg, no partible) no permite dosis pequeñas',
               texto='0,5-3 mg/kg/día repartidos en 2-4 dosis; máximo 150 mg/día',
               fuente=fu(P, 'Oral: "Niños de 1 a 12 años: 0,5-3 mg/kg/día, repartidos en 2-4 dosis. Máximo de 150 mg/día"')),
-        dosis('Dolor e inflamación (niños >12 años)', 'pediatrico', 'fija', 'mg', min=50, max=50, tomas=2, intervalo_h=12,
-              estatus='off_label', condicion='Pediamécum lo autoriza en >14 años; entre 12 y 14 años la ficha técnica no lo recomienda',
+        dosis('Dolor e inflamación (niños de 12 a 14 años)', 'pediatrico', 'fija', 'mg', min=50, max=50, tomas=2, intervalo_h=12,
+              estatus='off_label', condicion='Pediamécum autoriza (A) solo en mayores de 14 años; la ficha técnica no lo recomienda en <14 años',
               texto='Dosis inicial 50 mg cada 8-12 horas; mantenimiento 50 mg cada 12 horas',
               fuente=fu(P, 'Oral: "Niños >12 años: La dosis inicial es de 50 mg cada 8-12 horas; la dosis de mantenimiento 50 mg cada 12 horas"')),
+        dosis('Dolor, fiebre e inflamación (adolescentes mayores de 14 años)', 'pediatrico', 'fija', 'mg', min=50, max=50, tomas=2,
+              intervalo_h=12, condicion='Pediamécum (A) en mayores de 14 años; la ficha técnica solo lo desaconseja en <14 años',
+              texto='Dosis inicial 50 mg cada 8-12 horas; mantenimiento 50 mg cada 12 horas',
+              fuente=fu(P, 'Uso clínico: "en mayores de 14 años ( A )"; dosis: "Niños >12 años: ... 50 mg cada 8-12 horas; ... mantenimiento 50 mg cada 12 horas"')),
     ]
     disc = [
         discrepancia('Población pediátrica',
@@ -163,6 +172,11 @@ def diclofenaco():
                       (P, 'Pediamécum: 0,5-3 mg/kg/día en 2-4 dosis (máx. 150 mg/día) desde 1 año; autorizado (A) solo en mayores de 14 años')],
                      POBLACION_SIN_CIFRA,
                      'Contradicción de población, no de cifra: la ficha técnica no respalda la dosis en <14 años. El rango por peso es amplio (6 veces).'),
+        discrepancia('Tope diario del adulto',
+                     [(DIC, '100 mg/día: extremo inferior de "La dosis máxima diaria recomendada es de 100 a 150 mg"'),
+                      (DIC, '150 mg/día: extremo superior del mismo rango')],
+                     '100 mg/día',
+                     'La ficha da un rango para el máximo; se muestra el extremo conservador y se avisa que permite hasta 150 mg/día.'),
     ]
     alertas = [
         'Contraindicado en insuficiencia cardíaca congestiva (NYHA II-IV), cardiopatía isquémica, enfermedad arterial periférica o cerebrovascular, '
@@ -343,22 +357,27 @@ def metamizol():
               texto='575 mg por dosis, hasta 6 veces al día en intervalos de 4-6 horas; máximo 3450 mg/día. Uso a corto plazo',
               fuente=fu(MET, '4.2: "575 mg de metamizol en una dosis única, que se puede administrar hasta 6 veces al día, en intervalos de 4 a 6 horas, correspondiente a una dosis máxima diaria de 3.450 mg"')),
         dosis('Dolor y fiebre (niños y adolescentes hasta 14 años)', 'pediatrico', 'por_peso', 'mg/kg', base='toma', min=8, max=16,
-              tomas=4, intervalo_h=6, condicion='En fiebre, 10 mg/kg suele bastar. Con la solución o comprimidos; la cápsula de 575 mg no es para <15 años',
+              tomas=4, intervalo_h=6,
+              condicion='Pediamécum (A) para la forma oral; la ficha CIMA cargada (cápsula 575 mg) es de una presentación adulta. '
+                        'En fiebre, 10 mg/kg suele bastar. Usar solución o comprimidos',
               texto='8-16 mg/kg cada 6-8 horas',
               fuente=fu(P, 'Vía oral: "En niños y adolescentes hasta de 14 años de edad, se pueden administrar de 8 a 16 mg/kg cada 6-8 horas"')),
         dosis('Dolor y fiebre: tabla por edad y peso (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='<12 meses (<9 kg): 25-125 mg/dosis, máx. 100-500 mg/día. 1-3 años (9-15 kg): 75-250 mg/dosis, máx. 300-1000 mg/día. '
                     '4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día. '
                     '10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500 mg/día',
-              condicion='Tabla por edad: se muestra, no se calcula',
-              fuente=fu(P, 'Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral')),
+              tope_toma=(875, 'mg'),
+              condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una presentación adulta',
+              fuente=fu(P, 'Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral; tope por toma = fila 13-14 años "375-875"')),
     ]
     disc = [
         discrepancia('Tope diario del adulto',
                      [(MET, '3450 mg/día: cápsulas de 575 mg, adultos y adolescentes ≥15 años (>53 kg) (CIMA); Pediamécum da el mismo máximo para esta población'),
                       (P, '4000 mg/día: "En general, la dosis oral máxima de metamizol magnésico es de 4000 mg/día" (Pediamécum)')],
                      '3450 mg/día',
-                     'Los 4000 mg/día corresponden a otra sal y formulación (metamizol magnésico); no se usan como tope de las cápsulas de 575 mg (Ruling 9).'),
+                     'Misma sal (la cápsula Metamizol Cinfa 575 mg es metamizol magnésico) y misma población (≥15 años, >53 kg): se aplica la regla '
+                     'del tope más bajo y se muestran 3450 mg/día. En CIMA, los 4000 mg/día corresponden al uso oral de la ampolla en el dolor '
+                     'oncológico (media ampolla hasta 4 veces al día, máximo 7 días): otra presentación e indicación.'),
     ]
     alertas = [
         'Contraindicado con antecedente de agranulocitosis por metamizol u otras pirazolonas, alteración de la médula ósea, asma por analgésicos, '
@@ -366,6 +385,7 @@ def metamizol():
         'La cápsula de 575 mg no se recomienda en <15 años por su cantidad fija; existen otras formas para niños (CIMA, 4.2).',
         'Gotas orales 500 mg/ml: ninguna fuente cargada indica cuántas gotas tiene 1 ml; la calculadora da el volumen en ml.',
         'Pediamécum describe dosis off-label de 12,5-20 mg/kg cada 6 h; no se cargan.',
+        'La pauta de 8-16 mg/kg no trae tope propio; los máximos por dosis y por día están en la tabla por edad (hasta 875 mg/dosis en 13-14 años).',
         'Reducir la dosis en ancianos, pacientes debilitados y con aclaramiento de creatinina disminuido (CIMA, 4.2).',
     ]
     return ficha_oral(
@@ -489,8 +509,6 @@ def morfina():
              fuente=fu(ARSENAL, 'Grupo 01.05: Morfina, Comprimido de liberación prolongada 30 mg')),
         pres('gotas-20-mg-ml-arsenal', 'jarabe', mg_ml=20,
              fuente=fu(ARSENAL, 'Grupos 01.05 y 02.02: Morfina, Solución para gotas orales 20 mg/mL. Se carga como solución: ninguna fuente da gotas por ml')),
-        pres('gotas-10-mg-ml-dropizol', 'jarabe', mg_ml=10,
-             fuente=fu(MOR_G, 'Dropizol 10 mg/ml gotas orales en solución (antidiarreico). Se carga como solución: la ficha no da gotas por ml')),
     ]
     dosis_ = [
         dosis('Dolor crónico intenso, comprimidos de liberación prolongada (adultos)', 'adulto', 'fija', 'mg', min=30, max=30, tomas=2,
@@ -510,15 +528,17 @@ def morfina():
               fuente=fu(MOR_R, '4.2 Población pediátrica: "dosis inicial de entre 0,2 y 0,8 mg/kg cada 12 horas"; Pediamécum coincide')),
         dosis('Dolor (formas orales de liberación normal), por edad (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar en menores de 1 año',
-              condicion='Tabla por edad: se muestra, no se calcula. Confirmar la concentración del frasco antes de convertir a ml',
+              estatus='off_label',
+              condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero la única ficha CIMA de gotas cargada (Dropizol) '
+                        'dice que no se debe utilizar en <18 años; opioide de alto riesgo ⇒ off-label. Confirmar la concentración del frasco',
               fuente=fu(P, 'Formas de liberación normal de sulfato de morfina (solución oral, comprimidos): ">13 años: inicial, 10-20 mg/4-6 h. '
                            '6-12 años: máx. 5-10 mg/4 h. 1-6 años: máx. 2,5-5 mg/4 h"; "No usar en menores de un año"')),
     ]
     disc = [
         discrepancia('Concentración de las gotas orales',
                      [(MOR_G, 'Dropizol (CIMA): 10 mg/ml'), (ARSENAL, 'Arsenal de APS de Atacama: solución para gotas orales 20 mg/mL')],
-                     'Ambas concentraciones como presentaciones separadas: elegir siempre la del frasco',
-                     'Riesgo de error de concentración (doble). La calculadora convierte por concentración, nunca copia ml ni gotas de otra ficha.'),
+                     'Solo se carga la concentración del arsenal chileno como presentación; elegir siempre la concentración del frasco',
+                     'Riesgo de error de concentración (doble). Dropizol no se carga como presentación porque es antidiarreico y ninguna dosis de la ficha la usa.'),
         discrepancia('Población de las gotas',
                      [(MOR_G, 'Dropizol (CIMA): no usar en menores de 18 años; indicado solo en diarrea aguda del adulto'),
                       (P, 'Pediamécum: formas orales de liberación normal desde 1 año (dolor)')],
@@ -527,6 +547,8 @@ def morfina():
     ]
     alertas = [
         'Opioide de alto riesgo: confirmar concentración y forma (liberación prolongada cada 12 h vs. liberación normal cada 4 h) antes de calcular.',
+        'La fuente no da tope pediátrico para 0,2-0,8 mg/kg cada 12 h (dolor oncológico crónico); la dosis inicial de adulto es 30 mg cada 12 h '
+        '(CIMA 57898): no usar sin supervisión especializada.',
         'Los comprimidos de liberación prolongada se tragan enteros: rotos, masticados o triturados liberan rápidamente una dosis potencialmente letal (CIMA 57898).',
         'Liberación prolongada: no en las primeras 24 h del postoperatorio; en niños no se recomienda para dolor postoperatorio (CIMA 57898).',
         'Dropizol (CIMA, 10 mg/ml) está autorizado solo para la diarrea aguda del adulto (5-10 gotas 2-3 veces al día, dosis individual ≤1 ml '
@@ -542,7 +564,7 @@ def morfina():
             'noTriturar': True,
             'fuente': fu(MOR_R, '4.2 Posología y Forma de administración'),
         },
-        comerciales=['MST Continus', 'Dropizol'], alto_riesgo=True, discrepancias=disc,
+        comerciales=['MST Continus'], alto_riesgo=True, discrepancias=disc,
         renal='MST Continus: reducir la dosis en enfermedad renal crónica, como con todos los narcóticos; precaución con función renal gravemente alterada. '
               'Dropizol: la insuficiencia renal reduce y retrasa la eliminación (evitar o reducir la dosis).',
         hepatico='MST Continus: reducir la dosis en enfermedad hepática crónica; precaución con función hepática gravemente alterada. '
@@ -584,8 +606,8 @@ def alopurinol():
                      [(ALO, '400 mg/día: niños <15 años, 10-20 mg/kg/día o 100-400 mg diarios (CIMA)'),
                       (P, '800 mg/día: 10-20 mg/kg/día cada 8 h; por edad >10 años y adolescentes 600-800 mg/día (Pediamécum)')],
                      '400 mg/día',
-                     'Mismo régimen y población (niños, por peso): se muestra el tope más bajo. La tabla por edad de Pediamécum '
-                     '(<6 años 150, 6-10 años 300, >10 años 600-800 mg/día) no se carga porque supera ese tope.'),
+                     'Mismo régimen y población (niños, por peso): se muestra el tope más bajo. En la tabla por edad de Pediamécum '
+                     '(<6 años 150, 6-10 años 300, >10 años 600-800 mg/día) solo la fila >10 años supera ese tope; la tabla no se carga como dosis.'),
     ]
     alertas = [
         'Riesgo de error de unidad: las fuentes pediátricas dosifican en mg/m², mg/kg/día y mg fijos (Pediamécum).',
@@ -602,7 +624,8 @@ def alopurinol():
         comerciales=['Alopurinol Cinfamed'], discrepancias=disc,
         renal='Iniciar con un máximo de 100 mg/día y aumentar solo si la respuesta no es satisfactoria. Insuficiencia renal grave: menos de 100 mg/día '
               'o 100 mg a intervalos mayores de un día. Diálisis 2-3 veces por semana: 300-400 mg inmediatamente después de cada sesión.',
-        fuente_ajuste=fu(ALO, '4.2 Dosis recomendada en casos de insuficiencia renal / diálisis renal'),
+        hepatico='En pacientes con alteración hepática se debe reducir la dosis; pruebas periódicas de función hepática al inicio del tratamiento.',
+        fuente_ajuste=fu(ALO, '4.2 Dosis recomendada en casos de insuficiencia renal / diálisis renal / insuficiencia hepática'),
         alertas=alertas,
     )
 
@@ -751,6 +774,8 @@ def prednisona():
         'Tratamientos prolongados: no suspender bruscamente; reducir gradualmente según el esquema de la ficha técnica (CIMA, 4.2).',
         'En niños en fase de crecimiento, el tratamiento debería ser alternante o intermitente (CIMA, 4.2).',
         'Pediamécum agrega pautas de asma para ≥12 años (40-80 mg/día en exacerbaciones) y por edad; no se cargan.',
+        'La dosis intermedia de 1 mg/kg/día no tiene tope pediátrico en la fuente; como referencia, la pauta de asma del adulto llega '
+        'a 60 mg al día (CIMA 75649, «Asma bronquial: de 15 mg a 60 mg al día»).',
     ]
     return ficha_oral(
         'prednisona', 'Prednisona', 'corticoide', presentaciones, dosis_, {
@@ -797,6 +822,8 @@ def dexametasona():
         'Pediamécum: la pauta antiinflamatoria de 0,08-0,3 mg/kg/día es por vía IM o IV; no se carga como dosis oral.',
         'Tratamientos prolongados: reducir gradualmente; tras la terapia inicial, cambiar a prednisona/prednisolona (CIMA, 4.2).',
         'Evitar bebidas con alcohol o cafeína (CIMA, 4.2).',
+        'Pediamécum no da dosis máxima para el crup (0,6 mg/kg en dosis única); la dosis habitual de adulto en CIMA es «de 0,5 a 10 mg al día»: '
+        'con 70 kg el cálculo daría 42 mg.',
     ]
     return ficha_oral(
         'dexametasona', 'Dexametasona', 'corticoide', presentaciones, dosis_, {

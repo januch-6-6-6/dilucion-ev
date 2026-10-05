@@ -114,4 +114,6 @@ alertas:
 - 'Tratamientos prolongados: no suspender bruscamente; reducir gradualmente según el esquema de la ficha técnica (CIMA, 4.2).'
 - En niños en fase de crecimiento, el tratamiento debería ser alternante o intermitente (CIMA, 4.2).
 - Pediamécum agrega pautas de asma para ≥12 años (40-80 mg/día en exacerbaciones) y por edad; no se cargan.
+- 'La dosis intermedia de 1 mg/kg/día no tiene tope pediátrico en la fuente; como referencia, la pauta de asma del adulto
+  llega a 60 mg al día (CIMA 75649, «Asma bronquial: de 15 mg a 60 mg al día»).'
 meta: {}
