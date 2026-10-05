@@ -167,6 +167,29 @@ describe('calcularFija', () => {
     if (!r.ok) return
     expect(r.valor.limitadaPor).toContain('tope diario')
     expect(r.valor.alertas.some((a) => a.nivel === 'rojo')).toBe(true)
+    expect(r.valor.mgPorToma).toEqual({ valor: 333.333, unidad: 'mg' })
+    expect(r.valor.totalDiario?.valor).toBe(999.999)
+  })
+  it('un tope que hace imposible la presentación lo declara como causa', () => {
+    const r = calcularFija({
+      dosis: fija({ max: 500, intervaloH: 8, topeDiario: { valor: 1000, unidad: 'mg' } }),
+      presentacion: comp(500),
+    })
+    expect(r.ok).toBe(false)
+    if (r.ok) return
+    expect(r.error).toContain('Esta presentación no permite esa dosis')
+    expect(r.error).toContain('La dosis se limitó a 333,333 mg por el tope diario')
+  })
+  it('sin tomas conocidas, el tope diario limita la toma igualmente', () => {
+    const r = calcularFija({ dosis: fija({ max: 5000, topeDiario: { valor: 4, unidad: 'g' } }), presentacion: jarabe100 })
+    expect(r.ok && r.valor.mgPorToma.valor).toBe(4000)
+    expect(r.ok && r.valor.limitadaPor).toContain('tope diario')
+    expect(r.ok && r.valor.alertas).toHaveLength(1)
+  })
+  it('rechaza dosis por peso y por edad', () => {
+    expect(calcularFija({ dosis: dosis({ max: 15 }), presentacion: jarabe100 })).toMatchObject({ ok: false })
+    const e = calcularFija({ dosis: fija({ regimen: 'por_edad', max: 250, texto: 't' }), presentacion: jarabe100 })
+    expect(e).toEqual({ ok: false, error: 'Esta dosis es por edad: se muestra como pauta, no se calcula' })
   })
   it('sin tomas conocidas: tomasPorDia y total nulos', () => {
     const r = calcularFija({ dosis: fija({ max: 500 }), presentacion: comp(500) })
@@ -176,5 +199,98 @@ describe('calcularFija', () => {
   it('dosis menor a una gota → error', () => {
     const g = pres({ forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20 })
     expect(calcularFija({ dosis: fija({ max: 0.05 }), presentacion: g })).toEqual({ ok: false, error: 'La dosis es menor a una gota' })
+  })
+})
+
+describe('calcularPorPeso: régimen, topes y redondeo (ronda de correcciones)', () => {
+  it.each([
+    ['por_edad', 'Esta dosis es por edad: se muestra como pauta, no se calcula'],
+    ['por_superficie', 'Esta dosis es por superficie corporal: se muestra como pauta, no se calcula'],
+  ] as const)('régimen %s → error', (regimen, error) => {
+    const r = calcularPorPeso({ pesoKg: 20, dosis: dosis({ regimen, unidad: 'mg', max: 250, tomasPorDia: 3, texto: 't' }), presentacion: jarabe100 })
+    expect(r).toEqual({ ok: false, error })
+  })
+  it('dosis fija pasada a calcularPorPeso → error', () => {
+    const r = calcularPorPeso({ pesoKg: 20, dosis: dosis({ regimen: 'fija', unidad: 'mg', max: 250, tomasPorDia: 3 }), presentacion: jarabe100 })
+    expect(r).toMatchObject({ ok: false })
+  })
+  it('por_peso con unidad sin /kg → error', () => {
+    const r = calcularPorPeso({ pesoKg: 20, dosis: dosis({ unidad: 'mg', max: 250, tomasPorDia: 3 }), presentacion: jarabe100 })
+    expect(r).toMatchObject({ ok: false })
+  })
+  it('tope diario con tomas desconocidas limita la toma, con alerta', () => {
+    const r = calcularPorPeso({
+      pesoKg: 80,
+      dosis: dosis({ max: 60, topeDiario: { valor: 4000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(4000)
+    expect(r.valor.limitadaPor).toContain('tope diario')
+    expect(r.valor.alertas).toHaveLength(1)
+  })
+  it('tope de adulto diario con tomas desconocidas limita la toma', () => {
+    const r = calcularPorPeso({
+      pesoKg: 80,
+      dosis: dosis({ max: 60 }),
+      presentacion: jarabe100,
+      topeAdulto: { diario: { valor: 4, unidad: 'g' } },
+    })
+    expect(r.ok && r.valor.mgPorToma.valor).toBe(4000)
+    expect(r.ok && r.valor.limitadaPor.some((s) => s.includes('tope de adulto'))).toBe(true)
+  })
+  it('el tope por peso con presentación imposible declara el tope como causa', () => {
+    const r = calcularPorPeso({
+      pesoKg: 70,
+      dosis: dosis({ max: 15, tomasPorDia: 2, topePorToma: { valor: 1000, unidad: 'mg' } }),
+      presentacion: comp(1500),
+    })
+    expect(r.ok).toBe(false)
+    expect(!r.ok && r.error).toContain('La dosis se limitó a 1000 mg por el tope por toma')
+  })
+  it('al limitar por tope diario redondea hacia abajo: 300 mg × 6 con tope 1000 → 166,666 (total 999,996)', () => {
+    const r = calcularPorPeso({
+      pesoKg: 10,
+      dosis: dosis({ max: 30, tomasPorDia: 6, topeDiario: { valor: 1000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+    })
+    expect(r.ok && r.valor.mgPorToma.valor).toBe(166.666)
+    expect(r.ok && r.valor.totalDiario?.valor).toBe(999.996)
+  })
+  it.each([
+    [5, 5],
+    [6, 4],
+    [8, 3],
+    [12, 2],
+  ])('intervalo c/%s h → %s tomas por día (hacia arriba)', (intervaloH, n) => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 10, intervaloH }), presentacion: jarabe100 })
+    expect(r.ok && r.valor.tomasPorDia).toBe(n)
+  })
+  it('820 mg c/5 h contra tope diario de 4000 mg se limita', () => {
+    const r = calcularPorPeso({
+      pesoKg: 82,
+      dosis: dosis({ max: 10, intervaloH: 5, topeDiario: { valor: 4000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(800)
+    expect(r.valor.limitadaPor).toContain('tope diario')
+  })
+  it('dos topes por toma: la segunda alerta no llama "calculada" a la dosis ya limitada', () => {
+    const r = calcularPorPeso({
+      pesoKg: 100,
+      dosis: dosis({ max: 15, tomasPorDia: 2, topePorToma: { valor: 1000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+      topeAdulto: { porToma: { valor: 500, unidad: 'mg' } },
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(500)
+    expect(r.valor.alertas).toHaveLength(2)
+    expect(r.valor.alertas[0].mensaje).toContain('calculada (1500 mg)')
+    expect(r.valor.alertas[1].mensaje).not.toContain('La dosis calculada (1000')
+    expect(r.valor.alertas[1].mensaje).toContain('calculada 1500 mg')
   })
 })

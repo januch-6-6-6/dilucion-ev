@@ -26,6 +26,7 @@ const positivo = (n: number | undefined): n is number => typeof n === 'number' &
 const error = (mensaje: string): { ok: false; error: string } => ({ ok: false, error: mensaje })
 const fmt = (n: number) => String(n).replace('.', ',')
 const rojo = (mensaje: string): Alerta => ({ nivel: 'rojo', mensaje })
+const abajo3 = (n: number) => Math.floor(redondear(n * 1000, 6)) / 1000
 const excede = (valor: number, tope: number) => valor > tope + TOLERANCIA * Math.max(1, Math.abs(tope))
 
 function aUnidad(c: Cantidad, unidad: UnidadMasa): number | { ok: false; error: string } {
@@ -54,6 +55,8 @@ function resolver(p: {
   const alertas = [...p.alertas]
   const limitadaPor: string[] = []
   let toma = redondear(p.toma, 3)
+  const original = toma
+  const motivos: string[] = []
 
   for (const t of p.topesToma) {
     const tope = aUnidad(t.cantidad, unidad)
@@ -61,28 +64,38 @@ function resolver(p: {
     if (excede(toma, tope)) {
       const nuevo = redondear(tope, 3)
       limitadaPor.push(t.etiqueta)
-      alertas.push(rojo(`La dosis calculada (${fmt(toma)} ${unidad}) supera el ${t.etiqueta} (${fmt(nuevo)} ${unidad}); se limitó a ${fmt(nuevo)} ${unidad}.`))
+      const previo = limitadaPor.length === 1 ? `La dosis calculada (${fmt(toma)} ${unidad})` : `La dosis ya limitada (${fmt(toma)} ${unidad}, calculada ${fmt(original)} ${unidad})`
+      alertas.push(rojo(`${previo} supera el ${t.etiqueta} (${fmt(nuevo)} ${unidad}); se limitó a ${fmt(nuevo)} ${unidad}.`))
       pasos.push(`Se limita por ${t.etiqueta}: ${fmt(toma)} ${unidad} → ${fmt(nuevo)} ${unidad}`)
+      motivos.push(`La dosis se limitó a ${fmt(nuevo)} ${unidad} por el ${t.etiqueta}`)
       toma = nuevo
     }
   }
 
-  if (tomasPorDia !== null) {
-    for (const t of p.topesDiarios) {
-      const tope = aUnidad(t.cantidad, unidad)
-      if (typeof tope !== 'number') return tope
-      const total = toma * tomasPorDia
-      if (excede(total, tope)) {
-        const nuevo = redondear(tope / tomasPorDia, 3)
-        limitadaPor.push(t.etiqueta)
-        alertas.push(
-          rojo(`El total diario (${fmt(redondear(total, 3))} ${unidad}) supera el ${t.etiqueta} (${fmt(redondear(tope, 3))} ${unidad}); la toma se limitó a ${fmt(nuevo)} ${unidad}.`),
-        )
-        pasos.push(`Se limita por ${t.etiqueta}: toma = ${fmt(redondear(tope, 3))} ${unidad} ÷ ${fmt(tomasPorDia)} tomas = ${fmt(nuevo)} ${unidad}`)
-        toma = nuevo
-      }
+  for (const t of p.topesDiarios) {
+    const tope = aUnidad(t.cantidad, unidad)
+    if (typeof tope !== 'number') return tope
+    const total = toma * (tomasPorDia ?? 1)
+    if (!excede(total, tope)) continue
+    const nuevo = tomasPorDia === null ? redondear(tope, 3) : abajo3(tope / tomasPorDia)
+    limitadaPor.push(t.etiqueta)
+    if (tomasPorDia === null) {
+      alertas.push(
+        rojo(`Una sola toma (${fmt(toma)} ${unidad}) supera el ${t.etiqueta} (${fmt(redondear(tope, 3))} ${unidad}); se limitó a ${fmt(nuevo)} ${unidad} (tomas por día desconocidas).`),
+      )
+      pasos.push(`Se limita por ${t.etiqueta}: toma = ${fmt(nuevo)} ${unidad} (tomas por día desconocidas)`)
+    } else {
+      alertas.push(
+        rojo(`El total diario (${fmt(redondear(total, 3))} ${unidad}) supera el ${t.etiqueta} (${fmt(redondear(tope, 3))} ${unidad}); la toma se limitó a ${fmt(nuevo)} ${unidad}.`),
+      )
+      pasos.push(`Se limita por ${t.etiqueta}: toma = ${fmt(redondear(tope, 3))} ${unidad} ÷ ${fmt(tomasPorDia)} tomas = ${fmt(nuevo)} ${unidad} (hacia abajo)`)
     }
+    motivos.push(`La dosis se limitó a ${fmt(nuevo)} ${unidad} por el ${t.etiqueta}`)
+    toma = nuevo
   }
+
+  const conCausa = <T extends { ok: false; error: string }>(r: T): T =>
+    motivos.length === 0 ? r : { ...r, error: `${r.error}. ${motivos[motivos.length - 1]}` }
 
   const mgPorToma: Cantidad = { valor: toma, unidad }
   const totalDiario: Cantidad | null = tomasPorDia === null ? null : { valor: redondear(toma * tomasPorDia, 3), unidad }
@@ -90,18 +103,18 @@ function resolver(p: {
   let salida: SalidaPresentacion
   if (presentacion.forma === 'jarabe' || presentacion.forma === 'suspension') {
     const r = masaAMl(mgPorToma, presentacion)
-    if (!r.ok) return r
+    if (!r.ok) return conCausa(r)
     salida = { tipo: 'ml', ml: r.valor }
     pasos.push(...r.pasos)
   } else if (presentacion.forma === 'gotas') {
     const r = masaAGotas(mgPorToma, presentacion)
     if (!r.ok) return r
-    if (r.valor === 0) return error('La dosis es menor a una gota')
+    if (r.valor === 0) return conCausa(error('La dosis es menor a una gota'))
     salida = { tipo: 'gotas', gotas: r.valor }
     pasos.push(...r.pasos)
   } else {
     const r = masaAUnidades(mgPorToma, presentacion)
-    if (!r.ok) return r
+    if (!r.ok) return conCausa(r)
     salida = { tipo: 'unidades', ...r.valor }
     pasos.push(...r.pasos)
     if (r.valor.porcentaje < 0.9) {
@@ -117,12 +130,29 @@ function resolver(p: {
 
 function tomas(d: DosisOral): number | null {
   if (positivo(d.tomasPorDia)) return d.tomasPorDia
-  if (positivo(d.intervaloH)) return 24 / d.intervaloH
+  if (positivo(d.intervaloH)) return Math.ceil(24 / d.intervaloH)
   return null
 }
 
 function unidadBase(d: DosisOral): UnidadMasa {
   return d.unidad.replace(/\/kg$/, '').replace(/\/(dia|día)$/, '') as UnidadMasa
+}
+
+const NOMBRE_REGIMEN: Record<DosisOral['regimen'], string> = {
+  fija: 'fija',
+  por_peso: 'por peso',
+  por_edad: 'por edad',
+  por_superficie: 'por superficie corporal',
+}
+
+function validarRegimen(d: DosisOral, esperado: 'fija' | 'por_peso'): string | null {
+  const porKg = d.unidad.endsWith('/kg')
+  if (d.regimen !== esperado || porKg !== (esperado === 'por_peso')) {
+    const pauta = d.regimen === 'por_edad' || d.regimen === 'por_superficie' ? ': se muestra como pauta, no se calcula' : ''
+    const aviso = d.regimen === esperado ? ` con unidad ${d.unidad}, que no corresponde` : ''
+    return `Esta dosis es ${NOMBRE_REGIMEN[d.regimen]}${aviso}${pauta}`
+  }
+  return null
 }
 
 export function calcularPorPeso(p: {
@@ -133,6 +163,8 @@ export function calcularPorPeso(p: {
 }): Resultado<ResultadoOral> {
   if (!positivo(p.pesoKg)) return error('Falta el peso')
   const d = p.dosis
+  const inv = validarRegimen(d, 'por_peso')
+  if (inv) return error(inv)
   const porKg = d.max ?? d.min
   if (!positivo(porKg)) return error('Falta la dosis')
   const unidad = unidadBase(d)
@@ -161,6 +193,8 @@ export function calcularPorPeso(p: {
 
 export function calcularFija(p: { dosis: DosisOral; presentacion: PresentacionOral }): Resultado<ResultadoOral> {
   const d = p.dosis
+  const inv = validarRegimen(d, 'fija')
+  if (inv) return error(inv)
   const valor = d.max ?? d.min
   if (!positivo(valor)) return error('Falta la dosis')
   const unidad = unidadBase(d)
