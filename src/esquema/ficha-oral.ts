@@ -120,6 +120,17 @@ export const FichaOral = z
     } else if (!hayPediatrica) {
       ctx.addIssue({ code: 'custom', path: ['dosis'], message: 'con_dosis exige al menos una dosis pediátrica' })
     }
+    f.dosis.forEach((d, j) => {
+      d.presentaciones?.forEach((id, k) => {
+        if (!f.presentaciones.some((p) => p.id === id)) {
+          ctx.addIssue({
+            code: 'custom',
+            path: ['dosis', j, 'presentaciones', k],
+            message: `la presentación "${id}" no existe en presentaciones de esta ficha`,
+          })
+        }
+      })
+    })
   })
 
 export type FormaOral = z.infer<typeof FormaOral>

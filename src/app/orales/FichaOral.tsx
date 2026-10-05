@@ -29,7 +29,8 @@ function textoDosis(d: DosisOral, presentaciones: PresentacionOral[]): string {
   if (d.condicion) partes.push(d.condicion)
   if (d.presentaciones) {
     const solo = presentaciones.filter((p) => d.presentaciones?.includes(p.id)).map(describirPresentacion)
-    partes.push(`Solo con: ${solo.join('; ')}`)
+    if (solo.length === 0) partes.push('Sin presentación válida en la ficha')
+    else partes.push(`Solo con ${solo.length === 1 ? 'la presentación' : 'estas presentaciones'}: ${solo.join('; ')}`)
   }
   return partes.filter(Boolean).join(', ')
 }

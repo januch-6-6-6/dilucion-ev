@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { DosisOral, PresentacionOral } from '../esquema/ficha-oral'
-import { calcularFija, calcularPorPeso } from './oral'
+import { calcularFija, calcularPorPeso, describirPresentacion } from './oral'
 
 const basePres = {
   liberacionProlongada: false,
@@ -310,12 +310,12 @@ describe('dosis restringida a presentaciones (presentaciones)', () => {
 
   it('presentación no aplicable: error que nombra las aplicables, sin calcular', () => {
     const r = calcularFija({ dosis: fijaAdulto({ max: 50, intervaloH: 6, ...soloIr }), presentacion: tramadolRetard, presentacionesDeFicha: ficha })
-    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula 50 mg' })
+    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula (50 mg)' })
   })
 
   it('por peso: presentación no aplicable devuelve el error, sin calcular', () => {
     const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 10, tomasPorDia: 2, ...soloIr }), presentacion: tramadolRetard, presentacionesDeFicha: ficha })
-    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula 50 mg' })
+    expect(r).toEqual({ ok: false, error: 'Esta dosis no aplica a esta presentación: usa capsula (50 mg)' })
   })
 
   it('sin lista de la ficha, el error usa los ids aplicables', () => {
@@ -332,3 +332,12 @@ describe('dosis restringida a presentaciones (presentaciones)', () => {
 })
 
 const fijaAdulto = (d: Partial<DosisOral>) => dosis({ poblacion: 'adulto', regimen: 'fija', base: undefined, unidad: 'mg', ...d })
+
+describe('describirPresentacion (M-4: identidad por presentación)', () => {
+  it('forma, concentración y liberación prolongada entre paréntesis', () => {
+    expect(describirPresentacion(pres({ forma: 'jarabe', concentracion: { valor: 100, unidad: 'mg' } }))).toBe('jarabe (100 mg/ml)')
+    expect(
+      describirPresentacion(pres({ forma: 'comprimido', cantidad: { valor: 100, unidad: 'mg' }, liberacionProlongada: true })),
+    ).toBe('comprimido (100 mg, liberación prolongada)')
+  })
+})

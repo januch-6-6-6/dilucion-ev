@@ -155,7 +155,7 @@ function validarRegimen(d: DosisOral, esperado: 'fija' | 'por_peso'): string | n
   return null
 }
 
-/** Forma y concentración de una presentación, p. ej. «comprimido 100 mg de liberación prolongada», «jarabe 100 mg/ml». */
+/** Identidad de una presentación: forma y, entre paréntesis, concentración o cantidad, p. ej. «comprimido (100 mg, liberación prolongada)», «jarabe (100 mg/ml)». */
 export function describirPresentacion(p: PresentacionOral): string {
   const forma = p.forma.replace(/_/g, ' ')
   const cifra = p.cantidad
@@ -163,7 +163,8 @@ export function describirPresentacion(p: PresentacionOral): string {
     : p.concentracion
       ? `${String(p.concentracion.valor).replace('.', ',')} ${p.concentracion.unidad}/ml`
       : ''
-  return [forma, cifra, p.liberacionProlongada ? 'de liberación prolongada' : ''].filter(Boolean).join(' ')
+  const detalle = [cifra, p.liberacionProlongada ? 'liberación prolongada' : ''].filter(Boolean).join(', ')
+  return detalle ? `${forma} (${detalle})` : forma
 }
 
 /** Si la dosis no aplica a la presentación elegida, el mensaje de error; si aplica, null. */

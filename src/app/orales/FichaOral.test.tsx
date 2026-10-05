@@ -84,8 +84,16 @@ describe('FichaOral', () => {
       ],
     })
     montar('restr')
-    expect(screen.getByText(/Solo con: comprimido 100 mg de liberación prolongada; capsula 50 mg/)).toBeInTheDocument()
-    expect(screen.queryByText(/Solo con: .*jarabe/)).not.toBeInTheDocument()
+    expect(screen.getByText(/Solo con estas presentaciones: comprimido \(100 mg, liberación prolongada\); capsula \(50 mg\)/)).toBeInTheDocument()
+    expect(screen.getByText(/Solo con la presentación: comprimido \(100 mg, liberación prolongada\)/)).toBeInTheDocument()
+    expect(screen.queryByText(/jarabe/)).not.toBeInTheDocument()
+  })
+
+  it('M-2: si ningún id de la dosis resuelve, muestra «Sin presentación válida» y no «Solo con» vacío', () => {
+    fichas.set('huerfana', fichaOralValida('huerfana', { dosis: [{ ...fichaOralValida().dosis[0], presentaciones: ['zzz'] }] }))
+    montar('huerfana')
+    expect(screen.getByText(/Sin presentación válida en la ficha/)).toBeInTheDocument()
+    expect(screen.queryByText(/Solo con/)).not.toBeInTheDocument()
   })
 
   it('una dosis sin presentaciones no muestra «Solo con»', () => {

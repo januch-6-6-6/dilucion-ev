@@ -99,3 +99,11 @@ describe('DosisOral.presentaciones', () => {
     expect(r.success).toBe(false)
   })
 })
+
+describe('DosisOral.presentaciones: ids inexistentes (I-4)', () => {
+  it('un id que no existe en la ficha falla FichaOral.safeParse', () => {
+    const r = FichaOral.safeParse(fichaOralValida('x', { dosis: [dosisAdulto, { ...dosisPed, presentaciones: ['fantasma'] }] }))
+    expect(r.success).toBe(false)
+    expect(rutas(r)).toContain('dosis.1.presentaciones.0')
+  })
+})

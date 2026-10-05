@@ -2,7 +2,7 @@ import { useState, type ReactNode } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { Resultado } from '../../calculos/calculadoras'
 import { masaAMl, mlAMasa } from '../../calculos/oralConversion'
-import { calcularFija, calcularPorPeso, type ResultadoOral } from '../../calculos/oral'
+import { calcularFija, calcularPorPeso, describirPresentacion, type ResultadoOral } from '../../calculos/oral'
 import { parsearNumero } from '../../calculos/numeros'
 import { convertirMasa, type Cantidad } from '../../calculos/unidades'
 import { obtenerOral } from '../../datos/cargarOrales'
@@ -52,9 +52,10 @@ function topeAdultoDe(ficha: FichaOral) {
   return porToma || diario ? { porToma, diario } : undefined
 }
 
-function sugerenciaLiquida(ficha: FichaOral, actual: PresentacionOral): string | undefined {
+/** Sugiere una líquida solo entre las presentaciones que aplican a la dosis. */
+function sugerenciaLiquida(aplicables: PresentacionOral[], actual: PresentacionOral): string | undefined {
   if (esLiquida(actual)) return undefined
-  const l = ficha.presentaciones.find(esLiquida)
+  const l = aplicables.find(esLiquida)
   return l ? `Prueba con la presentación líquida (${l.forma}) de esta ficha` : undefined
 }
 
@@ -85,6 +86,8 @@ function usePresentacion(ficha: FichaOral, dosis: DosisOral | undefined) {
     setIdElegido(id)
     setConcEditada(null)
   }
+  /** Presentación distinta de la elegida: la dosis no aplica a la elegida y se usa la primera aplicable. */
+  const cambio = base && idElegido !== base.id ? describirPresentacion(base) : undefined
   const controles: ReactNode = (
     <>
       <label className="campo">
@@ -97,18 +100,24 @@ function usePresentacion(ficha: FichaOral, dosis: DosisOral | undefined) {
           ))}
         </select>
       </label>
+      {cambio && (
+        <p className="aviso" role="status">
+          Se usó «{cambio}» porque la dosis solo aplica a esa presentación
+        </p>
+      )}
       {liquida && (
         <Campo etiqueta={`Concentración del frasco (${unidadConc}/ml)`} valor={conc} onCambio={(t) => setConcEditada({ id: base.id, texto: t })} />
       )}
     </>
   )
-  return { presentacion, faltaConcentracion, controles }
+  return { presentacion, faltaConcentracion, controles, aplicables, cambio }
 }
 
-function Salida({ r, fuente, sugerencia }: { r: Resultado<ResultadoOral>; fuente?: DosisOral['fuente']; sugerencia?: string }) {
+function Salida({ r, fuente, sugerencia, cambio }: { r: Resultado<ResultadoOral>; fuente?: DosisOral['fuente']; sugerencia?: string; cambio?: string }) {
   return (
     <div className="salida">
       <div role="status" className="resultado">
+        {cambio && <p className="aviso">Presentación usada: {cambio}</p>}
         {r.ok ? <Bloque r={r} fuente={fuente} /> : <span className="falta">{r.error}</span>}
       </div>
       {!r.ok && sugerencia && <p className="aviso">{sugerencia}</p>}
@@ -183,7 +192,7 @@ function ModoPorPeso({ ficha }: { ficha: FichaOral }) {
   const [iDosis, setIDosis] = useState(0)
   const [peso, setPeso] = useState('')
   const dosis = opciones[iDosis]
-  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha, dosis)
+  const { presentacion, faltaConcentracion, controles, aplicables, cambio } = usePresentacion(ficha, dosis)
   const pesoKg = parsearNumero(peso)
   let r: Resultado<ResultadoOral>
   if (!dosis) r = { ok: false, error: 'Sin dosis pediátrica en la fuente' }
@@ -197,7 +206,7 @@ function ModoPorPeso({ ficha }: { ficha: FichaOral }) {
       <Campo etiqueta="Peso (kg)" valor={peso} onCambio={setPeso} />
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(ficha, presentacion) : undefined} />
+      <Salida r={r} fuente={dosis?.fuente} cambio={cambio} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(aplicables, presentacion) : undefined} />
     </>
   )
 }
@@ -206,7 +215,7 @@ function ModoFija({ ficha }: { ficha: FichaOral }) {
   const opciones = ficha.dosis.filter((d) => d.poblacion === 'adulto')
   const [iDosis, setIDosis] = useState(0)
   const dosis = opciones[iDosis]
-  const { presentacion, faltaConcentracion, controles } = usePresentacion(ficha, dosis)
+  const { presentacion, faltaConcentracion, controles, aplicables, cambio } = usePresentacion(ficha, dosis)
   let r: Resultado<ResultadoOral>
   if (!dosis) r = { ok: false, error: 'Sin dosis de adulto en la fuente' }
   else if (!presentacion) r = { ok: false, error: 'Ninguna presentación de la ficha aplica a esta dosis' }
@@ -217,9 +226,14 @@ function ModoFija({ ficha }: { ficha: FichaOral }) {
     <>
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(ficha, presentacion) : undefined} />
+      <Salida r={r} fuente={dosis?.fuente} cambio={cambio} sugerencia={falloCalculo && presentacion ? sugerenciaLiquida(aplicables, presentacion) : undefined} />
     </>
   )
+}
+
+/** Presentaciones citadas por alguna dosis restringida de la ficha. */
+function presentacionesRestringidas(ficha: FichaOral): PresentacionOral[] {
+  return ficha.presentaciones.filter((p) => ficha.dosis.some((d) => d.presentaciones?.includes(p.id)))
 }
 
 function ModoConversion({ ficha }: { ficha: FichaOral }) {
@@ -239,6 +253,7 @@ function ModoConversion({ ficha }: { ficha: FichaOral }) {
     setId(nuevo)
     setConc(p?.concentracion ? fmt(p.concentracion.valor) : '')
   }
+  const restringidas = presentacionesRestringidas(ficha)
   let texto: ReactNode
   let error: string | null = null
   if (valorConc === null) error = 'Falta la concentración'
@@ -261,6 +276,15 @@ function ModoConversion({ ficha }: { ficha: FichaOral }) {
   }
   return (
     <>
+      {restringidas.length > 0 && (
+        <div role="note" className="aviso">
+          <p>
+            La conversión no respeta las restricciones de dosis: no uses esta conversión para una presentación que no aplica a la dosis (p. ej.
+            formas de liberación prolongada).
+          </p>
+          <p>Presentaciones con dosis restringidas: {restringidas.map(describirPresentacion).join('; ')}</p>
+        </div>
+      )}
       <label className="campo">
         <span>Presentación</span>
         <select aria-label="Presentación" value={id} onChange={(e) => cambiar(e.target.value)}>

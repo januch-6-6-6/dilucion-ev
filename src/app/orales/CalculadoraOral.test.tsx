@@ -1,4 +1,4 @@
-import { render, screen, within } from '@testing-library/react'
+import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { Link, MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
@@ -207,6 +207,66 @@ describe('CalculadoraOral', () => {
   it('dosis sin presentaciones: el selector muestra todas las presentaciones', async () => {
     montar('para')
     expect(within(screen.getByLabelText('Presentación')).getAllByRole('option')).toHaveLength(presentaciones.length)
+  })
+
+  const soloJarabeDosis = { ...dosisAdulto, indicacion: 'Solo jarabe', max: 300, presentaciones: ['jarabe-100'] }
+
+  it('I-1: el aviso «Se usó» aparece solo cuando la presentación elegida se cambia por la dosis', async () => {
+    crear('aviso', { presentaciones, dosis: [dosisAdulto, soloJarabeDosis, dosisPeso] })
+    montar('aviso')
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis fija' }))
+    expect(screen.queryByText(/Se usó/)).not.toBeInTheDocument()
+    await userEvent.selectOptions(screen.getByLabelText('Dosis'), '1')
+    expect(screen.getByText(/Se usó «jarabe \(100 mg\/ml\)» porque la dosis solo aplica a esa presentación/)).toBeInTheDocument()
+    expect(screen.getByText(/Presentación usada: jarabe \(100 mg\/ml\)/)).toBeInTheDocument()
+    await userEvent.selectOptions(screen.getByLabelText('Dosis'), '0')
+    expect(screen.queryByText(/Se usó/)).not.toBeInTheDocument()
+  })
+
+  it('I-1: si la presentación ya aplica a la dosis restringida, no hay aviso', async () => {
+    crear('aviso2', { presentaciones, dosis: [dosisAdulto, soloJarabeDosis, dosisPeso] })
+    montar('aviso2')
+    await userEvent.click(screen.getByRole('tab', { name: 'Dosis fija' }))
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'jarabe-100')
+    await userEvent.selectOptions(screen.getByLabelText('Dosis'), '1')
+    expect(screen.getByLabelText('Presentación')).toHaveValue('jarabe-100')
+    expect(screen.queryByText(/Se usó/)).not.toBeInTheDocument()
+  })
+
+  it('I-2: la nota de mg ↔ ml aparece solo si la ficha tiene dosis restringidas', async () => {
+    crear('nota', { presentaciones, dosis: [dosisAdulto, soloJarabeDosis, dosisPeso] })
+    montar('nota')
+    await userEvent.click(screen.getByRole('tab', { name: 'mg ↔ ml' }))
+    expect(screen.getByRole('note')).toHaveTextContent('La conversión no respeta las restricciones de dosis')
+    expect(screen.getByRole('note')).toHaveTextContent('Presentaciones con dosis restringidas: jarabe (100 mg/ml)')
+    cleanup()
+    montar('para')
+    await userEvent.click(screen.getByRole('tab', { name: 'mg ↔ ml' }))
+    expect(screen.queryByText(/La conversión no respeta/)).not.toBeInTheDocument()
+  })
+
+  it('M-1: la sugerencia líquida solo considera presentaciones que aplican a la dosis', async () => {
+    crear('solida-restr', { presentaciones, dosis: [{ ...dosisPeso, presentaciones: ['comp-500'] }] })
+    montar('solida-restr')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '1')
+    expect(screen.getByRole('status')).toHaveTextContent('no permite esa dosis')
+    expect(screen.queryByText(/Prueba con la presentación líquida/)).not.toBeInTheDocument()
+  })
+
+  it('M-3: por peso también aplica la restricción de presentaciones', async () => {
+    crear('peso-restr', { presentaciones, dosis: [dosisAdulto, { ...dosisPeso, presentaciones: ['jarabe-100'] }] })
+    montar('peso-restr')
+    const opciones = within(screen.getByLabelText('Presentación')).getAllByRole('option')
+    expect(opciones.map((o) => o.textContent)).toEqual(['jarabe 100 mg/ml'])
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '10')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('1,5 ml')
+  })
+
+  it('M-3: sin presentación aplicable muestra el error explícito', async () => {
+    fichas.set('ninguna', fichaOralValida('ninguna', { dosis: [dosisAdulto, { ...dosisPeso, presentaciones: ['zzz'] }] }))
+    montar('ninguna')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '10')
+    expect(screen.getByRole('status')).toHaveTextContent('Ninguna presentación de la ficha aplica a esta dosis')
   })
 
   it('gotas: el resultado muestra gotas', async () => {

@@ -52,6 +52,11 @@ function porTomaMg(d: DosisOral, comoTope: boolean): number | null {
   }
 }
 
+/** Ruta de error legible: dosis[0].presentaciones[1]. Los segmentos numéricos van entre corchetes. */
+function rutaLegible(ruta: PropertyKey[]): string {
+  return ruta.reduce<string>((acc, seg) => (typeof seg === 'number' ? `${acc}[${seg}]` : acc ? `${acc}.${String(seg)}` : String(seg)), '')
+}
+
 /** Valida fichas orales y sus fuentes. Devuelve errores legibles; lista vacía = todo OK. */
 export function validarOrales(fichasCrudas: unknown[], fuentesCrudas: unknown[]): string[] {
   const errores: string[] = []
@@ -68,7 +73,7 @@ export function validarOrales(fichasCrudas: unknown[], fuentesCrudas: unknown[])
     const etiqueta = (crudo as { id?: string })?.id ?? `ficha[${i}]`
     const r = FichaOral.safeParse(crudo)
     if (!r.success) {
-      for (const x of r.error.issues) errores.push(`${etiqueta}: ${x.path.join('.')} — ${x.message}`)
+      for (const x of r.error.issues) errores.push(`${etiqueta}: ${rutaLegible(x.path)} — ${x.message}`)
       return
     }
     const ficha = r.data
@@ -79,12 +84,6 @@ export function validarOrales(fichasCrudas: unknown[], fuentesCrudas: unknown[])
     ficha.presentaciones.forEach((p, j) => {
       if (idsPres.has(p.id)) errores.push(`${ficha.id}: presentaciones[${j}] id repetido "${p.id}"`)
       idsPres.add(p.id)
-    })
-
-    ficha.dosis.forEach((d, j) => {
-      d.presentaciones?.forEach((id, k) => {
-        if (!idsPres.has(id)) errores.push(`${ficha.id}: dosis[${j}].presentaciones[${k}] la presentación "${id}" no existe en presentaciones de esta ficha`)
-      })
     })
 
     const refs: { ruta: string; ref: string }[] = []
