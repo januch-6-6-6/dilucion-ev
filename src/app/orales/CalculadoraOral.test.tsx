@@ -1,6 +1,6 @@
 import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { MemoryRouter, Route, Routes } from 'react-router-dom'
+import { Link, MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { fichaOralValida } from '../../esquema/__fixtures__/orales'
 import { FichaOral as EsquemaFichaOral } from '../../esquema/ficha-oral'
@@ -22,6 +22,7 @@ const jarabe100 = {
   registroChile: 'verificado',
   fuente: f,
 }
+const jarabe50 = { ...jarabe100, id: 'jarabe-50', concentracion: { valor: 50, unidad: 'mg' } }
 const dosisAdulto = { indicacion: 'Dolor', poblacion: 'adulto', regimen: 'fija', base: 'toma', unidad: 'mg', min: 500, max: 1000, tomasPorDia: 4, estatus: 'autorizada', fuente: f }
 const dosisPeso = { indicacion: 'Dolor', poblacion: 'pediatrico', regimen: 'por_peso', base: 'toma', unidad: 'mg/kg', min: 10, max: 15, intervaloH: 6, estatus: 'autorizada', fuente: f }
 
@@ -130,5 +131,67 @@ describe('CalculadoraOral', () => {
     await userEvent.clear(screen.getByLabelText('Dosis (mg)'))
     await userEvent.type(screen.getByLabelText('Volumen (ml)'), '1,5')
     expect(screen.getByRole('status')).toHaveTextContent('150 mg')
+  })
+
+  it('cambiar de medicamento en la misma ruta reinicia el estado (sin caerse)', async () => {
+    crear('corta', { presentaciones: [jarabe50] })
+    render(
+      <MemoryRouter initialEntries={['/orales/m/para/calcular']}>
+        <Link to="/orales/m/corta/calcular">ir</Link>
+        <Link to="/orales/m/adulto/calcular">ir-adulto</Link>
+        <Routes>
+          <Route path="/orales/m/:id/calcular" element={<CalculadoraOral />} />
+        </Routes>
+      </MemoryRouter>,
+    )
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'jarabe-100')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '10')
+    await userEvent.click(screen.getByText('ir'))
+    expect(screen.getByLabelText('Concentración del frasco (mg/ml)')).toHaveValue('50')
+    expect(screen.getByLabelText('Peso (kg)')).toHaveValue('')
+    await userEvent.click(screen.getByText('ir-adulto'))
+    expect(screen.queryByLabelText('Peso (kg)')).not.toBeInTheDocument()
+    expect(screen.getByText(/No hay dosis pediátrica en la fuente/)).toBeInTheDocument()
+    expect(screen.getByRole('tab', { name: 'Por peso' })).toBeDisabled()
+  })
+
+  it('tope de adulto más bajo entre unidades mezcladas (omite las no comparables)', async () => {
+    const adultos = [1000, 5, 500].map((v, i) => ({ ...dosisAdulto, indicacion: `A${i}`, topePorToma: { valor: v, unidad: i === 1 ? 'UI' : 'mg' } }))
+    crear('mixto', { presentaciones, dosis: [...adultos, dosisPeso] })
+    montar('mixto')
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'jarabe-100')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '70')
+    expect(within(screen.getByTestId('resultado')).getByRole('alert')).toHaveTextContent('tope de adulto por toma')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('500 mg')
+  })
+
+  it('error de presentación sólida sugiere la presentación líquida', async () => {
+    montar('para')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '1')
+    expect(screen.getByRole('status')).toHaveTextContent('no permite esa dosis')
+    expect(screen.getByText('Prueba con la presentación líquida (jarabe) de esta ficha')).toBeInTheDocument()
+  })
+
+  it('dosis solo con texto no muestra undefined en el selector', async () => {
+    const porEdad = { indicacion: 'Lactante', poblacion: 'pediatrico', regimen: 'por_edad', unidad: 'mg', texto: 'según edad', estatus: 'autorizada', fuente: f }
+    crear('edad', { dosis: [dosisAdulto, porEdad] })
+    montar('edad')
+    expect(screen.getByLabelText('Dosis')).not.toHaveTextContent('undefined')
+    expect(screen.getByLabelText('Dosis')).toHaveTextContent('según edad')
+  })
+
+  it('gotas: el resultado muestra gotas', async () => {
+    const gotas = { id: 'gotas-2', forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20, partible: 'no', liberacionProlongada: false, registroChile: 'verificado', fuente: f }
+    crear('gotero', { presentaciones: [gotas] })
+    montar('gotero')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '2')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('gotas')
+  })
+
+  it('muestra limitadaPor dentro del resultado', async () => {
+    montar('tope')
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'jarabe-100')
+    await userEvent.type(screen.getByLabelText('Peso (kg)'), '10')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Limitada por: tope por toma')
   })
 })

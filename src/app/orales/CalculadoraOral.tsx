@@ -32,17 +32,30 @@ function etiquetaPresentacion(p: PresentacionOral): string {
 /** Tope de adulto de la ficha: el más bajo entre las dosis de adulto (nunca se supera). */
 function topeAdultoDe(ficha: FichaOral) {
   const menor = (xs: Cantidad[]): Cantidad | undefined => {
-    if (xs.length === 0) return undefined
-    try {
-      return xs.reduce((a, b) => (convertirMasa(b.valor, b.unidad, a.unidad) < a.valor ? b : a))
-    } catch {
-      return xs[0]
+    let mejor: Cantidad | undefined
+    for (const c of xs) {
+      if (!mejor) {
+        mejor = c
+        continue
+      }
+      try {
+        if (convertirMasa(c.valor, c.unidad, mejor.unidad) < mejor.valor) mejor = c
+      } catch {
+        // unidad no comparable con la de referencia: se omite ese tope
+      }
     }
+    return mejor
   }
   const adultos = ficha.dosis.filter((d) => d.poblacion === 'adulto')
   const porToma = menor(adultos.flatMap((d) => (d.topePorToma ? [d.topePorToma] : [])))
   const diario = menor(adultos.flatMap((d) => (d.topeDiario ? [d.topeDiario] : [])))
   return porToma || diario ? { porToma, diario } : undefined
+}
+
+function sugerenciaLiquida(ficha: FichaOral, actual: PresentacionOral): string | undefined {
+  if (esLiquida(actual)) return undefined
+  const l = ficha.presentaciones.find(esLiquida)
+  return l ? `Prueba con la presentación líquida (${l.forma}) de esta ficha` : undefined
 }
 
 /** Presentación elegida; si es líquida, su concentración es editable y obligatoria. */
@@ -81,12 +94,13 @@ function usePresentacion(ficha: FichaOral) {
   return { presentacion, faltaConcentracion, controles }
 }
 
-function Salida({ r, fuente }: { r: Resultado<ResultadoOral>; fuente?: DosisOral['fuente'] }) {
+function Salida({ r, fuente, sugerencia }: { r: Resultado<ResultadoOral>; fuente?: DosisOral['fuente']; sugerencia?: string }) {
   return (
     <div className="salida">
       <div role="status" className="resultado">
         {r.ok ? <Bloque r={r} fuente={fuente} /> : <span className="falta">{r.error}</span>}
       </div>
+      {!r.ok && sugerencia && <p className="aviso">{sugerencia}</p>}
     </div>
   )
 }
@@ -132,6 +146,12 @@ function Bloque({ r, fuente }: { r: Extract<Resultado<ResultadoOral>, { ok: true
   )
 }
 
+function etiquetaDosis(d: DosisOral): string {
+  if (d.min === undefined && d.max === undefined) return `${d.indicacion} (${d.texto ?? 'sin cantidad numérica'})`
+  const cant = d.max !== undefined && d.min !== undefined && d.min !== d.max ? `${fmt(d.min)}–${fmt(d.max)}` : fmt((d.max ?? d.min) as number)
+  return `${d.indicacion} (${cant} ${d.unidad})`
+}
+
 function SelectorDosis({ opciones, indice, onCambio }: { opciones: DosisOral[]; indice: number; onCambio: (i: number) => void }) {
   return (
     <label className="campo">
@@ -139,7 +159,7 @@ function SelectorDosis({ opciones, indice, onCambio }: { opciones: DosisOral[]; 
       <select aria-label="Dosis" value={indice} onChange={(e) => onCambio(Number(e.target.value))}>
         {opciones.map((d, i) => (
           <option key={i} value={i}>
-            {d.indicacion} ({d.max !== undefined && d.min !== undefined && d.min !== d.max ? `${fmt(d.min)}–${fmt(d.max)}` : fmt((d.max ?? d.min) as number)} {d.unidad})
+            {etiquetaDosis(d)}
           </option>
         ))}
       </select>
@@ -159,12 +179,13 @@ function ModoPorPeso({ ficha }: { ficha: FichaOral }) {
   else if (pesoKg === null) r = { ok: false, error: 'Falta el peso' }
   else if (faltaConcentracion) r = { ok: false, error: 'Falta la concentración' }
   else r = calcularPorPeso({ pesoKg, dosis, presentacion, topeAdulto: topeAdultoDe(ficha) })
+  const falloCalculo = dosis !== undefined && pesoKg !== null && !faltaConcentracion
   return (
     <>
       <Campo etiqueta="Peso (kg)" valor={peso} onCambio={setPeso} />
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} />
+      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo ? sugerenciaLiquida(ficha, presentacion) : undefined} />
     </>
   )
 }
@@ -178,11 +199,12 @@ function ModoFija({ ficha }: { ficha: FichaOral }) {
   if (!dosis) r = { ok: false, error: 'Sin dosis de adulto en la fuente' }
   else if (faltaConcentracion) r = { ok: false, error: 'Falta la concentración' }
   else r = calcularFija({ dosis, presentacion })
+  const falloCalculo = dosis !== undefined && !faltaConcentracion
   return (
     <>
       {opciones.length > 0 && <SelectorDosis opciones={opciones} indice={iDosis} onCambio={setIDosis} />}
       {controles}
-      <Salida r={r} fuente={dosis?.fuente} />
+      <Salida r={r} fuente={dosis?.fuente} sugerencia={falloCalculo ? sugerenciaLiquida(ficha, presentacion) : undefined} />
     </>
   )
 }
@@ -279,5 +301,5 @@ export default function CalculadoraOral() {
   const { id } = useParams()
   const ficha = id ? obtenerOral(id) : undefined
   if (!ficha) return <p>Medicamento no encontrado</p>
-  return <CalculadoraOralVista ficha={ficha} />
+  return <CalculadoraOralVista key={ficha.id} ficha={ficha} />
 }
