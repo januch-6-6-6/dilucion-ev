@@ -1,0 +1,180 @@
+import { describe, expect, it } from 'vitest'
+import type { DosisOral, PresentacionOral } from '../esquema/ficha-oral'
+import { calcularFija, calcularPorPeso } from './oral'
+
+const basePres = {
+  liberacionProlongada: false,
+  registroChile: 'sin_verificar',
+  fuente: { id: 'x' },
+} as unknown as Partial<PresentacionOral>
+const pres = (p: Partial<PresentacionOral>) => ({ id: 'p', partible: 'no', ...basePres, ...p }) as PresentacionOral
+const dosis = (d: Partial<DosisOral>) =>
+  ({
+    indicacion: 'x',
+    poblacion: 'pediatrico',
+    regimen: 'por_peso',
+    base: 'toma',
+    unidad: 'mg/kg',
+    estatus: 'autorizada',
+    fuente: { id: 'x' },
+    ...d,
+  }) as DosisOral
+
+const jarabe100 = pres({ forma: 'jarabe', concentracion: { valor: 100, unidad: 'mg' } })
+const comp = (valor: number, partible: PresentacionOral['partible'] = 'no') =>
+  pres({ forma: 'comprimido', cantidad: { valor, unidad: 'mg' }, partible })
+
+describe('calcularPorPeso', () => {
+  it('paracetamol 15 mg/kg por toma, 10 kg, jarabe → 150 mg, 1,5 ml, 4 tomas, 600 mg', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 15, intervaloH: 6 }), presentacion: jarabe100 })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma).toEqual({ valor: 150, unidad: 'mg' })
+    expect(r.valor.salida).toEqual({ tipo: 'ml', ml: 1.5 })
+    expect(r.valor.tomasPorDia).toBe(4)
+    expect(r.valor.totalDiario).toEqual({ valor: 600, unidad: 'mg' })
+    expect(r.valor.limitadaPor).toEqual([])
+    expect(r.valor.alertas).toEqual([])
+    expect(r.pasos.length).toBeGreaterThan(0)
+  })
+  it('por día: 40 mg/kg/día en 3 tomas, 12 kg → 160 mg por toma', () => {
+    const r = calcularPorPeso({ pesoKg: 12, dosis: dosis({ base: 'dia', max: 40, tomasPorDia: 3 }), presentacion: jarabe100 })
+    expect(r.ok && r.valor.mgPorToma).toEqual({ valor: 160, unidad: 'mg' })
+    expect(r.ok && r.valor.totalDiario).toEqual({ valor: 480, unidad: 'mg' })
+  })
+  it('usa min si no hay max', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ min: 10, tomasPorDia: 2 }), presentacion: jarabe100 })
+    expect(r.ok && r.valor.mgPorToma.valor).toBe(100)
+  })
+  it('tope por toma: 15 mg/kg × 70 kg con tope 1000 mg → 1000 mg y alerta roja', () => {
+    const r = calcularPorPeso({
+      pesoKg: 70,
+      dosis: dosis({ max: 15, tomasPorDia: 2, topePorToma: { valor: 1000, unidad: 'mg' } }),
+      presentacion: comp(500),
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(1000)
+    expect(r.valor.limitadaPor).toContain('tope por toma')
+    expect(r.valor.alertas.some((a) => a.nivel === 'rojo' && a.mensaje.includes('1050'))).toBe(true)
+  })
+  it('tope diario: 4 tomas de 500 mg con tope 1500 mg → 375 mg y alerta', () => {
+    const r = calcularPorPeso({
+      pesoKg: 50,
+      dosis: dosis({ max: 10, tomasPorDia: 4, topeDiario: { valor: 1500, unidad: 'mg' } }),
+      presentacion: jarabe100,
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(375)
+    expect(r.valor.totalDiario?.valor).toBe(1500)
+    expect(r.valor.limitadaPor).toContain('tope diario')
+    expect(r.valor.alertas).toHaveLength(1)
+  })
+  it('nunca supera el tope de adulto por toma', () => {
+    const r = calcularPorPeso({
+      pesoKg: 80,
+      dosis: dosis({ max: 10, tomasPorDia: 3 }),
+      presentacion: comp(250),
+      topeAdulto: { porToma: { valor: 500, unidad: 'mg' } },
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.mgPorToma.valor).toBe(500)
+    expect(r.valor.limitadaPor.some((s) => s.includes('tope de adulto'))).toBe(true)
+    expect(r.valor.alertas.length).toBe(1)
+  })
+  it('tope de adulto diario reduce la toma', () => {
+    const r = calcularPorPeso({
+      pesoKg: 80,
+      dosis: dosis({ max: 10, tomasPorDia: 4 }),
+      presentacion: jarabe100,
+      topeAdulto: { diario: { valor: 2 , unidad: 'g' } },
+    })
+    expect(r.ok && r.valor.mgPorToma.valor).toBe(500)
+    expect(r.ok && r.valor.limitadaPor.some((s) => s.includes('tope de adulto'))).toBe(true)
+  })
+  it('un resultado exactamente igual al tope no se reporta como limitado', () => {
+    const r = calcularPorPeso({
+      pesoKg: 100,
+      dosis: dosis({ max: 10, tomasPorDia: 2, topePorToma: { valor: 1000, unidad: 'mg' }, topeDiario: { valor: 2000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+      topeAdulto: { porToma: { valor: 1, unidad: 'g' }, diario: { valor: 2, unidad: 'g' } },
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.limitadaPor).toEqual([])
+    expect(r.valor.alertas).toEqual([])
+  })
+  it('base dia sin tomas → error', () => {
+    const r = calcularPorPeso({ pesoKg: 12, dosis: dosis({ base: 'dia', max: 40 }), presentacion: jarabe100 })
+    expect(r).toEqual({ ok: false, error: 'Falta el número de tomas por día' })
+  })
+  it.each([0, -5, NaN, Infinity])('peso %s → error', (pesoKg) => {
+    const r = calcularPorPeso({ pesoKg, dosis: dosis({ max: 10, tomasPorDia: 2 }), presentacion: jarabe100 })
+    expect(r).toEqual({ ok: false, error: 'Falta el peso' })
+  })
+  it('peso 400 → ok con alerta roja de rango', () => {
+    const r = calcularPorPeso({ pesoKg: 400, dosis: dosis({ max: 1, tomasPorDia: 2 }), presentacion: jarabe100 })
+    expect(r.ok).toBe(true)
+    expect(r.ok && r.valor.alertas.some((a) => a.nivel === 'rojo' && a.mensaje === 'Peso fuera del rango habitual (1–150 kg)')).toBe(true)
+  })
+  it('ondansetrón 2 mg con comprimido de 4 mg no partible → error', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 0.2, tomasPorDia: 2 }), presentacion: comp(4, 'no') })
+    expect(r).toEqual({ ok: false, error: 'Esta presentación no permite esa dosis' })
+  })
+  it('ondansetrón 2 mg con 4 mg partible en mitades → 0,5 unidades', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 0.2, tomasPorDia: 2 }), presentacion: comp(4, 'mitades') })
+    expect(r.ok && r.valor.salida).toMatchObject({ tipo: 'unidades', unidades: 0.5, porcentaje: 1 })
+    expect(r.ok && r.valor.alertas).toEqual([])
+  })
+  it('fracción que entrega < 90 %: 130 mg con comprimido de 100 mg en mitades → 100 mg (77 %) y alerta', () => {
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 13, tomasPorDia: 2 }), presentacion: comp(100, 'mitades') })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.salida).toMatchObject({ tipo: 'unidades', unidades: 1, entregado: { valor: 100, unidad: 'mg' } })
+    expect(r.valor.alertas.some((a) => a.nivel === 'rojo' && a.mensaje.includes('77'))).toBe(true)
+  })
+  it('gotas: salida en gotas', () => {
+    const g = pres({ forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20 })
+    const r = calcularPorPeso({ pesoKg: 10, dosis: dosis({ max: 0.5, tomasPorDia: 2 }), presentacion: g })
+    expect(r.ok && r.valor.salida).toEqual({ tipo: 'gotas', gotas: 50 })
+  })
+  it('dosis menor a una gota → error', () => {
+    const g = pres({ forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20 })
+    const r = calcularPorPeso({ pesoKg: 1, dosis: dosis({ max: 0.05, tomasPorDia: 2 }), presentacion: g })
+    expect(r).toEqual({ ok: false, error: 'La dosis es menor a una gota' })
+  })
+})
+
+describe('calcularFija', () => {
+  const fija = (d: Partial<DosisOral>) => dosis({ poblacion: 'adulto', regimen: 'fija', base: undefined, unidad: 'mg', ...d })
+  it('adulto 500 mg c/8 h con comprimidos de 500 mg → 1 unidad, 3 tomas, 1500 mg', () => {
+    const r = calcularFija({ dosis: fija({ max: 500, intervaloH: 8 }), presentacion: comp(500) })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.salida).toMatchObject({ tipo: 'unidades', unidades: 1 })
+    expect(r.valor.tomasPorDia).toBe(3)
+    expect(r.valor.totalDiario).toEqual({ valor: 1500, unidad: 'mg' })
+    expect(r.valor.alertas).toEqual([])
+  })
+  it('superar topeDiario da alerta', () => {
+    const r = calcularFija({
+      dosis: fija({ max: 500, intervaloH: 8, topeDiario: { valor: 1000, unidad: 'mg' } }),
+      presentacion: jarabe100,
+    })
+    expect(r.ok).toBe(true)
+    if (!r.ok) return
+    expect(r.valor.limitadaPor).toContain('tope diario')
+    expect(r.valor.alertas.some((a) => a.nivel === 'rojo')).toBe(true)
+  })
+  it('sin tomas conocidas: tomasPorDia y total nulos', () => {
+    const r = calcularFija({ dosis: fija({ max: 500 }), presentacion: comp(500) })
+    expect(r.ok && r.valor.tomasPorDia).toBeNull()
+    expect(r.ok && r.valor.totalDiario).toBeNull()
+  })
+  it('dosis menor a una gota → error', () => {
+    const g = pres({ forma: 'gotas', concentracion: { valor: 2, unidad: 'mg' }, gotasPorMl: 20 })
+    expect(calcularFija({ dosis: fija({ max: 0.05 }), presentacion: g })).toEqual({ ok: false, error: 'La dosis es menor a una gota' })
+  })
+})
