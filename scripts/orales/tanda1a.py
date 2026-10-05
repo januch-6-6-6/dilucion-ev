@@ -98,7 +98,8 @@ def ibuprofeno():
         dosis('Antipirético y analgésico (niños ≥6 meses)', 'pediatrico', 'por_peso', 'mg/kg', base='dia', max=40,
               tomas=4, intervalo_h=6, tope_dia=(2400, 'mg'),
               condicion='Pediamécum (A), autorizado en niños ≥6 meses; la ficha CIMA cargada (Difenadol 400 mg) es de una presentación adulta '
-                        'y no se recomienda en <40 kg o <12 años por su dosis fija. Usar la suspensión (20 o 40 mg/ml)',
+                        'y no se recomienda en <40 kg o <12 años por su dosis fija. No usar los productos de 400 mg; suspensión (20 o 40 mg/ml), '
+                        'o comprimido de 200 mg si la dosis lo permite',
               texto='40 mg/kg/día repartidos cada 6-8 horas; dosis máxima 2400 mg/día',
               presentaciones=['suspension-20-mg-ml', 'suspension-40-mg-ml', 'comprimido-200-mg'],
               fuente=fu(P, 'Oral: "Antipirético y analgésico ( A ) (autorizado en niños ≥6 meses): 40 mg/kg/día cada 6-8 horas. Dosis máxima: 2400 mg/día"')),
@@ -122,7 +123,8 @@ def ibuprofeno():
         'con ≤1200 mg/día no se ha visto ese aumento (CIMA 88314, 4.4).',
         'Contraindicado en insuficiencia renal o hepática grave, insuficiencia cardíaca grave (NYHA IV), hemorragia activa y tercer trimestre de embarazo (CIMA 88314, 4.3).',
         'Se aconseja evitar ibuprofeno en caso de varicela (CIMA 88314, 4.4).',
-        'Los comprimidos y sobres de 400 mg no son para <40 kg ni <12 años: en niños usar la suspensión y calcular por peso.',
+        'Los comprimidos y sobres de 400 mg no son para <40 kg ni <12 años (CIMA 88314 y 74559): en niños usar la suspensión, o el comprimido '
+        'de 200 mg si la dosis lo permite, y calcular por peso.',
     ]
     return ficha_oral(
         'ibuprofeno', 'Ibuprofeno', 'aine', presentaciones, dosis_,
