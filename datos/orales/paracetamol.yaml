@@ -1,0 +1,105 @@
+id: paracetamol
+nombre: Paracetamol (acetaminofén)
+comerciales:
+- Antidol infantil
+- Antidol 1 g
+grupo: analgesico-no-opioide
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: jarabe-100-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PARACETAMOL-83208
+    detalle: Antidol infantil 100 mg/ml solución oral
+- id: comprimido-1-g
+  forma: comprimido
+  cantidad:
+    valor: 1000
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PARACETAMOL-85780
+    detalle: Antidol 1 g comprimidos (4.2 y 4.4)
+dosis:
+- indicacion: Dolor leve-moderado y fiebre (15 mg/kg cada 6 h)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 15
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  fuente:
+    ref: CIMA-PARACETAMOL-83208
+    detalle: '4.2: 15 mg/kg cada 6 horas; máx. 60 mg/kg/día'
+- indicacion: Dolor leve-moderado y fiebre (alternativa 10 mg/kg cada 4 h)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 10
+  tomasPorDia: 6
+  intervaloH: 4
+  estatus: autorizada
+  condicion: Si a las 3-4 h no hay efecto; intervalo mínimo de 4 h entre tomas
+  fuente:
+    ref: PEDIAMECUM-PARACETAMOL
+    detalle: 'Dosis y pautas: 10 mg/kg cada 4 horas; ~60 mg/kg/día'
+- indicacion: Dolor moderado y fiebre (adultos y adolescentes >16 años o >50 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 1000
+  max: 1000
+  intervaloH: 6
+  topeDiario:
+    valor: 2600
+    unidad: mg
+  estatus: autorizada
+  texto: 1 comprimido (1 g) cada 6-8 horas según necesidad
+  fuente:
+    ref: CIMA-PARACETAMOL-85780
+    detalle: '4.2: 1 g cada 6-8 h; la ficha topa en 3 g/24 h, se muestra el tope más bajo de Pediamécum (2,6 g)'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario del adulto (>43 kg)
+  valores:
+  - fuente: CIMA-PARACETAMOL-85780
+    valor: 3 g/24 h (CIMA, Antidol 1 g)
+  - fuente: PEDIAMECUM-PARACETAMOL
+    valor: 2,6 g/24 h (Pediamécum, >43 kg)
+  mostrado: 2,6 g/24 h
+  motivo: Se muestra el valor más bajo de las dos fuentes hasta que se decida el tope.
+administracion:
+  comida: indiferente
+  texto: 'Vía oral. Comprimidos con un vaso de líquido, preferentemente agua. Solución con la jeringa oral del envase. Pediamécum:
+    las comidas ricas en carbohidratos pueden disminuir su absorción.'
+  fuente:
+    ref: CIMA-PARACETAMOL-85780
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal grave (aclaramiento de creatinina <10 ml/min): intervalo entre tomas de al menos 8 h.'
+  hepatico: Reducir la dosis e incrementar el intervalo entre tomas.
+  fuente:
+    ref: CIMA-PARACETAMOL-83208
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Máximo 60 mg/kg/día en niños (4 tomas de 15 mg/kg); no exceder aunque se sumen otros medicamentos con paracetamol.
+- Pediamécum equipara 0,6 ml de solución a 15 gotas (frasco con cuentagotas); con jeringa dosificar en ml.
+- Antidol infantil está indicado en niños de 3 a 32 kg; en menores de 2 años la dosis la establece el médico.
+- 'Antidol 1 g: dosis <1 g por toma requieren otra presentación; no usar con otros medicamentos con paracetamol (máx. 3 g/día
+  en total según CIMA).'
+- Hepatotoxicidad descrita con dosis diarias <4 g en adultos; en alcohólicos crónicos no más de 2 g/día (CIMA).
+meta: {}
