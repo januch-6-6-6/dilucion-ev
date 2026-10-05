@@ -9,6 +9,7 @@ import Lista from './paginas/Lista'
 import ContadorVisitas from './visitas'
 
 const ListaOrales = lazy(() => import('./orales/ListaOrales'))
+const FichaOral = lazy(() => import('./orales/FichaOral'))
 
 export default function App() {
   return (
@@ -31,6 +32,7 @@ export default function App() {
           <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/orales" element={<ListaOrales />} />
+          <Route path="/orales/m/:id" element={<FichaOral />} />
           <Route path="/ambito/:ambito" element={<Lista />} />
           <Route path="/grupo/:grupo" element={<Lista />} />
           <Route path="/m/:id" element={<Ficha />} />

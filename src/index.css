@@ -229,3 +229,8 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .secciones a { color: #fff; text-decoration: none; font-weight: 700; padding: 6px 16px; border-radius: 999px; background: rgba(255, 255, 255, 0.15); }
 .secciones a[aria-current='page'] { background: #fff; color: var(--primario); }
 .etiqueta.fuente-unica { background: var(--ambar-suave); color: var(--ambar-texto); }
+
+/* ====== Ficha oral ====== */
+.aviso-fuente-unica { margin: 12px 0; }
+.etiqueta.off-label { background: var(--ambar-suave); color: var(--ambar-texto); }
+.tabla-discrepancias ul { margin: 0; padding-left: 16px; }
