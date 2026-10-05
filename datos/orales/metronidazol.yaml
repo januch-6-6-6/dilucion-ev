@@ -119,9 +119,9 @@ discrepancias:
   - fuente: PEDIAMECUM-METRONIDAZOL
     valor: 30 mg/kg/día divididos cada 6 h, máximo 4 g/día (Pediamécum, lactantes y niños)
   mostrado: 22,5 mg/kg/día (7,5 mg/kg cada 8 horas)
-  motivo: 'Mismo régimen y población: se muestra la pauta de la ficha (cada 8 h), la más baja. El máximo de 4 g/día acompaña
-    a la pauta cada 6 h de Pediamécum y no se aplica a la de la ficha (Ruling 9); el tope de 2400 mg/día de CIMA es de la
-    amebiasis.'
+  motivo: 'Mismo régimen y población: se muestra la pauta de la ficha (cada 8 h), la más baja. 4 g/día (Pediamécum) es el
+    único tope del régimen; con 7,5 mg/kg cada 8 h solo se alcanzaría con unos 178 kg, así que nunca se alcanza antes que
+    la dosis de adulto. El tope de 2400 mg/día de CIMA es de la amebiasis.'
 - campo: Giardiasis en niños
   valores:
   - fuente: CIMA-METRONIDAZOL-62223
@@ -157,7 +157,8 @@ alertas:
 - 'La pauta de anaerobios en niños (7,5 mg/kg cada 8 h) no trae tope en la ficha; como referencia, la dosis de adulto es de
   250-500 mg cada 8 h (CIMA 62223; Flagyl: 500 mg cada 8 h).'
 - 'Giardiasis, pautas de la ficha en dosis única diaria durante 3 días: 1-3 años 500 mg, 3-7 años 600-800 mg (Flagyl) o 750
-  mg (Normon), 7-10 años 1000 mg, >10 años 2000 mg. Superan el máximo de 500 mg/día de la pauta de Pediamécum y no se cargan.'
+  mg (Normon), 7-10 años 1000 mg, >10 años 2000 mg. Salvo la de 1-3 años (500 mg, igual al máximo), superan el máximo de 500
+  mg/día de la pauta de Pediamécum; no se cargan.'
 - 'Tricomoniasis (adultos y niños >10 años: 2000 mg dosis única o 250 mg tres veces al día 7 días; <10 años: 40 mg/kg dosis
   única, máx. 2000 mg), vaginosis bacteriana, amebiasis del adulto (750 mg tres veces al día) y H. pylori tienen pautas propias
   (CIMA); no se cargan.'

@@ -127,7 +127,7 @@ discrepancias:
     valor: '8-12 mg de trimetoprima/kg/día: "20-30/4-6 mg/kg/12 h" en notación SMX/TMP, es decir 4-6 mg de trimetoprima/kg
       cada 12 h (Pediamécum)'
   mostrado: 6 mg de trimetoprima/kg/día
-  motivo: 'Mismo régimen y población: se muestra la cifra más baja (Pediamécum da aproximadamente el doble). La propia ficha
+  motivo: 'Mismo régimen y población: se muestra la cifra más baja (Pediamécum da entre 1,3 y 2 veces más). La propia ficha
     da 5/25 mg/kg cada 12 h durante 3 días como alternativa en infección urinaria no complicada y diarrea infecciosa.'
 administracion:
   comida: con_comida
@@ -152,6 +152,8 @@ alertas:
   12 h (CIMA). En profilaxis de Pneumocystis y de toxoplasmosis la ficha limita a 320 mg de trimetoprima/1600 mg de sulfametoxazol
   al día.
 - Contraindicado en prematuros y niños a término menores de 6 semanas, porfiria aguda y con dofetilida (CIMA, 4.3).
+- 'CIMA 4.4: "Existen algunos datos procedentes de estudios que pueden sugerir que Septrin no debería administrarse a niños
+  menores de 3 meses".'
 - Reacciones cutáneas graves (Stevens-Johnson, NET), discrasias sanguíneas y necrosis hepática descritas; hemograma mensual
   en tratamientos prolongados (CIMA, 4.4).
 - Neumonía por Pneumocystis, toxoplasmosis, nocardiosis, brucelosis y melioidosis tienen pautas propias (CIMA, 4.2); no se

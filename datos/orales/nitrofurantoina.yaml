@@ -64,12 +64,13 @@ dosis:
   max: 7
   tomasPorDia: 4
   intervaloH: 6
-  topePorToma:
-    valor: 100
+  topeDiario:
+    valor: 300
     unidad: mg
   estatus: autorizada
-  condicion: '"Sin superar la dosis de adulto" (50-100 mg cada 8 h): tope de 100 mg por toma. Para niñas menores de 6 años,
-    usar la suspensión'
+  condicion: '"Sin superar la dosis de adulto" (50-100 mg cada 8 h): tope de 300 mg/día (= 100 mg × 3 tomas del adulto, CIMA
+    22974 4.2.1); con 4 tomas limita la toma a 75 mg, por debajo de los 100 mg por toma del adulto. Para niñas menores de
+    6 años, usar la suspensión'
   texto: 5-7 mg/kg/día repartidos en cuatro tomas durante 5-7 días
   fuente:
     ref: CIMA-NITROFURANTOINA-22974
@@ -84,12 +85,13 @@ dosis:
   max: 2
   tomasPorDia: 4
   intervaloH: 6
-  topePorToma:
-    valor: 100
+  topeDiario:
+    valor: 300
     unidad: mg
   estatus: autorizada
   condicion: 'No usar en menores de 3 meses. CIMA 34388 da la misma pauta en volumen: 0,1-0,2 ml/kg de la suspensión de 10
-    mg/ml cada 6 h. "Sin superar la dosis de adulto": tope de 100 mg por toma'
+    mg/ml cada 6 h. "Sin superar la dosis de adulto": tope de 300 mg/día (= 100 mg × 3 tomas del adulto, CIMA 22974 4.2.1);
+    con 4 tomas limita la toma a 75 mg'
   texto: 1-2 mg/kg cada 6 horas durante 5-7 días
   fuente:
     ref: PEDIAMECUM-NITROFURANTOINA
@@ -118,6 +120,8 @@ alertas:
 - No indicada en infecciones urinarias en varones, infecciones urinarias altas ni bacteriemia (CIMA, 4.4).
 - 'Tratamientos prolongados: reacciones pulmonares y hepáticas graves y neuropatía periférica; no usar como profilaxis de
   infecciones urinarias recurrentes (CIMA, 4.4).'
-- 'El comprimido de 50 mg no se puede partir: las dosis por kg se redondean a múltiplos de 50 mg o se usa la suspensión.'
+- 'Con 4 tomas y el tope de 300 mg/día (dosis de adulto: 100 mg × 3, CIMA 22974), la toma queda limitada a 75 mg: no se puede
+  dar con el comprimido de 50 mg no partible (haría falta 1 comprimido y medio) ni con el de 100 mg; la suspensión de 10 mg/ml
+  sí lo permite (7,5 ml).'
 - La orina puede teñirse de amarillo o marrón (CIMA).
 meta: {}

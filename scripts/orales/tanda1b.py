@@ -104,10 +104,16 @@ def amoxicilina():
              fuente=fu(ARSENAL, 'Grupo 06.02.01: Amoxicilina, Polvo para suspensión oral 500 mg/5 mL (= 100 mg por 1 ml)')),
     ]
     dosis_ = [
-        dosis('Sinusitis, otitis media, infecciones urinarias y abscesos dentales (adultos y niños ≥40 kg)', 'adulto', 'fija', 'mg',
+        dosis('Sinusitis, cistitis, pielonefritis, bacteriuria asintomática del embarazo y abscesos dentales (adultos y niños ≥40 kg)',
+              'adulto', 'fija', 'mg',
               min=250, max=500, tomas=3, intervalo_h=8,
               texto='De 250 mg a 500 mg cada 8 horas o de 750 mg a 1 g cada 12 horas. Infecciones graves: de 750 mg a 1 g cada 8 horas',
               fuente=fu(AMX_C, '4.2 Adultos y niños ≥40 kg: "De 250 mg a 500 mg cada 8 horas o de 750 mg a 1 g cada 12 horas. Para infecciones graves, de 750 mg a 1 g cada 8 horas"')),
+        dosis('Otitis media aguda (adultos y niños ≥40 kg)', 'adulto', 'fija', 'mg', min=500, max=500, tomas=3, intervalo_h=8,
+              condicion='Alternativa: de 750 mg a 1 g cada 12 horas. Infecciones graves: de 750 mg a 1 g cada 8 horas durante 10 días',
+              texto='500 mg cada 8 horas, o de 750 mg a 1 g cada 12 horas; infecciones graves de 750 mg a 1 g cada 8 horas durante 10 días',
+              fuente=fu(AMX_C, '4.2 Adultos y niños ≥40 kg, fila "Otitis media aguda": "500 mg cada 8 horas, de 750 mg a 1 g cada 12 horas. '
+                               'Para infecciones graves, de 750 mg a 1 g cada 8 horas, durante 10 días"')),
         dosis('Neumonía adquirida en la comunidad, amigdalitis y faringitis estreptocócica, exacerbación de bronquitis crónica (adultos y niños ≥40 kg)',
               'adulto', 'fija', 'mg', min=500, max=1000, tomas=3, intervalo_h=8, texto='De 500 mg a 1 g cada 8 horas',
               fuente=fu(AMX_C, '4.2 Adultos y niños ≥40 kg: "De 500 mg a 1 g cada 8 horas"')),
@@ -157,7 +163,7 @@ def amoxicilina():
         comerciales=['Amoxicilina Cinfa'], discrepancias=disc,
         renal='Filtrado >30 ml/min: sin ajuste. 10-30 ml/min: adultos y niños ≥40 kg, máximo 500 mg dos veces al día; niños <40 kg, 15 mg/kg '
               'dos veces al día (máximo 500 mg dos veces al día). <10 ml/min: adultos, máximo 500 mg/día; niños <40 kg, 15 mg/kg en dosis única '
-              'diaria (máximo 500 mg). Hemodiálisis: 15 mg/kg/día en dosis única, con una dosis adicional de 15 mg/kg antes y otra tras la sesión. '
+              'diaria (máximo 500 mg). Hemodiálisis (fila «Adultos y niños ≥40 kg» de la ficha): 15 mg/kg/día en dosis única, con una dosis adicional de 15 mg/kg antes y otra tras la sesión. '
               'Diálisis peritoneal: máximo 500 mg/día.',
         hepatico='Dosificar con precaución y monitorizar la función hepática a intervalos regulares.',
         fuente_ajuste=fu(AMX_C, '4.2 Insuficiencia renal (tabla por filtrado glomerular), hemodiálisis, diálisis peritoneal e insuficiencia hepática'),
@@ -191,30 +197,39 @@ def amoxicilina_clavulanico():
     ]
     dosis_ = [
         dosis('Dosis estándar, proporción 7:1 (adultos y niños ≥40 kg), en mg de amoxicilina', 'adulto', 'fija', 'mg', min=875, max=875,
-              tomas=2, intervalo_h=12, tope_dia=(1750, 'mg'),
+              tomas=2, intervalo_h=12,
               texto='875 mg/125 mg dos veces al día (1750 mg de amoxicilina/250 mg de clavulánico al día)',
               fuente=fu(AMC_C, '4.2.1: "dosis estándar (para todas las indicaciones): 875 mg/125 mg administrada dos veces al día"; '
                                '"dosis diaria total de 1 750 mg de amoxicilina/250 mg de ácido clavulánico con la dosis de dos veces al día"')),
         dosis('Dosis superior: otitis media, sinusitis, infección respiratoria baja y urinaria (adultos y niños ≥40 kg), proporción 7:1',
-              'adulto', 'fija', 'mg', min=875, max=875, tomas=3, intervalo_h=8, tope_dia=(2625, 'mg'),
+              'adulto', 'fija', 'mg', min=875, max=875, tomas=3, intervalo_h=8,
               texto='875 mg/125 mg tres veces al día (2625 mg de amoxicilina/375 mg de clavulánico al día)',
               fuente=fu(AMC_C, '4.2.1: "dosis superior ... 875 mg/125 mg administrada tres veces al día"; "2 625 mg de amoxicilina/375 mg de '
                                'ácido clavulánico con la dosis de tres veces al día"')),
-        dosis('Dosis habitual (niños <40 kg), proporción 7:1, en mg de amoxicilina', 'pediatrico', 'por_peso', 'mg/kg', base='dia', min=25,
+        dosis('Dosis habitual (niños <40 kg), solo presentaciones 7:1, en mg de amoxicilina', 'pediatrico', 'por_peso', 'mg/kg', base='dia', min=25,
               max=45, tomas=2, intervalo_h=12, tope_dia=(2625, 'mg'),
-              condicion='Clavulánico 3,6-6,4 mg/kg/día. Comprimidos 875/125 solo con ≥25 kg (no se pueden partir); por debajo, suspensión o sobres '
-                        'pediátricos. Tope diario 2625 mg de amoxicilina = 375 mg/día de clavulánico en proporción 7:1 (máximo de clavulánico de Pediamécum)',
+              condicion='Solo con presentaciones 7:1 (comprimidos o sobres 875/125); NO calcular con la suspensión 4:1 del arsenal (exceso de ácido clavulánico). Clavulánico 3,6-6,4 mg/kg/día. Comprimidos 875/125 solo con ≥25 kg (no se pueden partir); '
+                        'por debajo, presentaciones pediátricas 7:1 que no están cargadas. Tope diario 2625 mg de amoxicilina, derivado: '
+                        '375 mg/día de clavulánico (máximo de Pediamécum) en proporción 7:1',
               texto='25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día divididos en dos dosis al día',
               fuente=fu(AMC_C, '4.2.1 Niños <40 kg: "25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día dividida en dos dosis al día"; '
                                'tope: Pediamécum "Clavulánico: 15 mg/kg/día, sin superar 375 mg/día"')),
-        dosis('Otitis media, sinusitis e infección respiratoria baja (niños <40 kg), proporción 7:1, en mg de amoxicilina', 'pediatrico',
+        dosis('Otitis media, sinusitis e infección respiratoria baja (niños <40 kg), solo presentaciones 7:1, en mg de amoxicilina', 'pediatrico',
               'por_peso', 'mg/kg', base='dia', max=70, tomas=2, intervalo_h=12, tope_dia=(2625, 'mg'),
-              condicion='Solo ≥2 años: no hay datos de la proporción 7:1 por encima de 45 mg/6,4 mg/kg/día en menores de 2 años. Clavulánico 10 mg/kg/día. '
-                        'Pediamécum usa 80-90 mg/kg/día con suspensión 8:1 (ver discrepancias). Tope diario: 2625 mg de amoxicilina (375 mg de clavulánico)',
+              condicion='Solo con presentaciones 7:1 (comprimidos o sobres 875/125); NO calcular con la suspensión 4:1 del arsenal (exceso de ácido clavulánico). Solo ≥2 años: no hay datos de la proporción 7:1 por encima de 45 mg/6,4 mg/kg/día en menores de 2 años. '
+                        'Clavulánico 10 mg/kg/día. Pediamécum usa 80-90 mg/kg/día con presentaciones 8:1 (suspensión) o 7:1 (comprimidos, sobres) '
+                        '(ver discrepancias). Tope diario 2625 mg de amoxicilina, derivado: 375 mg/día de clavulánico (Pediamécum) en proporción 7:1',
               texto='Hasta 70 mg/10 mg/kg/día divididos en dos dosis al día',
               fuente=fu(AMC_C, '4.2.1: "hasta 70 mg/10 mg/kg/día dividida en dos dosis al día para infecciones tales como otitis media, sinusitis e '
                                'infecciones del tracto respiratorio inferior"; "No hay datos clínicos ... 7:1 ... superiores a 45 mg/6,4 mg por kg al día en niños menores de 2 años"')),
-        dosis('Infecciones de orina por enterobacterias sensibles (niños >3 meses), suspensión 4:1, en mg de amoxicilina', 'pediatrico',
+        dosis('Infección respiratoria leve o moderada con baja resistencia de S. pneumoniae (niños >3 meses), solo suspensión 4:1, en mg de amoxicilina',
+              'pediatrico', 'por_peso', 'mg/kg', base='dia', min=35, max=40, tomas=3, intervalo_h=8, tope_dia=(1500, 'mg'),
+              condicion='Proporción 4:1 (clavulánico 9-10 mg/kg/día). Pediamécum (A) en infecciones respiratorias. Tope diario 1500 mg de amoxicilina, '
+                        'derivado: 375 mg/día de clavulánico (máximo de Pediamécum) en proporción 4:1 (la misma cifra que la nota 7 de la tabla)',
+              texto='35-40 mg/9-10 mg/kg/día en 3 dosis',
+              fuente=fu(P, 'Tabla de usos clínicos, fila "IR leves, moderadas / Con baja tasa de R del S. pneumoniae": "35-40 mg/9-10 mg (3)" '
+                           '(columna 4:1); máximo de clavulánico: "15 mg/kg/día, sin superar 375 mg/día"')),
+        dosis('Infecciones de orina por enterobacterias sensibles (niños >3 meses), solo suspensión 4:1, en mg de amoxicilina', 'pediatrico',
               'por_peso', 'mg/kg', base='dia', min=35, max=40, tomas=3, intervalo_h=8, tope_dia=(1500, 'mg'),
               condicion='Proporción 4:1 (clavulánico 9-10 mg/kg/día). Pediamécum (A) en infecciones genitourinarias',
               texto='35-40 mg/9-10 mg/kg/día en 3 dosis; dosis máxima diaria de amoxicilina 1500 mg (375 mg de clavulánico)',
@@ -226,20 +241,23 @@ def amoxicilina_clavulanico():
                      [(AMC_C, '70 mg/kg/día de amoxicilina (10 mg/kg/día de clavulánico) en 2 dosis, proporción 7:1 (CIMA, Augmentine 875/125)'),
                       (P, '80-90 mg/kg/día de amoxicilina (9-15 mg/kg/día de clavulánico) en 2-3 dosis, con alta tasa de resistencia de S. pneumoniae (Pediamécum)')],
                      '70 mg/kg/día de amoxicilina',
-                     'Mismo régimen (dosis alta en infección respiratoria y ORL) y población: se muestra la cifra más baja. La pauta de Pediamécum '
-                     'se da con suspensión 8:1; para pasar de 70 mg/kg/día hay que elegir otra proporción (la ficha lo advierte).'),
+                     'Mismo régimen (dosis alta en infección respiratoria y ORL) y población: se muestra la cifra más baja. En la tabla de Pediamécum '
+                     'la pauta de 80-90 mg/kg/día está en la columna «8:1 (susp) / 7:1 (comp, sobres)»; para pasar de 70 mg/kg/día la ficha '
+                     'aconseja elegir otra formulación.'),
         discrepancia('Tope diario de amoxicilina en niños',
                      [(AMC_C, '2800 mg/día: máximo que aporta la formulación 7:1 en niños <40 kg ("1 000 – 2 800 mg de amoxicilina/143 - 400 mg de ácido clavulánico")'),
                       (P, '3000 mg/día de amoxicilina, "sin superar dosis máxima de ácido clavulánico" (15 mg/kg/día, sin superar 375 mg/día) (Pediamécum)')],
                      '2625 mg/día de amoxicilina en las pautas 7:1 (equivale a 375 mg/día de clavulánico)',
-                     'Se aplica el máximo de clavulánico de Pediamécum (375 mg/día), más restrictivo que ambas cifras de amoxicilina: en proporción 7:1 '
-                     'corresponde a 2625 mg de amoxicilina, la misma cifra que la ficha da para 875/125 tres veces al día.'),
+                     'Cifra derivada: se aplica el máximo de clavulánico de Pediamécum (375 mg/día), más restrictivo que ambas cifras de amoxicilina; '
+                     'en proporción 7:1 corresponde a 2625 mg de amoxicilina, la misma cifra que la ficha da para 875/125 tres veces al día.'),
     ]
     alertas = [
         'La proporción amoxicilina:clavulánico cambia entre presentaciones (4:1, 7:1 y 8:1): elegir la presentación exacta. Todas las dosis y '
         'presentaciones de esta ficha se expresan en mg de amoxicilina (Pediamécum: "La dosificación se realiza en base a la amoxicilina").',
-        'Clavulánico: máximo 15 mg/kg/día sin superar 375 mg/día (Pediamécum). Con una suspensión 4:1, 70 mg/kg/día de amoxicilina aportarían '
-        '17,5 mg/kg/día de clavulánico: usar la proporción indicada en cada pauta.',
+        'Clavulánico: máximo 15 mg/kg/día sin superar 375 mg/día (Pediamécum). Las pautas 7:1 (25-45 y 70 mg/kg/día) NO se deben calcular con '
+        'las suspensiones 4:1 (las del arsenal: 500 + 125 y 250 + 62,5 mg/5 ml): con 4:1, 70 mg/kg/día de amoxicilina aportarían 17,5 mg/kg/día '
+        'de clavulánico, por encima del máximo. Con la suspensión 4:1 usar solo las pautas 4:1 (35-40 mg/kg/día en 3 dosis). La aplicación aún no '
+        'vincula cada pauta con su presentación: elegir la presentación a mano.',
         'Dos suspensiones tienen 100 mg/ml de amoxicilina pero distinto clavulánico: 8:1 (12,5 mg/ml) y la 4:1 del arsenal (500 + 125 mg/5 ml, '
         '25 mg/ml). Confirmar el frasco.',
         'Los comprimidos 875/125 no se deben partir: no usar en niños de menos de 25 kg (CIMA 59515). Entre 25 y 40 kg, un comprimido aporta '
@@ -253,9 +271,8 @@ def amoxicilina_clavulanico():
         'amoxicilina-clavulanico', 'Amoxicilina + ácido clavulánico', 'antibiotico', presentaciones, dosis_,
         {
             'comida': 'con_comida',
-            'texto': 'Con las comidas, para reducir la posible intolerancia gastrointestinal. Los comprimidos no se deben partir; el sobre se '
+            'texto': 'Con las comidas, para reducir la posible intolerancia gastrointestinal. No partir los comprimidos (la ficha lo indica por la dosis); el sobre se '
                      'disuelve en medio vaso de agua (CIMA 59518).',
-            'noTriturar': True,
             'fuente': fu(AMC_C, '4.2.2 Forma de administración; partición: 4.2.1'),
         },
         comerciales=['Augmentine'], discrepancias=disc,
@@ -326,8 +343,8 @@ def cefadroxilo():
     ]
     dosis_ = [
         dosis('Infecciones urinarias no complicadas e infecciones de piel y tejidos blandos (adultos y adolescentes ≥40 kg)', 'adulto', 'fija',
-              'mg', min=1000, max=1000, tomas=2, intervalo_h=12, tope_dia=(2000, 'mg'),
-              condicion='Tope mostrado 2000 mg/día (CIMA); Pediamécum admite hasta 4 g/día en adultos (ver discrepancias)',
+              'mg', min=1000, max=1000, tomas=2, intervalo_h=12,
+              condicion='Pauta de la ficha: 2000 mg/día en total. Pediamécum admite hasta 4 g/día en adultos (ver discrepancias); no se carga como tope',
               texto='1000 mg dos veces al día',
               fuente=fu(CFD_C, '4.2 Adultos y adolescentes ≥40 kg: "Infecciones del tracto urinario no complicadas: 1000 mg dos veces al día"; '
                                '"Infecciones no complicadas de la piel y tejidos blandos: 1000 mg dos veces al día"')),
@@ -343,11 +360,12 @@ def cefadroxilo():
                            'dos dosis ... Dosis máxima 2 gramos al día"')),
     ]
     disc = [
-        discrepancia('Tope diario del adulto',
+        discrepancia('Dosis diaria máxima del adulto',
                      [(CFD_C, '2000 mg/día: 1000 mg dos veces al día (CIMA, Duracef)'),
                       (P, '4000 mg/día: "Dosis máxima en adultos 4 g al día"; dosis habitual 1-2 g al día en 1 o 2 dosis (Pediamécum)')],
-                     '2000 mg/día',
-                     'Misma población adulta: regla del tope más bajo (informe §2).'),
+                     '2000 mg/día (la pauta de la ficha, 1000 mg cada 12 h)',
+                     'Misma población adulta: se muestra la cifra más baja (informe §2). No se carga un topeDiario de adulto: 2000 es el total '
+                     'de la pauta, no un máximo declarado, y el de 4 g/día de Pediamécum es más alto.'),
         discrepancia('Dosis pediátrica diaria',
                      [(CFD_S, '50 mg/kg/día: tabla "Recomendaciones generales de dosificación basadas en 50 mg/kg/día" (CIMA, Duracef suspensión)'),
                       (CFD_S, '30 mg/kg/día en dos dosis, máximo 2 g/día: tabla por indicación de la misma ficha; Pediamécum coincide')],
@@ -411,7 +429,8 @@ def claritromicina():
     alertas = [
         'La claritromicina en comprimidos no ha sido estudiada en menores de 12 años (CIMA 67638): en niños usar la suspensión. Experiencia limitada en menores de 6 meses (CIMA 66388).',
         'Contraindicada con astemizol, cisaprida, domperidona, pimozida, terfenadina, ticagrelor, ivabradina, ranolazina, ergotamínicos, '
-        'midazolam oral, lovastatina o simvastatina, y con QT largo o hipopotasemia/hipomagnesemia (CIMA, 4.3).',
+        'midazolam oral, lovastatina o simvastatina y lomitapida, y con QT largo o hipopotasemia/hipomagnesemia; no debe usarse en pacientes '
+        'que estén tomando colchicina (CIMA, 4.3).',
         'La ficha de la suspensión trae una tabla orientativa en ml por peso (25 mg/ml); no se carga: la dosis se calcula por kg.',
         'Erradicación de H. pylori (adultos): 500 mg dos veces al día en terapia combinada (CIMA). Profilaxis de endocarditis: 15 mg/kg en dosis '
         'única (Pediamécum, off-label). No se cargan.',
@@ -536,7 +555,7 @@ def cotrimoxazol():
                      [(SXT, '6 mg de trimetoprima/kg/día (30 mg de sulfametoxazol/kg/día) en 2 tomas (CIMA, Septrin)'),
                       (P, '8-12 mg de trimetoprima/kg/día: "20-30/4-6 mg/kg/12 h" en notación SMX/TMP, es decir 4-6 mg de trimetoprima/kg cada 12 h (Pediamécum)')],
                      '6 mg de trimetoprima/kg/día',
-                     'Mismo régimen y población: se muestra la cifra más baja (Pediamécum da aproximadamente el doble). La propia ficha da 5/25 mg/kg '
+                     'Mismo régimen y población: se muestra la cifra más baja (Pediamécum da entre 1,3 y 2 veces más). La propia ficha da 5/25 mg/kg '
                      'cada 12 h durante 3 días como alternativa en infección urinaria no complicada y diarrea infecciosa.'),
     ]
     alertas = [
@@ -546,6 +565,7 @@ def cotrimoxazol():
         'La pauta por peso no trae tope pediátrico en la fuente; como referencia, la dosis de adulto es 160 mg de trimetoprima cada 12 h (CIMA). '
         'En profilaxis de Pneumocystis y de toxoplasmosis la ficha limita a 320 mg de trimetoprima/1600 mg de sulfametoxazol al día.',
         'Contraindicado en prematuros y niños a término menores de 6 semanas, porfiria aguda y con dofetilida (CIMA, 4.3).',
+        'CIMA 4.4: "Existen algunos datos procedentes de estudios que pueden sugerir que Septrin no debería administrarse a niños menores de 3 meses".',
         'Reacciones cutáneas graves (Stevens-Johnson, NET), discrasias sanguíneas y necrosis hepática descritas; hemograma mensual en tratamientos '
         'prolongados (CIMA, 4.4).',
         'Neumonía por Pneumocystis, toxoplasmosis, nocardiosis, brucelosis y melioidosis tienen pautas propias (CIMA, 4.2); no se cargan.',
@@ -639,14 +659,15 @@ def nitrofurantoina():
               texto='50-100 mg (1-2 comprimidos de 50 mg) cada 8 horas durante 5-7 días',
               fuente=fu(NIT_C, '4.2.1 Adultos: "50-100 mg (1-2 comprimidos) cada 8 horas durante 5-7 días"')),
         dosis('Cistitis aguda, comprimidos (niñas mayores de 6 años y adolescentes)', 'pediatrico', 'por_peso', 'mg/kg', base='dia', min=5,
-              max=7, tomas=4, intervalo_h=6, tope_toma=(100, 'mg'),
-              condicion='"Sin superar la dosis de adulto" (50-100 mg cada 8 h): tope de 100 mg por toma. Para niñas menores de 6 años, usar la suspensión',
+              max=7, tomas=4, intervalo_h=6, tope_dia=(300, 'mg'),
+              condicion='"Sin superar la dosis de adulto" (50-100 mg cada 8 h): tope de 300 mg/día (= 100 mg × 3 tomas del adulto, '
+                        'CIMA 22974 4.2.1); con 4 tomas limita la toma a 75 mg, por debajo de los 100 mg por toma del adulto. Para niñas menores de 6 años, usar la suspensión',
               texto='5-7 mg/kg/día repartidos en cuatro tomas durante 5-7 días',
               fuente=fu(NIT_C, '4.2.1 Población pediátrica: "5-7 mg/kg de peso por día, sin superar la dosis de adulto, repartidas en cuatro tomas durante 5-7 días"')),
         dosis('Cistitis aguda, suspensión (niños de 3 meses a 6 años, o que no toleran comprimidos)', 'pediatrico', 'por_peso', 'mg/kg',
-              base='toma', min=1, max=2, tomas=4, intervalo_h=6, tope_toma=(100, 'mg'),
+              base='toma', min=1, max=2, tomas=4, intervalo_h=6, tope_dia=(300, 'mg'),
               condicion='No usar en menores de 3 meses. CIMA 34388 da la misma pauta en volumen: 0,1-0,2 ml/kg de la suspensión de 10 mg/ml cada 6 h. '
-                        '"Sin superar la dosis de adulto": tope de 100 mg por toma',
+                        '"Sin superar la dosis de adulto": tope de 300 mg/día (= 100 mg × 3 tomas del adulto, CIMA 22974 4.2.1); con 4 tomas limita la toma a 75 mg',
               texto='1-2 mg/kg cada 6 horas durante 5-7 días',
               fuente=fu(P, '"Menores o igual de 6 años o que no toleren comprimidos (no usar en menores de 3 meses): ... 1-2 mg/kg de peso cada 6 horas, '
                            'sin superar la dosis de adulto, durante 5-7 días"')),
@@ -656,7 +677,8 @@ def nitrofurantoina():
         'beneficio/riesgo), en menores de 3 meses, tratamientos >7 días, déficit de G6PD, porfiria aguda y en las dos últimas semanas de embarazo (CIMA, 4.3).',
         'No indicada en infecciones urinarias en varones, infecciones urinarias altas ni bacteriemia (CIMA, 4.4).',
         'Tratamientos prolongados: reacciones pulmonares y hepáticas graves y neuropatía periférica; no usar como profilaxis de infecciones urinarias recurrentes (CIMA, 4.4).',
-        'El comprimido de 50 mg no se puede partir: las dosis por kg se redondean a múltiplos de 50 mg o se usa la suspensión.',
+        'Con 4 tomas y el tope de 300 mg/día (dosis de adulto: 100 mg × 3, CIMA 22974), la toma queda limitada a 75 mg: no se puede dar con el '
+        'comprimido de 50 mg no partible (haría falta 1 comprimido y medio) ni con el de 100 mg; la suspensión de 10 mg/ml sí lo permite (7,5 ml).',
         'La orina puede teñirse de amarillo o marrón (CIMA).',
     ]
     return ficha_oral(
@@ -711,8 +733,9 @@ def metronidazol():
                      [(MTZ_C, '22,5 mg/kg/día: 7,5 mg/kg cada 8 h (dosis diaria 20-30 mg/kg, hasta 40 según gravedad), sin tope en mg (CIMA)'),
                       (P, '30 mg/kg/día divididos cada 6 h, máximo 4 g/día (Pediamécum, lactantes y niños)')],
                      '22,5 mg/kg/día (7,5 mg/kg cada 8 horas)',
-                     'Mismo régimen y población: se muestra la pauta de la ficha (cada 8 h), la más baja. El máximo de 4 g/día acompaña a la pauta '
-                     'cada 6 h de Pediamécum y no se aplica a la de la ficha (Ruling 9); el tope de 2400 mg/día de CIMA es de la amebiasis.'),
+                     'Mismo régimen y población: se muestra la pauta de la ficha (cada 8 h), la más baja. 4 g/día (Pediamécum) es el único tope '
+                     'del régimen; con 7,5 mg/kg cada 8 h solo se alcanzaría con unos 178 kg, así que nunca se alcanza antes que la dosis de adulto. '
+                     'El tope de 2400 mg/día de CIMA es de la amebiasis.'),
         discrepancia('Giardiasis en niños',
                      [(MTZ_C, '40 mg/kg/día como extremo superior de "15 a 40 mg/kg por día divididos en 2-3 dosis", sin tope en mg (CIMA)'),
                       (P, '15 mg/kg/día cada 8 h, máximo 500 mg/día (Pediamécum)')],
@@ -728,7 +751,8 @@ def metronidazol():
         'La pauta de anaerobios en niños (7,5 mg/kg cada 8 h) no trae tope en la ficha; como referencia, la dosis de adulto es de 250-500 mg '
         'cada 8 h (CIMA 62223; Flagyl: 500 mg cada 8 h).',
         'Giardiasis, pautas de la ficha en dosis única diaria durante 3 días: 1-3 años 500 mg, 3-7 años 600-800 mg (Flagyl) o 750 mg (Normon), '
-        '7-10 años 1000 mg, >10 años 2000 mg. Superan el máximo de 500 mg/día de la pauta de Pediamécum y no se cargan.',
+        '7-10 años 1000 mg, >10 años 2000 mg. Salvo la de 1-3 años (500 mg, igual al máximo), superan el máximo de 500 mg/día de la pauta '
+        'de Pediamécum; no se cargan.',
         'Tricomoniasis (adultos y niños >10 años: 2000 mg dosis única o 250 mg tres veces al día 7 días; <10 años: 40 mg/kg dosis única, máx. 2000 mg), '
         'vaginosis bacteriana, amebiasis del adulto (750 mg tres veces al día) y H. pylori tienen pautas propias (CIMA); no se cargan.',
         'Evitar alcohol durante el tratamiento (efecto antabús). Contraindicado en el primer trimestre del embarazo (CIMA 62223, 4.3).',

@@ -64,7 +64,8 @@ presentaciones:
     ref: ARSENAL-APS-ATACAMA
     detalle: 'Grupo 06.02.01: Amoxicilina, Polvo para suspensión oral 500 mg/5 mL (= 100 mg por 1 ml)'
 dosis:
-- indicacion: Sinusitis, otitis media, infecciones urinarias y abscesos dentales (adultos y niños ≥40 kg)
+- indicacion: Sinusitis, cistitis, pielonefritis, bacteriuria asintomática del embarazo y abscesos dentales (adultos y niños
+    ≥40 kg)
   poblacion: adulto
   regimen: fija
   unidad: mg
@@ -78,6 +79,22 @@ dosis:
     ref: CIMA-AMOXICILINA-62880
     detalle: '4.2 Adultos y niños ≥40 kg: "De 250 mg a 500 mg cada 8 horas o de 750 mg a 1 g cada 12 horas. Para infecciones
       graves, de 750 mg a 1 g cada 8 horas"'
+- indicacion: Otitis media aguda (adultos y niños ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: 'Alternativa: de 750 mg a 1 g cada 12 horas. Infecciones graves: de 750 mg a 1 g cada 8 horas durante 10 días'
+  texto: 500 mg cada 8 horas, o de 750 mg a 1 g cada 12 horas; infecciones graves de 750 mg a 1 g cada 8 horas durante 10
+    días
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: '4.2 Adultos y niños ≥40 kg, fila "Otitis media aguda": "500 mg cada 8 horas, de 750 mg a 1 g cada 12 horas.
+      Para infecciones graves, de 750 mg a 1 g cada 8 horas, durante 10 días"'
 - indicacion: Neumonía adquirida en la comunidad, amigdalitis y faringitis estreptocócica, exacerbación de bronquitis crónica
     (adultos y niños ≥40 kg)
   poblacion: adulto
@@ -168,8 +185,8 @@ administracion:
 ajusteRenalHepatico:
   renal: 'Filtrado >30 ml/min: sin ajuste. 10-30 ml/min: adultos y niños ≥40 kg, máximo 500 mg dos veces al día; niños <40
     kg, 15 mg/kg dos veces al día (máximo 500 mg dos veces al día). <10 ml/min: adultos, máximo 500 mg/día; niños <40 kg,
-    15 mg/kg en dosis única diaria (máximo 500 mg). Hemodiálisis: 15 mg/kg/día en dosis única, con una dosis adicional de
-    15 mg/kg antes y otra tras la sesión. Diálisis peritoneal: máximo 500 mg/día.'
+    15 mg/kg en dosis única diaria (máximo 500 mg). Hemodiálisis (fila «Adultos y niños ≥40 kg» de la ficha): 15 mg/kg/día
+    en dosis única, con una dosis adicional de 15 mg/kg antes y otra tras la sesión. Diálisis peritoneal: máximo 500 mg/día.'
   hepatico: Dosificar con precaución y monitorizar la función hepática a intervalos regulares.
   fuente:
     ref: CIMA-AMOXICILINA-62880

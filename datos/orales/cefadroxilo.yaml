@@ -38,11 +38,9 @@ dosis:
   max: 1000
   tomasPorDia: 2
   intervaloH: 12
-  topeDiario:
-    valor: 2000
-    unidad: mg
   estatus: autorizada
-  condicion: Tope mostrado 2000 mg/día (CIMA); Pediamécum admite hasta 4 g/día en adultos (ver discrepancias)
+  condicion: 'Pauta de la ficha: 2000 mg/día en total. Pediamécum admite hasta 4 g/día en adultos (ver discrepancias); no
+    se carga como tope'
   texto: 1000 mg dos veces al día
   fuente:
     ref: CIMA-CEFADROXILO-55730
@@ -83,14 +81,15 @@ dosis:
 pediatria:
   estado: con_dosis
 discrepancias:
-- campo: Tope diario del adulto
+- campo: Dosis diaria máxima del adulto
   valores:
   - fuente: CIMA-CEFADROXILO-55730
     valor: '2000 mg/día: 1000 mg dos veces al día (CIMA, Duracef)'
   - fuente: PEDIAMECUM-CEFADROXILO
     valor: '4000 mg/día: "Dosis máxima en adultos 4 g al día"; dosis habitual 1-2 g al día en 1 o 2 dosis (Pediamécum)'
-  mostrado: 2000 mg/día
-  motivo: 'Misma población adulta: regla del tope más bajo (informe §2).'
+  mostrado: 2000 mg/día (la pauta de la ficha, 1000 mg cada 12 h)
+  motivo: 'Misma población adulta: se muestra la cifra más baja (informe §2). No se carga un topeDiario de adulto: 2000 es
+    el total de la pauta, no un máximo declarado, y el de 4 g/día de Pediamécum es más alto.'
 - campo: Dosis pediátrica diaria
   valores:
   - fuente: CIMA-CEFADROXILO-55731
