@@ -1,4 +1,5 @@
-import { HashRouter, Link, Route, Routes } from 'react-router-dom'
+import { lazy, Suspense } from 'react'
+import { HashRouter, Link, NavLink, Route, Routes } from 'react-router-dom'
 import AvisoInicial from './componentes/AvisoInicial'
 import Acerca from './paginas/Acerca'
 import Calculadora from './paginas/Calculadora'
@@ -6,6 +7,8 @@ import Ficha from './paginas/Ficha'
 import Inicio from './paginas/Inicio'
 import Lista from './paginas/Lista'
 import ContadorVisitas from './visitas'
+
+const ListaOrales = lazy(() => import('./orales/ListaOrales'))
 
 export default function App() {
   return (
@@ -17,11 +20,17 @@ export default function App() {
             <Link to="/">Dilución EV</Link>
           </h1>
           <p className="subtitulo">Dilución, velocidad y compatibilidad EV</p>
+          <nav aria-label="Secciones" className="secciones">
+            <NavLink to="/" end>EV</NavLink>
+            <NavLink to="/orales">Orales</NavLink>
+          </nav>
         </div>
       </header>
       <main>
-        <Routes>
+        <Suspense fallback={<p>Cargando…</p>}>
+          <Routes>
           <Route path="/" element={<Inicio />} />
+          <Route path="/orales" element={<ListaOrales />} />
           <Route path="/ambito/:ambito" element={<Lista />} />
           <Route path="/grupo/:grupo" element={<Lista />} />
           <Route path="/m/:id" element={<Ficha />} />
@@ -29,7 +38,8 @@ export default function App() {
           <Route path="/calcular" element={<Calculadora />} />
           <Route path="/acerca" element={<Acerca />} />
           <Route path="*" element={<p>Página no encontrada.</p>} />
-        </Routes>
+          </Routes>
+        </Suspense>
       </main>
       <footer className="pie">
         <p className="autor">
