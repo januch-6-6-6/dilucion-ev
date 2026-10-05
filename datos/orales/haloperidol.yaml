@@ -1,0 +1,144 @@
+id: haloperidol
+nombre: Haloperidol
+comerciales:
+- Haloperidol Esteve
+- Haldol
+grupo: antipsicotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: gotas-2-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 2
+    unidad: mg
+  gotasPorMl: 20
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-HALOPERIDOL-58355
+    detalle: 'Haloperidol Esteve 2 mg/ml solución oral (frasco cuentagotas: 20 gotas = 2 mg; 1 gota = 0,1 mg)'
+- id: comprimido-1-mg
+  forma: comprimido
+  cantidad:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.01: Haloperidol, Comprimido 1 mg'
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.01: Haloperidol, Comprimido 5 mg'
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-HALOPERIDOL-58343
+    detalle: Haloperidol Esteve 10 mg comprimidos (ranurados que permiten división en mitades)
+dosis:
+- indicacion: Esquizofrenia y psicosis crónica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 2
+  max: 10
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: autorizada
+  condicion: 2 a 10 mg/día en toma única o 2 tomas divididas. Ajustar cada 1-7 días. Dosis máxima 20 mg/día (dosis >10 mg/día
+    aumentan síntomas extrapiramidales sin mayor eficacia)
+  texto: Inicial 2-10 mg/día en 1 o 2 tomas; titular cada 1-7 días; máximo 20 mg/día
+  fuente:
+    ref: CIMA-HALOPERIDOL-58343
+    detalle: 'Tabla 1 Adultos: "2 a 10 mg/día por vía oral, en una sola dosis o en 2 dosis divididas ... La dosis máxima es
+      de 20 mg/día"'
+- indicacion: Esquizofrenia (adolescentes de 13 a 17 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 0.5
+  max: 3
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 5
+    unidad: mg
+  estatus: autorizada
+  condicion: Dosis recomendada de 0,5 a 3 mg/día administrados en 2 o 3 dosis divididas. Dosis máxima recomendada 5 mg/día
+  texto: 0,5-3 mg/día en 2-3 tomas diarias (máximo 5 mg/día en CIMA; Pediamécum hasta 15 mg/día)
+  fuente:
+    ref: CIMA-HALOPERIDOL-58355
+    detalle: '4.2 Población pediátrica: "0,5 a 3 mg/día por vía oral, divididos en 2 o 3 tomas ... La dosis máxima es de 5
+      mg/día"'
+- indicacion: Esquizofrenia y alteraciones graves de conducta (niños de 3 a 12 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 0.5
+  max: 0.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 6
+    unidad: mg
+  estatus: autorizada
+  condicion: Inicial 0,5 mg/día repartidos en 2 o 3 tomas; habitual 1-4 mg/día; máximo 6 mg/día
+  texto: Inicial 0,5 mg/día en 2-3 tomas; habitual 1-4 mg/día; máximo 6 mg/día
+  presentaciones:
+  - gotas-2-mg-ml
+  - comprimido-1-mg
+  fuente:
+    ref: PEDIAMECUM-HALOPERIDOL
+    detalle: 'Esquizofrenia: "3-13 años: inicialmente dosis de 0,5 mg/día, repartidos en 2-3 dosis; habitualmente se requieren
+      dosis de 1-4 mg/día, hasta un máximo de 6 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis máxima en adolescentes >13 años
+  valores:
+  - fuente: CIMA-HALOPERIDOL-58355
+    valor: Máximo 5 mg/día en adolescentes 13-17 años
+  - fuente: PEDIAMECUM-HALOPERIDOL
+    valor: Máximo 15 mg/día repartidos en 2-3 dosis
+  mostrado: 5 mg/día
+  motivo: CIMA establece un techo estricto de 5 mg/día en adolescentes para limitar el riesgo de distonías y síntomas extrapiramidales;
+    Pediamécum contempla hasta 15 mg/día. Se muestra el límite oficial de 5 mg/día.
+administracion:
+  comida: indiferente
+  texto: La solución oral se puede mezclar con agua o zumo para facilitar la deglución. Para dosis menores a 1 mg debe utilizarse
+    la solución oral cuentagotas.
+  fuente:
+    ref: CIMA-HALOPERIDOL-58355
+    detalle: '4.2 Forma de administración: "Haloperidol Esteve solución oral se debe usar para dosis únicas inferiores a 1
+      mg"'
+ajusteRenalHepatico:
+  renal: Dosificación ajustada no formalmente establecida; usar con precaución.
+  hepatico: 'Metabolizado por el hígado: usar con precaución y a dosis reducidas.'
+  fuente:
+    ref: CIMA-HALOPERIDOL-58343
+    detalle: 4.2 Poblaciones especiales y Pediamécum
+alertas:
+- 1 gota de solución al 2 mg/ml contiene exactamente 0,1 mg de haloperidol (20 gotas = 2 mg).
+- Riesgo elevado de reacciones extrapiramidales agudas (distonía aguda, acatisia, parkinsonismo) y de prolongación del QT.
+meta: {}

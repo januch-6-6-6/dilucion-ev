@@ -68,12 +68,14 @@ def discrepancia(campo, valores, mostrado, motivo):
 
 def ficha_oral(id, nombre, grupo, presentaciones, dosis, administracion, *, comerciales=(), alto_riesgo=False,
                pediatria='con_dosis', motivo_solo_adulto=None, discrepancias=(), renal=None, hepatico=None,
-               fuente_ajuste=None, alertas=()):
+               fuente_ajuste=None, alertas=(), ajusteRenalHepatico=None):
     ped = {'estado': pediatria}
     if motivo_solo_adulto:
         ped['motivo'] = motivo_solo_adulto
     ajuste = None
-    if renal or hepatico:
+    if ajusteRenalHepatico is not None:
+        ajuste = ajusteRenalHepatico
+    elif renal or hepatico:
         ajuste = {}
         if renal:
             ajuste['renal'] = renal

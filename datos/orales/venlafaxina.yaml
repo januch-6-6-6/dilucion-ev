@@ -1,0 +1,85 @@
+id: venlafaxina
+nombre: Venlafaxina
+comerciales:
+- Dobupal
+- Efexor
+grupo: antidepresivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-75-mg
+  forma: comprimido
+  cantidad:
+    valor: 75
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.02.01.02: Venlafaxina, Comprimido 75 mg (de liberación inmediata)'
+- id: comprimido-37-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 37.5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-VENLAFAXINA-60666
+    detalle: Dobupal 37,5 mg comprimidos (liberación inmediata, ranurados que permiten división en mitades)
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-VENLAFAXINA-60667
+    detalle: Dobupal 50 mg comprimidos (liberación inmediata)
+dosis:
+- indicacion: Episodio de depresión mayor (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 75
+  max: 75
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 375
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Dosis inicial recomendada de liberación inmediata: 75 mg/día en 2 o 3 dosis divididas tomadas con comida. Incrementar
+    según respuesta cada ≥2 semanas hasta máximo 375 mg/día'
+  texto: Inicial 75 mg/día en 2-3 tomas con comida; titular cada 2 semanas hasta máximo 375 mg/día
+  fuente:
+    ref: CIMA-VENLAFAXINA-60666
+    detalle: '4.2 Adultos: "La dosis inicial recomendada de venlafaxina de liberación inmediata es de 75 mg/día en dos o tres
+      dosis divididas tomadas con comida ... hasta una dosis máxima de 375 mg/día"'
+pediatria:
+  estado: solo_adulto
+  motivo: 'No recomendada en niños y adolescentes: los ensayos clínicos no demostraron eficacia en depresión y evidenciaron
+    aumento de ideación suicida y hostilidad. Las presentaciones de liberación inmediata del arsenal no permiten dosis pediátricas.'
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: Los comprimidos de liberación inmediata se deben tomar con alimentos, repartidos en 2 o 3 tomas al día aproximadamente
+    a las mismas horas.
+  fuente:
+    ref: CIMA-VENLAFAXINA-60666
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: Reducir la dosis diaria total en un 50 % en pacientes en hemodiálisis o con TFG <30 ml/min.
+  hepatico: Reducir la dosis en un 50 % en insuficiencia hepática leve a moderada; en casos graves reducir en más del 50 %.
+  fuente:
+    ref: CIMA-VENLAFAXINA-60666
+    detalle: 4.2 Pacientes con insuficiencia renal y hepática
+alertas:
+- 'Presentación de liberación inmediata: no confundir con cápsulas de liberación prolongada (retard).'
+- Interrupción obligatoriamente gradual (síndrome de retirada frecuente si se suspende de forma brusca).
+meta: {}

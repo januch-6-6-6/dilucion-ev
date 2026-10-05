@@ -785,3 +785,279 @@
   url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/levonorgestrel
   anio: 2020
   consultado: '2026-10-05'
+- id: CIMA-CARBAMAZEPINA
+  titulo: 'Ficha técnica: Carbamazepina Normon 200 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62620/FT_62620.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-ACIDO-VALPROICO-48827
+  titulo: 'Ficha técnica: Depakine 200 mg comprimidos gastrorresistentes'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/48827/FT_48827.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-ACIDO-VALPROICO-48828
+  titulo: 'Ficha técnica: Depakine 200 mg/ml solución oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/48828/FT_48828.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-ACIDO-VALPROICO
+  titulo: 'Pediamécum: Ácido valproico (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/acido-valproico
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-CLONAZEPAM-79769
+  titulo: 'Ficha técnica: Clonazepam Biomed 2 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/79769/FT_79769.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-CLONAZEPAM-52333
+  titulo: 'Ficha técnica: Rivotril 2,5 mg/ml gotas orales en solución'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/52333/FT_52333.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-CLONAZEPAM
+  titulo: 'Pediamécum: Clonazepam (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/clonazepam
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-FENOBARBITAL
+  titulo: 'Ficha técnica: Luminal 100 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/35052/FT_35052.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-FENOBARBITAL
+  titulo: 'Pediamécum: Fenobarbital (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/fenobarbital
+  anio: 2022
+  consultado: '2026-10-05'
+- id: CIMA-LAMOTRIGINA
+  titulo: 'Ficha técnica: Crisomet 100 mg comprimidos masticables/dispersables'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/64462/FT_64462.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-LAMOTRIGINA
+  titulo: 'Pediamécum: Lamotrigina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/lamotrigina
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-LEVETIRACETAM-75005
+  titulo: 'Ficha técnica: Levetiracetam Cinfa 1000 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/75005/FT_75005.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-LEVETIRACETAM-76440
+  titulo: 'Ficha técnica: Levetiracetam Cinfa 100 mg/ml solución oral EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/76440/FT_76440.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-LEVETIRACETAM
+  titulo: 'Pediamécum: Levetiracetam (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/levetiracetam
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-FENITOINA
+  titulo: 'Ficha técnica: Epanutin 100 mg cápsulas duras'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/45695/FT_45695.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-FENITOINA
+  titulo: 'Pediamécum: Fenitoína (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/fenitoina-difenilhidantoina
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-SERTRALINA-59718
+  titulo: 'Ficha técnica: Besitran 100 mg comprimidos recubiertos con película'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59718/FT_59718.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-SERTRALINA-63477
+  titulo: 'Ficha técnica: Besitran 20 mg/ml concentrado para solución oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63477/FT_63477.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-FLUOXETINA-63499
+  titulo: 'Ficha técnica: Fluoxetina Cinfa 20 mg cápsulas duras EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/63499/FT_63499.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-FLUOXETINA-62427
+  titulo: 'Ficha técnica: Fluoxetina Normon 20 mg/5 ml solución oral EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62427/FT_62427.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-FLUOXETINA
+  titulo: 'Pediamécum: Fluoxetina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/fluoxetina
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-ESCITALOPRAM-71430
+  titulo: 'Ficha técnica: Escitalopram Cinfa 10 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/71430/FT_71430.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-ESCITALOPRAM-76398
+  titulo: 'Ficha técnica: Escitalopram Cinfa 20 mg/ml gotas orales en solución EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/76398/FT_76398.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-AMITRIPTILINA
+  titulo: 'Ficha técnica: Tryptizol 10 mg comprimidos recubiertos con película'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/51064/FT_51064.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-AMITRIPTILINA
+  titulo: 'Pediamécum: Amitriptilina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/amitriptilina
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-MIRTAZAPINA
+  titulo: 'Ficha técnica: Mirtazapina Cinfa 15 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/86890/FT_86890.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-VENLAFAXINA-60666
+  titulo: 'Ficha técnica: Dobupal 37,5 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/60666/FT_60666.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-VENLAFAXINA-60667
+  titulo: 'Ficha técnica: Dobupal 50 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/60667/FT_60667.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-VENLAFAXINA
+  titulo: 'Pediamécum: Venlafaxina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/venlafaxina
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-QUETIAPINA-70169
+  titulo: 'Ficha técnica: Qudix 100 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/70169/FT_70169.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-QUETIAPINA-70170
+  titulo: 'Ficha técnica: Qudix 200 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/70170/FT_70170.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-HALOPERIDOL-58343
+  titulo: 'Ficha técnica: Haloperidol Esteve 10 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58343/FT_58343.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-HALOPERIDOL-58355
+  titulo: 'Ficha técnica: Haloperidol Esteve 2 mg/ml solución oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58355/FT_58355.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-HALOPERIDOL
+  titulo: 'Pediamécum: Haloperidol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/haloperidol
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-RISPERIDONA-60336
+  titulo: 'Ficha técnica: Risperdal 1 mg comprimidos recubiertos con película'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/60336/FT_60336.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-RISPERIDONA-62096
+  titulo: 'Ficha técnica: Risperdal 1 mg/ml solución oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62096/FT_62096.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-RISPERIDONA
+  titulo: 'Pediamécum: Risperidona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/risperidona
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-ZOPICLONA
+  titulo: 'Ficha técnica: Limován 7,5 mg comprimidos recubiertos con película'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58538/FT_58538.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-DIAZEPAM-80699
+  titulo: 'Ficha técnica: Diazepam Cinfa 10 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/80699/FT_80699.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-DIAZEPAM-41598
+  titulo: 'Ficha técnica: Diazepan Prodes 2 mg/ml solución oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/41598/FT_41598.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-DIAZEPAM
+  titulo: 'Pediamécum: Diazepam (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/diazepam
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-ACIDO-FOLICO
+  titulo: 'Ficha técnica: Acfol 5 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/11265/FT_11265.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-ACIDO-FOLICO
+  titulo: 'Pediamécum: Ácido fólico (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/acido-folico
+  anio: 2022
+  consultado: '2026-10-05'
+- id: CIMA-SULFATO-FERROSO-52994
+  titulo: 'Ficha técnica: Tardyferon 80 mg comprimidos de liberación prolongada'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/52994/FT_52994.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-SULFATO-FERROSO-48330
+  titulo: 'Ficha técnica: Fero-Gradumet 105 mg comprimidos de liberación prolongada'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/48330/FT_48330.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-SULFATO-FERROSO
+  titulo: 'Pediamécum: Sulfato ferroso (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/sulfato-ferroso-y-glicina-sulfato-ferroso
+  anio: 2020
+  consultado: '2026-10-05'

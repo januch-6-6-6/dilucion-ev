@@ -1,0 +1,120 @@
+id: acido-folico
+nombre: Ácido fólico
+comerciales:
+- Acfol
+- Ácido Fólico
+grupo: vitamina-mineral
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-1-mg
+  forma: comprimido
+  cantidad:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 08.01: Ácido Fólico, Comprimido 1 mg (adecuado para dosificación pediátrica)'
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACIDO-FOLICO
+    detalle: Acfol 5 mg comprimidos; el arsenal de APS lista comprimido 5 mg
+dosis:
+- indicacion: Tratamiento de estados carenciales y anemia megaloblástica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 15
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: autorizada
+  condicion: '1 a 3 comprimidos de 5 mg diarios (5-15 mg/día) en 1 o 2 tomas. En anemia megaloblástica por déficit de folato:
+    5 mg/día durante 4 meses'
+  texto: 5-15 mg/día en 1-2 tomas diarias (habitual 5 mg/día durante 4 meses)
+  presentaciones:
+  - comprimido-5-mg
+  fuente:
+    ref: CIMA-ACIDO-FOLICO
+    detalle: '4.2 Tratamiento de estados carenciales: "1 a 3 comprimidos diarios (5-15 mg de ácido fólico) en 1-2 tomas al
+      día ... anemia megaloblástica folato-deficiente se recomienda una dosis de 5 mg/dia durante 4 meses; puede ser necesario
+      hasta 15mg"'
+- indicacion: Prevención de defectos del tubo neural (mujeres en edad fértil con deseo de gestación)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 5
+    unidad: mg
+  estatus: autorizada
+  condicion: 1 comprimido de 5 mg al día durante 4 semanas antes de la concepción y los 3 primeros meses de gestación
+  texto: 5 mg una vez al día desde 4 semanas antes de la concepción y hasta la semana 12 de gestación
+  presentaciones:
+  - comprimido-5-mg
+  fuente:
+    ref: CIMA-ACIDO-FOLICO
+    detalle: '4.2 Prevención de defectos en el tubo neural: "1 comprimido al día durante cuatro semanas antes de la concepción
+      y los tres primeros meses de gestación"'
+- indicacion: Deficiencia de ácido fólico (niños y adolescentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 1
+  max: 1
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 1
+    unidad: mg
+  estatus: autorizada
+  condicion: 1 mg al día por vía oral hasta la resolución de la deficiencia, independientemente de la edad. No utilizar el
+    comprimido de 5 mg en niños (usar la presentación de 1 mg del arsenal)
+  texto: 1 mg/día vía oral en toma única hasta resolución de la carencia
+  presentaciones:
+  - comprimido-1-mg
+  fuente:
+    ref: PEDIAMECUM-ACIDO-FOLICO
+    detalle: 'Dosificación: "La dosificación recomendada en caso de deficiencia de ácido fólico es de 1 mg/día (vía oral)
+      hasta la resolución de la deficiencia, independientemente de la edad"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis en estados carenciales (adultos vs niños)
+  valores:
+  - fuente: CIMA-ACIDO-FOLICO
+    valor: 'Adultos: 5-15 mg/día (comprimidos de 5 mg)'
+  - fuente: PEDIAMECUM-ACIDO-FOLICO
+    valor: 'Niños: 1 mg/día independiente de la edad'
+  mostrado: 1 mg/día en pediatría / 5 mg/día en adultos
+  motivo: CIMA sólo dispone de la presentación de 5 mg con pauta adulta de 5-15 mg/día; en pediatría la dosis de consenso
+    es de 1 mg/día (respaldada por el comprimido de 1 mg del arsenal chileno). No debe administrarse el comprimido de 5 mg
+    a pacientes pediátricos.
+administracion:
+  comida: antes
+  texto: Administrar preferiblemente antes de las comidas con agua (el pico de absorción se alcanza a los 30-60 minutos).
+  fuente:
+    ref: CIMA-ACIDO-FOLICO
+    detalle: 4.2 Forma de administración y Pediamécum
+ajusteRenalHepatico: null
+alertas:
+- 'No usar la presentación de 5 mg para dosis pediátricas: utilizar el comprimido de 1 mg del arsenal chileno de APS.'
+- El ácido fólico puede enmascarar una anemia perniciosa por déficit de vitamina B12 (el daño neurológico puede progresar).
+meta: {}

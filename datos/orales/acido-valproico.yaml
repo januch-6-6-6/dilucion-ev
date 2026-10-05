@@ -1,0 +1,138 @@
+id: acido-valproico
+nombre: Ácido valproico
+comerciales:
+- Depakine
+- Valcote
+grupo: anticonvulsivante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-gastrorresistente-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48827
+    detalle: Depakine 200 mg comprimidos gastrorresistentes (tragar enteros sin masticar ni triturar); el arsenal de APS lista
+      comprimido 200 mg
+- id: solucion-oral-200-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48828
+    detalle: Depakine 200 mg/ml solución oral (frasco con jeringa dosificadora)
+- id: solucion-gotas-375-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 375
+    unidad: mg
+  gotasPorMl: 25
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Ácido Valproico, Solución para gotas orales 375 mg/mL (1 gota ≈ 15 mg)'
+- id: solucion-oral-50-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Ácido Valproico, Solución oral 250 mg/5 mL (50 mg/mL)'
+dosis:
+- indicacion: 'Epilepsia: mantenimiento (adolescentes ≥12 años y adultos)'
+  poblacion: adulto
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 20
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: '20-30 mg/kg/día en 1 o 2 tomas, preferentemente con comidas. Mayores de 65 años: 15-20 mg/kg/día'
+  texto: 20-30 mg/kg/día en 1-2 tomas diarias con comidas
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48827
+    detalle: '4.2 Dosis media: "Adolescentes (≥12 años) y adultos (≥18 años): 20-30 mg/kg. Pacientes de edad avanzada (≥65
+      años): 15-20 mg/kg"'
+- indicacion: 'Epilepsia: mantenimiento (lactantes y niños de 28 días a 11 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 30
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Dosis media de mantenimiento: 30 mg/kg/día en 1 o 2 tomas. En niños <11 años es preferible la solución oral.
+    Pediamécum cita mantenimiento de 30-60 mg/kg/día'
+  texto: 30 mg/kg/día en 1-2 tomas diarias (CIMA); Pediamécum indica mantenimiento habitual 30-60 mg/kg/día
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48827
+    detalle: '4.2 Dosis media: "Lactantes y niños (28 días a 11 años): 30 mg/kg"'
+- indicacion: 'Epilepsia: inicio de titulación oral (niños y adolescentes)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 10
+  max: 15
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 10-15 mg/kg/día en 2 o 3 tomas con incrementos semanales de 5-10 mg/kg/día hasta control
+  texto: 10-15 mg/kg/día en 2-3 tomas, con incrementos semanales de 5-10 mg/kg/día
+  fuente:
+    ref: PEDIAMECUM-ACIDO-VALPROICO
+    detalle: 'Vía oral: "10-15 mg/kg/día administrado en dos o tres tomas con incrementos semanales de 5-10 mg/kg/día hasta
+      control"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis de mantenimiento pediátrica
+  valores:
+  - fuente: CIMA-ACIDO-VALPROICO-48827
+    valor: 30 mg/kg/día
+  - fuente: PEDIAMECUM-ACIDO-VALPROICO
+    valor: 30-60 mg/kg/día
+  mostrado: 30 mg/kg/día
+  motivo: CIMA fija 30 mg/kg/día para lactantes y niños (28 días a 11 años); Pediamécum amplía el rango a 30-60 mg/kg/día
+    señalando que niños con inductores enzimáticos pueden requerir dosis mayores. Se muestra la cifra más conservadora.
+administracion:
+  comida: con_comida
+  texto: Los comprimidos se deben tragar enteros sin masticar ni triturar, preferentemente durante las comidas. La solución
+    oral se puede tomar en medio vaso de agua sin gas.
+  noTriturar: true
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48827
+    detalle: '4.2 Forma de administración: "Los comprimidos se deben tragar enteros sin masticar ni triturar con ayuda de
+      un poco de agua en 1 ó 2 tomas, preferentemente en el curso de las comidas"'
+ajusteRenalHepatico:
+  renal: En pacientes con insuficiencia renal debe tenerse en cuenta la elevación de valproico libre en plasma y reducir la
+    dosis adecuadamente.
+  hepatico: Contraindicado en enfermedad o insuficiencia hepática grave (riesgo de hepatotoxicidad mortal).
+  fuente:
+    ref: CIMA-ACIDO-VALPROICO-48827
+    detalle: 4.2 Insuficiencia renal y 4.3 Contraindicaciones
+alertas:
+- 'Teratogénico mayor: contraindicado en mujeres con capacidad de gestación salvo estricto cumplimiento del Plan de Prevención
+  de Embarazos.'
+- En niños menores de 11 años se recomienda la solución oral o gotas frente al comprimido gastrorresistente.
+meta: {}

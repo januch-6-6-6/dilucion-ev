@@ -1,0 +1,125 @@
+id: sertralina
+nombre: Sertralina
+comerciales:
+- Besitran
+- Zoloft
+grupo: antidepresivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.02.01.02: Sertralina, Comprimido 50 mg (divisible en dos mitades)'
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: Besitran 100 mg comprimidos recubiertos con película (ranurados que permiten división en mitades)
+- id: concentrado-20-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 20
+    unidad: mg
+  gotasPorMl: 20
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-SERTRALINA-63477
+    detalle: Besitran 20 mg/ml concentrado para solución oral (gotero graduado; contiene etanol)
+dosis:
+- indicacion: Depresión y trastorno obsesivo-compulsivo (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 200
+    unidad: mg
+  estatus: autorizada
+  condicion: Iniciar con 50 mg una vez al día. En angustia o fobia social iniciar con 25 mg/día la primera semana. Incrementos
+    de a 50 mg a intervalos de al menos 1 semana hasta máximo 200 mg/día
+  texto: Inicial 50 mg/día (25 mg/día la primera semana en angustia); incrementos de 50 mg semanalmente hasta máximo 200 mg/día
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: '4.2 Adultos: "iniciarse con una dosis de 50 mg/día ... incrementos en rangos de 50 mg, a intervalos de al menos
+      una semana y hasta un máximo de 200 mg/día"'
+- indicacion: Trastorno obsesivo-compulsivo (niños de 6 a 12 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 200
+    unidad: mg
+  estatus: autorizada
+  condicion: Iniciar con 25 mg una vez al día. Incrementar a 50 mg/día tras una semana. Siguientes aumentos en rangos de 50
+    mg cada varias semanas hasta máximo 200 mg/día
+  texto: Inicial 25 mg/día; 50 mg/día a la semana; aumentos progresivos hasta máximo 200 mg/día
+  presentaciones:
+  - comprimido-50-mg
+  - concentrado-20-mg-ml
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: '4.2 Población pediátrica: "De 6-12 años: El tratamiento debe iniciarse con 25 mg una vez al día. La dosis se
+      puede incrementar a 50 mg una vez al día, tras una semana ... dosis máxima es de 200 mg/día"'
+- indicacion: Trastorno obsesivo-compulsivo (adolescentes de 13 a 17 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 200
+    unidad: mg
+  estatus: autorizada
+  condicion: Iniciar con 50 mg una vez al día; incrementos graduales en rangos de 50 mg hasta máximo 200 mg/día
+  texto: Inicial 50 mg/día; incrementos graduales hasta máximo 200 mg/día
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: '4.2 Población pediátrica: "De 13 – 17 años: El tratamiento debe iniciarse con 50 mg una vez al día ... dosis
+      máxima es de 200 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Los comprimidos y el concentrado se pueden administrar con o sin alimentos, en una sola toma diaria (por la mañana
+    o por la noche). El concentrado debe diluirse antes de tomar en agua, zumo o bebida.
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: 4.2 Forma de administración y CIMA 63477
+ajusteRenalHepatico:
+  renal: No es necesario ajustar la dosis en insuficiencia renal.
+  hepatico: Usar con precaución; utilizar una dosis más baja o espaciar el intervalo. No usar en insuficiencia grave.
+  fuente:
+    ref: CIMA-SERTRALINA-59718
+    detalle: 4.2 Pacientes con insuficiencia hepática y renal
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para sertralina.'
+- No se ha demostrado eficacia en pacientes pediátricos para el trastorno de depresión mayor (uso pediátrico limitado a TOC).
+- El concentrado oral contiene un porcentaje de etanol (alcohol).
+meta: {}

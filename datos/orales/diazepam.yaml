@@ -1,0 +1,108 @@
+id: diazepam
+nombre: Diazepam
+comerciales:
+- Valium
+- Diazepam Cinfa
+grupo: hipnotico-ansiolitico
+ambitos:
+- aps
+altoRiesgo: true
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: Diazepam Cinfa 10 mg comprimidos (ranurados que permiten división en mitades); el arsenal de APS lista comprimido
+      10 mg
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: Diazepam Cinfa 5 mg comprimidos (divisibles en dos mitades de 2,5 mg)
+- id: solucion-oral-2-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 2
+    unidad: mg
+  gotasPorMl: 20
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DIAZEPAM-41598
+    detalle: 'Diazepan Prodes 2 mg/ml solución oral (frasco con cuentagotas: 20 gotas = 2 mg; 1 gota = 0,1 mg)'
+dosis:
+- indicacion: Ansiedad y tensión psíquica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 2
+  max: 10
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: '2 a 10 mg, 2 a 4 veces al día según gravedad. Ancianos o pacientes debilitados: 2-2,5 mg 1-2 veces al día'
+  texto: 2 a 10 mg 2-4 veces al día (habitual 5-20 mg/día; ancianos 2-2,5 mg 1-2 veces/día)
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: '4.2 Adultos: "Síntomas de ansiedad: 2 a 10 mg, 2 a 4 veces al día, dependiendo de la gravedad"'
+- indicacion: Ansiedad, espasmo muscular y sedación (niños >6 meses)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.1
+  max: 0.3
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Norma general: 0,1-0,3 mg/kg al día repartidos en 2 o 3 tomas. CIMA cita también 2 a 2,5 mg 1 o 2 veces al día.
+    No recomendado en menores de 6 meses. Pediamécum contempla hasta 0,8-1 mg/kg/día'
+  texto: '0,1-0,3 mg/kg/día en 2-3 tomas diarias (tope ficha técnica CIMA: 0,3 mg/kg/día)'
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: '4.2 Población pediátrica: "como norma general 0,1-0,3 mg/kg al día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Techo pediátrico oral
+  valores:
+  - fuente: CIMA-DIAZEPAM-80699
+    valor: '0,3 mg/kg/día: norma general máxima al día (CIMA)'
+  - fuente: PEDIAMECUM-DIAZEPAM
+    valor: '0,8 mg/kg/día: dosis máxima en ansiedad (Pediamécum); 1 mg/kg/día en convulsiones febriles'
+  mostrado: 0,3 mg/kg/día
+  motivo: CIMA establece como norma general pediátrica 0,1-0,3 mg/kg/día; Pediamécum autoriza hasta 0,8 mg/kg/día en ansiedad
+    y 1 mg/kg/día en convulsiones febriles (3 veces el techo de la ficha). Se muestra el límite conservador de CIMA (0,3 mg/kg/día).
+administracion:
+  comida: indiferente
+  texto: Los comprimidos se ingieren enteros o fraccionados con agua. Las gotas se pueden diluir en un poco de agua.
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: 4.2 Posología y forma de administración
+ajusteRenalHepatico:
+  renal: Usar con precaución; iniciar con 2-2,5 mg 1-2 veces al día por posible acumulación de metabolitos.
+  hepatico: Contraindicado en insuficiencia hepática grave. En insuficiencia leve a moderada reducir la dosis al 50 %.
+  fuente:
+    ref: CIMA-DIAZEPAM-80699
+    detalle: 4.2 Pacientes con insuficiencia renal y/o hepática y 4.3 Contraindicaciones
+alertas:
+- 'Medicamento de alto riesgo (benzodiacepina): riesgo de tolerancia, dependencia física/psíquica y depresión respiratoria.'
+- Contraindicado en miastenia gravis, insuficiencia respiratoria grave, síndrome de apnea del sueño e insuficiencia hepática
+  grave.
+meta: {}

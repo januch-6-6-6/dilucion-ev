@@ -1,0 +1,177 @@
+id: sulfato-ferroso
+nombre: Sulfato ferroso
+comerciales:
+- Tardyferon
+- Fero-Gradumet
+grupo: vitamina-mineral
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-retard-80-mg-fe
+  forma: comprimido
+  cantidad:
+    valor: 80
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  elemental:
+    valor: 80
+    unidad: mg
+    de: hierro elemental
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-SULFATO-FERROSO-52994
+    detalle: Tardyferon 80 mg comprimidos de liberación prolongada (equivalente a 80 mg de hierro elemental)
+- id: comprimido-retard-105-mg-fe
+  forma: comprimido
+  cantidad:
+    valor: 105
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  elemental:
+    valor: 105
+    unidad: mg
+    de: hierro elemental
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-SULFATO-FERROSO-48330
+    detalle: Fero-Gradumet 105 mg comprimidos de liberación prolongada (equivalente a 105 mg de hierro elemental)
+- id: gotas-25-mg-ml-fe
+  forma: gotas
+  concentracion:
+    valor: 25
+    unidad: mg
+  gotasPorMl: 20
+  partible: 'no'
+  liberacionProlongada: false
+  elemental:
+    valor: 25
+    unidad: mg
+    de: hierro elemental por ml
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 08.01: Ferroso sulfato, Solución para gotas orales 125 mg/mL (equivalente a 25 mg/mL de hierro elemental;
+      20 gotas = 25 mg Fe; 1 gota = 1,25 mg Fe elemental)'
+dosis:
+- indicacion: Anemia ferropénica leve y prevención (adultos y niños ≥28 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 80
+  max: 105
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 1 comprimido de liberación prolongada al día (80 a 105 mg de hierro elemental). No superar la dosis diaria de
+    5 mg Fe²⁺/kg de peso corporal. No usar comprimidos retard en <28 kg
+  texto: 1 comprimido diario (80-105 mg Fe elemental/día) en ayunas; máximo 5 mg Fe elemental/kg/día
+  presentaciones:
+  - comprimido-retard-80-mg-fe
+  - comprimido-retard-105-mg-fe
+  fuente:
+    ref: CIMA-SULFATO-FERROSO-52994
+    detalle: '4.2 Posología: "Anemias ferropénicas leves ... 1 comprimido recubierto una vez al día ... En todo caso no debe
+      superarse la dosis diaria de 5 mg Fe2+/kg de peso corporal ... No debe administrarse a niños con peso inferior a 28
+      kg"'
+- indicacion: Anemia ferropénica grave con Hb <8-9 g/dl (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 160
+  max: 210
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 1 comprimido por la mañana y otro por la tarde durante unas 3 semanas, y a continuación 1 comprimido diario
+  texto: 1 comprimido c/12 h (160-210 mg Fe elemental/día) durante 3 semanas, luego 1 diario
+  presentaciones:
+  - comprimido-retard-80-mg-fe
+  - comprimido-retard-105-mg-fe
+  fuente:
+    ref: CIMA-SULFATO-FERROSO-52994
+    detalle: '4.2 Posología: "Anemias ferropénicas graves, con menos de 8 a 9 g/dl de hemoglobina: 1 comprimido recubierto
+      por la mañana y otro por la tarde, durante unas 3 semanas, y a continuación 1 comprimido diario"'
+- indicacion: Tratamiento de anemia ferropénica leve a moderada (lactantes y niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 3
+  max: 3
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 3 mg/kg/día de hierro elemental divididos en 1 o 2 tomas en ayunas. Para lactantes y niños usar la formulación
+    en gotas
+  texto: 3 mg Fe elemental/kg/día en 1-2 tomas diarias en ayunas
+  presentaciones:
+  - gotas-25-mg-ml-fe
+  fuente:
+    ref: PEDIAMECUM-SULFATO-FERROSO
+    detalle: 'Tratamiento de anemia: "Leve a moderada: 3 mg/kg/día de hierro elemental divididos en 1-2 dosis"'
+- indicacion: Tratamiento de anemia ferropénica grave (lactantes y niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 4
+  max: 6
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: 4 a 6 mg/kg/día de hierro elemental divididos en 3 tomas diarias en ayunas
+  texto: 4-6 mg Fe elemental/kg/día en 3 tomas diarias en ayunas
+  presentaciones:
+  - gotas-25-mg-ml-fe
+  fuente:
+    ref: PEDIAMECUM-SULFATO-FERROSO
+    detalle: 'Tratamiento de anemia: "Grave: 4-6 mg/kg/día de hierro elemental divididos en 3 dosis"'
+- indicacion: Prevención de deficiencia de hierro en lactantes y niños
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 2
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 1 a 2 mg/kg/día de hierro elemental en toma única. Pretérminos pueden requerir 2-4 mg/kg/día
+  texto: 1-2 mg Fe elemental/kg/día en toma única diaria
+  presentaciones:
+  - gotas-25-mg-ml-fe
+  fuente:
+    ref: PEDIAMECUM-SULFATO-FERROSO
+    detalle: 'Prevención de la deficiencia de hierro: "Lactantes >4 meses ... 1 mg/kg/día de hierro elemental ... desde 6
+      meses a 5 años ... 2 mg/kg/día de hierro elemental"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Presentaciones retard en pediatría
+  valores:
+  - fuente: CIMA-SULFATO-FERROSO-52994
+    valor: Contraindicado en niños con peso inferior a 28 kg (aproximadamente menores de 9-10 años)
+  - fuente: PEDIAMECUM-SULFATO-FERROSO
+    valor: Dosis pediátricas calculadas en mg de hierro elemental desde el periodo neonatal
+  mostrado: Dosificación en hierro elemental con gotas orales en <28 kg
+  motivo: Los comprimidos retard contienen dosis altas (80-105 mg Fe) no fraccionables; en lactantes y niños <28 kg debe emplearse
+    estrictamente la formulación en gotas.
+administracion:
+  comida: antes
+  texto: Administrar con agua o zumo de cítricos (la vitamina C favorece la absorción), en ayunas, 1 hora antes o 3 horas
+    después de las comidas. NUNCA administrar con leche, productos lácteos, té o café. Los comprimidos de liberación prolongada
+    deben tragarse enteros sin masticar ni chupar.
+  noTriturar: true
+  fuente:
+    ref: CIMA-SULFATO-FERROSO-52994
+    detalle: 4.2 Forma de administración y Pediamécum
+ajusteRenalHepatico: null
+alertas:
+- 'Dosificación expresada en mg de HIERRO ELEMENTAL (Fe²+): 125 mg de sulfato ferroso heptahidratado equivalen a ~25 mg de
+  Fe elemental.'
+- Los comprimidos retard no deben masticarse ni disolverse en la boca por riesgo de ulceración oral y pigmentación dental.
+- 'Sobredosis aguda de hierro en niños es potencialmente mortal: mantener fuera del alcance de los niños.'
+meta: {}

@@ -1,0 +1,74 @@
+id: mirtazapina
+nombre: Mirtazapina
+comerciales:
+- Rexer
+- Mirtazapina Cinfa
+grupo: antidepresivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-15-mg
+  forma: comprimido
+  cantidad:
+    valor: 15
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MIRTAZAPINA
+    detalle: Mirtazapina Cinfa 15 mg comprimidos (ranurados en mitades); el arsenal de APS lista 15 mg
+- id: comprimido-30-mg
+  forma: comprimido
+  cantidad:
+    valor: 30
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.02.01.03: Mirtazapina, Comprimido 30 mg'
+dosis:
+- indicacion: Episodio de depresión mayor (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 15
+  max: 30
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 45
+    unidad: mg
+  estatus: autorizada
+  condicion: Dosis de inicio 15 o 30 mg al día. Dosis eficaz habitual entre 15 y 45 mg al día. Administrar preferiblemente
+    en toma única por la noche antes de acostarse
+  texto: Inicio 15-30 mg/día nocturnos; titular según respuesta hasta 45 mg/día (máximo 45 mg/día)
+  fuente:
+    ref: CIMA-MIRTAZAPINA
+    detalle: '4.2 Adultos: "La dosis eficaz diaria que se utiliza generalmente es de entre 15 y 45 mg; la dosis de inicio
+      es de 15 o 30 mg ... dosis máxima [45 mg]"'
+pediatria:
+  estado: solo_adulto
+  motivo: No debe utilizarse en niños y adolescentes menores de 18 años por falta de eficacia en ensayos clínicos y aumento
+    de ideación suicida y hostilidad (CIMA)
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Tomar preferiblemente en dosis única por la noche antes de acostarse. También puede administrarse repartida en dos
+    tomas (mañana y noche, dosis mayor por la noche). Los comprimidos se ingieren con un poco de agua sin masticar.
+  fuente:
+    ref: CIMA-MIRTAZAPINA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: El aclaramiento puede disminuir con ClCr <40 ml/min; usar con precaución.
+  hepatico: El aclaramiento puede disminuir en insuficiencia hepática; usar con precaución.
+  fuente:
+    ref: CIMA-MIRTAZAPINA
+    detalle: 4.2 Insuficiencia renal e Insuficiencia hepática
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para mirtazapina.'
+- Marcado efecto sedante e incremento del apetito / ganancia ponderal característicos del bloqueo histaminérgico H1.
+meta: {}

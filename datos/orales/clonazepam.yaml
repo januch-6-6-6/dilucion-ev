@@ -1,0 +1,126 @@
+id: clonazepam
+nombre: Clonazepam
+comerciales:
+- Rivotril
+- Clonazepam Biomed
+grupo: anticonvulsivante
+ambitos:
+- aps
+altoRiesgo: true
+presentaciones:
+- id: comprimido-0-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 0.5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CLONAZEPAM-52333
+    detalle: Rivotril 0,5 mg comprimidos (divisibles en dos mitades iguales); el arsenal de APS lista 0,5 mg
+- id: comprimido-2-mg
+  forma: comprimido
+  cantidad:
+    valor: 2
+    unidad: mg
+  partible: cuartos
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CLONAZEPAM-79769
+    detalle: Clonazepam Biomed 2 mg comprimidos (divisibles en cuatro partes iguales de 0,5 mg); el arsenal lista 2 mg
+- id: gotas-2-5-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 2.5
+    unidad: mg
+  gotasPorMl: 25
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CLONAZEPAM-52333
+    detalle: Rivotril 2,5 mg/ml gotas orales en solución (1 ml = 25 gotas = 2,5 mg; 1 gota = 0,1 mg)
+dosis:
+- indicacion: 'Epilepsia: dosis inicial (adultos)'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  max: 1.5
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: autorizada
+  condicion: La dosis inicial no debe superar 1,5 mg/día divididos en 3 tomas (0,5 mg c/8 h). Incrementar 0,5 mg cada 72 horas
+  texto: Inicial ≤1,5 mg/día en 3 tomas; incrementar 0,5 mg c/72 h; mantenimiento habitual 3-6 mg/día; máximo 20 mg/día
+  fuente:
+    ref: CIMA-CLONAZEPAM-79769
+    detalle: '4.2 Adultos: "La dosis inicial para los adultos no debe superar los 1,5 mg/día, dividido en 3 tomas ... dosis
+      de mantenimiento de 3-6 mg diarios. La dosis terapéutica máxima ... es de 20 mg diarios"'
+- indicacion: 'Epilepsia: inicio (lactantes y niños ≤10 años o ≤30 kg)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.01
+  max: 0.03
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 0,01-0,03 mg/kg/día en 2 o 3 tomas. Incrementar 0,25-0,5 mg cada 72 h hasta mantenimiento aproximado de 0,1-0,2
+    mg/kg/día. Para lactantes usar formulación en gotas
+  texto: 0,01-0,03 mg/kg/día en 2-3 tomas; mantenimiento 0,1-0,2 mg/kg/día (máximo 0,2 mg/kg/día)
+  presentaciones:
+  - gotas-2-5-mg-ml
+  fuente:
+    ref: CIMA-CLONAZEPAM-79769
+    detalle: '4.2 Población pediátrica: "La dosis inicial para lactantes y niños de hasta 10 años (o hasta 30 kg de peso)
+      es de 0,01-0,03 mg/kg/día, divididos en 2 o 3 tomas ... mantenimiento aproximada de 0,1 mg/kg/día" y Pediamécum: "Dosis
+      máxima 0,2 mg/kg/día"'
+- indicacion: 'Epilepsia: inicio (niños y adolescentes de 10 a 16 años)'
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 1
+  max: 1.5
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Inicial 1-1,5 mg/día en 2 o 3 tomas; incrementar 0,25-0,5 mg cada 72 h hasta mantenimiento habitual de 3-6 mg/día
+  texto: Inicial 1-1,5 mg/día en 2-3 tomas; mantenimiento 3-6 mg/día
+  fuente:
+    ref: CIMA-CLONAZEPAM-79769
+    detalle: '4.2 Niños y adolescentes de 10-16 años: "La dosis inicial es de 1-1,5 mg/día, divididos en 2 o 3 tomas ... mantenimiento
+      individual (por lo general, de 3-6 mg diarios)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope pediátrico en adolescentes 10-16 años
+  valores:
+  - fuente: CIMA-CLONAZEPAM-79769
+    valor: Mantenimiento 3-6 mg/día (máximo no especificado en niños)
+  - fuente: PEDIAMECUM-CLONAZEPAM
+    valor: Dosis máxima 20 mg/día
+  mostrado: Mantenimiento 3-6 mg/día
+  motivo: Pediamécum indica dosis máxima 20 mg/día para 10-16 años, cifra idéntica al tope de adultos; se trata como advertencia
+    clínica no confirmada para no inducir sobredosis en adolescentes.
+administracion:
+  comida: indiferente
+  texto: Las gotas se deben mezclar con agua, té o zumo de frutas y administrarse con cuchara, nunca directamente del frasco
+    a la boca.
+  fuente:
+    ref: CIMA-CLONAZEPAM-52333
+    detalle: 4.2 Pauta de administración y Pediamécum
+ajusteRenalHepatico:
+  renal: No se precisa ajuste posológico en insuficiencia renal de acuerdo con datos farmacocinéticos.
+  hepatico: No hay datos disponibles sobre la influencia de insuficiencia hepática; usar con precaución.
+  fuente:
+    ref: CIMA-CLONAZEPAM-79769
+    detalle: 4.2 Pacientes con alteraciones en la función renal o hepática
+alertas:
+- 'Medicamento de alto riesgo (benzodiacepina): riesgo de dependencia, tolerancia y depresión respiratoria.'
+- 1 gota de solución al 2,5 mg/ml equivale exactamente a 0,1 mg de clonazepam (25 gotas/ml).
+meta: {}

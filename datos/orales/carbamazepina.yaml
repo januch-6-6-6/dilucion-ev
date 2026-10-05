@@ -1,0 +1,162 @@
+id: carbamazepina
+nombre: Carbamazepina
+comerciales:
+- Tegretol
+- Carbamazepina Normon
+grupo: anticonvulsivante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: Carbamazepina Normon 200 mg comprimidos (ranurados que permiten división en mitades); el arsenal de APS lista
+      comprimido 200 mg
+- id: comprimido-retard-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Carbamazepina, Comprimido de liberación prolongada 200 mg y 400 mg'
+- id: comprimido-retard-400-mg
+  forma: comprimido
+  cantidad:
+    valor: 400
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Carbamazepina, Comprimido de liberación prolongada 400 mg'
+dosis:
+- indicacion: Epilepsia (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 200
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 1600
+    unidad: mg
+  estatus: autorizada
+  condicion: Inicialmente 100-200 mg 1 o 2 veces al día; aumentar gradualmente hasta respuesta óptima (habitual 400 mg 2-3
+    veces al día; en algunos pacientes hasta 1600 mg al día)
+  texto: Inicial 100-200 mg 1-2 veces/día; mantenimiento habitual 400 mg 2-3 veces/día; máximo 1600 mg/día
+  presentaciones:
+  - comprimido-200-mg
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2.1 Adultos: "Inicialmente 100-200 mg, una o dos veces al día ... habitual 400 mg dos o tres veces al día.
+      En algunos pacientes puede ser necesaria una dosis de 1600 mg al día"'
+- indicacion: 'Epilepsia: dosis inicial (niños <4 años)'
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 60
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Dosis inicial de 20-60 mg/día aumentándola de 20-60 mg cada dos días
+  texto: 20-60 mg/día en dosis divididas, incrementando cada dos días
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2.1 Población pediátrica: "Para niños menores de 4 años se recomienda una dosis inicial de 20-60 mg/día aumentándola
+      de 20-60 mg cada dos días"'
+- indicacion: 'Epilepsia: dosis inicial (niños >4 años)'
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Iniciar con 100 mg/día incrementando en 100 mg a intervalos semanales
+  texto: 100 mg/día en dosis divididas, incrementando 100 mg semanalmente
+  presentaciones:
+  - comprimido-200-mg
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2.1 Población pediátrica: "Para niños mayores de 4 años, el tratamiento puede iniciarse con 100 mg/día incrementándolo
+      en 100 mg a intervalos semanales"'
+- indicacion: 'Epilepsia: mantenimiento (niños y adolescentes)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 10
+  max: 20
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 1000
+    unidad: mg
+  estatus: autorizada
+  condicion: '10-20 mg/kg/día divididos en 2 o 3 tomas. Topes máximos: hasta 6 años 35 mg/kg/día; 6-15 años 1000 mg/día; mayores
+    de 15 años 1200 mg/día'
+  texto: 10-20 mg/kg/día en 2-3 tomas diarias (máx. 1000 mg/día en 6-15 años; 35 mg/kg/día en <6 años)
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2.1: "Dosis de mantenimiento: Se administrarán dosis de 10-20 mg/kg de peso al día, en dosis divididas ...
+      Hasta los 6 años: 35 mg/Kg/día, 6-15 años: 1000 mg/día, Mayores de 15 años: 1200 mg/día"'
+- indicacion: Neuralgia del trigémino (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 400
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 1200
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicial 200-400 mg diarios, aumentar lentamente hasta suprimir el dolor (normalmente 200 mg 3 o 4 veces/día);
+    máximo 1200 mg/día. Ancianos: inicio 100 mg 2 veces al día'
+  texto: Inicial 200-400 mg/día; mantenimiento habitual 200 mg 3-4 veces/día; máximo 1200 mg/día
+  presentaciones:
+  - comprimido-200-mg
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2.1 Neuralgia del trigémino: "La dosis inicial de 200-400 mg diarios se aumentará lentamente ... La dosis
+      máxima recomendada es de 1200 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Los comprimidos pueden ingerirse durante, después o entre las comidas con un poco de líquido. Las presentaciones
+    de liberación prolongada deben tragarse enteras sin masticar.
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2 Forma de administración: "Los comprimidos pueden ingerirse durante, después o entre las comidas con un poco
+      de líquido"'
+ajusteRenalHepatico:
+  renal: No se dispone de datos de carbamazepina en pacientes con insuficiencia renal.
+  hepatico: No se dispone de datos de carbamazepina en pacientes con insuficiencia hepática.
+  fuente:
+    ref: CIMA-CARBAMAZEPINA
+    detalle: '4.2 Poblaciones especiales: "No se dispone de datos de carbamazepina en pacientes con insuficiencia hepática
+      o renal"'
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para carbamazepina.'
+- Para niños pequeños que requieran dosis iniciales de 20-60 mg se requiere formulación líquida o fraccionamiento específico
+  no cubierto por comprimidos de 200 mg.
+meta: {}

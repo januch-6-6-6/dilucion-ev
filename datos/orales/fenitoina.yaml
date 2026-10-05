@@ -1,0 +1,104 @@
+id: fenitoina
+nombre: Fenitoína
+comerciales:
+- Epanutin
+- Fenitoína
+grupo: anticonvulsivante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-100-mg
+  forma: capsula
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: Epanutin 100 mg cápsulas duras (de fenitoína sódica); el arsenal de APS lista comprimido 100 mg
+dosis:
+- indicacion: 'Epilepsia: mantenimiento (adultos sin tratamiento previo)'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 300
+  max: 300
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: Dosis de inicio 300 mg al día dividida en 3 tomas (100 mg cada 8 horas). Ajustar según niveles plasmáticos (rango
+    terapéutico habitual 10-20 mcg/ml)
+  texto: Inicial 100 mg c/8 h (300 mg/día); ajustar individualmente según niveles plasmáticos
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2 Adultos: "comenzar con una dosis de inicio de 300 mg al día, dividida en tres tomas iguales (1 cápsula de
+      100 mg cada 8 horas antes de las comidas)"'
+- indicacion: 'Epilepsia: dosis de carga oral (adultos en ámbito hospitalario/supervisado)'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 3
+  intervaloH: 2
+  estatus: autorizada
+  condicion: 1000 mg divididos en 3 tomas (400 mg, 300 mg, 300 mg) a intervalos de 2 horas con monitorización clínica
+  texto: 1000 mg divididos en 3 tomas (400 + 300 + 300 mg) cada 2 horas
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2 Dosis de carga por vía oral: "1.000 mg de fenitoína dividida en tres dosis (400 mg, 300 mg, 300 mg) administradas
+      a intervalos de 2 horas"'
+- indicacion: 'Epilepsia: inicio y mantenimiento (niños y adolescentes)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 5
+  max: 5
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 300
+    unidad: mg
+  estatus: autorizada
+  condicion: Dosis inicial 5 mg/kg/día en 2 o 3 tomas. Mantenimiento habitual 4-8 mg/kg/día hasta un máximo de 300 mg al día.
+    Pediamécum señala que en niños mayores se puede usar 8-10 mg/kg/día
+  texto: Inicio 5 mg/kg/día en 2-3 tomas; mantenimiento 4-8 mg/kg/día (máximo 300 mg/día)
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2 Población pediátrica: "La dosis inicial recomendada es de 5 mg/kg/día dividido en 2-3 tomas iguales ...
+      hasta un máximo de 300 mg al día. La dosis diaria de mantenimiento recomendada es de 4 mg/ kg/ día a 8 mg/ kg/ día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis pediátrica de mantenimiento en niños mayores
+  valores:
+  - fuente: CIMA-FENITOINA
+    valor: Mantenimiento 4-8 mg/kg/día, máximo 300 mg/día
+  - fuente: PEDIAMECUM-FENITOINA
+    valor: En niños más mayores se recomienda 8-10 mg/kg/día (máximo 300 mg/día)
+  mostrado: 4-8 mg/kg/día
+  motivo: Pediamécum amplía el mantenimiento en niños mayores hasta 8-10 mg/kg/día, lo que a pesos intermedios puede saturar
+    la cinética no lineal de Michaelis-Menten. Se conserva la recomendación de 4-8 mg/kg/día con tope de 300 mg/día.
+administracion:
+  comida: antes
+  texto: Tomar con al menos medio vaso de agua. Administrar preferentemente antes de las comidas; si produce molestias gastrointestinales
+    se puede tomar durante o después de las comidas.
+  fuente:
+    ref: CIMA-FENITOINA
+    detalle: '4.2 Forma de administración: "tomarse por lo menos medio vaso de agua ... antes de las comidas ... o durante
+      o después de las comidas"'
+ajusteRenalHepatico:
+  renal: No requiere ajuste de dosis en insuficiencia renal; considerar monitoreo de fenitoína libre.
+  hepatico: 'Metabolismo hepático saturable: ajustar individualmente según niveles plasmáticos y respuesta clínica.'
+  fuente:
+    ref: PEDIAMECUM-FENITOINA
+    detalle: Insuficiencia renal o hepática (Pediamécum) y CIMA 4.2
+alertas:
+- 'Cinética no lineal (saturable): pequeños incrementos de dosis pueden provocar grandes aumentos en los niveles plasmáticos
+  y toxicidad.'
+- Cápsulas de 100 mg no son adecuadas para niños con peso inferior a 20 kg que requieran dosificación fraccionada fina.
+meta: {}

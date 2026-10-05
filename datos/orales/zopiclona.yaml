@@ -1,0 +1,63 @@
+id: zopiclona
+nombre: Zopiclona
+comerciales:
+- Limovan
+- Zopiclona
+grupo: hipnotico-ansiolitico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-7-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 7.5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ZOPICLONA
+    detalle: Limován 7,5 mg comprimidos recubiertos con película (ranurados que permiten división en dos mitades de 3,75 mg);
+      el arsenal de APS lista comprimido 7,5 mg
+dosis:
+- indicacion: Insomnio transitorio o de corta duración (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 7.5
+  max: 7.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 7.5
+    unidad: mg
+  estatus: autorizada
+  condicion: 7,5 mg por vía oral antes de acostarse. Esta dosis de 7,5 mg no debe ser sobrepasada. En pacientes de edad avanzada
+    o con insuficiencia hepática, renal o respiratoria iniciar con 3,75 mg
+  texto: 7,5 mg al acostarse (máximo estricto 7,5 mg/día; 3,75 mg en ancianos o insuficiencia hepática/renal)
+  fuente:
+    ref: CIMA-ZOPICLONA
+    detalle: '4.2 Adultos: "La dosis recomendada para adultos es de 7,5 mg de Limován por vía oral, antes de acostarse. Esta
+      dosis de 7,5 mg no debe ser sobrepasada"'
+pediatria:
+  estado: solo_adulto
+  motivo: Contraindicada en niños y adolescentes menores de 18 años por ausencia de datos de seguridad y eficacia (CIMA)
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Tomar inmediatamente antes de acostarse, asegurando un periodo de sueño ininterrumpido de 7 a 8 horas.
+  fuente:
+    ref: CIMA-ZOPICLONA
+    detalle: 4.2 Posología y forma de administración
+ajusteRenalHepatico:
+  renal: Iniciar con 3,75 mg (medio comprimido); aumentar a 7,5 mg solo en caso necesario.
+  hepatico: Iniciar con 3,75 mg (medio comprimido); aumentar a 7,5 mg solo en caso necesario.
+  fuente:
+    ref: CIMA-ZOPICLONA
+    detalle: 4.2 Insuficiencia hepática e Insuficiencia renal
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para zopiclona.'
+- 'Tratamiento de corta duración: no superar las 4 semanas de tratamiento incluyendo el periodo de retirada gradual.'
+- Riesgo de amnesia anterógrada y sonambulismo si no se dispone de 7-8 horas de reposo tras la toma.
+meta: {}

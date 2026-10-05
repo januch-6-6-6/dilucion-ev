@@ -1,0 +1,125 @@
+id: risperidona
+nombre: Risperidona
+comerciales:
+- Risperdal
+- Risperidona
+grupo: antipsicotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: solucion-oral-1-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-RISPERIDONA-62096
+    detalle: Risperdal 1 mg/ml solución oral (jeringa dosificadora graduada; mínimo medible 0,25 mg)
+- id: comprimido-1-mg
+  forma: comprimido
+  cantidad:
+    valor: 1
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-RISPERIDONA-60336
+    detalle: Risperdal 1 mg comprimidos recubiertos con película (ranurados en mitades); el arsenal de APS lista 1 mg
+- id: comprimido-3-mg
+  forma: comprimido
+  cantidad:
+    valor: 3
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.01: Risperidona, Comprimido 3 mg'
+dosis:
+- indicacion: Esquizofrenia (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 2
+  max: 2
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 16
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Día 1: 2 mg/día; día 2: 4 mg/día. Dosis habitual 4 a 6 mg/día en 1 o 2 tomas. Dosis >10 mg/día no muestran mayor
+    eficacia y aumentan extrapiramidales. Máximo evaluado 16 mg/día'
+  texto: 'Día 1: 2 mg/día; día 2: 4 mg/día; habitual 4-6 mg/día; máximo 16 mg/día'
+  fuente:
+    ref: CIMA-RISPERIDONA-60336
+    detalle: '4.2 Esquizofrenia: "comenzando con 2 mg de risperidona ... aumentarse hasta 4 mg el día 2 ... mayoría resultarán
+      beneficiados con 4 a 6 mg/día ... seguridad no evaluada >16 mg/día"'
+- indicacion: Irritabilidad y agresión en autismo (niños ≥5 años y adolescentes <50 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 0.25
+  max: 0.25
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 1.5
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicio 0,25 mg una vez al día. Incrementar en 0,25 mg cada ≥14 días. Dosis óptima habitual: 0,5 mg/día (rango
+    0,25-0,75 mg/día). Pediamécum fija tope en ≤20 kg de 1,5 mg/día y en >20 kg de 2,5 mg/día'
+  texto: Inicial 0,25 mg/día; óptima 0,5 mg/día (rango 0,25-0,75 mg/día); máximo 1,5 mg/día
+  presentaciones:
+  - solucion-oral-1-mg-ml
+  fuente:
+    ref: CIMA-RISPERIDONA-62096
+    detalle: '4.2 Población pediátrica: "pacientes de <50 kg de peso se recomienda una dosis inicial de 0,25 mg una vez al
+      día ... dosis óptima es de 0,5 mg una vez al día ... rango de 0,25 a 0,75 mg/día" y Pediamécum: "≤20 kg ... Dosis máxima
+      1,5 mg/día"'
+- indicacion: Irritabilidad y agresión en autismo (niños ≥5 años y adolescentes ≥50 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 0.5
+  max: 0.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 3.5
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicio 0,5 mg una vez al día. Incrementar en 0,5 mg cada ≥14 días. Dosis óptima habitual: 1 mg/día (rango 0,5-1,5
+    mg/día). Pediamécum fija tope en >45 kg de 3,5 mg/día'
+  texto: Inicial 0,5 mg/día; óptima 1 mg/día (rango 0,5-1,5 mg/día); máximo 3,5 mg/día
+  fuente:
+    ref: CIMA-RISPERIDONA-62096
+    detalle: '4.2 Población pediátrica: "pacientes de ≥50 kg ... dosis inicial de 0,5 mg una vez al día ... dosis óptima es
+      de 1 mg una vez al día" y Pediamécum: "Niños >45 kg ... Dosis máxima: 3,5 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Se puede tomar con o sin alimentos. La solución oral se puede mezclar con agua, leche o zumo de naranja, pero NO
+    con té ni bebidas de cola.
+  fuente:
+    ref: CIMA-RISPERIDONA-62096
+    detalle: 4.2 Forma de administración y Pediamécum
+ajusteRenalHepatico:
+  renal: Reducir la dosis inicial y de mantenimiento a la mitad; titular más lentamente.
+  hepatico: Reducir la dosis inicial y de mantenimiento a la mitad; titular más lentamente.
+  fuente:
+    ref: CIMA-RISPERIDONA-60336
+    detalle: '4.2 Insuficiencia renal y hepática: "tanto la dosis inicial como las consecutivas deben reducirse a la mitad"'
+alertas:
+- 'Esquizofrenia y manía bipolar: no recomendada en niños y adolescentes menores de 18 años por falta de eficacia.'
+- La dosis mínima medible con la jeringa de solución oral es de 0,25 mg (0,25 ml).
+- Riesgo de hiperprolactinemia, aumento de peso y síntomas extrapiramidales dosis-dependientes.
+meta: {}

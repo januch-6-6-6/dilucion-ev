@@ -1,0 +1,106 @@
+id: quetiapina
+nombre: Quetiapina
+comerciales:
+- Qudix
+- Seroquel
+grupo: antipsicotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.01.03: Quetiapina, Comprimido 25 mg (de liberación inmediata)'
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-QUETIAPINA-70169
+    detalle: Qudix 100 mg comprimidos recubiertos con película (liberación inmediata)
+- id: comprimido-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-QUETIAPINA-70170
+    detalle: Qudix 200 mg comprimidos recubiertos con película (liberación inmediata)
+dosis:
+- indicacion: Esquizofrenia (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 750
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Titulación en 2 tomas diarias: día 1: 50 mg; día 2: 100 mg; día 3: 200 mg; día 4: 300 mg. Dosis habitual efectiva:
+    300-450 mg/día (rango terapéutico 150-750 mg/día)'
+  texto: 'Días 1-4: 50, 100, 200, 300 mg/día en 2 tomas; habitual 300-450 mg/día; rango 150-750 mg/día'
+  fuente:
+    ref: CIMA-QUETIAPINA-70169
+    detalle: '4.2 Esquizofrenia: "dos veces al día ... 50 mg (Día 1), 100 mg (Día 2), 200 mg (Día 3) y 300 mg (Día 4) ...
+      rango de 150 a 750 mg/día"'
+- indicacion: Episodios maníacos en trastorno bipolar (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 800
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Titulación en 2 tomas diarias: día 1: 100 mg; día 2: 200 mg; día 3: 300 mg; día 4: 400 mg. Aumentos de hasta
+    200 mg/día hasta máximo 800 mg/día en el día 6. Habitual 400-800 mg/día'
+  texto: 'Días 1-4: 100, 200, 300, 400 mg/día en 2 tomas; titular hasta máximo 800 mg/día en el día 6'
+  fuente:
+    ref: CIMA-QUETIAPINA-70169
+    detalle: '4.2 Episodios maníacos: "100 mg (Día 1), 200 mg (Día 2), 300 mg (Día 3) y 400 mg (Día 4) ... hasta 800 mg/día
+      en el Día 6 ... rango de 400 a 800 mg/día"'
+pediatria:
+  estado: solo_adulto
+  motivo: No se debe utilizar en niños ni adolescentes menores de 18 años debido a la falta de datos que avalen su uso y aumento
+    de efectos adversos tiroideos y extrapiramidales (CIMA)
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Los comprimidos de liberación inmediata se pueden administrar con o sin alimentos, divididos en dos tomas al día
+    (mañana y noche). Tragarse enteros con agua.
+  fuente:
+    ref: CIMA-QUETIAPINA-70169
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No se requiere ajuste posológico en pacientes con insuficiencia renal.
+  hepatico: 'Metabolismo hepático extenso: iniciar con 25 mg/día e incrementar diariamente en 25-50 mg/día según respuesta.'
+  fuente:
+    ref: CIMA-QUETIAPINA-70169
+    detalle: 4.2 Insuficiencia renal e Insuficiencia hepática
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para quetiapina.'
+- 'Formulación de liberación inmediata (Qudix / arsenal 25 mg): no intercambiable directamente mg a mg con la de liberación
+  prolongada.'
+- Riesgo de hipotensión ortostática y somnolencia durante la fase de titulación inicial.
+meta: {}

@@ -1,0 +1,125 @@
+id: lamotrigina
+nombre: Lamotrigina
+comerciales:
+- Crisomet
+- Lamictal
+grupo: anticonvulsivante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-masticable-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: Crisomet 100 mg comprimidos masticables/dispersables; el arsenal de APS lista comprimido 100 mg
+- id: comprimido-masticable-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Lamotrigina, Comprimido bucodispersable/masticable 25 mg'
+- id: comprimido-masticable-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 05.01: Lamotrigina, Comprimido 50 mg'
+dosis:
+- indicacion: 'Epilepsia: monoterapia inicial semanas 1 y 2 (adultos y adolescentes ≥13 años)'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Semanas 1 y 2: 25 mg una vez al día. Semanas 3 y 4: 50 mg una vez al día. Mantenimiento habitual: 100-200 mg/día
+    en 1 o 2 tomas (hasta 500 mg/día)'
+  texto: 'Semanas 1+2: 25 mg/día; semanas 3+4: 50 mg/día; mantenimiento 100-200 mg/día (máx. 500 mg/día)'
+  presentaciones:
+  - comprimido-masticable-25-mg
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: 'Tabla 1 Adultos y adolescentes de 13 años y en adelante: Monoterapia: "Semanas 1 + 2: 25 mg/día; Semanas 3 +
+      4: 50 mg/día; Mantenimiento habitual: 100-200 mg/día"'
+- indicacion: 'Epilepsia: monoterapia crisis de ausencia (niños de 2 a 12 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.3
+  max: 0.3
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 200
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Semanas 1 y 2: 0,3 mg/kg/día en 1 o 2 tomas. Semanas 3 y 4: 0,6 mg/kg/día. Mantenimiento habitual: 1-15 mg/kg/día
+    en 1 o 2 tomas (máximo 200 mg/día)'
+  texto: 'Semanas 1+2: 0,3 mg/kg/día; semanas 3+4: 0,6 mg/kg/día; mantenimiento 1-15 mg/kg/día (máx. 200 mg/día)'
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: 'Tabla 2 Niños entre 2 y 12 años: Monoterapia en crisis de ausencia típica: "Semanas 1 + 2: 0,3 mg/kg/día ...
+      Semanas 3 + 4: 0,6 mg/kg/día ... Mantenimiento: 1-15 mg/kg/día ... dosis de mantenimiento máxima de 200 mg/día"'
+- indicacion: 'Epilepsia: terapia complementaria con valproato (niños de 2 a 12 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.15
+  max: 0.15
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 200
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Valproato inhibe la glucuronidación de lamotrigina: semanas 1 y 2: 0,15 mg/kg/día; semanas 3 y 4: 0,3 mg/kg/día;
+    mantenimiento 1-5 mg/kg/día (máximo 200 mg/día)'
+  texto: 'Con valproato: semanas 1+2: 0,15 mg/kg/día; semanas 3+4: 0,3 mg/kg/día; mantenimiento 1-5 mg/kg/día (máx. 200 mg/día)'
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: 'Tabla 2 Terapia complementaria con valproato: "Semanas 1 + 2: 0,15 mg/kg/día ... Mantenimiento habitual: 1-5
+      mg/kg/día ... máxima de 200 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Los comprimidos masticables/dispersables se pueden masticar, disolver en un pequeño volumen de agua (al menos suficiente
+    para cubrir el comprimido) o tragarse enteros con agua. Si la dosis calculada no equivale a comprimidos enteros, redondear
+    hacia abajo.
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: 4.2 Forma de administración y posología general
+ajusteRenalHepatico:
+  renal: Usar con precaución; la acumulación del metabolito glucurónido es esperable en insuficiencia renal terminal.
+  hepatico: Reducir las dosis inicial, de escalada y de mantenimiento aproximadamente en un 50 % en insuficiencia moderada
+    (Child-Pugh B) y en un 75 % en insuficiencia grave (Child-Pugh C).
+  fuente:
+    ref: CIMA-LAMOTRIGINA
+    detalle: 4.2 Insuficiencia hepática e Insuficiencia renal
+alertas:
+- 'Riesgo de erupción cutánea grave (síndrome de Stevens-Johnson / necrólisis epidérmica tóxica): respetar estrictamente la
+  pauta lenta de escalada. Suspender al primer signo de exantema.'
+- Si se interrumpe el tratamiento durante más de 5 semividas, reiniciar la escalada desde la dosis inicial.
+meta: {}

@@ -1,0 +1,75 @@
+id: escitalopram
+nombre: Escitalopram
+comerciales:
+- Cipralex
+- Escitalopram Cinfa
+grupo: antidepresivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ESCITALOPRAM-71430
+    detalle: Escitalopram Cinfa 10 mg comprimidos (ranurados que permiten división en mitades); el arsenal de APS lista comprimido
+      10 mg
+- id: gotas-20-mg-ml
+  forma: gotas
+  concentracion:
+    valor: 20
+    unidad: mg
+  gotasPorMl: 20
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ESCITALOPRAM-76398
+    detalle: Escitalopram Cinfa 20 mg/ml gotas orales en solución (1 gota = 1 mg escitalopram)
+dosis:
+- indicacion: Depresión mayor y trastornos de ansiedad (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Dosis habitual 10 mg una vez al día. En trastorno de angustia iniciar con 5 mg/día la primera semana. Según
+    respuesta puede aumentarse hasta un máximo de 20 mg/día. Pacientes >65 años: inicio 5 mg, máx. 10 mg/día'
+  texto: Inicial 10 mg/día (5 mg/día en angustia o ancianos); máximo 20 mg/día (máx. 10 mg/día en ancianos)
+  fuente:
+    ref: CIMA-ESCITALOPRAM-71430
+    detalle: '4.2 Posología: "La dosis recomendada es de 10 mg una vez al día ... puede aumentarse hasta un máximo de 20 mg"'
+pediatria:
+  estado: solo_adulto
+  motivo: No debe utilizarse en el tratamiento de niños y adolescentes menores de 18 años por falta de eficacia y aumento
+    de comportamientos suicidas en ensayos clínicos (CIMA)
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Administrar en dosis única diaria (por la mañana o por la noche), con o sin alimentos. Las gotas pueden mezclarse
+    con agua, zumo de naranja o zumo de manzana.
+  fuente:
+    ref: CIMA-ESCITALOPRAM-71430
+    detalle: 4.2 Forma de administración y CIMA 76398
+ajusteRenalHepatico:
+  renal: No es necesario ajuste en insuficiencia renal leve o moderada; precaución con ClCr <30 ml/min.
+  hepatico: Inicio 5 mg/día durante las primeras 2 semanas; según respuesta aumentar hasta máximo 10 mg/día.
+  fuente:
+    ref: CIMA-ESCITALOPRAM-71430
+    detalle: 4.2 Insuficiencia renal e Insuficiencia hepática
+alertas:
+- 'Ficha de fuente única: se apoya exclusivamente en CIMA (España); Pediamécum no dispone de monografía para escitalopram.'
+- 1 gota de solución oral equivale exactamente a 1 mg de escitalopram (20 gotas/ml).
+meta: {}

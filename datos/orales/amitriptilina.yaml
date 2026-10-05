@@ -1,0 +1,135 @@
+id: amitriptilina
+nombre: Amitriptilina
+comerciales:
+- Tryptizol
+- Amitriptilina
+grupo: antidepresivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 20.02.01.01: Amitriptilina, Comprimido 25 mg'
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: Tryptizol 10 mg comprimidos recubiertos con película
+dosis:
+- indicacion: Depresión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 75
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 75
+    unidad: mg
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicial 25 mg 2 veces al día (50 mg/día). Aumentar de a 25 mg en días alternos hasta 100-150 mg/día en 2 tomas
+    (máximo 150 mg/día; 75 mg por toma). Ancianos: inicio 10-25 mg/día'
+  texto: Inicial 25 mg 2 veces/día (50 mg/día); titular hasta 100-150 mg/día divididos en dos tomas (máx. 75 mg/toma, 150
+    mg/día)
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: '4.2 Adultos: "Inicialmente, 25 mg 2 veces al día (50 mg al día) ... hasta un máximo de 150 mg al día divididos
+      en dos tomas"'
+- indicacion: Dolor neuropático y profilaxis de migraña (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 75
+    unidad: mg
+  estatus: autorizada
+  condicion: Dosis inicial 10-25 mg por la noche; aumentar en 10-25 mg cada 3-7 días. Dosis habitual 25-75 mg/día en toma
+    única nocturna (no se recomienda dosis única superior a 75 mg)
+  texto: Inicial 10-25 mg por la noche; aumentar cada 3-7 días; habitual 25-75 mg nocturnos (máximo 75 mg/dosis única)
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: '4.2 Dolor neuropático y profilaxis de cefalea/migraña: "La dosis inicial debe ser de 10 mg-25 mg por la noche
+      ... No se recomienda una dosis única superior a 75 mg"'
+- indicacion: Enuresis nocturna (niños de 6 a 10 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 20
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: autorizada
+  condicion: 10 a 20 mg al acostarse. Administrar 1-2 horas antes de acostarse. El tratamiento no debe superar los 3 meses
+    sin revisión médica
+  texto: 10-20 mg al acostarse (máx. 20 mg/día; no superar 3 meses seguidos)
+  presentaciones:
+  - comprimido-10-mg
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: '4.2 Niños de 6 a 10 años: "10 mg ‑ 20 mg al día" y Pediamécum: "10-20 mg al acostarse. No exceder 3 meses sin
+      revisión"'
+- indicacion: Enuresis nocturna (niños y adolescentes ≥11 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: autorizada
+  condicion: 25 a 50 mg al acostarse. Administrar 1-2 horas antes de acostarse. No superar los 3 meses sin revisión médica
+  texto: 25-50 mg al acostarse (máx. 50 mg/día; no superar 3 meses seguidos)
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: '4.2 Niños ≥11 años: "25 mg – 50 mg al día" y Pediamécum: "25-50 mg por la noche"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: Tomar con comidas para disminuir los síntomas gastrointestinales. En dosis única diaria administrar preferentemente
+    por la noche antes de acostarse por su marcado efecto sedante.
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: 4.2 Forma de administración y Pediamécum
+ajusteRenalHepatico:
+  renal: Se puede administrar en dosis habituales en insuficiencia renal.
+  hepatico: Administrar con precaución; considerar reducción del 50 % de la dosis de inicio por menor metabolismo.
+  fuente:
+    ref: CIMA-AMITRIPTILINA
+    detalle: 4.2 Pacientes con insuficiencia renal o hepática
+alertas:
+- No autorizada para depresión en niños y adolescentes menores de 18 años (uso pediátrico autorizado restringido a enuresis
+  nocturna).
+- 'Efectos anticolinérgicos marcados: sequedad bucal, estreñimiento, retención urinaria y riesgo de prolongación del intervalo
+  QT.'
+meta: {}
