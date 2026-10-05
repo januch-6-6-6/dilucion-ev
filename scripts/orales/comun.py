@@ -106,14 +106,14 @@ def fuente_cima(k, nreg, nombre, *, varios=False, anio=2026):
     }
 
 
-def fuente_pediamecum_oral(k, nombre=None, *, slug=None):
+def fuente_pediamecum_oral(k, nombre=None, anio=None, slug=None):
     """`slug` = nombre del archivo en datos/crudos/orales/pediamecum/ (por defecto k)."""
     return {
         'id': f'PEDIAMECUM-{k.upper()}',
         'titulo': f'Pediamécum: {nombre or k.capitalize()} (Dosis y pautas de administración)',
         'institucion': PEDIAMECUM_INSTITUCION,
         'url': f'https://www.aeped.es/comites/cm/pediamecum/principios-activos/{slug or k}',
-        'anio': 2026,
+        'anio': anio or 2026,
         'consultado': CONSULTA,
     }
 
