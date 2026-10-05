@@ -120,3 +120,20 @@ def fuente_pediamecum_oral(k, nombre=None, anio=None, slug=None):
 
 def fuente_externa(id, titulo, institucion, url, anio):
     return {'id': id, 'titulo': titulo, 'institucion': institucion, 'url': url, 'anio': anio, 'consultado': CONSULTA}
+
+
+ARSENAL = 'ARSENAL-APS-ATACAMA'
+
+
+def fuente_arsenal():
+    """Arsenal farmacoterapéutico de APS de Atacama (datos/crudos/orales/arsenal-atacama-2026-08-12.txt).
+
+    La URL se arma con el número de edición (44.523) y el CVE (2850499) que figuran en el propio texto.
+    """
+    return fuente_externa(
+        ARSENAL,
+        'Arsenal farmacoterapéutico básico de APS, Región de Atacama (Res. exenta CP16.328; Diario Oficial 12-ago-2026, CVE 2850499)',
+        'Servicio de Salud Atacama',
+        'https://www.diariooficial.interior.gob.cl/publicaciones/2026/08/12/44523/01/2850499.pdf',
+        2026,
+    )

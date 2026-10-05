@@ -1,0 +1,117 @@
+id: prednisona
+nombre: Prednisona
+comerciales:
+- Prednisona Cinfa
+grupo: corticoide
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PREDNISONA
+    detalle: Prednisona Cinfa 10 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 03.03: Prednisona, Comprimido 5 mg'
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 03.03: Prednisona, Comprimido 20 mg'
+- id: suspension-4-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 4
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 03.03: Prednisona, Suspensión oral 20 mg/5 mL (= 4 mg por 1 ml)'
+dosis:
+- indicacion: Asma bronquial (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 15
+  max: 60
+  tomasPorDia: 3
+  estatus: autorizada
+  condicion: La dosis depende de la indicación y la gravedad; reducir progresivamente, no suspender bruscamente
+  texto: 15-60 mg al día; como norma general repartidos en 3-4 tomas (en algunos casos dosis única por la mañana)
+  fuente:
+    ref: CIMA-PREDNISONA
+    detalle: '4.2.1: "Asma bronquial: de 15 mg a 60 mg al día"; forma de administración: "repartirse en 3 o 4 tomas"'
+- indicacion: Dosis intermedias (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 1
+  tomasPorDia: 3
+  estatus: autorizada
+  condicion: 'Dosis altas: 2-3 mg/kg/día; mantenimiento: 0,25 mg/kg/día. En niños en crecimiento, preferir pauta alternante
+    o intermitente'
+  texto: 1 mg/kg/día (dosis intermedias); dosis diaria repartida en 3-4 tomas
+  fuente:
+    ref: CIMA-PREDNISONA
+    detalle: '4.2.1 Dosificación en niños (dosis diarias): "Tratamiento con dosis intermedias: 1 mg prednisona/kg peso corporal"'
+- indicacion: 'Asma: exacerbación aguda (niños <12 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 2
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 60
+    unidad: mg
+  estatus: autorizada
+  texto: 1-2 mg/kg/día divididos en 2 dosis; máximo 60 mg/día
+  fuente:
+    ref: PEDIAMECUM-PREDNISONA
+    detalle: 'Asma, niños <12 años: "Exacerbaciones agudas: 1-2 mg/kg/día, divididos en 2 dosis (máximo: 60 mg/día)"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: despues
+  texto: Dosis diaria repartida en 3-4 tomas, preferentemente después de las comidas y al acostarse; en algunos casos, dosis
+    única por la mañana. Comprimidos enteros con suficiente líquido.
+  fuente:
+    ref: CIMA-PREDNISONA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico: null
+alertas:
+- La dosis depende de la indicación y de la gravedad; ver la fuente para cada enfermedad (CIMA da pautas de 5 a 300 mg/día
+  según indicación).
+- 'Tratamientos prolongados: no suspender bruscamente; reducir gradualmente según el esquema de la ficha técnica (CIMA, 4.2).'
+- En niños en fase de crecimiento, el tratamiento debería ser alternante o intermitente (CIMA, 4.2).
+- Pediamécum agrega pautas de asma para ≥12 años (40-80 mg/día en exacerbaciones) y por edad; no se cargan.
+meta: {}

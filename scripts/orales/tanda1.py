@@ -1,5 +1,16 @@
-"""Orales, tanda 1: analgésicos y antiinflamatorios (por ahora, solo paracetamol)."""
+"""Orales, tanda 1: punto de entrada único (Ruling 1).
+
+Paracetamol vive aquí; el resto de analgésicos y afines en `tanda1a`, y los antiinfecciosos en `tanda1b`.
+"""
+from . import tanda1a
 from .comun import (dosis, discrepancia, ficha_oral, fu, fuente_cima, fuente_pediamecum_oral, pres)
+
+try:
+    from . import tanda1b
+except ImportError:
+    tanda1b = None
+
+SUBMODULOS = [m for m in (tanda1a, tanda1b) if m is not None]
 
 INF = 'CIMA-PARACETAMOL-83208'  # Antidol infantil 100 mg/ml solución oral
 G1 = 'CIMA-PARACETAMOL-85780'  # Antidol 1 g comprimidos
@@ -7,6 +18,11 @@ PED = 'PEDIAMECUM-PARACETAMOL'
 
 
 def fuentes():
+    propias = _fuentes_paracetamol()
+    return propias + [f for m in SUBMODULOS for f in m.fuentes()]
+
+
+def _fuentes_paracetamol():
     return [
         fuente_cima('paracetamol', '83208', 'Antidol infantil 100 mg/ml solución oral', varios=True),
         fuente_cima('paracetamol', '85780', 'Antidol 1 g comprimidos', varios=True),
@@ -69,4 +85,11 @@ def paracetamol():
 
 
 def fichas():
-    return {'paracetamol': paracetamol()}
+    todas = {'paracetamol': paracetamol()}
+    for m in SUBMODULOS:
+        nuevas = m.fichas()
+        repetidas = set(nuevas) & set(todas)
+        if repetidas:
+            raise SystemExit(f'ficha repetida en tanda 1: {sorted(repetidas)}')
+        todas.update(nuevas)
+    return todas

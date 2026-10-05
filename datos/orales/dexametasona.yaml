@@ -1,0 +1,104 @@
+id: dexametasona
+nombre: Dexametasona
+comerciales:
+- Dexametasona Abdrug
+grupo: corticoide
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: 'Dexametasona Abdrug 20 mg: "Los comprimidos se pueden dividir en dosis iguales" (4.2)'
+- id: comprimido-4-mg
+  forma: comprimido
+  cantidad:
+    valor: 4
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: "se presenta en forma de comprimidos de 4 mg, 8 mg y 20 mg. Los comprimidos se pueden dividir en dosis
+      iguales"'
+- id: comprimido-8-mg
+  forma: comprimido
+  cantidad:
+    valor: 8
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: "se presenta en forma de comprimidos de 4 mg, 8 mg y 20 mg. Los comprimidos se pueden dividir en dosis
+      iguales"'
+dosis:
+- indicacion: Dosis habitual según la enfermedad (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 0.5
+  max: 10
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: La dosis depende de la indicación; en situaciones graves pueden requerirse más de 10 mg/día
+  texto: 0,5-10 mg al día, como única dosis por la mañana cuando no es posible el tratamiento en días alternos
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: '4.2: "Dexametasona se da en dosis habituales de 0,5 a 10 mg al día"; "única dosis por la mañana"'
+- indicacion: Crup (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 0.6
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Dosis única; según la evolución puede continuarse con 0,15 mg/kg cada 6 h
+  texto: Dosis única de 0,6 mg/kg vía oral
+  fuente:
+    ref: PEDIAMECUM-DEXAMETASONA
+    detalle: 'Niños <12 años: "Crou ( E : off-label ): dosis única de 0,6 mg/kg VO o IM"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Forma de dosificar en niños
+  valores:
+  - fuente: CIMA-DEXAMETASONA
+    valor: 'CIMA: no da mg/kg; la dosis pediátrica se ajusta en función de la superficie corporal'
+  - fuente: PEDIAMECUM-DEXAMETASONA
+    valor: 'Pediamécum: dosis por indicación en mg/kg (crup, edema cerebral, edema de vía aérea, etc.)'
+  mostrado: Se muestra la dosis oral de crup de Pediamécum, marcada como off-label
+  motivo: Diferencia de método (superficie corporal frente a mg/kg), no de cifra.
+administracion:
+  comida: con_comida
+  texto: Junto con o después de las comidas para minimizar la irritación gastrointestinal.
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Pacientes en hemodiálisis activa: puede aumentar el aclaramiento por diálisis y requerir ajuste de la dosis.'
+  hepatico: 'Insuficiencia hepática grave: puede ser necesario ajustar la dosis (efectos potenciados por metabolismo más lento
+    e hipoalbuminemia).'
+  fuente:
+    ref: CIMA-DEXAMETASONA
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- La dosis depende de la indicación; ver la fuente (CIMA da pautas propias para emesis por quimioterapia, mieloma, púrpura,
+  miositis y otras indicaciones).
+- 'Dexametasona Abdrug es un medicamento de dosis alta: usar la menor dosis efectiva (CIMA, 4.2).'
+- 'Pediamécum: la pauta antiinflamatoria de 0,08-0,3 mg/kg/día es por vía IM o IV; no se carga como dosis oral.'
+- 'Tratamientos prolongados: reducir gradualmente; tras la terapia inicial, cambiar a prednisona/prednisolona (CIMA, 4.2).'
+- Evitar bebidas con alcohol o cafeína (CIMA, 4.2).
+meta: {}

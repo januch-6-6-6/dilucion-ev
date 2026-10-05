@@ -1,0 +1,88 @@
+id: ketorolaco
+nombre: Ketorolaco
+comerciales:
+- Ketorolaco Qualigen
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: Ketorolaco Qualigen 10 mg comprimidos (la ficha no menciona ranura ni partición)
+dosis:
+- indicacion: Dolor leve o moderado postoperatorio, a corto plazo (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 4
+  intervaloH: 6
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: Duración máxima 7 días; iniciar en el medio hospitalario
+  texto: 1 comprimido (10 mg) cada 4-6 horas; no sobrepasar 4 comprimidos al día (40 mg/día)
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: '4.2: "1 comprimido (10 mg) cada 4 a 6 horas ... no debiendo sobrepasar los 4 comprimidos al día (40 mg/día)"'
+- indicacion: Dolor (niños de 2 a 16 años, y >16 años con <50 kg)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 1
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 10
+    unidad: mg
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: off_label
+  condicion: Por lo general como continuación de un tratamiento IV o IM; no exceder 5 días consecutivos
+  texto: 1 mg/kg/dosis cada 4-6 horas (máximo 10 mg/dosis y 40 mg/día)
+  fuente:
+    ref: PEDIAMECUM-KETOROLACO
+    detalle: 'Oral: "1 mg/kg/dosis (máximo, 10 mg/dosis y 40 mg/día), cada 4-6 horas ( E: off-label )"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica
+  valores:
+  - fuente: CIMA-KETOROLACO
+    valor: 'CIMA: eficacia y seguridad no establecidas en niños; no se recomienda en menores de 16 años'
+  - fuente: PEDIAMECUM-KETOROLACO
+    valor: 'Pediamécum: oral 1 mg/kg/dosis en 2-16 años (off-label)'
+  mostrado: Se muestra la dosis pediátrica de Pediamécum, marcada como uso fuera de ficha técnica (off-label)
+  motivo: Coinciden en el tope (40 mg/día) y en la duración máxima; difieren en la edad mínima.
+administracion:
+  comida: indiferente
+  texto: Administración oral. La ficha técnica no indica relación con las comidas.
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: 4.2 Posología y forma de administración
+ajusteRenalHepatico:
+  renal: 'Contraindicado en insuficiencia renal moderada o grave (creatinina sérica >442 µmol/l). Con creatinina sérica 170-442
+    µmol/l: la mitad de la dosis recomendada, sin superar 60 mg/día, con control de la función renal.'
+  fuente:
+    ref: CIMA-KETOROLACO
+    detalle: 4.2 Pacientes con insuficiencia renal
+alertas:
+- Duración total máxima 7 días, sumando vía parenteral y oral; con ambas vías no superar 90 mg/día en adultos y 60 mg/día
+  en ancianos (CIMA, 4.2).
+- Contraindicado en úlcera péptica activa o antecedente de sangrado digestivo, asma, insuficiencia renal moderada a grave,
+  hipovolemia, embarazo, parto y lactancia (CIMA, 4.3).
+- 'Ancianos (≥65 años): dosis en el límite inferior del intervalo (CIMA, 4.2).'
+meta: {}

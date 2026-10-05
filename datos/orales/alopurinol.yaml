@@ -1,0 +1,125 @@
+id: alopurinol
+nombre: Alopurinol
+comerciales:
+- Alopurinol Cinfamed
+grupo: antigotoso
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: Alopurinol Cinfamed 100 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: comprimido-300-mg
+  forma: comprimido
+  cantidad:
+    valor: 300
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 02.03: Alopurinol, Comprimido 300 mg'
+dosis:
+- indicacion: Hiperuricemia, alteraciones leves (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 100
+  max: 200
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: Iniciar con dosis bajas (p. ej. 100 mg/día) y subir solo si el urato sérico no responde
+  texto: 100-200 mg diarios, una vez al día después de las comidas
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: '4.2: "100 a 200 mg diarios en alteraciones leves"; "una vez al día después de las comidas"'
+- indicacion: Hiperuricemia, alteraciones moderadas (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 300
+  max: 600
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: Si supera 300 mg y hay intolerancia digestiva, puede repartirse en varias tomas
+  texto: 300-600 mg diarios
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: '4.2: "300 a 600 mg diarios en alteraciones moderadas"'
+- indicacion: Hiperuricemia, alteraciones graves (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 700
+  max: 900
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: Si hay intolerancia digestiva, repartir en varias tomas
+  texto: 700-900 mg diarios
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: '4.2: "700 a 900 mg diarios en alteraciones graves"'
+- indicacion: Hiperuricemia asociada a enfermedades neoplásicas y quimioterapia (niños <15 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 10
+  max: 20
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Uso pediátrico raramente indicado salvo procesos malignos y alteraciones enzimáticas (CIMA). Ojo: las unidades
+    varían entre fuentes'
+  texto: '10-20 mg/kg/día cada 8 horas; tope 400 mg/día (CIMA: 100-400 mg diarios; Pediamécum: máximo 800 mg/día)'
+  fuente:
+    ref: PEDIAMECUM-ALOPURINOL
+    detalle: 'Vía oral: "Por peso 10-20 mg/kg/día cada 8 horas (dosis máxima: 800 mg/día)"; tope mostrado: CIMA 84085 4.2
+      "10 a 20 mg/kg ... o 100 a 400 mg diarios"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario pediátrico
+  valores:
+  - fuente: CIMA-ALOPURINOL
+    valor: '400 mg/día: niños <15 años, 10-20 mg/kg/día o 100-400 mg diarios (CIMA)'
+  - fuente: PEDIAMECUM-ALOPURINOL
+    valor: '800 mg/día: 10-20 mg/kg/día cada 8 h; por edad >10 años y adolescentes 600-800 mg/día (Pediamécum)'
+  mostrado: 400 mg/día
+  motivo: 'Mismo régimen y población (niños, por peso): se muestra el tope más bajo. La tabla por edad de Pediamécum (<6 años
+    150, 6-10 años 300, >10 años 600-800 mg/día) no se carga porque supera ese tope.'
+administracion:
+  comida: despues
+  texto: Una vez al día después de las comidas; se tolera mejor tras la ingesta. Si la dosis supera 300 mg y hay intolerancia
+    digestiva, repartir en varias tomas.
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: 4.2 Frecuencia de la dosificación
+ajusteRenalHepatico:
+  renal: 'Iniciar con un máximo de 100 mg/día y aumentar solo si la respuesta no es satisfactoria. Insuficiencia renal grave:
+    menos de 100 mg/día o 100 mg a intervalos mayores de un día. Diálisis 2-3 veces por semana: 300-400 mg inmediatamente
+    después de cada sesión.'
+  fuente:
+    ref: CIMA-ALOPURINOL
+    detalle: 4.2 Dosis recomendada en casos de insuficiencia renal / diálisis renal
+alertas:
+- 'Riesgo de error de unidad: las fuentes pediátricas dosifican en mg/m², mg/kg/día y mg fijos (Pediamécum).'
+- Iniciar a dosis bajas para reducir el riesgo de reacciones adversas (CIMA, 4.2).
+- Pediamécum describe además pautas por superficie corporal (50-100 mg/m²/dosis cada 8 h); no se cargan.
+meta: {}

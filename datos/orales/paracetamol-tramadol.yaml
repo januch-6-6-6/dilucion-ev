@@ -1,0 +1,65 @@
+id: paracetamol-tramadol
+nombre: Paracetamol + tramadol
+comerciales:
+- Captor
+grupo: analgesico-opioide
+ambitos:
+- aps
+altoRiesgo: true
+presentaciones:
+- id: comprimido-37-5-325-mg
+  forma: comprimido
+  cantidad:
+    valor: 37.5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PARACETAMOL-TRAMADOL
+    detalle: 'Captor 37,5 mg/325 mg: cantidad expresada en mg de tramadol (325 mg de paracetamol por comprimido); la ranura
+      de 37,5/325 sirve para fraccionar y facilitar la deglución, no para medias dosis (4.2.2)'
+dosis:
+- indicacion: Dolor moderado a intenso (adultos y adolescentes ≥12 años), en mg de tramadol
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 75
+  max: 75
+  tomasPorDia: 4
+  intervaloH: 6
+  topeDiario:
+    valor: 300
+    unidad: mg
+  estatus: autorizada
+  texto: Dosis inicial 2 comprimidos (2 × 37,5 mg de tramadol + 2 × 325 mg de paracetamol); intervalo mínimo 6 horas; máximo
+    8 comprimidos al día (300 mg de tramadol y 2600 mg de paracetamol)
+  fuente:
+    ref: CIMA-PARACETAMOL-TRAMADOL
+    detalle: '4.2.1: "dosis inicial de dos comprimidos ... sin exceder de 8 comprimidos (equivalente a 300 mg de tramadol
+      y 2600 mg de paracetamol) al día"; "El intervalo entre dosis no deberá ser menor de 6 horas"'
+pediatria:
+  estado: solo_adulto
+  motivo: 'La ficha técnica (Captor) no lo recomienda en menores de 12 años: seguridad y eficacia no establecidas.'
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Vía oral, con suficiente líquido; los comprimidos no deben masticarse. La ficha no indica relación con las comidas.
+  noTriturar: true
+  fuente:
+    ref: CIMA-PARACETAMOL-TRAMADOL
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Aclaramiento de creatinina 10-30 ml/min: aumentar el intervalo a 12 horas. <10 ml/min: no recomendado.'
+  hepatico: 'Insuficiencia hepática grave: no usar. Moderada: considerar prolongar el intervalo entre dosis.'
+  fuente:
+    ref: CIMA-PARACETAMOL-TRAMADOL
+    detalle: 4.2.1 Insuficiencia renal/diálisis e insuficiencia hepática
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Captor); no hay contraste con otra fuente.'
+- 'Cada comprimido contiene 37,5 mg de tramadol y 325 mg de paracetamol: la dosis y la presentación se expresan en mg de tramadol.'
+- No sumar con otros medicamentos con paracetamol o tramadol sin contar el total diario.
+- Contraindicado en insuficiencia hepática grave, epilepsia no controlada, con IMAO (o en las 2 semanas previas) e intoxicación
+  aguda por alcohol u opioides (CIMA, 4.3).
+- '>75 años: intervalo mínimo entre dosis no inferior a 6 horas (CIMA, 4.2).'
+meta: {}

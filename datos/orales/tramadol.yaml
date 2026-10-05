@@ -1,0 +1,139 @@
+id: tramadol
+nombre: Tramadol
+comerciales:
+- Adolonta
+- Adolonta retard
+grupo: analgesico-opioide
+ambitos:
+- aps
+altoRiesgo: true
+presentaciones:
+- id: solucion-oral-100-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-TRAMADOL-61617
+    detalle: 'Adolonta 100 mg/ml solución oral con bomba dosificadora: "1 pulsación = 0,125 ml de solución oral = 12,5 mg"'
+- id: comprimido-retard-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-TRAMADOL-61784
+    detalle: 'Adolonta retard 100 mg: "se deben tomar enteros, sin dividir ni masticar" (4.2.2)'
+- id: capsula-50-mg
+  forma: capsula
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 02.02: Tramadol, Cápsula 50 mg'
+dosis:
+- indicacion: Dolor moderado a intenso (adultos y adolescentes >12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 100
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 100
+    unidad: mg
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  texto: 50-100 mg cada 4-6 horas; no exceder 100 mg por toma ni 400 mg/día
+  fuente:
+    ref: CIMA-TRAMADOL-61617
+    detalle: '4.2.1: "50-100 mg cada 4-6 horas ... No se debe exceder de 100 mg de tramadol por toma"; "No deben superarse
+      dosis diarias de 400 mg"'
+- indicacion: Dolor moderado a intenso, liberación prolongada (adultos y adolescentes >12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  texto: Dosis inicial 50-100 mg dos veces al día (mañana y noche); puede aumentarse a 150-200 mg dos veces al día. Máximo
+    400 mg/día. El comprimido retard de 100 mg no se divide
+  fuente:
+    ref: CIMA-TRAMADOL-61784
+    detalle: '4.2.1: "50-100 mg ... dos veces al día ... incrementar la dosis a 150 mg o 200 mg ... dos veces al día"; "No
+      deberían superarse dosis diarias de 400 mg"'
+- indicacion: Dolor moderado a intenso (niños desde 3 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 1
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: Contraindicado en <3 años. Dosis máxima 2 mg/kg por toma y 8 mg/kg/día; solo con la solución oral
+  texto: 1 mg/kg por toma, 3-4 veces en 24 h (cada 6-8 h); máximo 2 mg/kg por toma y 8 mg/kg en 24 h. Al pasar a pulsaciones,
+    redondear hacia abajo
+  fuente:
+    ref: CIMA-TRAMADOL-61617
+    detalle: '4.2.1 Población pediátrica: "1 mg de tramadol por kg ... en cada toma. La dosis máxima recomendada por toma
+      es de 2 mg ... de 3 a 4 veces en 24 horas ... 8 mg ... por kg"'
+- indicacion: 'Dolor moderado a intenso: tabla orientativa por peso en pulsaciones (niños)'
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: 'Tabla orientativa: se muestra, no se calcula'
+  texto: '1 pulsación = 0,125 ml = 12,5 mg. 15-20 kg (3-5 años): habitual 1, máx. 2 pulsaciones. 20-25 kg (5-8 años): 1, máx.
+    3. 25-35 kg (8-11 años): 2, máx. 4. 35-37 kg (11 años): 3, máx. 5. 37-44 kg (11-13 años): 3, máx. 6. 44-45 kg (>13 años):
+    3, máx. 7 pulsaciones por toma'
+  fuente:
+    ref: CIMA-TRAMADOL-61617
+    detalle: '4.2.1: tabla "Dosis habitual / Dosis máxima por peso del niño y por toma (en pulsaciones)"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: 'Solución: con un poco de líquido o de azúcar, con o sin comidas (CIMA 61617). Retard: enteros, sin dividir ni masticar,
+    con suficiente líquido, independientemente de las comidas (CIMA 61784).'
+  noTriturar: true
+  fuente:
+    ref: CIMA-TRAMADOL-61784
+    detalle: 4.2.2 Forma de administración (y 4.2.2 de la solución oral, ficha 61617)
+ajusteRenalHepatico:
+  renal: 'La eliminación es lenta: considerar cuidadosamente prolongar el intervalo entre dosis. Retard: no recomendado en
+    insuficiencia renal grave.'
+  hepatico: 'La eliminación es lenta: considerar cuidadosamente prolongar el intervalo entre dosis. Retard: no recomendado
+    en insuficiencia hepática grave.'
+  fuente:
+    ref: CIMA-TRAMADOL-61784
+    detalle: 4.2.1 Insuficiencia renal/diálisis e insuficiencia hepática
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Pediamécum no tiene ficha de tramadol); no hay contraste con otra fuente.'
+- Contraindicado en menores de 3 años, con IMAO (o en los 14 días previos), epilepsia no controlada e intoxicación aguda por
+  alcohol, hipnóticos, opioides o psicótropos (CIMA, 4.3).
+- 'No recomendado en metabolizadores ultrarrápidos ni en niños con problemas respiratorios operados de adenoidectomía/amigdalectomía:
+  riesgo de depresión respiratoria mortal (CIMA, 4.2).'
+- La solución oral se dosifica en pulsaciones de la bomba (1 pulsación = 0,125 ml = 12,5 mg); la calculadora da ml. El arsenal
+  chileno lista gotas orales 100 mg/ml, pero ninguna fuente cargada indica cuántas gotas tiene 1 ml.
+- El comprimido retard no debe usarse en menores de 12 años ni en insuficiencia renal o hepática grave (CIMA 61784).
+meta: {}

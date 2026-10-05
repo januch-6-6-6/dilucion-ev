@@ -1,0 +1,94 @@
+id: celecoxib
+nombre: Celecoxib
+comerciales:
+- Artilog
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-200-mg
+  forma: capsula
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CELECOXIB
+    detalle: Artilog 200 mg cápsulas duras
+- id: capsula-100-mg
+  forma: capsula
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-CELECOXIB
+    detalle: '"Las únicas presentaciones disponibles en España son las cápsulas de 200 mg y de 100 mg"'
+dosis:
+- indicacion: Artrosis, artritis reumatoide y espondilitis anquilosante (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 200
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  texto: 200 mg al día en una o dos tomas; si el alivio es insuficiente, 200 mg dos veces al día. Máximo 400 mg/día en todas
+    las indicaciones
+  fuente:
+    ref: CIMA-CELECOXIB
+    detalle: '4.2.1: "200 mg administrados una vez al día o en dos tomas" y "La dosis diaria máxima recomendada es de 400
+      mg"'
+- indicacion: Artritis idiopática juvenil (niños 2-18 años)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: off_label
+  condicion: 'Tabla por peso: se muestra, no se calcula. Con cápsulas de 100 o 200 mg no se puede dar 50 mg exactos'
+  texto: 'Niños de 10-25 kg: 50 mg cada 12 h. Niños de más de 25 kg: 100 mg cada 12 h'
+  fuente:
+    ref: PEDIAMECUM-CELECOXIB
+    detalle: '"Niños de 10-25 kg: 50 mg/12 h. Niños más de 25 kg: 100 mg/12 h"; uso clínico ( E: off label )'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica
+  valores:
+  - fuente: CIMA-CELECOXIB
+    valor: 'CIMA: no está indicado el uso de celecoxib en niños'
+  - fuente: PEDIAMECUM-CELECOXIB
+    valor: 'Pediamécum: artritis idiopática juvenil 50 mg cada 12 h (10-25 kg) o 100 mg cada 12 h (>25 kg), off-label'
+  mostrado: Se muestra la dosis pediátrica de Pediamécum, marcada como uso fuera de ficha técnica (off-label)
+  motivo: Contradicción de población, no de cifra. Pediamécum advierte que las cápsulas disponibles dificultan dosificar a
+    niños pequeños.
+administracion:
+  comida: indiferente
+  texto: Con o sin alimentos. Si cuesta tragar, el contenido de la cápsula puede mezclarse con una cucharadita de compota
+    de manzana, arroz, yogur o plátano y tomarse de inmediato con 240 ml de agua.
+  fuente:
+    ref: CIMA-CELECOXIB
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Experiencia limitada en insuficiencia renal leve o moderada: precaución. Contraindicado con aclaramiento de creatinina
+    <30 ml/min.'
+  hepatico: 'Insuficiencia hepática moderada (albúmina 25-35 g/l): iniciar con la mitad de la dosis recomendada. Grave: contraindicado.'
+  fuente:
+    ref: CIMA-CELECOXIB
+    detalle: 4.2 Insuficiencia hepática / Insuficiencia renal y 4.3
+alertas:
+- Contraindicado en cardiopatía isquémica, enfermedad arterial periférica o cerebrovascular, insuficiencia cardíaca NYHA II-IV,
+  aclaramiento de creatinina <30 ml/min, alergia a sulfamidas, embarazo y lactancia (CIMA, 4.3).
+- Si tras 2 semanas no mejora el beneficio, considerar otras alternativas (CIMA, 4.2).
+- 'Metabolizadores lentos del CYP2C9: considerar la mitad de la dosis mínima recomendada (CIMA, 4.2).'
+meta: {}

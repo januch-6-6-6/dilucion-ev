@@ -1,0 +1,93 @@
+id: loratadina
+nombre: Loratadina
+comerciales:
+- Clarityne
+- Loratadina Normon
+grupo: antihistaminico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LORATADINA-58518
+    detalle: Clarityne 10 mg comprimidos (no adecuado para ≤30 kg; la ficha no menciona partición)
+- id: jarabe-1-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LORATADINA-64243
+    detalle: Loratadina Normon 1 mg/ml jarabe
+dosis:
+- indicacion: Rinitis alérgica y urticaria (adultos y niños >12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 1 comprimido de 10 mg (o 10 ml de jarabe) una vez al día
+  fuente:
+    ref: CIMA-LORATADINA-58518
+    detalle: '4.2.1 Adultos: "1 comprimido una vez al día"; jarabe (64243): "10 ml (10 mg) de jarabe una vez al día"'
+- indicacion: Rinitis alérgica y urticaria (niños de 2 a 12 años con ≤30 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: No establecida en menores de 2 años; el comprimido de 10 mg no es adecuado para ≤30 kg
+  texto: 5 ml (5 mg) de jarabe una vez al día
+  fuente:
+    ref: CIMA-LORATADINA-64243
+    detalle: '4.2: "Peso corporal igual o inferior a 30 kg: 5 ml (5 mg) de jarabe una vez al día"'
+- indicacion: Rinitis alérgica y urticaria (niños de 2 a 12 años con >30 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 10 mg una vez al día (1 comprimido o 10 ml de jarabe)
+  fuente:
+    ref: PEDIAMECUM-LORATADINA
+    detalle: '"Peso corporal >30 kg: Comprimidos: 10 mg, 1 vez al día ... Jarabe: 10 ml (10 mg) de jarabe, 1 vez al día";
+      CIMA coincide'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Vía oral, con independencia de las horas de las comidas.
+  fuente:
+    ref: CIMA-LORATADINA-58518
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No se requiere ajuste en insuficiencia renal.
+  hepatico: 'Daño hepático grave: dosis inicial más baja; adultos y niños >30 kg, 10 mg en días alternos; niños ≤30 kg, 5
+    ml (5 mg) en días alternos.'
+  fuente:
+    ref: CIMA-LORATADINA-64243
+    detalle: 4.2 Pacientes con insuficiencia hepática / renal
+alertas:
+- No se ha establecido la seguridad y eficacia en menores de 2 años (CIMA); Pediamécum lo marca como off-label.
+meta: {}

@@ -1,0 +1,60 @@
+id: ciclobenzaprina
+nombre: Ciclobenzaprina
+comerciales:
+- Yurelax
+grupo: relajante-muscular
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-10-mg
+  forma: capsula
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CICLOBENZAPRINA
+    detalle: Yurelax 10 mg cápsulas duras
+dosis:
+- indicacion: Espasmo muscular asociado a condiciones agudas dolorosas musculoesqueléticas (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 60
+    unidad: mg
+  estatus: autorizada
+  condicion: No más de 3 semanas
+  texto: 1 cápsula de 10 mg tres veces al día; rango 20-40 mg diarios en dosis fraccionadas, hasta un máximo de 60 mg diarios
+  fuente:
+    ref: CIMA-CICLOBENZAPRINA
+    detalle: '4.2: "1 cápsula de 10 mg, tres veces al día ... entre 20 y 40 mg diarios ... hasta un máximo de 60 mg diarios"'
+pediatria:
+  estado: solo_adulto
+  motivo: Fuente única (ficha técnica de Yurelax, CIMA) sin pauta pediátrica; Pediamécum no tiene ficha de ciclobenzaprina.
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Las cápsulas pueden tomarse con un poco de agua. La ficha no indica relación con las comidas.
+  fuente:
+    ref: CIMA-CICLOBENZAPRINA
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  hepatico: 'Insuficiencia hepática moderada o severa: usar con precaución por posible aumento de las concentraciones plasmáticas.'
+  fuente:
+    ref: CIMA-CICLOBENZAPRINA
+    detalle: '4.4 Advertencias: insuficiencia hepática'
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Yurelax); no hay contraste con otra fuente.'
+- El periodo de tratamiento no debe superar 3 semanas (CIMA).
+- Contraindicado en arritmias, alteraciones de la conducción, insuficiencia cardíaca congestiva, infarto reciente, hipertiroidismo
+  y con IMAO (o en los 14 días previos) (CIMA, 4.3).
+- Riesgo de síndrome serotoninérgico con ISRS, IRSN, tricíclicos, IMAO o buprenorfina (CIMA, 4.4).
+meta: {}

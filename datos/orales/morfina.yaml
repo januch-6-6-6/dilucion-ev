@@ -1,0 +1,177 @@
+id: morfina
+nombre: Morfina
+comerciales:
+- MST Continus
+- Dropizol
+grupo: analgesico-opioide
+ambitos:
+- aps
+altoRiesgo: true
+presentaciones:
+- id: comprimido-lp-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: 'MST Continus 10 mg: "deben ser tragados enteros, y no deben romperse, masticarse o triturarse" (4.2)'
+- id: comprimido-lp-30-mg
+  forma: comprimido
+  cantidad:
+    valor: 30
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 01.05: Morfina, Comprimido de liberación prolongada 30 mg'
+- id: gotas-20-mg-ml-arsenal
+  forma: jarabe
+  concentracion:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupos 01.05 y 02.02: Morfina, Solución para gotas orales 20 mg/mL. Se carga como solución: ninguna fuente da
+      gotas por ml'
+- id: gotas-10-mg-ml-dropizol
+  forma: jarabe
+  concentracion:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MORFINA-83323
+    detalle: 'Dropizol 10 mg/ml gotas orales en solución (antidiarreico). Se carga como solución: la ficha no da gotas por
+      ml'
+dosis:
+- indicacion: Dolor crónico intenso, comprimidos de liberación prolongada (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 30
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Pacientes con dolor intenso no controlado con opioides más débiles; reducir la dosis inicial en debilitados o
+    de poco peso
+  texto: Empezar con 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si fuera necesario; incrementos posteriores del
+    30-50 %
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: '4.2: "normalmente deberá empezar con comprimidos de 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si
+      fuera necesario"'
+- indicacion: Dolor postquirúrgico, liberación prolongada (adultos <70 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: '4.2 Dolor post-quirúrgico: "Comprimidos de 20 mg cada 12 horas en pacientes de menos de 70 kg de peso"'
+- indicacion: Dolor postquirúrgico, liberación prolongada (adultos >70 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 30
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: '4.2 Dolor post-quirúrgico: "Comprimidos de 30 mg cada 12 horas en pacientes de más de 70 kg de peso"'
+- indicacion: Dolor oncológico intenso y crónico, liberación prolongada (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.2
+  max: 0.8
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Solo comprimidos de liberación prolongada (no gotas ni solución); no en dolor postoperatorio en niños; los de
+    200 mg no son pediátricos
+  texto: Dosis inicial 0,2-0,8 mg/kg cada 12 horas; graduar como en adultos
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: '4.2 Población pediátrica: "dosis inicial de entre 0,2 y 0,8 mg/kg cada 12 horas"; Pediamécum coincide'
+- indicacion: Dolor (formas orales de liberación normal), por edad (niños)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: 'Tabla por edad: se muestra, no se calcula. Confirmar la concentración del frasco antes de convertir a ml'
+  texto: '>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar
+    en menores de 1 año'
+  fuente:
+    ref: PEDIAMECUM-MORFINA
+    detalle: 'Formas de liberación normal de sulfato de morfina (solución oral, comprimidos): ">13 años: inicial, 10-20 mg/4-6
+      h. 6-12 años: máx. 5-10 mg/4 h. 1-6 años: máx. 2,5-5 mg/4 h"; "No usar en menores de un año"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Concentración de las gotas orales
+  valores:
+  - fuente: CIMA-MORFINA-83323
+    valor: 'Dropizol (CIMA): 10 mg/ml'
+  - fuente: ARSENAL-APS-ATACAMA
+    valor: 'Arsenal de APS de Atacama: solución para gotas orales 20 mg/mL'
+  mostrado: 'Ambas concentraciones como presentaciones separadas: elegir siempre la del frasco'
+  motivo: Riesgo de error de concentración (doble). La calculadora convierte por concentración, nunca copia ml ni gotas de
+    otra ficha.
+- campo: Población de las gotas
+  valores:
+  - fuente: CIMA-MORFINA-83323
+    valor: 'Dropizol (CIMA): no usar en menores de 18 años; indicado solo en diarrea aguda del adulto'
+  - fuente: PEDIAMECUM-MORFINA
+    valor: 'Pediamécum: formas orales de liberación normal desde 1 año (dolor)'
+  mostrado: Se muestra la tabla por edad de Pediamécum para liberación normal; Dropizol no se usa como pauta analgésica
+  motivo: La restricción de edad de Dropizol corresponde a otra indicación (antidiarreico), no al uso analgésico.
+administracion:
+  comida: indiferente
+  texto: Vía oral. Comprimidos de liberación prolongada cada 12 horas, enteros, sin romper, masticar ni triturar. La ficha
+    no indica relación con las comidas.
+  noTriturar: true
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: 4.2 Posología y Forma de administración
+ajusteRenalHepatico:
+  renal: 'MST Continus: reducir la dosis en enfermedad renal crónica, como con todos los narcóticos; precaución con función
+    renal gravemente alterada. Dropizol: la insuficiencia renal reduce y retrasa la eliminación (evitar o reducir la dosis).'
+  hepatico: 'MST Continus: reducir la dosis en enfermedad hepática crónica; precaución con función hepática gravemente alterada.
+    Dropizol: la morfina puede precipitar coma en insuficiencia hepática (evitar o reducir la dosis).'
+  fuente:
+    ref: CIMA-MORFINA-57898
+    detalle: 4.4 (reducir la dosis en enfermedad renal y hepática crónica); Dropizol 83323, 4.2
+alertas:
+- 'Opioide de alto riesgo: confirmar concentración y forma (liberación prolongada cada 12 h vs. liberación normal cada 4 h)
+  antes de calcular.'
+- 'Los comprimidos de liberación prolongada se tragan enteros: rotos, masticados o triturados liberan rápidamente una dosis
+  potencialmente letal (CIMA 57898).'
+- 'Liberación prolongada: no en las primeras 24 h del postoperatorio; en niños no se recomienda para dolor postoperatorio
+  (CIMA 57898).'
+- 'Dropizol (CIMA, 10 mg/ml) está autorizado solo para la diarrea aguda del adulto (5-10 gotas 2-3 veces al día, dosis individual
+  ≤1 ml y diaria ≤6 ml) y no se debe usar en <18 años: no es una pauta analgésica.'
+- 'El arsenal chileno lista gotas orales de 20 mg/ml: el doble que Dropizol. Ninguna fuente cargada indica cuántas gotas tiene
+  1 ml.'
+- 'Ancianos (>65 años): puede ser aconsejable reducir la dosis (CIMA 57898).'
+meta: {}

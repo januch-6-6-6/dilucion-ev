@@ -1,0 +1,103 @@
+id: diclofenaco
+nombre: Diclofenaco
+comerciales:
+- Diclofenaco Cinfa
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-gastrorresistente-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DICLOFENACO
+    detalle: 'Diclofenaco Cinfa 50 mg: "deben tragarse enteros ... No deben dividirse ni masticarse" (4.2)'
+dosis:
+- indicacion: Enfermedades reumáticas, gota aguda, dolor e inflamación postraumática (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 75
+  max: 100
+  tomasPorDia: 2
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: autorizada
+  texto: 'Casos leves y tratamientos prolongados: 75-100 mg al día en 2-3 tomas; dosis máxima diaria recomendada 100-150 mg'
+  fuente:
+    ref: CIMA-DICLOFENACO
+    detalle: '4.2.1: "75-100 mg al día. La dosis máxima diaria recomendada es de 100 a 150 mg ... en 2-3 tomas diarias"'
+- indicacion: Dolor, fiebre e inflamación (niños de 1 a 12 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.5
+  max: 3
+  tomasPorDia: 2
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: off_label
+  condicion: La ficha técnica no lo recomienda en <14 años; el único comprimido (50 mg, no partible) no permite dosis pequeñas
+  texto: 0,5-3 mg/kg/día repartidos en 2-4 dosis; máximo 150 mg/día
+  fuente:
+    ref: PEDIAMECUM-DICLOFENACO
+    detalle: 'Oral: "Niños de 1 a 12 años: 0,5-3 mg/kg/día, repartidos en 2-4 dosis. Máximo de 150 mg/día"'
+- indicacion: Dolor e inflamación (niños >12 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: off_label
+  condicion: Pediamécum lo autoriza en >14 años; entre 12 y 14 años la ficha técnica no lo recomienda
+  texto: Dosis inicial 50 mg cada 8-12 horas; mantenimiento 50 mg cada 12 horas
+  fuente:
+    ref: PEDIAMECUM-DICLOFENACO
+    detalle: 'Oral: "Niños >12 años: La dosis inicial es de 50 mg cada 8-12 horas; la dosis de mantenimiento 50 mg cada 12
+      horas"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica
+  valores:
+  - fuente: CIMA-DICLOFENACO
+    valor: 'CIMA: debido a la dosis del comprimido no se recomienda en niños ni adolescentes menores de 14 años'
+  - fuente: PEDIAMECUM-DICLOFENACO
+    valor: 'Pediamécum: 0,5-3 mg/kg/día en 2-4 dosis (máx. 150 mg/día) desde 1 año; autorizado (A) solo en mayores de 14 años'
+  mostrado: Se muestra la dosis pediátrica de Pediamécum, marcada como uso fuera de ficha técnica (off-label)
+  motivo: 'Contradicción de población, no de cifra: la ficha técnica no respalda la dosis en <14 años. El rango por peso es
+    amplio (6 veces).'
+administracion:
+  comida: antes
+  texto: Comprimidos entéricos enteros, con líquido, preferentemente antes de las comidas; no dividir ni masticar (CIMA).
+    Pediamécum, en cambio, recomienda administrarlo tras las comidas para reducir el riesgo digestivo.
+  noTriturar: true
+  fuente:
+    ref: CIMA-DICLOFENACO
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: Contraindicado en insuficiencia renal grave; precaución en leve a moderada (sin recomendación de ajuste de dosis).
+  hepatico: Contraindicado en insuficiencia hepática grave; precaución en leve a moderada (sin recomendación de ajuste de
+    dosis).
+  fuente:
+    ref: CIMA-DICLOFENACO
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Contraindicado en insuficiencia cardíaca congestiva (NYHA II-IV), cardiopatía isquémica, enfermedad arterial periférica
+  o cerebrovascular, insuficiencia hepática o renal grave y tercer trimestre de embarazo (CIMA, 4.3).
+- Con factores de riesgo cardiovascular, en tratamientos de más de 4 semanas usar ≤100 mg diarios (CIMA, 4.2).
+- 'Dismenorrea primaria (CIMA): 50-200 mg/día, con dosis inicial de 50-100 mg; no se carga como pauta aparte.'
+- 'El comprimido gastrorresistente de 50 mg no se puede partir: no sirve para dosis pediátricas pequeñas.'
+meta: {}

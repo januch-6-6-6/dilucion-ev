@@ -1,0 +1,135 @@
+id: ibuprofeno
+nombre: Ibuprofeno
+comerciales:
+- Difenadol
+- Difenadol Rapid
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-400-mg
+  forma: comprimido
+  cantidad:
+    valor: 400
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-IBUPROFENO-88314
+    detalle: 'Difenadol 400 mg: "deben tragarse enteros, sin masticar, triturar ni chupar" (4.2)'
+- id: sobre-400-mg
+  forma: sobre
+  cantidad:
+    valor: 400
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-IBUPROFENO-74559
+    detalle: 'Difenadol Rapid 400 mg granulado: "400 mg (1 sobre)" (4.2.1)'
+- id: suspension-20-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-IBUPROFENO
+    detalle: 'Presentaciones de Pediamécum: IBUPROFENO CINFA 20 MG/ML SUSPENSIÓN ORAL EFG'
+- id: suspension-40-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-IBUPROFENO
+    detalle: 'Presentaciones de Pediamécum: IBUPROFENO CINFA 40 MG/ML SUSPENSION ORAL EFG'
+dosis:
+- indicacion: Dolor leve a moderado y fiebre (adultos y adolescentes ≥12 años y ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 400
+  max: 400
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 1200
+    unidad: mg
+  estatus: autorizada
+  condicion: Solo uso a corto plazo; no recomendado en <40 kg ni <12 años (dosis del producto no adecuada)
+  texto: 400 mg (1 comprimido o 1 sobre) cada 6-8 horas; intervalo no inferior a 6 horas; máximo 1200 mg (3 comprimidos) en
+    24 horas
+  fuente:
+    ref: CIMA-IBUPROFENO-88314
+    detalle: '4.2: "400 mg (1 comprimido) cada 6-8 horas ... no debe ser inferior a 6 horas. La dosis máxima diaria es de
+      1.200 mg (3 comprimidos)"'
+- indicacion: Antipirético y analgésico (niños ≥6 meses)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 40
+  tomasPorDia: 4
+  intervaloH: 6
+  topeDiario:
+    valor: 2400
+    unidad: mg
+  estatus: autorizada
+  condicion: Autorizado en niños ≥6 meses según Pediamécum; con la suspensión (20 o 40 mg/ml)
+  texto: 40 mg/kg/día repartidos cada 6-8 horas; dosis máxima 2400 mg/día
+  fuente:
+    ref: PEDIAMECUM-IBUPROFENO
+    detalle: 'Oral: "Antipirético y analgésico ( A ) (autorizado en niños ≥6 meses): 40 mg/kg/día cada 6-8 horas. Dosis máxima:
+      2400 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario
+  valores:
+  - fuente: CIMA-IBUPROFENO-88314
+    valor: '1200 mg/24 h: adultos y adolescentes ≥12 años y ≥40 kg, 400 mg cada 6-8 h (CIMA, Difenadol 400 mg)'
+  - fuente: PEDIAMECUM-IBUPROFENO
+    valor: '2400 mg/día: pauta por peso (40 mg/kg/día, ≥6 meses) y adolescentes 400-600 mg cada 6-8 h (Pediamécum)'
+  mostrado: 1200 mg/día como tope de adulto
+  motivo: Regla del tope más bajo para el adulto/adolescente ≥40 kg con 400 mg cada 6-8 h. La pauta por peso de Pediamécum
+    es otro régimen y conserva su propio máximo (2400 mg/día); la calculadora aplica además el tope de adulto (1200 mg/día).
+- campo: Tabla por peso de Pediamécum (20-29 kg, 30-39 kg, ≥40 kg)
+  valores:
+  - fuente: PEDIAMECUM-IBUPROFENO
+    valor: '20-30 mg/kg/día en 3-4 dosis con topes de 600, 800 y 1200 mg/día por peso: aparece bajo el epígrafe «Intravenoso»'
+  mostrado: No se carga como dosis oral
+  motivo: En el texto de Pediamécum esa tabla pertenece a la vía intravenosa (dolor moderado-grave y fiebre en >6 años y >20
+    kg), no a la oral; el informe la había leído como una segunda pauta oral.
+administracion:
+  comida: indiferente
+  texto: 'Comprimidos enteros con un vaso de agua, sin masticar, triturar ni chupar; con estómago sensible, tomar con alimentos
+    (CIMA 88314). Sobre: disolver en un vaso de agua (CIMA 74559). Pediamécum: antes de las comidas o con leche para evitar
+    molestias digestivas.'
+  noTriturar: true
+  fuente:
+    ref: CIMA-IBUPROFENO-88314
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal leve o moderada: reducir la dosis inicial; no usar en insuficiencia renal grave (contraindicado).'
+  hepatico: 'Insuficiencia hepática leve o moderada: iniciar con dosis reducidas y vigilar; no usar en insuficiencia hepática
+    grave (contraindicado).'
+  fuente:
+    ref: CIMA-IBUPROFENO-88314
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Ibuprofeno a dosis altas (2400 mg/día) se asocia a un pequeño aumento del riesgo de acontecimientos trombóticos arteriales;
+  con ≤1200 mg/día no se ha visto ese aumento (CIMA 88314, 4.4).
+- Contraindicado en insuficiencia renal o hepática grave, insuficiencia cardíaca grave (NYHA IV), hemorragia activa y tercer
+  trimestre de embarazo (CIMA 88314, 4.3).
+- Se aconseja evitar ibuprofeno en caso de varicela (CIMA 88314, 4.4).
+- 'Los comprimidos y sobres de 400 mg no son para <40 kg ni <12 años: en niños usar la suspensión y calcular por peso.'
+meta: {}

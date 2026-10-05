@@ -1,0 +1,125 @@
+id: metamizol
+nombre: Metamizol (dipirona)
+comerciales:
+- Metamizol Cinfa
+grupo: analgesico-no-opioide
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-575-mg
+  forma: capsula
+  cantidad:
+    valor: 575
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: 'Metamizol Cinfa 575 mg: "Las cápsulas deben ingerirse enteras, sin masticar" (4.2)'
+- id: comprimido-300-mg
+  forma: comprimido
+  cantidad:
+    valor: 300
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 02.01: Metamizol sódico, Comprimido 300 mg (lectura por columnas del PDF)'
+- id: solucion-gotas-500-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-METAMIZOL
+    detalle: 'Presentaciones de Pediamécum: METAMIZOL NORMON 500 MG/ML GOTAS ORALES EN SOLUCION EFG (metamizol sódico). Se
+      carga como solución: ninguna fuente da gotas por ml'
+dosis:
+- indicacion: Dolor agudo moderado o intenso y fiebre alta (adultos y adolescentes ≥15 años, >53 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 575
+  max: 575
+  tomasPorDia: 6
+  intervaloH: 4
+  topeDiario:
+    valor: 3450
+    unidad: mg
+  estatus: autorizada
+  texto: 575 mg por dosis, hasta 6 veces al día en intervalos de 4-6 horas; máximo 3450 mg/día. Uso a corto plazo
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: '4.2: "575 mg de metamizol en una dosis única, que se puede administrar hasta 6 veces al día, en intervalos de
+      4 a 6 horas, correspondiente a una dosis máxima diaria de 3.450 mg"'
+- indicacion: Dolor y fiebre (niños y adolescentes hasta 14 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 8
+  max: 16
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: En fiebre, 10 mg/kg suele bastar. Con la solución o comprimidos; la cápsula de 575 mg no es para <15 años
+  texto: 8-16 mg/kg cada 6-8 horas
+  fuente:
+    ref: PEDIAMECUM-METAMIZOL
+    detalle: 'Vía oral: "En niños y adolescentes hasta de 14 años de edad, se pueden administrar de 8 a 16 mg/kg cada 6-8
+      horas"'
+- indicacion: 'Dolor y fiebre: tabla por edad y peso (niños)'
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: 'Tabla por edad: se muestra, no se calcula'
+  texto: '<12 meses (<9 kg): 25-125 mg/dosis, máx. 100-500 mg/día. 1-3 años (9-15 kg): 75-250 mg/dosis, máx. 300-1000 mg/día.
+    4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día.
+    10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500
+    mg/día'
+  fuente:
+    ref: PEDIAMECUM-METAMIZOL
+    detalle: Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario del adulto
+  valores:
+  - fuente: CIMA-METAMIZOL
+    valor: '3450 mg/día: cápsulas de 575 mg, adultos y adolescentes ≥15 años (>53 kg) (CIMA); Pediamécum da el mismo máximo
+      para esta población'
+  - fuente: PEDIAMECUM-METAMIZOL
+    valor: '4000 mg/día: "En general, la dosis oral máxima de metamizol magnésico es de 4000 mg/día" (Pediamécum)'
+  mostrado: 3450 mg/día
+  motivo: Los 4000 mg/día corresponden a otra sal y formulación (metamizol magnésico); no se usan como tope de las cápsulas
+    de 575 mg (Ruling 9).
+administracion:
+  comida: indiferente
+  texto: Cápsulas enteras, sin masticar, con un poco de líquido. El efecto suele aparecer a los 30-60 minutos.
+  noTriturar: true
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: Reducir la dosis con aclaramiento de creatinina disminuido; evitar dosis elevadas repetidas en insuficiencia renal.
+    En tratamientos cortos no es necesario reducir.
+  hepatico: Evitar dosis elevadas repetidas en insuficiencia hepática; en tratamientos cortos no es necesario reducir.
+  fuente:
+    ref: CIMA-METAMIZOL
+    detalle: 4.2 Poblaciones especiales / Insuficiencia hepática y renal
+alertas:
+- Contraindicado con antecedente de agranulocitosis por metamizol u otras pirazolonas, alteración de la médula ósea, asma
+  por analgésicos, porfiria hepática aguda, déficit de G6PD y tercer trimestre de embarazo (CIMA, 4.3).
+- La cápsula de 575 mg no se recomienda en <15 años por su cantidad fija; existen otras formas para niños (CIMA, 4.2).
+- 'Gotas orales 500 mg/ml: ninguna fuente cargada indica cuántas gotas tiene 1 ml; la calculadora da el volumen en ml.'
+- Pediamécum describe dosis off-label de 12,5-20 mg/kg cada 6 h; no se cargan.
+- Reducir la dosis en ancianos, pacientes debilitados y con aclaramiento de creatinina disminuido (CIMA, 4.2).
+meta: {}

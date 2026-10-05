@@ -1,0 +1,104 @@
+id: meloxicam
+nombre: Meloxicam
+comerciales:
+- Meloxicam Cinfa
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-15-mg
+  forma: comprimido
+  cantidad:
+    valor: 15
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MELOXICAM
+    detalle: 'Meloxicam Cinfa 15 mg: 4.2 contempla "medio comprimido de 15 mg"'
+dosis:
+- indicacion: Crisis agudas de osteoartrosis (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 7.5
+  max: 7.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: autorizada
+  texto: 7,5 mg/día en una sola toma; si no mejora, puede aumentarse a 15 mg/día. No sobrepasar 15 mg/día
+  fuente:
+    ref: CIMA-MELOXICAM
+    detalle: '4.2: "Crisis agudas de osteoartrosis: 7,5 mg/día ... puede aumentarse a 15 mg/día" y "NO SOBREPASAR LA DOSIS
+      DE 15 mg/día"'
+- indicacion: Artritis reumatoide y espondilitis anquilosante (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 7.5
+  max: 15
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: autorizada
+  texto: '15 mg/día en una sola toma; puede reducirse a 7,5 mg/día. Ancianos: 7,5 mg/día'
+  fuente:
+    ref: CIMA-MELOXICAM
+    detalle: '4.2: "Artritis reumatoide, espondilitis anquilosante: 15 mg/día ... puede reducirse a 7,5 mg/día"'
+- indicacion: Osteoartritis, artritis reumatoide y espondilitis (adolescentes ≥16 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 7.5
+  max: 15
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Solo ≥16 años: la ficha técnica lo contraindica en menores de 16 años'
+  texto: 7,5-15 mg/día (tope de 15 mg/día de la ficha técnica CIMA)
+  fuente:
+    ref: PEDIAMECUM-MELOXICAM
+    detalle: '"Osteoartritis, artritis reumatoide y espondilitis (en pacientes ≥16 años o >50 kg): 7,5-15 mg/día"; tope: CIMA
+      4.2'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica
+  valores:
+  - fuente: CIMA-MELOXICAM
+    valor: 'CIMA: contraindicado en niños y adolescentes menores de 16 años (4.2 y 4.3)'
+  - fuente: PEDIAMECUM-MELOXICAM
+    valor: 'Pediamécum: artritis idiopática juvenil 0,125 mg/kg una vez al día, dosis máxima 7,5 mg/día (off-label; FDA desde
+      2 años)'
+  mostrado: No se carga la pauta de artritis idiopática juvenil; solo la de adolescentes de dieciséis años o más
+  motivo: Donde la ficha técnica dice «contraindicado» no se carga dosis (regla de datos 4). El «>50 kg» de Pediamécum no
+    habilita a menores de 16 años.
+administracion:
+  comida: con_comida
+  texto: Comprimidos con agua u otro líquido, junto con alimentos; la dosis diaria se toma en una sola toma.
+  fuente:
+    ref: CIMA-MELOXICAM
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Hemodiálisis por enfermedad renal terminal: no superar 7,5 mg diarios. Aclaramiento de creatinina >25 ml/min: sin
+    reducción. Contraindicado en fallo renal grave no dializado.'
+  hepatico: 'Insuficiencia hepática leve a moderada: sin reducción de dosis; grave: contraindicado.'
+  fuente:
+    ref: CIMA-MELOXICAM
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Contraindicado en menores de 16 años, tercer trimestre de embarazo, antecedente de hemorragia o perforación digestiva por
+  AINE, insuficiencia hepática grave e insuficiencia renal grave no dializada (CIMA, 4.3).
+- Con riesgo aumentado de reacciones adversas (antecedente digestivo o factores de riesgo cardiovascular), iniciar con 7,5
+  mg/día (CIMA, 4.2).
+meta: {}

@@ -1,0 +1,115 @@
+id: desloratadina
+nombre: Desloratadina
+comerciales:
+- Aerius
+grupo: antihistaminico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DESLORATADINA-00160009
+    detalle: Aerius 5 mg comprimidos recubiertos con película
+- id: solucion-oral-0-5-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 0.5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DESLORATADINA-00160065
+    detalle: Aerius 0,5 mg/ml solución oral
+dosis:
+- indicacion: Rinitis alérgica y urticaria (adultos y adolescentes ≥12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 1 comprimido de 5 mg (o 10 ml de solución oral) una vez al día
+  fuente:
+    ref: CIMA-DESLORATADINA-00160009
+    detalle: '4.2: "un comprimido una vez al día"; solución (00160065): "10 ml (5 mg) de solución oral una vez al día"'
+- indicacion: Rinitis alérgica y urticaria (niños de 1 a 5 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 1.25
+  max: 1.25
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 2,5 ml (1,25 mg) de solución oral una vez al día
+  fuente:
+    ref: CIMA-DESLORATADINA-00160065
+    detalle: '4.2: "Niños de 1 a 5 años de edad: 2,5 ml (1,25 mg) de Aerius solución oral una vez al día"'
+- indicacion: Rinitis alérgica y urticaria (niños de 6 a 11 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 2.5
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 5 ml (2,5 mg) de solución oral una vez al día
+  fuente:
+    ref: CIMA-DESLORATADINA-00160065
+    detalle: '4.2: "Niños de 6 a 11 años de edad: 5 ml (2,5 mg) de Aerius solución oral una vez al día"'
+- indicacion: Lactantes de 6 a 11 meses
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 1
+  max: 1
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: off_label
+  condicion: La ficha técnica no lo ha establecido en menores de 1 año
+  texto: 1 mg cada 24 h (jarabe)
+  fuente:
+    ref: PEDIAMECUM-DESLORATADINA
+    detalle: '"Lactantes de 6 meses a 11 meses: 1 mg/24 h (jarabe)"; "No recomendado en niños menores de 1 año ( E: off-label
+      )"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica (menores de 1 año)
+  valores:
+  - fuente: CIMA-DESLORATADINA-00160065
+    valor: 'CIMA: no se ha establecido la seguridad y eficacia en niños menores de 1 año'
+  - fuente: PEDIAMECUM-DESLORATADINA
+    valor: 'Pediamécum: lactantes de 6 a 11 meses, 1 mg/24 h (off-label)'
+  mostrado: Se muestra la dosis pediátrica de Pediamécum, marcada como uso fuera de ficha técnica (off-label)
+  motivo: Contradicción de población, no de cifra; en el resto de edades ambas fuentes coinciden.
+administracion:
+  comida: indiferente
+  texto: Vía oral, con o sin alimentos.
+  fuente:
+    ref: CIMA-DESLORATADINA-00160009
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'CIMA (Aerius): en insuficiencia renal severa, usar con precaución. Pediamécum: 5 mg cada 48 horas (comprimidos)
+    o 10 ml cada 48 horas (jarabe).'
+  hepatico: 'Pediamécum: 5 mg cada 48 horas (comprimidos) o 10 ml cada 48 horas (jarabe). La ficha técnica no da ajuste hepático.'
+  fuente:
+    ref: PEDIAMECUM-DESLORATADINA
+    detalle: 'Insuficiencia renal o hepática (Pediamécum); precaución renal: CIMA 00160009, 4.4'
+alertas:
+- La mayoría de las rinitis en menores de 2 años son infecciosas y no hay datos que apoyen tratarlas con desloratadina (CIMA,
+  4.2).
+- Contraindicado si hay hipersensibilidad a loratadina (CIMA, 4.3).
+meta: {}
