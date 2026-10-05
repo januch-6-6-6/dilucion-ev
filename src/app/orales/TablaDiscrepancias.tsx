@@ -6,10 +6,10 @@ export default function TablaDiscrepancias({ discrepancias }: { discrepancias: F
     <table className="compatibilidad tabla-discrepancias">
       <thead>
         <tr>
-          <th>Campo</th>
-          <th>Valores por fuente</th>
-          <th>Mostrado</th>
-          <th>Motivo</th>
+          <th scope="col">Campo</th>
+          <th scope="col">Valores por fuente</th>
+          <th scope="col">Mostrado</th>
+          <th scope="col">Motivo</th>
         </tr>
       </thead>
       <tbody>

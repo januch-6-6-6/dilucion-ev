@@ -19,7 +19,7 @@ const fmt = (n: number) => String(n).replace('.', ',')
 
 function textoDosis(d: DosisOral): string {
   const rango = d.min !== undefined && d.max !== undefined && d.min !== d.max ? `${fmt(d.min)}–${fmt(d.max)}` : fmt((d.max ?? d.min) as number)
-  const partes = [d.min === undefined && d.max === undefined ? (d.texto ?? '') : `${rango} ${d.unidad}`]
+  const partes = d.min === undefined && d.max === undefined ? [d.texto ?? ''] : [`${rango} ${d.unidad}`, d.texto ?? '']
   if (d.base) partes.push(d.base === 'toma' ? 'por toma' : 'por día')
   if (d.tomasPorDia) partes.push(`${fmt(d.tomasPorDia)} veces al día`)
   if (d.intervaloH) partes.push(`cada ${fmt(d.intervaloH)} h`)
@@ -32,6 +32,7 @@ function textoDosis(d: DosisOral): string {
 function Dosis({ f }: { f: TFichaOral }) {
   return (
     <>
+      {/* DosisOral.poblacion es un enum cerrado (adulto | pediatrico): si se amplía, hay que actualizar este render. */}
       {(['adulto', 'pediatrico'] as const).map((pob) => {
         const dosis = f.dosis.filter((d) => d.poblacion === pob)
         return (
@@ -69,7 +70,8 @@ function Dosis({ f }: { f: TFichaOral }) {
 
 function descripcionPresentacion(p: PresentacionOral): string {
   const base = p.cantidad ? `${fmt(p.cantidad.valor)} ${p.cantidad.unidad} por unidad` : p.concentracion ? `${fmt(p.concentracion.valor)} ${p.concentracion.unidad} por ml` : ''
-  return `${p.forma.replace(/_/g, ' ')} ${base}`.trim()
+  const forma = p.forma.replace(/_/g, ' ')
+  return `${forma.charAt(0).toUpperCase()}${forma.slice(1)} ${base}`.trim()
 }
 
 function Presentaciones({ f }: { f: TFichaOral }) {

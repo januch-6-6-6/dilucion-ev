@@ -2,7 +2,7 @@ import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
-import { fichaOralValida, fuentesOralesPrueba } from '../../esquema/__fixtures__/orales'
+import { fichaOralValida } from '../../esquema/__fixtures__/orales'
 import { FichaOral as EsquemaFichaOral } from '../../esquema/ficha-oral'
 import FichaOral from './FichaOral'
 
@@ -55,7 +55,6 @@ beforeEach(() => {
       { id: 'nr', forma: 'capsula', cantidad: { valor: 50, unidad: 'mg' }, partible: 'no', liberacionProlongada: false, registroChile: 'no_registrado', fuente: f },
     ],
   })
-  void fuentesOralesPrueba
 })
 
 describe('FichaOral', () => {
@@ -104,6 +103,29 @@ describe('FichaOral', () => {
     expect(screen.getByText(/cuartos/)).toBeInTheDocument()
     expect(screen.getByText('Sin verificar')).toBeInTheDocument()
     expect(screen.getByText('No registrado')).toBeInTheDocument()
+  })
+
+  it('la forma se muestra legible: «Comprimido efervescente»', async () => {
+    crear('efer', {
+      presentaciones: [{ id: 'ef', forma: 'comprimido_efervescente', cantidad: { valor: 1, unidad: 'g' }, partible: 'no', liberacionProlongada: false, registroChile: 'verificado', fuente: f }],
+    })
+    montar('efer')
+    await userEvent.click(screen.getByRole('tab', { name: 'Presentaciones' }))
+    expect(screen.getByText(/Comprimido efervescente/)).toBeInTheDocument()
+  })
+
+  it('una dosis por edad con min, max y texto muestra los tres', () => {
+    crear('edad', {
+      dosis: [
+        { indicacion: 'Dolor', poblacion: 'adulto', regimen: 'fija', base: 'toma', unidad: 'mg', min: 500, estatus: 'autorizada', fuente: f },
+        { indicacion: 'Fiebre', poblacion: 'pediatrico', regimen: 'por_edad', base: 'toma', unidad: 'mg', min: 80, max: 120, texto: 'De 1 a 3 años', estatus: 'autorizada', fuente: f },
+      ],
+    })
+    montar('edad')
+    const dato = screen.getByText('Fiebre').closest('.dato') as HTMLElement
+    expect(dato).toHaveTextContent('80–120 mg')
+    expect(dato).toHaveTextContent('por toma')
+    expect(dato).toHaveTextContent('De 1 a 3 años')
   })
 
   it('registro verificado se rotula Verificado', async () => {
