@@ -15,6 +15,7 @@ import { parsearNumero } from '../../calculos/numeros'
 import { parsearUnidadDosis, type Cantidad, type UnidadMasa } from '../../calculos/unidades'
 import { obtenerFicha } from '../../datos/cargar'
 import type { Dosis, Ficha } from '../../esquema/ficha'
+import Campo from '../componentes/Campo'
 
 const MODOS = ['Concentración', 'Volumen a cargar', 'Velocidad por tiempo', 'Velocidad por dosis', 'Dosis → velocidad', 'Velocidad → dosis', 'Pediátrica'] as const
 type Modo = (typeof MODOS)[number]
@@ -27,15 +28,6 @@ const seguro = (f: () => Alerta[]): Alerta[] => {
   } catch {
     return []
   }
-}
-
-function Campo({ etiqueta, valor, onCambio }: { etiqueta: string; valor: string; onCambio: (v: string) => void }) {
-  return (
-    <label className="campo">
-      <span>{etiqueta}</span>
-      <input inputMode="decimal" aria-label={etiqueta} value={valor} onChange={(e) => onCambio(e.target.value)} />
-    </label>
-  )
 }
 
 function SelectorUnidad({ etiqueta, valor, onCambio }: { etiqueta: string; valor: UnidadMasa; onCambio: (u: UnidadMasa) => void }) {
