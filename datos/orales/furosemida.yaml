@@ -1,0 +1,109 @@
+id: furosemida
+nombre: Furosemida
+comerciales:
+- Furosemida Cinfa
+grupo: diuretico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-40-mg
+  forma: comprimido
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: 'Furosemida Cinfa 40 mg; 4.2: "iniciar el tratamiento con medio, uno o dos comprimidos" (el arsenal de APS lista
+      40 mg)'
+dosis:
+- indicacion: Edema e hipertensión (adultos, mantenimiento)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 20
+  max: 40
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Inicio: medio, uno o dos comprimidos diarios (20-80 mg); la dosis máxima depende de la respuesta diurética.
+    La ficha no dice en cuántas tomas: se carga una toma diaria'
+  texto: 'Mantenimiento: medio a un comprimido (20-40 mg) al día'
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2 Adultos: "La dosis de mantenimiento es de medio a un comprimido al día"'
+- indicacion: Edema (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 2
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: 'La ficha da la dosis diaria sin número de tomas: se carga una toma diaria'
+  texto: 2 mg/kg al día, hasta un máximo de 40 mg por día
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2 Población pediátrica: "2 mg/kg de peso corporal, hasta un máximo de 40 mg por día de furosemida por vía
+      oral"'
+- indicacion: Uso crónico (lactantes y niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.5
+  max: 2
+  tomasPorDia: 1
+  intervaloH: 24
+  topePorToma:
+    valor: 20
+    unidad: mg
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Cada 6-24 h (se carga cada 24 h); sin superar 20-40 mg por dosis (se carga 20). Tope diario de la ficha CIMA
+    (40 mg/día): Pediamécum permite subir hasta 6 mg/kg/día y 600 mg/día'
+  texto: 0,5-2 mg/kg/dosis (sin superar 20-40 mg/dosis) cada 6-24 horas
+  fuente:
+    ref: PEDIAMECUM-FUROSEMIDA
+    detalle: 'Lactantes y niños, oral, uso crónico: "inicialmente, 0,5-2 mg/kg/dosis (sin superar 20-40 mg/dosis) cada 6-24
+      horas"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario pediátrico
+  valores:
+  - fuente: CIMA-FUROSEMIDA
+    valor: 40 mg por día de furosemida por vía oral (CIMA, niños)
+  - fuente: PEDIAMECUM-FUROSEMIDA
+    valor: '600 mg/día: uso crónico, subiendo hasta 6 mg/kg/día (Pediamécum); uso agudo hasta 6 mg/kg/dosis y 200 mg/dosis'
+  mostrado: 40 mg/día
+  motivo: Regla del tope más bajo para la misma población y vía; es la mayor diferencia del bloque cardiovascular.
+administracion:
+  comida: ayunas
+  texto: Con el estómago vacío; tragar sin masticar con suficiente líquido (CIMA). Pediamécum indica, en cambio, preferiblemente
+    con comidas.
+  noTriturar: true
+  fuente:
+    ref: CIMA-FUROSEMIDA
+    detalle: '4.2 Forma de administración: "con el estómago vacío ... sin masticar"'
+ajusteRenalHepatico:
+  renal: 'Pediamécum: no precisa ajuste; evitar en insuficiencia renal anúrica (la ficha CIMA la contraindica en anuria que
+    no responde).'
+  hepatico: 'Pediamécum: no precisa ajuste; vigilar estrechamente en cirróticos (hipopotasemia, depleción de volumen).'
+  fuente:
+    ref: PEDIAMECUM-FUROSEMIDA
+    detalle: Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Contraindicado en hipovolemia o deshidratación, anuria que no responde, hipopotasemia o hiponatremia graves, encefalopatía
+  hepática (precoma o coma) y lactancia; posible sensibilidad cruzada con sulfonamidas (CIMA, 4.3).
+meta: {}

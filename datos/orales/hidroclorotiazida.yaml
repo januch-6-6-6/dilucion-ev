@@ -1,0 +1,144 @@
+id: hidroclorotiazida
+nombre: Hidroclorotiazida
+comerciales: []
+grupo: diuretico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'DESCRIPTION: "Each tablet ... contains 12.5 mg, 25 mg and 50 mg"; el arsenal de APS lista 50 mg (no se indica
+      ranura)'
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'DESCRIPTION: comprimidos de 12.5, 25 y 50 mg'
+- id: comprimido-12-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 12.5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'DESCRIPTION: comprimidos de 12.5, 25 y 50 mg'
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Se puede subir a 50 mg/día en una o dos dosis; por encima de 50 mg aumenta mucho la pérdida de potasio
+  texto: Inicio 25 mg al día en dosis única; hasta 50 mg al día
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'DOSAGE AND ADMINISTRATION, Control of Hypertension: "The usual initial dose in adults is 25 mg daily given as
+      a single dose"'
+- indicacion: Edema (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 25
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: En dosis única o dividida (se cargan dos tomas); puede usarse en días alternos o 3-5 días por semana
+  texto: 25-100 mg al día
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'DOSAGE AND ADMINISTRATION, For Edema: "25mg to 100 mg daily as a single or divided dose"'
+- indicacion: Diuresis e hipertensión (lactantes hasta 2 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 2
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 37.5
+    unidad: mg
+  estatus: autorizada
+  condicion: 'En una o dos dosis (se cargan dos). Menores de 6 meses pueden requerir hasta 3 mg/kg/día en dos dosis. Pediamécum:
+    sin indicación pediátrica aprobada en España'
+  texto: 1-2 mg/kg/día; sin exceder 37,5 mg/día
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: 'Infants and Children: "1 to 2 mg/kg per day in single or two divided doses, not to exceed 37.5 mg per day in
+      infants up to 2 years"'
+- indicacion: Hipertensión y edema (niños de 2 a 12 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 2
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: 'En una o dos dosis (se cargan dos). Autorizada en el prospecto de EE. UU. (DailyMed: 100 mg/día en 2-12 años);
+    Pediamécum la considera off-label en España y da el mismo máximo para niños y adolescentes'
+  texto: 1-2 mg/kg/día en 1 o 2 dosis; máximo 100 mg/día
+  fuente:
+    ref: PEDIAMECUM-HIDROCLOROTIAZIDA
+    detalle: 'Hipertensión: "de 1 a 2 mg/kg por vía oral en 1 o 2 dosis"; Dosis máxima: "Niños y adolescentes: 100 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Estatus pediátrico
+  valores:
+  - fuente: DAILYMED-HIDROCLOROTIAZIDA
+    valor: El prospecto de EE. UU. da pauta pediátrica basada en uso empírico y literatura publicada (sin ensayos controlados)
+  - fuente: PEDIAMECUM-HIDROCLOROTIAZIDA
+    valor: 'Sin ninguna indicación aprobada en población pediátrica en España: off-label (Pediamécum)'
+  mostrado: Se muestra la pauta pediátrica como autorizada por la ficha de EE. UU.
+  motivo: Las cifras coinciden (1-2 mg/kg/día; 37,5 y 100 mg/día); difiere el estatus regulatorio entre países.
+administracion:
+  comida: indiferente
+  texto: Vía oral, con o sin comida (Pediamécum). El prospecto de EE. UU. no indica relación con las comidas.
+  fuente:
+    ref: PEDIAMECUM-HIDROCLOROTIAZIDA
+    detalle: 'Administración: "se puede administrar con o sin comida"'
+ajusteRenalHepatico:
+  renal: 'Usar con precaución en enfermedad renal grave: puede precipitar azotemia; si aparece deterioro renal progresivo,
+    considerar suspenderla. Pediamécum: con aclaramiento <30 ml/min puede no ser efectiva.'
+  hepatico: Precaución en insuficiencia hepática o enfermedad hepática progresiva (pequeños cambios hidroelectrolíticos pueden
+    precipitar coma hepático).
+  fuente:
+    ref: DAILYMED-HIDROCLOROTIAZIDA
+    detalle: WARNINGS y PRECAUTIONS (la frase de aclaramiento <30 es de Pediamécum)
+alertas:
+- 'Fuente de dosis extranjera (prospecto de la FDA de EE. UU., DailyMed): no hay ficha técnica CIMA de hidroclorotiazida sola.'
+- 'Riesgo de cáncer de piel no melanoma: protegerse del sol y hacer controles periódicos de la piel (DailyMed).'
+- No dar con litio; contraindicado en anuria y en alergia a sulfonamidas; riesgo de miopía aguda y glaucoma de ángulo cerrado
+  (DailyMed).
+- Vigilar electrolitos (hipopotasemia, hiponatremia, hipomagnesemia), glucemia y ácido úrico (DailyMed).
+meta: {}

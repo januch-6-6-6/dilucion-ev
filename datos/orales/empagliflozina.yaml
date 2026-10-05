@@ -1,0 +1,96 @@
+id: empagliflozina
+nombre: Empagliflozina
+comerciales:
+- Jardiance
+grupo: antidiabetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: 'Jardiance 10 mg; 4.2: "deben tragarse enteros con agua" (el arsenal de APS lista SGLT2, comprimido recubierto
+      10 mg)'
+dosis:
+- indicacion: Diabetes tipo 2 (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 25
+    unidad: mg
+  estatus: autorizada
+  condicion: Si tolera 10 mg, tiene TFGe ≥60 y necesita un control más estricto, subir a 25 mg una vez al día (dosis máxima
+    diaria 25 mg)
+  texto: 10 mg una vez al día; máximo 25 mg/día
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: '4.2 Diabetes mellitus tipo 2: "La dosis inicial recomendada es 10 mg ... una vez al día ... La dosis máxima
+      diaria es de 25 mg"'
+- indicacion: Insuficiencia cardíaca y enfermedad renal crónica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 10 mg una vez al día
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: '4.2 Insuficiencia cardíaca / Enfermedad renal crónica: "La dosis recomendada es 10 mg de empagliflozina una
+      vez al día"'
+- indicacion: Diabetes tipo 2 (niños desde 10 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 25
+    unidad: mg
+  estatus: autorizada
+  condicion: Si tolera 10 mg y requiere control adicional, subir a 25 mg una vez al día. Sin datos en <10 años ni con TFGe
+    <60
+  texto: 10 mg una vez al día (hasta 25 mg)
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: '4.2 Población pediátrica: "La dosis inicial recomendada es 10 mg ... una vez al día ... se puede aumentar a
+      25 mg una vez al día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Con o sin alimentos; tragar los comprimidos enteros con agua (CIMA).
+  noTriturar: true
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No iniciar con TFGe <20 ml/min/1,73 m²; con TFGe <60, dosis diaria de 10 mg; en diabetes tipo 2 la eficacia es menor
+    con TFGe <45.
+  hepatico: Sin ajuste; no se recomienda en insuficiencia hepática grave (experiencia limitada).
+  fuente:
+    ref: CIMA-EMPAGLIFLOZINA
+    detalle: 4.2 Insuficiencia renal / hepática
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Jardiance); Pediamécum no tiene ficha de empagliflozina.'
+- La subida a 25 mg requiere un comprimido de 25 mg, que no está cargado (solo 10 mg, para tragar entero).
+- 'Insuficiencia cardíaca y enfermedad renal crónica: seguridad y eficacia no establecidas en <18 años (CIMA).'
+meta: {}

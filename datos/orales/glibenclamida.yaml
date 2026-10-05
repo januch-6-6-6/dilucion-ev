@@ -1,0 +1,118 @@
+id: glibenclamida
+nombre: Glibenclamida
+comerciales: []
+grupo: antidiabetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: 'HOW SUPPLIED: "5 mg ... engraved with N horizontal bisect 344" (ranura); el arsenal de APS lista 5 mg'
+- id: comprimido-2-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 2.5
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: 'HOW SUPPLIED: "2.5 mg ... engraved with N horizontal bisect 343"'
+- id: comprimido-1-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 1.25
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: 'HOW SUPPLIED: "1.25 mg ... engraved with N horizontal bisect 342"'
+dosis:
+- indicacion: Diabetes tipo 2 (adultos), dosis de inicio
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topePorToma:
+    valor: 10
+    unidad: mg
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Con el desayuno o la primera comida principal; pacientes sensibles, 1,25 mg/día. Mantenimiento 1,25-20 mg/día;
+    aumentos de ≤2,5 mg por semana; >10 mg/día puede repartirse en dos tomas. Topes de Pediamécum (15 mg/día, no más de 10
+    mg por toma): el prospecto de EE. UU. no recomienda >20 mg/día'
+  texto: 2,5-5 mg al día con el desayuno; máximo cargado 15 mg/día
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: 'Usual Starting Dose: "2.5 to 5 mg daily, administered with breakfast or the first main meal"'
+- indicacion: Diabetes MODY y diabetes tipo 2 (niños y adolescentes, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topePorToma:
+    valor: 10
+    unidad: mg
+  topeDiario:
+    valor: 15
+    unidad: mg
+  estatus: off_label
+  condicion: Dosis empleadas en estudios pediátricos; la dosis pediátrica no está establecida y el prospecto de EE. UU. no
+    la recomienda en niños. Una toma por la mañana con el desayuno
+  texto: 2,5-5 mg/día en una dosis diaria
+  fuente:
+    ref: PEDIAMECUM-GLIBENCLAMIDA
+    detalle: '"En la diabetes MODY y en la diabetes mellitus tipo 2 las dosis empleadas ... en pacientes pediátricos oscilan
+      entre 2,5 y 5 mg/día, en una dosis diaria"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis diaria máxima
+  valores:
+  - fuente: DAILYMED-GLIBENCLAMIDA
+    valor: '20 mg/día: "Daily doses of more than 20 mg are not recommended" (prospecto de EE. UU.)'
+  - fuente: PEDIAMECUM-GLIBENCLAMIDA
+    valor: '15 mg/día: "la dosis máxima recomendada es de 15 mg/día", sin más de 10 mg por toma (Pediamécum)'
+  mostrado: 15 mg/día
+  motivo: Regla del tope más bajo.
+administracion:
+  comida: con_comida
+  texto: 'Con el desayuno o la primera comida principal (DailyMed). Pediamécum: una única toma por la mañana con el desayuno;
+    si se pautan 15 mg/día, repartir en 2 tomas. Si se usa colesevelam, tomar la glibenclamida al menos 4 h antes.'
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: 'Usual Starting Dose: "administered with breakfast or the first main meal"'
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal: dosis inicial y de mantenimiento conservadoras (DailyMed). Pediamécum: en insuficiencia renal
+    grave, usar insulina.'
+  hepatico: 'Insuficiencia hepática: dosis conservadoras (DailyMed). Pediamécum: en insuficiencia hepática grave, usar insulina.'
+  fuente:
+    ref: DAILYMED-GLIBENCLAMIDA
+    detalle: Specific Patient Populations (las frases sobre insulina son de Pediamécum)
+alertas:
+- 'Fuente de dosis de adulto extranjera (prospecto de la FDA de EE. UU., DailyMed): no hay ficha técnica CIMA de glibenclamida.'
+- 'Riesgo de hipoglucemia, sobre todo en ancianos, desnutridos y con insuficiencia renal o hepática: dosis inicial y de mantenimiento
+  conservadoras (DailyMed).'
+- Contraindicada en cetoacidosis diabética, diabetes tipo 1 y con bosentán (DailyMed). No recomendada en el embarazo.
+- 'Diabetes neonatal (0,2 → 0,8 mg/kg/día, Pediamécum) no se carga: uso hospitalario especializado.'
+meta: {}

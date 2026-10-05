@@ -1,0 +1,161 @@
+id: losartan
+nombre: Losartán
+comerciales:
+- Cozaar
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: 'Cozaar 100 mg; 4.2.2: "Los comprimidos de losartán se deben tragar enteros"'
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-LOSARTAN
+    detalle: 'Presentaciones de Pediamécum: COZAAR 50 mg COMPRIMIDOS RECUBIERTOS CON PELICULA (el arsenal de APS lista 50
+      mg)'
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-LOSARTAN
+    detalle: 'Presentaciones de Pediamécum: LOSARTAN NORMON 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA'
+- id: comprimido-12-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 12.5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-LOSARTAN
+    detalle: 'Presentaciones de Pediamécum: COZAAR 12.5 mg INICIO COMPRIMIDOS RECUBIERTOS CON PELICULA'
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Depleción de volumen: considerar 25 mg; >75 años: valorar iniciar con 25 mg'
+  texto: 50 mg una vez al día (inicio y mantenimiento); algunos pacientes, 100 mg una vez al día por la mañana
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: '4.2.1 Hipertensión: "La dosis habitual de inicio y de mantenimiento es de 50 mg una vez al día ... aumentando
+      la dosis a 100 mg una vez al día"'
+- indicacion: Insuficiencia cardíaca (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 12.5
+  max: 12.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: autorizada
+  texto: Inicio 12,5 mg una vez al día; aumentar a intervalos semanales (25, 50, 100 mg/día) hasta un máximo de 150 mg/día
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: '4.2.1 Insuficiencia cardiaca: "12,5 mg una vez al día ... hasta una dosis máxima de 150 mg al día"'
+- indicacion: Hipertensión (6-18 años, >20 a <50 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: autorizada
+  condicion: Pacientes que pueden tragar comprimidos; hasta 50 mg una vez al día solo en casos excepcionales
+  texto: 25 mg una vez al día (máximo 50 mg una vez al día en casos excepcionales)
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: '4.2.1 6 a 18 años: "la dosis recomendada es 25 mg una vez al día en pacientes de >20 a <50 kg ... hasta un máximo
+      de 50 mg una vez al día"'
+- indicacion: Hipertensión (6-18 años, >50 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: Hasta 100 mg una vez al día solo en casos excepcionales; no estudiadas dosis >1,4 mg/kg/día (o >100 mg)
+  texto: 50 mg una vez al día (máximo 100 mg una vez al día en casos excepcionales)
+  fuente:
+    ref: PEDIAMECUM-LOSARTAN
+    detalle: 'Hipertensión arterial (A): "Pacientes de más de 50 kg: 50 mg ... una vez al día ... hasta un máximo de 100 mg
+      una vez al día" (igual que CIMA 64971, 4.2.1)'
+- indicacion: Hipertensión (6-16 años, dosis por peso)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 0.7
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: off_label
+  condicion: 'Pediamécum: "según distintas fuentes de datos, no ficha técnica". Máximo 50 mg/día hasta conseguir el efecto
+    (máximo absoluto 1,4 mg/kg/día o 100 mg/día). Una vez al día o cada 12 h (se carga una toma)'
+  texto: 0,7 mg/kg/día, máximo 50 mg/día
+  fuente:
+    ref: PEDIAMECUM-LOSARTAN
+    detalle: 'Dosis ajustada por edad: "6-16 años: 0,7 mg/kg/día, máximo 50 mg/día hasta conseguir el efecto"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Tragar los comprimidos enteros con un vaso de agua, con o sin alimentos (CIMA).
+  noTriturar: true
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No es necesario ajustar la dosis inicial en insuficiencia renal ni en hemodiálisis (adultos).
+  hepatico: Con antecedentes de insuficiencia hepática, considerar una dosis menor; contraindicado en insuficiencia hepática
+    grave.
+  fuente:
+    ref: CIMA-LOSARTAN
+    detalle: 4.2.1 Poblaciones especiales
+alertas:
+- No recomendado en niños <6 años, con filtración glomerular <30 ml/min/1,73 m² ni con insuficiencia hepática (CIMA, 4.2).
+- Contraindicado en el segundo y tercer trimestre del embarazo y en insuficiencia hepática grave (CIMA, 4.3).
+meta: {}

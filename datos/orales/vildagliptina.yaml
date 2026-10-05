@@ -1,0 +1,75 @@
+id: vildagliptina
+nombre: Vildagliptina
+comerciales:
+- Galvus
+grupo: antidiabetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-VILDAGLIPTINA
+    detalle: Galvus 50 mg comprimidos (la ficha no menciona partición); el arsenal de APS lista 50 mg
+dosis:
+- indicacion: 'Diabetes tipo 2 (adultos): monoterapia o con metformina, tiazolidindiona, metformina + sulfonilurea o insulina'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: 50 mg por la mañana y 50 mg por la noche; no se recomiendan dosis superiores a 100 mg
+  texto: '100 mg al día: 50 mg por la mañana y 50 mg por la noche'
+  fuente:
+    ref: CIMA-VILDAGLIPTINA
+    detalle: '4.2: "la dosis diaria recomendada ... es de 100 mg, dividida en 50 mg por la mañana y 50 mg por la noche ...
+      No se recomiendan dosis superiores a 100 mg"'
+- indicacion: Diabetes tipo 2 (adultos) en combinación dual con una sulfonilurea
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Por la mañana; 100 mg una vez al día no fue más eficaz. Puede ser necesario bajar la sulfonilurea (hipoglucemia)
+  texto: 50 mg una vez al día por la mañana
+  fuente:
+    ref: CIMA-VILDAGLIPTINA
+    detalle: '4.2: "en combinación dual con una sulfonilurea, la dosis recomendada ... es de 50 mg una vez al día administrada
+      por la mañana"'
+pediatria:
+  estado: solo_adulto
+  motivo: 'La ficha técnica no la recomienda en menores de 18 años: seguridad y eficacia no establecidas y sin datos.'
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Vía oral, con o sin comida (CIMA). Si se omite una dosis, tomarla en cuanto se recuerde, sin dosis doble el mismo
+    día.
+  fuente:
+    ref: CIMA-VILDAGLIPTINA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal leve (aclaramiento ≥50 ml/min): sin ajuste; moderada, grave o terminal: 50 mg una vez al día.'
+  hepatico: No debe utilizarse en insuficiencia hepática (incluida ALT o AST >3 veces el límite superior de la normalidad).
+  fuente:
+    ref: CIMA-VILDAGLIPTINA
+    detalle: 4.2 Insuficiencia renal / hepática
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Galvus); Pediamécum no tiene ficha de vildagliptina.'
+- No usar en insuficiencia hepática, incluidos ALT o AST >3 veces el límite superior antes del tratamiento (CIMA).
+meta: {}

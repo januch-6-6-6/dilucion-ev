@@ -1,0 +1,101 @@
+id: acido-acetilsalicilico
+nombre: Ácido acetilsalicílico
+comerciales:
+- Aspirina
+grupo: aine
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACIDO-ACETILSALICILICO
+    detalle: Aspirina 500 mg comprimidos (la ficha no menciona partición)
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 11.05: Ácido acetilsalicílico, Comprimido 100 mg (Pediamécum lista ADIRO 100 MG COMPRIMIDOS GASTRORRESISTENTES)'
+dosis:
+- indicacion: Dolor leve o moderado y fiebre (adultos y adolescentes >16 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 6
+  intervaloH: 4
+  topeDiario:
+    valor: 4000
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Repetir solo si es necesario y tras un mínimo de 4 h; dolor >5 días o fiebre >3 días: reevaluar'
+  texto: 1 comprimido (500 mg); repetir en caso necesario tras un mínimo de 4 h; no exceder 4000 mg en 24 h
+  presentaciones:
+  - comprimido-500-mg
+  fuente:
+    ref: CIMA-ACIDO-ACETILSALICILICO
+    detalle: '4.2: "1 comprimido (500 mg de ácido acetilsalicílico), repetir ... después de un periodo mínimo de 4 horas.
+      No se excederá de 4000 mg en 24 horas"'
+- indicacion: Antiagregante plaquetario (>16 años)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 100
+  max: 300
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Pediamécum no indica el número de tomas: se carga una toma diaria. El efecto antitrombótico dura más de 7 días'
+  texto: 100-300 mg/día
+  fuente:
+    ref: PEDIAMECUM-ACIDO-ACETILSALICILICO
+    detalle: 'Uso clínico: antiagregante "en >16 años (A)"; Dosis: "Tratamiento antiagregante: 100-300 mg/día"'
+pediatria:
+  estado: solo_adulto
+  motivo: La ficha técnica contraindica el ácido acetilsalicílico en menores de 16 años por el síndrome de Reye, y sus pautas
+    pediátricas de Pediamécum son de uso especializado.
+discrepancias:
+- campo: Uso en menores de 16 años
+  valores:
+  - fuente: CIMA-ACIDO-ACETILSALICILICO
+    valor: Contraindicado en niños menores de 16 años por su relación con el síndrome de Reye (CIMA)
+  - fuente: PEDIAMECUM-ACIDO-ACETILSALICILICO
+    valor: 'Pautas pediátricas especializadas: dolor, artritis idiopática juvenil, fiebre reumática, Kawasaki y antiagregación
+      (Pediamécum)'
+  mostrado: No se muestra dosis pediátrica
+  motivo: 'Decisión del proyecto: solo dosis de adulto; las pautas pediátricas son de uso especializado y nunca como analgésico
+    o antipirético común.'
+administracion:
+  comida: despues
+  texto: Con un vaso de agua después de las comidas o con algún alimento; no tomar con el estómago vacío (CIMA).
+  fuente:
+    ref: CIMA-ACIDO-ACETILSALICILICO
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: Contraindicado en insuficiencia renal grave.
+  hepatico: Contraindicado en insuficiencia hepática grave.
+  fuente:
+    ref: CIMA-ACIDO-ACETILSALICILICO
+    detalle: 4.3 Contraindicaciones
+alertas:
+- No usar en menores de 16 años (síndrome de Reye), sobre todo con fiebre, gripe o varicela (CIMA, 4.3 y 4.4).
+- Contraindicado en úlcera gastroduodenal, antecedente de hemorragia digestiva por AINE, diátesis hemorrágica, asma inducida
+  por salicilatos, insuficiencia renal, hepática o cardíaca grave, metotrexato ≥15 mg/semana y tercer trimestre del embarazo
+  (CIMA, 4.3).
+- El comprimido de 100 mg del arsenal (antiagregante) no sirve para la dosis analgésica de 500 mg.
+meta: {}

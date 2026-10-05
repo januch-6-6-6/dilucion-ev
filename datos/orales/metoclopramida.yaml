@@ -1,0 +1,116 @@
+id: metoclopramida
+nombre: Metoclopramida
+comerciales:
+- Metoclopramida Accord
+- Metoclopramida Kern Pharma
+grupo: antiemetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-75665
+    detalle: Metoclopramida Accord 10 mg (la ficha no menciona partición); el arsenal de APS lista 10 mg
+- id: solucion-1-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-69266
+    detalle: Metoclopramida Kern Pharma 1 mg/ml solución oral (1 mg = 1 ml)
+dosis:
+- indicacion: Náuseas y vómitos (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 3
+  topeDiario:
+    valor: 30
+    unidad: mg
+  estatus: autorizada
+  condicion: Hasta tres veces al día con un intervalo mínimo de 6 h; máximo 30 mg/día o 0,5 mg/kg/día; duración máxima 5 días
+  texto: 10 mg hasta tres veces al día
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-75665
+    detalle: '4.2 Población adulta: "una dosis única de 10 mg, que se puede repetir hasta 3 veces al día. La dosis máxima
+      diaria recomendada es de 30 mg o 0,5mg/kg"'
+- indicacion: Prevención de náuseas y vómitos retardados por quimioterapia (1-18 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.1
+  max: 0.15
+  tomasPorDia: 3
+  estatus: autorizada
+  condicion: Segunda línea; hasta 3 veces al día con intervalo mínimo de 6 h; máximo 0,5 mg/kg en 24 h; máximo 5 días. Contraindicada
+    <1 año
+  texto: 0,1-0,15 mg/kg hasta tres veces al día (máximo 0,5 mg/kg/24 h)
+  presentaciones:
+  - solucion-1-mg-ml
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-69266
+    detalle: '4.2 NVIQ (1-18 años): "0,1 a 0,15 mg/kg de peso corporal, que se puede repetir hasta tres veces al día ... La
+      dosis máxima en 24 horas es 0,5 mg/kg"'
+- indicacion: Prevención de náuseas y vómitos retardados por quimioterapia (1-18 años), tabla por edad y peso
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: Máximo 5 días; intervalo mínimo de 6 h entre tomas
+  texto: '1-3 años (10-14 kg): 1 mg (1 ml); 3-5 años (15-19 kg): 2 mg (2 ml); 5-9 años (20-29 kg): 2,5 mg (2,5 ml); 9-18 años
+    (30-60 kg): 5 mg (5 ml); 15-18 años (>60 kg): 10 mg (10 ml); todas hasta 3 veces al día'
+  presentaciones:
+  - solucion-1-mg-ml
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-69266
+    detalle: 4.2 Tabla de dosis (solución oral 1 mg/ml)
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Vía de la pauta pediátrica en Pediamécum
+  valores:
+  - fuente: CIMA-METOCLOPRAMIDA-69266
+    valor: 'Pauta oral de la ficha: 0,1-0,15 mg/kg hasta tres veces al día, máximo 0,5 mg/kg/24 h'
+  - fuente: PEDIAMECUM-METOCLOPRAMIDA
+    valor: La misma pauta descrita para la vía intravenosa; la nota de seguridad de la AEMPS limita a 0,5 mg/kg/24 h y 5 días
+  mostrado: Se muestra la pauta oral de la ficha técnica
+  motivo: 'Pediamécum no trae una pauta oral propia: no se usa como fuente de dosis, por lo que la ficha queda con una sola
+    institución.'
+administracion:
+  comida: indiferente
+  texto: Vía oral, con un intervalo mínimo de 6 h entre dos tomas, incluso si hay vómito o rechazo de la dosis. La solución
+    se mide con el tapón dosificador graduado en ml (CIMA). La ficha no indica relación con las comidas.
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-75665
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Enfermedad renal terminal (aclaramiento ≤15 ml/min): reducir la dosis diaria un 75 %; insuficiencia renal moderada
+    a grave (15-60 ml/min): reducir un 50 %. Ancianos: considerar reducir la dosis.'
+  hepatico: 'Insuficiencia hepática grave: reducir la dosis un 50 %.'
+  fuente:
+    ref: CIMA-METOCLOPRAMIDA-75665
+    detalle: 4.2 Poblaciones especiales
+alertas:
+- 'Fuente de dosis única en la práctica: solo las fichas CIMA dan pauta oral; Pediamécum describe la vía intravenosa.'
+- La pauta por kg no trae tope pediátrico en mg (solo 0,5 mg/kg/24 h); como referencia, el adulto tiene un máximo de 30 mg/día
+  (CIMA) y la calculadora limita a ese tope.
+- 'Los comprimidos no son adecuados para niños de menos de 30 kg y no permiten 2,5 o 5 mg (10 mg, sin ranura): en niños usar
+  la solución (CIMA 75665).'
+- Contraindicada en menores de 1 año (trastornos extrapiramidales), epilepsia, Parkinson, discinesia tardía previa, feocromocitoma,
+  hemorragia, obstrucción o perforación digestiva y con levodopa (CIMA, 4.3).
+meta: {}

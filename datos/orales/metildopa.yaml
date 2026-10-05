@@ -1,0 +1,94 @@
+id: metildopa
+nombre: Metildopa
+comerciales:
+- Aldomet
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METILDOPA
+    detalle: Aldomet Forte 500 mg (la ficha no menciona partición)
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-METILDOPA
+    detalle: 'Presentaciones de Pediamécum: ALDOMET 250 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (el arsenal de APS lista 250
+      mg)'
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 3000
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Dos o tres veces al día durante las primeras 48 h (se cargan dos tomas); ajustar cada ≥2 días. Tras otros antihipertensivos,
+    inicio ≤500 mg/día. Mayores de 65 años: inicio ≤250 mg/día (p. ej., 125 mg dos veces al día) y máximo 2 g/día'
+  texto: 250 mg dos o tres veces al día; dosis máxima diaria recomendada 3 g
+  fuente:
+    ref: CIMA-METILDOPA
+    detalle: '4.2 Adultos: "250 mg dos o tres veces al día durante las primeras 48 horas ... La dosis máxima diaria recomendada
+      es de 3 g"'
+- indicacion: Hipertensión (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 10
+  tomasPorDia: 4
+  intervaloH: 6
+  topeDiario:
+    valor: 3000
+    unidad: mg
+  estatus: autorizada
+  condicion: Dividida en 2-4 dosis (se cargan cuatro). Aumentar cada 2 días; máximo 65 mg/kg/día o 3 g/día, la que resulte
+    menor
+  texto: Inicio 10 mg/kg/día en 2-4 dosis; máximo 65 mg/kg/día o 3 g/día
+  fuente:
+    ref: PEDIAMECUM-METILDOPA
+    detalle: 'Oral: "dosis inicial de 10 mg/kg/día, dividida en 2-4 dosis ... hasta un máximo de 65 mg/kg/día. Dosis máxima:
+      3 g/día" (la ficha CIMA 53587 da la misma pauta en 4.2 Población pediátrica)'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: 'Vía oral (CIMA). Pediamécum: puede administrarse con o sin alimentos; aumentar la dosis por las noches para minimizar
+    la sedación diurna.'
+  fuente:
+    ref: PEDIAMECUM-METILDOPA
+    detalle: 'Administración: "Oral: puede administrarse con o sin alimentos"'
+ajusteRenalHepatico:
+  renal: 'Los pacientes con insuficiencia renal pueden responder a dosis menores (CIMA). Pediamécum: aclaramiento 10-50 ml/min,
+    dosis normal cada 8-12 h; <10 ml/min, cada 12-24 h.'
+  fuente:
+    ref: CIMA-METILDOPA
+    detalle: 4.2 Pacientes con insuficiencia renal (la tabla de intervalos es de Pediamécum)
+alertas:
+- La dosis de 125 mg de los mayores de 65 años no se puede obtener con los comprimidos cargados (250 y 500 mg, sin ranura
+  declarada).
+- Contraindicado en enfermedad hepática activa, depresión, tratamiento con IMAO, feocromocitoma o paraganglioma y porfiria
+  (CIMA, 4.3).
+- 'Somnolencia al inicio y al subir la dosis: aumentar primero la dosis de la noche (CIMA).'
+meta: {}

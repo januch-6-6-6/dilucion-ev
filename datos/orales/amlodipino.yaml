@@ -1,0 +1,117 @@
+id: amlodipino
+nombre: Amlodipino
+comerciales:
+- Amlodipino Cinfa
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMLODIPINO
+    detalle: Amlodipino Cinfa 10 mg (la ficha no menciona partición); el arsenal de APS lista 5 y 10 mg
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMLODIPINO
+    detalle: 'Presentaciones de Pediamécum: AMLODIPINO CINFA 5 mg COMPRIMIDOS EFG'
+dosis:
+- indicacion: Hipertensión y angina (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 10
+    unidad: mg
+  estatus: autorizada
+  texto: Inicio 5 mg una vez al día; puede aumentarse hasta una dosis máxima de 10 mg
+  fuente:
+    ref: CIMA-AMLODIPINO
+    detalle: '4.2 Adultos: "la dosis inicial recomendada es 5 mg ... una vez al día, que puede aumentarse hasta una dosis
+      máxima de 10 mg"'
+- indicacion: Hipertensión (6-17 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 2.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 5
+    unidad: mg
+  estatus: autorizada
+  condicion: Subir a 5 mg una vez al día si no se alcanza el objetivo tras 4 semanas; no se han estudiado dosis >5 mg/día
+  texto: 2,5 mg una vez al día; 5 mg una vez al día tras 4 semanas si hace falta
+  fuente:
+    ref: PEDIAMECUM-AMLODIPINO
+    detalle: '6-17 años (A): "2,5 mg / 1 vez al día, como dosis inicial, elevándola hasta 5 mg / 1 vez al día" (igual que
+      CIMA 65461)'
+- indicacion: Hipertensión (niños <6 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.05
+  max: 0.1
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 5
+    unidad: mg
+  estatus: off_label
+  condicion: 'Dosis de inicio, preferentemente en dosis única (pueden precisar cada 12 h); máximo 0,6 mg/kg/día. La ficha:
+    "No hay datos disponibles" en <6 años'
+  texto: 0,05-0,1 mg/kg/día (dosis máxima 0,6 mg/kg/día; máximo 5 mg/día)
+  fuente:
+    ref: PEDIAMECUM-AMLODIPINO
+    detalle: 'Niños <6 años: "0,05-0,1 mg/kg/día (dosis máxima: 0,6 mg/kg/día; máximo: 5 mg/día), preferentemente en dosis
+      única"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis máxima en 6-17 años
+  valores:
+  - fuente: CIMA-AMLODIPINO
+    valor: '5 mg diarios: no se han estudiado dosis superiores en pacientes pediátricos (CIMA)'
+  - fuente: PEDIAMECUM-AMLODIPINO
+    valor: '10 mg/día: "Hay estudios con una dosis máxima de hasta 10 mg/día"; >5 mg/día es off-label (Pediamécum)'
+  mostrado: 5 mg/día
+  motivo: Regla del tope más bajo para la misma población y pauta.
+administracion:
+  comida: indiferente
+  texto: 'Comprimido para administración oral (CIMA). Pediamécum: oral, con o sin comidas.'
+  fuente:
+    ref: PEDIAMECUM-AMLODIPINO
+    detalle: 'Administración: "oral, con o sin comidas"'
+ajusteRenalHepatico:
+  renal: 'No se correlaciona con el grado de insuficiencia renal: dosis normales; no es dializable.'
+  hepatico: 'Insuficiencia hepática: empezar con el rango inferior de la dosis; en insuficiencia hepática grave, iniciar con
+    la dosis más baja y ajustar lentamente.'
+  fuente:
+    ref: CIMA-AMLODIPINO
+    detalle: 4.2 Poblaciones especiales
+alertas:
+- 'La dosis de 2,5 mg requiere medio comprimido de 5 mg y ninguna fuente dice que sea partible: haría falta una presentación
+  de 2,5 mg o confirmar la ranura del producto.'
+- Contraindicado en hipotensión grave, shock, estenosis aórtica grave e insuficiencia cardíaca inestable tras infarto agudo
+  (CIMA, 4.3).
+meta: {}

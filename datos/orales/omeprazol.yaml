@@ -1,0 +1,131 @@
+id: omeprazol
+nombre: Omeprazol
+comerciales:
+- Gastromel
+grupo: protector-gastrico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-20-mg
+  forma: capsula
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: Gastromel 20 mg cápsulas duras gastrorresistentes; el arsenal de APS lista 20 mg con gránulos de recubrimiento
+      entérico
+- id: capsula-10-mg
+  forma: capsula
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-OMEPRAZOL
+    detalle: 'Presentaciones de Pediamécum: OMEPRAZOL NORMON 10 mg CAPSULAS DURAS GASTRORRESISTENTES'
+- id: capsula-40-mg
+  forma: capsula
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-OMEPRAZOL
+    detalle: 'Presentaciones de Pediamécum: OMEPRAZOL CINFA 40 MG CAPSULAS DURAS GASTRORRESISTENTES'
+dosis:
+- indicacion: 'Síntomas de reflujo: ardor y regurgitación ácida (adultos, sin receta)'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Durante 14 días; suspender al lograr alivio completo (la mayoría en 7 días)
+  texto: Una cápsula de 20 mg una vez al día durante 14 días
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: '4.2: "La dosis recomendada es de una cápsula gastrorresistente de 20 mg una vez al día durante 14 días"'
+- indicacion: Esofagitis por reflujo y ERGE sintomática (niños de 1 año, 10-20 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: En caso necesario, subir a 20 mg una vez al día. Esofagitis 4-8 semanas; síntomas 2-4 semanas
+  texto: 10 mg una vez al día (hasta 20 mg)
+  fuente:
+    ref: PEDIAMECUM-OMEPRAZOL
+    detalle: 'Niños >1 año y ≥10 kg: "1 año 10-20 kg 10 mg, 1 vez al día. En caso necesario, puede aumentarse la dosis a 20
+      mg"'
+- indicacion: Esofagitis por reflujo y ERGE sintomática (niños ≥2 años, >20 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: En caso necesario, subir a 40 mg una vez al día. Esofagitis 4-8 semanas; síntomas 2-4 semanas
+  texto: 20 mg una vez al día (hasta 40 mg)
+  fuente:
+    ref: PEDIAMECUM-OMEPRAZOL
+    detalle: '"2 años >20 kg 20 mg, 1 vez al día. En caso necesario, puede aumentarse la dosis a 40 mg, 1 vez al día"'
+- indicacion: Úlcera duodenal por Helicobacter pylori (niños >4 años), con dos antibióticos
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: Tener en cuenta las recomendaciones locales de resistencia bacteriana (normalmente 7 días, hasta 14)
+  texto: '15-30 kg: 10 mg de omeprazol + amoxicilina 25 mg/kg + claritromicina 7,5 mg/kg, 2 veces al día, 1 semana. 31-40
+    kg: 20 mg + amoxicilina 750 mg + claritromicina 7,5 mg/kg, 2 veces al día, 1 semana. >40 kg: 20 mg + amoxicilina 1 g +
+    claritromicina 500 mg, 2 veces al día, 1 semana'
+  fuente:
+    ref: PEDIAMECUM-OMEPRAZOL
+    detalle: 'Tratamiento de la enfermedad gastroduodenal por Helicobacter pylori: tabla por peso'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Ficha CIMA cargada
+  valores:
+  - fuente: CIMA-OMEPRAZOL
+    valor: 'Gastromel es de venta libre: solo cubre el ardor y la regurgitación en adultos, 20 mg/día durante 14 días'
+  - fuente: PEDIAMECUM-OMEPRAZOL
+    valor: Indicaciones pediátricas autorizadas (esofagitis, ERGE y H. pylori) con pautas por peso
+  mostrado: Se muestra la dosis de venta libre para adultos y las pautas pediátricas de Pediamécum
+  motivo: 'No hay ficha de prescripción para adultos en las fuentes: la úlcera, la esofagitis del adulto y la erradicación
+    de H. pylori en adultos no tienen dosis cargada.'
+administracion:
+  comida: antes
+  texto: 'Por la mañana, tragando la cápsula entera con medio vaso de agua, sin masticar ni triturar; si hay dificultad para
+    tragar, se puede abrir y mezclar el contenido con agua sin gas o un líquido ligeramente ácido (no leche ni agua con gas)
+    (CIMA). Pediamécum: 15-30 minutos antes del desayuno.'
+  noTriturar: true
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No es necesario ajustar la dosis en insuficiencia renal.
+  hepatico: 'Los pacientes con insuficiencia hepática deben consultar con un médico antes de tomarlo (CIMA). Pediamécum: en
+    insuficiencia hepática grave, reducir la dosis a la mitad.'
+  fuente:
+    ref: CIMA-OMEPRAZOL
+    detalle: 4.2 Insuficiencia renal / hepática (la reducción a la mitad es de Pediamécum)
+alertas:
+- 'La ficha CIMA cargada (Gastromel) es de venta libre: no sirve como fuente de dosis clínica del adulto fuera del ardor.'
+- No administrar con nelfinavir (CIMA, 4.3).
+meta: {}

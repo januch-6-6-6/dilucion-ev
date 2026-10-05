@@ -1,0 +1,147 @@
+id: atorvastatina
+nombre: Atorvastatina
+comerciales:
+- Atorvastatina Cinfa
+grupo: hipolipemiante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ATORVASTATINA
+    detalle: 'Atorvastatina Cinfa 10 mg; Pediamécum: "Tomar los comprimidos enteros"'
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 11.06: Atorvastatina, Comprimido 20 mg (Pediamécum lista ATORVASTATINA CINFA 20 mg)'
+- id: comprimido-40-mg
+  forma: comprimido
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ATORVASTATINA
+    detalle: 'Presentaciones de Pediamécum: ATORVASTATINA CINFA 40 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG'
+- id: comprimido-80-mg
+  forma: comprimido
+  cantidad:
+    valor: 80
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ATORVASTATINA
+    detalle: 'Presentaciones de Pediamécum: ATORVASTATINA CINFA 80 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG'
+dosis:
+- indicacion: Hipercolesterolemia y prevención cardiovascular (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 80
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Ajustes cada ≥4 semanas. Con elbasvir/grazoprevir o letermovir: no superar 20 mg/día'
+  texto: Inicio 10 mg una vez al día; dosis máxima 80 mg una vez al día
+  fuente:
+    ref: CIMA-ATORVASTATINA
+    detalle: '4.2.1: "La dosis inicial recomendada es de 10 mg una vez al día ... La dosis máxima es de 80 mg una vez al día"'
+- indicacion: Hipercolesterolemia familiar heterocigótica (niños desde 10 años y adolescentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 80
+    unidad: mg
+  estatus: autorizada
+  condicion: Solo por médicos con experiencia en hiperlipidemia pediátrica; ajustes cada ≥4 semanas, por lo general de 10
+    en 10 mg
+  texto: 10 mg cada 24 h; hasta un máximo de 80 mg/día según respuesta y tolerancia
+  fuente:
+    ref: PEDIAMECUM-ATORVASTATINA
+    detalle: 'Niños >10 años y adolescentes: "dosis inicial: 10 mg/24 horas ... hasta una dosis máxima de 80 mg/día" (igual
+      que CIMA 69534)'
+- indicacion: Hipercolesterolemia (niños de 4 a 10 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: off_label
+  condicion: 'La ficha: no indicada en <10 años. Aumentar cada 4 semanas; máximo 40 mg/día (en algunos casos se ha llegado
+    a 80 mg/día)'
+  texto: Inicio 5 mg cada 24 h; máximo 40 mg/día
+  fuente:
+    ref: PEDIAMECUM-ATORVASTATINA
+    detalle: 'Niños 4-10 años: "dosis inicial de 5 mg/24 horas ... hasta un máximo de 40 mg/día, aunque en algunos casos se
+      ha aumentado hasta 80 mg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis máxima en niños de 4 a 10 años
+  valores:
+  - fuente: PEDIAMECUM-ATORVASTATINA
+    valor: '40 mg/día: máximo recomendado (Pediamécum)'
+  - fuente: PEDIAMECUM-ATORVASTATINA
+    valor: '80 mg/día: "en algunos casos se ha aumentado hasta 80 mg/día" (Pediamécum)'
+  mostrado: 40 mg/día
+  motivo: Regla del tope más bajo dentro de la misma fuente y población.
+- campo: Uso en menores de 10 años
+  valores:
+  - fuente: CIMA-ATORVASTATINA
+    valor: No está indicada en pacientes de menos de 10 años; no se puede hacer una recomendación posológica (CIMA)
+  - fuente: PEDIAMECUM-ATORVASTATINA
+    valor: Pauta para niños de 4 a 10 años (Pediamécum)
+  mostrado: Se muestra la pauta de Pediamécum como uso fuera de ficha técnica (off-label)
+  motivo: Discrepancia de población. Pediamécum advierte que la seguridad con dosis >20 mg (≈0,5 mg/kg) en niños es limitada.
+administracion:
+  comida: indiferente
+  texto: 'Una toma diaria a cualquier hora, con o sin comida (CIMA). Pediamécum: tomar los comprimidos enteros con un vaso
+    de agua.'
+  fuente:
+    ref: CIMA-ATORVASTATINA
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No es necesario ajustar la dosis.
+  hepatico: Usar con precaución en insuficiencia hepática; contraindicada en enfermedad hepática activa.
+  fuente:
+    ref: CIMA-ATORVASTATINA
+    detalle: 4.2.1 Insuficiencia renal / hepática
+alertas:
+- 'La dosis de 5 mg (niños de 4 a 10 años) no se puede obtener con los comprimidos cargados (10 mg o más, para tragar enteros):
+  haría falta una presentación de 5 mg.'
+- Contraindicada en enfermedad hepática activa o transaminasas >3 veces el límite superior, embarazo, lactancia, mujeres fértiles
+  sin anticoncepción y con glecaprevir/pibrentasvir (CIMA, 4.3).
+meta: {}

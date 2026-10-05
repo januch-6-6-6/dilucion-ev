@@ -1,0 +1,178 @@
+id: enalapril
+nombre: Enalapril
+comerciales:
+- Enalapril Cinfa
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: Enalapril Cinfa 10 mg comprimidos (la ficha no menciona ranura ni partición); el arsenal de APS lista 10 mg
+- id: comprimido-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ENALAPRIL
+    detalle: 'Presentaciones de Pediamécum: ENALAPRIL CINFA 5 mg COMPRIMIDOS EFG (no se indica si es partible)'
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 11.03: Enalapril, Comprimido 10 mg y 20 mg (Pediamécum también lista ENALAPRIL CINFA 20 mg)'
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 20
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Hipertensión leve: inicio 5-10 mg; con sistema renina-angiotensina muy activo o tras diuréticos: 5 mg o menos'
+  texto: Inicio 5 hasta un máximo de 20 mg una vez al día; mantenimiento habitual 20 mg/día; máximo de mantenimiento 40 mg/día
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: '4.2.1 Hipertensión: "La dosificación inicial es de 5 hasta un máximo de 20 mg ... una vez al día ... La dosis
+      máxima de mantenimiento es 40 mg al día"'
+- indicacion: Insuficiencia cardíaca o disfunción ventricular izquierda asintomática (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 2.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: Inicio bajo estrecha supervisión; aumento gradual en 2-4 semanas
+  texto: 'Inicio 2,5 mg/día (días 1-3); días 4-7: 5 mg/día en dos tomas; semana 2: 10 mg/día; semanas 3-4: 20 mg/día en una
+    o dos tomas; máximo 40 mg/día en dos tomas'
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: '4.2.1: "La dosis inicial ... es de 2,5 mg" y Tabla 1; "La dosis máxima es de 40 mg al día administrada en dos
+      tomas"'
+- indicacion: Hipertensión (niños ≥6 años de 20 a <50 kg que puedan tragar comprimidos)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 2.5
+  max: 2.5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: autorizada
+  condicion: No recomendado en recién nacidos ni en niños con filtración glomerular <30 ml/min/1,73 m²
+  texto: Inicio 2,5 mg una vez al día; ajustar hasta un máximo de 20 mg/día
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: '4.2.1 Población pediátrica: "La dosis inicial recomendada es de 2,5 mg en pacientes de 20 a < 50 kg ... hasta
+      un máximo de 20 mg al día en pacientes de 20 a < 50 kg"'
+- indicacion: Hipertensión (niños ≥6 años y ≥50 kg)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: autorizada
+  condicion: No recomendado con filtración glomerular <30 ml/min/1,73 m²
+  texto: Inicio 5 mg una vez al día; ajustar hasta un máximo de 40 mg/día
+  fuente:
+    ref: PEDIAMECUM-ENALAPRIL
+    detalle: 'Niños >6 años con peso ≥20 kg (A): "Dosis inicial ... 5 mg en pacientes >50 kg ... hasta un máximo de ... 40
+      mg en pacientes >50 kg" (igual que CIMA 73300, 4.2.1)'
+- indicacion: Hipertensión (niños >1 mes, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 0.08
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 5
+    unidad: mg
+  estatus: off_label
+  condicion: 'Dosis inicial; ajustar según la presión arterial. No se han estudiado dosis >0,58 mg/kg/día (o >40 mg). Una
+    toma diaria (Pediamécum: "Vía oral una vez al día")'
+  texto: '0,08 mg/kg/día (dosis máxima: 5 mg)'
+  fuente:
+    ref: PEDIAMECUM-ENALAPRIL
+    detalle: 'Niños >1 mes (E: off-label): "dosis iniciales de 0,08 mg/kg/día (dosis máxima: 5 mg)"'
+- indicacion: Proteinuria y síndrome nefrótico (niños y adolescentes, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.2
+  max: 0.6
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 20
+    unidad: mg
+  estatus: off_label
+  condicion: 'Inicio 0,2 mg/kg/día, escalando cada 4-12 semanas; datos limitados. Una toma diaria (Pediamécum: "Vía oral una
+    vez al día")'
+  texto: '0,2-0,6 mg/kg/día (máximo: 20 mg/día)'
+  fuente:
+    ref: PEDIAMECUM-ENALAPRIL
+    detalle: 'Proteinuria y síndrome nefrótico: "dosis inicial de 0,2 mg/kg/día ... rango: 0,2-0,6 mg/kg/día (máximo: 20 mg/día)"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: 'Vía oral. Los alimentos no afectan la absorción de enalapril (CIMA). Pediamécum: una vez al día, independientemente
+    de las comidas.'
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: '4.2.2 Forma de administración: "Los alimentos no afectan la absorción de enalapril"'
+ajusteRenalHepatico:
+  renal: 'Dosis inicial según aclaramiento de creatinina: 30-80 ml/min, 5-10 mg/día; 10-30 ml/min, 2,5 mg/día; ≤10 ml/min,
+    2,5 mg los días de diálisis. En general, prolongar el intervalo y/o reducir la dosis. Ancianos: adecuar a la función renal.'
+  fuente:
+    ref: CIMA-ENALAPRIL
+    detalle: 4.2.1 Insuficiencia renal, Tabla 2
+alertas:
+- 'La dosis de 2,5 mg (inicio en insuficiencia cardíaca y en niños de 20 a <50 kg) no se puede obtener con los comprimidos
+  cargados (5, 10 y 20 mg, sin ranura declarada): haría falta medio comprimido de 5 mg partible o una presentación de 2,5
+  mg.'
+- Contraindicado en el segundo y tercer trimestre del embarazo, con antecedente de angioedema por IECA y en angioedema hereditario
+  o idiopático; no combinar con sacubitrilo/valsartán (36 h de separación) (CIMA, 4.3).
+- Riesgo de hipotensión sintomática tras la primera dosis si hay depleción de volumen (diuréticos, restricción de sal, diálisis,
+  diarrea o vómitos) (CIMA, 4.4).
+meta: {}

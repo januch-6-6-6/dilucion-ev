@@ -1,0 +1,85 @@
+id: gemfibrozilo
+nombre: Gemfibrozilo
+comerciales: []
+grupo: hipolipemiante
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-600-mg
+  forma: comprimido
+  cantidad:
+    valor: 600
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-GEMFIBROZILO
+    detalle: Gemfibrozilo Stada 600 mg (la ficha no menciona partición); el arsenal de APS lista 300 y 600 mg
+- id: comprimido-300-mg
+  forma: comprimido
+  cantidad:
+    valor: 300
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 11.06: Gemfibrozilo, Comprimido 300 mg y 600 mg (no se indica si es partible)'
+dosis:
+- indicacion: Dislipemia (adultos), 1200 mg al día
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 600
+  max: 600
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Media hora antes del desayuno y de la cena. Rango de la ficha: 900-1200 mg/día; 1200 mg/día es la única dosis
+    con efecto documentado sobre la morbilidad'
+  texto: 600 mg dos veces al día (1200 mg/día)
+  fuente:
+    ref: CIMA-GEMFIBROZILO
+    detalle: '4.2 Forma de administración: "La dosis de 1200 mg se toma como 600 mg dos veces al día, media hora antes del
+      desayuno y de la cena"'
+- indicacion: Dislipemia (adultos), 900 mg al día
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 900
+  max: 900
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Media hora antes de la cena. Dosis de inicio en insuficiencia renal leve a moderada
+  texto: 900 mg en dosis única antes de la cena
+  fuente:
+    ref: CIMA-GEMFIBROZILO
+    detalle: '4.2: "La dosis de 900 mg se toma como una dosis única media hora antes de la cena"'
+pediatria:
+  estado: solo_adulto
+  motivo: La ficha técnica no lo recomienda en niños y adolescentes por ausencia de datos de seguridad y eficacia.
+discrepancias: []
+administracion:
+  comida: antes
+  texto: Vía oral, media hora antes del desayuno y de la cena (1200 mg) o antes de la cena (900 mg), manteniendo la dieta
+    hipolipemiante (CIMA).
+  fuente:
+    ref: CIMA-GEMFIBROZILO
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal leve a moderada (filtrado 30-80 ml/min/1,73 m²): iniciar con 900 mg/día y valorar la función
+    renal antes de subir; no usar en insuficiencia renal grave.'
+  hepatico: Contraindicado en insuficiencia hepática.
+  fuente:
+    ref: CIMA-GEMFIBROZILO
+    detalle: 4.2 Insuficiencia renal / hepática
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (Gemfibrozilo Stada); Pediamécum no tiene ficha de gemfibrozilo.'
+- 'La dosis de 900 mg requiere tres comprimidos de 300 mg (arsenal): el de 600 mg no es partible según las fuentes.'
+- Contraindicado en disfunción hepática, disfunción renal grave, enfermedad de vesícula o vías biliares, con repaglinida,
+  dasabuvir, selexipag, simvastatina o rosuvastatina 40 mg, y con antecedente de fotoalergia a fibratos (CIMA, 4.3).
+meta: {}

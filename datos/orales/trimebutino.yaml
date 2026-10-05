@@ -1,0 +1,73 @@
+id: trimebutino
+nombre: Trimebutino (trimebutina)
+comerciales:
+- Polibutin
+grupo: digestivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: suspension-4-8-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 4.8
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-TRIMEBUTINO
+    detalle: 'Polibutin suspensión oral (presentación de Pediamécum). 4,8 mg/ml derivado de las equivalencias de la propia
+      ficha: 12 mg = 2,5 ml, 24 mg = 5 ml y 48 mg = 10 ml; el registro de CIMA (sin ficha técnica) indica 0,48 g/100 ml'
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 16.04 Antiespasmódicos: Trimebutino, Comprimido 100 mg (no se indica si es partible)'
+dosis:
+- indicacion: Tratamiento coadyuvante en gastroenteritis infantil (niños hasta 5 años)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: autorizada
+  condicion: Pediamécum lo marca autorizado (A) como refuerzo en diarreas de gastroenteritis; no hay ficha técnica descargable
+    en CIMA para contrastar
+  texto: '<1 año: 12 mg cada 8-12 h (2,5 ml por toma); 1-3 años: 24 mg cada 8-12 h (5 ml); 3-5 años: 48 mg cada 8-12 h (10
+    ml)'
+  presentaciones:
+  - suspension-4-8-mg-ml
+  fuente:
+    ref: PEDIAMECUM-TRIMEBUTINO
+    detalle: 'Tratamiento coadyuvante en gastroenteritis infantiles: "Niños <1 años: 12 mg/8-12 horas (2,5 ml/toma). Niños
+      de 1-3 años: 24 mg/8-12 horas (5 ml/toma). Niños de 3-5 años: 48 mg/8-12 horas (10 ml/toma)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis de adultos y >12 años (síndrome del colon irritable)
+  valores:
+  - fuente: PEDIAMECUM-TRIMEBUTINO
+    valor: 300-400 mg/día de inicio y luego 200 mg/día (Pediamécum)
+  - fuente: PEDIAMECUM-TRIMEBUTINO
+    valor: 200 mg cada 8 h, es decir 600 mg/día, en la frase siguiente de la misma ficha (Pediamécum)
+  mostrado: No se carga dosis de adulto
+  motivo: Inconsistencia interna de la única fuente disponible; sin ficha técnica ni fuente chilena que la resuelva.
+administracion:
+  comida: antes
+  texto: Administrar antes de las comidas (Pediamécum).
+  fuente:
+    ref: PEDIAMECUM-TRIMEBUTINO
+    detalle: 'Administración: "Administrar antes de las comidas"'
+ajusteRenalHepatico: null
+alertas:
+- 'Fuente única: solo Pediamécum; CIMA registra Polibutin pero sin ficha técnica descargable.'
+- 'Sin dosis de adulto: Pediamécum da para >12 años 300-400 mg/día (bajando a 200 mg/día) y, a la vez, 200 mg cada 8 h; no
+  se muestra hasta contrastar con otra fuente. El comprimido de 100 mg del arsenal queda sin pauta cargada.'
+- Riesgo de aumento rápido de la temperatura corporal en niños en lugares muy cálidos; dosis elevadas pueden causar hiperexcitabilidad
+  (Pediamécum).
+meta: {}

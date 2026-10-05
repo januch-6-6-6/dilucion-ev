@@ -1,0 +1,123 @@
+id: espironolactona
+nombre: Espironolactona
+comerciales:
+- Aldactone
+grupo: diuretico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ESPIRONOLACTONA
+    detalle: 'Aldactone 100 mg; Pediamécum: "Los comprimidos no deben manipularse" (NIOSH grupo 2)'
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ESPIRONOLACTONA
+    detalle: 'Presentaciones de Pediamécum: ALDACTONE 25 mg COMPRIMIDOS RECUBIERTOS CON PELICULA (el arsenal de APS lista
+      25 mg)'
+dosis:
+- indicacion: Hipertensión arterial esencial (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 50
+  max: 100
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'En casos graves, subir gradualmente hasta 200 mg/día cada dos semanas. La ficha no dice en cuántas tomas: se
+    carga una toma diaria'
+  texto: Inicio 50-100 mg al día
+  fuente:
+    ref: CIMA-ESPIRONOLACTONA
+    detalle: '4.2.1: "La dosis inicial habitual es de 50-100 mg al día, que en los casos más graves podrá aumentarse ... hasta
+      los 200 mg"'
+- indicacion: Insuficiencia cardíaca grave NYHA III-IV (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 25
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Con potasio ≤5,0 mmol/l y creatinina ≤2,5 mg/dl; se puede subir a 50 mg una vez al día o bajar a 25 mg en días
+    alternos. La dosis no debe superar 50 mg al día (no se carga como tope para que no limite las pautas de otras indicaciones)
+  texto: 25 mg una vez al día (máximo 50 mg al día)
+  fuente:
+    ref: CIMA-ESPIRONOLACTONA
+    detalle: '4.2.1 Insuficiencia cardíaca grave: "25 mg una vez al día ... no debe ser superior a 50 mg al día"'
+- indicacion: Edemas y edema asociado a insuficiencia cardíaca crónica (hiperaldosteronismo secundario, adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Casos graves: hasta 400 mg/día; mantenimiento 25-200 mg/día. La ficha no dice en cuántas tomas: se carga una
+    toma diaria'
+  texto: 100 mg al día
+  fuente:
+    ref: CIMA-ESPIRONOLACTONA
+    detalle: '4.2.1 Hiperaldosteronismo secundario: "La dosis habitual ... es de 100 mg al día"'
+- indicacion: Diurético e hipertensión arterial (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 3
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: Solo bajo supervisión de un pediatra (datos limitados). En 1-2 dosis (se cargan dos). Autorizada en la ficha
+    CIMA ("1-3 mg/kg ... en tomas separadas"); Pediamécum la considera off-label y fija el máximo de 100 mg/día
+  texto: 1-3 mg/kg/día en 1-2 dosis; dosis máxima 100 mg diarios
+  fuente:
+    ref: PEDIAMECUM-ESPIRONOLACTONA
+    detalle: 'Como diurético y en hipertensión arterial en niños: "1-3 mg/kg/día en 1-2 dosis. Dosis máxima 100 mg diarios"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Vía oral. Ninguna de las dos fuentes indica relación con las comidas. Los comprimidos no deben manipularse (NIOSH
+    grupo 2; consultar al Servicio de Farmacia).
+  noTriturar: true
+  fuente:
+    ref: PEDIAMECUM-ESPIRONOLACTONA
+    detalle: 'Administración: "Los comprimidos no deben manipularse, consultar al Servicio de Farmacia"'
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal leve: 25 mg al día; moderada: 25 mg en días alternos, siempre con potasio <5,0 mmol/l. Contraindicada
+    en insuficiencia renal moderada a grave según 4.3. Ancianos: 25 mg al día o en días alternos.'
+  fuente:
+    ref: CIMA-ESPIRONOLACTONA
+    detalle: 4.2.1 Población con insuficiencia renal / de edad avanzada; 4.3
+alertas:
+- 'Fármaco peligroso (lista NIOSH grupo 2): no partir, triturar ni manipular los comprimidos (Pediamécum).'
+- Contraindicada en insuficiencia renal moderada a grave (adultos y niños), insuficiencia renal aguda, anuria, hiperpotasemia,
+  enfermedad de Addison y con eplerenona (CIMA, 4.3).
+- El tope de 100 mg/día es pediátrico (Pediamécum); la ficha no da tope en mg para niños.
+meta: {}

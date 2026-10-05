@@ -1,0 +1,122 @@
+id: domperidona
+nombre: Domperidona
+comerciales:
+- Motilium
+- Domperidona Gamir
+grupo: antiemetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-10-mg
+  forma: capsula
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DOMPERIDONA-57096
+    detalle: Domperidona Gamir 10 mg cápsulas duras
+- id: suspension-1-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 1
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-DOMPERIDONA-55411
+    detalle: Motilium 1 mg/ml suspensión oral
+- id: solucion-gotas-10-mg-ml-arsenal
+  forma: jarabe
+  concentracion:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 16.02: Domperidona, Solución para gotas orales 10 mg/mL, "Uso en >12 A." (ninguna fuente da gotas por
+      ml: se carga como solución medida en ml)'
+dosis:
+- indicacion: Náuseas y vómitos (adultos y adolescentes ≥12 años y ≥35 kg), cápsulas
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 3
+  topeDiario:
+    valor: 30
+    unidad: mg
+  estatus: autorizada
+  condicion: Hasta tres veces al día, antes de las comidas; dosis efectiva más baja durante el menor tiempo; normalmente no
+    más de una semana
+  texto: Una cápsula de 10 mg hasta tres veces al día; dosis máxima 30 mg al día
+  presentaciones:
+  - capsula-10-mg
+  fuente:
+    ref: CIMA-DOMPERIDONA-57096
+    detalle: '4.2.1: "Una cápsula de 10 mg hasta tres veces al día con una dosis máxima de 30 mg al día"'
+- indicacion: Náuseas y vómitos (adultos y adolescentes ≥12 años y ≥35 kg), formas líquidas
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 30
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Antes de las comidas; normalmente no más de una semana. Suspensión de 1 mg/ml: 10 ml hasta tres veces al día,
+    máximo 30 ml/día (CIMA 55411)'
+  texto: 10 mg cada 8 horas; máximo 30 mg/día
+  presentaciones:
+  - suspension-1-mg-ml
+  - solucion-gotas-10-mg-ml-arsenal
+  fuente:
+    ref: PEDIAMECUM-DOMPERIDONA
+    detalle: 'Niños >12 años y peso ≥35 kg, vía oral: "10 mg administrados cada 8 horas. Máximo vía oral: 30 mg/día" (uso
+      autorizado en adultos y adolescentes ≥12 años y ≥35 kg)'
+pediatria:
+  estado: solo_adulto
+  motivo: La ficha técnica no permite usarla en menores de 12 años ni en adolescentes de menos de 35 kg y Pediamécum recoge
+    la alerta de seguridad de supresión de la indicación en Pediatría.
+discrepancias:
+- campo: Uso en menores de 12 años o de 35 kg
+  valores:
+  - fuente: CIMA-DOMPERIDONA-55411
+    valor: No debe utilizarse en niños menores de 12 años ni en adolescentes de menos de 35 kg (sin eficacia) (CIMA)
+  - fuente: PEDIAMECUM-DOMPERIDONA
+    valor: '0,25 mg/kg cada 8 h como off-label en lactantes y niños <12 años o <35 kg, con alerta de seguridad: supresión
+      de la indicación en Pediatría (Pediamécum)'
+  mostrado: No se muestra dosis pediátrica
+  motivo: 'Decisión del proyecto: solo la dosis de adultos y adolescentes ≥12 años y ≥35 kg.'
+administracion:
+  comida: antes
+  texto: Antes de las comidas (si se toma después, la absorción se retrasa ligeramente); si se olvida una dosis, omitirla
+    sin duplicar la siguiente (CIMA).
+  fuente:
+    ref: CIMA-DOMPERIDONA-57096
+    detalle: '4.2: "Se recomienda tomar Domperidona Gamir por vía oral antes de las comidas"'
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal grave: reducir la frecuencia a una o dos veces al día según la gravedad; puede ser necesario
+    reducir la dosis.'
+  hepatico: Contraindicada en insuficiencia hepática moderada o grave; sin ajuste en la leve.
+  fuente:
+    ref: CIMA-DOMPERIDONA-57096
+    detalle: 4.2.1 Insuficiencia hepática / renal
+alertas:
+- 'Alerta de seguridad: supresión de la indicación en Pediatría (Pediamécum); no usar en <12 años ni en <35 kg (CIMA).'
+- Contraindicada con prolongación del QTc, alteraciones electrolíticas significativas o cardiopatía (p. ej., insuficiencia
+  cardíaca), con fármacos que prolongan el QT o inhibidores potentes del CYP3A4, en insuficiencia hepática moderada o grave,
+  prolactinoma y hemorragia, obstrucción o perforación digestiva (CIMA, 4.3).
+- 'Las gotas orales del arsenal (10 mg/ml) se cargan como solución medida en ml: ninguna fuente indica cuántas gotas tiene
+  1 ml.'
+meta: {}

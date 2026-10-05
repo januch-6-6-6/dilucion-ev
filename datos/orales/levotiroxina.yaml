@@ -1,0 +1,162 @@
+id: levotiroxina
+nombre: Levotiroxina sódica
+comerciales:
+- Eutirox
+grupo: hormonal
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mcg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mcg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LEVOTIROXINA
+    detalle: Eutirox 100 microgramos comprimidos (la ficha solo describe medio comprimido para Eutirox 150 en el test de supresión);
+      el arsenal de APS lista 50 y 100 µg
+- id: comprimido-50-mcg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mcg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-LEVOTIROXINA
+    detalle: 'Presentaciones de Pediamécum: EUTIROX 50 microgramos COMPRIMIDOS (el arsenal de APS lista 50 µg)'
+- id: comprimido-25-mcg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mcg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-LEVOTIROXINA
+    detalle: 'Presentaciones de Pediamécum: EUTIROX 25 microgramos COMPRIMIDOS'
+dosis:
+- indicacion: Hipotiroidismo, terapia de sustitución (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mcg
+  min: 25
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Aumentos progresivos cada 2-4 semanas según TSH; mantenimiento 100-200 µg/día. Ancianos, coronarios o hipotiroidismo
+    grave o antiguo: empezar con dosis bajas (p. ej., 12,5 µg/día) y subir 12,5 µg cada dos semanas'
+  texto: Inicio 25-50 µg/día; mantenimiento 100-200 µg/día, en una toma
+  fuente:
+    ref: CIMA-LEVOTIROXINA
+    detalle: '4.2.1 Tabla: "Terapia de sustitución del hipotiroidismo en adultos: dosis inicial 25 - 50; dosis de mantenimiento
+      100 - 200"'
+- indicacion: Hipotiroidismo primario, <65 años con TSH 4,5-10 mIU/l (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mcg
+  min: 25
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Dosis inicial según TSH. La misma guía sugiere no tratar con levotiroxina el hipotiroidismo subclínico en <65
+    años y recomienda no tratarlo en ≥65 años
+  texto: 25-50 µg
+  fuente:
+    ref: MINSAL-HIPOTIROIDISMO-2020
+    detalle: 'Tratamiento y seguimiento: "En personas menores de 65 años, la dosis de levotiroxina según TSH es: 4,5-10 mIU/L
+      25-50 ug"'
+- indicacion: Hipotiroidismo primario, <65 años con TSH 10-20 mIU/l (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mcg
+  min: 50
+  max: 100
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: Dosis inicial según TSH; objetivo TSH 2-4 mIU/l; control de TSH a las 4-6 semanas
+  texto: 50-100 µg
+  fuente:
+    ref: MINSAL-HIPOTIROIDISMO-2020
+    detalle: 'Tratamiento y seguimiento: "10-20 mIU/L 50-100 ug"'
+- indicacion: Hipotiroidismo primario, <65 años con TSH >20 mIU/l (adultos)
+  poblacion: adulto
+  regimen: por_peso
+  base: dia
+  unidad: mcg/kg
+  min: 1
+  max: 1.6
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Dosis inicial según TSH. Mayores de 65 años, múltiples comorbilidades o cardiopatía coronaria: iniciar con 25-50
+    µg/día y titular cada 4-6 semanas (objetivo TSH 3-6 mIU/l en el adulto mayor)'
+  texto: 1,0-1,6 µg/kg
+  fuente:
+    ref: MINSAL-HIPOTIROIDISMO-2020
+    detalle: 'Tratamiento y seguimiento: ">20 mIU/L 1,0 – 1,6 ug/kg"'
+- indicacion: Hipotiroidismo (niños), dosis por kg según edad
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mcg
+  estatus: autorizada
+  condicion: Una toma diaria en ayunas. Empezar con el 25 % de la dosis y subir cada semana hasta la dosis completa en 4 semanas;
+    con riesgo de insuficiencia cardíaca, no superar 25 µg/día de inicio
+  texto: '1-3 meses: 10-15 µg/kg/día; 3-6 meses: 8-10 µg/kg/día o 25-50 µg/día; 6-12 meses: 6-8 µg/kg/día o 50-75 µg/día;
+    1-5 años: 5-6 µg/kg/día o 75-100 µg/día; 6-12 años: 4-5 µg/kg/día o 100-125 µg/día; >12 años: 2-3 µg/kg/día o ≥150 µg/día;
+    crecimiento y pubertad completos: 1,7 µg/kg/día'
+  fuente:
+    ref: PEDIAMECUM-LEVOTIROXINA
+    detalle: 'Vía oral: "1-3 meses: 10-15 µg/kg/día ... >12 años: 2-3 µg/kg/día o ≥150 µg/día. Crecimiento y pubertad completos:
+      1,7 µg/kg/día"'
+- indicacion: Hipotiroidismo (niños), dosis de la ficha por superficie corporal
+  poblacion: pediatrico
+  regimen: por_superficie
+  unidad: mcg
+  estatus: autorizada
+  condicion: Una toma diaria al menos 30 min antes de la primera comida; el comprimido se disuelve en un poco de agua en el
+    momento
+  texto: 'Inicio 12,5-50 µg/día; mantenimiento 100-150 µg/m² de superficie corporal al día. Recién nacidos y bebés con hipotiroidismo
+    congénito: 10-15 µg/kg/día los 3 primeros meses'
+  fuente:
+    ref: CIMA-LEVOTIROXINA
+    detalle: '4.2.1 Tabla: "Terapia de sustitución del hipotiroidismo en niños: dosis inicial 12,5 - 50; dosis de mantenimiento
+      100 - 150 microgramos/m2"; recién nacidos: "10 a 15 microgramos por kg de peso y día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Unidad de la dosis pediátrica de mantenimiento
+  valores:
+  - fuente: CIMA-LEVOTIROXINA
+    valor: Por superficie corporal (por m²) e inicio en µg/día (CIMA)
+  - fuente: PEDIAMECUM-LEVOTIROXINA
+    valor: Por kg y edad, con equivalente en µg/día (Pediamécum)
+  mostrado: Se muestran ambas tablas como texto; no se calcula
+  motivo: 'Las dos fuentes usan unidades distintas: no son comparables cifra a cifra.'
+administracion:
+  comida: ayunas
+  texto: 'Dosis única por la mañana en ayunas, media hora antes del desayuno, con un poco de líquido; en niños, disolver el
+    comprimido en un poco de agua en el momento (CIMA). Guía MINSAL: en ayunas o 4 h después de comer, lejos de inhibidores
+    de la bomba de protones y de suplementos de calcio o fierro.'
+  fuente:
+    ref: CIMA-LEVOTIROXINA
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico: null
+alertas:
+- 'Dosificar en microgramos (µg): 1 mg = 1000 µg. Las presentaciones cargadas son de 25, 50 y 100 µg.'
+- 'Ninguna fuente declara partibles los comprimidos de 25, 50 o 100 µg: la dosis de 12,5 µg necesita confirmar la ranura del
+  producto.'
+- Iniciar con dosis bajas en ancianos, coronarios e hipotiroidismo grave o de larga evolución (CIMA). No iniciar en infarto
+  agudo, miocarditis o pancarditis agudas; contraindicada en insuficiencia adrenal o hipofisaria y tirotoxicosis no tratadas
+  (CIMA, 4.3).
+- La sobredosificación puede disminuir la densidad mineral ósea y causar arritmias como fibrilación auricular (guía MINSAL).
+meta: {}

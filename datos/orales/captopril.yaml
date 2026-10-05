@@ -1,0 +1,147 @@
+id: captopril
+nombre: Captopril
+comerciales:
+- Captopril Cinfa
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: cuartos
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: '4.2: "Los comprimidos de captopril presentan unas ranuras que permiten un fraccionamiento ... para ajustar la
+      dosis" (la propia ficha usa 6,25 y 12,5 mg con el comprimido de 25 mg); el arsenal de APS lista 25 mg'
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 25
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Con sistema renina-angiotensina muy activo: empezar con 6,25 o 12,5 mg en dosis única. Aumentos cada ≥2 semanas'
+  texto: Inicio 25-50 mg/día en dos dosis; hasta 100-150 mg/día en dos dosis; dosis máxima diaria recomendada 150 mg
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: '4.2: "La dosis máxima diaria recomendada es de 150 mg"; Hipertensión: "25-50 mg al día administrada en dos dosis"'
+- indicacion: Insuficiencia cardíaca (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 6.25
+  max: 12.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 150
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicio bajo estrecha supervisión; dos o tres veces al día (se carga el extremo conservador: dos tomas)'
+  texto: Inicio 6,25-12,5 mg dos o tres veces al día; mantenimiento 75-150 mg/día; máximo 150 mg/día en dos dosis
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: '4.2 Insuficiencia cardíaca: "6,25 mg - 12,5 mg dos veces al día (BID) o tres veces al día (TID) ... hasta un
+      máximo de 150 mg al día"'
+- indicacion: Hipertensión (niños y adolescentes, dosis inicial de la ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 0.3
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: Solo si otras medidas no han sido efectivas; inicio bajo estrecha supervisión. Eficacia y seguridad no establecidas
+    por completo
+  texto: 0,30 mg/kg por toma, generalmente 3 veces al día
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: '4.2 Población pediátrica: "La dosis inicial de captopril es de 0,30 mg/kg de peso ... generalmente captopril
+      se administra 3 veces al día"'
+- indicacion: Hipertensión (prematuros, recién nacidos, niños de corta edad o con disfunción renal)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 0.15
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: Inicio bajo estrecha supervisión; neonatos más susceptibles a hipotensión, oliguria y convulsiones
+  texto: 0,15 mg/kg por toma
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: '4.2 Población pediátrica: "la dosis inicial debe ser de solamente 0,15 mg de captopril/kg de peso"'
+- indicacion: Hipertensión (niños y adolescentes, pauta de otras publicaciones)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.3
+  max: 0.5
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 450
+    unidad: mg
+  estatus: off_label
+  condicion: Pediamécum la toma de otras publicaciones (la ficha solo da 0,30 y 0,15 mg/kg). Máximo 6 mg/kg/día. La calculadora
+    aplica además el tope de adulto (150 mg/día)
+  texto: 0,3-0,5 mg/kg cada 8 h (máximo 6 mg/kg/día; dosis diaria máxima 450 mg)
+  fuente:
+    ref: PEDIAMECUM-CAPTOPRIL
+    detalle: 'Hipertensión, niños y adolescentes: "0,3-0,5 mg/kg/8 h ... (máximo 6 mg/kg/día ...; dosis diaria máxima: 450
+      mg)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario
+  valores:
+  - fuente: CIMA-CAPTOPRIL
+    valor: '150 mg/día: dosis máxima diaria recomendada de la ficha (adultos)'
+  - fuente: PEDIAMECUM-CAPTOPRIL
+    valor: '450 mg/día: hipertensión en niños y adolescentes (otras publicaciones; en insuficiencia cardíaca, 150 mg/día)'
+  mostrado: 150 mg/día como tope de adulto (la calculadora lo aplica también a las pautas pediátricas por peso)
+  motivo: Regla del tope más bajo. La pauta pediátrica de Pediamécum conserva su propio máximo de 450 mg/día, pero la calculadora
+    limita además al tope de adulto de la ficha.
+- campo: Relación con las comidas
+  valores:
+  - fuente: CIMA-CAPTOPRIL
+    valor: Antes, durante y después de las comidas (CIMA)
+  - fuente: PEDIAMECUM-CAPTOPRIL
+    valor: 'Una hora antes de las comidas o dos horas después: el alimento dificulta la absorción (Pediamécum)'
+  mostrado: Se muestran ambas indicaciones
+  motivo: La ficha técnica permite tomarlo con comida; Pediamécum recomienda separarlo de las comidas.
+administracion:
+  comida: indiferente
+  texto: Captopril se puede tomar antes, durante y después de las comidas; los comprimidos ranurados se pueden fraccionar
+    y las fracciones se guardan en lugar seco (CIMA). Pediamécum recomienda 1 h antes o 2 h después de comer.
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Dosis diaria según aclaramiento (ml/min/1,73 m²): >40, inicio 25-50 mg y máximo 150 mg; 21-40, inicio 25 y máximo
+    100 mg; 10-20, inicio 12,5 y máximo 75 mg; <10, inicio 6,25 y máximo 37,5 mg. Ancianos: iniciar con 6,25 mg dos veces
+    al día.'
+  fuente:
+    ref: CIMA-CAPTOPRIL
+    detalle: 4.2 Insuficiencia renal (tabla) y personas de edad avanzada
+alertas:
+- Las pautas por kg de la ficha (0,30 y 0,15 mg/kg) no traen tope pediátrico en mg; como referencia, la dosis máxima diaria
+  del adulto es 150 mg (CIMA) y la calculadora limita a ese tope.
+- Contraindicado en el segundo y tercer trimestre del embarazo y con antecedente de angioedema por IECA (CIMA, 4.3).
+meta: {}

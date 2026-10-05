@@ -1,0 +1,113 @@
+id: isosorbide
+nombre: Isosorbida (mononitrato)
+comerciales:
+- Mononitrato de isosorbida Normon
+grupo: antianginoso
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "Los comprimidos son ranurados y pueden ser partidos fácilmente en dos mitades"'
+- id: comprimido-40-mg
+  forma: comprimido
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "un régimen posológico de un comprimido de 40 mg dos o tres veces al día" (mononitrato; la ranura se declara
+      solo para el de 20 mg)'
+- id: comprimido-10-mg-arsenal
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 11.01 Antianginosos: "Isosorbide, Comprimido 10 mg." (no dice si es mononitrato o dinitrato)'
+dosis:
+- indicacion: Angina de pecho, inicio (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 10
+  tomasPorDia: 2
+  estatus: autorizada
+  condicion: Primeros dos días, para prevenir la cefalea; luego 20 mg dos veces al día
+  texto: Medio comprimido de 20 mg (10 mg) dos veces al día durante dos días
+  presentaciones:
+  - comprimido-20-mg
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "reducir la dosis a medio comprimido de mononitrato de isosorbida 20 mg dos veces al día durante los dos
+      primeros días"'
+- indicacion: Angina de pecho (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 2
+  estatus: autorizada
+  condicion: Puede subirse a un comprimido de 20 mg tres veces al día; si hay crisis nocturnas, 40 mg poco antes de acostarse
+  texto: Un comprimido de 20 mg dos veces al día
+  presentaciones:
+  - comprimido-20-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "La dosis habitual es de un comprimido de mononitrato de isosorbida 20 mg dos vecesal día"'
+- indicacion: Angina de pecho sin respuesta satisfactoria (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 40
+  max: 40
+  tomasPorDia: 2
+  estatus: autorizada
+  condicion: Dos o tres veces al día (se cargan dos tomas)
+  texto: Un comprimido de 40 mg dos o tres veces al día
+  presentaciones:
+  - comprimido-20-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "se utilizará un régimen posológico de un comprimido de 40 mg dos o tres veces al día"'
+pediatria:
+  estado: solo_adulto
+  motivo: La ficha técnica indica que la dosis, eficacia y seguridad en niños no se han establecido aún.
+discrepancias: []
+administracion:
+  comida: despues
+  texto: Después de las comidas, sin masticar y con abundante líquido; el comprimido de 20 mg se puede partir en dos mitades
+    (CIMA).
+  noTriturar: true
+  fuente:
+    ref: CIMA-ISOSORBIDE
+    detalle: '4.2: "Los comprimidos deben tomarse después de las comidas, sin masticar y con abundante líquido"'
+ajusteRenalHepatico: null
+alertas:
+- 'Fuente única: solo ficha técnica CIMA (mononitrato de isosorbida Normon); Pediamécum no tiene ficha y no hay ficha de dinitrato.'
+- 'El comprimido de 10 mg del arsenal de APS no indica la sal (mononitrato o dinitrato de isosorbida): no se vincula a ninguna
+  dosis de mononitrato; confirmar el producto antes de usarlo.'
+- No usar con inhibidores de la 5-fosfodiesterasa (sildenafilo y similares); contraindicado en hipotensión pronunciada, shock,
+  infarto agudo con presión de llenado baja, anemia marcada, traumatismo o hemorragia cerebral (CIMA, 4.3).
+- Instaurar de forma gradual, sobre todo con diuréticos u otros antihipertensivos (CIMA).
+meta: {}

@@ -1,0 +1,164 @@
+id: carvedilol
+nombre: Carvedilol
+comerciales:
+- Carvedilol Cinfa
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: Carvedilol Cinfa 25 mg (la ficha no dice que el de 25 mg sea partible); el arsenal lista 6,25 y 25 mg
+- id: comprimido-6-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 6.25
+    unidad: mg
+  partible: mitades
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: '4.2.1: "3,125 mg (medio comprimido de 6,25 mg)"; Pediamécum lista CARVEDILOL CINFA 6,25 mg COMPRIMIDOS EFG'
+dosis:
+- indicacion: Hipertensión esencial (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 12.5
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: autorizada
+  condicion: 12,5 mg/día los dos primeros días y luego 25 mg/día; aumentos cada ≥2 semanas
+  texto: 12,5 mg una vez al día 2 días; después 25 mg una vez al día; máximo 50 mg una vez al día o en dos dosis
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: '4.2.1 Hipertensión, adultos: "12,5 mg una vez al día durante los dos primeros días ... 25 mg una vez al día
+      ... dosis máxima recomendada de 50 mg"'
+- indicacion: Cardiopatía isquémica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 12.5
+  max: 25
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: '12,5 mg dos veces al día los dos primeros días y luego 25 mg dos veces al día. Ancianos: máximo 50 mg/día en
+    dos dosis'
+  texto: 12,5 → 25 mg dos veces al día; máximo 100 mg/día en dos dosis
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: '4.2.1 Cardiopatía isquémica: "12,5 mg dos veces al día ... 25 mg dos veces al día ... máxima recomendada de
+      100 mg"'
+- indicacion: Insuficiencia cardíaca congestiva (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 3.125
+  max: 3.125
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 25
+    unidad: mg
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Inicio 3,125 mg (medio comprimido de 6,25 mg) dos veces al día 2 semanas; subir cada ≥2 semanas a 6,25, 12,5
+    y 25 mg dos veces al día. Tope cargado: 25 mg dos veces al día (<85 kg); con >85 kg la ficha permite 50 mg dos veces al
+    día'
+  texto: 3,125 mg dos veces al día, con escalada hasta el máximo tolerado
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: '4.2.1 Insuficiencia cardiaca: "3,125 mg (medio comprimido de 6,25 mg) dos veces al día ... inferior a 85 kg,
+      la dosis máxima recomendada es de 25 mg dos veces al día"'
+- indicacion: Hipertensión e insuficiencia cardíaca (lactantes y niños <12 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.05
+  max: 0.1
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 3.125
+    unidad: mg
+  estatus: off_label
+  condicion: 'Dosis de inicio (máxima inicial 3,125 mg/12 h); subir cada 1-2 semanas 0,1 mg/kg hasta un máximo de 0,5-0,8
+    mg/kg/12 h (máximo 25 mg/12 h). Fuentes muy variables. La ficha: no establecido en <18 años'
+  texto: 0,05-0,1 mg/kg cada 12 h (dosis máxima inicial 3,125 mg/12 h)
+  fuente:
+    ref: PEDIAMECUM-CARVEDILOL
+    detalle: 'Lactantes y niños <12 años: "empezar con 0,05-0,1 mg/kg/12 h (dosis máxima inicial 3,125 mg/12 h)"'
+- indicacion: Hipertensión (niños >12 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 12.5
+  max: 25
+  tomasPorDia: 1
+  intervaloH: 24
+  topePorToma:
+    valor: 25
+    unidad: mg
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: off_label
+  condicion: '12,5 mg/día los 2 primeros días, después 25 mg una vez al día; máximo 25 mg/12 h. La ficha: no establecido en
+    <18 años'
+  texto: 12,5 → 25 mg una vez al día; máximo 25 mg cada 12 h
+  fuente:
+    ref: PEDIAMECUM-CARVEDILOL
+    detalle: 'Niños >12 años: "En hipertensión arterial (HTA) ... 12,5 mg una vez al día durante los 2 primeros días ... 25
+      mg una vez al día ... Máximo 25 mg/12 h"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Uso en menores de 18 años
+  valores:
+  - fuente: CIMA-CARVEDILOL
+    valor: No se ha establecido la seguridad y eficacia en niños y adolescentes menores de 18 años (CIMA)
+  - fuente: PEDIAMECUM-CARVEDILOL
+    valor: Pautas off-label con variabilidad importante entre fuentes (Pediamécum)
+  mostrado: Se muestran las pautas de Pediamécum como uso fuera de ficha técnica (off-label)
+  motivo: 'Discrepancia de población: la ficha no establece su uso en <18 años.'
+administracion:
+  comida: indiferente
+  texto: Con suficiente líquido. No es necesario tomarlo con comida, salvo en insuficiencia cardíaca congestiva, en la que
+    debe tomarse con alimentos para reducir los efectos ortostáticos (CIMA).
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No hay evidencia de que haga falta ajustar la dosis; vigilar la función renal con insuficiencia cardíaca y presión
+    arterial baja.
+  hepatico: Contraindicado en disfunción hepática clínicamente manifiesta.
+  fuente:
+    ref: CIMA-CARVEDILOL
+    detalle: 4.2.1 Insuficiencia renal / Disfunción hepática
+alertas:
+- Contraindicado en disfunción hepática clínicamente manifiesta, asma bronquial, EPOC con broncoespasmo, insuficiencia cardíaca
+  NYHA IV descompensada, bloqueo AV de 2.º-3.er grado, bradicardia grave (<50 lpm), shock cardiogénico e hipotensión grave
+  (CIMA, 4.3).
+- No suspender bruscamente; si se interrumpe más de una semana, reiniciar con 3,125 mg dos veces al día (CIMA).
+meta: {}

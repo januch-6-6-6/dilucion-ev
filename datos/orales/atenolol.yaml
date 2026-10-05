@@ -1,0 +1,106 @@
+id: atenolol
+nombre: Atenolol
+comerciales:
+- Atenolol Cinfa
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ATENOLOL
+    detalle: Atenolol Cinfa 100 mg (la ficha no menciona partición); el arsenal de APS lista 50 y 100 mg
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ATENOLOL
+    detalle: 'Presentaciones de Pediamécum: ATENOLOL CINFA 50 mg COMPRIMIDOS EFG'
+dosis:
+- indicacion: Hipertensión arterial esencial (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 50
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 50 mg al día; si la respuesta no es suficiente, hasta 100 mg
+  fuente:
+    ref: CIMA-ATENOLOL
+    detalle: '4.2 Hipertensión: "La dosis inicial es de 50 mg al día ... se puede incrementar la dosis hasta 100 mg"'
+- indicacion: Angina de pecho (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 100 mg en una dosis única o en dos dosis de 50 mg al día
+  fuente:
+    ref: CIMA-ATENOLOL
+    detalle: '4.2 Angina de pecho: "100 mg en una dosis única oral o en dos dosis de 50 mg al día"'
+- indicacion: Hipertensión y arritmias (niños, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.5
+  max: 1
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: off_label
+  condicion: En una o dos dosis (se cargan dos). Dosis máxima 2 mg/kg/día; no exceder 100 mg/día (máximo oral del adulto).
+    La ficha técnica no lo recomienda en niños
+  texto: 0,5-1 mg/kg/día en una o dos dosis; máximo 2 mg/kg/día sin superar 100 mg
+  fuente:
+    ref: PEDIAMECUM-ATENOLOL
+    detalle: 'Hipertensión y arritmias, vía oral: "0,5-1 mg/kg/día repartido en una o dos dosis. Dosis máxima, 2 mg/kg/día.
+      No exceder la dosis oral máxima diaria de adultos de 100 mg"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Uso en niños
+  valores:
+  - fuente: CIMA-ATENOLOL
+    valor: 'No se ha establecido la seguridad y eficacia en niños: no se recomienda su empleo (CIMA)'
+  - fuente: PEDIAMECUM-ATENOLOL
+    valor: Todas las indicaciones pediátricas son off-label, con pauta por peso (Pediamécum)
+  mostrado: Se muestra la pauta de Pediamécum como uso fuera de ficha técnica (off-label)
+  motivo: 'Discrepancia de población: la ficha no lo recomienda en niños.'
+administracion:
+  comida: indiferente
+  texto: 'Vía oral (la ficha CIMA no indica relación con las comidas). Pediamécum: separar de los alimentos al menos 30 minutos.'
+  fuente:
+    ref: CIMA-ATENOLOL
+    detalle: '4.2 Forma de administración: "Vía oral"'
+ajusteRenalHepatico:
+  renal: 'Aclaramiento de creatinina 15-35 ml/min/1,73 m²: 50 mg/día; <15 ml/min/1,73 m²: 25 mg al día o 50 mg en días alternos;
+    hemodiálisis: 50 mg tras cada diálisis, en medio hospitalario. Ancianos: considerar reducir la dosis. Pediamécum (niños):
+    filtrado 30-50, 0,5-1 mg/kg; <30, 0,5-1 mg/kg cada 48 h.'
+  fuente:
+    ref: CIMA-ATENOLOL
+    detalle: 4.2 Pacientes con insuficiencia renal (la frase pediátrica es de Pediamécum)
+alertas:
+- Contraindicado en bradicardia, shock cardiogénico, hipotensión, acidosis metabólica, bloqueo cardíaco de 2.º o 3.er grado,
+  síndrome del seno enfermo, feocromocitoma no tratado e insuficiencia cardíaca no controlada (CIMA, 4.3).
+meta: {}

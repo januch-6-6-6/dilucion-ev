@@ -1,0 +1,131 @@
+id: lactulosa
+nombre: Lactulosa
+comerciales:
+- Duphalac
+grupo: digestivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: solucion-667-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 667
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: 'Duphalac 667 mg/ml solución oral (tabla de 4.2: 10 g = 15 ml); Pediamécum lista DUPHALAC 667 MG/ML SOLUCION
+      ORAL'
+- id: sobre-10-g
+  forma: sobre
+  cantidad:
+    valor: 10000
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: Duphalac 10 g solución oral en sobre (15 ml por sobre)
+dosis:
+- indicacion: Estreñimiento o ablandamiento de las heces (adultos y adolescentes >14 años)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: g
+  min: 10
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: En una toma diaria o dividida en dos (se cargan dos). Mantenimiento 10-20 g/día; el efecto puede tardar 2-3 días
+  texto: Inicio 10-30 g/día (15-45 ml de solución o 1-3 sobres); mantenimiento 10-20 g/día (15-30 ml)
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: '4.2 Adultos: "10 – 30 g (correspondiente a 15 - 45 ml/día de solución oral)"; mantenimiento "10 – 20 g"'
+- indicacion: Encefalopatía portosistémica (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: g
+  min: 20
+  max: 30
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: De 3 a 4 veces al día (se cargan tres tomas); mantenimiento ajustado a 2-3 deposiciones blandas al día
+  texto: 20-30 g (30-45 ml) de 3 a 4 veces al día
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: '4.2: "La dosis inicial es de 20 – 30 g, que corresponden a 30 - 45 ml de solución oral, administrados de 3 a
+      4 veces al día"'
+- indicacion: Estreñimiento (niños hasta 14 años), tabla por edad
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: g
+  estatus: autorizada
+  condicion: En lactantes y niños hasta 7 años, y con dosis <15 ml, usar la solución de 667 mg/ml
+  texto: '<1 año: hasta 3 g/día (hasta 5 ml); 1-6 años: 3-7 g/día (5-10 ml); 7-14 años: inicio 10 g/día (15 ml), mantenimiento
+    7-10 g/día (10-15 ml)'
+  presentaciones:
+  - solucion-667-mg-ml
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: '4.2 Población pediátrica (tabla) y nota: "Para una dosificación precisa en lactantes y niños hasta 7 años, debe
+      utilizarse duphalac 667 mg/ml solución oral"'
+- indicacion: Estreñimiento crónico (niños), dosis por peso
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: g/kg
+  min: 0.7
+  max: 2
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 40
+    unidad: g
+  estatus: autorizada
+  condicion: Pediamécum (indicación autorizada A) la ofrece como alternativa a la tabla por edad de la ficha. "Dividido a
+    lo largo del día" (se cargan dos tomas, como permite la ficha). Calcular siempre los ml con la concentración del frasco
+  texto: 0,7-2 g/kg/día; dosis máxima 40 g/día
+  presentaciones:
+  - solucion-667-mg-ml
+  fuente:
+    ref: PEDIAMECUM-LACTULOSA
+    detalle: '"También se puede dosificar por kg en niños: 0,7-2 g/kg/día (1-3 ml/kg/día) dividido a lo largo del día, dosis
+      máxima: 40 g/día (60 ml/día)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Equivalencia g → ml en niños de 7 a 14 años
+  valores:
+  - fuente: CIMA-LACTULOSA
+    valor: 10 g (correspondiente a 15 ml/día de solución oral) (CIMA, solución de 667 mg/ml)
+  - fuente: PEDIAMECUM-LACTULOSA
+    valor: 10 g/día (20 ml/día) (Pediamécum)
+  mostrado: 10 g = 15 ml con la solución de 667 mg/ml (la calculadora convierte por concentración)
+  motivo: 'Error de conversión en Pediamécum: con 667 mg/ml, 10 g son ≈15 ml, no 20 ml. No se copia ningún «ml» de las fichas.'
+administracion:
+  comida: indiferente
+  texto: 'En una toma diaria o dividida en dos; si es única, siempre a la misma hora (p. ej., en el desayuno). Diluida o sin
+    diluir; tragar de inmediato. Beber 1,5-2 litros de líquido al día (CIMA). Pediamécum: con zumo, leche o agua.'
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No es necesario ajustar la dosis (exposición sistémica insignificante).
+  hepatico: No es necesario ajustar la dosis (exposición sistémica insignificante).
+  fuente:
+    ref: CIMA-LACTULOSA
+    detalle: 4.2 Insuficiencia renal e insuficiencia hepática
+alertas:
+- Calcular siempre el volumen con la concentración del frasco; no copiar los ml de las fichas (Pediamécum equivoca 10 g =
+  20 ml).
+- 'El arsenal de APS lista lactulosa «Solución oral 65%» sin expresarla en mg/ml: no se carga como presentación; comprobar
+  en la etiqueta la concentración real antes de usar la calculadora (la cargada es la de 667 mg/ml de CIMA).'
+- Contraindicada en galactosemia y en obstrucción, perforación o riesgo de perforación digestiva (CIMA, 4.3).
+- 'Encefalopatía portosistémica: seguridad y eficacia no establecidas en menores de 18 años (CIMA).'
+meta: {}

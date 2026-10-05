@@ -1,0 +1,202 @@
+id: propranolol
+nombre: Propranolol
+comerciales:
+- Propranolol Accord
+- Hemangiol
+grupo: antihipertensivo
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-10-mg
+  forma: comprimido
+  cantidad:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: 'Propranolol Accord 10 mg; Pediamécum: "Los comprimidos de propanolol deben tragarse enteros"; el arsenal lista
+      10 y 40 mg'
+- id: comprimido-40-mg
+  forma: comprimido
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-PROPRANOLOL
+    detalle: 'Presentaciones de Pediamécum: PROPRANOLOL ACCORD 40 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG'
+- id: solucion-3-75-mg-ml
+  forma: jarabe
+  concentracion:
+    valor: 3.75
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-PROPRANOLOL-114919001
+    detalle: Hemangiol 3,75 mg/ml solución oral (posología expresada como propranolol base; jeringa oral en mg)
+dosis:
+- indicacion: Hipertensión (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 40
+  max: 40
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Dos o tres veces al día (se cargan dos tomas). Aumentos semanales; intervalo habitual 160-320 mg/día
+  texto: Inicio 40 mg dos o tres veces al día; habitual 160-320 mg al día
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: '4.2 Hipertensión: "Inicialmente, 40 mg dos o tres veces al día ... El intervalo de dosis habitual es de entre
+      160 y 320 mg al día"'
+- indicacion: Angina de pecho, migraña y temblor esencial (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 40
+  max: 40
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Dos o tres veces al día (se cargan dos tomas). Migraña: 80-160 mg/día; angina y temblor: 120-240 mg/día'
+  texto: Inicio 40 mg dos o tres veces al día, con aumentos semanales
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: '4.2 Angina de pecho, migraña y temblor esencial: "La dosis inicial es de 40 mg dos o tres veces al día"'
+- indicacion: Arritmias, miocardiopatía obstructiva hipertrófica y tirotoxicosis (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 10
+  max: 40
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: Tres o cuatro veces al día (se cargan tres tomas)
+  texto: 10-40 mg tres o cuatro veces al día
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: '4.2: "un intervalo de dosis entre 10 y 40 mg tres o cuatro veces al día"'
+- indicacion: Arritmias (niños y adolescentes)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 0.25
+  max: 0.5
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 160
+    unidad: mg
+  estatus: autorizada
+  condicion: Tres o cuatro veces al día (se cargan tres tomas), ajustado a la respuesta; máximo 1 mg/kg 4 veces al día sin
+    exceder 160 mg/día
+  texto: 0,25-0,5 mg/kg 3-4 veces al día; dosis máxima total 160 mg al día
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: PEDIAMECUM-PROPRANOLOL
+    detalle: 'Arritmias, vía oral: "0,25-0,5 mg/kg, 3 o 4 veces al día ... no excediéndose una dosis máxima total de 160 mg
+      al día" (la pauta coincide con CIMA 77174, 4.2 Población pediátrica)'
+- indicacion: Migraña (niños menores de 12 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Dos o tres veces al día (se cargan dos tomas). Mayores de 12 años: dosis de adultos'
+  texto: 20 mg dos o tres veces al día
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: '4.2 Población pediátrica, Migraña: "Niños menores de 12 años: 20 mg dos o tres veces al día"'
+- indicacion: Hemangioma infantil proliferativo (lactantes de 5 semanas a 5 meses)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 3
+  tomasPorDia: 2
+  estatus: autorizada
+  condicion: Solo Hemangiol, iniciado por un médico experto en un contexto clínico controlado. 1 mg/kg/día la 1.ª semana,
+    2 mg/kg/día la 2.ª y 3 mg/kg/día de mantenimiento, en 2 tomas con al menos 9 h de intervalo, durante o justo después de
+    la toma de alimento; 6 meses
+  texto: 1 → 2 → 3 mg/kg/día en dos dosis separadas (mantenimiento 1,5 mg/kg dos veces al día)
+  presentaciones:
+  - solucion-3-75-mg-ml
+  fuente:
+    ref: CIMA-PROPRANOLOL-114919001
+    detalle: '4.2: "La dosis inicial recomendada es de 1 mg/kg/día, administrada en dos dosis ... 3 mg/kg/día como dosis de
+      mantenimiento"'
+- indicacion: Hipertensión (niños, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.5
+  max: 1
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: off_label
+  condicion: Formulaciones de liberación inmediata, cada 6-12 h (se cargan cuatro tomas). Incrementar cada 5-7 días; habitual
+    1-5 mg/kg/día; máximo 8 mg/kg/día
+  texto: Inicio 0,5-1 mg/kg/día cada 6-12 horas (máximo 8 mg/kg/día)
+  presentaciones:
+  - comprimido-10-mg
+  - comprimido-40-mg
+  fuente:
+    ref: PEDIAMECUM-PROPRANOLOL
+    detalle: 'Hipertensión: "dosis inicial de 0,5-1 mg/kg/día, cada 6-12 horas ... dosis máxima: 8 mg/kg/día"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: 'Vía oral (CIMA 77174). Pediamécum: con comida; los comprimidos se tragan enteros con líquido, sin masticar. Hemangiol:
+    con la jeringa oral del envase, durante o justo después de la alimentación del niño para evitar hipoglucemia; puede mezclarse
+    con un poco de leche infantil o zumo (CIMA 114919001).'
+  noTriturar: true
+  fuente:
+    ref: PEDIAMECUM-PROPRANOLOL
+    detalle: 'Administración: "Por vía oral, debe administrarse con comida"; arritmias: "deben tragarse enteros con líquido
+      y no deben masticar"'
+ajusteRenalHepatico:
+  renal: 'Insuficiencia renal significativa o hemodiálisis: precaución al iniciar y al elegir la dosis inicial.'
+  hepatico: 'Hepatopatía grave (p. ej., cirrosis): dosis inicial baja, sin superar 20 mg tres veces al día, vigilando la respuesta.'
+  fuente:
+    ref: CIMA-PROPRANOLOL-77174
+    detalle: 4.2 Insuficiencia hepática / renal
+alertas:
+- Hemangiol y la pauta de hipertensión infantil no traen tope en mg (solo mg/kg); como referencia, en adultos la hipertensión
+  usa 160-320 mg/día (CIMA 77174). La ficha no declara un máximo diario de adulto que la calculadora pueda aplicar.
+- 'No existe una pauta pediátrica única: la dosis depende de la indicación (arritmias, migraña, hemangioma, hipertensión).'
+- 'Contraindicado en asma o broncoespasmo, bloqueo AV de 2.º-3.er grado, bradicardia intensa, hipotensión grave, shock cardiogénico
+  y en pacientes propensos a hipoglucemia (CIMA 77174 y 114919001, 4.3). Hemangiol: no en lactantes <5 semanas.'
+- 'No suspender bruscamente: reducir la dosis en 7-14 días (CIMA 77174).'
+meta: {}

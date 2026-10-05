@@ -1,0 +1,98 @@
+id: metformina
+nombre: Metformina
+comerciales:
+- Dianben
+grupo: antidiabetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-850-mg
+  forma: comprimido
+  cantidad:
+    valor: 850
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METFORMINA
+    detalle: Dianben 850 mg comprimidos recubiertos (la ficha no menciona partición); el arsenal de APS lista 850 mg
+- id: comprimido-lp-1000-mg
+  forma: comprimido
+  cantidad:
+    valor: 1000
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: true
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 17.08.02: Metformina, Comprimido de liberación prolongada 1000 mg (GES)'
+dosis:
+- indicacion: Diabetes tipo 2 (adultos con función renal normal)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 850
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 3000
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante o después de las comidas; 2 o 3 veces al día (se cargan dos). Ajustar tras 10-15 días. Máximo 3 g/día
+    en 3 tomas
+  texto: Inicio 500 u 850 mg 2 o 3 veces al día; dosis máxima recomendada 3 g/día
+  presentaciones:
+  - comprimido-850-mg
+  fuente:
+    ref: CIMA-METFORMINA
+    detalle: '4.2.1: "500 mg u 850 mg ... 2 ó 3 veces al día ... La dosis máxima recomendada es de 3 g ... al día, dividida
+      en 3 tomas"'
+- indicacion: Diabetes tipo 2 (niños desde 10 años y adolescentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 850
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 2000
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante o después de las comidas; ajustar tras 10-15 días. Dosis máxima 2 g/día en 2 o 3 tomas
+  texto: 500-850 mg una vez al día; máximo 2 g/día
+  presentaciones:
+  - comprimido-850-mg
+  fuente:
+    ref: PEDIAMECUM-METFORMINA
+    detalle: 'Diabetes mellitus tipo 2 (ficha técnica, A, niños ≥10 años): "500-850 mg, una vez al día ... Dosis máxima recomendada:
+      2 g/día" (igual que CIMA 55211, 4.2.1 Población pediátrica)'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: 'Durante o después de las comidas (CIMA). Pediamécum: con las comidas mejora la tolerancia; en niños los comprimidos
+    pueden dispersarse en agua.'
+  fuente:
+    ref: CIMA-METFORMINA
+    detalle: '4.2.1: "administrados durante o después de las comidas"'
+ajusteRenalHepatico:
+  renal: 'Evaluar la TFG antes de iniciar y al menos una vez al año. Dosis diaria máxima total (en 2-3 dosis): TFG 60-89,
+    3000 mg; 45-59, 2000 mg (inicio como máximo la mitad); 30-44, 1000 mg; <30, contraindicada.'
+  hepatico: Contraindicada en insuficiencia hepática.
+  fuente:
+    ref: CIMA-METFORMINA
+    detalle: 4.2.1 Insuficiencia renal (tabla) y 4.3
+alertas:
+- 'La dosis de 500 mg no se puede dar con los comprimidos cargados (850 mg sin ranura declarada; 1000 mg de liberación prolongada):
+  haría falta un comprimido de 500 mg.'
+- 'El comprimido de liberación prolongada de 1000 mg del arsenal no tiene posología en ninguna fuente cargada: las pautas
+  de 1 a 3 tomas son de la ficha de comprimidos de liberación inmediata y no se vinculan a él.'
+- Contraindicada con TFG <30 ml/min, acidosis metabólica aguda, precoma diabético, situaciones agudas que alteren la función
+  renal o causen hipoxia, insuficiencia hepática y alcoholismo (CIMA, 4.3).
+meta: {}

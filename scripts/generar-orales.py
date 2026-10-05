@@ -11,8 +11,9 @@ MODULOS = [tanda1]
 for nombre in ('tanda2', 'tanda3'):
     try:
         MODULOS.append(__import__(f'orales.{nombre}', fromlist=[nombre]))
-    except ImportError:
-        pass
+    except ModuleNotFoundError as e:  # la tanda aún no existe; un error dentro de ella sí debe verse
+        if e.name != f'orales.{nombre}':
+            raise
 
 RAIZ = Path(__file__).resolve().parent.parent
 

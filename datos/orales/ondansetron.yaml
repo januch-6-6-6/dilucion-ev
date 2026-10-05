@@ -1,0 +1,166 @@
+id: ondansetron
+nombre: Ondansetrón
+comerciales:
+- Ondansetrón Normon
+grupo: antiemetico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-4-mg
+  forma: comprimido
+  cantidad:
+    valor: 4
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2 nota c: "La dosis de 2 mg no puede obtenerse con los comprimidos de 4 mg ya que estos no han sido fabricados
+      para romperse"'
+- id: comprimido-8-mg
+  forma: comprimido
+  cantidad:
+    valor: 8
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 16.02: Ondansetrón, Comprimido 8 mg (Pediamécum lista ONDANSETRON NORMON 8 mg COMPRIMIDOS)'
+dosis:
+- indicacion: Náuseas y vómitos por quimioterapia o radioterapia emetógenas (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 8
+  max: 8
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 32
+    unidad: mg
+  estatus: autorizada
+  condicion: '8 mg 1-2 h antes del tratamiento y luego 8 mg cada 12 h, máximo 5 días. Tope diario: "la dosis de adultos de
+    32 mg" (CIMA)'
+  texto: 8 mg 1-2 h antes; después 8 mg cada 12 h hasta 5 días
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2 Adultos: "una dosis de 8 mg por vía oral, 1-2 horas antes ... seguida de 8 mg ... 12 horas durante un periodo
+      máximo de 5 días"'
+- indicacion: Quimioterapia altamente emetógena (adultos), dosis única
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 24
+  max: 24
+  tomasPorDia: 1
+  topeDiario:
+    valor: 32
+    unidad: mg
+  estatus: autorizada
+  condicion: Junto con 12 mg de dexametasona oral, 1-2 h antes; desde las 24 h, 8 mg dos veces al día hasta 5 días
+  texto: 24 mg en dosis única
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2: "una única dosis de 24 mg de ondansetrón administrada por vía oral junto con 12 mg de dexametasona"'
+- indicacion: Prevención de náuseas y vómitos postoperatorios (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 16
+  max: 16
+  tomasPorDia: 1
+  topeDiario:
+    valor: 32
+    unidad: mg
+  estatus: autorizada
+  texto: 16 mg una hora antes de la anestesia
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2 NVPO, adultos: "la dosis oral recomendada es de 16 mg administrados una hora antes de la anestesia"'
+- indicacion: Náuseas y vómitos por quimioterapia (≥6 meses), >10 kg
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 4
+  max: 4
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 32
+    unidad: mg
+  estatus: autorizada
+  condicion: Vía oral desde 12 h después de la dosis intravenosa, hasta 5 días; dosis diaria total sin superar la de adultos
+    (32 mg)
+  texto: 4 mg vía oral cada 12 h
+  fuente:
+    ref: PEDIAMECUM-ONDANSETRON
+    detalle: 'Dosis por peso: ">10 kg ... 4 mg vía oral cada 12 h"; "La dosis diaria total no debe exceder la dosis de adultos
+      de 32 mg"'
+- indicacion: Náuseas y vómitos por quimioterapia (≥6 meses), ≤10 kg
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 2
+  max: 2
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 32
+    unidad: mg
+  estatus: autorizada
+  condicion: Vía oral desde 12 h después de la dosis intravenosa, hasta 5 días. No se puede dar con el comprimido de 4 mg
+    (no partible)
+  texto: 2 mg vía oral cada 12 h
+  fuente:
+    ref: PEDIAMECUM-ONDANSETRON
+    detalle: 'Dosis por peso: "=10 kg ... 2 mg vía oral cada 12 h"; nota c: "La dosis de 2 mg no puede obtenerse con los comprimidos
+      de 4 mg"'
+- indicacion: Náuseas y vómitos por quimioterapia (≥6 meses), por superficie corporal
+  poblacion: pediatrico
+  regimen: por_superficie
+  unidad: mg
+  estatus: autorizada
+  condicion: Por superficie la dosis diaria resulta menor que por peso
+  texto: '<0,6 m²: 2 mg vía oral cada 12 h; ≥0,6 m²: 4 mg vía oral cada 12 h (días 2-6, tras 5 mg/m² IV el día 1); total diario
+    ≤32 mg'
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: '4.2 Tabla 1: Dosis por superficie corporal'
+- indicacion: Vómitos de repetición en gastroenteritis aguda (niños, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  estatus: off_label
+  condicion: Pediamécum lo incluye entre los usos off-label en Pediatría. El tramo de 2 mg no se puede dar con los comprimidos
+    cargados
+  texto: 'Dosis única oral según peso: 8-15 kg: 2 mg; 15-30 kg: 4 mg; >30 kg: 8 mg'
+  fuente:
+    ref: PEDIAMECUM-ONDANSETRON
+    detalle: 'Vómitos de repetición asociados a gastroenteritis aguda: "8-15 kg: 2 mg. 15-30 kg: 4 mg. >30 kg: 8 mg"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: 'Los comprimidos se tragan enteros con un poco de agua (CIMA). Pediamécum: las formas orales pueden administrarse
+    con o sin alimentos.'
+  noTriturar: true
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: No requiere variar la dosis diaria, la frecuencia ni la vía.
+  hepatico: 'Insuficiencia hepática moderada o grave: no exceder una dosis diaria total de 8 mg.'
+  fuente:
+    ref: CIMA-ONDANSETRON
+    detalle: 4.2 Pacientes con insuficiencia renal / hepática
+alertas:
+- 'La dosis de 2 mg no puede obtenerse con los comprimidos de 4 mg (no fabricados para romperse) ni con los de 8 mg: haría
+  falta una forma líquida o bucodispersable de 2 mg, que no está cargada (CIMA, nota c).'
+- 'Insuficiencia hepática moderada o grave: no superar 8 mg/día en total (CIMA).'
+- Contraindicado con apomorfina (hipotensión profunda y pérdida de conocimiento) (CIMA, 4.3).
+meta: {}

@@ -1,0 +1,149 @@
+id: famotidina
+nombre: Famotidina
+comerciales:
+- Famotidina Cinfa
+grupo: protector-gastrico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-20-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: Famotidina Cinfa 20 mg (la ficha no menciona partición)
+- id: comprimido-40-mg
+  forma: comprimido
+  cantidad:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 16.01: Famotidina, Comprimido 40 mg (Pediamécum lista FAMOTIDINA CINFA 40 mg)'
+dosis:
+- indicacion: Úlcera duodenal o gástrica benigna (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 40
+  max: 40
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Por la noche, 4-8 semanas (úlcera duodenal: también 20 mg cada 12 h). Mantenimiento: 20 mg por la noche'
+  texto: 40 mg por la noche
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: '4.2 Úlcera duodenal: "40 mg diario por la noche"; úlcera gástrica: "40 mg tomado por la noche"'
+- indicacion: Enfermedad por reflujo gastroesofágico, alivio sintomático (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  texto: 20 mg dos veces al día
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: '4.2: "20 mg de famotidina dos veces al día"'
+- indicacion: Erosión o úlcera esofágica asociada a ERGE (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 40
+  max: 40
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  texto: 40 mg dos veces al día
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: '4.2: "la dosis recomendada es de 40 mg de famotidina dos veces al día"'
+- indicacion: Úlcera péptica (niños >1 año y adolescentes, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 0.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 40
+    unidad: mg
+  estatus: off_label
+  condicion: 'Antes de acostarse o dividido en 2 veces al día (se cargan dos). >40 kg: 40 mg/24 h o 20 mg/12 h'
+  texto: 0,5 mg/kg/día (máximo 40 mg/día)
+  fuente:
+    ref: PEDIAMECUM-FAMOTIDINA
+    detalle: 'Úlcera péptica, oral: "0,5 mg/kg/día administrado antes de acostarse o dividido en 2 veces al día (máximo: 40
+      mg/día)"'
+- indicacion: Esofagitis y reflujo gastroesofágico (1-12 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 0.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 40
+    unidad: mg
+  estatus: off_label
+  condicion: Hasta 8 semanas; se han notificado casos de hasta 1 mg/kg dos veces al día
+  texto: 0,5 mg/kg dos veces al día (dosis máxima 40 mg/dosis)
+  fuente:
+    ref: PEDIAMECUM-FAMOTIDINA
+    detalle: 'Esofagitis y reflujo, 1-12 años: "0,5 mg/kg, 2 veces al día (dosis máxima: 40 mg/dosis)"'
+- indicacion: Esofagitis y reflujo gastroesofágico (>12 años, uso fuera de ficha)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 20
+  max: 20
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: off_label
+  condicion: Durante 6 semanas
+  texto: 20 mg cada 12 h
+  fuente:
+    ref: PEDIAMECUM-FAMOTIDINA
+    detalle: '">12 años: 20 mg/12 h durante 6 semanas"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Uso en niños
+  valores:
+  - fuente: CIMA-FAMOTIDINA
+    valor: La ficha solo da posología de adultos
+  - fuente: PEDIAMECUM-FAMOTIDINA
+    valor: 'No se ha establecido la eficacia y seguridad en niños: todos los usos son off-label (Pediamécum)'
+  mostrado: Se muestran las pautas pediátricas de Pediamécum como uso fuera de ficha técnica (off-label)
+  motivo: Solo Pediamécum respalda la dosis pediátrica.
+administracion:
+  comida: indiferente
+  texto: Vía oral, según el horario indicado en cada pauta (dosis de 40 mg por la noche) (CIMA). La ficha no indica relación
+    con las comidas.
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: '4.2 Forma de administración: "Vía oral. Seguir las recomendaciones indicadas anteriormente"'
+ajusteRenalHepatico:
+  renal: 'Aclaramiento de creatinina <50 ml/min: reducir la dosis a la mitad o alargar el intervalo a 36-48 h según la respuesta
+    (riesgo de efectos adversos del SNC).'
+  fuente:
+    ref: CIMA-FAMOTIDINA
+    detalle: 4.2 Ajuste de dosis en pacientes con insuficiencia renal grave o moderada
+alertas:
+- Las pautas pediátricas por kg traen tope propio (40 mg/día o 40 mg/dosis); la dosis de adulto de referencia es 40 mg por
+  la noche o 20 mg cada 12 h (CIMA).
+meta: {}

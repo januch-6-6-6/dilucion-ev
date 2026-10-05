@@ -1,0 +1,89 @@
+id: levonorgestrel
+nombre: Levonorgestrel (anticoncepción de emergencia)
+comerciales:
+- Levonorgestrel Exeltis
+grupo: hormonal
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-1-5-mg
+  forma: comprimido
+  cantidad:
+    valor: 1.5
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-LEVONORGESTREL
+    detalle: Levonorgestrel Exeltis 1,5 mg comprimido
+- id: comprimido-0-75-mg
+  forma: comprimido
+  cantidad:
+    valor: 0.75
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 17.03 Anticonceptivos: Levonorgestrel, Comprimido 0,75 mg y 1,5 mg, "Uso de emergencia"'
+dosis:
+- indicacion: Anticoncepción de emergencia
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 1.5
+  max: 1.5
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: 'Lo antes posible, preferiblemente en las primeras 12 h y no más tarde de 72 h tras la relación sin protección;
+    si vomita en las 3 h siguientes, tomar otro comprimido. Pediamécum: autorizado en mayores de 16 años'
+  texto: 1500 µg (1,5 mg) en dosis única
+  fuente:
+    ref: PEDIAMECUM-LEVONORGESTREL
+    detalle: 'Dosis: "Vía de administración oral de 1500 µg, preferiblemente dentro de las primeras 12 horas, y no más tarde
+      de las primeras 72 horas"'
+- indicacion: Anticoncepción de emergencia con inductores enzimáticos en las últimas 4 semanas
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 3
+  max: 3
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: 'Solo si no puede o no desea usar un DIU de cobre (opción preferente); dosis doble: 2 comprimidos de 1,5 mg a
+    la vez'
+  texto: 3 mg (2 comprimidos de 1,5 mg juntos) en dosis única
+  fuente:
+    ref: CIMA-LEVONORGESTREL
+    detalle: '4.2: "que tomen una dosis doble de levonorgestrel (es decir, 2 comprimidos a la vez) si no pueden o no desean
+      utilizar el DIU-Cu"'
+pediatria:
+  estado: solo_adulto
+  motivo: 'Anticoncepción de emergencia con pauta solo de adulto: la ficha no la considera adecuada en niñas prepúberes y
+    Pediamécum no la recomienda en menores de 16 años.'
+discrepancias:
+- campo: Uso en adolescentes
+  valores:
+  - fuente: CIMA-LEVONORGESTREL
+    valor: No adecuado en niñas en edad prepuberal (CIMA)
+  - fuente: PEDIAMECUM-LEVONORGESTREL
+    valor: Autorizado en mayores de 16 años; no recomendado en menores de 16 (off-label) (Pediamécum)
+  mostrado: Solo pauta de adulto (sin dosis pediátrica)
+  motivo: 'Decisión del proyecto: anticoncepción de emergencia solo con la pauta de adulto.'
+administracion:
+  comida: indiferente
+  texto: Vía oral, en cualquier momento del ciclo menstrual salvo que haya retraso de la menstruación (CIMA). La ficha no
+    indica relación con las comidas.
+  fuente:
+    ref: CIMA-LEVONORGESTREL
+    detalle: 4.2 Forma de administración / Posología
+ajusteRenalHepatico: null
+alertas:
+- Tras la anticoncepción de emergencia, usar un método de barrera hasta la siguiente menstruación; no contraindica seguir
+  con la anticoncepción hormonal regular (CIMA).
+- Con inductores enzimáticos en las últimas 4 semanas, preferir un DIU de cobre (CIMA).
+- 'Pediamécum mezcla en la misma ficha el sistema intrauterino de levonorgestrel (otro producto): esas pautas no se cargan.'
+meta: {}
