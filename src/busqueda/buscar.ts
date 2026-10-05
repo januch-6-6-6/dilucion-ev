@@ -1,4 +1,4 @@
-import type { Ficha } from '../esquema/ficha'
+type Buscable = { nombre: string; comerciales: string[] }
 
 export const normalizar = (s: string) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim()
@@ -18,7 +18,7 @@ function levenshtein(a: string, b: string): number {
 }
 
 /** Puntaje: 0 = prefijo, 1 = substring, 2 = tolerancia a errores; null = no coincide. */
-function puntaje(q: string, ficha: Ficha): number | null {
+function puntaje(q: string, ficha: Buscable): number | null {
   const textos = [ficha.nombre, ...ficha.comerciales].map(normalizar)
   if (textos.some((t) => t.startsWith(q) || t.split(/[\s()/-]+/).some((p) => p.startsWith(q)))) {
     return textos.some((t) => t.startsWith(q)) ? 0 : 1
@@ -31,12 +31,12 @@ function puntaje(q: string, ficha: Ficha): number | null {
   return null
 }
 
-export function buscar(texto: string, lista: Ficha[]): Ficha[] {
+export function buscar<T extends Buscable>(texto: string, lista: T[]): T[] {
   const q = normalizar(texto)
   if (!q) return []
   return lista
     .map((f) => ({ f, p: puntaje(q, f) }))
-    .filter((x): x is { f: Ficha; p: number } => x.p !== null)
+    .filter((x): x is { f: T; p: number } => x.p !== null)
     .sort((a, b) => a.p - b.p || a.f.nombre.localeCompare(b.f.nombre, 'es'))
     .map((x) => x.f)
 }

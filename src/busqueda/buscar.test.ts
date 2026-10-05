@@ -19,4 +19,11 @@ describe('buscar', () => {
   it('prefijo antes que substring', () => expect(ids('adrenalina')).toEqual(['adrenalina', 'noradrenalina']))
   it('texto vacío no devuelve nada', () => expect(ids('')).toEqual([]))
   it('sin coincidencias', () => expect(ids('xyz')).toEqual([]))
+  it('funciona con objetos { nombre, comerciales } que no son Ficha', () => {
+    const otros = [
+      { nombre: 'Paracetamol', comerciales: ['Panadol'] },
+      { nombre: 'Ibuprofeno', comerciales: [] },
+    ]
+    expect(buscar('pana', otros).map((o) => o.nombre)).toEqual(['Paracetamol'])
+  })
 })
