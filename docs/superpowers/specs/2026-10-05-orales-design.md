@@ -8,7 +8,7 @@
 
 ## 1. Propósito
 
-Sumar a Dilución EV una sección **«Orales»** con los 80 medicamentos orales más usados del arsenal de
+Sumar a Dilución EV una sección **«Orales»** con 79 de los 80 medicamentos orales más usados (clorfenamina queda fuera: ninguna fuente de dosis, ver sección 2) del arsenal de
 atención primaria (base: Arsenal Farmacoterapéutico Básico APS del Servicio de Salud Atacama, Res. CP16.328,
 12-ago-2026), con dosis, presentaciones y una **calculadora por peso con conversión a la forma real**
 (ml de jarabe, gotas, comprimidos).
@@ -34,13 +34,13 @@ químico farmacéutico.
 1. Un usuario encuentra un oral por nombre genérico o comercial y ve su ficha en menos de tres toques.
 2. Para un niño de peso X y un jarabe de concentración Y, la calculadora entrega la dosis por toma en mg y
    en ml, respeta los topes y avisa cuando los alcanza.
-3. Las 16 fichas de fuente única muestran el aviso; ninguna ficha `solo_adulto` ofrece calculadora pediátrica.
+3. Las 15 fichas de fuente única muestran el aviso; ninguna ficha `solo_adulto` ofrece calculadora pediátrica.
 4. `npm test` y `npm run validar` fallan si una ficha viola una regla de coherencia (sección 8).
 5. Las 89 fichas EV y sus pruebas siguen pasando sin cambios.
 
 ## 2. Alcance
 
-**Dentro de v1:** 80 fichas orales; rutas `/orales`; calculadora por peso con conversión líquida;
+**Dentro de v1:** 79 fichas orales (80 del arsenal menos clorfenamina); rutas `/orales`; calculadora por peso con conversión líquida;
 avisos; tabla de discrepancias por ficha; favoritos y recientes propios; estado de registro en Chile.
 
 **Fuera de v1** (no se investigó o se decidió dejar para después):
@@ -50,6 +50,7 @@ avisos; tabla de discrepancias por ficha; favoritos y recientes propios; estado 
 - Búsqueda unificada EV + oral (son dos buscadores).
 - Inyectables, tópicos, inhalados y vacunas del arsenal.
 - Neonatos (igual que el EV).
+- **Clorfenamina:** ni CIMA (solo combinados) ni Pediamécum tienen ficha del monofármaco; sin fuente de dosis no se publica ficha. Queda como pendiente.
 - Sección «Comunidad / Prácticas locales» para orales.
 
 ## 3. Decisiones de diseño
@@ -68,7 +69,7 @@ avisos; tabla de discrepancias por ficha; favoritos y recientes propios; estado 
 ## 4. Modelo de datos: `FichaOral`
 
 Archivo nuevo `src/esquema/ficha-oral.ts` (zod, `strictObject`, como `ficha.ts`). Los YAML viven en
-`datos/orales/<id>.yaml`.
+`datos/orales/<id>.yaml` y sus fuentes en **`datos/fuentes-orales.yaml`** (un archivo propio porque `scripts/generar-todo.py` reescribe `datos/fuentes.yaml` completo con las fuentes EV).
 
 ```
 FichaOral
@@ -88,7 +89,10 @@ FichaOral
   dosis[]
     indicacion, poblacion (adulto | pediatrico)
     regimen           fija | por_peso | por_edad | por_superficie
+    base?             toma | dia   // por_peso: si min/max son mg/kg por toma o por día
     min?, max?, unidad, intervaloH?, tomasPorDia?
+    condicion?        texto (p. ej. «≥12 años», «<40 kg»)
+    texto?            obligatorio en por_edad y por_superficie (se muestra como pauta, no se calcula)
     topePorToma?, topeDiario?
     estatus           autorizada | off_label
     fuente
@@ -101,7 +105,7 @@ FichaOral
   meta                { revisadoPor?, fechaRevision? }
 ```
 
-`verificacion` **se calcula** al cargar (menos de dos fuentes distintas ⇒ `fuente_unica`) en lugar de
+`verificacion` **se calcula** al cargar (menos de dos **instituciones** distintas entre las fuentes de las dosis ⇒ `fuente_unica`; contar referencias no sirve porque CIMA aporta varios productos) en lugar de
 declararse a mano, para que nadie pueda olvidar el aviso.
 
 ## 5. Calculadora: `src/calculos/oral.ts`
@@ -148,7 +152,7 @@ Scripts Python `scripts/fichas/orales/*.py` escriben `datos/orales/*.yaml` desde
 2. Cardiovascular, digestivo y endocrino.
 3. Neurología, psiquiatría, anticoncepción, vitaminas y hierro.
 
-Una revisión única de las discrepancias al final. Las fuentes se registran en `datos/fuentes.yaml` **a nivel de
+Una revisión única de las discrepancias al final. Las fuentes se registran en `datos/fuentes-orales.yaml` **a nivel de
 producto** (CIMA con nº de registro, Pediamécum por ficha, DailyMed/EMC para flucloxacilina, glibenclamida e
 hidroclorotiazida, guías MINSAL para DM2, depresión e hipotiroidismo).
 
@@ -165,11 +169,11 @@ venlafaxina de liberación inmediata; hierro en mg de hierro elemental.
 
 - Presentación líquida ⇒ `concentracion` obligatoria; forma `gotas` ⇒ `gotasPorMl` obligatorio.
 - Menos de dos fuentes ⇒ `fuente_unica` automático.
-- `pediatria.estado = solo_adulto` ⇒ `motivo` obligatorio y ninguna dosis pediátrica con régimen `por_peso`.
+- `pediatria.estado = solo_adulto` ⇒ `motivo` obligatorio y **ninguna** dosis pediátrica; `con_dosis` ⇒ al menos una.
 - Dosis pediátrica ≤ tope de adulto de la misma ficha.
 - Cada discrepancia declara el valor `mostrado`, que debe ser el más bajo.
 - Los ids de orales no pueden usar el prefijo `oral:` (reservado para favoritos y recientes).
-- Una prueba recorre las 80 fichas reales y falla si alguna viola una regla.
+- Una prueba recorre las 79 fichas reales y falla si alguna viola una regla.
 
 ## 9. Pruebas
 
@@ -177,8 +181,8 @@ venlafaxina de liberación inmediata; hierro en mg de hierro elemental.
   ≈15 ml a 667 mg/ml; haloperidol en gotas (1 gota = 0,1 mg); ondansetrón 2 mg con comprimido de 4 mg →
   rechazado; topes por toma y diario; que nunca supere el tope de adulto; redondeos.
 - **Esquema y coherencia:** fixtures válidos e inválidos para cada regla de la sección 8.
-- **Datos reales:** las 80 fichas.
-- **Interfaz:** aviso en las 16 fichas de fuente única; `solo_adulto` sin calculadora pediátrica; favoritos y
+- **Datos reales:** las 79 fichas, con las listas exactas de `fuente_unica` (15 ids) y `solo_adulto` (13 ids).
+- **Interfaz:** aviso en las 15 fichas de fuente única; `solo_adulto` sin calculadora pediátrica; favoritos y
   recientes de orales separados de EV.
 - **Regresión:** las 241 pruebas actuales y las 89 fichas EV pasan sin modificarse.
 
