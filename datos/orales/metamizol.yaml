@@ -84,8 +84,9 @@ dosis:
     valor: 875
     unidad: mg
   estatus: autorizada
-  condicion: 'Tabla por edad: se muestra, no se calcula. Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una
-    presentación adulta'
+  condicion: 'Tabla por edad: se muestra, no se calcula. El tope por toma cargado (875 mg) es solo el de la fila 13-14 años;
+    cada fila de la tabla tiene su propio máximo por dosis y por día. Pediamécum (A) para la forma oral; la ficha CIMA cargada
+    es de una presentación adulta'
   texto: '<12 meses (<9 kg): 25-125 mg/dosis, máx. 100-500 mg/día. 1-3 años (9-15 kg): 75-250 mg/dosis, máx. 300-1000 mg/día.
     4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día.
     10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500

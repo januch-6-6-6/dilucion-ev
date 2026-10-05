@@ -1,0 +1,114 @@
+id: mebendazol
+nombre: Mebendazol
+comerciales:
+- Lomper
+grupo: antiparasitario
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MEBENDAZOL-51200
+    detalle: Lomper 100 mg comprimidos
+- id: suspension-20-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-MEBENDAZOL-53775
+    detalle: Lomper 20 mg/ml suspensión oral (5 ml = 100 mg)
+dosis:
+- indicacion: Enterobiasis (oxiuriasis) (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  estatus: autorizada
+  texto: Dosis única de 100 mg (1 comprimido o 5 ml); repetir a las 2 y 4 semanas
+  fuente:
+    ref: CIMA-MEBENDAZOL-51200
+    detalle: '4.2.1: "Enterobiasis (oxiuriasis): Una única dosis de 1 comprimido o 5 ml ... Se recomienda repetir el tratamiento
+      después de 2 y 4 semanas"'
+- indicacion: Tricuriasis, ascariasis, anquilostomiasis, necatoriasis y parasitosis mixtas (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  texto: 100 mg (1 comprimido o 5 ml) dos veces al día durante 3 días consecutivos
+  fuente:
+    ref: CIMA-MEBENDAZOL-51200
+    detalle: '4.2.1: "un comprimido o 5 ml ... dos veces al día (por la mañana y por la tarde) durante tres días consecutivos"'
+- indicacion: Enterobiasis (oxiuriasis) (niños ≥2 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: 'CIMA: misma dosis desde los 2 años, repitiendo a las 2 y 4 semanas. Tratar también a los convivientes'
+  texto: 100 mg en dosis única; repetible a las 2-3 semanas
+  fuente:
+    ref: PEDIAMECUM-MEBENDAZOL
+    detalle: '"Enterobiasis: 100 mg dosis única; repetible en 2-3 semanas ya que la reinfección es frecuente"'
+- indicacion: Tricuriasis, ascariasis, anquilostomiasis e infecciones mixtas (niños ≥2 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Si los parásitos persisten a las 3 semanas puede repetirse un ciclo (Pediamécum)
+  texto: 100 mg dos veces al día durante 3 días
+  fuente:
+    ref: CIMA-MEBENDAZOL-51200
+    detalle: '4.2.1 "Adultos, adolescentes y niños ≥ 2 años de edad": "un comprimido o 5 ml ... dos veces al día ... durante
+      tres días consecutivos"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: 'Población: menores de 2 años'
+  valores:
+  - fuente: CIMA-MEBENDAZOL-51200
+    valor: 'CIMA: no establecida en menores de 2 años y no se puede hacer una recomendación posológica; no usar en menores
+      de 1 año'
+  - fuente: PEDIAMECUM-MEBENDAZOL
+    valor: 'Pediamécum: en menores de 2 años solo cuando la parasitosis interfiera significativamente con el estado nutricional
+      y el desarrollo'
+  mostrado: No se carga dosis para menores de dos años
+  motivo: Ninguna fuente da una posología para menores de 2 años.
+administracion:
+  comida: indiferente
+  texto: 'Comprimidos y suspensión con o sin comida; agitar la suspensión antes de usar (CIMA). Pediamécum: preferentemente
+    entre las comidas.'
+  fuente:
+    ref: CIMA-MEBENDAZOL-51200
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico: null
+alertas:
+- No usar en menores de 1 año; entre 1 y 2 años solo si el beneficio justifica el riesgo (convulsiones descritas) (CIMA, 4.2
+  y 4.4).
+- Evitar el uso junto con metronidazol (casos de Stevens-Johnson/NET) (CIMA, 4.4).
+- En niños que no pueden tragar comprimidos, usar la suspensión para reducir el riesgo de asfixia (CIMA, 4.4).
+- 'Insuficiencia hepática: no hay datos; monitorizar estrechamente (Pediamécum). Con cimetidina, ajustar la dosis (CIMA).'
+meta: {}

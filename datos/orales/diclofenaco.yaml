@@ -124,4 +124,7 @@ alertas:
 - Con factores de riesgo cardiovascular, en tratamientos de más de 4 semanas usar ≤100 mg diarios (CIMA, 4.2).
 - 'Dismenorrea primaria (CIMA): 50-200 mg/día, con dosis inicial de 50-100 mg; no se carga como pauta aparte.'
 - 'El comprimido gastrorresistente de 50 mg no se puede partir: no sirve para dosis pediátricas pequeñas.'
+- 'Adultos: con el comprimido de 50 mg no partible solo se puede dar 100 mg/día (50 mg × 2 tomas). El extremo inferior de
+  la ficha (75 mg/día en 2-3 tomas) exigiría 37,5 mg por toma (2 tomas) o 25 mg por toma (3 tomas): haría falta una presentación
+  de 25 mg (3 × 25 mg) que no está cargada (CIMA, 4.2.1: "75-100 mg al día ... en 2-3 tomas diarias").'
 meta: {}

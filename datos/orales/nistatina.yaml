@@ -1,0 +1,130 @@
+id: nistatina
+nombre: Nistatina
+comerciales:
+- Mycostatin
+grupo: antiviral-antifungico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: suspension-100000-ui-ml
+  forma: suspension
+  concentracion:
+    valor: 100000
+    unidad: UI
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: Mycostatin 100.000 UI/ml suspensión oral (el arsenal de APS lista la misma concentración)
+dosis:
+- indicacion: Candidiasis oral (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: UI
+  min: 250000
+  max: 500000
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Intervalo cargado: 12 h, el extremo conservador de "cada 6-12 horas"'
+  texto: 250.000-500.000 UI (2,5-5 ml) cada 6-12 horas
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: '4.2 Adultos: "Candidiasis oral: 250.000 - 500.000 UI (2,5 - 5 ml) cada 6-12 horas"'
+- indicacion: Candidiasis intestinal (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: UI
+  min: 500000
+  max: 1000000
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 500.000-1.000.000 UI (5-10 ml) cada 6 horas
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: '4.2 Adultos: "Candidiasis intestinal: 500.000 - 1.000.000 UI (5 - 10 ml) cada 6 horas"'
+- indicacion: Candidiasis oral (lactantes mayores de 1 año, niños y adolescentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: UI
+  min: 250000
+  max: 500000
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Intervalo cargado: 12 h, el extremo conservador de "cada 6-12 horas"'
+  texto: 250.000-500.000 UI (2,5-5 ml) cada 6-12 horas
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: '4.2 Población pediátrica: "Lactantes mayores de un año, niños y adolescentes: 250.000 - 500.000 UI (2,5 - 5
+      ml) cada 6-12 horas"'
+- indicacion: Candidiasis oral (lactantes de 1 año o menos)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: UI
+  min: 250000
+  max: 250000
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: 'CIMA coincide ("Lactantes menores o iguales a un año: 250.000 UI (2,5 ml) cada 6 horas"). No incluye recién
+    nacidos'
+  texto: 250.000 UI (2,5 ml) cada 6 horas
+  fuente:
+    ref: PEDIAMECUM-NISTATINA
+    detalle: 'Candidiasis oral, niños: "Menores de 1 año: 250 000 cada 6 horas"'
+- indicacion: Candidiasis intestinal (niños y adolescentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: UI
+  min: 250000
+  max: 750000
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 250.000-750.000 UI (2,5-7,5 ml) cada 6 horas
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: '4.2 Candidiasis intestinal: "Niños y adolescentes: 250.000 - 750.000 UI (2,5 - 7,5 ml) cada 6 horas"'
+- indicacion: Candidiasis intestinal (lactantes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: UI
+  min: 100000
+  max: 300000
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 100.000-300.000 UI (1-3 ml) cada 6 horas
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: '4.2 Candidiasis intestinal: "Lactantes: 100.000 - 300.000 UI (1 - 3 ml) cada 6 horas"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Recién nacidos
+  valores:
+  - fuente: CIMA-NISTATINA
+    valor: 'CIMA: recién nacidos y lactantes con bajo peso al nacer, 100.000 UI (1 ml) cada 6 horas'
+  - fuente: PEDIAMECUM-NISTATINA
+    valor: 'Pediamécum: neonatos a término 200.000 UI (2 ml) cada 6 horas; pretérmino 100.000 UI (1 ml) cada 6 horas'
+  mostrado: No se cargan dosis neonatales (fuera del alcance de esta versión)
+  motivo: Diferencia solo en el recién nacido a término; en lactantes, niños y adultos las fuentes coinciden.
+administracion:
+  comida: indiferente
+  texto: Agitar bien. Puede tomarse sola, con agua o mezclada con un líquido o alimento blando no ácido (leche, miel, jalea).
+    En candidiasis oral, mantenerla en la boca varios minutos antes de tragar.
+  fuente:
+    ref: CIMA-NISTATINA
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico: null
+alertas:
+- 'Dosis en unidades internacionales (UI): no se convierten a mg. 1 ml de suspensión = 100.000 UI.'
+- 'Candidiasis oral: mantener la suspensión en la boca el mayor tiempo posible (varios minutos) antes de tragarla; en lactantes
+  y niños pequeños, poner la mitad de la dosis en cada lado de la boca (CIMA).'
+- Continuar al menos 48 horas después de que desaparezcan los síntomas; si empeora o persiste a los 14 días, reevaluar (CIMA).
+- 'Pediamécum: no requiere ajuste en insuficiencia renal ni hepática (absorción sistémica despreciable).'
+meta: {}

@@ -133,7 +133,7 @@ def fuente_arsenal():
     return fuente_externa(
         ARSENAL,
         'Arsenal farmacoterapéutico básico de APS, Región de Atacama (Res. exenta CP16.328; Diario Oficial 12-ago-2026, CVE 2850499)',
-        'Servicio de Salud Atacama',
+        'Secretaría Regional Ministerial de Salud Región de Atacama',
         'https://www.diariooficial.interior.gob.cl/publicaciones/2026/08/12/44523/01/2850499.pdf',
         2026,
     )

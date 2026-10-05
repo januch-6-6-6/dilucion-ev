@@ -1,0 +1,187 @@
+id: amoxicilina
+nombre: Amoxicilina
+comerciales:
+- Amoxicilina Cinfa
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-1-g
+  forma: comprimido
+  cantidad:
+    valor: 1000
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: Amoxicilina Cinfa 1000 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: sobre-1-g
+  forma: sobre
+  cantidad:
+    valor: 1000
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMOXICILINA-64117
+    detalle: Amoxicilina Cinfa 1000 mg polvo para suspensión oral en sobres
+- id: capsula-500-mg
+  forma: capsula
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA
+    detalle: 'Presentaciones de Pediamécum: AMOXICILINA CINFA 500 MG CÁPSULAS DURAS EFG (el arsenal de APS también lista cápsula
+      500 mg)'
+- id: suspension-50-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA
+    detalle: 'Presentaciones de Pediamécum: AMOXICILINA NORMON 250 MG/5 ML POLVO PARA SUSPENSIÓN ORAL EFG (= 50 mg por 1 ml)'
+- id: suspension-100-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.02.01: Amoxicilina, Polvo para suspensión oral 500 mg/5 mL (= 100 mg por 1 ml)'
+dosis:
+- indicacion: Sinusitis, otitis media, infecciones urinarias y abscesos dentales (adultos y niños ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 500
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  texto: 'De 250 mg a 500 mg cada 8 horas o de 750 mg a 1 g cada 12 horas. Infecciones graves: de 750 mg a 1 g cada 8 horas'
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: '4.2 Adultos y niños ≥40 kg: "De 250 mg a 500 mg cada 8 horas o de 750 mg a 1 g cada 12 horas. Para infecciones
+      graves, de 750 mg a 1 g cada 8 horas"'
+- indicacion: Neumonía adquirida en la comunidad, amigdalitis y faringitis estreptocócica, exacerbación de bronquitis crónica
+    (adultos y niños ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 1000
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  texto: De 500 mg a 1 g cada 8 horas
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: '4.2 Adultos y niños ≥40 kg: "De 500 mg a 1 g cada 8 horas"'
+- indicacion: Infecciones habituales (niños <40 kg)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 25
+  max: 50
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: La ficha CIMA admite de 20 a 90 mg/kg/día en dosis divididas según la indicación (sinusitis, otitis, neumonía,
+    cistitis, pielonefritis, abscesos dentales). Los niños de 40 kg o más reciben la dosis de adulto
+  texto: 25-50 mg/kg/día repartidos cada 8 horas
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA
+    detalle: 'Dosis: "Niños de menos de 40 kg: 25-50 mg/kg/día cada 8 horas"; CIMA 62880 4.2: "De 20 a 90 mg/kg/día en dosis
+      divididas"'
+- indicacion: Otitis media, sinusitis o neumonía de probable causa neumocócica con resistencia (niños <40 kg)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 80
+  max: 90
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: 'CIMA admite hasta 90 mg/kg/día; con la dosis en el rango superior, la ficha sugiere considerar pautas de dos
+    veces al día. Duración: 10 días en <2 años y 5-7 días en >2 años (sinusitis 7-10 días)'
+  texto: 80-90 mg/kg/día en tres dosis al día
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA
+    detalle: '"Infecciones respiratorias (otitis media aguda, sinusitis, neumonía) de probable causa neumocócica ... 80-90
+      mg/kg/día en tres dosis al día"'
+- indicacion: Faringoamigdalitis por S. pyogenes (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 40
+  max: 50
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 500
+    unidad: mg
+  topeDiario:
+    valor: 1000
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante 10 días. Pediamécum también da 50 mg/kg/día en 2-3 dosis; CIMA, 40-90 mg/kg/día en amigdalitis y faringitis
+  texto: 40-50 mg/kg/día cada 12 horas (o cada 24 h); máximo 500 mg cada 12 h o 1 g cada 24 h, durante 10 días
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA
+    detalle: '"faringoamigdalitis por S. pyogenes (40-50 mg/kg/día cada 12 o 24 h; máximo 500 mg/12 h o 1 g/24 h) durante
+      10 días"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis pediátrica en faringoamigdalitis estreptocócica
+  valores:
+  - fuente: CIMA-AMOXICILINA-62880
+    valor: 'hasta 90 mg/kg/día: "De 40 a 90 mg/kg/día en dosis divididas" en amigdalitis y faringitis (CIMA)'
+  - fuente: PEDIAMECUM-AMOXICILINA
+    valor: 'hasta 50 mg/kg/día: 40-50 mg/kg/día cada 12 o 24 h, máximo 500 mg/12 h o 1 g/24 h (Pediamécum)'
+  mostrado: 50 mg/kg/día, con máximo de 500 mg por toma
+  motivo: 'Mismo régimen y población: se muestra la cifra más baja (Pediamécum), que además trae tope en mg.'
+administracion:
+  comida: indiferente
+  texto: Vía oral, tragar con agua. La absorción de amoxicilina no se ve afectada por los alimentos.
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Filtrado >30 ml/min: sin ajuste. 10-30 ml/min: adultos y niños ≥40 kg, máximo 500 mg dos veces al día; niños <40
+    kg, 15 mg/kg dos veces al día (máximo 500 mg dos veces al día). <10 ml/min: adultos, máximo 500 mg/día; niños <40 kg,
+    15 mg/kg en dosis única diaria (máximo 500 mg). Hemodiálisis: 15 mg/kg/día en dosis única, con una dosis adicional de
+    15 mg/kg antes y otra tras la sesión. Diálisis peritoneal: máximo 500 mg/día.'
+  hepatico: Dosificar con precaución y monitorizar la función hepática a intervalos regulares.
+  fuente:
+    ref: CIMA-AMOXICILINA-62880
+    detalle: 4.2 Insuficiencia renal (tabla por filtrado glomerular), hemodiálisis, diálisis peritoneal e insuficiencia hepática
+alertas:
+- Las pautas de 25-50 y 80-90 mg/kg/día no traen tope en mg en las fuentes. Pediamécum fija un máximo de 150 mg/kg/día (40
+  mg/kg/día en menores de 2 meses, cada 12 h) y, para niños de más de 40 kg, una dosis oral máxima de 6 g/día. Como referencia,
+  la dosis de adulto de CIMA es de 250-500 mg cada 8 h o de 750 mg a 1 g cada 12 h (hasta 1 g cada 8 h en infecciones graves).
+- 'Cistitis aguda del adulto: 3 g dos veces al día durante un día; profilaxis de endocarditis: 2 g en dosis única (niños 50
+  mg/kg) 30-60 minutos antes del procedimiento (CIMA 62880). No se cargan como pautas aparte.'
+- 'Enfermedad de Lyme y fiebre tifoidea tienen pautas propias (CIMA: hasta 4 g/día en etapa temprana y 6 g/día en la tardía
+  en adultos; niños 100 mg/kg/día en tres dosis en fiebre tifoidea); no se cargan.'
+- 'Dos concentraciones de suspensión (50 y 100 mg/ml): confirmar la del frasco antes de calcular el volumen.'
+- Evitar en sospecha de mononucleosis infecciosa (erupción morbiliforme) (CIMA, 4.4).
+meta: {}

@@ -1,0 +1,233 @@
+id: aciclovir
+nombre: Aciclovir
+comerciales:
+- Aciclovir Cinfa
+- Zovirax
+grupo: antiviral-antifungico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-200-mg
+  forma: comprimido
+  cantidad:
+    valor: 200
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: Aciclovir Cinfa 200 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: suspension-80-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 80
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-ACICLOVIR-59226
+    detalle: 'Zovirax 400 mg/5 ml suspensión oral (= 80 mg por 1 ml; tabla de conversión: 400 mg = 5 ml)'
+- id: comprimido-400-mg
+  forma: comprimido
+  cantidad:
+    valor: 400
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.05.01: Aciclovir, Comprimido 400 mg'
+- id: comprimido-800-mg
+  forma: comprimido
+  cantidad:
+    valor: 800
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-ACICLOVIR
+    detalle: 'Presentaciones de Pediamécum: ACICLOVIR CINFA 800 MG COMPRIMIDOS EFG'
+dosis:
+- indicacion: Herpes simple de piel y mucosas (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 200
+  tomasPorDia: 5
+  estatus: autorizada
+  condicion: En inmunodeprimidos graves o con absorción intestinal disminuida puede duplicarse a 400 mg 5 veces al día
+  texto: 200 mg 5 veces al día, a intervalos de unas 4 horas omitiendo la dosis nocturna, durante 5 días
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: '4.2: "1 comprimido de 200 mg 5 veces al día a intervalos de aproximadamente 4 horas, omitiendo la dosis nocturna
+      ... durante 5 días"'
+- indicacion: Varicela y herpes zóster (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 800
+  max: 800
+  tomasPorDia: 5
+  estatus: autorizada
+  texto: 800 mg 5 veces al día, a intervalos de 4 horas omitiendo la dosis nocturna, durante 7 días
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: '4.2 Tratamiento de la varicela y el herpes zóster: "800 mg de aciclovir ... 5 veces al día a intervalos de 4
+      horas, omitiendo la dosis nocturna ... 7 días"'
+- indicacion: Supresión de herpes simple recurrente (adultos inmunocompetentes)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 200
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: Interrumpir cada 6-12 meses para reevaluar
+  texto: 200 mg 4 veces al día (cada 6 h); alternativa 400 mg 2 veces al día (cada 12 h)
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: '4.2: "1 comprimido de 200 mg administrado 4 veces al día a intervalos de aproximadamente 6 horas"; "400 mg ...
+      2 veces al día cada 12 horas"'
+- indicacion: Herpes simple de piel y mucosas (niños de 2 años o más)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 200
+  tomasPorDia: 5
+  estatus: autorizada
+  texto: 200 mg 5 veces al día durante 5 días (dosis de adulto)
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: '4.2 Población pediátrica: "en niños y adolescentes (de 2 a 18 años), se administrarán las mismas dosis de tratamiento
+      que en los adultos"'
+- indicacion: Herpes simple de piel y mucosas (lactantes de 28 días a 23 meses)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 5
+  estatus: autorizada
+  texto: 100 mg 5 veces al día durante 5 días (mitad de la dosis de adulto)
+  fuente:
+    ref: CIMA-ACICLOVIR-59226
+    detalle: '4.2.1 Tabla 1: "Lactantes y niños menores de 2 años: 100 mg 5 veces al día durante 5 días"'
+- indicacion: Varicela (niños de 6 años o más, inmunocompetentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 800
+  max: 800
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 800 mg 4 veces al día durante 5 días
+  fuente:
+    ref: CIMA-ACICLOVIR-59226
+    detalle: '4.2.1 Tabla 1: "6 años y mayores: 800 mg 4 veces al día durante 5 días"'
+- indicacion: Varicela (niños de 2 a menos de 6 años, inmunocompetentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 400
+  max: 400
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 400 mg 4 veces al día durante 5 días
+  fuente:
+    ref: CIMA-ACICLOVIR-59226
+    detalle: '4.2.1 Tabla 1: "2 a < 6 años: 400 mg 4 veces al día durante 5 días"'
+- indicacion: Varicela (niños menores de 2 años, inmunocompetentes)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 200
+  max: 200
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 200 mg 4 veces al día durante 5 días
+  fuente:
+    ref: CIMA-ACICLOVIR-59226
+    detalle: '4.2.1 Tabla 1: "Menores de 2 años: 200 mg 4 veces al día durante 5 días"'
+- indicacion: Varicela en el niño inmunocompetente, por peso (≥2 años; Pediamécum)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 80
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 800
+    unidad: mg
+  estatus: off_label
+  condicion: 'Pauta de Pediamécum, distinta de la de ficha técnica (dosis fijas por edad). Pediamécum: no hay indicación en
+    niños sanos; considerarla con riesgo de enfermedad moderada o grave; iniciar en las primeras 24 h del exantema. Durante
+    5 días'
+  texto: 80 mg/kg/día cada 6 horas durante 5 días; dosis máxima 800 mg por dosis
+  fuente:
+    ref: PEDIAMECUM-ACICLOVIR
+    detalle: 'Varicela en el huésped inmunocompetente, oral: "≥2 años: 80 mg/kg/día cada 6 h, durante 5 días. Dosis máxima:
+      800 mg/dosis"'
+- indicacion: Gingivoestomatitis herpética (niños; Pediamécum)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 60
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 200
+    unidad: mg
+  estatus: off_label
+  condicion: Uso off-label (Pediamécum). Iniciar en las primeras 72 h; eficacia controvertida. Durante 7 días
+  texto: 60 mg/kg/día cada 6 horas (máximo 200 mg por dosis) durante 7 días
+  fuente:
+    ref: PEDIAMECUM-ACICLOVIR
+    detalle: 'Gingivoestomatitis herpética: "60 mg/kg/día (máximo: 200 mg/dosis) cada 6 h por vía oral (VO) durante 7 días"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Método de dosificación en niños
+  valores:
+  - fuente: CIMA-ACICLOVIR-59226
+    valor: 'CIMA: dosis fijas por edad (herpes simple 100 o 200 mg cinco veces al día; varicela 200, 400 u 800 mg cuatro veces
+      al día)'
+  - fuente: PEDIAMECUM-ACICLOVIR
+    valor: 'Pediamécum: dosis por peso (varicela 80 mg/kg/día cada 6 h, máx. 800 mg/dosis; gingivoestomatitis 60 mg/kg/día,
+      máx. 200 mg/dosis); "Las dosis recomendadas aceptadas por la comunidad científica no siempre coinciden con las dosis
+      aprobadas en ficha técnica"'
+  mostrado: Se muestran las pautas de ficha técnica como autorizadas y las de Pediamécum, por peso, como off-label
+  motivo: Diferencia de método (dosis fija por edad frente a mg/kg), no un conflicto numérico de un mismo régimen.
+administracion:
+  comida: indiferente
+  texto: Vía oral; la ficha no indica relación con las comidas. Mantener una hidratación adecuada.
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Herpes simple con aclaramiento de creatinina <10 ml/min: 200 mg dos veces al día (cada 12 h). Varicela y zóster:
+    10-25 ml/min, 800 mg tres veces al día (cada 8 h); <10 ml/min, 800 mg dos veces al día (cada 12 h).'
+  fuente:
+    ref: CIMA-ACICLOVIR-84468
+    detalle: 4.2 Insuficiencia renal (herpes simple y varicela/zóster)
+alertas:
+- 'Pediamécum: en pacientes inmunodeprimidos o con malabsorción, la dosis oral debe duplicarse respecto de la de inmunocompetentes.'
+- No hay datos de herpes zóster en niños inmunocompetentes (CIMA 84468). La infección neonatal por herpes simple y la encefalitis
+  se tratan por vía intravenosa.
+- Mantener una hidratación adecuada, sobre todo con dosis altas, en ancianos y en insuficiencia renal (riesgo de reacciones
+  neurológicas) (CIMA, 4.4).
+- 'Inmunocomprometidos (Pediamécum, ≥2 años): 1000 mg/día en 3-5 dosis, máximo 80 mg/kg/día sin exceder 1 g/día; no se carga.'
+- 'Suspensión: no diluir (CIMA 59226).'
+meta: {}

@@ -211,7 +211,247 @@
 - id: ARSENAL-APS-ATACAMA
   titulo: Arsenal farmacoterapéutico básico de APS, Región de Atacama (Res. exenta CP16.328; Diario Oficial 12-ago-2026, CVE
     2850499)
-  institucion: Servicio de Salud Atacama
+  institucion: Secretaría Regional Ministerial de Salud Región de Atacama
   url: https://www.diariooficial.interior.gob.cl/publicaciones/2026/08/12/44523/01/2850499.pdf
   anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-AMOXICILINA-62880
+  titulo: 'Ficha técnica: Amoxicilina Cinfa 1000 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62880/FT_62880.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-AMOXICILINA-64117
+  titulo: 'Ficha técnica: Amoxicilina Cinfa 1000 mg polvo para suspensión oral en sobres EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/64117/FT_64117.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-AMOXICILINA
+  titulo: 'Pediamécum: Amoxicilina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/amoxicilina
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-AMOXICILINA-CLAVULANICO-59515
+  titulo: 'Ficha técnica: Augmentine 875/125 comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59515/FT_59515.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-AMOXICILINA-CLAVULANICO-59518
+  titulo: 'Ficha técnica: Augmentine 875/125 sobre'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59518/FT_59518.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+  titulo: 'Pediamécum: Amoxicilina clavulánico (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/amoxicilina-clavulanico
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-CEFADROXILO-55730
+  titulo: 'Ficha técnica: Duracef 500 mg cápsulas duras'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/55730/FT_55730.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-CEFADROXILO-55731
+  titulo: 'Ficha técnica: Duracef 250 mg/5 ml polvo para suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/55731/FT_55731.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-CEFADROXILO
+  titulo: 'Pediamécum: Cefadroxilo (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/cefadroxilo
+  anio: 2021
+  consultado: '2026-10-05'
+- id: EMC-FLUCLOXACILINA
+  titulo: 'Summary of Product Characteristics: Flucloxacillin 500 mg capsules, hard (Brown & Burk UK Ltd)'
+  institucion: Electronic Medicines Compendium (Reino Unido)
+  url: https://www.medicines.org.uk/emc/product/12636/smpc
+  anio: 2025
+  consultado: '2026-10-05'
+- id: CIMA-CLARITROMICINA-67638
+  titulo: 'Ficha técnica: Claritromicina Cinfa 250 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/67638/FT_67638.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-CLARITROMICINA-66388
+  titulo: 'Ficha técnica: Claritromicina Sandoz 25 mg/ml granulado para suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/66388/FT_66388.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-CLARITROMICINA
+  titulo: 'Pediamécum: Claritromicina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/claritromicina
+  anio: 2024
+  consultado: '2026-10-05'
+- id: CIMA-AZITROMICINA-65600
+  titulo: 'Ficha técnica: Azitromicina Cinfa 500 mg comprimidos recubiertos con película EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/65600/FT_65600.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-AZITROMICINA-65601
+  titulo: 'Ficha técnica: Azitromicina Cinfa 500 mg polvo para suspensión oral EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/65601/FT_65601.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-AZITROMICINA
+  titulo: 'Pediamécum: Azitromicina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/azitromicina
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-COTRIMOXAZOL
+  titulo: 'Ficha técnica: Septrin Forte 160 mg/800 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58501/FT_58501.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-COTRIMOXAZOL
+  titulo: 'Pediamécum: Cotrimoxazol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/cotrimoxazol
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-CIPROFLOXACINO-62602
+  titulo: 'Ficha técnica: Cetraxal 100 mg/ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62602/FT_62602.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-CIPROFLOXACINO-62768
+  titulo: 'Ficha técnica: Ciprofloxacino Cinfa 250 mg comprimidos recubiertos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62768/FT_62768.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-CIPROFLOXACINO
+  titulo: 'Pediamécum: Ciprofloxacino (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/ciprofloxacino
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-NITROFURANTOINA-22974
+  titulo: 'Ficha técnica: Furantoína 50 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/22974/FT_22974.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-NITROFURANTOINA-34388
+  titulo: 'Ficha técnica: Furantoína 10 mg/ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/34388/FT_34388.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-NITROFURANTOINA
+  titulo: 'Pediamécum: Nitrofurantoína (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/nitrofurantoina
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-METRONIDAZOL-62223
+  titulo: 'Ficha técnica: Metronidazol Normon 250 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/62223/FT_62223.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-METRONIDAZOL-47656
+  titulo: 'Ficha técnica: Flagyl 125 mg/5 ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/47656/FT_47656.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-METRONIDAZOL
+  titulo: 'Pediamécum: Metronidazol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/metronidazol
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-MEBENDAZOL-51200
+  titulo: 'Ficha técnica: Lomper 100 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/51200/FT_51200.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-MEBENDAZOL-53775
+  titulo: 'Ficha técnica: Lomper 20 mg/ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/53775/FT_53775.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-MEBENDAZOL
+  titulo: 'Pediamécum: Mebendazol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/mebendazol
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-FLUCONAZOL-58804
+  titulo: 'Ficha técnica: Diflucan 100 mg cápsulas duras'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58804/FT_58804.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-FLUCONAZOL-59672
+  titulo: 'Ficha técnica: Diflucan 10 mg/ml polvo para suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59672/FT_59672.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-FLUCONAZOL
+  titulo: 'Pediamécum: Fluconazol (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/fluconazol
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-NISTATINA
+  titulo: 'Ficha técnica: Mycostatin 100.000 UI/ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/28262/FT_28262.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-NISTATINA
+  titulo: 'Pediamécum: Nistatina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/nistatina
+  anio: 2020
+  consultado: '2026-10-05'
+- id: CIMA-TERBINAFINA
+  titulo: 'Ficha técnica: Lamisil 250 mg comprimidos'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59435/FT_59435.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-TERBINAFINA
+  titulo: 'Pediamécum: Terbinafina (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/terbinafina
+  anio: 2021
+  consultado: '2026-10-05'
+- id: CIMA-ACICLOVIR-84468
+  titulo: 'Ficha técnica: Aciclovir Cinfa 200 mg comprimidos EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/84468/FT_84468.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: CIMA-ACICLOVIR-59226
+  titulo: 'Ficha técnica: Zovirax 400 mg/5 ml suspensión oral'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/59226/FT_59226.html
+  anio: 2026
+  consultado: '2026-10-05'
+- id: PEDIAMECUM-ACICLOVIR
+  titulo: 'Pediamécum: Aciclovir (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/aciclovir
+  anio: 2021
   consultado: '2026-10-05'

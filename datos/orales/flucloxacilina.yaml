@@ -1,0 +1,116 @@
+id: flucloxacilina
+nombre: Flucloxacilina
+comerciales:
+- Flucloxacillin Brown & Burk (Reino Unido)
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-500-mg
+  forma: capsula
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: 'Flucloxacillin 500 mg capsules, hard: "Each capsule contains flucloxacillin sodium equivalent to 500 mg of flucloxacillin"'
+- id: suspension-50-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.02.01: Flucloxacilina, Polvo para suspensión oral 250 mg/5 mL (= 50 mg por 1 ml)'
+dosis:
+- indicacion: Infecciones por grampositivos sensibles (adultos, incluidos ancianos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: '250 mg no se puede dar con la cápsula de 500 mg: usar la suspensión (250 mg/5 ml, arsenal)'
+  texto: 250 mg cuatro veces al día; en infecciones graves la dosis puede duplicarse
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: '4.2 Adults (including elderly patients), Oral: "250 mg four times a day. In serious infections, the dosage may
+      be doubled"'
+- indicacion: Infecciones graves (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  texto: 'Dosis duplicada: 500 mg cuatro veces al día (1 cápsula)'
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: '4.2: "In serious infections, the dosage may be doubled" (2 × 250 mg cuatro veces al día)'
+- indicacion: Infecciones por grampositivos sensibles (niños de 2 a 10 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 125
+  max: 125
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: 'Usar la suspensión: la cápsula de 500 mg no permite 125 mg'
+  texto: 125 mg cuatro veces al día
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: '4.2 Paediatric population: "2-10 years: 125 mg four times daily"'
+- indicacion: Infecciones por grampositivos sensibles (niños menores de 2 años)
+  poblacion: pediatrico
+  regimen: fija
+  unidad: mg
+  min: 62.5
+  max: 62.5
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: autorizada
+  condicion: 'Usar la suspensión: la cápsula de 500 mg no permite 62,5 mg. En prematuros, neonatos y lactantes pueden ser
+    más adecuadas otras formas'
+  texto: 62,5 mg cuatro veces al día
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: '4.2 Paediatric population: "Under 2 years: 62.5mg four times daily"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: ayunas
+  texto: 'En ayunas: al menos 1 hora antes o 2 horas después de las comidas, con un vaso lleno de agua (250 ml) para reducir
+    el riesgo de dolor esofágico; no acostarse inmediatamente después de tomarla.'
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: 4.2 Method of administration
+ajusteRenalHepatico:
+  renal: 'En general no requiere reducción. Insuficiencia renal grave (aclaramiento de creatinina <10 ml/min): considerar
+    reducir la dosis o alargar el intervalo; la dosis máxima recomendada en adultos es 1 g cada 8 a 12 horas. No se elimina
+    significativamente por diálisis.'
+  hepatico: No es necesario reducir la dosis (precaución por el riesgo de reacciones hepáticas).
+  fuente:
+    ref: EMC-FLUCLOXACILINA
+    detalle: 4.2 Abnormal renal function / Hepatic impairment
+alertas:
+- 'Fuente única: solo la ficha técnica del Reino Unido (EMC); no hay ficha CIMA ni Pediamécum para contrastar.'
+- 'La cápsula de 500 mg solo sirve para dosis de 500 mg: 62,5, 125 y 250 mg requieren la suspensión de 250 mg/5 ml del arsenal
+  chileno (la ficha EMC es de la cápsula).'
+- 'Osteomielitis y endocarditis: hasta 8 g diarios repartidos cada 6-8 horas (EMC); no se carga como pauta aparte.'
+- Hepatitis e ictericia colestásica descritas, incluso hasta 2 meses después del tratamiento; precaución en disfunción hepática
+  y en mayores de 50 años. Contraindicado con antecedente de ictericia por flucloxacilina (EMC, 4.3 y 4.4).
+- 'Precaución con paracetamol: riesgo de acidosis metabólica con anión gap elevado (EMC, 4.4). Hipopotasemia con dosis altas.'
+meta: {}

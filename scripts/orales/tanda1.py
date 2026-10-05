@@ -2,15 +2,10 @@
 
 Paracetamol vive aquí; el resto de analgésicos y afines en `tanda1a`, y los antiinfecciosos en `tanda1b`.
 """
-from . import tanda1a
+from . import tanda1a, tanda1b
 from .comun import (dosis, discrepancia, ficha_oral, fu, fuente_cima, fuente_pediamecum_oral, pres)
 
-try:
-    from . import tanda1b
-except ImportError:
-    tanda1b = None
-
-SUBMODULOS = [m for m in (tanda1a, tanda1b) if m is not None]
+SUBMODULOS = [tanda1a, tanda1b]
 
 INF = 'CIMA-PARACETAMOL-83208'  # Antidol infantil 100 mg/ml solución oral
 G1 = 'CIMA-PARACETAMOL-85780'  # Antidol 1 g comprimidos

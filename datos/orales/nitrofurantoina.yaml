@@ -1,0 +1,123 @@
+id: nitrofurantoina
+nombre: Nitrofurantoína
+comerciales:
+- Furantoína
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-NITROFURANTOINA-22974
+    detalle: Furantoína 50 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: suspension-10-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-NITROFURANTOINA-34388
+    detalle: Furantoína 10 mg/ml suspensión oral
+- id: comprimido-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.02.12: Nitrofurantoína, "Cápsula o Comprimido" 100 mg (se carga como comprimido; el arsenal no precisa
+      la forma)'
+dosis:
+- indicacion: Cistitis aguda no complicada (mujeres adultas)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 50
+  max: 100
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  texto: 50-100 mg (1-2 comprimidos de 50 mg) cada 8 horas durante 5-7 días
+  fuente:
+    ref: CIMA-NITROFURANTOINA-22974
+    detalle: '4.2.1 Adultos: "50-100 mg (1-2 comprimidos) cada 8 horas durante 5-7 días"'
+- indicacion: Cistitis aguda, comprimidos (niñas mayores de 6 años y adolescentes)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 5
+  max: 7
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: '"Sin superar la dosis de adulto" (50-100 mg cada 8 h): tope de 100 mg por toma. Para niñas menores de 6 años,
+    usar la suspensión'
+  texto: 5-7 mg/kg/día repartidos en cuatro tomas durante 5-7 días
+  fuente:
+    ref: CIMA-NITROFURANTOINA-22974
+    detalle: '4.2.1 Población pediátrica: "5-7 mg/kg de peso por día, sin superar la dosis de adulto, repartidas en cuatro
+      tomas durante 5-7 días"'
+- indicacion: Cistitis aguda, suspensión (niños de 3 meses a 6 años, o que no toleran comprimidos)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  min: 1
+  max: 2
+  tomasPorDia: 4
+  intervaloH: 6
+  topePorToma:
+    valor: 100
+    unidad: mg
+  estatus: autorizada
+  condicion: 'No usar en menores de 3 meses. CIMA 34388 da la misma pauta en volumen: 0,1-0,2 ml/kg de la suspensión de 10
+    mg/ml cada 6 h. "Sin superar la dosis de adulto": tope de 100 mg por toma'
+  texto: 1-2 mg/kg cada 6 horas durante 5-7 días
+  fuente:
+    ref: PEDIAMECUM-NITROFURANTOINA
+    detalle: '"Menores o igual de 6 años o que no toleren comprimidos (no usar en menores de 3 meses): ... 1-2 mg/kg de peso
+      cada 6 horas, sin superar la dosis de adulto, durante 5-7 días"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: Durante las comidas o con un vaso de leche (la comida aumenta la absorción y reduce las molestias digestivas).
+  fuente:
+    ref: CIMA-NITROFURANTOINA-22974
+    detalle: 4.2.2 Forma de administración; 4.4 y 4.5
+ajusteRenalHepatico:
+  renal: Contraindicada con aclaramiento de creatinina <45 ml/min; entre 30 y 44 ml/min puede considerarse solo ante sospecha
+    o antecedente de microorganismos multirresistentes, valorando el balance beneficio/riesgo.
+  hepatico: Usar con precaución en alteración de la función hepática; suspender si aparece hepatitis.
+  fuente:
+    ref: CIMA-NITROFURANTOINA-22974
+    detalle: 4.2.1 Insuficiencia renal; 4.4 Hepatotoxicidad y precauciones
+alertas:
+- Contraindicada con aclaramiento de creatinina <45 ml/min (entre 30 y 44 ml/min solo ante microorganismos multirresistentes,
+  valorando beneficio/riesgo), en menores de 3 meses, tratamientos >7 días, déficit de G6PD, porfiria aguda y en las dos últimas
+  semanas de embarazo (CIMA, 4.3).
+- No indicada en infecciones urinarias en varones, infecciones urinarias altas ni bacteriemia (CIMA, 4.4).
+- 'Tratamientos prolongados: reacciones pulmonares y hepáticas graves y neuropatía periférica; no usar como profilaxis de
+  infecciones urinarias recurrentes (CIMA, 4.4).'
+- 'El comprimido de 50 mg no se puede partir: las dosis por kg se redondean a múltiplos de 50 mg o se usa la suspensión.'
+- La orina puede teñirse de amarillo o marrón (CIMA).
+meta: {}

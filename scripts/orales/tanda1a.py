@@ -184,6 +184,9 @@ def diclofenaco():
         'Con factores de riesgo cardiovascular, en tratamientos de más de 4 semanas usar ≤100 mg diarios (CIMA, 4.2).',
         'Dismenorrea primaria (CIMA): 50-200 mg/día, con dosis inicial de 50-100 mg; no se carga como pauta aparte.',
         'El comprimido gastrorresistente de 50 mg no se puede partir: no sirve para dosis pediátricas pequeñas.',
+        'Adultos: con el comprimido de 50 mg no partible solo se puede dar 100 mg/día (50 mg × 2 tomas). El extremo inferior de la ficha '
+        '(75 mg/día en 2-3 tomas) exigiría 37,5 mg por toma (2 tomas) o 25 mg por toma (3 tomas): haría falta una presentación de 25 mg '
+        '(3 × 25 mg) que no está cargada (CIMA, 4.2.1: "75-100 mg al día ... en 2-3 tomas diarias").',
     ]
     return ficha_oral(
         'diclofenaco', 'Diclofenaco', 'aine', presentaciones, dosis_,
@@ -367,7 +370,9 @@ def metamizol():
                     '4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día. '
                     '10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500 mg/día',
               tope_toma=(875, 'mg'),
-              condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una presentación adulta',
+              condicion='Tabla por edad: se muestra, no se calcula. El tope por toma cargado (875 mg) es solo el de la fila 13-14 años; '
+                        'cada fila de la tabla tiene su propio máximo por dosis y por día. '
+                        'Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una presentación adulta',
               fuente=fu(P, 'Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral; tope por toma = fila 13-14 años "375-875"')),
     ]
     disc = [
@@ -529,8 +534,9 @@ def morfina():
         dosis('Dolor (formas orales de liberación normal), por edad (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar en menores de 1 año',
               estatus='off_label',
-              condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero la única ficha CIMA de gotas cargada (Dropizol) '
-                        'dice que no se debe utilizar en <18 años; opioide de alto riesgo ⇒ off-label. Confirmar la concentración del frasco',
+              condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero ninguna ficha CIMA cargada autoriza morfina de '
+                        'liberación normal en niños: la única pauta pediátrica de ficha técnica (MST Continus, CIMA 57898) es para comprimidos '
+                        'de liberación prolongada en dolor oncológico. Opioide de alto riesgo ⇒ off-label (Ruling 11). Confirmar la concentración del frasco',
               fuente=fu(P, 'Formas de liberación normal de sulfato de morfina (solución oral, comprimidos): ">13 años: inicial, 10-20 mg/4-6 h. '
                            '6-12 años: máx. 5-10 mg/4 h. 1-6 años: máx. 2,5-5 mg/4 h"; "No usar en menores de un año"')),
     ]

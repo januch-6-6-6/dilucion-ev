@@ -1,0 +1,245 @@
+id: amoxicilina-clavulanico
+nombre: Amoxicilina + ácido clavulánico
+comerciales:
+- Augmentine
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-875-125-mg-7-1
+  forma: comprimido
+  cantidad:
+    valor: 875
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: Augmentine 875/125 comprimidos, proporción 7:1; cantidad en mg de amoxicilina (125 mg de clavulánico). "los comprimidos
+      no se deben partir" (4.2.1)
+- id: sobre-875-125-mg-7-1
+  forma: sobre
+  cantidad:
+    valor: 875
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59518
+    detalle: Augmentine 875/125 sobre, proporción 7:1; cantidad en mg de amoxicilina. Disolver en medio vaso de agua (4.2.2)
+- id: comprimido-500-125-mg-4-1
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    detalle: 'Presentaciones de Pediamécum: AUGMENTINE 500 MG/125 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA (proporción 4:1;
+      cantidad en mg de amoxicilina). El arsenal de APS también lista el comprimido 500 + 125 mg'
+- id: suspension-100-12-5-mg-ml-8-1
+  forma: suspension
+  concentracion:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    detalle: 'Presentaciones de Pediamécum: AUGMENTINE 100mg/ml + 12,5 mg/ml POLVO PARA SUSPENSION ORAL (proporción 8:1; concentración
+      en mg de amoxicilina por 1 ml)'
+- id: suspension-250-62-5-mg-5-ml-4-1
+  forma: suspension
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    detalle: 'Presentaciones de Pediamécum: AMOXICILINA/ACIDO CLAVULANICO VIATRIS 250 MG/5ML + 62,5 MG/5 ML (proporción 4:1;
+      = 50 mg de amoxicilina por 1 ml). El arsenal de APS también lista 250 + 62,5 mg/5 mL'
+- id: suspension-125-31-25-mg-5-ml-4-1
+  forma: suspension
+  concentracion:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    detalle: 'Presentaciones de Pediamécum: AMOXICILINA/ACIDO CLAVULANICO NORMON 125 mg/31,25 mg/5 ml (proporción 4:1; = 25
+      mg de amoxicilina por 1 ml)'
+- id: suspension-500-125-mg-5-ml-4-1-arsenal
+  forma: suspension
+  concentracion:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.02.01: Amoxicilina + Ácido Clavulánico, Suspensión oral 500 + 125 mg/5 mL (proporción 4:1; = 100 mg
+      de amoxicilina y 25 mg de clavulánico por 1 ml). Lectura por columnas del PDF'
+dosis:
+- indicacion: Dosis estándar, proporción 7:1 (adultos y niños ≥40 kg), en mg de amoxicilina
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 875
+  max: 875
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 1750
+    unidad: mg
+  estatus: autorizada
+  texto: 875 mg/125 mg dos veces al día (1750 mg de amoxicilina/250 mg de clavulánico al día)
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: '4.2.1: "dosis estándar (para todas las indicaciones): 875 mg/125 mg administrada dos veces al día"; "dosis diaria
+      total de 1 750 mg de amoxicilina/250 mg de ácido clavulánico con la dosis de dos veces al día"'
+- indicacion: 'Dosis superior: otitis media, sinusitis, infección respiratoria baja y urinaria (adultos y niños ≥40 kg), proporción
+    7:1'
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 875
+  max: 875
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 2625
+    unidad: mg
+  estatus: autorizada
+  texto: 875 mg/125 mg tres veces al día (2625 mg de amoxicilina/375 mg de clavulánico al día)
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: '4.2.1: "dosis superior ... 875 mg/125 mg administrada tres veces al día"; "2 625 mg de amoxicilina/375 mg de
+      ácido clavulánico con la dosis de tres veces al día"'
+- indicacion: Dosis habitual (niños <40 kg), proporción 7:1, en mg de amoxicilina
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 25
+  max: 45
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 2625
+    unidad: mg
+  estatus: autorizada
+  condicion: Clavulánico 3,6-6,4 mg/kg/día. Comprimidos 875/125 solo con ≥25 kg (no se pueden partir); por debajo, suspensión
+    o sobres pediátricos. Tope diario 2625 mg de amoxicilina = 375 mg/día de clavulánico en proporción 7:1 (máximo de clavulánico
+    de Pediamécum)
+  texto: 25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día divididos en dos dosis al día
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: '4.2.1 Niños <40 kg: "25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día dividida en dos dosis al día"; tope: Pediamécum
+      "Clavulánico: 15 mg/kg/día, sin superar 375 mg/día"'
+- indicacion: Otitis media, sinusitis e infección respiratoria baja (niños <40 kg), proporción 7:1, en mg de amoxicilina
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 70
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 2625
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Solo ≥2 años: no hay datos de la proporción 7:1 por encima de 45 mg/6,4 mg/kg/día en menores de 2 años. Clavulánico
+    10 mg/kg/día. Pediamécum usa 80-90 mg/kg/día con suspensión 8:1 (ver discrepancias). Tope diario: 2625 mg de amoxicilina
+    (375 mg de clavulánico)'
+  texto: Hasta 70 mg/10 mg/kg/día divididos en dos dosis al día
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: '4.2.1: "hasta 70 mg/10 mg/kg/día dividida en dos dosis al día para infecciones tales como otitis media, sinusitis
+      e infecciones del tracto respiratorio inferior"; "No hay datos clínicos ... 7:1 ... superiores a 45 mg/6,4 mg por kg
+      al día en niños menores de 2 años"'
+- indicacion: Infecciones de orina por enterobacterias sensibles (niños >3 meses), suspensión 4:1, en mg de amoxicilina
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 35
+  max: 40
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 1500
+    unidad: mg
+  estatus: autorizada
+  condicion: Proporción 4:1 (clavulánico 9-10 mg/kg/día). Pediamécum (A) en infecciones genitourinarias
+  texto: 35-40 mg/9-10 mg/kg/día en 3 dosis; dosis máxima diaria de amoxicilina 1500 mg (375 mg de clavulánico)
+  fuente:
+    ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    detalle: 'Tabla de usos clínicos: "Infecciones de orina por enterobacterias sensibles ... 35-40 mg/9-10 mg (3)"; nota
+      7: "Dosis máxima diaria de amoxicilina 1500 mg (375 mg de ácido clavulánico)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis pediátrica alta (otitis, sinusitis, infección respiratoria baja)
+  valores:
+  - fuente: CIMA-AMOXICILINA-CLAVULANICO-59515
+    valor: 70 mg/kg/día de amoxicilina (10 mg/kg/día de clavulánico) en 2 dosis, proporción 7:1 (CIMA, Augmentine 875/125)
+  - fuente: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    valor: 80-90 mg/kg/día de amoxicilina (9-15 mg/kg/día de clavulánico) en 2-3 dosis, con alta tasa de resistencia de S.
+      pneumoniae (Pediamécum)
+  mostrado: 70 mg/kg/día de amoxicilina
+  motivo: 'Mismo régimen (dosis alta en infección respiratoria y ORL) y población: se muestra la cifra más baja. La pauta
+    de Pediamécum se da con suspensión 8:1; para pasar de 70 mg/kg/día hay que elegir otra proporción (la ficha lo advierte).'
+- campo: Tope diario de amoxicilina en niños
+  valores:
+  - fuente: CIMA-AMOXICILINA-CLAVULANICO-59515
+    valor: '2800 mg/día: máximo que aporta la formulación 7:1 en niños <40 kg ("1 000 – 2 800 mg de amoxicilina/143 - 400
+      mg de ácido clavulánico")'
+  - fuente: PEDIAMECUM-AMOXICILINA-CLAVULANICO
+    valor: 3000 mg/día de amoxicilina, "sin superar dosis máxima de ácido clavulánico" (15 mg/kg/día, sin superar 375 mg/día)
+      (Pediamécum)
+  mostrado: 2625 mg/día de amoxicilina en las pautas 7:1 (equivale a 375 mg/día de clavulánico)
+  motivo: 'Se aplica el máximo de clavulánico de Pediamécum (375 mg/día), más restrictivo que ambas cifras de amoxicilina:
+    en proporción 7:1 corresponde a 2625 mg de amoxicilina, la misma cifra que la ficha da para 875/125 tres veces al día.'
+administracion:
+  comida: con_comida
+  texto: Con las comidas, para reducir la posible intolerancia gastrointestinal. Los comprimidos no se deben partir; el sobre
+    se disuelve en medio vaso de agua (CIMA 59518).
+  noTriturar: true
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: '4.2.2 Forma de administración; partición: 4.2.1'
+ajusteRenalHepatico:
+  renal: 'Aclaramiento de creatinina >30 ml/min: sin ajuste. <30 ml/min: no se recomiendan las presentaciones 7:1 (no hay
+    recomendaciones de ajuste).'
+  hepatico: Dosificar con precaución y controlar la función hepática a intervalos regulares.
+  fuente:
+    ref: CIMA-AMOXICILINA-CLAVULANICO-59515
+    detalle: 4.2.1 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- 'La proporción amoxicilina:clavulánico cambia entre presentaciones (4:1, 7:1 y 8:1): elegir la presentación exacta. Todas
+  las dosis y presentaciones de esta ficha se expresan en mg de amoxicilina (Pediamécum: "La dosificación se realiza en base
+  a la amoxicilina").'
+- 'Clavulánico: máximo 15 mg/kg/día sin superar 375 mg/día (Pediamécum). Con una suspensión 4:1, 70 mg/kg/día de amoxicilina
+  aportarían 17,5 mg/kg/día de clavulánico: usar la proporción indicada en cada pauta.'
+- 'Dos suspensiones tienen 100 mg/ml de amoxicilina pero distinto clavulánico: 8:1 (12,5 mg/ml) y la 4:1 del arsenal (500
+  + 125 mg/5 ml, 25 mg/ml). Confirmar el frasco.'
+- 'Los comprimidos 875/125 no se deben partir: no usar en niños de menos de 25 kg (CIMA 59515). Entre 25 y 40 kg, un comprimido
+  aporta 35,0 mg/kg (25 kg), 29,2 (30 kg), 25,0 (35 kg) o 21,9 mg/kg (40 kg) de amoxicilina por dosis, frente a la dosis única
+  recomendada de 12,5-22,5 mg/kg (hasta 35) (tabla de CIMA 59515, 4.2.1).'
+- Las presentaciones 7:1 no se recomiendan con aclaramiento de creatinina <30 ml/min ni en menores de 2 meses (sin datos)
+  (CIMA 59515).
+- Contraindicado con antecedente de ictericia o insuficiencia hepática por amoxicilina/clavulánico; evitar en sospecha de
+  mononucleosis (CIMA, 4.3 y 4.4).
+- Esta presentación 7:1 no debe usarse para S. pneumoniae resistente a penicilina (CIMA 59515, 4.4).
+meta: {}

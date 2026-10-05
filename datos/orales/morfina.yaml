@@ -106,8 +106,10 @@ dosis:
   regimen: por_edad
   unidad: mg
   estatus: off_label
-  condicion: 'Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero la única ficha CIMA de gotas cargada (Dropizol)
-    dice que no se debe utilizar en <18 años; opioide de alto riesgo ⇒ off-label. Confirmar la concentración del frasco'
+  condicion: 'Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero ninguna ficha CIMA cargada autoriza morfina
+    de liberación normal en niños: la única pauta pediátrica de ficha técnica (MST Continus, CIMA 57898) es para comprimidos
+    de liberación prolongada en dolor oncológico. Opioide de alto riesgo ⇒ off-label (Ruling 11). Confirmar la concentración
+    del frasco'
   texto: '>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar
     en menores de 1 año'
   fuente:

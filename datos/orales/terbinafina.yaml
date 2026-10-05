@@ -1,0 +1,99 @@
+id: terbinafina
+nombre: Terbinafina
+comerciales:
+- Lamisil
+grupo: antiviral-antifungico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-TERBINAFINA
+    detalle: 'Lamisil 250 mg comprimidos (la ficha no menciona ranura ni partición; Pediamécum: tomar los comprimidos enteros)'
+dosis:
+- indicacion: Tiñas de piel y cuero cabelludo y onicomicosis (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: '250 mg (1 comprimido) una vez al día. Duración: tinea pedis 2-6 semanas, corporis 4, cruris 2-4, capitis 4; onicomicosis
+    6 semanas (manos) a 12 semanas (pies)'
+  fuente:
+    ref: CIMA-TERBINAFINA
+    detalle: '4.2: "Adultos: 250 mg (1 comprimido) una vez al día"; duración del tratamiento por indicación'
+- indicacion: Tinea capitis (niños mayores de 4 años)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: off_label
+  condicion: 'Tabla por peso: se muestra, no se calcula. Ficha técnica: uso en niños no recomendado; Pediamécum (E: off-label).
+    125 y 187,5 mg exigen medio y tres cuartos de comprimido de 250 mg, que la ficha no dice que se pueda partir; en España
+    no hay forma líquida'
+  texto: '<25 kg: 125 mg cada 24 h. 25-35 kg: 187,5 mg cada 24 h. >35 kg: 250 mg cada 24 h (como adultos). Durante un máximo
+    de 6 semanas'
+  fuente:
+    ref: PEDIAMECUM-TERBINAFINA
+    detalle: '"Tinea capitis. En niños >4 años: <25 kg: 125 mg/24 h. 25-35 kg: 187,5 mg/24 h. >35 kg: 250 mg/24 h (igual que
+      adultos). Durante un máximo de 6 semanas"'
+- indicacion: Onicomicosis (niños)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: off_label
+  condicion: 'Tabla por peso: se muestra, no se calcula. Ficha técnica: uso en niños no recomendado; Pediamécum (E: off-label).
+    62,5 y 125 mg exigen un cuarto y medio comprimido de 250 mg, que la ficha no dice que se pueda partir'
+  texto: '<20 kg: 62,5 mg cada 24 h. 20-40 kg: 125 mg cada 24 h. >40 kg: 250 mg cada 24 h (como adultos). 6 semanas (uñas
+    de las manos) o 12 semanas (pies)'
+  fuente:
+    ref: PEDIAMECUM-TERBINAFINA
+    detalle: '"Onicomicosis: <20 kg: 62,5 mg/24 h. 20-40 kg 125 mg/24 h. >40 kg: 250 mg/24 h (igual que adultos). Durante
+      6 semanas (en manos) o 12 semanas (pies)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Población pediátrica
+  valores:
+  - fuente: CIMA-TERBINAFINA
+    valor: 'CIMA: "La experiencia con Lamisil comprimidos en niños es limitada y por consiguiente su utilización no puede
+      ser recomendada"'
+  - fuente: PEDIAMECUM-TERBINAFINA
+    valor: 'Pediamécum: pautas por peso en tinea capitis (niños >4 años) y onicomicosis, uso off-label'
+  mostrado: Se muestran las pautas pediátricas de Pediamécum, marcadas como uso fuera de ficha técnica (off-label)
+  motivo: 'Contradicción de población, no de cifra: la ficha técnica no respalda el uso en niños.'
+administracion:
+  comida: indiferente
+  texto: Comprimidos enteros, sin masticar, con un poco de agua, con o sin alimentos.
+  noTriturar: true
+  fuente:
+    ref: PEDIAMECUM-TERBINAFINA
+    detalle: Dosis y pautas de administración, oral (la ficha CIMA no describe la forma de administración)
+ajusteRenalHepatico:
+  renal: No se recomienda en insuficiencia renal (no estudiada suficientemente); contraindicada en insuficiencia renal grave.
+  hepatico: Contraindicada en insuficiencia hepática crónica o activa.
+  fuente:
+    ref: CIMA-TERBINAFINA
+    detalle: 4.2 Uso en pacientes con insuficiencia hepática / renal; 4.3
+alertas:
+- 'Dosis pediátricas de 62,5, 125 y 187,5 mg: con el comprimido de 250 mg harían falta un cuarto, medio y tres cuartos de
+  comprimido; ninguna ficha cargada dice que el comprimido se pueda partir y en España no hay forma líquida ni granulada (Pediamécum).'
+- 'Hepatotoxicidad: pruebas de función hepática antes de empezar y controles periódicos (tras 4-6 semanas); suspender ante
+  náuseas persistentes, anorexia, fatiga, vómitos, dolor en hipocondrio derecho, ictericia, orina oscura o heces claras (CIMA,
+  4.4).'
+- No es eficaz en pitiriasis versicolor ni en candidiasis cutánea (CIMA, 4.1).
+meta: {}

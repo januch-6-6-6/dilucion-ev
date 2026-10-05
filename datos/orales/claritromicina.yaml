@@ -1,0 +1,146 @@
+id: claritromicina
+nombre: Claritromicina
+comerciales:
+- Claritromicina Cinfa
+- Claritromicina Sandoz
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CLARITROMICINA-67638
+    detalle: Claritromicina Cinfa 250 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-CLARITROMICINA
+    detalle: 'Presentaciones de Pediamécum: CLARITROMICINA CINFA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG'
+- id: suspension-25-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CLARITROMICINA-66388
+    detalle: Claritromicina Sandoz 25 mg/ml granulado para suspensión oral
+- id: suspension-50-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.02.04: Claritromicina, Polvo para suspensión oral 250 mg/5 mL (= 50 mg por 1 ml)'
+dosis:
+- indicacion: Dosis estándar (adultos y adolescentes ≥12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  texto: 250 mg dos veces al día; duración habitual 5-14 días (neumonía y sinusitis, 6-14 días)
+  fuente:
+    ref: CIMA-CLARITROMICINA-67638
+    detalle: '4.2.1: "La dosis recomendada ... en adultos y niños de 12 años o mayores es de 250 mg 2 veces al día"'
+- indicacion: Infecciones graves (adultos y adolescentes ≥12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  texto: 500 mg dos veces al día
+  fuente:
+    ref: CIMA-CLARITROMICINA-67638
+    detalle: '4.2.1: "En infecciones más graves, la dosis puede incrementarse a 500 mg 2 veces al día"'
+- indicacion: Infecciones respiratorias, otitis media y de piel (niños de 6 meses a 12 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 7.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 500
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Los menores de 12 años deben tomar la suspensión. Tope de 500 mg cada 12 h: Pediamécum ("hasta un máximo de
+    500 mg/12 horas"). Duración habitual 5-10 días'
+  texto: 7,5 mg/kg dos veces al día
+  fuente:
+    ref: CIMA-CLARITROMICINA-66388
+    detalle: '4.2 Niños de 6 meses a 12 años: "La dosis recomendada es de 7,5 mg/kg dos veces al día"; tope: Pediamécum'
+- indicacion: Faringitis estreptocócica (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 7.5
+  tomasPorDia: 2
+  intervaloH: 12
+  topePorToma:
+    valor: 250
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante 10 días
+  texto: 7,5 mg/kg cada 12 horas, con dosis máxima de 250 mg cada 12 horas, 10 días
+  fuente:
+    ref: PEDIAMECUM-CLARITROMICINA
+    detalle: '"7,5 mg/kg/12 horas ..."; "En el caso de faringitis estreptocócica será de 10 días con una dosis máxima de 250
+      mg/12 horas"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: 'Independientemente de los alimentos (solo retrasan ligeramente la absorción). La suspensión puede dejar sabor amargo:
+    tomar algo de comida o bebida justo después.'
+  fuente:
+    ref: CIMA-CLARITROMICINA-66388
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Aclaramiento de creatinina <30 ml/min: reducir la dosis a la mitad (250 mg una vez al día, o 250 mg dos veces al
+    día en infecciones más graves); no más de 14 días. Niños (CIMA 66388): 7,5 mg/kg una vez al día.'
+  hepatico: Precaución en insuficiencia hepática (metabolismo hepático). No administrar con insuficiencia hepática grave combinada
+    con insuficiencia renal.
+  fuente:
+    ref: CIMA-CLARITROMICINA-67638
+    detalle: '4.2.1 Pacientes con insuficiencia renal; 4.3 y 4.4 (insuficiencia hepática); pauta pediátrica renal: CIMA 66388,
+      4.2'
+alertas:
+- 'La claritromicina en comprimidos no ha sido estudiada en menores de 12 años (CIMA 67638): en niños usar la suspensión.
+  Experiencia limitada en menores de 6 meses (CIMA 66388).'
+- Contraindicada con astemizol, cisaprida, domperidona, pimozida, terfenadina, ticagrelor, ivabradina, ranolazina, ergotamínicos,
+  midazolam oral, lovastatina o simvastatina, y con QT largo o hipopotasemia/hipomagnesemia (CIMA, 4.3).
+- 'La ficha de la suspensión trae una tabla orientativa en ml por peso (25 mg/ml); no se carga: la dosis se calcula por kg.'
+- 'Erradicación de H. pylori (adultos): 500 mg dos veces al día en terapia combinada (CIMA). Profilaxis de endocarditis: 15
+  mg/kg en dosis única (Pediamécum, off-label). No se cargan.'
+- 'Dos concentraciones de suspensión (25 y 50 mg/ml): confirmar la del frasco.'
+meta: {}

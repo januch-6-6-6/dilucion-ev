@@ -1,0 +1,139 @@
+id: azitromicina
+nombre: Azitromicina
+comerciales:
+- Azitromicina Cinfa
+- Zitromax
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AZITROMICINA-65600
+    detalle: 'Azitromicina Cinfa 500 mg: "Los comprimidos deben tragarse enteros" (4.2.2)'
+- id: sobre-500-mg
+  forma: sobre
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-AZITROMICINA-65601
+    detalle: 'Azitromicina Cinfa 500 mg polvo para suspensión oral (sobre): contenido completo en unos 60 ml de agua (4.2.2)'
+- id: suspension-40-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-AZITROMICINA
+    detalle: 'Presentaciones de Pediamécum: ZITROMAX 200 mg/5 ml POLVO PARA SUSPENSION ORAL EN FRASCO (= 40 mg por 1 ml)'
+dosis:
+- indicacion: Amigdalitis, sinusitis, otitis media, neumonía, bronquitis crónica agudizada y piel (adultos y adolescentes
+    ≥45 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 500
+    unidad: mg
+  estatus: autorizada
+  texto: 500 mg/día durante 3 días, en una toma diaria
+  fuente:
+    ref: CIMA-AZITROMICINA-65600
+    detalle: '4.2.1 Tabla 1: "500 mg/día durante 3 días"; dosis diaria del adulto 500 mg (CIMA 65601, 4.2.1)'
+- indicacion: Sinusitis, neumonía, piel y otitis media (niños ≥6 meses de <45 kg)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 10
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 500
+    unidad: mg
+  estatus: autorizada
+  condicion: 'Durante 3 días (alternativa: 10 mg/kg el día 1 y 5 mg/kg/día los días 2-5). Sin exceder la dosis diaria del
+    adulto (500 mg) ni 1500 mg en total por tratamiento'
+  texto: 10 mg/kg/día en una toma diaria durante 3 días
+  fuente:
+    ref: CIMA-AZITROMICINA-65601
+    detalle: '4.2.1 Tabla 1: "10 mg/kg/día durante 3 días"; "La dosis diaria de azitromicina no debe exceder la dosis diaria
+      en adultos de 500 mg"'
+- indicacion: Amigdalitis y faringitis estreptocócica (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 20
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 500
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante 3 días. CIMA coincide (20 mg/kg/día durante 3 días, sin exceder 500 mg/día)
+  texto: 20 mg/kg/día durante 3 días consecutivos; dosis máxima diaria 500 mg
+  fuente:
+    ref: PEDIAMECUM-AZITROMICINA
+    detalle: '"Para el tratamiento de la faringoamigdalitis, la dosis recomendada es de 20 mg/kg/día durante 3 días consecutivos
+      (dosis máxima diaria: 500 mg)"'
+- indicacion: Pauta por peso (niños, salvo faringoamigdalitis)
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Tabla por peso: se muestra, no se calcula'
+  texto: '<15 kg: 10 mg/kg/día. 15-25 kg: 200 mg/día. 26-35 kg: 300 mg/día. 36-45 kg: 400 mg/día. Más de 45 kg: dosis de adulto.
+    Una toma diaria durante 3 días (alternativa en 5 días: la dosis del día 1 y luego la mitad los días 2-5)'
+  fuente:
+    ref: PEDIAMECUM-AZITROMICINA
+    detalle: '"La pauta posológica en función del peso es la siguiente: <15 kg: 10 mg/kg/día ... 15-25 kg: 200 mg/día ...
+      26-35 kg: 300 mg/día ... 36-45 kg: 400 mg/día ... 45 kg: la misma dosis que para adultos"'
+pediatria:
+  estado: con_dosis
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Una toma diaria. Comprimidos enteros, con o sin comida; tomarlos justo antes de las comidas puede mejorar la tolerancia
+    digestiva.
+  noTriturar: true
+  fuente:
+    ref: CIMA-AZITROMICINA-65600
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: Sin ajuste con filtrado glomerular ≥10 ml/min; precaución con <10 ml/min.
+  hepatico: 'Sin ajuste en insuficiencia hepática leve o moderada (Child-Pugh A o B); grave (C): sin datos, administrar con
+    precaución.'
+  fuente:
+    ref: CIMA-AZITROMICINA-65600
+    detalle: '4.2.1 Poblaciones especiales: insuficiencia renal / hepática'
+alertas:
+- 'Otitis media aguda: alternativa de dosis única de 30 mg/kg (máximo total 1500 mg); faringoamigdalitis: alternativa de 12
+  mg/kg/día durante 5 días (CIMA 65601). No se cargan como pautas aparte.'
+- Los sobres no sirven para niños de menos de 16 kg; en ellos usar la suspensión en frasco (CIMA 65601).
+- No establecida en menores de 6 meses (CIMA 65601).
+- 'Uretritis/cervicitis por Chlamydia y chancroide: 1000 mg en dosis única (adultos, CIMA). No se carga.'
+- 'Riesgo de prolongación del QT y torsade de pointes: precaución con QT largo, alteraciones electrolíticas, bradicardia y
+  otros fármacos que prolongan el QT (CIMA, 4.4).'
+meta: {}

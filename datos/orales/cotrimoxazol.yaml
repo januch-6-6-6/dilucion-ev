@@ -1,0 +1,160 @@
+id: cotrimoxazol
+nombre: Cotrimoxazol (trimetoprima + sulfametoxazol)
+comerciales:
+- Septrin
+- Septrin Forte
+- Septrin Pediátrico
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-forte-160-800-mg
+  forma: comprimido
+  cantidad:
+    valor: 160
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 'Septrin Forte: 160 mg de trimetoprima/800 mg de sulfametoxazol; cantidad en mg de TRIMETOPRIMA. El arsenal de
+      APS lista el mismo comprimido (800 mg + 160 mg)'
+- id: comprimido-80-400-mg
+  forma: comprimido
+  cantidad:
+    valor: 80
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.2 menciona "Septrin 80 mg/400 mg comprimidos"; cantidad en mg de trimetoprima
+- id: comprimido-pediatrico-20-100-mg
+  forma: comprimido
+  cantidad:
+    valor: 20
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.2 menciona "Septrin Pediátrico 20 mg/100 mg comprimidos"; cantidad en mg de trimetoprima
+- id: suspension-8-40-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 8
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.2 menciona "Septrin Pediátrico 8 mg/40 mg/ml suspensión oral"; concentración en mg de trimetoprima por 1 ml
+      (40 mg de sulfametoxazol). El arsenal lista 200 mg + 40 mg/5 mL, la misma concentración
+dosis:
+- indicacion: Dosis estándar (adultos y niños >12 años), en mg de trimetoprima
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 160
+  max: 160
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Cifras en mg de trimetoprima (TMP); el sulfametoxazol (SMX) es 5 veces más
+  texto: 160 mg de trimetoprima/800 mg de sulfametoxazol cada 12 horas (1 comprimido Forte, 2 comprimidos de 80/400 o 20 ml
+    de suspensión)
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.2 Dosis estándar: "160 mg de trimetoprima/800 mg de sulfametoxazol/12 horas"'
+- indicacion: Dosis estándar por edad (lactantes y niños de 6 semanas a 12 años), en mg de trimetoprima
+  poblacion: pediatrico
+  regimen: por_edad
+  unidad: mg
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: 'Tabla por edad: se muestra, no se calcula. Contraindicado en menores de 6 semanas'
+  texto: '6 semanas a 5 meses: 20 mg TMP/100 mg SMX cada 12 h. 6 meses a 5 años: 40 mg TMP/200 mg SMX cada 12 h. 6 a 12 años:
+    80 mg TMP/400 mg SMX cada 12 h'
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.2: "6 semanas a 5 meses: 20 mg de trimetoprima/ 100 mg de sulfametoxazol/ 12 horas ... 6 meses a 5 años: 40
+      mg ... 6 a 12 años: 80 mg de trimetroprima/ 400 mg sulfametoxazol/ 12 horas"'
+- indicacion: Dosis estándar por peso (lactantes y niños de 6 semanas a 12 años), en mg de trimetoprima
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 6
+  tomasPorDia: 2
+  intervaloH: 12
+  estatus: autorizada
+  condicion: Cifra en mg de TRIMETOPRIMA por kg y día (≈30 mg de sulfametoxazol/kg/día). La ficha la da como aproximación
+    de la tabla por edad. Contraindicado en menores de 6 semanas
+  texto: Aproximadamente 6 mg de trimetoprima/30 mg de sulfametoxazol por kg cada 24 h, en 2 tomas (cada 12 h)
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: '4.2 Lactantes y niños menores de 12 años: "las dosis se aproximan a 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24
+      horas"'
+- indicacion: Profilaxis de infección urinaria (niños), en mg de trimetoprima
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 2
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: 'Pediamécum escribe SMX/TMP: "10/2 mg/kg/24 h" = 10 mg de sulfametoxazol y 2 mg de TRIMETOPRIMA por kg. Pediamécum
+    (A) para profilaxis de infección urinaria en niños >6 semanas; la ficha CIMA cargada no describe esta pauta'
+  texto: 2 mg de trimetoprima (10 mg de sulfametoxazol) por kg cada 24 horas
+  fuente:
+    ref: PEDIAMECUM-COTRIMOXAZOL
+    detalle: 'Niños <12 años: "Profilaxis de la infección del tracto urinario: 10/2 mg/kg/24 h por vía oral"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Dosis pediátrica diaria en infecciones ORL, respiratorias y urinarias (mg de trimetoprima)
+  valores:
+  - fuente: CIMA-COTRIMOXAZOL
+    valor: 6 mg de trimetoprima/kg/día (30 mg de sulfametoxazol/kg/día) en 2 tomas (CIMA, Septrin)
+  - fuente: PEDIAMECUM-COTRIMOXAZOL
+    valor: '8-12 mg de trimetoprima/kg/día: "20-30/4-6 mg/kg/12 h" en notación SMX/TMP, es decir 4-6 mg de trimetoprima/kg
+      cada 12 h (Pediamécum)'
+  mostrado: 6 mg de trimetoprima/kg/día
+  motivo: 'Mismo régimen y población: se muestra la cifra más baja (Pediamécum da aproximadamente el doble). La propia ficha
+    da 5/25 mg/kg cada 12 h durante 3 días como alternativa en infección urinaria no complicada y diarrea infecciosa.'
+administracion:
+  comida: con_comida
+  texto: Tomar con algún alimento o bebida para minimizar las molestias digestivas; agitar bien la suspensión (CIMA). Pediamécum,
+    en cambio, aconseja la forma oral 1 h antes o 2 h después de las comidas para reducir las molestias gástricas.
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Adultos y niños >12 años (sin información en <12 años): aclaramiento de creatinina >30 ml/min, dosis estándar; 15-30
+    ml/min, la mitad de la dosis estándar; <15 ml/min, no se recomienda.'
+  hepatico: 'Lesión grave del parénquima hepático: tener cuidado, puede alterarse la absorción y el metabolismo de trimetoprima
+    y sulfametoxazol.'
+  fuente:
+    ref: CIMA-COTRIMOXAZOL
+    detalle: 4.2 Pacientes con insuficiencia renal; 4.4 (lesión hepática)
+alertas:
+- Todas las cifras de esta ficha (dosis y presentaciones) están en mg de TRIMETOPRIMA; el sulfametoxazol es 5 veces más (1:5).
+- 'Notación invertida entre fuentes: Pediamécum escribe primero el sulfametoxazol (p. ej. 800/160 mg) y la ficha técnica primero
+  la trimetoprima (160/800 mg). Confirmar a qué componente se refiere cada cifra.'
+- La pauta por peso no trae tope pediátrico en la fuente; como referencia, la dosis de adulto es 160 mg de trimetoprima cada
+  12 h (CIMA). En profilaxis de Pneumocystis y de toxoplasmosis la ficha limita a 320 mg de trimetoprima/1600 mg de sulfametoxazol
+  al día.
+- Contraindicado en prematuros y niños a término menores de 6 semanas, porfiria aguda y con dofetilida (CIMA, 4.3).
+- Reacciones cutáneas graves (Stevens-Johnson, NET), discrasias sanguíneas y necrosis hepática descritas; hemograma mensual
+  en tratamientos prolongados (CIMA, 4.4).
+- Neumonía por Pneumocystis, toxoplasmosis, nocardiosis, brucelosis y melioidosis tienen pautas propias (CIMA, 4.2); no se
+  cargan.
+- 'No se usa la ficha de Balsoprim: lleva bromhexina, no es cotrimoxazol solo.'
+meta: {}

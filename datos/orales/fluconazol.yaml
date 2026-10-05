@@ -1,0 +1,159 @@
+id: fluconazol
+nombre: Fluconazol
+comerciales:
+- Diflucan
+grupo: antiviral-antifungico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-100-mg
+  forma: capsula
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: 'Diflucan 100 mg: "Las cápsulas deben tragarse enteras" (4.2.2)'
+- id: capsula-150-mg
+  forma: capsula
+  cantidad:
+    valor: 150
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.04: Fluconazol, Cápsula 150 mg (Pediamécum también lista DIFLUCAN 150 mg CAPSULAS DURAS)'
+- id: suspension-10-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 10
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-FLUCONAZOL-59672
+    detalle: Diflucan 10 mg/ml polvo para suspensión oral
+- id: suspension-40-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 40
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: PEDIAMECUM-FLUCONAZOL
+    detalle: 'Presentaciones de Pediamécum: DIFLUCAN 40 mg/ml POLVO PARA SUSPENSION ORAL'
+dosis:
+- indicacion: Candidiasis orofaríngea (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 100
+  max: 200
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  condicion: El primer día, dosis de carga de 200-400 mg. Duración 7-21 días
+  texto: Dosis de carga de 200-400 mg el 1.er día; después 100-200 mg una vez al día
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: '4.2.1 Candidiasis orofaríngea: "Dosis de carga: de 200 mg a 400 mg el 1er día. Dosis posteriores:100 mg a 200
+      mg una vez al día"'
+- indicacion: Candidiasis vaginal aguda y balanitis por Candida (adultos)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 150
+  max: 150
+  tomasPorDia: 1
+  estatus: autorizada
+  texto: 150 mg en dosis única
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: '4.2.1 Candidiasis genital: "Candidiasis vaginal aguda - Balanitis por Candida: 150 mg, Dosis única"'
+- indicacion: Candidiasis de las mucosas, orofaríngea o esofágica (lactantes y niños de 28 días a 11 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 3
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  condicion: Dosis inicial de 6 mg/kg el primer día. No exceder 400 mg al día en niños (CIMA). En lactantes y niños pequeños,
+    formas líquidas
+  texto: Dosis inicial 6 mg/kg; siguientes dosis 3 mg/kg una vez al día
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: '4.2.1 Lactantes y niños: "Candidiasis de las mucosas: Dosis inicial: 6 mg/kg. Siguientes dosis: 3 mg/kg una
+      vez al día"; "En la población pediátrica, no debe excederse una dosis máxima de 400 mg al día"'
+- indicacion: Candidiasis sistémica o invasiva y meningitis criptocócica (lactantes y niños de 28 días a 11 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 6
+  max: 12
+  tomasPorDia: 1
+  intervaloH: 24
+  topeDiario:
+    valor: 400
+    unidad: mg
+  estatus: autorizada
+  condicion: Según la gravedad. CIMA da la misma pauta (6 a 12 mg/kg una vez al día) y limita a 400 mg al día en niños. Duración
+    mínima 28 días
+  texto: 6-12 mg/kg/día en una dosis diaria
+  fuente:
+    ref: PEDIAMECUM-FLUCONAZOL
+    detalle: 'Lactantes y niños (28 días a 11 años): "Candidiasis sistémica: 6-12 mg/kg/día. Duración mínima: 28 días"; tope:
+      CIMA 58804 4.2.1'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario pediátrico
+  valores:
+  - fuente: CIMA-FLUCONAZOL-58804
+    valor: '400 mg/día: "En la población pediátrica, no debe excederse una dosis máxima de 400 mg al día" (CIMA)'
+  - fuente: PEDIAMECUM-FLUCONAZOL
+    valor: '800 mg/día: no sobrepasar la dosis máxima diaria de adultos (Pediamécum, que añade que la ficha técnica no recomienda
+      superar 400-600 mg/día)'
+  mostrado: 400 mg/día
+  motivo: 'Misma población pediátrica: se muestra el tope más bajo.'
+administracion:
+  comida: indiferente
+  texto: 'Cápsulas enteras, con independencia de la ingesta de alimentos. Las cápsulas no están adaptadas para bebés ni niños
+    pequeños: usar formulaciones líquidas.'
+  noTriturar: true
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Dosis única: sin ajuste. Dosis múltiples (también en niños): dosis inicial de 50-400 mg y después, según aclaramiento
+    de creatinina: >50 ml/min, 100 % de la dosis; ≤50 ml/min sin hemodiálisis, 50 %; hemodiálisis, 100 % después de cada sesión.'
+  hepatico: 'Datos limitados: administrar con precaución en alteración de la función hepática.'
+  fuente:
+    ref: CIMA-FLUCONAZOL-58804
+    detalle: 4.2.1 Pacientes con insuficiencia renal / hepática
+alertas:
+- 'Neonatos a término: la misma dosis por kg cada 72 h (0-14 días) o cada 48 h (15-27 días), sin superar 12 mg/kg cada 72
+  h o cada 48 h respectivamente (CIMA). No se cargan dosis neonatales.'
+- 'Adolescentes de 12 a 17 años: según peso y desarrollo puberal, dosis de adulto o de niño; 100, 200 y 400 mg en adultos
+  equivalen a 3, 6 y 12 mg/kg en niños (CIMA).'
+- 'Dos concentraciones de suspensión (10 y 40 mg/ml): confirmar la del frasco.'
+- Contraindicado con fármacos que prolongan el QT y se metabolizan por CYP3A4 (p. ej. cisaprida) y con terfenadina si se dan
+  ≥400 mg/día (CIMA, 4.3).
+- No usar para Tinea capitis (CIMA, 4.4).
+- Candidiasis invasiva y meningitis criptocócica del adulto (carga 400-800 mg, luego 200-400 mg/día) tienen pautas propias;
+  no se cargan.
+meta: {}

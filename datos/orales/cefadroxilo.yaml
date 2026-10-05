@@ -1,0 +1,125 @@
+id: cefadroxilo
+nombre: Cefadroxilo
+comerciales:
+- Duracef
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: capsula-500-mg
+  forma: capsula
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CEFADROXILO-55730
+    detalle: 'Duracef 500 mg: "Las cápsulas deben tomarse enteras, sin masticar" (4.2)'
+- id: suspension-50-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-CEFADROXILO-55731
+    detalle: 'Duracef 250 mg/5 ml: "1 MS (= 5 ml) ... contiene 250 mg cefadroxilo" (= 50 mg por 1 ml)'
+dosis:
+- indicacion: Infecciones urinarias no complicadas e infecciones de piel y tejidos blandos (adultos y adolescentes ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 2000
+    unidad: mg
+  estatus: autorizada
+  condicion: Tope mostrado 2000 mg/día (CIMA); Pediamécum admite hasta 4 g/día en adultos (ver discrepancias)
+  texto: 1000 mg dos veces al día
+  fuente:
+    ref: CIMA-CEFADROXILO-55730
+    detalle: '4.2 Adultos y adolescentes ≥40 kg: "Infecciones del tracto urinario no complicadas: 1000 mg dos veces al día";
+      "Infecciones no complicadas de la piel y tejidos blandos: 1000 mg dos veces al día"'
+- indicacion: Faringoamigdalitis (adultos y adolescentes ≥40 kg)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 1
+  intervaloH: 24
+  estatus: autorizada
+  texto: 1000 mg una vez al día durante 10 días
+  fuente:
+    ref: CIMA-CEFADROXILO-55730
+    detalle: '4.2: "Faringoamigdalitis: 1000 mg una vez al día durante 10 días"'
+- indicacion: Faringoamigdalitis, infecciones urinarias y de piel (niños <40 kg)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 30
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 2000
+    unidad: mg
+  estatus: autorizada
+  condicion: 'CIMA (Duracef suspensión) da la misma pauta. Usar la suspensión: la cápsula de 500 mg no sirve para <40 kg ni
+    <6 años; la suspensión no se recomienda con <6 kg. S. pyogenes: mínimo 10 días'
+  texto: 30 mg/kg/día divididos en 2 dosis; dosis máxima 2 g al día
+  fuente:
+    ref: PEDIAMECUM-CEFADROXILO
+    detalle: 'Niños: "30 mg/kg/día dividido en 2 dosis, vía oral. Dosis máxima de 2 g al día"; CIMA 55731 4.2: "30 mg/kg/día
+      dividido en dos dosis ... Dosis máxima 2 gramos al día"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario del adulto
+  valores:
+  - fuente: CIMA-CEFADROXILO-55730
+    valor: '2000 mg/día: 1000 mg dos veces al día (CIMA, Duracef)'
+  - fuente: PEDIAMECUM-CEFADROXILO
+    valor: '4000 mg/día: "Dosis máxima en adultos 4 g al día"; dosis habitual 1-2 g al día en 1 o 2 dosis (Pediamécum)'
+  mostrado: 2000 mg/día
+  motivo: 'Misma población adulta: regla del tope más bajo (informe §2).'
+- campo: Dosis pediátrica diaria
+  valores:
+  - fuente: CIMA-CEFADROXILO-55731
+    valor: '50 mg/kg/día: tabla "Recomendaciones generales de dosificación basadas en 50 mg/kg/día" (CIMA, Duracef suspensión)'
+  - fuente: CIMA-CEFADROXILO-55731
+    valor: '30 mg/kg/día en dos dosis, máximo 2 g/día: tabla por indicación de la misma ficha; Pediamécum coincide'
+  mostrado: 30 mg/kg/día
+  motivo: La ficha de la suspensión trae dos tablas orientativas; se muestra la cifra más baja, que es la de la tabla por
+    indicación y la de Pediamécum.
+administracion:
+  comida: indiferente
+  texto: Con alimentos o con el estómago vacío (con alteraciones gástricas, mejor con alimentos). Cápsulas enteras, sin masticar,
+    con líquido.
+  noTriturar: true
+  fuente:
+    ref: CIMA-CEFADROXILO-55730
+    detalle: 4.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Adultos, según aclaramiento de creatinina: 50-25 ml/min, dosis inicial 1000 mg y continuación 500-1000 mg cada 12
+    h; 25-10 ml/min, cada 24 h; 10-0 ml/min, cada 36 h. Hemodiálisis: dosis adicional de 500-1000 mg al final de la sesión.'
+  hepatico: No es necesario ajustar la dosis.
+  fuente:
+    ref: CIMA-CEFADROXILO-55730
+    detalle: 4.2 Insuficiencia renal (tabla), pacientes en hemodiálisis, insuficiencia hepática
+alertas:
+- 'Con la cápsula de 500 mg no se consigue una dosis adecuada en niños ≥6 años de menos de 40 kg, y no está recomendada en
+  menores de 6 años: usar la suspensión de 250 mg/5 ml (CIMA 55730).'
+- La suspensión no está recomendada en lactantes y niños de menos de 6 kg (CIMA 55731).
+- Contraindicado en niños ≥6 años de menos de 40 kg con insuficiencia renal o en hemodiálisis (CIMA 55730, 4.3).
+- 'Duración: 2-3 días tras desaparecer los síntomas; en infecciones por Streptococcus pyogenes, hasta 10 días (CIMA).'
+- CIMA 55731 trae además una tabla de amigdalitis con 30 mg/kg/día en una sola toma; no se carga como pauta aparte.
+meta: {}

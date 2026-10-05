@@ -1,0 +1,171 @@
+id: metronidazol
+nombre: Metronidazol
+comerciales:
+- Metronidazol Normon
+- Flagyl
+grupo: antibiotico
+ambitos:
+- aps
+altoRiesgo: false
+presentaciones:
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METRONIDAZOL-62223
+    detalle: Metronidazol Normon 250 mg comprimidos (la ficha no menciona ranura ni partición)
+- id: suspension-25-mg-ml
+  forma: suspension
+  concentracion:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-METRONIDAZOL-47656
+    detalle: 'Flagyl suspensión: "Cada 5 ml contienen 125 mg de metronidazol" (= 25 mg de metronidazol base por 1 ml)'
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: ARSENAL-APS-ATACAMA
+    detalle: 'Grupo 06.06: Metronidazol, Comprimido 500 mg'
+dosis:
+- indicacion: Infecciones por anaerobios (adultos y adolescentes >12 años)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 250
+  max: 500
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: La duración media no debe superar 7 días
+  texto: '1 o 2 comprimidos de 250 mg tres veces al día (Flagyl: 500 mg cada 8 horas)'
+  fuente:
+    ref: CIMA-METRONIDAZOL-62223
+    detalle: '4.2 Infección bacteriana anaerobia: "Adultos y adolescentes mayores de 12 años: 1 o 2 comprimidos de 250 mg
+      tres veces al día"; Flagyl (47656): "Adultos: 500 mg cada 8 horas"'
+- indicacion: Infecciones por anaerobios (niños de 8 semanas a 12 años)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: toma
+  unidad: mg/kg
+  max: 7.5
+  tomasPorDia: 3
+  intervaloH: 8
+  estatus: autorizada
+  condicion: Dosis diaria habitual 20-30 mg/kg (en una toma o en 7,5 mg/kg cada 8 h); puede aumentarse a 40 mg/kg/día según
+    la gravedad. Duración habitual 7 días
+  texto: 7,5 mg/kg cada 8 horas
+  fuente:
+    ref: CIMA-METRONIDAZOL-62223
+    detalle: '4.2: "Niños mayores de 8 semanas a 12 años de edad: la dosis diaria habitual es de 20 a 30 mg/kg como dosis
+      única o en dosis divididas de 7,5 mg/kg cada 8 horas. La dosis diaria se puede aumentar a 40 mg/kg"'
+- indicacion: Amebiasis (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 35
+  max: 50
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 2400
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante 5-10 días
+  texto: 35-50 mg/kg al día en 3 dosis, sin exceder 2400 mg/día
+  fuente:
+    ref: CIMA-METRONIDAZOL-47656
+    detalle: '4.2 Amebiasis: "de 35 a 50 mg/kg al día divididos en 3 dosis durante 5 - 10 días, no excediendo la dosis de
+      2.400 mg/día"'
+- indicacion: Giardiasis (lambliasis) (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 15
+  tomasPorDia: 3
+  intervaloH: 8
+  topeDiario:
+    valor: 500
+    unidad: mg
+  estatus: autorizada
+  condicion: Durante 5-7 días. La ficha CIMA admite 15-40 mg/kg/día en 2-3 dosis, sin tope (ver discrepancias)
+  texto: 15 mg/kg/día repartidos cada 8 horas; dosis máxima diaria 500 mg
+  fuente:
+    ref: PEDIAMECUM-METRONIDAZOL
+    detalle: 'Lambliasis: "15 mg/kg/día repartidos cada 8 h, por 5-7 días. Dosis máxima diaria (vía oral o i.v.): 500 mg"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: 'Infecciones por anaerobios en niños: frecuencia y tope'
+  valores:
+  - fuente: CIMA-METRONIDAZOL-62223
+    valor: '22,5 mg/kg/día: 7,5 mg/kg cada 8 h (dosis diaria 20-30 mg/kg, hasta 40 según gravedad), sin tope en mg (CIMA)'
+  - fuente: PEDIAMECUM-METRONIDAZOL
+    valor: 30 mg/kg/día divididos cada 6 h, máximo 4 g/día (Pediamécum, lactantes y niños)
+  mostrado: 22,5 mg/kg/día (7,5 mg/kg cada 8 horas)
+  motivo: 'Mismo régimen y población: se muestra la pauta de la ficha (cada 8 h), la más baja. El máximo de 4 g/día acompaña
+    a la pauta cada 6 h de Pediamécum y no se aplica a la de la ficha (Ruling 9); el tope de 2400 mg/día de CIMA es de la
+    amebiasis.'
+- campo: Giardiasis en niños
+  valores:
+  - fuente: CIMA-METRONIDAZOL-62223
+    valor: 40 mg/kg/día como extremo superior de "15 a 40 mg/kg por día divididos en 2-3 dosis", sin tope en mg (CIMA)
+  - fuente: PEDIAMECUM-METRONIDAZOL
+    valor: 15 mg/kg/día cada 8 h, máximo 500 mg/día (Pediamécum)
+  mostrado: 15 mg/kg/día
+  motivo: 'Mismo régimen y población: se muestra la cifra más baja, con el tope de Pediamécum.'
+- campo: Amebiasis en niños
+  valores:
+  - fuente: CIMA-METRONIDAZOL-47656
+    valor: 35-50 mg/kg/día en 3 dosis, sin exceder 2400 mg/día (CIMA)
+  - fuente: PEDIAMECUM-METRONIDAZOL
+    valor: 40-50 mg/kg/día cada 6-8 h durante 10 días, sin tope (Pediamécum)
+  mostrado: 35-50 mg/kg/día, máximo 2400 mg/día
+  motivo: Se muestra la pauta de la ficha (rango inferior más bajo y con tope).
+administracion:
+  comida: indiferente
+  texto: 'Vía oral; la ficha técnica no indica relación con las comidas. Pediamécum: preferiblemente con alimentos para evitar
+    síntomas gastrointestinales. En menores de 6 años o con dificultad para tragar pueden ser más adecuadas otras presentaciones
+    (CIMA 62223).'
+  fuente:
+    ref: CIMA-METRONIDAZOL-62223
+    detalle: 4.2.2 Forma de administración
+ajusteRenalHepatico:
+  renal: 'Datos limitados; no indican necesidad de reducir la dosis. Hemodiálisis: programar la dosis después de la sesión
+    en los días de diálisis. Diálisis peritoneal: sin ajuste.'
+  hepatico: 'Insuficiencia hepática grave: reducir la dosis diaria total a una tercera parte y darla en una dosis única diaria.'
+  fuente:
+    ref: CIMA-METRONIDAZOL-62223
+    detalle: 4.2 Uso en pacientes con insuficiencia hepática / renal
+alertas:
+- 'La pauta de anaerobios en niños (7,5 mg/kg cada 8 h) no trae tope en la ficha; como referencia, la dosis de adulto es de
+  250-500 mg cada 8 h (CIMA 62223; Flagyl: 500 mg cada 8 h).'
+- 'Giardiasis, pautas de la ficha en dosis única diaria durante 3 días: 1-3 años 500 mg, 3-7 años 600-800 mg (Flagyl) o 750
+  mg (Normon), 7-10 años 1000 mg, >10 años 2000 mg. Superan el máximo de 500 mg/día de la pauta de Pediamécum y no se cargan.'
+- 'Tricomoniasis (adultos y niños >10 años: 2000 mg dosis única o 250 mg tres veces al día 7 días; <10 años: 40 mg/kg dosis
+  única, máx. 2000 mg), vaginosis bacteriana, amebiasis del adulto (750 mg tres veces al día) y H. pylori tienen pautas propias
+  (CIMA); no se cargan.'
+- Evitar alcohol durante el tratamiento (efecto antabús). Contraindicado en el primer trimestre del embarazo (CIMA 62223,
+  4.3).
+- No superar 10 días de tratamiento salvo casos concretos con control clínico y analítico; vigilar neuropatía (CIMA 62223,
+  4.4).
+- 'Hepatotoxicidad grave en el síndrome de Cockayne: no usar salvo que no haya alternativa (CIMA, 4.4).'
+- 'Flagyl suspensión contiene benzoato de metronidazol: 200 mg de benzoato equivalen a 125 mg de metronidazol base por 5 ml;
+  las dosis se expresan en base (Pediamécum).'
+meta: {}
