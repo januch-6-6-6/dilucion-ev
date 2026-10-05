@@ -74,6 +74,8 @@ dosis:
   condicion: 'CIMA (Duracef suspensión) da la misma pauta. Usar la suspensión: la cápsula de 500 mg no sirve para <40 kg ni
     <6 años; la suspensión no se recomienda con <6 kg. S. pyogenes: mínimo 10 días'
   texto: 30 mg/kg/día divididos en 2 dosis; dosis máxima 2 g al día
+  presentaciones:
+  - suspension-50-mg-ml
   fuente:
     ref: PEDIAMECUM-CEFADROXILO
     detalle: 'Niños: "30 mg/kg/día dividido en 2 dosis, vía oral. Dosis máxima de 2 g al día"; CIMA 55731 4.2: "30 mg/kg/día

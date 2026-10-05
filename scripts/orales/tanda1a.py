@@ -100,6 +100,7 @@ def ibuprofeno():
               condicion='Pediamécum (A), autorizado en niños ≥6 meses; la ficha CIMA cargada (Difenadol 400 mg) es de una presentación adulta '
                         'y no se recomienda en <40 kg o <12 años por su dosis fija. Usar la suspensión (20 o 40 mg/ml)',
               texto='40 mg/kg/día repartidos cada 6-8 horas; dosis máxima 2400 mg/día',
+              presentaciones=['suspension-20-mg-ml', 'suspension-40-mg-ml', 'comprimido-200-mg'],
               fuente=fu(P, 'Oral: "Antipirético y analgésico ( A ) (autorizado en niños ≥6 meses): 40 mg/kg/día cada 6-8 horas. Dosis máxima: 2400 mg/día"')),
     ]
     disc = [
@@ -364,6 +365,7 @@ def metamizol():
               condicion='Pediamécum (A) para la forma oral; la ficha CIMA cargada (cápsula 575 mg) es de una presentación adulta. '
                         'En fiebre, 10 mg/kg suele bastar. Usar solución o comprimidos',
               texto='8-16 mg/kg cada 6-8 horas',
+              presentaciones=['solucion-gotas-500-mg-ml', 'comprimido-300-mg'],
               fuente=fu(P, 'Vía oral: "En niños y adolescentes hasta de 14 años de edad, se pueden administrar de 8 a 16 mg/kg cada 6-8 horas"')),
         dosis('Dolor y fiebre: tabla por edad y peso (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='<12 meses (<9 kg): 25-125 mg/dosis, máx. 100-500 mg/día. 1-3 años (9-15 kg): 75-250 mg/dosis, máx. 300-1000 mg/día. '
@@ -373,6 +375,7 @@ def metamizol():
               condicion='Tabla por edad: se muestra, no se calcula. El tope por toma cargado (875 mg) es solo el de la fila 13-14 años; '
                         'cada fila de la tabla tiene su propio máximo por dosis y por día. '
                         'Pediamécum (A) para la forma oral; la ficha CIMA cargada es de una presentación adulta',
+              presentaciones=['solucion-gotas-500-mg-ml', 'comprimido-300-mg'],
               fuente=fu(P, 'Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral; tope por toma = fila 13-14 años "375-875"')),
     ]
     disc = [
@@ -424,22 +427,26 @@ def tramadol():
         dosis('Dolor moderado a intenso (adultos y adolescentes >12 años)', 'adulto', 'fija', 'mg', min=50, max=100, tomas=4,
               intervalo_h=6, tope_toma=(100, 'mg'), tope_dia=(400, 'mg'),
               texto='50-100 mg cada 4-6 horas; no exceder 100 mg por toma ni 400 mg/día',
+              presentaciones=['solucion-oral-100-mg-ml', 'capsula-50-mg'],
               fuente=fu(TRA_S, '4.2.1: "50-100 mg cada 4-6 horas ... No se debe exceder de 100 mg de tramadol por toma"; "No deben superarse dosis diarias de 400 mg"')),
         dosis('Dolor moderado a intenso, liberación prolongada (adultos y adolescentes >12 años)', 'adulto', 'fija', 'mg', min=100,
               max=100, tomas=2, intervalo_h=12, tope_dia=(400, 'mg'),
               texto='Dosis inicial 50-100 mg dos veces al día (mañana y noche); puede aumentarse a 150-200 mg dos veces al día. Máximo 400 mg/día. '
                     'El comprimido retard de 100 mg no se divide',
+              presentaciones=['comprimido-retard-100-mg'],
               fuente=fu(TRA_R, '4.2.1: "50-100 mg ... dos veces al día ... incrementar la dosis a 150 mg o 200 mg ... dos veces al día"; "No deberían superarse dosis diarias de 400 mg"')),
         dosis('Dolor moderado a intenso (niños desde 3 años)', 'pediatrico', 'por_peso', 'mg/kg', base='toma', max=1, tomas=4,
               intervalo_h=6, condicion='Contraindicado en <3 años. Dosis máxima 2 mg/kg por toma y 8 mg/kg/día; solo con la solución oral',
               texto='1 mg/kg por toma, 3-4 veces en 24 h (cada 6-8 h); máximo 2 mg/kg por toma y 8 mg/kg en 24 h. '
                     'Al pasar a pulsaciones, redondear hacia abajo',
+              presentaciones=['solucion-oral-100-mg-ml'],
               fuente=fu(TRA_S, '4.2.1 Población pediátrica: "1 mg de tramadol por kg ... en cada toma. La dosis máxima recomendada por toma es de 2 mg ... de 3 a 4 veces en 24 horas ... 8 mg ... por kg"')),
         dosis('Dolor moderado a intenso: tabla orientativa por peso en pulsaciones (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='1 pulsación = 0,125 ml = 12,5 mg. 15-20 kg (3-5 años): habitual 1, máx. 2 pulsaciones. 20-25 kg (5-8 años): 1, máx. 3. '
                     '25-35 kg (8-11 años): 2, máx. 4. 35-37 kg (11 años): 3, máx. 5. 37-44 kg (11-13 años): 3, máx. 6. '
                     '44-45 kg (>13 años): 3, máx. 7 pulsaciones por toma',
               condicion='Tabla orientativa: se muestra, no se calcula',
+              presentaciones=['solucion-oral-100-mg-ml'],
               fuente=fu(TRA_S, '4.2.1: tabla "Dosis habitual / Dosis máxima por peso del niño y por toma (en pulsaciones)"')),
     ]
     alertas = [
@@ -519,17 +526,21 @@ def morfina():
         dosis('Dolor crónico intenso, comprimidos de liberación prolongada (adultos)', 'adulto', 'fija', 'mg', min=30, max=30, tomas=2,
               intervalo_h=12, condicion='Pacientes con dolor intenso no controlado con opioides más débiles; reducir la dosis inicial en debilitados o de poco peso',
               texto='Empezar con 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si fuera necesario; incrementos posteriores del 30-50 %',
+              presentaciones=['comprimido-lp-10-mg', 'comprimido-lp-30-mg'],
               fuente=fu(MOR_R, '4.2: "normalmente deberá empezar con comprimidos de 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si fuera necesario"')),
         dosis('Dolor postquirúrgico, liberación prolongada (adultos <70 kg)', 'adulto', 'fija', 'mg', min=20, max=20, tomas=2,
               intervalo_h=12, condicion='No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal',
+              presentaciones=['comprimido-lp-10-mg', 'comprimido-lp-30-mg'],
               fuente=fu(MOR_R, '4.2 Dolor post-quirúrgico: "Comprimidos de 20 mg cada 12 horas en pacientes de menos de 70 kg de peso"')),
         dosis('Dolor postquirúrgico, liberación prolongada (adultos >70 kg)', 'adulto', 'fija', 'mg', min=30, max=30, tomas=2,
               intervalo_h=12, condicion='No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal',
+              presentaciones=['comprimido-lp-10-mg', 'comprimido-lp-30-mg'],
               fuente=fu(MOR_R, '4.2 Dolor post-quirúrgico: "Comprimidos de 30 mg cada 12 horas en pacientes de más de 70 kg de peso"')),
         dosis('Dolor oncológico intenso y crónico, liberación prolongada (niños)', 'pediatrico', 'por_peso', 'mg/kg', base='toma',
               min=0.2, max=0.8, tomas=2, intervalo_h=12,
               condicion='Solo comprimidos de liberación prolongada (no gotas ni solución); no en dolor postoperatorio en niños; los de 200 mg no son pediátricos',
               texto='Dosis inicial 0,2-0,8 mg/kg cada 12 horas; graduar como en adultos',
+              presentaciones=['comprimido-lp-10-mg', 'comprimido-lp-30-mg'],
               fuente=fu(MOR_R, '4.2 Población pediátrica: "dosis inicial de entre 0,2 y 0,8 mg/kg cada 12 horas"; Pediamécum coincide')),
         dosis('Dolor (formas orales de liberación normal), por edad (niños)', 'pediatrico', 'por_edad', 'mg',
               texto='>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar en menores de 1 año',
@@ -537,6 +548,7 @@ def morfina():
               condicion='Tabla por edad: se muestra, no se calcula. Pediamécum (A), pero ninguna ficha CIMA cargada autoriza morfina de '
                         'liberación normal en niños: la única pauta pediátrica de ficha técnica (MST Continus, CIMA 57898) es para comprimidos '
                         'de liberación prolongada en dolor oncológico. Opioide de alto riesgo ⇒ off-label (Ruling 11). Confirmar la concentración del frasco',
+              presentaciones=['gotas-20-mg-ml-arsenal'],
               fuente=fu(P, 'Formas de liberación normal de sulfato de morfina (solución oral, comprimidos): ">13 años: inicial, 10-20 mg/4-6 h. '
                            '6-12 años: máx. 5-10 mg/4 h. 1-6 años: máx. 2,5-5 mg/4 h"; "No usar en menores de un año"')),
     ]
@@ -683,6 +695,7 @@ def loratadina():
         dosis('Rinitis alérgica y urticaria (niños de 2 a 12 años con ≤30 kg)', 'pediatrico', 'fija', 'mg', min=5, max=5, tomas=1,
               intervalo_h=24, condicion='No establecida en menores de 2 años; el comprimido de 10 mg no es adecuado para ≤30 kg',
               texto='5 ml (5 mg) de jarabe una vez al día',
+              presentaciones=['jarabe-1-mg-ml'],
               fuente=fu(LOR_J, '4.2: "Peso corporal igual o inferior a 30 kg: 5 ml (5 mg) de jarabe una vez al día"')),
         dosis('Rinitis alérgica y urticaria (niños de 2 a 12 años con >30 kg)', 'pediatrico', 'fija', 'mg', min=10, max=10, tomas=1,
               intervalo_h=24, texto='10 mg una vez al día (1 comprimido o 10 ml de jarabe)',
@@ -717,12 +730,15 @@ def desloratadina():
               fuente=fu(DES_C, '4.2: "un comprimido una vez al día"; solución (00160065): "10 ml (5 mg) de solución oral una vez al día"')),
         dosis('Rinitis alérgica y urticaria (niños de 1 a 5 años)', 'pediatrico', 'fija', 'mg', min=1.25, max=1.25, tomas=1, intervalo_h=24,
               texto='2,5 ml (1,25 mg) de solución oral una vez al día',
+              presentaciones=['solucion-oral-0-5-mg-ml'],
               fuente=fu(DES_S, '4.2: "Niños de 1 a 5 años de edad: 2,5 ml (1,25 mg) de Aerius solución oral una vez al día"')),
         dosis('Rinitis alérgica y urticaria (niños de 6 a 11 años)', 'pediatrico', 'fija', 'mg', min=2.5, max=2.5, tomas=1, intervalo_h=24,
               texto='5 ml (2,5 mg) de solución oral una vez al día',
+              presentaciones=['solucion-oral-0-5-mg-ml'],
               fuente=fu(DES_S, '4.2: "Niños de 6 a 11 años de edad: 5 ml (2,5 mg) de Aerius solución oral una vez al día"')),
         dosis('Lactantes de 6 a 11 meses', 'pediatrico', 'fija', 'mg', min=1, max=1, tomas=1, intervalo_h=24, estatus='off_label',
               condicion='La ficha técnica no lo ha establecido en menores de 1 año', texto='1 mg cada 24 h (jarabe)',
+              presentaciones=['solucion-oral-0-5-mg-ml'],
               fuente=fu(P, '"Lactantes de 6 meses a 11 meses: 1 mg/24 h (jarabe)"; "No recomendado en niños menores de 1 año ( E: off-label )"')),
     ]
     disc = [

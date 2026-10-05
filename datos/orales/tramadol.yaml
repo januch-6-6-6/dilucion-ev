@@ -58,6 +58,9 @@ dosis:
     unidad: mg
   estatus: autorizada
   texto: 50-100 mg cada 4-6 horas; no exceder 100 mg por toma ni 400 mg/día
+  presentaciones:
+  - solucion-oral-100-mg-ml
+  - capsula-50-mg
   fuente:
     ref: CIMA-TRAMADOL-61617
     detalle: '4.2.1: "50-100 mg cada 4-6 horas ... No se debe exceder de 100 mg de tramadol por toma"; "No deben superarse
@@ -76,6 +79,8 @@ dosis:
   estatus: autorizada
   texto: Dosis inicial 50-100 mg dos veces al día (mañana y noche); puede aumentarse a 150-200 mg dos veces al día. Máximo
     400 mg/día. El comprimido retard de 100 mg no se divide
+  presentaciones:
+  - comprimido-retard-100-mg
   fuente:
     ref: CIMA-TRAMADOL-61784
     detalle: '4.2.1: "50-100 mg ... dos veces al día ... incrementar la dosis a 150 mg o 200 mg ... dos veces al día"; "No
@@ -92,6 +97,8 @@ dosis:
   condicion: Contraindicado en <3 años. Dosis máxima 2 mg/kg por toma y 8 mg/kg/día; solo con la solución oral
   texto: 1 mg/kg por toma, 3-4 veces en 24 h (cada 6-8 h); máximo 2 mg/kg por toma y 8 mg/kg en 24 h. Al pasar a pulsaciones,
     redondear hacia abajo
+  presentaciones:
+  - solucion-oral-100-mg-ml
   fuente:
     ref: CIMA-TRAMADOL-61617
     detalle: '4.2.1 Población pediátrica: "1 mg de tramadol por kg ... en cada toma. La dosis máxima recomendada por toma
@@ -105,6 +112,8 @@ dosis:
   texto: '1 pulsación = 0,125 ml = 12,5 mg. 15-20 kg (3-5 años): habitual 1, máx. 2 pulsaciones. 20-25 kg (5-8 años): 1, máx.
     3. 25-35 kg (8-11 años): 2, máx. 4. 35-37 kg (11 años): 3, máx. 5. 37-44 kg (11-13 años): 3, máx. 6. 44-45 kg (>13 años):
     3, máx. 7 pulsaciones por toma'
+  presentaciones:
+  - solucion-oral-100-mg-ml
   fuente:
     ref: CIMA-TRAMADOL-61617
     detalle: '4.2.1: tabla "Dosis habitual / Dosis máxima por peso del niño y por toma (en pulsaciones)"'

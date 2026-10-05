@@ -72,6 +72,9 @@ dosis:
   condicion: Pediamécum (A) para la forma oral; la ficha CIMA cargada (cápsula 575 mg) es de una presentación adulta. En fiebre,
     10 mg/kg suele bastar. Usar solución o comprimidos
   texto: 8-16 mg/kg cada 6-8 horas
+  presentaciones:
+  - solucion-gotas-500-mg-ml
+  - comprimido-300-mg
   fuente:
     ref: PEDIAMECUM-METAMIZOL
     detalle: 'Vía oral: "En niños y adolescentes hasta de 14 años de edad, se pueden administrar de 8 a 16 mg/kg cada 6-8
@@ -91,6 +94,9 @@ dosis:
     4-6 años (16-23 kg): 125-375 mg/dosis, máx. 500-1500 mg/día. 7-9 años (24-30 kg): 200-500 mg/dosis, máx. 800-2000 mg/día.
     10-12 años (31-45 kg): 250-750 mg/dosis, máx. 1000-3000 mg/día. 13-14 años (46-53 kg): 375-875 mg/dosis, máx. 1500-3500
     mg/día'
+  presentaciones:
+  - solucion-gotas-500-mg-ml
+  - comprimido-300-mg
   fuente:
     ref: PEDIAMECUM-METAMIZOL
     detalle: Tabla "Edad (peso) mg/dosis Dosis máxima diaria (mg)" de la vía oral; tope por toma = fila 13-14 años "375-875"

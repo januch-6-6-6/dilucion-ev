@@ -53,6 +53,8 @@ dosis:
   intervaloH: 24
   estatus: autorizada
   texto: 2,5 ml (1,25 mg) de solución oral una vez al día
+  presentaciones:
+  - solucion-oral-0-5-mg-ml
   fuente:
     ref: CIMA-DESLORATADINA-00160065
     detalle: '4.2: "Niños de 1 a 5 años de edad: 2,5 ml (1,25 mg) de Aerius solución oral una vez al día"'
@@ -66,6 +68,8 @@ dosis:
   intervaloH: 24
   estatus: autorizada
   texto: 5 ml (2,5 mg) de solución oral una vez al día
+  presentaciones:
+  - solucion-oral-0-5-mg-ml
   fuente:
     ref: CIMA-DESLORATADINA-00160065
     detalle: '4.2: "Niños de 6 a 11 años de edad: 5 ml (2,5 mg) de Aerius solución oral una vez al día"'
@@ -80,6 +84,8 @@ dosis:
   estatus: off_label
   condicion: La ficha técnica no lo ha establecido en menores de 1 año
   texto: 1 mg cada 24 h (jarabe)
+  presentaciones:
+  - solucion-oral-0-5-mg-ml
   fuente:
     ref: PEDIAMECUM-DESLORATADINA
     detalle: '"Lactantes de 6 meses a 11 meses: 1 mg/24 h (jarabe)"; "No recomendado en niños menores de 1 año ( E: off-label

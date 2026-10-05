@@ -34,8 +34,11 @@ def pres(id, forma, *, mg=None, mg_ml=None, gotas_por_ml=None, partible='no', re
 
 
 def dosis(indicacion, poblacion, regimen, unidad, *, base=None, min=None, max=None, tomas=None, intervalo_h=None,
-          tope_toma=None, tope_dia=None, estatus='autorizada', condicion=None, texto=None, fuente):
-    """Dosis oral. `tope_toma`/`tope_dia` = (valor, unidad) o None."""
+          tope_toma=None, tope_dia=None, estatus='autorizada', condicion=None, texto=None, presentaciones=None, fuente):
+    """Dosis oral. `tope_toma`/`tope_dia` = (valor, unidad) o None.
+
+    `presentaciones` = ids de las presentaciones de la ficha a las que aplica la dosis (Ruling 14); None = todas.
+    """
     d = {'indicacion': indicacion, 'poblacion': poblacion, 'regimen': regimen}
     if base is not None:
         d['base'] = base
@@ -52,6 +55,8 @@ def dosis(indicacion, poblacion, regimen, unidad, *, base=None, min=None, max=No
         d['condicion'] = condicion
     if texto is not None:
         d['texto'] = texto
+    if presentaciones is not None:
+        d['presentaciones'] = list(presentaciones)
     d['fuente'] = fuente
     return d
 

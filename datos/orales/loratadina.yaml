@@ -55,6 +55,8 @@ dosis:
   estatus: autorizada
   condicion: No establecida en menores de 2 años; el comprimido de 10 mg no es adecuado para ≤30 kg
   texto: 5 ml (5 mg) de jarabe una vez al día
+  presentaciones:
+  - jarabe-1-mg-ml
   fuente:
     ref: CIMA-LORATADINA-64243
     detalle: '4.2: "Peso corporal igual o inferior a 30 kg: 5 ml (5 mg) de jarabe una vez al día"'

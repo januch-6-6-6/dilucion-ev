@@ -101,6 +101,9 @@ dosis:
   intervaloH: 12
   estatus: autorizada
   texto: 875 mg/125 mg dos veces al día (1750 mg de amoxicilina/250 mg de clavulánico al día)
+  presentaciones:
+  - comprimido-875-125-mg-7-1
+  - sobre-875-125-mg-7-1
   fuente:
     ref: CIMA-AMOXICILINA-CLAVULANICO-59515
     detalle: '4.2.1: "dosis estándar (para todas las indicaciones): 875 mg/125 mg administrada dos veces al día"; "dosis diaria
@@ -116,6 +119,9 @@ dosis:
   intervaloH: 8
   estatus: autorizada
   texto: 875 mg/125 mg tres veces al día (2625 mg de amoxicilina/375 mg de clavulánico al día)
+  presentaciones:
+  - comprimido-875-125-mg-7-1
+  - sobre-875-125-mg-7-1
   fuente:
     ref: CIMA-AMOXICILINA-CLAVULANICO-59515
     detalle: '4.2.1: "dosis superior ... 875 mg/125 mg administrada tres veces al día"; "2 625 mg de amoxicilina/375 mg de
@@ -138,6 +144,9 @@ dosis:
     presentaciones pediátricas 7:1 que no están cargadas. Tope diario 2625 mg de amoxicilina, derivado: 375 mg/día de clavulánico
     (máximo de Pediamécum) en proporción 7:1'
   texto: 25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día divididos en dos dosis al día
+  presentaciones:
+  - comprimido-875-125-mg-7-1
+  - sobre-875-125-mg-7-1
   fuente:
     ref: CIMA-AMOXICILINA-CLAVULANICO-59515
     detalle: '4.2.1 Niños <40 kg: "25 mg/3,6 mg/kg/día a 45 mg/6,4 mg/kg/día dividida en dos dosis al día"; tope: Pediamécum
@@ -160,6 +169,9 @@ dosis:
     sobres) (ver discrepancias). Tope diario 2625 mg de amoxicilina, derivado: 375 mg/día de clavulánico (Pediamécum) en proporción
     7:1'
   texto: Hasta 70 mg/10 mg/kg/día divididos en dos dosis al día
+  presentaciones:
+  - comprimido-875-125-mg-7-1
+  - sobre-875-125-mg-7-1
   fuente:
     ref: CIMA-AMOXICILINA-CLAVULANICO-59515
     detalle: '4.2.1: "hasta 70 mg/10 mg/kg/día dividida en dos dosis al día para infecciones tales como otitis media, sinusitis
@@ -183,6 +195,10 @@ dosis:
     de amoxicilina, derivado: 375 mg/día de clavulánico (máximo de Pediamécum) en proporción 4:1 (la misma cifra que la nota
     7 de la tabla)'
   texto: 35-40 mg/9-10 mg/kg/día en 3 dosis
+  presentaciones:
+  - suspension-250-62-5-mg-5-ml-4-1
+  - suspension-125-31-25-mg-5-ml-4-1
+  - suspension-500-125-mg-5-ml-4-1-arsenal
   fuente:
     ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
     detalle: 'Tabla de usos clínicos, fila "IR leves, moderadas / Con baja tasa de R del S. pneumoniae": "35-40 mg/9-10 mg
@@ -202,6 +218,10 @@ dosis:
   estatus: autorizada
   condicion: Proporción 4:1 (clavulánico 9-10 mg/kg/día). Pediamécum (A) en infecciones genitourinarias
   texto: 35-40 mg/9-10 mg/kg/día en 3 dosis; dosis máxima diaria de amoxicilina 1500 mg (375 mg de clavulánico)
+  presentaciones:
+  - suspension-250-62-5-mg-5-ml-4-1
+  - suspension-125-31-25-mg-5-ml-4-1
+  - suspension-500-125-mg-5-ml-4-1-arsenal
   fuente:
     ref: PEDIAMECUM-AMOXICILINA-CLAVULANICO
     detalle: 'Tabla de usos clínicos: "Infecciones de orina por enterobacterias sensibles ... 35-40 mg/9-10 mg (3)"; nota
@@ -253,7 +273,13 @@ alertas:
 - 'Clavulánico: máximo 15 mg/kg/día sin superar 375 mg/día (Pediamécum). Las pautas 7:1 (25-45 y 70 mg/kg/día) NO se deben
   calcular con las suspensiones 4:1 (las del arsenal: 500 + 125 y 250 + 62,5 mg/5 ml): con 4:1, 70 mg/kg/día de amoxicilina
   aportarían 17,5 mg/kg/día de clavulánico, por encima del máximo. Con la suspensión 4:1 usar solo las pautas 4:1 (35-40 mg/kg/día
-  en 3 dosis). La aplicación aún no vincula cada pauta con su presentación: elegir la presentación a mano.'
+  en 3 dosis). Cada pauta queda vinculada a sus presentaciones: las 7:1, a los comprimidos y sobres 875/125; las 4:1, a las
+  suspensiones 4:1.'
+- 'Niños de menos de 25 kg: no hay ninguna presentación 7:1 cargada que les sirva. Los comprimidos 875/125 no se pueden partir
+  y no se deben usar con menos de 25 kg (CIMA 59515: "los niños que pesen menos de 25 kg no deben ser tratados con Augmentine
+  comprimidos"; "deben ser tratados preferiblemente con Augmentine suspensión o sobres pediátricos"), y esas presentaciones
+  pediátricas 7:1 no están cargadas. Las pautas 7:1 (25-45 y 70 mg/kg/día) no se pueden calcular con ninguna presentación
+  de esta ficha en ese peso: no sustituirlas por la suspensión 4:1 ni por la 8:1.'
 - 'Dos suspensiones tienen 100 mg/ml de amoxicilina pero distinto clavulánico: 8:1 (12,5 mg/ml) y la 4:1 del arsenal (500
   + 125 mg/5 ml, 25 mg/ml). Confirmar el frasco.'
 - 'Los comprimidos 875/125 no se deben partir: no usar en niños de menos de 25 kg (CIMA 59515). Entre 25 y 40 kg, un comprimido

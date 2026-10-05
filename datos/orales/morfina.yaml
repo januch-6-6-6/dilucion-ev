@@ -55,6 +55,9 @@ dosis:
     de poco peso
   texto: Empezar con 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si fuera necesario; incrementos posteriores del
     30-50 %
+  presentaciones:
+  - comprimido-lp-10-mg
+  - comprimido-lp-30-mg
   fuente:
     ref: CIMA-MORFINA-57898
     detalle: '4.2: "normalmente deberá empezar con comprimidos de 30 mg cada 12 horas, aumentando a 60 mg cada 12 horas si
@@ -69,6 +72,9 @@ dosis:
   intervaloH: 12
   estatus: autorizada
   condicion: No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal
+  presentaciones:
+  - comprimido-lp-10-mg
+  - comprimido-lp-30-mg
   fuente:
     ref: CIMA-MORFINA-57898
     detalle: '4.2 Dolor post-quirúrgico: "Comprimidos de 20 mg cada 12 horas en pacientes de menos de 70 kg de peso"'
@@ -82,6 +88,9 @@ dosis:
   intervaloH: 12
   estatus: autorizada
   condicion: No en las primeras 24 h del postoperatorio ni hasta que se normalice la función intestinal
+  presentaciones:
+  - comprimido-lp-10-mg
+  - comprimido-lp-30-mg
   fuente:
     ref: CIMA-MORFINA-57898
     detalle: '4.2 Dolor post-quirúrgico: "Comprimidos de 30 mg cada 12 horas en pacientes de más de 70 kg de peso"'
@@ -98,6 +107,9 @@ dosis:
   condicion: Solo comprimidos de liberación prolongada (no gotas ni solución); no en dolor postoperatorio en niños; los de
     200 mg no son pediátricos
   texto: Dosis inicial 0,2-0,8 mg/kg cada 12 horas; graduar como en adultos
+  presentaciones:
+  - comprimido-lp-10-mg
+  - comprimido-lp-30-mg
   fuente:
     ref: CIMA-MORFINA-57898
     detalle: '4.2 Población pediátrica: "dosis inicial de entre 0,2 y 0,8 mg/kg cada 12 horas"; Pediamécum coincide'
@@ -112,6 +124,8 @@ dosis:
     del frasco'
   texto: '>13 años: inicial 10-20 mg cada 4-6 h. 6-12 años: máx. 5-10 mg cada 4 h. 1-6 años: máx. 2,5-5 mg cada 4 h. No usar
     en menores de 1 año'
+  presentaciones:
+  - gotas-20-mg-ml-arsenal
   fuente:
     ref: PEDIAMECUM-MORFINA
     detalle: 'Formas de liberación normal de sulfato de morfina (solución oral, comprimidos): ">13 años: inicial, 10-20 mg/4-6

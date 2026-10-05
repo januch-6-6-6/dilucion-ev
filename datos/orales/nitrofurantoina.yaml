@@ -93,6 +93,8 @@ dosis:
     mg/ml cada 6 h. "Sin superar la dosis de adulto": tope de 300 mg/día (= 100 mg × 3 tomas del adulto, CIMA 22974 4.2.1);
     con 4 tomas limita la toma a 75 mg'
   texto: 1-2 mg/kg cada 6 horas durante 5-7 días
+  presentaciones:
+  - suspension-10-mg-ml
   fuente:
     ref: PEDIAMECUM-NITROFURANTOINA
     detalle: '"Menores o igual de 6 años o que no toleren comprimidos (no usar en menores de 3 meses): ... 1-2 mg/kg de peso

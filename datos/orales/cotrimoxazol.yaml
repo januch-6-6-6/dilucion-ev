@@ -68,6 +68,10 @@ dosis:
   condicion: Cifras en mg de trimetoprima (TMP); el sulfametoxazol (SMX) es 5 veces más
   texto: 160 mg de trimetoprima/800 mg de sulfametoxazol cada 12 horas (1 comprimido Forte, 2 comprimidos de 80/400 o 20 ml
     de suspensión)
+  presentaciones:
+  - comprimido-forte-160-800-mg
+  - comprimido-80-400-mg
+  - suspension-8-40-mg-ml
   fuente:
     ref: CIMA-COTRIMOXAZOL
     detalle: '4.2 Dosis estándar: "160 mg de trimetoprima/800 mg de sulfametoxazol/12 horas"'
@@ -81,6 +85,9 @@ dosis:
   condicion: 'Tabla por edad: se muestra, no se calcula. Contraindicado en menores de 6 semanas'
   texto: '6 semanas a 5 meses: 20 mg TMP/100 mg SMX cada 12 h. 6 meses a 5 años: 40 mg TMP/200 mg SMX cada 12 h. 6 a 12 años:
     80 mg TMP/400 mg SMX cada 12 h'
+  presentaciones:
+  - suspension-8-40-mg-ml
+  - comprimido-pediatrico-20-100-mg
   fuente:
     ref: CIMA-COTRIMOXAZOL
     detalle: '4.2: "6 semanas a 5 meses: 20 mg de trimetoprima/ 100 mg de sulfametoxazol/ 12 horas ... 6 meses a 5 años: 40
@@ -97,6 +104,9 @@ dosis:
   condicion: Cifra en mg de TRIMETOPRIMA por kg y día (≈30 mg de sulfametoxazol/kg/día). La ficha la da como aproximación
     de la tabla por edad. Contraindicado en menores de 6 semanas
   texto: Aproximadamente 6 mg de trimetoprima/30 mg de sulfametoxazol por kg cada 24 h, en 2 tomas (cada 12 h)
+  presentaciones:
+  - suspension-8-40-mg-ml
+  - comprimido-pediatrico-20-100-mg
   fuente:
     ref: CIMA-COTRIMOXAZOL
     detalle: '4.2 Lactantes y niños menores de 12 años: "las dosis se aproximan a 6 mg de trimetoprima/ 30 mg de sulfametoxazol/kg/24

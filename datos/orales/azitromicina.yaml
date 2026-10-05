@@ -74,6 +74,9 @@ dosis:
   condicion: 'Durante 3 días (alternativa: 10 mg/kg el día 1 y 5 mg/kg/día los días 2-5). Sin exceder la dosis diaria del
     adulto (500 mg) ni 1500 mg en total por tratamiento'
   texto: 10 mg/kg/día en una toma diaria durante 3 días
+  presentaciones:
+  - suspension-40-mg-ml
+  - sobre-500-mg
   fuente:
     ref: CIMA-AZITROMICINA-65601
     detalle: '4.2.1 Tabla 1: "10 mg/kg/día durante 3 días"; "La dosis diaria de azitromicina no debe exceder la dosis diaria
@@ -92,6 +95,9 @@ dosis:
   estatus: autorizada
   condicion: Durante 3 días. CIMA coincide (20 mg/kg/día durante 3 días, sin exceder 500 mg/día)
   texto: 20 mg/kg/día durante 3 días consecutivos; dosis máxima diaria 500 mg
+  presentaciones:
+  - suspension-40-mg-ml
+  - sobre-500-mg
   fuente:
     ref: PEDIAMECUM-AZITROMICINA
     detalle: '"Para el tratamiento de la faringoamigdalitis, la dosis recomendada es de 20 mg/kg/día durante 3 días consecutivos

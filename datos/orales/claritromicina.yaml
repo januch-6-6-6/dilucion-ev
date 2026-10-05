@@ -94,6 +94,9 @@ dosis:
   condicion: 'Los menores de 12 años deben tomar la suspensión. Tope de 500 mg cada 12 h: Pediamécum ("hasta un máximo de
     500 mg/12 horas"). Duración habitual 5-10 días'
   texto: 7,5 mg/kg dos veces al día
+  presentaciones:
+  - suspension-25-mg-ml
+  - suspension-50-mg-ml
   fuente:
     ref: CIMA-CLARITROMICINA-66388
     detalle: '4.2 Niños de 6 meses a 12 años: "La dosis recomendada es de 7,5 mg/kg dos veces al día"; tope: Pediamécum'
@@ -111,6 +114,9 @@ dosis:
   estatus: autorizada
   condicion: Durante 10 días
   texto: 7,5 mg/kg cada 12 horas, con dosis máxima de 250 mg cada 12 horas, 10 días
+  presentaciones:
+  - suspension-25-mg-ml
+  - suspension-50-mg-ml
   fuente:
     ref: PEDIAMECUM-CLARITROMICINA
     detalle: '"7,5 mg/kg/12 horas ..."; "En el caso de faringitis estreptocócica será de 10 días con una dosis máxima de 250
