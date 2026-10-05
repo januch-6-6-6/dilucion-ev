@@ -129,7 +129,7 @@ liberación prolongada), no la ofrece y propone una presentación líquida o dec
 - **Cabecera:** dos pestañas, «EV» (sin cambios) y «Orales».
 - **Rutas:** `/orales` (lista con buscador, grupos, favoritos y recientes), `/orales/m/:id` (ficha),
   `/orales/m/:id/calcular` (calculadora).
-- **Ficha oral**, de arriba abajo: aviso de formación → **aviso de fuente única** (cuando aplica) → dosis
+- **Ficha oral**, de arriba abajo: aviso de formación → **aviso de fuente única** (cuando aplica; texto en la sección 13) → dosis
   adulto y pediátrica (marca *autorizada*/*off-label*; motivo si es `solo_adulto`) → presentaciones (partible,
   liberación prolongada, registro en Chile) → administración y alertas → **tabla de discrepancias**.
 - **Colores:** colores por grupo en `colores.ts`; el rojo sigue reservado a alertas y alto riesgo.
@@ -204,9 +204,11 @@ aviso de formación visible. El repo es público: la copia del informe en `infor
 | ISP bloquea la consulta | Un proceso, pausas largas; estado `sin_verificar` mientras tanto |
 | Alguien lo use como prescripción | Aviso de formación; sin firma de fichas; propósito declarado en «Acerca» |
 
-## 13. Preguntas abiertas
+## 13. Textos y listas confirmados
 
-- Redacción exacta del aviso de fuente única (propuesta: «Esta ficha se apoya en una sola fuente. Contrástala
-  antes de usarla»).
-- Qué fármacos llevan `altoRiesgo` (propuesta: morfina, tramadol, benzodiacepinas y fenobarbital).
-- Si la nota sobre unidades de hierro/levotiroxina va en la ficha o en la calculadora.
+- **Aviso de fuente única** (afirmación, sin instrucciones): «Esta ficha se apoya en una sola fuente y no se pudo contrastar con otra.»
+- **`altoRiesgo = true`** (confirmado por Héctor): morfina, tramadol, paracetamol + tramadol, benzodiacepinas (clonazepam, diazepam) y fenobarbital.
+
+## 14. Preguntas abiertas
+
+- Si la nota sobre unidades de hierro y levotiroxina va en la ficha o en la calculadora.
