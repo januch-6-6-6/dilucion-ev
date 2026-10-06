@@ -77,9 +77,9 @@ dosis:
     en 1 o 2 tomas (máximo 200 mg/día)'
   texto: 'Semanas 1+2: 0,3 mg/kg/día; semanas 3+4: 0,6 mg/kg/día; mantenimiento 1-15 mg/kg/día (máx. 200 mg/día)'
   fuente:
-    ref: CIMA-LAMOTRIGINA
-    detalle: 'Tabla 2 Niños entre 2 y 12 años: Monoterapia en crisis de ausencia típica: "Semanas 1 + 2: 0,3 mg/kg/día ...
-      Semanas 3 + 4: 0,6 mg/kg/día ... Mantenimiento: 1-15 mg/kg/día ... dosis de mantenimiento máxima de 200 mg/día"'
+    ref: PEDIAMECUM-LAMOTRIGINA
+    detalle: 'Tabla 2 Niños 2-12 años: monoterapia en crisis de ausencia típica: semanas 1+2: 0,3 mg/kg/día; semanas 3+4:
+      0,6 mg/kg/día; mantenimiento: 1-15 mg/kg/día (máximo 200 mg/día) (Pediamécum y CIMA)'
 - indicacion: 'Epilepsia: terapia complementaria con valproato (niños de 2 a 12 años)'
   poblacion: pediatrico
   regimen: por_peso

@@ -68,9 +68,9 @@ dosis:
     Pediamécum señala que en niños mayores se puede usar 8-10 mg/kg/día
   texto: Inicio 5 mg/kg/día en 2-3 tomas; mantenimiento 4-8 mg/kg/día (máximo 300 mg/día)
   fuente:
-    ref: CIMA-FENITOINA
-    detalle: '4.2 Población pediátrica: "La dosis inicial recomendada es de 5 mg/kg/día dividido en 2-3 tomas iguales ...
-      hasta un máximo de 300 mg al día. La dosis diaria de mantenimiento recomendada es de 4 mg/ kg/ día a 8 mg/ kg/ día"'
+    ref: PEDIAMECUM-FENITOINA
+    detalle: '4.2 Población pediátrica y Pediamécum: dosis inicial recomendada 5 mg/kg/día en 2 o 3 tomas; mantenimiento 4-8
+      mg/kg/día; máximo 300 mg/día'
 pediatria:
   estado: con_dosis
 discrepancias:

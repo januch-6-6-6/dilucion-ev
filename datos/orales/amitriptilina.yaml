@@ -91,9 +91,8 @@ dosis:
   presentaciones:
   - comprimido-10-mg
   fuente:
-    ref: CIMA-AMITRIPTILINA
-    detalle: '4.2 Niños de 6 a 10 años: "10 mg ‑ 20 mg al día" y Pediamécum: "10-20 mg al acostarse. No exceder 3 meses sin
-      revisión"'
+    ref: PEDIAMECUM-AMITRIPTILINA
+    detalle: '4.2 Niños de 6 a 10 años y Pediamécum: 10 mg ‑ 20 mg al acostarse; máx 20 mg/día'
 - indicacion: Enuresis nocturna (niños y adolescentes ≥11 años)
   poblacion: pediatrico
   regimen: fija
@@ -109,8 +108,8 @@ dosis:
   condicion: 25 a 50 mg al acostarse. Administrar 1-2 horas antes de acostarse. No superar los 3 meses sin revisión médica
   texto: 25-50 mg al acostarse (máx. 50 mg/día; no superar 3 meses seguidos)
   fuente:
-    ref: CIMA-AMITRIPTILINA
-    detalle: '4.2 Niños ≥11 años: "25 mg – 50 mg al día" y Pediamécum: "25-50 mg por la noche"'
+    ref: PEDIAMECUM-AMITRIPTILINA
+    detalle: '4.2 Niños ≥11 años y Pediamécum: 25 mg – 50 mg al día antes de acostarse; máx 50 mg/día'
 pediatria:
   estado: con_dosis
 discrepancias: []

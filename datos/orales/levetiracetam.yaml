@@ -78,9 +78,9 @@ dosis:
     hasta 30 mg/kg 2 veces al día (60 mg/kg/día). Dosis máxima: 60 mg/kg/día (hasta 3000 mg/día)'
   texto: Inicial 10 mg/kg c/12 h (20 mg/kg/día); titular hasta 30 mg/kg c/12 h (60 mg/kg/día; máx. 3000 mg/día)
   fuente:
-    ref: CIMA-LEVETIRACETAM-75005
-    detalle: '4.2 Población pediátrica: "la dosis inicial es de 10 mg/kg dos veces al día ... se puede aumentar hasta los
-      30 mg/kg dos veces al día" y Pediamécum: "Dosis máxima hasta 100 mg/kg/día o 3000 mg/día"'
+    ref: PEDIAMECUM-LEVETIRACETAM
+    detalle: '4.2 Población pediátrica y Pediamécum: dosis inicial 10 mg/kg 2 veces al día (20 mg/kg/día); incremento hasta
+      30 mg/kg 2 veces al día (60 mg/kg/día; máximo 3000 mg/día)'
 pediatria:
   estado: con_dosis
 discrepancias: []

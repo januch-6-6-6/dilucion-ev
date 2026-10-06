@@ -260,9 +260,8 @@ def clonazepam():
                         'Para lactantes usar formulación en gotas',
               texto='0,01-0,03 mg/kg/día en 2-3 tomas; mantenimiento 0,1-0,2 mg/kg/día (máximo 0,2 mg/kg/día)',
               presentaciones=['gotas-2-5-mg-ml'],
-              fuente=fu(CLO_C, '4.2 Población pediátrica: "La dosis inicial para lactantes y niños de hasta 10 años (o hasta 30 kg de peso) '
-                               'es de 0,01-0,03 mg/kg/día, divididos en 2 o 3 tomas ... mantenimiento aproximada de 0,1 mg/kg/día" '
-                               'y Pediamécum: "Dosis máxima 0,2 mg/kg/día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis inicial 0,01-0,03 mg/kg/día; '
+                           'mantenimiento aproximado 0,1 mg/kg/día; máximo 0,2 mg/kg/día')),
         dosis('Epilepsia: inicio (niños y adolescentes de 10 a 16 años)', 'pediatrico', 'fija', 'mg', min=1, max=1.5, tomas=2,
               intervalo_h=12,
               condicion='Inicial 1-1,5 mg/día en 2 o 3 tomas; incrementar 0,25-0,5 mg cada 72 h hasta mantenimiento habitual de 3-6 mg/día',
@@ -315,8 +314,7 @@ def fenobarbital():
               condicion='Inicio y mantenimiento de 3 a 5 mg/kg de peso corporal al día, en 1 o 2 tomas diarias. '
                         'Pediamécum indica lactantes 5-8 mg/kg/día y neonatos 2-5 mg/kg/día',
               texto='3-5 mg/kg/día en 1-2 tomas diarias',
-              fuente=fu(FEN, '4.2 Población pediátrica: "Las dosis de inicio y mantenimiento recomendadas son de 3 a 5 mg por kg '
-                             'de peso corporal al día, pudiéndose administrar en dos tomas"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis de inicio y mantenimiento de 3 a 5 mg/kg de peso corporal al día en 1 o 2 tomas')),
     ]
     discrepancias_ = [
         discrepancia('Dosis máxima en adultos',
@@ -366,9 +364,8 @@ def lamotrigina():
               condicion='Semanas 1 y 2: 0,3 mg/kg/día en 1 o 2 tomas. Semanas 3 y 4: 0,6 mg/kg/día. '
                         'Mantenimiento habitual: 1-15 mg/kg/día en 1 o 2 tomas (máximo 200 mg/día)',
               texto='Semanas 1+2: 0,3 mg/kg/día; semanas 3+4: 0,6 mg/kg/día; mantenimiento 1-15 mg/kg/día (máx. 200 mg/día)',
-              fuente=fu(LAM, 'Tabla 2 Niños entre 2 y 12 años: Monoterapia en crisis de ausencia típica: '
-                             '"Semanas 1 + 2: 0,3 mg/kg/día ... Semanas 3 + 4: 0,6 mg/kg/día ... Mantenimiento: 1-15 mg/kg/día ... '
-                             'dosis de mantenimiento máxima de 200 mg/día"')),
+              fuente=fu(P, 'Tabla 2 Niños 2-12 años: monoterapia en crisis de ausencia típica: '
+                           'semanas 1+2: 0,3 mg/kg/día; semanas 3+4: 0,6 mg/kg/día; mantenimiento: 1-15 mg/kg/día (máximo 200 mg/día) (Pediamécum y CIMA)')),
         dosis('Epilepsia: terapia complementaria con valproato (niños de 2 a 12 años)', 'pediatrico', 'por_peso', 'mg/kg', base='dia',
               min=0.15, max=0.15, tomas=1, intervalo_h=24, tope_dia=(200, 'mg'),
               condicion='Valproato inhibe la glucuronidación de lamotrigina: semanas 1 y 2: 0,15 mg/kg/día; '
@@ -418,8 +415,8 @@ def levetiracetam():
               condicion='Dosis inicial 10 mg/kg 2 veces al día (20 mg/kg/día). Incrementar en 10 mg/kg 2 veces al día cada 2 semanas '
                         'hasta 30 mg/kg 2 veces al día (60 mg/kg/día). Dosis máxima: 60 mg/kg/día (hasta 3000 mg/día)',
               texto='Inicial 10 mg/kg c/12 h (20 mg/kg/día); titular hasta 30 mg/kg c/12 h (60 mg/kg/día; máx. 3000 mg/día)',
-              fuente=fu(LEV_C, '4.2 Población pediátrica: "la dosis inicial es de 10 mg/kg dos veces al día ... '
-                               'se puede aumentar hasta los 30 mg/kg dos veces al día" y Pediamécum: "Dosis máxima hasta 100 mg/kg/día o 3000 mg/día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis inicial 10 mg/kg 2 veces al día (20 mg/kg/día); '
+                           'incremento hasta 30 mg/kg 2 veces al día (60 mg/kg/día; máximo 3000 mg/día)')),
     ]
     return ficha_oral(
         'levetiracetam', 'Levetiracetam', 'anticonvulsivante', presentaciones, dosis_,
@@ -463,8 +460,8 @@ def fenitoina():
               condicion='Dosis inicial 5 mg/kg/día en 2 o 3 tomas. Mantenimiento habitual 4-8 mg/kg/día hasta un máximo de 300 mg al día. '
                         'Pediamécum señala que en niños mayores se puede usar 8-10 mg/kg/día',
               texto='Inicio 5 mg/kg/día en 2-3 tomas; mantenimiento 4-8 mg/kg/día (máximo 300 mg/día)',
-              fuente=fu(PHT, '4.2 Población pediátrica: "La dosis inicial recomendada es de 5 mg/kg/día dividido en 2-3 tomas iguales ... '
-                             'hasta un máximo de 300 mg al día. La dosis diaria de mantenimiento recomendada es de 4 mg/ kg/ día a 8 mg/ kg/ día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis inicial recomendada 5 mg/kg/día en 2 o 3 tomas; '
+                           'mantenimiento 4-8 mg/kg/día; máximo 300 mg/día')),
     ]
     discrepancias_ = [
         discrepancia('Dosis pediátrica de mantenimiento en niños mayores',
@@ -561,9 +558,8 @@ def fluoxetina():
                         'El tratamiento debe ser iniciado y supervisado por un especialista en psiquiatría infanto-juvenil',
               texto='Inicial 10 mg/día (2,5 ml solución); tras 1-2 semanas incrementar a 20 mg/día (tope ficha técnica: 20 mg/día)',
               presentaciones=['solucion-oral-4-mg-ml'],
-              fuente=fu(FLX_C, '4.2 Niños a partir de los 8 años: "La dosis inicial es de 10 mg/día ... '
-                               'Después de una o dos semanas se puede incrementar la dosis hasta 20 mg/día. '
-                               'La experiencia en ensayos clínicos con dosis diarias mayores de 20 mg es mínima"')),
+              fuente=fu(P, '4.2 Niños a partir de 8 años y Pediamécum: dosis inicial 10 mg/día; '
+                           'a las 1-2 semanas incrementar a 20 mg/día; máx 20 mg/día')),
     ]
     discrepancias_ = [
         discrepancia('Techo pediátrico en depresión y TOC',
@@ -650,12 +646,12 @@ def amitriptilina():
               condicion='10 a 20 mg al acostarse. Administrar 1-2 horas antes de acostarse. El tratamiento no debe superar los 3 meses sin revisión médica',
               texto='10-20 mg al acostarse (máx. 20 mg/día; no superar 3 meses seguidos)',
               presentaciones=['comprimido-10-mg'],
-              fuente=fu(AMI, '4.2 Niños de 6 a 10 años: "10 mg ‑ 20 mg al día" y Pediamécum: "10-20 mg al acostarse. No exceder 3 meses sin revisión"')),
+              fuente=fu(P, '4.2 Niños de 6 a 10 años y Pediamécum: 10 mg ‑ 20 mg al acostarse; máx 20 mg/día')),
         dosis('Enuresis nocturna (niños y adolescentes ≥11 años)', 'pediatrico', 'fija', 'mg', min=25, max=50, tomas=1,
               intervalo_h=24, tope_dia=(50, 'mg'),
               condicion='25 a 50 mg al acostarse. Administrar 1-2 horas antes de acostarse. No superar los 3 meses sin revisión médica',
               texto='25-50 mg al acostarse (máx. 50 mg/día; no superar 3 meses seguidos)',
-              fuente=fu(AMI, '4.2 Niños ≥11 años: "25 mg – 50 mg al día" y Pediamécum: "25-50 mg por la noche"')),
+              fuente=fu(P, '4.2 Niños ≥11 años y Pediamécum: 25 mg – 50 mg al día antes de acostarse; máx 50 mg/día')),
     ]
     return ficha_oral(
         'amitriptilina', 'Amitriptilina', 'antidepresivo', presentaciones, dosis_,
@@ -725,6 +721,12 @@ def venlafaxina():
               texto='Inicial 75 mg/día en 2-3 tomas con comida; titular cada 2 semanas hasta máximo 375 mg/día',
               fuente=fu(VEN_37, '4.2 Adultos: "La dosis inicial recomendada de venlafaxina de liberación inmediata es de 75 mg/día '
                                 'en dos o tres dosis divididas tomadas con comida ... hasta una dosis máxima de 375 mg/día"')),
+        dosis('Trastorno depresivo mayor resistente (adolescentes >40 kg, uso fuera de ficha)', 'adulto', 'fija', 'mg',
+              min=37.5, max=75, tomas=2, intervalo_h=12, tope_dia=(75, 'mg'), estatus='off_label',
+              condicion='Pediamécum: baja eficacia y aumento de ideación suicida en <18 años; reservar exclusivamente para pacientes '
+                        'sin respuesta a fluoxetina o sertralina. Dosis inicial 12,5-37,5 mg/día; titular con alimentos hasta máx. 75 mg/día',
+              texto='Inicial 12,5-37,5 mg/día; titular semanalmente hasta máximo 75 mg/día en 2-3 tomas con comida',
+              fuente=fu(P, 'Pediamécum: "Dosis y Pautas: Dosis de inicio: 12,5 mg/24 h-37,5 mg/24 h ... >40 kg: hasta un máximo de 75 mg/día (E: off-label)"')),
     ]
     return ficha_oral(
         'venlafaxina', 'Venlafaxina', 'antidepresivo', presentaciones, dosis_,
@@ -871,16 +873,15 @@ def risperidona():
                         '(rango 0,25-0,75 mg/día). Pediamécum fija tope en ≤20 kg de 1,5 mg/día y en >20 kg de 2,5 mg/día',
               texto='Inicial 0,25 mg/día; óptima 0,5 mg/día (rango 0,25-0,75 mg/día); máximo 1,5 mg/día',
               presentaciones=['solucion-oral-1-mg-ml'],
-              fuente=fu(RIS_S, '4.2 Población pediátrica: "pacientes de <50 kg de peso se recomienda una dosis inicial de 0,25 mg una vez al día ... '
-                               'dosis óptima es de 0,5 mg una vez al día ... rango de 0,25 a 0,75 mg/día" '
-                               'y Pediamécum: "≤20 kg ... Dosis máxima 1,5 mg/día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis inicial 0,25 mg una vez al día; '
+                           'dosis óptima 0,5 mg/día; máximo 1,5 mg/día')),
         dosis('Irritabilidad y agresión en autismo (niños ≥5 años y adolescentes ≥50 kg)', 'pediatrico', 'fija', 'mg',
               min=0.5, max=0.5, tomas=1, intervalo_h=24, tope_dia=(3.5, 'mg'),
               condicion='Inicio 0,5 mg una vez al día. Incrementar en 0,5 mg cada ≥14 días. Dosis óptima habitual: 1 mg/día '
                         '(rango 0,5-1,5 mg/día). Pediamécum fija tope en >45 kg de 3,5 mg/día',
               texto='Inicial 0,5 mg/día; óptima 1 mg/día (rango 0,5-1,5 mg/día); máximo 3,5 mg/día',
-              fuente=fu(RIS_S, '4.2 Población pediátrica: "pacientes de ≥50 kg ... dosis inicial de 0,5 mg una vez al día ... '
-                               'dosis óptima es de 1 mg una vez al día" y Pediamécum: "Niños >45 kg ... Dosis máxima: 3,5 mg/día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: dosis inicial 0,5 mg una vez al día; '
+                           'dosis óptima 1 mg/día; máximo 3,5 mg/día')),
     ]
     return ficha_oral(
         'risperidona', 'Risperidona', 'antipsicotico', presentaciones, dosis_,
@@ -953,7 +954,7 @@ def diazepam():
               condicion='Norma general: 0,1-0,3 mg/kg al día repartidos en 2 o 3 tomas. CIMA cita también 2 a 2,5 mg 1 o 2 veces al día. '
                         'No recomendado en menores de 6 meses. Pediamécum contempla hasta 0,8-1 mg/kg/día',
               texto='0,1-0,3 mg/kg/día en 2-3 tomas diarias (tope ficha técnica CIMA: 0,3 mg/kg/día)',
-              fuente=fu(DZP_C, '4.2 Población pediátrica: "como norma general 0,1-0,3 mg/kg al día"')),
+              fuente=fu(P, '4.2 Población pediátrica y Pediamécum: como norma general 0,1-0,3 mg/kg al día en 2 o 3 tomas')),
     ]
     discrepancias_ = [
         discrepancia('Techo pediátrico oral',

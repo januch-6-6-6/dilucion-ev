@@ -79,10 +79,9 @@ dosis:
   presentaciones:
   - solucion-oral-1-mg-ml
   fuente:
-    ref: CIMA-RISPERIDONA-62096
-    detalle: '4.2 Población pediátrica: "pacientes de <50 kg de peso se recomienda una dosis inicial de 0,25 mg una vez al
-      día ... dosis óptima es de 0,5 mg una vez al día ... rango de 0,25 a 0,75 mg/día" y Pediamécum: "≤20 kg ... Dosis máxima
-      1,5 mg/día"'
+    ref: PEDIAMECUM-RISPERIDONA
+    detalle: '4.2 Población pediátrica y Pediamécum: dosis inicial 0,25 mg una vez al día; dosis óptima 0,5 mg/día; máximo
+      1,5 mg/día'
 - indicacion: Irritabilidad y agresión en autismo (niños ≥5 años y adolescentes ≥50 kg)
   poblacion: pediatrico
   regimen: fija
@@ -99,9 +98,9 @@ dosis:
     mg/día). Pediamécum fija tope en >45 kg de 3,5 mg/día'
   texto: Inicial 0,5 mg/día; óptima 1 mg/día (rango 0,5-1,5 mg/día); máximo 3,5 mg/día
   fuente:
-    ref: CIMA-RISPERIDONA-62096
-    detalle: '4.2 Población pediátrica: "pacientes de ≥50 kg ... dosis inicial de 0,5 mg una vez al día ... dosis óptima es
-      de 1 mg una vez al día" y Pediamécum: "Niños >45 kg ... Dosis máxima: 3,5 mg/día"'
+    ref: PEDIAMECUM-RISPERIDONA
+    detalle: '4.2 Población pediátrica y Pediamécum: dosis inicial 0,5 mg una vez al día; dosis óptima 1 mg/día; máximo 3,5
+      mg/día'
 pediatria:
   estado: con_dosis
 discrepancias: []

@@ -76,10 +76,9 @@ dosis:
   presentaciones:
   - gotas-2-5-mg-ml
   fuente:
-    ref: CIMA-CLONAZEPAM-79769
-    detalle: '4.2 Población pediátrica: "La dosis inicial para lactantes y niños de hasta 10 años (o hasta 30 kg de peso)
-      es de 0,01-0,03 mg/kg/día, divididos en 2 o 3 tomas ... mantenimiento aproximada de 0,1 mg/kg/día" y Pediamécum: "Dosis
-      máxima 0,2 mg/kg/día"'
+    ref: PEDIAMECUM-CLONAZEPAM
+    detalle: '4.2 Población pediátrica y Pediamécum: dosis inicial 0,01-0,03 mg/kg/día; mantenimiento aproximado 0,1 mg/kg/día;
+      máximo 0,2 mg/kg/día'
 - indicacion: 'Epilepsia: inicio (niños y adolescentes de 10 a 16 años)'
   poblacion: pediatrico
   regimen: fija

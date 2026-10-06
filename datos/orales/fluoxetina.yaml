@@ -67,9 +67,9 @@ dosis:
   presentaciones:
   - solucion-oral-4-mg-ml
   fuente:
-    ref: CIMA-FLUOXETINA-63499
-    detalle: '4.2 Niños a partir de los 8 años: "La dosis inicial es de 10 mg/día ... Después de una o dos semanas se puede
-      incrementar la dosis hasta 20 mg/día. La experiencia en ensayos clínicos con dosis diarias mayores de 20 mg es mínima"'
+    ref: PEDIAMECUM-FLUOXETINA
+    detalle: '4.2 Niños a partir de 8 años y Pediamécum: dosis inicial 10 mg/día; a las 1-2 semanas incrementar a 20 mg/día;
+      máx 20 mg/día'
 pediatria:
   estado: con_dosis
 discrepancias:

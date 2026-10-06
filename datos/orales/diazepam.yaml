@@ -75,8 +75,8 @@ dosis:
     No recomendado en menores de 6 meses. Pediamécum contempla hasta 0,8-1 mg/kg/día'
   texto: '0,1-0,3 mg/kg/día en 2-3 tomas diarias (tope ficha técnica CIMA: 0,3 mg/kg/día)'
   fuente:
-    ref: CIMA-DIAZEPAM-80699
-    detalle: '4.2 Población pediátrica: "como norma general 0,1-0,3 mg/kg al día"'
+    ref: PEDIAMECUM-DIAZEPAM
+    detalle: '4.2 Población pediátrica y Pediamécum: como norma general 0,1-0,3 mg/kg al día en 2 o 3 tomas'
 pediatria:
   estado: con_dosis
 discrepancias:

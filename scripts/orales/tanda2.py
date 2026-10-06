@@ -1104,8 +1104,7 @@ def metoclopramida():
               min=0.1, max=0.15, tomas=3, presentaciones=['solucion-1-mg-ml'],
               condicion='Segunda línea; hasta 3 veces al día con intervalo mínimo de 6 h; máximo 0,5 mg/kg en 24 h; máximo 5 días. Contraindicada <1 año',
               texto='0,1-0,15 mg/kg hasta tres veces al día (máximo 0,5 mg/kg/24 h)',
-              fuente=fu(MET_S, '4.2 NVIQ (1-18 años): "0,1 a 0,15 mg/kg de peso corporal, que se puede repetir hasta tres veces al día ... La dosis '
-                               'máxima en 24 horas es 0,5 mg/kg"')),
+              fuente=fu(P, 'Prevención de náuseas y vómitos (1-18 años): 0,1 a 0,15 mg/kg cada 8 horas; máximo 0,5 mg/kg/24 h (Pediamécum y AEMPS)')),
         dosis('Prevención de náuseas y vómitos retardados por quimioterapia (1-18 años), tabla por edad y peso', 'pediatrico', 'por_edad', 'mg',
               presentaciones=['solucion-1-mg-ml'],
               texto='1-3 años (10-14 kg): 1 mg (1 ml); 3-5 años (15-19 kg): 2 mg (2 ml); 5-9 años (20-29 kg): 2,5 mg (2,5 ml); 9-18 años '

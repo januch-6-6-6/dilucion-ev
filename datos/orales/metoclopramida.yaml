@@ -63,9 +63,9 @@ dosis:
   presentaciones:
   - solucion-1-mg-ml
   fuente:
-    ref: CIMA-METOCLOPRAMIDA-69266
-    detalle: '4.2 NVIQ (1-18 años): "0,1 a 0,15 mg/kg de peso corporal, que se puede repetir hasta tres veces al día ... La
-      dosis máxima en 24 horas es 0,5 mg/kg"'
+    ref: PEDIAMECUM-METOCLOPRAMIDA
+    detalle: 'Prevención de náuseas y vómitos (1-18 años): 0,1 a 0,15 mg/kg cada 8 horas; máximo 0,5 mg/kg/24 h (Pediamécum
+      y AEMPS)'
 - indicacion: Prevención de náuseas y vómitos retardados por quimioterapia (1-18 años), tabla por edad y peso
   poblacion: pediatrico
   regimen: por_edad

@@ -61,6 +61,25 @@ dosis:
     ref: CIMA-VENLAFAXINA-60666
     detalle: '4.2 Adultos: "La dosis inicial recomendada de venlafaxina de liberación inmediata es de 75 mg/día en dos o tres
       dosis divididas tomadas con comida ... hasta una dosis máxima de 375 mg/día"'
+- indicacion: Trastorno depresivo mayor resistente (adolescentes >40 kg, uso fuera de ficha)
+  poblacion: adulto
+  regimen: fija
+  unidad: mg
+  min: 37.5
+  max: 75
+  tomasPorDia: 2
+  intervaloH: 12
+  topeDiario:
+    valor: 75
+    unidad: mg
+  estatus: off_label
+  condicion: 'Pediamécum: baja eficacia y aumento de ideación suicida en <18 años; reservar exclusivamente para pacientes
+    sin respuesta a fluoxetina o sertralina. Dosis inicial 12,5-37,5 mg/día; titular con alimentos hasta máx. 75 mg/día'
+  texto: Inicial 12,5-37,5 mg/día; titular semanalmente hasta máximo 75 mg/día en 2-3 tomas con comida
+  fuente:
+    ref: PEDIAMECUM-VENLAFAXINA
+    detalle: 'Pediamécum: "Dosis y Pautas: Dosis de inicio: 12,5 mg/24 h-37,5 mg/24 h ... >40 kg: hasta un máximo de 75 mg/día
+      (E: off-label)"'
 pediatria:
   estado: solo_adulto
   motivo: 'No recomendada en niños y adolescentes: los ensayos clínicos no demostraron eficacia en depresión y evidenciaron
