@@ -41,6 +41,17 @@ export default function Acerca() {
           </li>
         ))}
       </ul>
+      <h3>Medicamentos orales (APS)</h3>
+      <p>
+        La sección de medicamentos orales tiene un propósito estrictamente de formación. Las fuentes primarias utilizadas
+        (CIMA y Pediamécum) son españolas y <strong>no son chilenas</strong>. El registro sanitario ante el Instituto de Salud Pública (ISP)
+        de Chile se encuentra actualmente <strong>sin verificar</strong> para estas presentaciones.
+      </p>
+      <p>
+        El aviso de «fuente única» señala fichas en las que la información posológica proviene de una sola institución (habitualmente CIMA),
+        al no disponer de monografía pediátrica independiente en Pediamécum. En dichos casos se recomienda contrastar especialmente la dosis con
+        guías clínicas y protocolos institucionales.
+      </p>
       <p>Proyecto de formación y portafolio de Héctor Salvo Agüero (TENS e Ingeniero en Informática).</p>
       <p>
         Privacidad: la app cuenta visitas de forma anónima con{' '}

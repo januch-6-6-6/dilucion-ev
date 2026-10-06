@@ -18,14 +18,17 @@ Aplicación web instalable (PWA) para **preparar y administrar medicamentos endo
 Versión 0.2: 89 medicamentos en tres tandas — urgencia/prehospitalario (42), antibióticos, antivirales y antifúngicos (25) y hospitalarios (22) — con compatibilidad en Y para todos los pares (Stabilis).
 Revisión clínica del autor aplicada el 2-oct-2026: decisiones documentadas en `informes/v0.2-decisiones-revision.md` y aplicadas en `scripts/fichas/revision.py`; discrepancias entre fuentes en `informes/v0.2-revision-clinica.md`. Las fichas **no están firmadas como validadas**: falta la validación de un químico farmacéutico antes de cualquier uso en terreno.
 
+**Módulo Orales (APS) — rama `orales-v1`:** 79 medicamentos orales del arsenal de Atención Primaria de Salud chilena con calculadora pediátrica por peso/edad, dosis fija de adulto, conversión a presentaciones líquidas (jarabes y gotas) y cotejo de fuentes (CIMA y Pediamécum). En proceso de revisión clínica antes de publicación (`informes/orales-v1-revision-pendiente.md`).
+
 ## Desarrollo
 
 ```bash
 npm install
-npm run dev        # servidor local
-npm test           # pruebas (cálculos, validador, pantallas y build PWA)
-npm run validar    # valida datos/medicamentos/*.yaml contra datos/fuentes.yaml
-npm run build      # valida datos y compila
+npm run dev                  # servidor local
+npm test                     # pruebas (cálculos, validador, pantallas y build PWA)
+npm run validar              # valida medicamentos EV y fichas orales
+python3 scripts/generar-orales.py  # regenera datos/orales/*.yaml y fuentes-orales.yaml
+npm run build                # valida datos y compila
 ```
 
 ### Agregar un medicamento

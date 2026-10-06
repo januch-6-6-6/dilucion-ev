@@ -18,4 +18,10 @@ describe('Acerca', () => {
     await userEvent.selectOptions(screen.getByLabelText('Tema'), 'oscuro')
     expect(document.documentElement).toHaveAttribute('data-theme', 'oscuro')
   })
+
+  it('explica el propósito y las advertencias de la sección de medicamentos orales', () => {
+    render(<MemoryRouter><Acerca /></MemoryRouter>)
+    expect(screen.getByText(/no son chilenas/i)).toBeInTheDocument()
+    expect(screen.getByText(/sin verificar/i)).toBeInTheDocument()
+  })
 })
