@@ -25,4 +25,14 @@ describe('App', () => {
     expect(within(nav).getByRole('link', { name: 'EV' })).not.toHaveAttribute('aria-current')
     window.location.hash = ''
   })
+  it('la presentación de la portada aparece solo en el inicio', () => {
+    window.location.hash = '#/'
+    const { unmount } = render(<App />)
+    expect(screen.getByRole('banner')).toHaveTextContent(/Para estudiantes, TENS y equipos de enfermería en formación: 89 medicamentos/)
+    unmount()
+    window.location.hash = '#/acerca'
+    render(<App />)
+    expect(screen.getByRole('banner')).not.toHaveTextContent('Para estudiantes')
+    window.location.hash = ''
+  })
 })

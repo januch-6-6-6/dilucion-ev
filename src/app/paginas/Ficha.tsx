@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { fuentes, obtenerFicha } from '../../datos/cargar'
 import type { Ficha as TFicha } from '../../esquema/ficha'
@@ -98,6 +98,16 @@ function Administrar({ f }: { f: TFicha }) {
   )
 }
 
+/** Permite cortar la línea después de cada «/» (p. ej. «Piperacilina/tazobactam») sin cambiar el texto. */
+function conCortes(texto: string) {
+  return texto.split('/').map((parte, i, partes) => (
+    <Fragment key={i}>
+      {parte}
+      {i < partes.length - 1 && <>/<wbr /></>}
+    </Fragment>
+  ))
+}
+
 function Compatibilidad({ f }: { f: TFicha }) {
   if (f.compatibilidad.length === 0) return <p className="sin-datos">sin datos en las fuentes</p>
   return (
@@ -112,7 +122,7 @@ function Compatibilidad({ f }: { f: TFicha }) {
       <tbody>
         {f.compatibilidad.map((c) => (
           <tr key={c.con} className={`estado-${c.estado}`}>
-            <td>{obtenerFicha(c.con)?.nombre ?? c.con}</td>
+            <td>{conCortes(obtenerFicha(c.con)?.nombre ?? c.con)}</td>
             <td>
               <span className={`pildora pildora-${c.estado}`}>{ESTADO[c.estado]}</span>
             </td>

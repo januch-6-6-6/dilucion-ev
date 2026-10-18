@@ -234,3 +234,64 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .aviso-fuente-unica { margin: 12px 0; }
 .etiqueta.off-label { background: var(--ambar-suave); color: var(--ambar-texto); }
 .tabla-discrepancias ul { margin: 0; padding-left: 16px; }
+
+/* ====== Portada (inicio) ====== */
+.cabecera-portada { padding-bottom: 48px; }
+.presentacion { margin-top: 18px; }
+.presentacion-titular { margin: 0; font-size: 1.32rem; line-height: 1.25; font-weight: 800; letter-spacing: -0.015em; max-width: 30ch; text-wrap: balance; }
+.presentacion-para { margin: 8px 0 0; font-size: 0.95rem; opacity: 0.95; max-width: 52ch; }
+.presentacion-chips { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; padding: 0; margin: 12px 0 0; }
+.presentacion-chips li {
+  font-size: 0.8rem; font-weight: 700; padding: 4px 10px; border-radius: 999px;
+  background: rgb(15 23 42 / 0.22); border: 1px solid rgb(255 255 255 / 0.3);
+}
+.presentacion-chips li::before { content: '✓ '; }
+.aviso-portada { margin: 12px 0 0; font-size: 0.85rem; padding: 10px 14px; }
+
+.beneficios-lista { list-style: none; padding: 0; margin: 14px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.beneficio {
+  display: flex; flex-direction: column; gap: 8px; padding: 12px; border-radius: 16px;
+  background: var(--superficie); box-shadow: var(--sombra); border: 1px solid var(--borde);
+}
+.beneficio strong { display: block; font-size: 0.95rem; line-height: 1.25; text-wrap: balance; }
+.beneficio-texto { display: block; margin-top: 2px; font-size: 0.82rem; line-height: 1.35; color: var(--suave); }
+.beneficio-icono { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: var(--c-suave); color: var(--c-texto); }
+@media (min-width: 640px) {
+  .presentacion-titular { font-size: 1.6rem; }
+  .beneficios-lista { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+/* Carrusel de capturas (estilo ficha de Google Play) */
+.capturas { margin-top: 8px; }
+.capturas-cabeza { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.capturas-botones { display: flex; gap: 6px; margin-top: 16px; }
+.capturas-botones button {
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--borde); background: var(--superficie); color: var(--texto);
+  font-size: 1.5rem; line-height: 1; cursor: pointer; box-shadow: var(--sombra);
+}
+.capturas-carril {
+  list-style: none; margin: 0 -16px; padding: 4px 16px 14px; display: flex; gap: 14px; overflow-x: auto;
+  scroll-snap-type: x mandatory; scroll-padding-inline: 16px; overscroll-behavior-x: contain; scrollbar-width: thin;
+}
+.capturas-carril:focus-visible { outline-offset: -3px; }
+.capturas-carril li { flex: 0 0 auto; width: min(58vw, 220px); scroll-snap-align: start; }
+.capturas-carril img {
+  display: block; width: 100%; height: auto; aspect-ratio: 1 / 2; border-radius: 18px; background: var(--superficie-2);
+  box-shadow: var(--sombra); border: 1px solid var(--borde);
+}
+@media (prefers-reduced-motion: reduce) {
+  .item-medicamento { transition: none; }
+}
+
+/* La tabla de compatibilidad no debe ensanchar la página en 360 px: los nombres largos se cortan
+   y, si aun así no cabe, la tabla se desplaza dentro de su panel. */
+[role='tabpanel'] { overflow-x: auto; }
+.compatibilidad td:first-child { overflow-wrap: break-word; }
+.etiqueta { white-space: nowrap; }
+@media (max-width: 420px) {
+  [role='tabpanel'] { padding-inline: 10px; }
+  .compatibilidad td, .compatibilidad th { padding: 9px 3px; }
+  .compatibilidad .pildora { padding: 3px 6px; font-size: 0.72rem; }
+  .compatibilidad td:first-child { font-size: 0.9rem; }
+  .compatibilidad cite { font-size: 0.7rem; }
+}

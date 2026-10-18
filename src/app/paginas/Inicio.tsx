@@ -4,6 +4,8 @@ import { buscar } from '../../busqueda/buscar'
 import { medicamentos, obtenerFicha } from '../../datos/cargar'
 import type { Ficha } from '../../esquema/ficha'
 import ListaMedicamentos from '../componentes/ListaMedicamentos'
+import { Beneficios, Capturas } from '../componentes/Portada'
+import { AVISO } from '../aviso'
 import { colorGrupo } from '../colores'
 import { AMBITOS, etiquetaGrupo } from '../etiquetas'
 import { leerFavoritos } from '../favoritos'
@@ -39,10 +41,16 @@ export default function Inicio() {
         />
       </label>
 
+      <p className="aviso-fijo aviso-portada" role="note">
+        {AVISO}
+      </p>
+
       {texto ? (
         <ListaMedicamentos fichas={resultados} titulo="Resultados de búsqueda de medicamentos" />
       ) : (
         <>
+          <Beneficios />
+          <h2 className="titulo-seccion">Por ámbito</h2>
           <nav aria-label="Ámbitos" className="accesos">
             {Object.entries(AMBITOS).map(([id, nombre]) => (
               <Link key={id} to={`/ambito/${id}`} className="acceso acceso-ambito" data-ambito={id}>
@@ -62,6 +70,7 @@ export default function Inicio() {
               <ListaMedicamentos fichas={recientes} titulo="Medicamentos consultados recientemente" />
             </>
           )}
+          <Capturas />
           <h2 className="titulo-seccion">Por grupo</h2>
           <nav aria-label="Grupos" className="accesos">
             {grupos.map((g) => (

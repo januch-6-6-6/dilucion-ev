@@ -25,8 +25,8 @@ export default defineConfig({
           { src: 'icono-512.png', sizes: '512x512', type: 'image/png', purpose: 'any maskable' },
         ],
       },
-      // og.png es solo la vista previa para redes sociales: no hace falta guardarla para uso sin internet
-      workbox: { globPatterns: ['**/*.{js,css,html,png,svg,webmanifest}'], globIgnores: ['og.png'] },
+      // capturas/*.webp se guardan para que la portada se vea igual sin internet; og.png es solo la vista previa para redes sociales: no hace falta guardarla para uso sin internet
+      workbox: { globPatterns: ['**/*.{js,css,html,png,svg,webp,webmanifest}'], globIgnores: ['og.png'] },
     }),
   ],
   test: {

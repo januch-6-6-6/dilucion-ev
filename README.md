@@ -6,6 +6,18 @@ Aplicación web instalable (PWA) para **preparar y administrar medicamentos endo
 
 > **Material de formación. No reemplaza el protocolo local ni la indicación médica. Verifique siempre con la fuente y la normativa de su institución.**
 
+## Capturas
+
+<p>
+  <img src="public/capturas/busqueda.webp" width="180" alt="Encuentra el medicamento en segundos: búsqueda por nombre genérico o comercial">
+  <img src="public/capturas/ficha.webp" width="180" alt="Cómo preparar, con la fuente citada: ficha de noradrenalina">
+  <img src="public/capturas/calculadora.webp" width="180" alt="De la dosis a los ml/h: calculadora de noradrenalina">
+  <img src="public/capturas/compatibilidad.webp" width="180" alt="Compatibilidad en Y de un vistazo: tabla de compatibilidad de noradrenalina">
+  <img src="public/capturas/oscuro.webp" width="180" alt="Modo oscuro para el turno de noche: ficha de fentanilo">
+</p>
+
+Son capturas reales de la app en un celular de 360 px, montadas en un marco de teléfono (estilo ficha de Google Play). También se muestran en la portada, en el carrusel «Así funciona».
+
 ## Qué la hace distinta
 
 - **Cada dato clínico tiene fuente citada** (protocolo chileno, ficha técnica oficial, etiqueta FDA, Stabilis, Pediamécum) y la app muestra las discrepancias entre fuentes.
@@ -30,6 +42,18 @@ npm run validar              # valida medicamentos EV y fichas orales
 python3 scripts/generar-orales.py  # regenera datos/orales/*.yaml y fuentes-orales.yaml
 npm run build                # valida datos y compila
 ```
+
+### Regenerar las capturas y la imagen Open Graph
+
+Cuando cambie la interfaz, rehacer `public/capturas/*.webp` (540×1080, ≤ 120 KB, lo revisa una prueba) y `public/og.png` (1200×627):
+
+```bash
+npm run build
+PLAYWRIGHT=/ruta/a/node_modules/playwright/index.mjs node scripts/capturas/generar-capturas.mjs
+npm run build                # para que dist/ incluya las capturas nuevas
+```
+
+El script levanta `vite preview`, bloquea el contador de visitas, da por aceptado el aviso inicial y saca las pantallas con Chromium. Necesita ImageMagick (`magick`). Los titulares salen de `src/app/capturas.ts`.
 
 ### Agregar un medicamento
 
