@@ -1,0 +1,16 @@
+{
+ "molecula": "LATANOPROST",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 34,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "1231763001",
+   "nombre": "CATIOLANZE 50 MICROGRAMOS/ML COLIRIO EN EMULSION",
+   "forma": "COLIRIO EN EMULSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/1231763001/FT_1231763001.html"
+  }
+ ]
+}

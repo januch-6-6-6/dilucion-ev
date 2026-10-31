@@ -1,0 +1,16 @@
+{
+ "molecula": "BRIMONIDINA + TIMOLOL",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 8,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "67438",
+   "nombre": "COMBIGAN 2 mg/ml + 5 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/67438/FT_67438.html"
+  }
+ ]
+}

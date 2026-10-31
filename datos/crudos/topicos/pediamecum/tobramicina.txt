@@ -1,0 +1,130 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/tobramicina
+Volver Tobramicina
+ Ficha General Presentaciones Fecha de actualización: Enero 2021 Descripción Antibiótico aminoglucósido que ejerce su efecto frente a gran variedad de bacilos aeróbicos gramnegativos así como frente algunos bacilococos gramnegativos y cocos grampositivos. Ejerce un efecto bactericida sobre Enterobacteriaceae , pero muestra actividad bacteriostática frente a muchos microorganismos. Ejerce buena actividad frente a Pseudomona y menor efecto que la gentamicina sobre Staphylococcus aureus . Tiene efecto concentración-dependiente, efecto posantibiótico prolongado y acción sinérgica con antibióticos betalactámicos.
+ Uso Clínico Tratamiento de infecciones graves producidas por bacterias aeróbicas grampositivas susceptibles o por bacilos gramnegativos, incluyendo Pseudomonas aeruginosa , y enterobacterias en recién nacidos y niños ( A ).
+ Las principales indicaciones son las siguientes:
+ Septicemia (incluyendo bacteriemia), causada por P. aeruginosa , E. coli y Klebsiella sp.
+ Infecciones de la piel y tejidos blandos (incluyendo quemaduras).
+ Infecciones de las vías respiratorias (neumonía, bronconeumonía y bronquitis aguda) causadas por P. aeruginosa , Klebsiella sp., Enterobacter sp., Serratia sp., E. coli y S. aureus. 
+ Infecciones del SNC, incluyendo meningitis y ventriculitis (aunque las concentraciones de tobramicina alcanzadas en el LCR son generalmente bajas).
+ Infecciones complicadas y recurrentes de las vías urinarias: pielonefritis y cistitis.
+ Infecciones óseas, incluyendo articulaciones.
+ Infecciones intraabdominales, incluyendo peritonitis.
+ Tobramicina a menudo representa una alternativa útil a los β-lactámicos en aquellos pacientes que tienen alergia a estos.
+ En solución para inhalación: tratamiento de infección pulmonar crónica por P. aeruginosa con ﬁbrosis quística en niños >6 años ( A ).
+ Dosis y Pautas de Administración Neonatos: 
+ Dosis según edad gestacional y días de vida:
+ Edad gestacional posmenstrual Días de vida mg/kg Intervalo 
+ ≤29 semanas* 0-7
+ 8-28
+ ≥29 5
+ 4
+ 4 /48 h
+/36 h
+/24 h 
+ 30-34 0-7
+ ≥8 4,5
+ 4 /36 h
+/24 h 
+ ≥35 Todos 4 /24 h 
+ *O asﬁxia signiﬁcativa, ductus o tratamiento con indometacina.
+ Vía de administración: intravenosa (IV) en 30 minutos o intramuscular (IM) (absorción variable).
+ Lactantes y niños: 
+ Dosis: 4,5-7,5 mg/kg/24 h (o bien 2-2,5 mg/kg cada 6-8 h).
+ En infecciones respiratoria y pacientes con ﬁbrosis quística, dosis de 10-12 mg/kg/24 h (o bien 3,3 mg/kg/8 h) IV.
+ Endocarditis, en niños y adolescentes: 3-6 mg/kg/día cada 8 horas, en régimen de combinación con otros antibióticos.
+ Infecciones intraabdominales complicadas (lactantes, niños y adolescentes): 3-7,5 mg/kg/día, puede ser dividida cada 8 h.
+ Infección SNC: lactantes y niños, 7,5 mg/kg/día, divididos cada 24 h; adolescentes, 5 mg/kg/día cada 8 h.
+ En infección crónica por P. aeruginosa en pacientes >6 años con ﬁbrosis quística; administración por vía inhalatoria: 300 mg/12 horas, 28 días, repetir tras 28 días de descanso y continuar de forma cíclica (de 3-4 semanas a 6-12 meses).
+ Insuﬁciencia renal: deben ser monitorizados para adecuar las concentraciones plasmáticas terapéuticas, o bien disminuyendo la dosis o incrementando el intervalo de dosiﬁcación entre la dosis:
+ ClCr 40-60 ml/min: 5 mg/kg/36 h.
+ ClCr 20-40 ml/min: 5 mg/kg/48 h.
+ ClCr <20 ml/min: 3-4 mg/kg/48 h.
+ Lexi Comp:
+ ClCr >50 ml/min, no se requiere ajuste.
+ ClCr 30-50 ml/min, administrar cada 12-18 h.
+ ClCr 10-29 ml/min, administrar cada 18-24 h.
+ ClCr <10 ml/min, administrar cada 48-72 h.
+ Hemodiálisis: 1,25-1,75 mg/kg/dosis posdiálisis.
+ Monitorización en pacientes con infecciones graves y en casos de insuﬁciencia renal (mantener valle inferior a 1 mg/l) es aconsejable la monitorización de los niveles plasmáticos de tobramicina.
+ Ajuste de dosis en neonatos: 
+ Nivel a las 24 h (µg/ml) Vida media Intervalo sugerido 
+ ≤1 8 h /24 h 
+ 1,1-2,3 12 h /36 h 
+ 2,4-3,2 15 h /48 h 
+ ≥3,3 Medir en 24 h 
+ Rango terapéutico:
+ Pico: 5-10 µg /ml y valle: <2 µg/ml.
+ Extracciones:
+ Nivel valle: antes de la siguiente dosis.
+ Nivel pico: 30 min después de terminar la infusión (anotar hora de inicio de infusión, duración y hora de toma de muestra).
+ Duración: la duración del tratamiento no debe superar los 10 días.
+ Administración 
+ Intravenosa directa en bolo de 15 minutos. Administrar por esta vía preferiblemente la solución a 3 mg/ml.
+ Perfusión intravenosa: diluida, en 30-60 minutos (recomendada en neonatos).
+ Intramuscular: administrar así a la máxima concentración permitida (40 mg/ml).
+ Contraindicaciones Hipersensibilidad a aminoglucósidos o a alguno de los excipientes incluidos.
+ Precauciones Se administrará únicamente cuando no exista otra alternativa terapéutica y se pueda realizar monitorización.
+ Usar con precaución si existe fallo renal o deterioro auditivo o vestibular. El riesgo de nefrotoxicidad aumenta con fallo renal, altas dosis o tratamientos prolongados, o con fármacos concomitantes nefrotóxicos.
+ Precaución si presenta hipocalcemia o miastenia gravis , y en trastornos que cursen con debilidad muscular.
+ Monitorizar función renal y auditiva.
+ No utilizar en dosis única diaria en inmunocomprometidos.
+ Su uso en pacientes pediátricos en tratamiento con membrana de oxigenación extracorpórea (ECMO) puede alterar su farmacocinética; monitorizar las dosis y su ajuste.
+ Por vía inhalatoria existe riesgo de broncoespasmo, tinnitus y pérdidas auditivas (transitorias).
+ Riesgo de desarrollar cepas de P. aeruginosa resistentes a tobramicina IV.
+ Efectos secundarios No hay datos especíﬁcos en niños. Se describen solo los frecuentes (≥1/100, <1/10) o de relevancia clínica; para el resto, consultar ﬁcha técnica.
+ Se han descrito casos de hipersensibilidad, anafilaxia y lesiones dermatológicas.
+ Trastornos neurológicos: toxicidad del VIII pc, ototoxicidad (pérdida auditiva, tinnitus , vértigo) bloqueo neuromuscular (parálisis muscular aguda y apnea).
+ Trastornos renales: proteinuria, disminución del ﬁltrado glomerular, elevación de creatinina sérica, presencia de leucocitos o eritrocitos en la orina, aumento o disminución del volumen de orina, aumento de la sed, azotemia y oliguria.
+ Su uso prolongado se ha relacionado con sobreinfección fúngica y diarrea por C. difficile y colitis pseudomembranosa.
+ Interacciones Framacológicas Aumenta oto- y neurotoxicidad y bloqueo neuromuscular con otros aminoglucósidos o capreomicina. Los diuréticos potentes (furosemida, ácido etacrínico) potencian la ototoxicidad.
+ Anfotericina, clindamicina, vancomicina, cefalosporinas (segunda, tercera y cuarta generación, especialmente la cefalotina), agentes inmunológicos y citotóxicos (ciclosporina, cisplatino, daunorubicina) podrían aumentar el efecto nefrotóxico de gentamicina.
+ El efecto bloqueante neuromuscular de las sales de magnesio puede verse incrementado en pacientes tratados con tobramicina.
+ El uso simultáneo con analgésicos opiáceos puede ser aditivo con los efectos depresores respiratorios a nivel central.
+ El uso simultáneo o secuencial de antibióticos polipeptídicos (colistina, polimixina) con aminoglucósidos puede aumentar el riesgo de nefrotoxicidad o de bloqueo neuromuscular, que puede dar lugar a depresión o parálisis respiratoria (apnea).
+ La administración conjunta de tobramicina con inhibidores de la síntesis de prostaglandinas (por ejemplo, ácido acetilsalicílico) puede incrementar el riesgo de neurotoxicidad.
+ Puede disminuir el efecto terapéutico de la vacuna BCG, por lo que se debe evitar su uso simultáneo.
+ Vacuna antitifoidea: los antibióticos pueden disminuir la respuesta inmunológica de la vacuna de ﬁebre tifoidea atenuada (Ty21a). Se debe evitar su administración hasta al menos 24 horas tras suspender el tratamiento.
+ Datos Farmacéuticos Contenido en sodio: 15,4 mEq/l por cada 100 ml.
+ El preparado también contiene sulﬁtos, que pueden producir reacciones de anaﬁlaxia.
+ Preparación: 
+ Existen presentaciones listas para su uso, a 3 mg/ml. Las presentaciones concentradas deben diluirse posteriormente con suero ﬁsiológico al 0,9% o suero glucosado 5% hasta concentraciones entre 10 y 40 mg/ml.
+ Incompatibilidades: 
+ Incompatible en la misma solución con penicilinas, cefalosporinas y heparina.
+ Debido a la inactivación in vitro de los aminoglucósidos por los antibióticos betalactámicos, se recomienda administrarlos separados al menos 1 hora.
+ Conservación: conservar a temperatura ambiente los viales. La solución preparada se mantiene durante 24 h a temperatura ambiente y 96 h si es refrigerada.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace "Presentaciones" correspondiente a cada ﬁcha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 25/01/2021]. Disponible en: https://cima.aemps.es/cima/publico/lista.html 
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Aronoff GR, Bennett WM, Berns JS, et al . Drug prescribing in renal failure. Doping guidelines for adults and children. 5.ª edición. Filadelfia: American College of Physicians; 2007.
+ British Medical Association, Royal Pharmaceutical Sociedy of Great Britain, Royal College of Paediatrics and Child Health and Neonatal and Paediatric Pharmacists Group. BNF for children 2010-2011. Basingstoke (UK): BMJ Group, Pharmaceutical Press and RCPCH; 2011.
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson MICROMEDEX DRUGDEX® System. 1974-2012. Disponible en: http://www.thomsonhc.com/home/dispatch 
+ Phelps SJ, Hak EB, Crill CM. The teddy bear book: Pediatric injectable drugs. 8.ª edición. Bethesda, MD: American Society of Health System Pharmacists; 2007.
+ Trissel LA (ed.). Handbook on Injectable Drugs. 13.ª edición. Bethesda (MD): American Society of Health System Pharmacists; 2005.
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2012 [consultado el 25/01/2021]. Disponible en: www.uptodate.com 
+ Villa LF (e.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: enero de 2021.
+ La información disponible en cada una de las ﬁchas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas ﬁchas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/tobramicina . Consultado el 30 de octubre de 2026. BRAMITOB 300 mg/4 ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Chiesi España S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA TOBI PODHALER 28 mg POLVO PARA INHALACION (CAPSULA DURA)
+ Principio activo: TOBRAMICINA Laboratorio titular: Viatris Healthcare Limited Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA TOBRABACT 3,0 mg/ml COLIRIO EN SOLUCION
+ Principio activo: TOBRAMICINA Laboratorio titular: Medicom Healthcare Ireland Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBRADEX 1 MG/ML + 3 MG/ML COLIRIO EN SUSPENSIÓN
+ Principio activo: TOBRAMICINA, DEXAMETASONA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBRAMICINA NORMON 100 mg/2 ml SOLUCION INYECTABLE EFG
+ Principio activo: TOBRAMICINA SULFATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBRAMICINA NORMON 50 mg/2 ml SOLUCION INYECTABLE EFG
+ Principio activo: TOBRAMICINA SULFATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBREX UNGÜENTO OFTÁLMICO 3 MG/G POMADA OFTÁLMICA
+ Principio activo: TOBRAMICINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBREX 3 MG/ML COLIRIO EN SOLUCIÓN
+ Principio activo: TOBRAMICINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBREXAN 3 MG/ML COLIRIO EN SOLUCIÓN
+ Principio activo: TOBRAMICINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TOBRAMICINA ACCORD 300 mg / 5 ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Accord Healthcare S.L.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA TOBRAMICINA ALTAN 300 MG/5 ML SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA TOBRAMICINA SUN 300 MG/5 ML SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Sun Pharmaceutical Industries (Europe) B.V. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA TOBRAMICINA TEVA 300 mg/5 ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA URSITAN 3 MG/ML COLIRIO EN SOLUCION EN ENVASES UNIDOSIS
+ Principio activo: TOBRAMICINA Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA VANTOBRA 170 MG SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: TOBRAMICINA Laboratorio titular: Pari Pharma Gmbh Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antibióticos Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

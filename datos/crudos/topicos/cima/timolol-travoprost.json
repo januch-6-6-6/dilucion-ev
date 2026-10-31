@@ -1,0 +1,16 @@
+{
+ "molecula": "TIMOLOL + TRAVOPROST",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 7,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "106338004",
+   "nombre": "DUOTRAV 40 microgramos/ml + 5mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/106338004/FT_106338004.html"
+  }
+ ]
+}

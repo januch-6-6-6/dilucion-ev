@@ -1,0 +1,16 @@
+{
+ "molecula": "CICLOSPORINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 3,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "115990001",
+   "nombre": "IKERVIS 1 mg/ml colirio en emulsion",
+   "forma": "COLIRIO EN EMULSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/115990001/FT_115990001.html"
+  }
+ ]
+}

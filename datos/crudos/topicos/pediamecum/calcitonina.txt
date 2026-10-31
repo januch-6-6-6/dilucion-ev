@@ -1,0 +1,49 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/calcitonina
+Volver Calcitonina
+ Ficha General Presentaciones Fecha de actualización: Agosto 2020 Descripción La calcitonina es una hormona que se encuentra de forma natural en el organismo de los seres humanos y en los animales. Esta hormona regula el nivel de calcio en la sangre. La calcitonina es una hormona calciotrópica, que inhibe la resorción ósea por acción directa sobre los osteoclastos. Mediante la inhibición de la actividad de los osteoclastos, vía sus receptores específicos, la calcitonina de salmón disminuye la resorción ósea. Contiene la sustancia activa calcitonina de salmón sintética. La calcitonina se utiliza para revertir la pérdida ósea y también podría ayudar a la formación ósea
+ Uso Clínico Prevención de la pérdida de masa ósea en situaciones de inmovilización repentina. Por ejemplo, pacientes que deben guardar cama debido a una fractura ( E: off-label ).
+ Enfermedad de Paget en pacientes que no pueden recibir otros tratamientos para esta enfermedad, como es el caso de los pacientes con problemas graves de riñón o los que no responden a los tratamientos apropiados ( E: off-label ).
+ Hipercalcemia debido al cáncer ( E: off-label ).
+ Osteogénesis imperfecta ( E: off-label ).
+ En los últimos años, el uso de calcitonina se menciona como eficaz en el tratamiento del dolor agudo debido a fracturas de compresión y en el dolor asociado a metástasis óseas ( E: off-label ).
+ Población pediátrica: no existe evidencia suficiente que avale el uso de calcitonina de salmón en afecciones asociadas a osteoporosis pediátrica. Por consiguiente, no se recomienda el uso de calcitonina de salmón en niños y adolescentes (menores de 18 años). En caso de administración a población pediátrica esta debería de ser por cortos periodos de tiempo, monitorizando el crecimiento óseo. 
+ Dosis y Pautas de Administración Osteogénesis imperfecta: 
+ Lactantes >6 meses y niños: 2 UI/kg, 7 dosis por vía intramuscular o subcutánea, tres veces a la semana.
+ En el resto de las indicaciones se proporcionan las dosis en adultos según la ficha técnica (no datos específicos en menores). 
+ Prevención de la pérdida de masa ósea por inmovilización repentina: 
+ 100 UI/día o 50 UI dos veces al día, por vía subcutánea o intramuscular, durante no más de 2 semanas.
+ Enfermedad de Paget: 
+ 100 UI/día por vía subcutánea o intramuscular; sin embargo, con una pauta posológica mínima de 50 UI tres veces por semana, se ha conseguido una mejora clínica y bioquímica. No administrar durante más de 3 meses.
+ Hipercalcemia por cáncer: 
+ 100 UI cada 6-8 horas por vía subcutánea o intramuscular. Si la respuesta no es satisfactoria después de 1 o 2 días, la dosis puede aumentarse hasta un máximo de 400 UI cada 6-8 horas.
+ Contraindicaciones Hipersensibilidad al principio activo o a alguno de los excipientes.
+ Pacientes con hipocalcemia.
+ Precauciones Debido a que la calcitonina es un péptido, existe la posibilidad de reacciones alérgicas sistémicas, incluyendo casos aislados de shock anafiláctico. Estas reacciones deben diferenciarse del enrojecimiento generalizado o local, que son efectos no alérgicos habituales de la calcitonina.
+ Los análisis de ensayos en pacientes con artrosis y osteoporosis han puesto de manifiesto que el uso de calcitonina está asociado a un aumento estadísticamente significativo del riesgo de cáncer , especialmente en tratamientos de larga duración, ya que se espera que la exposición sistémica a la calcitonina en tales pacientes sea superior a la de las otras formulaciones.
+ Efectos secundarios No hay datos específicos en niños.
+ De manera muy frecuente (en un 10% de los pacientes tratados): náuseas, con o sin vómitos. El efecto es más evidente al inicio del tratamiento y tiende a disminuir o desaparecer con la administración continuada o con una reducción de la dosis. En caso necesario, se puede administrar un antiemético. Las náuseas y vómitos son menos frecuentes cuando se administra la inyección por la noche y después de las comidas.
+ Enrojecimiento de la piel (facial o parte superior del cuerpo) a los 10-20 minutos de la administración.
+ Sobredosis: 
+ Se sabe que las náuseas, los vómitos, el rubor y el vértigo son reacciones dosis dependientes cuando se administra calcitonina por vía parenteral. Si aparecen síntomas de sobredosis, el tratamiento deberá ser sintomático. 
+ Interacciones Framacológicas Los niveles de calcio sérico pueden disminuir de forma transitoria a niveles inferiores a los normales tras la administración de calcitonina, especialmente al inicio del tratamiento, en pacientes con tasas anormalmente altas de recambio óseo. Este efecto disminuye a medida que se reduce la actividad osteoclástica. Sin embargo, deberá tenerse cuidado en pacientes que reciban un tratamiento concurrente con glucósidos cardiotónicos o agentes bloqueantes del canal de calcio. Podría ser necesario ajustar las dosis de estos medicamentos.
+ La administración de calcitonina en combinación con bisfosfonatos puede provocar un efecto aditivo de disminución de calcio.
+ Datos Farmacéuticos Excipientes (pueden ser diferentes según presentación comercial; consultar ficha técnica específica): ácido aceticoglacial, acetato de sodio trihidrato, cloruro de sodio, agua para preparaciones inyectables.
+ Forma farmacéutica: cada ml de solución contiene 100 UI de calcitonina de salmón sintética, donde una UI corresponde a 0,167 microgramos del principio activo. Se presenta en forma de solución inyectable.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima 
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado en marzo de 2020]. Disponible en: https://cima.aemps.es/cima/publico/home.html 
+ Boucher E, Rosgen B, Lang E. Efficacy of calcitonin for treating acute pain associated with osteoporotic vertebral compression fracture: an updated systematic review. CJEM. 2020;19:1-9.
+ Jain PN, Chatterjee A. A randomized placebo-controlled trial evaluating the analgesic effect of salmon calcitonin in refractory bone metastasis pain. Indian J Palliat Care. 2020;26:4-8.
+ Lietman SA, Germain-Lee EL, Levine MA. Hypercalcemia in children and adolescents. Curr Opin Pediatr. 2010;22:508-515.
+ Micromedex Healthcare® Series [base de datos en Internet].Greenwood Village, Colorado: Thomson Micromedex Drugdex® System; 1974-2012 [consultado en agosto de 2020]. Disponible en: http://www.thomsonhc.com/home/dispatch 
+ Stokes VJ, Nielsen MF, Hannan FM, Thakker RV. Hypercalcemic disorders in children. J Bone Miner Res. 2017;32:2157-2170.
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions; 2012 [consultado el 10/04/2020]. Disponible en: www.uptodate.com 
+ Fecha de actualización: agosto de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/calcitonina . Consultado el 30 de octubre de 2026. CALCITONINA ALMIRALL 100 UI SOLUCION INYECTABLE
+ Principio activo: CALCITONINA SALMON SINTETICA Laboratorio titular: Almirall S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CALCITONINA HUBBER 100 UI/ML SOLUCION INYECTABLE
+ Principio activo: CALCITONINA SALMON SINTETICA Laboratorio titular: Meda Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

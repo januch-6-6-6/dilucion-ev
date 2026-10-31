@@ -1,0 +1,16 @@
+{
+ "molecula": "CIPROFLOXACINO + HIDROCORTISONA",
+ "vias_isp": [
+  "oido"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "oido",
+   "nregistro": "63285",
+   "nombre": "CIPROXINA 2 mg/ml + 10 mg/ml GOTAS OTICAS EN SUSPENSION",
+   "forma": "GOTAS ÓTICAS EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/63285/FT_63285.html"
+  }
+ ]
+}

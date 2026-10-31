@@ -1,0 +1,106 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/lidocaina
+Volver Lidocaína
+ Ficha General Presentaciones Fecha de actualización: Noviembre 2020 Descripción Anestésico local tipo amida y antiarrítmico de clase IB. Debido a su estrecho margen terapéutico, en el tratamiento de urgencias cardiológicas se recomienda monitorizar las concentraciones plasmáticas.
+ Uso Clínico Como antiarrítmico.
+ Tratamiento de taquicardia y fibrilación ventriculares asociadas a infarto de miocardio, cateterismo cardiaco, cardioversión o cirugía cardiaca. Usar si amiodarona no disponible en casos de taquicardia ventricular sin pulso o fibrilación ventricular que no responde a desfibrilación, RCP o administración de adrenalina. Puesto que no deprime la contractilidad o la conducción AV, puede utilizarse también en las arritmias que aparecen durante la intoxicación digitálica.
+ Como anestésico local: anestesia local para uso en anestesia por infiltración y bloqueo de nervios.
+ Otras indicaciones no incluidas en ficha técnica ( oﬀ-label ).
+ Estatus epiléptico: por sus efectos no sedantes ni depresores cardiacos, puede ser una opción segura en el estatus epiléptico resistente a benzodiazepinas y fenitoína.
+ Dosis y Pautas de Administración Antiarrítmico: 
+ Vía intravenosa/intraósea Bolo intravenoso directo: 1 mg/kg. Se puede repetir un segundo bolo de 0,5-1 mg/kg si entre el primer bolo y el inicio de la infusión transcurren >15 minutos.
+ Infusión: 20-50 µg/kg/min, máximo: 30 mg/min.
+ Vía endotraqueal: 2-3 mg/kg/dosis.
+ Anestesia local: 
+ Las dosis varían según el procedimiento, grado de anestesia requerido, vascularidad del tejido, duración de la anestesia y condición física del paciente. Dosis máxima: 4,5-7 mg/kg (máximo: 200 mg).
+ Estatus epiléptico: 
+ A dosis inicial de 1,5-2 mg/kg, en bolo IV, seguido de una perfusión de 3-6 mg/kg/h para evitar la aparición de recurrencias.
+ Administración: 
+ Administración parenteral: diluir la dosis en SF o SG5% hasta una concentración máxima de 20 mg/ml (bolo IV) u 8 mg/ml (perfusión IV). Velocidad de administración: no superior a 0,7 mg/kg/min.
+ Vía endotraqueal: lavar con 5 ml de salino tras la administración de la dosis, y continuar con maniobras de ventilación.
+ Rango terapéutico: 1,5-5 µg/ml.
+ Toxicidad potencial a concentración plasmática >6 µg/ml; tóxico a >9 µg /ml.
+ No existen datos de niños con insuficiencia hepática o renal. La información disponible es relativa a adultos.
+ Insuficiencia renal: no es necesario ajuste de dosis. Sin embargo, se recomienda precaución, ya que puede acumularse glicinexilidide, metabolito cuyas concentraciones excesivas pueden producir toxicidad del sistema nervioso central.
+ Insuficiencia hepática o reducción del ﬂujo hepático (poscirugía cardiaca, insuficiencia cardiaca): algunos autores recomiendan reducir la dosis de carga al 50%.
+ Contraindicaciones Síndrome de Stokes-Adams, disfunción sinusal grave, bloqueo AV o intraventricular (sin marcapasos); síndrome de Wolﬀ-Parkinson-White; hipersensibilidad a lidocaína o a anestésicos locales tipo amida.
+ Precauciones Administrar con precaución en hepatopatía, fallo cardiaco, hipoxia, depresión respiratoria grave, hipovolemia, shock , bradicardia, fibrilación atrial.
+ Efectos secundarios El perfil de seguridad es similar en niños y adultos. No existen datos específicos en población pediátrica.
+ Las principales reacciones adversas pueden clasificarse en:
+ Neurológicas: vértigo, euforia, disartria, nerviosismo, parestesias, temblor, visión borrosa, tinnitus , nistagmo, ataxia, confusión mental, depresión respiratoria y, a grandes dosis, convulsiones.
+ Digestivas: náuseas, vómitos.
+ Cardiovasculares: bradicardia, hipotensión, arritmias, parada cardiaca, depresión respiratoria.
+ Interacciones Framacológicas Administrar con precaución con inhibidores de proteasa del VIH: saquinavir, lopinavir/ritonavir, atazanavir, fosamprenavir, ya que pueden aumentar las concentraciones plasmáticas de lidocaína.
+ Betabloqueantes (propranolol, nadolol, metoprolol): disminuyen el aclaramiento de lidocaína.
+ Amiodarona: puede reducir el metabolismo de lidocaína.
+ Derivados ergóticos: el uso concomitante de ambos fármacos puede producir elevaciones muy graves de la presión arterial.
+ Datos Farmacéuticos Hay comercializadas varias presentaciones, con diferente concentración (0,4%, 1%, 2%, 5%, hiperbárica –analgesia intratecal‒).
+ Conservación: 
+ Ampollas: temperatura ambiente.
+ Dilución: 48 h a temperatura ambiente, aunque si las condiciones de preparación no son asépticas, no más de 24 h.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace "Presentaciones" correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 16/11/2020]. Disponible en: https://cima.aemps.es/cima/publico/lista.html 
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Kleinman ME, Chameides L, Schexnayder SM, et al . Part 14: Pediatric advanced life support: 2010 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care. Circulation. 2010;122(18 Suppl 3):S876-908.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012 [consultado el 16/11/2012]. Disponible en: www.thomsonhc.com/home/dispatch 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2012 [consultado en noviembre de 2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: noviembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/lidocaina . Consultado el 30 de octubre de 2026. ANAMAP 25 MG/G + 25 MG/G CREMA
+ Principio activo: LIDOCAINA, PRILOCAINA Laboratorio titular: Glenmark Arzneimittel Gmbh Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA BUCOMAX CON LIDOCAINA PASTILLAS PARA CHUPAR SABOR MENTA
+ Principio activo: LIDOCAINA HIDROCLORURO, AMILMETACRESOL, DICLOROBENCILICO ALCOHOL Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA BUCOMAX CON LIDOCAINA PASTILLAS PARA CHUPAR SABOR MIEL Y LIMON
+ Principio activo: LIDOCAINA HIDROCLORURO, AMILMETACRESOL, DICLOROBENCILICO ALCOHOL Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA BUCOMAX CON LIDOCAINA PASTILLAS PARA CHUPAR SABOR NARANJA
+ Principio activo: LIDOCAINA HIDROCLORURO, AMILMETACRESOL, DICLOROBENCILICO ALCOHOL Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA CEFAZOLINA NORMON 1 G POLVO Y DISOLVENTE PARA SOLUCIÓN INYECTABLE INTRAMUSCULAR EFG.
+ Principio activo: LIDOCAINA HIDROCLORURO, CEFAZOLINA SODICA Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CEFOTAXIMA NORMON 1000 MG POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG
+ Principio activo: CEFOTAXIMA SODICA, LIDOCAINA HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CEFTRIAXONA NORMON 1000 MG POLVO Y SOLUCION PARA SOLUCION INYECTABLE INTRAMUSCULAR EFG
+ Principio activo: CEFTRIAXONA SODICA, LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CEFTRIAXONA NORMON 250 MG POLVO Y SOLUCION PARA SOLUCION INYECTABLE INTRAMUSCULAR EFG
+ Principio activo: CEFTRIAXONA SODICA, LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CEFTRIAXONA NORMON 500 MG POLVO Y SOLUCION PARA SOLUCION INYECTABLE INTRAMUSCULAR EFG
+ Principio activo: CEFTRIAXONA SODICA, LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA EMLA 25 mg/g + 25 mg/g CREMA
+ Principio activo: LIDOCAINA, PRILOCAINA Laboratorio titular: Aspen Pharma Trading Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OPHTESIC 20 MG/G GEL OFTALMICO EN ENVASE UNIDOSIS
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Laboratoires Doliage Developpement Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TITANOREIN LIDOCAINA CREMA RECTAL
+ Principio activo: TITANIO OXIDO, CARRAGAHEN, LIDOCAINA Laboratorio titular: Jntl Consumer Health (Spain) S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA VERSATIS 700 MG APOSITO ADHESIVO MEDICAMENTOSO
+ Principio activo: LIDOCAINA Laboratorio titular: Grunenthal Pharma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACTILOGIC 700 MG APOSITO ADHESIVO MEDICAMENTOSO
+ Principio activo: LIDOCAINA Laboratorio titular: Grunenthal Pharma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ANESTDERMA 25 MG/G + 25 MG/G CREMA
+ Principio activo: LIDOCAINA, PRILOCAINA Laboratorio titular: Galenicum Derma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ANESTOPIC 25 MG/G + 25 MG/G CREMA
+ Principio activo: LIDOCAINA, PRILOCAINA Laboratorio titular: Mesoestetic Pharma Group S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ANGINOVAG SOLUCION PARA PULVERIZACION BUCAL
+ Principio activo: DECUALINIO CLORURO, ENOXOLONA, HIDROCORTISONA ACETATO, TIROTRICINA, LIDOCAINA HIDROCLORURO Laboratorio titular: Ferrer Internacional S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ANSO POMADA RECTAL
+ Principio activo: TRIAMCINOLONA ACETONIDO, PENTOSANO POLISULFATO SODIO, LIDOCAINA HIDROCLORURO Laboratorio titular: Lacer S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA CEFTRIAXONA REIG JOFRE 1G POLVO Y SOLUCIÓN PARA SOLUCIÓN INYECTABLE INTRAMUSCULAR EFG
+ Principio activo: CEFTRIAXONA, LIDOCAINA Laboratorio titular: Laboratorios Reig Jofre, S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA DERMOVAGISIL 20mg/g CREMA VAGINAL
+ Principio activo: LIDOCAINA Laboratorio titular: Combe Europa, S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA DYNEXAN 20 MG/G GEL BUCAL
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Chemische Fabrik Kreussler y Co Gmbh Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA FARINSTOP SPRAY SOLUCION PARA PULVERIZACION BUCAL
+ Principio activo: LIDOCAINA HIDROCLORURO MONOHIDRATO, AMILMETACRESOL, DICLOROBENCILICO ALCOHOL Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA FYDRANE 0,2 MG/ML + 3,1 MG/ML + 10 MG/ML SOLUCION INYECTABLE
+ Principio activo: LIDOCAINA HIDROCLORURO, FENILEFRINA HIDROCLORURO, TROPICAMIDA Laboratorio titular: Laboratoires Thea S.A.S. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LAMBDALINA 40 mg/g CREMA
+ Principio activo: LIDOCAINA Laboratorio titular: Isdin S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDBREE 42 MG/ML GEL INTRAUTERINO
+ Principio activo: LIDOCAINA Laboratorio titular: Gedeon Richter Plc. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDOCAINA AGUETTANT 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Laboratoire Aguettant Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA AGUETTANT 20 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Laboratoire Aguettant Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA B. BRAUN 10 mg/ml solucion inyectable
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: B Braun Medical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDOCAINA B. BRAUN 20 mg/ml solucion inyectable
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: B Braun Medical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDOCAINA B. BRAUN 50 mg/ml solucion inyectable
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: B Braun Medical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDOCAÍNA/ EPINEFRINA DERMOGEN 20 MG/ML + 0,0125 MG/ML SOLUCIÓN INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO, EPINEFRINA BITARTRATO Laboratorio titular: Farmalider S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LIDOCAINA KABI 10 MG/ML SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA KABI 20 MG/ML SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA NORMON 10 mg/ml SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA NORMON 20 mg/ml SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA NORMON 50 mg/ml SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO MONOHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LIDOCAINA/EPINEFRINA NORMON 20 MG/ML + 0,0125 MG/ML SOLUCION INYECTABLE EFG
+ Principio activo: LIDOCAINA HIDROCLORURO MONOHIDRATO, EPINEFRINA BITARTRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OCTOCAINE 20 MG/ML + 0,01 MG/ML SOLUCIÓN INYECTABLE
+ Principio activo: LIDOCAINA HIDROCLORURO, EPINEFRINA BITARTRATO Laboratorio titular: Laboratorios Clarben S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OCTOCAINE 20 MG/ML + 0,02 MG/ML SOLUCIÓN INYECTABLE
+ Principio activo: LIDOCAINA HIDROCLORURO, EPINEFRINA BITARTRATO Laboratorio titular: Laboratorios Clarben S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ORAQIX GEL PERIODONTAL
+ Principio activo: LIDOCAINA, PRILOCAINA Laboratorio titular: Dentsply De Trey Gmbh Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA PLIAGLIS 70 MG/G + 70 MG/G CREMA
+ Principio activo: LIDOCAINA, TETRACAINA Laboratorio titular: Industrial Farmaceutica Cantabria S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA STREPSILS CON LIDOCAINA PASTILLAS PARA CHUPAR
+ Principio activo: LIDOCAINA, DICLOROBENCILICO ALCOHOL, AMILMETACRESOL Laboratorio titular: Reckitt Benckiser Healthcare S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA XILONIBSA 10 mg/pulsación, solución para pulverización cutánea
+ Principio activo: LIDOCAINA Laboratorio titular: Laboratorios Inibsa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA XILONIBSA 20 mg/ml + 0,0125 mg/ml SOLUCION INYECTABLE
+ Principio activo: LIDOCAINA HIDROCLORURO, EPINEFRINA BITARTRATO Laboratorio titular: Laboratorios Inibsa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA XYLONOR SPRAY 150 mg + 1,5 mg por gramo, solución para pulverización bucal
+ Principio activo: LIDOCAINA, CETRIMONIO Laboratorio titular: Septodont Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA XYLONOR 2 % ESPECIAL
+ Principio activo: LIDOCAINA HIDROCLORURO, EPINEFRINA Laboratorio titular: Septodont Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CEFAZOLINA SALA 1 g POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE IM EFG
+ Principio activo: CEFAZOLINA SODICA, LIDOCAINA HIDROCLORURO Laboratorio titular: Laboratorios Reig Jofre, S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA RETARPEN VIAL POLVO O LIOFILIZADO + AMPOLLA DISOLV
+ Principio activo: LIDOCAINA HIDROCLORURO, AMPICILINA-BENZATINA, AMPICILINA SODICA Laboratorio titular: Chemifarma, S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA RETARPEN VIAL POLVO O LIOFILIZADO + AMPOLLA DISOLV
+ Principio activo: LIDOCAINA HIDROCLORURO, AMPICILINA-BENZATINA, AMPICILINA SODICA Laboratorio titular: Chemifarma, S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA STREPSILS CON LIDOCAINA PASTILLAS PARA CHUPAR
+ Principio activo: LIDOCAINA, DICLOROBENCILICO ALCOHOL, AMILMETACRESOL Laboratorio titular: Reckitt Benckiser Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA VERSATIS 700 MG APOSITO ADHESIVO MEDICAMENTOSO
+ Principio activo: LIDOCAINA Laboratorio titular: Laboratoires Grunenthal Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Cardiología Intensivos Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

@@ -1,0 +1,16 @@
+{
+ "molecula": "GENTAMICINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "52662",
+   "nombre": "OFTALMOLOSA CUSI GENTAMICINA 3mg/g POMADA OFTALMICA",
+   "forma": "POMADA OFTÁLMICA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/52662/FT_52662.html"
+  }
+ ]
+}

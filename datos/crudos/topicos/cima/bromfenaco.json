@@ -1,0 +1,16 @@
+{
+ "molecula": "BROMFENACO",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 10,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "11692001",
+   "nombre": "YELLOX 0,9 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/11692001/FT_11692001.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "FLUTICASONA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 20,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "07434003",
+   "nombre": "AVAMYS 27,5 MICROGRAMOS/PULVERIZACION, SUSPENSION PARA PULVERIZACION NASAL",
+   "forma": "SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/07434003/FT_07434003.html"
+  }
+ ]
+}

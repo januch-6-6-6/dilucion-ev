@@ -1,0 +1,184 @@
+[
+ {
+  "Producto": "F-8844/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO 3%",
+  "FechaRegistro": "1991-04-23",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8704/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-06-19",
+  "Titular": "CHEMOPHARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-15861/21",
+  "Nombre": "CIPRODEX UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2006-12-19",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-9569/26",
+  "Nombre": "CIPROVAL UNGÜENTO OFTÁLMICO 0,3% (CIPROFLOXACINO)",
+  "FechaRegistro": "1997-03-20",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-22797/26",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2016-06-20",
+  "Titular": "MEDINOVA FARMA LTDA.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-12980/23",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "1952-04-07",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-7259/25",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2000-12-18",
+  "Titular": "BPH SpA",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-19212/22",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2012-01-18",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-29759/26",
+  "Nombre": "ELYMBUS GEL OFTÁLMICO 0,1 mg/g (BIMATOPROST)",
+  "FechaRegistro": "2026-06-17",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "B-2519/25",
+  "Nombre": "GENTABRAND UNGÜENTO OFTÁLMICO 0,3% (GENTAMICINA)",
+  "FechaRegistro": "2015-07-01",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-2250/22",
+  "Nombre": "GENTAMICINA UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2012-04-03",
+  "Titular": "ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "F-19320/22",
+  "Nombre": "KAPH UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2012-03-21",
+  "Titular": "ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "B-885/25",
+  "Nombre": "OFTABIÓTICO CON BACITRACINA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1980-06-27",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BACITRACINA//NEOMICINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "F-9584/26",
+  "Nombre": "OFTACON UNGÜENTO OFTÁLMICO 4%",
+  "FechaRegistro": "1997-02-01",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "SODIO CROMOGLICATO"
+ },
+ {
+  "Producto": "B-887/25",
+  "Nombre": "OFTAGEN COMPUESTO UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1982-07-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//GENTAMICINA"
+ },
+ {
+  "Producto": "B-889/25",
+  "Nombre": "OFTAGEN UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "1981-07-24",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-890/25",
+  "Nombre": "OFTASONA-N UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1984-10-11",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//NEOMICINA"
+ },
+ {
+  "Producto": "F-9585/26",
+  "Nombre": "OFTAVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-01-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-22098/25",
+  "Nombre": "SOPHIXIN DX UNGENA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2015-08-26",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "B-2797/26",
+  "Nombre": "TOBRADEX UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1990-07-23",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2368/24",
+  "Nombre": "TOBRAL UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2014-01-15",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2807/25",
+  "Nombre": "TOBREX UNGÜENTO OFTÁLMICO 0,3% (TOBRAMICINA)",
+  "FechaRegistro": "1984-01-20",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2815/26",
+  "Nombre": "TRAZIDEX UNGENA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2016-03-10",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-19120/21",
+  "Nombre": "VIRGAN GEL OFTÁLMICO 1,5 mg/g",
+  "FechaRegistro": "2011-11-29",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "GANCICLOVIR"
+ },
+ {
+  "Producto": "B-2803/22",
+  "Nombre": "XOLOF UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2002-02-12",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2804/22",
+  "Nombre": "XOLOF-D UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2002-02-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ }
+]

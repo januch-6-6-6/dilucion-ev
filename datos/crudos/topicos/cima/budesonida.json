@@ -1,0 +1,16 @@
+{
+ "molecula": "BUDESONIDA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 6,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "59533",
+   "nombre": "BUDESONIDA ALCON 50 microgramos/DOSIS SUSPENSION PARA PULVERIZACION NASAL",
+   "forma": "SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/59533/FT_59533.html"
+  }
+ ]
+}

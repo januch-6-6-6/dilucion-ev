@@ -1,0 +1,202 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/aciclovir
+Volver Aciclovir
+ Ficha General Presentaciones Fecha de actualización: Abril 2021 Descripción Antiviral. Análogo nucleósido de la guanina, activo frente al virus del herpes humano (VHH). Inhibe la replicación de ADN viral interfiriendo con la ADN polimerasa viral. Muy activo frente al virus herpes simple (VHS) y el virus varicela zóster (VVZ). Menos activo frente al virus de Epstein-Barr y aún menos frente a citomegalovirus (CMV) y otros virus herpes.
+ Uso Clínico En recién nacidos y niños (A): 
+ Tratamiento de infecciones por VHS: herpes genital, herpes labial y formas mucocutáneas (por ejemplo, esofagitis), así como encefalitis, incluida la encefalitis neonatal.
+ Tratamiento de infecciones por VHS en neonatos.
+ Profilaxis de VHS: herpes genital, mucocutáneo (oftálmico).
+ Profilaxis de infecciones por VHS en pacientes inmunocomprometidos, como pacientes trasplantados y con hemopatías malignas, en quimioterapia y seropositivos para VHS.
+ Tratamiento de pacientes inmunodeprimidos con herpes zóster, especialmente en infecciones cutáneas progresivas o diseminadas. También podría considerarse en inmunocompetentes con herpes zóster grave y zóster oftálmico. Es especialmente efectivo si se comienza en las primeras 72 h del inicio de los síntomas.
+ Tratamiento de VVZ en sujetos inmunodeprimidos y en recién nacidos que hayan adquirido la infección de su madre con inicio de síntomas 5 días antes o 48 h después del parto. Se podría considerar en ciertos inmunocompetentes: >12 años, infecciones adquiridas en el domicilio, enfermedad cutánea o pulmonar crónicas, tratamiento prolongado con salicilatos o con corticoides de forma corta, intermitente o en aerosol. Podría ser más efectivo en las primeras 24 h del inicio de los síntomas.
+ Otros usos (E: off label ): 
+ Prevención de la reactivación de VHS en pacientes con sida, inmunodeficiencia primaria, tumores sólidos y enfermedades del colágeno.
+ Prevención de la infección por CMV en pacientes trasplantados de riñón.
+ Tratamiento inicial y supresor de infección genital por VHS en niños.
+ Tratamiento del herpes orolabial. Profilaxis del herpes orolabial recurrente.
+ Tratamiento de la gingivoestomatitis herpética.
+ La precocidad del inicio del tratamiento podría tener impacto en la evolución clínica.
+ Dosis y Pautas de Administración Las dosis recomendadas aceptadas por la comunidad científica no siempre coinciden con las dosis aprobadas en ficha técnica.
+ La dosis oral en pacientes inmunodeprimidos o con malabsorción debe aumentarse al doble comparada con la de los pacientes inmunocompetentes.
+ La duración del tratamiento dependerá de la gravedad de la infección, el estado del enfermo y la respuesta al tratamiento.
+ La duración de la administración profiláctica de aciclovir inyectable se determinará por la duración del periodo de riesgo.
+ Infección neonatal (o en <3 meses) por VHS (cualquier localización): 
+ 60 mg/kg/día cada 8 h por vía intravenosa (IV), durante 14-21 días. En caso de enfermedad cutánea o mucosas (piel, ojos, boca), la duración sería de 14 días.
+ Encefalitis por VHS (siempre por vía IV): 
+ <3 meses: 60 mg/kg/día cada 8 h IV, durante 14-21 días.
+ 3 meses-12 años: 60 mg/kg/día cada 8 h IV, durante 14-21 días.
+ >12 años: 30 mg/kg/día cada 8 h IV, durante 14-21 días. Se han utilizado hasta 45 mg/kg/día cada 8 h.
+ Las AIDSinfo Guidelines recomiendan una duración del tratamiento de 21 días.
+ Gingivoestomatitis herpética: 
+ Iniciar el tratamiento en las primeras 72 h. Eficacia controvertida.
+ 60 mg/kg/día (máximo: 200 mg/dosis) cada 6 h por vía oral (VO) durante 7 días.
+ Infección por VHS (mucocutánea, localizada, progresiva o diseminada) en huésped inmunocomprometido : 
+ Oral: 
+ ≥2 años: 1000 mg/día en 3-5 dosis, durante 7-14 días. Dosis máxima: 80 mg/kg/día, sin exceder 1 g/día.
+ Intravenoso: 
+ <12 años: 30 mg/kg/día cada 8 h, durante 7-14 días.
+ ≥12 años: 15 mg/kg/día cada 8 h, durante 7-14 días.
+ Duración del tratamiento: 21 días en pacientes VIH positivo con enfermedad diseminada.
+ Tópica: 
+ Una aplicación en la zona 6 veces/día, durante 7 días.
+ Herpes genital (VHS): 
+ a. Primoinfección:
+ Oral: 
+ <12 años: 40-80 mg/kg/día cada 6-8 h, durante 5-14 días. Dosis máxima: 1 g/día.
+ ≥12 años: 1000-1200 mg/día divididos en 3-5 veces/día (no durante el sueño), durante 7-14 días.
+ Intravenoso :
+ ≥12 años: 15 mg/kg/día cada 8 h, durante 5-7 días.
+ b. Recurrencias . Administrar con el primer signo o síntoma.
+ Oral: 
+ ≥12 años: 200 mg, 5 veces/día (no durante el sueño), o 400-800 mg/12 h o 400 mg/8 h, durante 5 días o 800 mg cada 8 h, durante 2 días.
+ En caso de tratamiento tópico, administrar pomada 6 veces/día, durante 7 días.
+ c. Tratamiento supresor crónico de infección genital y cutánea (ocular) en pacientes con frecuentes recidivas (VO):
+ <12 años: 40-80 mg/kg/día cada 8 h, hasta 12 meses. Dosis máxima: 1 g/día. Reevaluar después de 12 meses de tratamiento.
+ ≥12 años: 400 mg/12 h o 400 mg/8 h o 200 mg/8 h (hasta 5 veces al día), hasta 12 meses continuos. Reevaluar después de 12 meses de tratamiento.
+ Terapia de inhibición crónica de episodios de herpes labial recurrente en un paciente con recidivas frecuentes (4- 6 episodios graves/año) (VO) : 
+ <12 años: 30 mg/kg/día cada 8 h, durante 12 meses. Dosis máxima: 1 g/día; reevaluar tras 12 meses de tratamiento.
+ ≥12 años: 400 mg/12 h, durante y hasta 12 meses; reevaluar.
+ Necrosis retiniana aguda por VHS con coinfección por VIH : 
+ Lactantes y <12 años: 30 mg/kg/día cada 8 h por vía IV, durante 10-14 días, seguidos de tratamiento VO (60 mg/kg/día cada 8 h), durante 4-6 semanas.
+ ≥12 años: 30 mg/kg/día cada 8 h por vía IV, durante 10-14 días, seguidos de valaciclovir oral.
+ Profilaxis de reactivación del VHS en paciente VIH positivo : 
+ 40 mg/kg/día cada 12 h. Dosis máxima: 400 mg/dosis. Indicada cuando las reactivaciones son frecuentes o graves.
+ Profilaxis de VHS en otro huésped inmunocomprometido (en sujetos seropositivos para VHS) . Se administrará durante el periodo de riesgo:
+ Oral (>2 años): 600-1000 mg/día en 3-5 dosis. Dosis máxima en niños: 80 mg/kg/día, sin exceder 1 g/día.
+ Intravenoso (todas las edades): 15 mg/kg/día cada 8 h.
+ Algunos autores lo recomiendan para el trasplante de progenitores hematopoyéticos (Lexi Comp Inc.):
+ Niños: 500 mg/m 2 /dosis cada 8 h.
+ Varicela en el huésped inmunocomprometido : 
+ Las AIDSinfo Guidelines recomiendan una duración de 7-10 días o hasta que no aparezcan lesiones nuevas en 48 h (para pacientes con varicela y/o inmunosupresión leves). Dosificación intravenosa:
+ <1 año: 30/kg/día cada 8 h, durante 7-10 días.
+ 1-12 años: 1500 mg/m 2 /día o 30-45 mg/kg/día cada 8 h, durante 7-10 días.
+ ≥12 años: 30-45 mg/kg/día cada 8 h, durante 7-10 días.
+ Varicela en el huésped inmunocompetente : 
+ Iniciar en las primeras 24 h de la aparición del exantema. No existe indicación en niños sanos, pero podría tener cierta efectividad en pacientes con riesgo de infección moderada o grave como niños >12 años, con enfermedad pulmonar o cutánea crónicas, tratamiento a largo plazo con salicilatos o tratamiento con corticoides. Se podría considerar el tratamiento de niños a cualquier edad que adquieran la infección en el ambiente familiar.
+ Oral: 
+ ≥2 años: 80 mg/kg/día cada 6 h, durante 5 días. Dosis máxima: 800 mg/dosis.
+ Intravenoso: 
+ <1 año: 30 mg/kg/día cada 8 h, durante 7-14 días.
+ ≥1 año: 30 mg/kg/día o 1500 mg/m 2 /día cada 8 h, durante 7-14 días. Algunos expertos recomiendan 15- 20 mg/kg/dosis para infecciones diseminadas o infecciones del sistema nervioso central.
+ Herpes zóster en huésped inmunocompetente : 
+ Iniciar dentro de las 48-72 h de la aparición del exantema.
+ Oral: 
+ ≥12 años: 800 mg, 5 veces al día, durante 5-7 días.
+ Intravenoso: 
+ <2 años: 30 mg/kg/día cada 8 h, durante 7-10 días.
+ ≥2 años: 1500 mg/m 2 /día o 30 mg/kg/día cada 8 h, durante 7-10 días.
+ Algunos autores proponen (Lexi Comp Inc):
+ <12 años: 60 mg/kg/día cada 8 h, durante 7 días.
+ ≥12 años: 30 mg/kg/día cada 8 h, durante 7-10 días.
+ Herpes zóster en el huésped inmunocomprometido : 
+ <12 años: 30 mg/kg/día cada 8 h por vía IV, durante 7-10 días. Algunos autores recomiendan 60 mg/kg/día cada 8 h.
+ ≥12 años: 30 mg/kg/día cada 8 h por vía IV, durante 7 días.
+ Las AIDSinfo Guidelines recomiendan una duración de 10-14 días.
+ Insuficiencia renal : 
+ a. Neonatos (vía IV), según creatinina sérica (Cs):
+ 0,8-1,1 mg/dl: 20 mg/kg/12 h.
+ 1,2-1,5 mg/dl: 20 mg/kg/24 h.
+ 1,5 mg/dl: 10 mg/kg/24 h.
+ b. Niños >6 meses, según aclaramiento de creatinina (ClCr en ml/min/1,73 m 2 ):
+ Oral: 
+ 25 ml/min: sin modificar.
+ 10-25 ml/min: administrar cada 8 h (en vez de cada 4-6 h).
+ <10 ml/min: administrar cada 12 h (en vez de cada 4-6 h). En caso de dosis de 400 mg/12 h, modificar a 200 mg/12 h.
+ Intravenosa: 
+ 25-50 ml/min: administrar cada 12 h.
+ 10-25 ml/min: administrar cada 24 h.
+ <10 ml/min: administrar mitad de dosis cada 24 h. Hemodiálisis: administrar la dosis después de la diálisis.
+ Hemofiltración/hemodiafiltración venovenosa (CVVH/CVVHD) : 
+ Ajustar la dosis correspondiente para un ClCr de 30 ml/min/1,73 m 2 .
+ En pacientes con insuficiencia hepática no hay necesidad de modificar la dosis, aunque la experiencia es limitada en adultos con cirrosis avanzada.
+ Contraindicaciones Pacientes con hipersensibilidad al aciclovir, el valaciclovir o a alguno de los excipientes.
+ Precauciones Utilizar con precaución en pacientes inmunodeprimidos por el riesgo de púrpura trombótica trombocitopénica o síndrome hemolítico-urémico. 
+ Utilizar con precaución en pacientes con insuficiencia renal o en aquellos que están recibiendo otros fármacos nefrotóxicos. Conviene mantener una hidratación adecuada durante su administración IV. Utilizar con precaución el preparado IV en pacientes con enfermedades neurológicas y hepáticas avanzadas, alteraciones hidroelectrolíticas, insuficiencia renal, deshidratación o hipoxia grave.
+ Monitorizar la cifra de neutrófilos y la función renal, al menos dos veces por semana, en neonatos, lactantes y niños que reciben dosis de 60 mg/kg/día, especialmente si hay alteración de la función renal o tratamientos prolongados.
+ Irritante en caso de extravasación.
+ La suspensión oral contiene sorbitol. Los pacientes con intolerancia hereditaria a la fructosa no deben tomar este medicamento. Puede provocar malestar gastrointestinal y un ligero efecto laxante.
+ La suspensión oral contiene alcohol bencílico. Puede provocar reacciones alérgicas; se ha relacionado con el riesgo de efectos adversos graves que incluyen problemas respiratorios ("síndrome de jadeo") en niños. Se recomienda no administrar a recién nacidos (hasta de 4 semanas de edad) ni más de 1 semana en niños menores de 3 años de edad.
+ Efectos secundarios No hay datos específicos en niños. Se describen solo los frecuentes (>1/100-<1/10) y/o de relevancia clínica, para el resto debe consultar la ficha técnica.
+ Administración VO: 
+ 1-10%: cefalea, mareo, diarrea, náuseas, vómitos y dolor abdominal. Administración parenteral.
+ 10%: exantema, urticaria, prurito, fotosensibilidad, náuseas, vómitos, aumento de transaminasas, inflamación en el sitio de inyección o flebitis, insuficiencia renal aguda o aumento de la creatinina o de la urea.
+ Administración tópica: 
+ 10%: dolor o sensación de quemazón moderados.
+ 1-10%: prurito.
+ Algunos efectos secundarios graves que se han descrito en <1% son: leucopenia, trombopenia, anafilaxia, eritema multiforme, síndrome de Stevens-Johnson, necrolisis epidérmica tóxica, encefalopatía o síndrome hemolítico-urémico. Se ha descrito púrpura trombocitopénica y síndrome hemolítico-urémico de forma especial en pacientes con infección por VIH avanzada.
+ Intoxicación: síntomas neurológicos como somnolencia, confusión o convulsiones, aumento de la creatinina y fracaso renal (precipitación en túbulo renal). En caso de intoxicación, mantener un adecuado estado de hidratación. La hemodiálisis podría disminuir los niveles en suero un 60%.
+ Interacciones Framacológicas Se elimina principalmente inalterado en orina mediante secreción tubular renal activa. Cualquier fármaco administrado concomitantemente que compita con este mecanismo puede incrementar las concentraciones plasmáticas de aciclovir.
+ Vacuna de la varicela zóster: puede disminuir su efecto. Evitar su administración concomitante.
+ Micofenolato, tenofovir y zidovudina: pueden aumentar sus niveles. Vigilar uso concomitante. El micofenolato podría aumentar los niveles de aciclovir.
+ Datos Farmacéuticos Conservación: conservar entre 15-25 °C y proteger de la humedad. Solución oral: agitar antes de utilizar.
+ Inyección: en caso de la presentación farmacéutica en polvo seco, reconstituir el polvo seco (500 mg) con 10- 20 ml de agua estéril (estable durante 12 h a temperatura ambiente; precipita a temperaturas más bajas).
+ Para la infusión IV, diluir en salino o glucosado 5% hasta una concentración final ≤7 mg/ml (concentraciones >10 mg/ml pueden inducir flebitis). Esta dilución final debería infundirse en <24 h. Cada 500 mg de aciclovir IV contienen unos 2 mEq (50 mg) de sodio.
+ Infundir durante 1 hora lentamente y mantener bien hidratado al paciente para evitar daño renal. Evitar la extravasación, ya que podría provocar necrosis. Evitar la administración IM o SC.
+ Excipientes: se recomienda comprobar los diferentes excipientes en las fichas técnicas de cada presentación comercial.
+ Presentaciones comerciales: Las presentaciones disponibles en España pueden consultarse en línea en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha.
+ Bibliografía Agencia Española de Medicamentos y Productos Sanitarios. Fichas técnicas del Centro de Información online de Medicamentos de la Agencia Española de Medicamentos y Productos Sanitarios (CIMA) [en línea]. Disponible en: https://cima.aemps.es/cima/publico/lista.html. 
+ American Academy of Pediatrics, Kimberlin DW, Brady MT, et al. Red Book 2018: Report of the Committee on Infectious Diseases. 31.ª ed. Itasca: American Academy of Pediatrics; 2018.
+ British Medical Association, Royal Pharmaceutical Society of Great Britain, Royal College of Paediatrics and Child Health and Neonatal and Paediatric Pharmacists Group. BNF for Children 2010-11. Basingstoke: BMJ Group, Pharmaceutical Press and RCPCH; 2011.
+ Mensa J. Guía terapéutica antimicrobiana. 28.ª ed. Barcelona: Molins del Rei; 2020.
+ Micromedex Healthcare® Series [en línea]. Thomson Micromedex Drugdex® System. 1974-2020. Disponible en: http://www.thomsonhc.com/home/dispatch . 
+ Mofenson LM, Brady MT, Danner SP, et al. Guidelines for the Prevention and Treatment of Opportunistic Infections Among HIV-Exposed and HIV-Infected Children. MMWR Recomm Rep [en línea]. 2009; 58. Disponible en: http://aidsinfo.nih.gov/guidelines. 
+ Taketomo CK, Hodding JH, Kraus DM. Pediatric and Neonatal Dosage Handbook. 18.ª ed. Hudson: Lexi Comp; 2010. 
+ Villa LF (editor). Medimecum, guía de terapia farmacológica. 25.ª ed. España: Adis; 2020.
+ Waltham, MA. Wolters Kluwer Health Clinical Solutions 2020. Pediatric drug information: UpToDate [en línea]. Disponible en: www.uptodate.com 
+ Fecha de actualización: abril de 2021.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/aciclovir . Consultado el 30 de octubre de 2026. ACICLOVIR CINFA 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR CINFA 800 mg COMPRIMIDOS DISPERSABLES EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR CINFA 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR NORMON 200 mg COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR NORMON 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR NORMON 800 mg COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR SANDOZ CARE 50 MG/G CREMA
+ Principio activo: ACICLOVIR Laboratorio titular: Sandoz Farmaceutica S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA ACICLOVIR SANDOZ 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Sandoz Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR SANDOZ 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Sandoz Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR STADA 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR STADA 50 MG/G CREMA
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR STADA 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LAVIRK 50 MG/G GEL
+ Principio activo: ACICLOVIR Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA VIRUDERM 50 MG/G POMADA
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA ZOVICREM LABIAL 50 mg/g CREMA
+ Principio activo: ACICLOVIR Laboratorio titular: Haleon Spain S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA ZOVIDUO 50 mg/g + 10 mg/g CREMA
+ Principio activo: ACICLOVIR, HIDROCORTISONA Laboratorio titular: Haleon Spain S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA ZOVIRAX 200 mg COMPRIMIDOS DISPERSABLES
+ Principio activo: ACICLOVIR Laboratorio titular: Glaxosmithkline S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ZOVIRAX 400 mg/5 ml SUSPENSION ORAL
+ Principio activo: ACICLOVIR Laboratorio titular: Glaxosmithkline S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ZOVIRAX 50 mg/g CREMA
+ Principio activo: ACICLOVIR Laboratorio titular: Haleon Spain S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR ACCORD INYECTABLE EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Accord Healthcare S.L.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR ACCORD 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION
+ Principio activo: ACICLOVIR Laboratorio titular: Accord Healthcare S.L.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR ALTAN 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR ARISTO 200 mg COMPRIMIDOS DISPERSABLES EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aristo Pharma Iberia S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR ARISTO 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aristo Pharma Iberia S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR ARISTO 800 mg COMPRIMIDOS DISPERSABLES EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aristo Pharma Iberia S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR AUROVITAS 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR AUROVITAS 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR AUROVITAS 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR BRILL PHARMA 30 MG/G POMADA OFTALMICA
+ Principio activo: ACICLOVIR Laboratorio titular: Brill Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR HIKMA 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Hikma Farmaceutica (Portugal) S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR KERN PHARMA 200 mg COMPRIMIDOS DISPERSABLES EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR KERN PHARMA 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR MABO 200 mg COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Mabo Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR MABO 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Mabo Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR MABO 800 mg COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Mabo Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR PENSA PHARMA 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR PENSA PHARMA 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR PENSA 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR PENSA 50 mg/g CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR PENSA 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR SALA 250 MG POLVO PARA SOLUCION PARA PERFUSION EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Laboratorios Reig Jofre, S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR TEDEC 25 mg/ml SOLUCION PARA PERFUSION EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Meiji Pharma Spain S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ACICLOVIR VIATRIS 200 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Viatris Pharmaceuticals, S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR VIATRIS 50MG/G CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Viatris Pharmaceuticals, S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR VIATRIS 800 MG COMPRIMIDOS EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Viatris Pharmaceuticals, S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR VIR PHARMA 50 MG/G CREMA EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR VIR 50 mg/g CREMA
+ Principio activo: ACICLOVIR Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA XOROX 30 MG/G POMADA OFTALMICA
+ Principio activo: ACICLOVIR Laboratorio titular: Agepha Pharma S.R.O. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACICLOVIR KERN PHARMA 800 mg COMPRIMIDOS DISPERSABLES EFG
+ Principio activo: ACICLOVIR Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antivirales Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

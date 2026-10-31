@@ -1,0 +1,16 @@
+{
+ "molecula": "CLORANFENICOL",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "19495",
+   "nombre": "OFTALMOLOSA CUSI CLORAMFENICOL 10 MG/G POMADA OFTÁLMICA",
+   "forma": "POMADA OFTÁLMICA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/19495/FT_19495.html"
+  }
+ ]
+}

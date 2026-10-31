@@ -1,0 +1,2620 @@
+[
+ {
+  "Producto": "F-8844/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO 3%",
+  "FechaRegistro": "1991-04-23",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8704/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-06-19",
+  "Titular": "CHEMOPHARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-15861/21",
+  "Nombre": "CIPRODEX UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2006-12-19",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-9569/26",
+  "Nombre": "CIPROVAL UNGÜENTO OFTÁLMICO 0,3% (CIPROFLOXACINO)",
+  "FechaRegistro": "1997-03-20",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-22797/26",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2016-06-20",
+  "Titular": "MEDINOVA FARMA LTDA.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-12980/23",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "1952-04-07",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-7259/25",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2000-12-18",
+  "Titular": "BPH SpA",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-19212/22",
+  "Nombre": "CLORANFENICOL UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2012-01-18",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-29759/26",
+  "Nombre": "ELYMBUS GEL OFTÁLMICO 0,1 mg/g (BIMATOPROST)",
+  "FechaRegistro": "2026-06-17",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "B-2519/25",
+  "Nombre": "GENTABRAND UNGÜENTO OFTÁLMICO 0,3% (GENTAMICINA)",
+  "FechaRegistro": "2015-07-01",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-2250/22",
+  "Nombre": "GENTAMICINA UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2012-04-03",
+  "Titular": "ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "F-19320/22",
+  "Nombre": "KAPH UNGÜENTO OFTÁLMICO 1%",
+  "FechaRegistro": "2012-03-21",
+  "Titular": "ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "B-885/25",
+  "Nombre": "OFTABIÓTICO CON BACITRACINA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1980-06-27",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BACITRACINA//NEOMICINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "F-9584/26",
+  "Nombre": "OFTACON UNGÜENTO OFTÁLMICO 4%",
+  "FechaRegistro": "1997-02-01",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "SODIO CROMOGLICATO"
+ },
+ {
+  "Producto": "B-887/25",
+  "Nombre": "OFTAGEN COMPUESTO UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1982-07-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//GENTAMICINA"
+ },
+ {
+  "Producto": "B-889/25",
+  "Nombre": "OFTAGEN UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "1981-07-24",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-890/25",
+  "Nombre": "OFTASONA-N UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1984-10-11",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//NEOMICINA"
+ },
+ {
+  "Producto": "F-9585/26",
+  "Nombre": "OFTAVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-01-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-22098/25",
+  "Nombre": "SOPHIXIN DX UNGENA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2015-08-26",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "B-2797/26",
+  "Nombre": "TOBRADEX UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "1990-07-23",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2368/24",
+  "Nombre": "TOBRAL UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2014-01-15",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2807/25",
+  "Nombre": "TOBREX UNGÜENTO OFTÁLMICO 0,3% (TOBRAMICINA)",
+  "FechaRegistro": "1984-01-20",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2815/26",
+  "Nombre": "TRAZIDEX UNGENA UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2016-03-10",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-19120/21",
+  "Nombre": "VIRGAN GEL OFTÁLMICO 1,5 mg/g",
+  "FechaRegistro": "2011-11-29",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "GANCICLOVIR"
+ },
+ {
+  "Producto": "B-2803/22",
+  "Nombre": "XOLOF UNGÜENTO OFTÁLMICO 0,3%",
+  "FechaRegistro": "2002-02-12",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2804/22",
+  "Nombre": "XOLOF-D UNGÜENTO OFTÁLMICO",
+  "FechaRegistro": "2002-02-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-26040/26",
+  "Nombre": "DESMOPRESINA ACETATO SOLUCIÓN INTRANASAL PARA NEBULIZACIÓN 10 mcg/dosis",
+  "FechaRegistro": "2021-03-22",
+  "Titular": "BPH SpA",
+  "PA": "DESMOPRESINA"
+ },
+ {
+  "Producto": "F-18345/25",
+  "Nombre": "AEROTROP SPRAY NASAL 21 mcg/dosis",
+  "FechaRegistro": "2010-10-27",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "BROMURO DE IPRATROPIO"
+ },
+ {
+  "Producto": "F-16784/23",
+  "Nombre": "ALENYS SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/dosis",
+  "FechaRegistro": "2008-04-15",
+  "Titular": "ETEX FARMACÉUTICA LTDA.",
+  "PA": "FLUTICASONA FUROATO"
+ },
+ {
+  "Producto": "F-16477/22",
+  "Nombre": "AVAMYS SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/dosis",
+  "FechaRegistro": "2007-11-06",
+  "Titular": "GLAXOSMITHKLINE CHILE FARMACÉUTICA LTDA.",
+  "PA": "FLUTICASONA FUROATO"
+ },
+ {
+  "Producto": "F-22559/26",
+  "Nombre": "AVAMYS SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/dosis",
+  "FechaRegistro": "2016-04-04",
+  "Titular": "GLAXOSMITHKLINE CHILE FARMACÉUTICA LTDA.",
+  "PA": "FLUTICASONA FUROATO"
+ },
+ {
+  "Producto": "1571C-171/26",
+  "Nombre": "Bioré Bandas de Limpieza Profunda, facial y nasal",
+  "FechaRegistro": "2026-04-07 01:00:00",
+  "Titular": "HBC LATINA SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "F-23599/22",
+  "Nombre": "BUDANASE SUSPENSIÓN NASAL PARA NEBULIZACIÓN 100 mcg/dosis (BUDESÓNIDA)",
+  "FechaRegistro": "2017-09-25",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "BUDESONIDA"
+ },
+ {
+  "Producto": "B-1546/21",
+  "Nombre": "CALNISAN SOLUCIÓN PARA NEBULIZACIÓN NASAL 50 U.I./dosis",
+  "FechaRegistro": "1993-12-03",
+  "Titular": "LABORATORIOS LAFI LTDA.",
+  "PA": "CALCITONINA"
+ },
+ {
+  "Producto": "F-17276/23",
+  "Nombre": "DESMO-C SOLUCIÓN NASAL PARA NEBULIZACIÓN 10 mcg/dosis",
+  "FechaRegistro": "2008-12-23",
+  "Titular": "MEDSTYLE S.A.",
+  "PA": "DESMOPRESINA"
+ },
+ {
+  "Producto": "F-29415/26",
+  "Nombre": "DESMOPRESINA ACETATO SOLUCIÓN NASAL 100 mcg/mL",
+  "FechaRegistro": "2026-01-22",
+  "Titular": "PARTHENON PHARMA S.p.A.",
+  "PA": "DESMOPRESINA ACETATO"
+ },
+ {
+  "Producto": "F-22780/26",
+  "Nombre": "DIMUXON SUSPENSIÓN PARA INHALACIÓN NASAL 0,05% (MOMETASONA FUROATO)",
+  "FechaRegistro": "2016-06-17",
+  "Titular": "LABORATORIOS RAFFO S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "H-716/25",
+  "Nombre": "EUPHORBIUM COMPOSITUM S SOLUCIÓN PARA INHALACIÓN NASAL",
+  "FechaRegistro": "2000-08-25 02:10:00",
+  "Titular": "PRODUCTOS FARMACÉUTICOS HEEL CHILE LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-12765/23",
+  "Nombre": "FACIMIN SOLUCIÓN NASAL 0,5 mg/mL",
+  "FechaRegistro": "2003-02-13",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-1993/24",
+  "Nombre": "FISIOLIMP SOLUCIÓN NASAL PARA NEBULIZACIÓN 0,9%",
+  "FechaRegistro": "1999-08-27",
+  "Titular": "LABORATORIO PASTEUR S.A.",
+  "PA": "BENZALCONIO CLORURO//SODIO CLORURO"
+ },
+ {
+  "Producto": "F-10656/26",
+  "Nombre": "FLIXONASE SUSPENSIÓN PARA NEBULIZACIÓN NASAL 50 mcg/dosis (FLUTICASONA)",
+  "FechaRegistro": "1993-07-29",
+  "Titular": "GLAXOSMITHKLINE CHILE FARMACÉUTICA LTDA.",
+  "PA": "FLUTICASONA PROPIONATO"
+ },
+ {
+  "Producto": "F-28280/24",
+  "Nombre": "FREMAVAL SUSPENSIÓN NASAL PARA NEBULIZACIÓN 27,5 mcg/dosis (FLUTICASONA FUROATO)",
+  "FechaRegistro": "2024-05-07",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "FLUTICASONA FUROATO"
+ },
+ {
+  "Producto": "FX-424/23",
+  "Nombre": "FREMAVAL SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/ dosis",
+  "FechaRegistro": "2023-07-18",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "FLUTICASONA FUROATO;FORMA I;MICRONIZADO"
+ },
+ {
+  "Producto": "F-17530/24",
+  "Nombre": "ILIADIN SOLUCIÓN NASAL PARA NEBULIZACIÓN 0,05%",
+  "FechaRegistro": "2009-05-08",
+  "Titular": "PROCTER & GAMBLE CHILE LTDA.",
+  "PA": "BENZALCONIO CLORURO//OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-24099/23",
+  "Nombre": "INFLUMIX SOLUCION PARA NEBULIZACION NASAL 42 mcg/dosis (BROMURO DE IPRATROPIO)",
+  "FechaRegistro": "2018-09-10",
+  "Titular": "LABORATORIOS LAFI LTDA.",
+  "PA": "BROMURO DE IPRATROPIO"
+ },
+ {
+  "Producto": "H-715/25",
+  "Nombre": "LUFFEEL SOLUCIÓN PARA INHALACIÓN NASAL",
+  "FechaRegistro": "2000-08-25 02:10:00",
+  "Titular": "PRODUCTOS FARMACÉUTICOS HEEL CHILE LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-2460/24",
+  "Nombre": "MENTHOLATUM SOLUCIÓN PARA INHALACIÓN NASAL, EN TÓRULAS",
+  "FechaRegistro": "1977-03-28",
+  "Titular": "DROGUERÍA HOFMANN LTDA. Y CÍA. EN COMANDITA POR ACCIONES",
+  "PA": "ALCANFOR//MENTOL//SALICILATO DE METILO"
+ },
+ {
+  "Producto": "2270C-541/22",
+  "Nombre": "MINISO TIRAS DE LIMPIEZA POROS NASALES DE BARRO VOLCÁNICO PARA HOMBRES(10 PZAS)",
+  "FechaRegistro": "2022-12-28",
+  "Titular": "MINI BF CHILE SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "2270C-2120/25",
+  "Nombre": "MINISO VB ALIEN COLLECTION BLACKHEAD REMOVAL NOSE STRIPS - TIRAS REMOVEDORAS DE PUNTOS NEGROS NASALES",
+  "FechaRegistro": "2025-09-23 00:00:00",
+  "Titular": "MINI BF CHILE SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "2270C-872/24",
+  "Nombre": "MINISO-MEN’S BAMBOO CHARCOAL BLACKHEAD REMOVER/ TIRAS NASALES REMOVEDORAS DE PUNTOS NEGROS CARBÓN DE BAMBÚ, PARA HOMBRE.",
+  "FechaRegistro": "2024-04-22",
+  "Titular": "MINI BF CHILE SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "2270C-873/24",
+  "Nombre": "MINISO-WOMEN’S ROSE BLACKHEAD REMOVER/ TIRAS NASALES REMOVEDORAS DE PUNTOS NEGROS ROSA, PARA MUJER.",
+  "FechaRegistro": "2024-04-22",
+  "Titular": "MINI BF CHILE SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "F-25024/24",
+  "Nombre": "MOMENASE SUSPENSION NASAL PARA NEBULIZACION 50 mcg / dosis (MOMETASONA FUROATO)",
+  "FechaRegistro": "2019-08-27",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-28065/24",
+  "Nombre": "MOMETASONA FUROATO SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/dosis",
+  "FechaRegistro": "2024-01-24",
+  "Titular": "GLENMARK FARMACEUTICA S.p.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-19862/23",
+  "Nombre": "MONEZ SUSPENSIÓN NASAL SPRAY 50 mcg/DOSIS",
+  "FechaRegistro": "2013-04-06",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-22821/26",
+  "Nombre": "MUPAX UNGÜENTO NASAL 2% (MUPIROCINA)",
+  "FechaRegistro": "2016-07-06",
+  "Titular": "LABORATORIOS RAFFO S.A.",
+  "PA": "MUPIROCINA"
+ },
+ {
+  "Producto": "F-15316/25",
+  "Nombre": "NASONEX SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/DOSIS",
+  "FechaRegistro": "2005-12-12",
+  "Titular": "ORGANON CHILE S.p.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-28612/24",
+  "Nombre": "NASOVAL SUSPENSIÓN PARA INHALACIÓN NASAL 50 mcg/dosis (MOMETASONA FUROATO)",
+  "FechaRegistro": "2024-11-22",
+  "Titular": "LABORATORIO BIOVAL S.p.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-15296/25",
+  "Nombre": "NEBULEX SUSPENSIÓN PARA NEBULIZACIÓN NASAL 50 mcg/dosis",
+  "FechaRegistro": "2005-11-30",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "FLUTICASONA PROPIONATO"
+ },
+ {
+  "Producto": "F-21969/25",
+  "Nombre": "OXILER D SOLUCIÓN NASAL 0,05 % (OXIMETAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2015-07-03",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-15485/26",
+  "Nombre": "OXILIN SOLUCIÓN NASAL 0,05%",
+  "FechaRegistro": "2006-04-10",
+  "Titular": "LABORATORIO PASTEUR S.A.",
+  "PA": "OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-28549/24",
+  "Nombre": "OXIVAL SOLUCIÓN NASAL 0,05 % (OXIMETAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2024-10-21",
+  "Titular": "LABORATORIO BIOVAL S.p.A.",
+  "PA": "OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-22337/25",
+  "Nombre": "PLUSTER SUSPENSIÓN ACUOSA PARA NEBULIZACIÓN NASAL 50 mcg/dosis (MOMETASONA FUROATO)",
+  "FechaRegistro": "2015-12-15",
+  "Titular": "LABORATORIOS SIEGFRIED S.A. (ex  Deutsche Pharma S.A.)",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-25912/26",
+  "Nombre": "PROXONA SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/dosis",
+  "FechaRegistro": "2021-01-11",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-27336/23",
+  "Nombre": "RESPISAN SOLUCIÓN NASAL PARA NEBULIZACION 0,05% (OXIMETAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2023-02-13",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "OXIMETAZOLINA"
+ },
+ {
+  "Producto": "F-19277/22",
+  "Nombre": "RINITEK SUSPENSIÓN  PARA NEBULIZACIÓN NASAL 50 mg/100mL",
+  "FechaRegistro": "2012-03-05",
+  "Titular": "LABORATORIOS RECALCINE S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-15899/22",
+  "Nombre": "RINO B AQUA SUSPENSIÓN NASAL PARA NEBULIZACIÓN 100 mcg/dosis",
+  "FechaRegistro": "2007-01-19",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "BUDESONIDA"
+ },
+ {
+  "Producto": "F-2341/24",
+  "Nombre": "RINO-VAL SUSPENSIÓN NASAL PARA NEBULIZACIÓN  50 mcg/dosis",
+  "FechaRegistro": "1999-11-10",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "B-157/23",
+  "Nombre": "RINOBANEDIF UNGÜENTO NASAL",
+  "FechaRegistro": "1995-03-16",
+  "Titular": "LABORATORIO BAGÓ DE CHILE S.A.",
+  "PA": "ANTAZOLINA//BACITRACINA//NEOMICINA//XILOMETAZOLINA"
+ },
+ {
+  "Producto": "F-28330/24",
+  "Nombre": "RINODUAL 137/50 SUSPENSIÓN NASAL PARA NEBULIZACIÓN",
+  "FechaRegistro": "2024-08-12",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "AZELASTINA//FLUTICASONA"
+ },
+ {
+  "Producto": "F-12574/22",
+  "Nombre": "RINOKID SOLUCIÓN NASAL PARA NEBULIZACIÓN 3%",
+  "FechaRegistro": "2002-12-03",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "SODIO CLORURO"
+ },
+ {
+  "Producto": "F-23560/22",
+  "Nombre": "RINOMASE SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/ dosis (MOMETASONA FUROATO)",
+  "FechaRegistro": "2017-07-26",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-12764/23",
+  "Nombre": "RINOSTERYL SOLUCIÓN NASAL 0,9% (CLORURO DE SODIO)",
+  "FechaRegistro": "2003-02-13",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "SODIO CLORURO"
+ },
+ {
+  "Producto": "F-28399/24",
+  "Nombre": "RYALTRIS 600/25 SUSPENSIÓN NASAL PARA NEBULIZACIÓN",
+  "FechaRegistro": "2024-07-25",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "MOMETASONA FUROATO ;OLOPATADINA"
+ },
+ {
+  "Producto": "H-1232/22",
+  "Nombre": "SINASAL HEVERT COMPRIMIDOS BUCODISPERSABLES",
+  "FechaRegistro": "2017-04-24",
+  "Titular": "SOCIEDAD IMPORTADORA Y COMERCIALIZADORA DE PRODUCTOS PARA LA SALUD LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-26406/21",
+  "Nombre": "SPRAVATO  SOLUCIÓN PARA PULVERIZACIÓN NASAL 28 mg (ESKETAMINA)",
+  "FechaRegistro": "2021-11-08",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "ESKETAMINA"
+ },
+ {
+  "Producto": "F-20526/23",
+  "Nombre": "SUAVICORT SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/DOSIS (MOMETASONA FUROATO)",
+  "FechaRegistro": "2013-11-14",
+  "Titular": "LABORATORIO D & M PHARMA LTDA.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-20095/23",
+  "Nombre": "SYNALLER SUSPENSIÓN PARA INHALACIÓN NASAL 50 mcg/dosis",
+  "FechaRegistro": "2013-07-05",
+  "Titular": "LABORATORIO PASTEUR S.A.",
+  "PA": "MOMETASONA"
+ },
+ {
+  "Producto": "F-24823/24",
+  "Nombre": "TICANASE SUSPENSIÓN PARA NEBULIZACIÓN NASAL 50 mcg/dosis (FLUTICASONA PROPIONATO)",
+  "FechaRegistro": "2019-05-14",
+  "Titular": "SCM PHARMA S.p.A.",
+  "PA": "FLUTICASONA PROPIONATO"
+ },
+ {
+  "Producto": "F-13363/23",
+  "Nombre": "UNDERAN UNGÜENTO NASAL 2%",
+  "FechaRegistro": "2003-12-16",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "MUPIROCINA"
+ },
+ {
+  "Producto": "F-22116/25",
+  "Nombre": "PREDNISOLONA ACETATO SUSPENSION OFTALMICA 1%",
+  "FechaRegistro": "2015-09-09",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-24979/24",
+  "Nombre": "PROXTEN PLUS SUSPENSIÓN OFTALMICA 1% (PREDNISOLONA ACETATO)",
+  "FechaRegistro": "2019-08-06",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-17796/24",
+  "Nombre": "TRAVOF SP SOLUCIÓN OFTALMICA 0,004%",
+  "FechaRegistro": "2009-11-06",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "1926C-34/25",
+  "Nombre": "BCN INTENSE REPAIR CREMA PREBIÓTICA DE NOCHE CALMANTE Y REFRESCANTE  DE TEXTURA LIVIANA PARA CARA Y CUELLO",
+  "FechaRegistro": "2025-02-04",
+  "Titular": "FLAMA CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "1926C-36/25",
+  "Nombre": "BCN SHIELD CREMA PREBIÓTICA DE DÍA REPARADORA E HIDRATANTE INTENSIVO – ROSTRO, CUELLO Y ESCOTE",
+  "FechaRegistro": "2025-02-04",
+  "Titular": "FLAMA CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-25584/25",
+  "Nombre": "CARDURA XL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 4 mg (DOXAZOSINA)",
+  "FechaRegistro": "2020-07-27",
+  "Titular": "ASPEN CHILE S.A.",
+  "PA": "DOXAZOSINA"
+ },
+ {
+  "Producto": "F-20638/23",
+  "Nombre": "CETRAXAL PLUS 3/0,25  SOLUCIÓN PARA GOTAS ÓTICAS",
+  "FechaRegistro": "2013-12-10",
+  "Titular": "FAES FARMA CHILE, SALUD Y NUTRICIÓN SpA",
+  "PA": "CIPROFLOXACINO//FLUOCINOLONA ACETONIDO"
+ },
+ {
+  "Producto": "F-20503/23",
+  "Nombre": "CETRAXAL SOLUCIÓN PARA GOTAS ÓTICAS 0,3%",
+  "FechaRegistro": "2013-11-12",
+  "Titular": "FAES FARMA CHILE, SALUD Y NUTRICIÓN SpA",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-14179/24",
+  "Nombre": "CIPRODEX SUSPENSIÓN ÓTICA",
+  "FechaRegistro": "2004-09-27",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-514/23",
+  "Nombre": "CIPROVAL SOLUCIÓN ÓTICA PARA GOTAS AL 0,3%",
+  "FechaRegistro": "1998-05-12",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-28938/25",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 18 mg",
+  "FechaRegistro": "2025-06-23",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-19755/23",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 18 mg",
+  "FechaRegistro": "2013-02-07",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-29529/26",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 18 mg",
+  "FechaRegistro": "2026-03-05",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-28939/25",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 27 mg",
+  "FechaRegistro": "2025-06-23",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-19763/23",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 27 mg",
+  "FechaRegistro": "2013-02-07",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-29539/26",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 27 mg",
+  "FechaRegistro": "2026-03-05",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-29540/26",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 36 mg",
+  "FechaRegistro": "2026-03-05",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-19764/23",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 36 mg",
+  "FechaRegistro": "2013-02-07",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-28940/25",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 36 mg",
+  "FechaRegistro": "2025-06-23",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-29541/26",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 54 mg (METILFENIDATO)",
+  "FechaRegistro": "2026-03-05",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-28941/25",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 54 mg (METILFENIDATO)",
+  "FechaRegistro": "2025-06-23",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-19762/23",
+  "Nombre": "CONCERTA COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 54 mg (METILFENIDATO)",
+  "FechaRegistro": "2013-02-07",
+  "Titular": "JOHNSON & JOHNSON DE CHILE S.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "123C-436/26",
+  "Nombre": "Gel de baño Syndet Simond´s Dermocream con Avena Prebiótica",
+  "FechaRegistro": "2026-05-11 01:00:00",
+  "Titular": "LABORATORIO DURANDIN S.A.I.",
+  "PA": ""
+ },
+ {
+  "Producto": "132C-3237/25",
+  "Nombre": "Natura Tododía Cereza y Praliné Crema para el cuerpo Nutrición Prebiótica (Fragancia Inspirada en Cereza Negra y Praliné)",
+  "FechaRegistro": "2025-04-04",
+  "Titular": "NATURA COSMÉTICOS S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "132C-3087/23",
+  "Nombre": "Natura Tododia Flor de Manzana Nutrición prebiótica Crema para el cuerpo. (Fragancia inspirada en Flor de manzana)",
+  "FechaRegistro": "2023-12-14",
+  "Titular": "NATURA COSMÉTICOS S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "132C-2749/26",
+  "Nombre": "NATURA TODODIA MANGO ROSA Y AGUA DE COCO. AGUA PREBIÓTICA PARA EL CUERPO (MANGO ROSA Y AGUA DE COCO REFIERE AL AROMA)",
+  "FechaRegistro": "2021-06-03",
+  "Titular": "NATURA COSMÉTICOS S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "132C-3088/23",
+  "Nombre": "Natura Tododia Uva Rosada y Granada Crema para el cuerpo con nutrición prebiótica. (Fragancia inspirada en Uva Rosada y Granada)",
+  "FechaRegistro": "2023-12-14",
+  "Titular": "NATURA COSMÉTICOS S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-26156/26",
+  "Nombre": "OSMETIL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 18 mg (METILFENIDATO)",
+  "FechaRegistro": "2021-05-12",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-26335/26",
+  "Nombre": "OSMETIL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 27 mg (METILFENIDATO)",
+  "FechaRegistro": "2021-08-12",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-26363/26",
+  "Nombre": "OSMETIL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 36 mg (METILFENIDATO)",
+  "FechaRegistro": "2021-08-30",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-29370/25",
+  "Nombre": "OSMETIL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 45 mg (METILFENIDATO)",
+  "FechaRegistro": "2026-03-18",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-26169/26",
+  "Nombre": "OSMETIL COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 54 mg (METILFENIDATO)",
+  "FechaRegistro": "2021-05-24",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "METILFENIDATO"
+ },
+ {
+  "Producto": "F-12589/22",
+  "Nombre": "OTEX HC SUSPENSIÓN ÓTICA",
+  "FechaRegistro": "2002-12-30",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "CIPROFLOXACINO//HIDROCORTISONA"
+ },
+ {
+  "Producto": "B-891/25",
+  "Nombre": "OTICUM SOLUCIÓN ÓTICA",
+  "FechaRegistro": "2000-10-23",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//NEOMICINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "F-11846/22",
+  "Nombre": "OTIPAX SOLUCIÓN ÓTICA PARA GOTAS",
+  "FechaRegistro": "2002-01-29",
+  "Titular": "AXON PHARMA S.p.A.",
+  "PA": "FENAZONA//LIDOCAINA"
+ },
+ {
+  "Producto": "B-779/25",
+  "Nombre": "OTOSEPTIL SOLUCIÓN ÓTICA PARA GOTAS",
+  "FechaRegistro": "2000-07-04",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "123C-423/25",
+  "Nombre": "SIMOND-S DERMOCREAM BABY CREMA HIDRATANTE CON AVENA PREBIÓTICA",
+  "FechaRegistro": "2025-08-26",
+  "Titular": "LABORATORIO DURANDIN S.A.I.",
+  "PA": ""
+ },
+ {
+  "Producto": "123C-424/25",
+  "Nombre": "Simond´s Dermocream Baby Wash & Shampoo con Avena Prebiótica",
+  "FechaRegistro": "2025-08-21 01:00:00",
+  "Titular": "LABORATORIO DURANDIN S.A.I.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-25495/25",
+  "Nombre": "SUBELAN COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 75 mg (VENLAFAXINA)",
+  "FechaRegistro": "2020-06-22",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "VENLAFAXINA"
+ },
+ {
+  "Producto": "F-25416/25",
+  "Nombre": "SUBELAN OR COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 150 mg (VENLAFAXINA)",
+  "FechaRegistro": "2020-05-05",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "VENLAFAXINA"
+ },
+ {
+  "Producto": "F-24997/24",
+  "Nombre": "SUBELAN OR COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 225 mg (VENLAFAXINA)",
+  "FechaRegistro": "2019-08-09",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "VENLAFAXINA"
+ },
+ {
+  "Producto": "F-24771/24",
+  "Nombre": "SUBELAN OR COMPRIMIDOS RECUBIERTOS DE LIBERACIÓN OSMÓTICA PROLONGADA 37,5 mg (VENLAFAXINA)",
+  "FechaRegistro": "2019-04-12",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "VENLAFAXINA"
+ },
+ {
+  "Producto": "F-11656/26",
+  "Nombre": "TRU SOLUCIÓN PARA GOTAS ÓTICAS",
+  "FechaRegistro": "1995-03-06",
+  "Titular": "LABORATORIO PASTEUR S.A.",
+  "PA": "LIDOCAINA//SULFATIAZOL"
+ },
+ {
+  "Producto": "F-1877/24",
+  "Nombre": "3-A OFTENO SOLUCIÓN OFTÁLMICA 0,1%",
+  "FechaRegistro": "1999-07-28",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DICLOFENACO"
+ },
+ {
+  "Producto": "F-14888/25",
+  "Nombre": "ACULAR LS SOLUCIÓN OFTÁLMICA 0,4% (KETOROLACO TROMETAMOL)",
+  "FechaRegistro": "2005-06-29",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "KETOROLACO TROMETAMOL"
+ },
+ {
+  "Producto": "F-12304/22",
+  "Nombre": "AGGLAD OFTENO SOLUCIÓN OFTÁLMICA 0,2%",
+  "FechaRegistro": "2002-07-25",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-26522/21",
+  "Nombre": "AILICEC SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2021-12-01",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-22948/26",
+  "Nombre": "ALERGIOL FORTE SOLUCIÓN OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2016-08-02",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-12327/22",
+  "Nombre": "ALPHAGAN P SOLUCIÓN OFTÁLMICA 0,15% (BRIMONIDINA TARTRATO)",
+  "FechaRegistro": "2002-08-20",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-2798/24",
+  "Nombre": "ANESTALCON SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "1976-10-01",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "PROPARACAINA"
+ },
+ {
+  "Producto": "F-27237/22",
+  "Nombre": "ANESTALCON SOLUCIÓN OFTÁLMICA 0,5% (PROPARACAINA CLORHIDRATO)",
+  "FechaRegistro": "2022-12-27",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "PROPARACAINA"
+ },
+ {
+  "Producto": "F-1161/23",
+  "Nombre": "ATROPINA SOLUCIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "1983-01-05",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "ATROPINA SULFATO"
+ },
+ {
+  "Producto": "F-15393/26",
+  "Nombre": "ATROPINA SULFATO MONOHIDRATO SOLUCIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2006-01-31",
+  "Titular": "BPH SpA",
+  "PA": "ATROPINA SULFATO"
+ },
+ {
+  "Producto": "F-25563/25",
+  "Nombre": "AVOPLOS SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST)",
+  "FechaRegistro": "2020-07-14",
+  "Titular": "LABORATORIO D & M PHARMA LTDA.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "F-17777/24",
+  "Nombre": "AZARGA SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2009-10-22",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "BRINZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-1798/24",
+  "Nombre": "AZOPT SUSPENSIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "1999-04-30",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "BRINZOLAMIDA"
+ },
+ {
+  "Producto": "F-19315/22",
+  "Nombre": "AZYDROP SOLUCIÓN OFTÁLMICA 1,43%",
+  "FechaRegistro": "2012-03-22",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "Azitromicina"
+ },
+ {
+  "Producto": "F-5522/25",
+  "Nombre": "BEOF SOLUCIÓN OFTÁLMICA AL 0,5%",
+  "FechaRegistro": "1987-03-27",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAXOLOL"
+ },
+ {
+  "Producto": "F-8873/26",
+  "Nombre": "BETAXOLOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "1991-04-23",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "BETAXOLOL"
+ },
+ {
+  "Producto": "F-27002/22",
+  "Nombre": "BICRINOL SUSPENSIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2022-08-22",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "Brinzolamida"
+ },
+ {
+  "Producto": "F-28684/25",
+  "Nombre": "BIMATOPROST SOLUCIÓN OFTÁLMICA 0,03%",
+  "FechaRegistro": "2025-01-14",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-27211/22",
+  "Nombre": "BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL",
+  "FechaRegistro": "2022-12-13",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-27977/23",
+  "Nombre": "BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL",
+  "FechaRegistro": "2023-12-12",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-26442/26",
+  "Nombre": "BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL",
+  "FechaRegistro": "2021-10-12",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-29877/26",
+  "Nombre": "BIMATOPROST/TIMOLOL SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2026-07-24",
+  "Titular": "PHARMATECH CHILE SpA",
+  "PA": "BIMATOPROST//TIMOLOL MALEATO"
+ },
+ {
+  "Producto": "F-27712/23",
+  "Nombre": "BIMATOPROST/TIMOLOL SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2023-08-01",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "BIMATOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-28685/25",
+  "Nombre": "BIMATRON SOLUCIÓN OFTÁLMICA 0,03% (BIMATOPROST)",
+  "FechaRegistro": "2025-01-14",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-26236/26",
+  "Nombre": "BIOMIRA SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA)",
+  "FechaRegistro": "2021-06-29",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-26134/26",
+  "Nombre": "BIOMIRA T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2021-05-03",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-23254/21",
+  "Nombre": "BRIMOF SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA TARTRATO)",
+  "FechaRegistro": "2016-12-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-25575/25",
+  "Nombre": "BRIMOF SP SOLUCIÓN OFTÁLMICA  0,2% (BRIMONIDINA TARTRATO)",
+  "FechaRegistro": "2020-07-21",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRIMONIDINA TARTRATO"
+ },
+ {
+  "Producto": "FX-328/24",
+  "Nombre": "BRIMOF SP SOLUCIÓN OFTÁLMICA (BRIMONIDINA TARTRATO)",
+  "FechaRegistro": "2019-09-09",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRIMONIDINA TARTRATO"
+ },
+ {
+  "Producto": "FX-325/24",
+  "Nombre": "BRIMOF T SP SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-08-22",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-25743/25",
+  "Nombre": "BRIMOKEM SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA)",
+  "FechaRegistro": "2020-10-14",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-28836/25",
+  "Nombre": "Brimonidina Tartrato 0,2% Timolol 0,5% solución oftálmica",
+  "FechaRegistro": "2025-05-02",
+  "Titular": "NEOETHICALS CHILE S.p.A.",
+  "PA": "BRIMONIDINA TARTRATO;TIMOLOL (COMO MALEATO)"
+ },
+ {
+  "Producto": "F-28236/24",
+  "Nombre": "BRIMONIDINA TARTRATO SOLUCIÓN OFTÁLMICA 0,15%",
+  "FechaRegistro": "2024-04-18",
+  "Titular": "ALEMBIC PHARMACEUTICALS S.p.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-28518/24",
+  "Nombre": "BRIMONIDINA TARTRATO SOLUCIÓN OFTÁLMICA 0,2%",
+  "FechaRegistro": "2024-10-07",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-26445/26",
+  "Nombre": "BRIMONIDINA TARTRATO/TIMOLOL 0,2/0,5 SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2021-10-12",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "BRIMONIDINA//TIMOLOL"
+ },
+ {
+  "Producto": "F-11880/22",
+  "Nombre": "BRIMOPRESS SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA)",
+  "FechaRegistro": "2002-02-01",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "BRIMONIDINA"
+ },
+ {
+  "Producto": "F-20015/23",
+  "Nombre": "BRIMOPRESS T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2013-06-11",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "BRIMONIDINA//TIMOLOL"
+ },
+ {
+  "Producto": "F-24628/24",
+  "Nombre": "BRINZOF-T SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-02-06",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRINZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-27001/22",
+  "Nombre": "BRINZOLAMIDA/TIMOLOL SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2022-08-22",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "BRINZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-28625/24",
+  "Nombre": "BRINZOLAMIDA/TIMOLOL SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-12-03",
+  "Titular": "PARTHENON PHARMA S.p.A.",
+  "PA": "Brinzolamida;TIMOLOL MALEATO"
+ },
+ {
+  "Producto": "F-11830/22",
+  "Nombre": "BRIXIA SOLUCIÓN OFTÁLMICA 0,05% (AZELASTINA)",
+  "FechaRegistro": "2002-02-01",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "AZELASTINA"
+ },
+ {
+  "Producto": "F-22302/25",
+  "Nombre": "CICLOPENTOLATO CLORHIDRATO SOLUCIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2015-11-20",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "CICLOPENTOLATO"
+ },
+ {
+  "Producto": "F-9566/21",
+  "Nombre": "CIPRODEX SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "1996-12-11 02:10:00",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-27267/23",
+  "Nombre": "CIPROSCEND SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO)",
+  "FechaRegistro": "2023-01-09",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-9567/21",
+  "Nombre": "CIPROVAL SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "1992-12-02",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-26856/22",
+  "Nombre": "CLARIMIR F SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2022-06-15",
+  "Titular": "LABORATORIOS ANDRÓMACO S.A.",
+  "PA": "FENIRAMINA//NAFAZOLINA"
+ },
+ {
+  "Producto": "F-26855/22",
+  "Nombre": "CLARIMIR SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2022-06-14",
+  "Titular": "LABORATORIOS ANDRÓMACO S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-28264/24",
+  "Nombre": "CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5 %",
+  "FechaRegistro": "2024-04-29",
+  "Titular": "COMERCIAL APOTECARE S.p.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-25283/25",
+  "Nombre": "CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2020-02-10",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-20082/23",
+  "Nombre": "CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2013-07-02",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-15423/26",
+  "Nombre": "COMBIGAN SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2006-03-03",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BRIMONIDINA//TIMOLOL"
+ },
+ {
+  "Producto": "F-29430/26",
+  "Nombre": "CYCLOGYL SOLUCIÓN OFTÁLMICA 1% (CICLOPENTOLATO CLORHIDRATO)",
+  "FechaRegistro": "2026-01-28",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "CICLOPENTOLATO CLORHIDRATO"
+ },
+ {
+  "Producto": "F-2796/24",
+  "Nombre": "CYCLOGYL SOLUCIÓN OFTÁLMICA AL 1%",
+  "FechaRegistro": "1979-11-30 02:10:00",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "CICLOPENTOLATO"
+ },
+ {
+  "Producto": "F-22209/25",
+  "Nombre": "DEXACORT-C SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2015-10-15",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-21664/25",
+  "Nombre": "DISALOT SUSPENSIÓN OFTÁLMICA 0,5% (LOTEPREDNOL ETABONATO)",
+  "FechaRegistro": "2015-01-14",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "LOTEPREDNOL"
+ },
+ {
+  "Producto": "F-26462/26",
+  "Nombre": "DORLENKA SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA)",
+  "FechaRegistro": "2021-10-26",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-20789/24",
+  "Nombre": "DORTIM SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2014-01-16",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-28465/24",
+  "Nombre": "DORZOLAMIDA CLORHIDRATO SOLUCIÓN OFTÁLMICA  2%",
+  "FechaRegistro": "2024-09-03",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "FX-329/24",
+  "Nombre": "DORZOLAMIDA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2%",
+  "FechaRegistro": "2019-09-09",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-23044/26",
+  "Nombre": "DORZOLAMIDA SOLUCIÓN OFTÁLMICA 2%",
+  "FechaRegistro": "2016-09-07",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-26840/22",
+  "Nombre": "DORZOLAMIDA/TIMOLOL 2%/0,5% SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2022-06-08",
+  "Titular": "INDOPHARMA S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-28487/24",
+  "Nombre": "DORZOLAMIDA/TIMOLOL 2/0,5 SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-09-24",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-28464/24",
+  "Nombre": "DORZOLAMIDA/TIMOLOL 2/0,5 SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-09-04",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-27653/23",
+  "Nombre": "DORZOLAMIDA/TIMOLOL SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2023-07-18",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-24570/24",
+  "Nombre": "DORZOX SOLUCIÓN OFTÁLMICA  2 % (DORZOLAMIDA CLORHIDRATO 20 Mg/mL)",
+  "FechaRegistro": "2019-01-17",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-24559/24",
+  "Nombre": "DORZOX T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-01-17",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-15433/26",
+  "Nombre": "DUOTRAV SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2006-03-14",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "TIMOLOL//TRAVOPROST"
+ },
+ {
+  "Producto": "F-27478/23",
+  "Nombre": "ELAR-B SOLUCIÓN OFTÁLMICA 1,5% (BEPOTASTINA BESILATO)",
+  "FechaRegistro": "2023-04-25",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "BEPOTASTINA BESILATO"
+ },
+ {
+  "Producto": "F-24561/24",
+  "Nombre": "ELIPTIC OFTENO  PF SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-01-16",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-22044/25",
+  "Nombre": "ELIPTIC OFTENO SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2015-08-05",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-16739/23",
+  "Nombre": "ETACORTILEN SOLUCIÓN OFTÁLMICA UNIDOSIS 0,15%",
+  "FechaRegistro": "2008-04-02",
+  "Titular": "GADOR LTDA.",
+  "PA": "DEXAMETASONA"
+ },
+ {
+  "Producto": "F-28468/24",
+  "Nombre": "ETHOSCOP SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA)",
+  "FechaRegistro": "2024-09-10",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "H-1266/25",
+  "Nombre": "EUPHRASIA D3 SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2020-03-26",
+  "Titular": "WELEDA CHILE S.p.A.",
+  "PA": "EUPHRASIA OFFICINALIS L."
+ },
+ {
+  "Producto": "F-29700/26",
+  "Nombre": "EXALO SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2026-05-20",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-29863/26",
+  "Nombre": "FENILEFRINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2,5%",
+  "FechaRegistro": "2026-07-15",
+  "Titular": "NEOETHICALS CHILE SpA",
+  "PA": "FENILEFRINA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-21517/24",
+  "Nombre": "FLOBACT SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO)",
+  "FechaRegistro": "2014-11-05",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-20888/24",
+  "Nombre": "FLUFORTE SUSPENSIÓN OFTÁLMICA 0,1%",
+  "FechaRegistro": "2014-01-29",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "FLUOROMETOLONA"
+ },
+ {
+  "Producto": "F-12259/22",
+  "Nombre": "FLUMETOL NF OFTENO SUSPENSIÓN OFTÁLMICA 0,1 % (FLUOROMETOLONA)",
+  "FechaRegistro": "2002-08-09",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "FLUOROMETOLONA"
+ },
+ {
+  "Producto": "B-2727/23",
+  "Nombre": "FLURES-D SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2018-11-07",
+  "Titular": "PHARMATECH CHILE SpA",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-21677/25",
+  "Nombre": "FLUSURE SUSPENSIÓN OFTÁLMICA 0,1 % ( FLUOROMETOLONA)",
+  "FechaRegistro": "2015-01-22",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "FLUOROMETOLONA"
+ },
+ {
+  "Producto": "F-24272/23",
+  "Nombre": "GAAP OFTENO PF SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2018-11-15",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-15625/26",
+  "Nombre": "GAAP OFTENO SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2006-07-21",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-16196/22",
+  "Nombre": "GANFORT SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2007-07-19",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BIMATOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "B-2632/26",
+  "Nombre": "GENTAMICINA SOLUCIÓN OFTÁLMICA 0,3 %",
+  "FechaRegistro": "2016-07-01",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-2638/26",
+  "Nombre": "GENTAMICINA SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "2016-07-18",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-2654/26",
+  "Nombre": "GENTAMICINA SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "2016-10-14",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-1243/26",
+  "Nombre": "GENTISAL SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "1991-03-25",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "F-22122/25",
+  "Nombre": "GLAUCOPROST SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST)",
+  "FechaRegistro": "2015-09-11",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "F-11896/22",
+  "Nombre": "GLAUCOTENSIL SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA)",
+  "FechaRegistro": "2002-02-01",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-29674/26",
+  "Nombre": "GLAUCOTENSIL SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA)",
+  "FechaRegistro": "2026-05-13",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "DORZOLAMIDA"
+ },
+ {
+  "Producto": "F-28211/24",
+  "Nombre": "GLAUCOTENSIL T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-04-08",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-11829/22",
+  "Nombre": "GLAUCOTENSIL-T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2002-02-01",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-26526/21",
+  "Nombre": "GLAUSOLETS ADVANCED SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2021-12-06",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-14275/24",
+  "Nombre": "GLAUSOLETS PLUS SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2004-11-04",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-26815/22",
+  "Nombre": "ISTADINE SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2022-05-26",
+  "Titular": "ITF - LABOMED FARMACÉUTICA LTDA.",
+  "PA": "DEXAMETASONA//LEVOFLOXACINO"
+ },
+ {
+  "Producto": "F-26909/22",
+  "Nombre": "KAIRÓS PF SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2022-07-25",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-22034/25",
+  "Nombre": "KAPH SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2015-07-29",
+  "Titular": "ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "CLORANFENICOL"
+ },
+ {
+  "Producto": "F-21531/24",
+  "Nombre": "KENALER SOLUCIÓN OFTÁLMICA 0,05% (KETOTIFENO)",
+  "FechaRegistro": "2014-11-13",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "KETOTIFENO"
+ },
+ {
+  "Producto": "F-27202/22",
+  "Nombre": "KLARE SOLUCIÓN OFTÁLMICA 0,3 mg/mL (BIMATOPROST)",
+  "FechaRegistro": "2022-12-06",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-28122/24",
+  "Nombre": "KLARE T SOLUCIÓN OFTÁLMICA (BIMATROPRIOST / TIMOLOL MALEATO)",
+  "FechaRegistro": "2024-03-06",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "BIMATOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-28388/24",
+  "Nombre": "KRYTANTEK OFTENO PF SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-07-30",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "Dorzolamida Clorhidrato;Timolol Maleato;Brimonidina Tartrato"
+ },
+ {
+  "Producto": "F-28814/25",
+  "Nombre": "LANDAX SOLUCIÓN OFTÁLMICA 0,5% (LEVOFLOXACINO)",
+  "FechaRegistro": "25-04-2025",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "LEVOFLOXACINO"
+ },
+ {
+  "Producto": "F-19214/22",
+  "Nombre": "LATANOPROST  SOLUCIÓN OFTÁLMICA  50 mcg/mL",
+  "FechaRegistro": "2012-01-19",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-23312/22",
+  "Nombre": "LATANOPROST / TIMOLOL Solución oftálmica",
+  "FechaRegistro": "2017-01-26",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-28401/24",
+  "Nombre": "LATANOPROST SOLUCIÓN OFTÁLMICA 0,005 %",
+  "FechaRegistro": "2024-07-29",
+  "Titular": "COMERCIAL APOTECARE S.p.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-23582/22",
+  "Nombre": "LATANOPROST SOLUCIÓN OFTÁLMICA 50 mcg/mL",
+  "FechaRegistro": "2017-08-21",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "Latanoprost"
+ },
+ {
+  "Producto": "F-24791/24",
+  "Nombre": "LATANOPROST SOLUCIÓN OFTÁLMICA 50 mcg/mL",
+  "FechaRegistro": "2019-04-22",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-24787/24",
+  "Nombre": "LATANOPROST/TIMOLOL SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-04-18",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "FX-275/23",
+  "Nombre": "LATOF SOLUCIÓN OFTÁLMICA 0,005 %",
+  "FechaRegistro": "2018-05-17",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "FX-307/24",
+  "Nombre": "Latof solución oftálmica 0,005%",
+  "FechaRegistro": "2019-01-08",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-3393/25",
+  "Nombre": "LATOF SOLUCIÓN OFTÁLMICA 0,005%",
+  "FechaRegistro": "2000-04-10",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "FX-195/21",
+  "Nombre": "LATOF SOLUCIÓN OFTÁLMICA 0,005%",
+  "FechaRegistro": "2016-11-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "FX-214/22",
+  "Nombre": "LATOF SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2017-07-04",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "FX-308/24",
+  "Nombre": "LATOF SP SOLUCIÓN OFTÁLMICA (LATANAPROST)",
+  "FechaRegistro": "2019-01-08",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-24966/24",
+  "Nombre": "LATOF SP SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2019-07-29",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "FX-213/22",
+  "Nombre": "LATOF T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2017-07-11",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-11937/22",
+  "Nombre": "LATOF T SOLUCIÓN OFTÁLMICA (LATANOPROST/TIMOLOL)",
+  "FechaRegistro": "2002-03-28",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LATANOPROST//TIMOLOL MALEATO"
+ },
+ {
+  "Producto": "F-25053/24",
+  "Nombre": "LATOF T SP SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-09-12",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "FX-309/24",
+  "Nombre": "LATOF T SP SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-01-08",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-17877/24",
+  "Nombre": "LOUTEN - T SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2009-12-23",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-25281/25",
+  "Nombre": "LOUTEN EMULSIÓN OFTÁLMICA 0,005% (LATANOPROST)",
+  "FechaRegistro": "2020-02-04",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "Latanoprost"
+ },
+ {
+  "Producto": "F-7585/26",
+  "Nombre": "LOUTEN SOLUCIÓN OFTÁLMICA 0,005%",
+  "FechaRegistro": "2001-04-19 02:10:00",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-18052/25",
+  "Nombre": "LUMIGAN RC SOLUCIÓN OFTÁLMICA 0,01%",
+  "FechaRegistro": "2010-06-01",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-9090/26",
+  "Nombre": "LUMIGAN SOLUCIÓN OFTÁLMICA 0,03% (BIMATOPROST)",
+  "FechaRegistro": "2001-09-21",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BIMATOPROST"
+ },
+ {
+  "Producto": "F-21130/24",
+  "Nombre": "MEGRELAN SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2014-05-27",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "F-27161/22",
+  "Nombre": "MIDRAFAR SOLUCIÓN OFTÁLMICA 1 % (TROPICAMIDA)",
+  "FechaRegistro": "2022-11-15",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "TROPICAMIDA"
+ },
+ {
+  "Producto": "F-13844/24",
+  "Nombre": "MODUSIK - A OFTENO SOLUCIÓN OFTÁLMICA 0,1%",
+  "FechaRegistro": "2004-06-08",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "CICLOSPORINA"
+ },
+ {
+  "Producto": "F-25497/25",
+  "Nombre": "MONOPROST DUO SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2020-06-24",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-21752/25",
+  "Nombre": "MONOPROST SOLUCIÓN OFTÁLMICA 50 mcg/mL (LATANOPROST)",
+  "FechaRegistro": "2015-03-16",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "F-22365/25",
+  "Nombre": "MOXIFLOXACINO SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2015-12-23",
+  "Titular": "MEDINOVA FARMA LTDA.",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "FX-354/25",
+  "Nombre": "MOXOF D SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2020-04-06",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXAMETASONA FOSFATO DISODICO;MOXIFLOXACINO CLORHIDRATO"
+ },
+ {
+  "Producto": "F-15694/26",
+  "Nombre": "MOXOF SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2006-10-13",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "F-3249/25",
+  "Nombre": "MYDFRIN SOLUCIÓN OFTÁLMICA 2,5% (FENILEFRINA CLORHIDRATO)",
+  "FechaRegistro": "1984-08-13",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "FENILEFRINA"
+ },
+ {
+  "Producto": "F-28820/25",
+  "Nombre": "MYDRIACYL SOLUCIÓN OFTÁLMICA 1% (TROPICAMIDA)",
+  "FechaRegistro": "23-04-2025",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "TROPICAMIDA"
+ },
+ {
+  "Producto": "F-1180/23",
+  "Nombre": "MYDRIACYL SOLUCIÓN OFTÁLMICA ESTÉRIL 1%",
+  "FechaRegistro": "1967-03-17",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "TROPICAMIDA"
+ },
+ {
+  "Producto": "F-28290/24",
+  "Nombre": "MYMOF 0,2/0,5 SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2024-05-13",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "BRIMONIDINA//TIMOLOL"
+ },
+ {
+  "Producto": "F-9001/26",
+  "Nombre": "NAFAZOLINA CLORHIDRATO FENIRAMINA MALEATO SOLUCIÓN OFTÁLMICA ESTÉRIL",
+  "FechaRegistro": "1991-04-29",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "FENIRAMINA//NAFAZOLINA"
+ },
+ {
+  "Producto": "F-22329/25",
+  "Nombre": "NAPHCON A SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2015-12-10",
+  "Titular": "ALCON LABORATORIOS  CHILE  LTDA.",
+  "PA": "FENIRAMINA//NAFAZOLINA"
+ },
+ {
+  "Producto": "B-3058/24",
+  "Nombre": "NETIRA SOLUCIÓN OFTÁLMICA 0,3% (NETILMICINA)",
+  "FechaRegistro": "2024-12-04",
+  "Titular": "GADOR LTDA.",
+  "PA": "NETILMICINA"
+ },
+ {
+  "Producto": "F-27299/23",
+  "Nombre": "NEVANAC SUSPENSIÓN OFTÁLMICA 0,1% (NEPAFENACO)",
+  "FechaRegistro": "2023-01-24",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "NEPAFENACO"
+ },
+ {
+  "Producto": "F-13530/24",
+  "Nombre": "NICODROPS SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2004-03-08",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXTRAN//HIPROMELOSA//NAFAZOLINA"
+ },
+ {
+  "Producto": "FX-337/24",
+  "Nombre": "NICOTEARS SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-12-05",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXTRAN 70;HIDROXIPROPILMETILCELULOSA"
+ },
+ {
+  "Producto": "F-635/23",
+  "Nombre": "NOVOTEARS SOLUCIÓN OFTÁLMICA 0,012%",
+  "FechaRegistro": "1998-07-24",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-9066/26",
+  "Nombre": "OCULIX SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "1991-02-18",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "F-26762/22",
+  "Nombre": "OCUMIDRA SOLUCIÓN OFTÁLMICA 2,5% (FENILEFRINA CLORHIDRATO)",
+  "FechaRegistro": "2022-04-26",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "FENILEFRINA"
+ },
+ {
+  "Producto": "B-519/24",
+  "Nombre": "OFTABIOTICO CON GRAMICIDINA SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "1978-06-23",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "GRAMICIDINA//NEOMICINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "FX-357/25",
+  "Nombre": "OFTACORT SUSPENSIÓN OFTÁLMICA 1% (PREDNISOLONA ACETATO)",
+  "FechaRegistro": "2020-04-22",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "Prednisolona acetato"
+ },
+ {
+  "Producto": "F-25859/25",
+  "Nombre": "OFTACORT SUSPENSIÓN OFTÁLMICA 1% (PREDNISOLONA ACETATO)",
+  "FechaRegistro": "2020-12-14",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "FX-374/26",
+  "Nombre": "OFTAFILM SP SOLUCIÓN OFTÁLMICA 0,4%",
+  "FechaRegistro": "2021-06-03",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "HIALURONATO SÓDICO"
+ },
+ {
+  "Producto": "B-886/25",
+  "Nombre": "OFTAGEN COMPUESTO SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "1982-07-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//GENTAMICINA"
+ },
+ {
+  "Producto": "B-888/25",
+  "Nombre": "OFTAGEN SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "1980-07-24",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "B-2639/26",
+  "Nombre": "OFTAGLICOL SOLUCIÓN OFTÁLMICA 0,3% (GENTAMICINA)",
+  "FechaRegistro": "2016-07-18",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "GENTAMICINA"
+ },
+ {
+  "Producto": "F-2555/24",
+  "Nombre": "OFTALER FORTE SOLUCIÓN OFTÁLMICA 0,05%",
+  "FechaRegistro": "1999-12-10",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "KETOTIFENO"
+ },
+ {
+  "Producto": "F-14977/25",
+  "Nombre": "OFTALER SOLUCIÓN OFTÁLMICA 0,025%",
+  "FechaRegistro": "2005-07-28",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "KETOTIFENO"
+ },
+ {
+  "Producto": "F-5540/25",
+  "Nombre": "OFTALIRIO SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "1985-09-10",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "ANTAZOLINA//NAFAZOLINA"
+ },
+ {
+  "Producto": "F-22198/20",
+  "Nombre": "OFTALPRED SUSPENSIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2015-10-15",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-26758/22",
+  "Nombre": "OFTANEST SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2022-04-25",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "PROPARACAINA"
+ },
+ {
+  "Producto": "B-520/24",
+  "Nombre": "OFTASONA-N SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "1975-01-06",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//NEOMICINA"
+ },
+ {
+  "Producto": "F-2376/24",
+  "Nombre": "OFTASONA-P SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "1975-04-01",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA FOSFATO SÓDICO"
+ },
+ {
+  "Producto": "F-9586/26",
+  "Nombre": "OFTIC SOLUCIÓN OFTÁLMICA 1 mg/mL",
+  "FechaRegistro": "1995-05-03",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DICLOFENACO"
+ },
+ {
+  "Producto": "F-15780/21",
+  "Nombre": "OFTOL FORTE SUSPENSIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2006-11-10",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LOTEPREDNOL"
+ },
+ {
+  "Producto": "B-2152/25",
+  "Nombre": "OFTOL PLUS SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2010-09-14",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LOTEPREDNOL//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-15929/22",
+  "Nombre": "OFTOL SUSPENSIÓN OFTÁLMICA 0,2%.",
+  "FechaRegistro": "2007-03-13",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "LOTEPREDNOL"
+ },
+ {
+  "Producto": "F-29681/26",
+  "Nombre": "OLODIM SOLUCIÓN OFTÁLMICA 0,2 % (OLOPATADINA CLORHIDRATO)",
+  "FechaRegistro": "2026-05-15",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "OLOPATADINA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-27809/23",
+  "Nombre": "OLODINA PF SOLUCIÓN OFTÁLMICA 0,2 % (OLOPATADINA)",
+  "FechaRegistro": "2023-09-11",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-24871/24",
+  "Nombre": "OLODINA SOLUCIÓN OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2019-06-06",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-22309/25",
+  "Nombre": "OLOF SOLUCIÓN OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2015-11-24",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-29832/26",
+  "Nombre": "OLOHIST SOLUCIÓN OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2026-07-08",
+  "Titular": "SOCIEDAD CONSULTORA IN HOUSE LTDA.",
+  "PA": "OLOPATADINA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-27399/23",
+  "Nombre": "OLOKEM SOLUCION OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2023-03-22",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-22927/26",
+  "Nombre": "OLOPATADINA SOLUCIÓN OFTÁLMICA  0,1%",
+  "FechaRegistro": "2016-07-28",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-15242/25",
+  "Nombre": "PATANOL S SOLUCIÓN OFTÁLMICA 0,2 % (OLOPATADINA CLORHIDRATO)",
+  "FechaRegistro": "2005-12-11",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-720/23",
+  "Nombre": "PATANOL SOLUCIÓN OFTÁLMICA 0,1% (OLOPATADINA CLORHIDRATO)",
+  "FechaRegistro": "1998-09-04",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-1167/23",
+  "Nombre": "PILOCARPINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2%",
+  "FechaRegistro": "1989-06-27",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "PILOCARPINA"
+ },
+ {
+  "Producto": "F-1168/23",
+  "Nombre": "PILOCARPINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 4%",
+  "FechaRegistro": "1989-06-26",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "PILOCARPINA"
+ },
+ {
+  "Producto": "F-11855/22",
+  "Nombre": "POENCAÍNA SOLUCIÓN OFTÁLMICA 0,5% (PROPARACAINA)",
+  "FechaRegistro": "2002-04-09",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "PROPARACAINA"
+ },
+ {
+  "Producto": "B-2801/22",
+  "Nombre": "POENTOBRAL PLUS SUSPENSIÓN OFTÁLMICA (DEXAMETASONA/TOBRAMICINA)",
+  "FechaRegistro": "2002-02-01",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-8553/26",
+  "Nombre": "PRED FORTE SUSPENSIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2001-08-01",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-25788/25",
+  "Nombre": "PREDNISOLONA ACETATO SUSPENSIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2020-11-17",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-22874/26",
+  "Nombre": "PREDSOLETS FORTE SUSPENSIÓN OFTÁLMICA  1% (PREDNISOLONA ACETATO)",
+  "FechaRegistro": "2016-08-02",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "PREDNISOLONA"
+ },
+ {
+  "Producto": "F-25812/25",
+  "Nombre": "PREMOXIN SOLUCIÓN OFTÁLMICA 0,5% (MOXIFLOXACINO)",
+  "FechaRegistro": "2020-11-24",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "F-21672/25",
+  "Nombre": "QUIMOX SOLUCIÓN OFTÁLMICA 0,5%  (MOXIFLOXACINO)",
+  "FechaRegistro": "2015-02-03",
+  "Titular": "ESPECIALIDADES OFTALMOLÓGICAS SUCURSAL CHILE SPA",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "F-23836/23",
+  "Nombre": "RED-OFF SOLUCIÓN OFTÁLMICA 0,0125%",
+  "FechaRegistro": "2018-05-30",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-13719/24",
+  "Nombre": "RESTASIS EMULSIÓN OFTÁLMICA 0,05% (CICLOSPORINA)",
+  "FechaRegistro": "2004-05-05",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "CICLOSPORINA"
+ },
+ {
+  "Producto": "F-22543/26",
+  "Nombre": "SHAROF F SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2016-03-23",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-25701/25",
+  "Nombre": "SHAROF F SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2020-09-23",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-21735/25",
+  "Nombre": "SIMBRINZA SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2015-03-03",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "BRIMONIDINA//BRINZOLAMIDA"
+ },
+ {
+  "Producto": "F-16082/22",
+  "Nombre": "SOPHIPREN OFTENO SUSPENSIÓN OFTÁLMICA 1% (PREDNISOLONA)",
+  "FechaRegistro": "2007-05-07",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "PREDNISOLONA ACETATO"
+ },
+ {
+  "Producto": "F-17893/24",
+  "Nombre": "SOPHIXIN DX OFTENO SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2009-12-28",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "CIPROFLOXACINO//DEXAMETASONA"
+ },
+ {
+  "Producto": "F-16044/22",
+  "Nombre": "SOPHIXIN OFTENO SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO)",
+  "FechaRegistro": "2007-04-25",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "CIPROFLOXACINO"
+ },
+ {
+  "Producto": "F-17918/25",
+  "Nombre": "TALOF SUSPENSIÓN OFTÁLMICA 0,2%",
+  "FechaRegistro": "2010-01-28",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "LOTEPREDNOL ETABONATO"
+ },
+ {
+  "Producto": "F-23473/22",
+  "Nombre": "TENOPROX SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST)",
+  "FechaRegistro": "2017-05-23",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "Travoprost"
+ },
+ {
+  "Producto": "F-25612/25",
+  "Nombre": "TENOPROX SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST)",
+  "FechaRegistro": "2020-08-04",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "F-17094/23",
+  "Nombre": "THRIVE SOLUCIÓN OFTÁLMICA 0,1% (NAFAZOLINA)",
+  "FechaRegistro": "2008-09-30",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-29551/26",
+  "Nombre": "Timolol  Solución oftálmica 0,5%",
+  "FechaRegistro": "10-03-2026",
+  "Titular": "NEOETHICALS CHILE S.p.A.",
+  "PA": "TIMOLOL  MALEATO"
+ },
+ {
+  "Producto": "F-22975/26",
+  "Nombre": "TIMOLOL SOLUCIÓN OFTÁLMICA 0,5 %",
+  "FechaRegistro": "2016-08-18",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "F-22085/25",
+  "Nombre": "TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2015-08-21",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "F-27289/23",
+  "Nombre": "TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2023-01-17",
+  "Titular": "DROGUERÍA ETHON PHARMACEUTICALS S.p.A.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "F-20039/23",
+  "Nombre": "TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2013-06-19",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "FX-331/24",
+  "Nombre": "TIOF MAX SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2019-10-02",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRIMONIDINA TARTRATO;DORZOLAMIDA CLORHIDRATO;TIMOLOL MALEATO"
+ },
+ {
+  "Producto": "F-29811/26",
+  "Nombre": "TIOF MAX SP SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2026-07-01",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BRIMONIDINA TARTRATO//DORZOLAMIDA CLORHIDRATO//TIMOLOL  MALEATO"
+ },
+ {
+  "Producto": "F-29819/26",
+  "Nombre": "TIOF PLUS SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2026-07-02",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DORZOLAMIDA CLORHIDRATO//TIMOLOL MALEATO"
+ },
+ {
+  "Producto": "F-5304/25",
+  "Nombre": "TIOF PLUS SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2000-07-20",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DORZOLAMIDA//TIMOLOL"
+ },
+ {
+  "Producto": "F-5546/25",
+  "Nombre": "TIOF SOLUCIÓN OFTÁLMICA AL 0,5%",
+  "FechaRegistro": "1980-03-04",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TIMOLOL"
+ },
+ {
+  "Producto": "B-2798/26",
+  "Nombre": "TOBRADEX SUSPENSIÓN OFTÁLMICA (TOBRAMICINA/DEXAMETASONA)",
+  "FechaRegistro": "1990-07-23",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2369/23",
+  "Nombre": "TOBRAL SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "2013-08-24",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2371/23",
+  "Nombre": "TOBRAL-D SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2013-05-15",
+  "Titular": "PHARMABRAND CHILE LTDA.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "B-3075/25",
+  "Nombre": "TOBRALER SOLUCIÓN OFTÁLMICA 0,3% (TOBRAMICINA)",
+  "FechaRegistro": "08-04-2025",
+  "Titular": "LABORATORIO D & M PHARMA LTDA.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2630/26",
+  "Nombre": "TOBRAMICINA SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "2016-06-22",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-1261/26",
+  "Nombre": "TOBRAMICINA SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "1991-03-21",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2813/22",
+  "Nombre": "TOBRAMICINA SULFATO / DEXAMETASONA 0,3 / 0,1 SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2012-02-28",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2808/25",
+  "Nombre": "TOBREX SOLUCIÓN OFTÁLMICA 0,3% (TOBRAMICINA)",
+  "FechaRegistro": "1982-07-05",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2816/21",
+  "Nombre": "TODEXONA SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2016-11-28",
+  "Titular": "LABORATORIOS SMB FARMA S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-9089/26",
+  "Nombre": "TRAVATAN SOLUCIÓN OFTÁLMICA 0,004%",
+  "FechaRegistro": "2001-08-31",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "F-17825/25",
+  "Nombre": "TRAVOF T SP SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2010-02-01",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TIMOLOL//TRAVOPROST"
+ },
+ {
+  "Producto": "F-24800/24",
+  "Nombre": "TRAVOPROST SOLUCIÓN OFTÁLMICA 0,004 %",
+  "FechaRegistro": "2019-04-24",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "F-29697/26",
+  "Nombre": "TRAVOPROST SOLUCIÓN OFTÁLMICA 0,004%",
+  "FechaRegistro": "2026-05-20",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "TRAVOPROST"
+ },
+ {
+  "Producto": "B-2811/21",
+  "Nombre": "TRAZIDEX OFTENO SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2006-11-30",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-23487/22",
+  "Nombre": "TRIPLENEX SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2017-07-03",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "BIMATOPROST//BRIMONIDINA//TIMOLOL"
+ },
+ {
+  "Producto": "F-22314/25",
+  "Nombre": "TROPICAMIDA SOLUCIÓN OFTÁLMICA 1%",
+  "FechaRegistro": "2015-11-25",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "TROPICAMIDA"
+ },
+ {
+  "Producto": "F-29939/26",
+  "Nombre": "TRUSOMIDA SOLUCIÓN OFTÁLMICA 2%",
+  "FechaRegistro": "2026-08-19",
+  "Titular": "PHARMATECH CHILE SpA",
+  "PA": "DORZOLAMIDA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-21476/24",
+  "Nombre": "VIBIEN SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA)",
+  "FechaRegistro": "2014-10-22",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-20411/23",
+  "Nombre": "VIBIEN SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA)",
+  "FechaRegistro": "2013-10-04",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-22542/26",
+  "Nombre": "VICLARO SOLUCIÓN OFTÁLMICA 0,012 % (NAFAZOLINA CLORHIDRATO)",
+  "FechaRegistro": "2016-03-23",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "NAFAZOLINA"
+ },
+ {
+  "Producto": "F-27866/23",
+  "Nombre": "VIGAMOX SOLUCIÓN OFTÁLMICA 0,5%",
+  "FechaRegistro": "2023-10-06",
+  "Titular": "NOVARTIS CHILE S.A.",
+  "PA": "MOXIFLOXACINO"
+ },
+ {
+  "Producto": "F-1830/24",
+  "Nombre": "VISIONAL SOLUCIÓN OFTÁLMICA 0,05%",
+  "FechaRegistro": "1999-06-08",
+  "Titular": "LABORATORIO MAVER S.A.",
+  "PA": "TETRIZOLINA"
+ },
+ {
+  "Producto": "F-11936/22",
+  "Nombre": "XALACOM SOLUCIÓN OFTÁLMICA",
+  "FechaRegistro": "2002-03-28",
+  "Titular": "ASPEN CHILE S.A.",
+  "PA": "LATANOPROST//TIMOLOL"
+ },
+ {
+  "Producto": "F-56/22",
+  "Nombre": "XALATAN SOLUCIÓN OFTÁLMICA 50 mcg/mL",
+  "FechaRegistro": "1997-06-02",
+  "Titular": "ASPEN CHILE S.A.",
+  "PA": "LATANOPROST"
+ },
+ {
+  "Producto": "B-2802/22",
+  "Nombre": "XOLOF SOLUCIÓN OFTÁLMICA 0,3%",
+  "FechaRegistro": "2002-02-12",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "TOBRAMICINA"
+ },
+ {
+  "Producto": "B-2805/22",
+  "Nombre": "XOLOF-D SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2002-02-15",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "DEXAMETASONA//TOBRAMICINA"
+ },
+ {
+  "Producto": "F-21952/25",
+  "Nombre": "ZABAK SOLUCIÓN OFTÁLMICA 0,025% (KETOTIFENO)",
+  "FechaRegistro": "2015-06-23",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "KETOTIFENO"
+ },
+ {
+  "Producto": "F-23567/22",
+  "Nombre": "ZEBESTEN SOLUCIÓN OFTÁLMICA  0,09% (BROMFENACO)",
+  "FechaRegistro": "2017-08-01",
+  "Titular": "GLOBAL MERCURY CHILE S.A.",
+  "PA": "BROMFENACO"
+ },
+ {
+  "Producto": "F-23073/26",
+  "Nombre": "ZEPIKEN SOLUCIÓN OFTÁLMICA 0,2% (OLOPATADINA)",
+  "FechaRegistro": "2016-09-20",
+  "Titular": "LABORATORIOS D & M PHARMA LTDA.",
+  "PA": "OLOPATADINA"
+ },
+ {
+  "Producto": "F-19136/21",
+  "Nombre": "ZYPRED SUSPENSIÓN OFTÁLMICA",
+  "FechaRegistro": "2011-12-22",
+  "Titular": "ABBVIE PRODUCTOS FARMACÉUTICOS LTDA.",
+  "PA": "GATIFLOXACINO//PREDNISOLONA"
+ },
+ {
+  "Producto": "110C-6490/24",
+  "Nombre": "GARNIER - FRUCTIS - PROBIOTICOS FUERZA - SÉRUM CUERO CABELLUDO",
+  "FechaRegistro": "2024-05-10",
+  "Titular": "L'OREAL CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "102C-490/23",
+  "Nombre": "Loción capilar Sedal Prebioticos + Biotina",
+  "FechaRegistro": "2023-07-28",
+  "Titular": "UNILEVER CHILE LIMITADA",
+  "PA": ""
+ },
+ {
+  "Producto": "311C-23/22",
+  "Nombre": "NOSOTRAS – JABÓN ÍNTIMO PRO-DEFENSE V ENRIQUECIDO CON PREBIOTICOS",
+  "FechaRegistro": "2022-11-20",
+  "Titular": "ESSITY CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "2277C-589/23",
+  "Nombre": "SERUM PROBIOTICO PARA EL CUIDADO DE LA PIEL SATURDAY SKIN BALANCE ACT PROBIOTIC SERUM",
+  "FechaRegistro": "2023-05-30",
+  "Titular": "BLUSH BAR CHILE S.p.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "198C-187/23",
+  "Nombre": "SUPERFOOD & PROBIOTIC FACE CREAM/CREMA FACIAL NUTRITIVA CON PROBIOTICOS, BE FEELOSOPHY",
+  "FechaRegistro": "2018-10-12",
+  "Titular": "LABORATORIO SANIBEL LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "1926C-33/25",
+  "Nombre": "BCN BALANCE SERUM PREBIÓTICO NUTRITIVO - EFECTO CALMANTE PARA ROSTRO",
+  "FechaRegistro": "2025-02-04",
+  "Titular": "FLAMA CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "1926C-35/25",
+  "Nombre": "BCN SCRUB CREMA EXFOLIANTE PREBIÓTICO FACIAL Y CORPORAL - TRIPLE ACCIÓN -  FÍSICA, QUÍMICA Y ENZIMÁTICA",
+  "FechaRegistro": "2025-02-04",
+  "Titular": "FLAMA CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "B-884/25",
+  "Nombre": "DERMABIÓTICO UNGÜENTO DÉRMICO",
+  "FechaRegistro": "1986-04-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BACITRACINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "F-1507/23",
+  "Nombre": "EXPERT-FITTIGEA DOBLE ACCIÓN ANTIMICÓTICO Y DESODORANTE POLVO DÉRMICO",
+  "FechaRegistro": "1948-11-17",
+  "Titular": "LABORATORIOS ANDRÓMACO S.A.",
+  "PA": "ÁCIDO UNDECILÉNICO//PROPIONATO DE CALCIO//UNDECILENATO DE ZINC"
+ },
+ {
+  "Producto": "1668C-26/25",
+  "Nombre": "FUSION MESO PROBIOTIX CREAM, CREMA CON ÁCIDO HIALURÓNICO Y EFECTO PROBIÓTICO",
+  "FechaRegistro": "2025-06-10",
+  "Titular": "ORQUIDEA DERMA MED S.p.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "242C-282/26",
+  "Nombre": "Hydratonic Cleansing , Tónico Hidratante Postbiótico y Antipolución, Cara, Cuello y Escote",
+  "FechaRegistro": "2026-03-02 00:00:00",
+  "Titular": "DISPOLAB FARMACÉUTICA  S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "215C-2119/21",
+  "Nombre": "L'BEL CONCENTRÉ TOTAL HIDRATANTE EN GEL ULTRAHIDRATANTE FACIAL EN GEL CON ÁCIDO HIALURÓNICO Y PREBIÓTICOS ULTRA MOISTURIZING FACIAL GEL WITH HYALURONIC ACID AND PREBIOTICS",
+  "FechaRegistro": "2021-11-30",
+  "Titular": "PROMOTORA DE BELLEZA S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "311C-27/22",
+  "Nombre": "NOSOTRAS – PAÑITOS INTIMOS PRODEFENSE-V ENRIQUECIDO CON PREBIÓTICOS",
+  "FechaRegistro": "2022-11-20",
+  "Titular": "ESSITY CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "1708C-194/22",
+  "Nombre": "NUTRICENTIALS PUMPS — CERAMIDAS + POSTBIÓTICOS \r\nSERUM FACIAL NUTRITIVO",
+  "FechaRegistro": "2022-06-09",
+  "Titular": "NU SKIN ENTERPRISES CHILE LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "1926C-37/25",
+  "Nombre": "PROTECTOR SOLAR PREBIÓTICO SPF 50+ ATENÚA ARRUGAS Y MANCHAS OSCURAS EN CARA, CUELLO Y ESCOTE",
+  "FechaRegistro": "2025-03-11",
+  "Titular": "FLAMA CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "1573C-195/25",
+  "Nombre": "SALERM COSMETICS - ACTIVE FORM PERMANENT NEUTRALIZANTE 1+1 EFECTO OSMÓTICO – FIJADOR DE RIZOS",
+  "FechaRegistro": "2025-08-21 01:00:00",
+  "Titular": "SOCIEDAD COSMÉTICA SALERM SpA",
+  "PA": ""
+ },
+ {
+  "Producto": "135C-1172/24",
+  "Nombre": "SKIN1004 MADAGASCAR CENTELLA PROBIO-CICA ESSENCE TONER/ TÓNICO FACIAL CON PROBIÓTICOS Y CENTELLA ASIÁTICA.",
+  "FechaRegistro": "2024-03-04",
+  "Titular": "COMERCIAL PICHARA SPA",
+  "PA": ""
+ },
+ {
+  "Producto": "123C-226/23",
+  "Nombre": "BABY CARE SIMOND'S BABY SHAMPOO MANZANILLA, , EVITA LAS LÁGRIMAS, NO IRRITA LOS OJOS, OFTALMOLÓGICAMENTE PROBADO, HIPOALERGÉNICO.",
+  "FechaRegistro": "2013-08-22",
+  "Titular": "LABORATORIO DURANDIN S.A.I.",
+  "PA": ""
+ },
+ {
+  "Producto": "123C-227/23",
+  "Nombre": "BABYLAND BABY SHAMPOO NEUTRO, EVITA LAS LÁGRIMAS, NO IRRITA LOS OJOS, OFTALMOLÓGICAMENTE PROBADO, HIPOALERGÉNICO",
+  "FechaRegistro": "2013-08-27",
+  "Titular": "LABORATORIO DURANDIN S.A.I.",
+  "PA": ""
+ }
+]

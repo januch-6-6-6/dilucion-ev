@@ -1,0 +1,295 @@
+GANFORT 0,3 MG/ML + 5 MG/ML COLIRIO EN SOLUCION | COLIRIO EN SOLUCIÓN
+https://cima.aemps.es/cima/dochtml/ft/06340001/FT_06340001.html
+
+ 4.1. Indicaciones terapéuticas
+ Reducción de la presión intraocular (PIO) en pacientes adultos con glaucoma de ángulo abierto o hipertensión ocular que no son suficientemente sensibles a betabloqueantes tópicos, o a análogos de prostaglandinas.
+ 4.2. Posología y forma de administración
+ Posología
+ Dosificación recomendada en adultos (incluidas las personas de edad avanzada)
+ La dosis recomendada es de una gota de GANFORT en el(los) ojo(s) afectado(s), administrada una vez al día bien por la mañana o bien por la noche. Debe administrarse todos los días a la misma hora.
+ Los datos publicados sobre GANFORT sugieren que administrarlo por la noche puede ser más eficaz para reducir la PIO que administrarlo por la mañana. Sin embargo, al considerar si es mejor la administración matutina o la nocturna deben tenerse en cuenta las probabilidades de cumplimiento terapéutico (ver la sección 5.1).
+ Si se olvida una dosis, debe continuar el tratamiento con la siguiente dosis según lo previsto. La dosis no debe exceder de una gota en el(los) ojo(s) afectado(s) una vez al día.
+ Insuficiencia renal y hepática
+ GANFORT no se ha estudiado en pacientes con insuficiencia hepática o renal. Por lo tanto deberá aplicarse con cautela en el tratamiento de tales pacientes.
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de GANFORT en niños de 0 a 18 años. No se dispone de datos.
+ Forma de administración
+ Si se ha de utilizar más de un medicamento oftálmico tópico, cada uno de ellos debe instilarse con un intervalo de al menos 5 minutos.
+ Cuando se utiliza oclusión nasolacrimal o se cierran los párpados durante 2 minutos, se ve reducida la absorción sistémica, lo que puede reducir los efectos adversos sistémicos y aumentar la actividad local.
+ 4.3. Contraindicaciones
+ Hipersensibilidad a los principios activos o a alguno de los excipientes incluidos en la sección 6.1.
+ Enfermedad reactiva de las vías respiratorias, incluida asma bronquial o antecedentes de esta afección, enfermedad pulmonar obstructiva crónica grave.
+ Bradicardia sinusal, síndrome de disfunción sinusal, bloqueo sinoauricular, bloqueo auriculoventricular de segundo o tercer grado, no controlado con marcapasos. Insuficiencia cardiaca manifiesta, shock cardiogénico.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Al igual que otros medicamentos oftálmicos aplicados por vía tópica, los principios activos (timolol/bimatoprost) de GANFORT pueden absorberse sistémicamente. No se ha observado ningún aumento de la absorción sistémica de los principios activos individuales. Debido al componente beta-adrenérgico, timolol, pueden producirse los mismos tipos de reacciones adversas cardiovasculares, pulmonares y de otro tipo, que los observados con los betabloqueantes sistémicos.
+ La incidencia de reacciones adversas sistémicas tras la administración tópica oftálmica es inferior que con la administración sistémica. Para reducir la absorción sistémica, ver sección 4.2.
+ Trastornos cardiacos
+ Los pacientes con enfermedades cardiovasculares (p. ej., cardiopatía coronaria, angina de Prinzmetal e insuficiencia cardiaca) y tratamiento hipotensor con betabloqueantes, deben ser cuidadosamente evaluados y considerarse el tratamiento con otros principios activos. Se debe vigilar a los pacientes con enfermedades cardiovasculares a fin de detectar cualquier empeoramiento de estas enfermedades o reacciones adversas.
+ Debido a su efecto negativo en el tiempo de conducción, únicamente deben administrarse betabloqueantes con precaución a pacientes con bloqueo auriculoventricular de primer grado.
+ Trastornos vasculares
+ Se debe tratar con precaución a los pacientes con trastornos circulatorios periféricos severos (como formas graves de la enfermedad de Raynaud o el síndrome de Raynaud).
+ Trastornos respiratorios
+ Se han comunicado reacciones respiratorias, incluido el fallecimiento debido a broncoespasmo en pacientes con asma, después de la administración de algunos betabloqueantes oftálmicos.
+ GANFORT se debe utilizar con precaución en pacientes con enfermedad pulmonar obstructiva crónica (EPOC) leve/moderada y únicamente si el beneficio potencial supera el posible riesgo.
+ Trastornos endocrinos
+ Los medicamentos bloqueantes beta-adrenérgicos deben administrarse con cautela en pacientes que presenten hipoglucemia espontánea o a los pacientes que padecen de diabetes lábil porque los betabloqueantes pueden enmascarar los signos y síntomas de hipoglucemia aguda.
+ Los betabloqueantes también pueden enmascarar los signos de hipertiroidismo.
+ Enfermedades corneales
+ Los betabloqueantes oftálmicos pueden provocar sequedad ocular. Se debe tratar con precaución a aquellos pacientes con enfermedad corneal.
+ Otros agentes betabloqueantes
+ El efecto sobre la presión intraocular o los efectos conocidos del betabloqueo sistémico pueden potenciarse cuando se administra timolol a pacientes ya tratados con un agente betabloqueante sistémico. Se debe vigilar la respuesta de estos pacientes. No se recomienda el uso de dos agentes betabloqueantes tópicos (ver sección 4.5).
+ Reacciones anafilácticas
+ Mientras estén en tratamiento con betabloqueantes, los pacientes con antecedentes de atopía o de reacción anafiláctica grave pueden presentar reacciones más fuertes por la exposición repetida a tales alérgenos o puede que no respondan a la dosis usual de adrenalina que se utiliza para tratar las reacciones anafilácticas.
+ Desprendimiento coroidal
+ Se ha notificado desprendimiento coroidal con la administración de tratamiento supresor acuoso (p. ej., timolol, acetazolamida) después de procedimientos de filtración.
+ Anestesia quirúrgica
+ Los betabloqueantes oftalmológicos pueden bloquear los efectos beta-agonistas sistémicos, p. ej. de la adrenalina. Se debe informar al anestesista de si se está administrando timolol al paciente.
+ Hepáticas
+ En pacientes con antecedentes de hepatopatía leve o niveles basales anómalos de alanina aminotransferasa (ALT), aspartato aminotransferasa (AST) y/o bilirrubina, el bimatoprost no causó ninguna reacción adversa sobre la función hepática durante 24 meses. No hay reacciones adversas conocidas de timolol ocular en la función hepática.
+ Oculares
+ Antes de iniciar el tratamiento se deberá informar a los pacientes de la posibilidad de que se produzca crecimiento de las pestañas, un oscurecimiento de la piel de los párpados o periocular y un aumento de la pigmentación marrón del iris, ya que se han observado estos cambios durante el tratamiento con bimatoprost y GANFORT. El aumento de la pigmentación del iris puede ser permanente y puede dar lugar a diferencias de aspecto entre los ojos cuando el tratamiento se aplica sólo a uno de ellos. Después de la interrupción de GANFORT, puede ser permanente la pigmentación del iris. A los 12 meses de tratamiento con GANFORT, la incidencia de pigmentación del iris fue del 0,2%. A los 12 meses de tratamiento con el colirio de bimatoprost solo, la incidencia fue del 1,5% sin que aumentara después de un tratamiento de 3 años. El cambio de pigmentación se debe al a un mayor contenido de melanina en los melanocitos, más que a un aumento del número de éstos. Se desconocen los efectos a largo plazo de una mayor pigmentación del iris. Los cambios en el color del iris observados con la administración de bimatoprost pueden pasar desapercibidos durante varios meses o años. No parece que los nevus ni las pecas del iris se vean afectados por el tratamiento. Se ha notificado que la pigmentación del tejido periorbital resulta reversible en algunos pacientes.
+ Se han notificado casos de edema macular, incluido el edema macular cistoide, con GANFORT. Por lo tanto, GANFORT se debe utilizarcon precaución en pacientes afáquicos, pacientes pseudofáquicos con desgarro de la cápsula posterior del cristalino o en pacientes con factores de riesgo conocidos de edema macular (por ejemplo, cirugía intraocular, oclusiones de la vena retiniana, enfermedad inflamatoria ocular y retinopatía diabética).
+ GANFORT se debe utilizar con precaución en pacientes con inflamación intraocular activa (por ejemplo, uveítis), debido a que puede agravarse la inflamación.
+ Cutáneas
+ Puede producirse crecimiento de pelo en zonas de la piel expuestas de modo repetido a GANFORT, por lo que es importante aplicar GANFORT como se indica y evitar su contacto con la mejilla y otras zonas de la piel.
+ Excipientes
+ El conservante en GANFORT, cloruro de benzalconio, puede causar irritación ocular. Se deben retirar las lentes de contacto antes de la aplicación, dejando al menos un intervalo de 15 minutos antes de volverlas a insertar. Se sabe que el cloruro de benzalconio altera el color de las lentes de contacto blandas. Debe evitarse el contacto con las lentes de contacto blandas.
+ Se ha comunicado que el cloruro de benzalconio provoca queratopatía punctata y/o queratopatía ulcerativa tóxica. Por lo que se requiere controlar a los pacientes que reciben tratamiento frecuente o prolongado con GANFORT y que padezcan de ojo seco o tengan la córnea comprometida.
+ Otras afecciones
+ GANFORT no ha sido estudiado en pacientes con afecciones inflamatorias oculares, glaucoma neovascular, inflamatorio, glaucoma de ángulo cerrado, glaucoma congénito o glaucoma de ángulo estrecho.
+ En estudios de bimatoprost 0,3 mg/l en pacientes con glaucoma o hipertensión ocular, se ha demostrado que la exposición más frecuente del ojo a más de una dosis diaria de bimatoprost puede disminuir el efecto reductor de la PIO. Debe vigilarse a los pacientes que utilicen GANFORT con otros análogos de las prostaglandinas, a fin de detectar cambios en su presión intraocular.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios específicos de interacciones con la combinación fija de bimatoprost/timolol.
+ Existe posibilidad de que se produzcan efectos aditivos resultando en hipotensión, y/o bradicardia marcada cuando una solución oftálmica betabloqueante se administra concomitantemente con bloqueantes de los canales de calcio, guanetidina, bloqueantes beta-adrenérgicos, parasimpaticomiméticos, antiarrítmicos (incluida la amiodarona) y glucósidos digitálicos por vía oral.
+ Se ha notificado mayor betabloqueo sistémico (p. ej. menor frecuencia cardiaca, depresión) durante la politerapia con inhibidores de la CYP2D6 (p. ej., quinidina, fluoxetina, paroxetina) y timolol.
+ Se ha notificado de modo ocasional midriasis como consecuencia del uso concomitante de betabloqueantes oftálmicos y adrenalina (epinefrina).
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No hay datos suficientes o éstos son limitados relativos al uso de la combinación fija de bimatoprost/timolol en mujeres embarazadas.
+ No debe utilizarse GANFORT durante el embarazo, salvo que resulte claramente necesario. Para reducir la absorción sistémica, ver sección 4.2.
+ Bimatoprost
+ No se dispone de datos clínicos adecuados sobre el uso durante el embarazo. Los estudios en animales han mostrado toxicidad reproductiva a altas dosis maternotóxicas (ver sección 5.3).
+ Timolol
+ Los estudios epidemiológicos no han revelado efectos relativos a malformaciones pero muestran un riesgo de retardo del crecimiento intrauterino cuando se administran betabloqueantes por la vía oral. Además, se han observado signos y síntomas de betabloqueo (p.ej., bradicardia, hipotensión, dificultades respiratorias e hipoglucemia) en el neonato cuando se han administrado betabloqueantes hasta el parto. Si se administra GANFORT hasta el parto, deberá vigilarse cuidadosamente al neonato durante los primeros días de vida. Los estudios en animales con timolol han mostrado que se produce toxicidad reproductiva a dosis significativamente mayores que las que se usarían en la práctica clínica (ver sección 5.3). 
+ Lactancia
+ Timolol
+ Los betabloqueantes se excretan en la leche materna. Sin embargo, en dosis terapéuticas de timolol en colirio, no resulta probable que aparezca una cantidad suficiente en la leche materna para producir síntomas clínicos de betabloqueo en el lactante. Para reducir la absorción sistémica, ver sección 4.2.
+ Bimatoprost
+ No se sabe si bimatoprost se excreta a través de la leche materna humana pero se elimina en la leche de la rata lactante. GANFORT no debería utilizarse por mujeres en el período de lactancia.
+ Fertilidad
+ No existen datos acerca de los efectos de GANFORT sobre la fertilidad en seres humanos.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de GANFORT sobre la capacidad para conducir y utilizar máquinas es nula o insignificante. Al igual que con todas las medicaciones oftálmicas, si se produce visión borrosa transitoria durante la instilación, el paciente deberá esperar hasta que se aclare su visión antes de conducir o de utilizar máquinas.
+ 4.8. Reacciones adversas
+ GANFORT
+ Resumen del perfil de seguridad
+ Las reacciones adversas notificadas en los ensayos clínicos que utilizan GANFORT se limitaron a las notificadas previamente para cada uno de los principios activos bimatoprost y timolol. No se han observado nuevas reacciones adversas específicas para GANFORT en los ensayos clínicos.
+ La mayor parte de las reacciones adversas notificadas en los ensayos clínicos que utilizaban GANFORT fueron oculares, de intensidad leve y ninguna de ellas fue grave. Basándose en los datos clínicos de 12 meses, la reacción adversa comunicada con más frecuencia fue hiperemia conjuntival (principalmente del orden de traza a leve, y se piensa que no es de origen inflamatorio) en aproximadamente un 26% de los pacientes y condujo a la discontinuación en un 1,5% de los pacientes.
+ Tabla de reacciones adversas
+ En la tabla 1 figuran las reacciones adversas notificadas en estudios clínicos con todas las formulaciones de GANFORT (multidosis y unidosis) (dentro de cada grupo de frecuencia, las reacciones adversas se presentan en orden de severidad decreciente), o en el periodo posterior a la comercialización.
+ La frecuencia de posibles reacciones adversas enumeradas a continuación se define utilizando las siguientes convenciones:
+ Muy frecuentes
+ | 
+ ≥1/10
+ | 
+ Frecuentes
+ | 
+ ≥1/100 a <1/10
+ | 
+ Poco frecuentes
+ | 
+ ≥1/1.000 a <1/100
+ | 
+ Raras
+ | 
+ ≥1/10.000 a <1/1,000
+ | 
+ Muy raras
+ | 
+ <1/10.000
+ | 
+ Frecuencia no conocida
+ | 
+ No puede estimarse a partir de los datos disponibles
+ | 
+ Tabla 1
+ Sistema de clasificación de órganos
+ | 
+ Frecuencia
+ | 
+ Reacción adversa
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ No conocida
+ | 
+ reacciones de hipersensibilidad, incluidos signos o síntomas de dermatitis alérgica, angioedema, alergia ocular
+ | 
+ Trastornos psiquiátricos
+ | 
+ No conocida
+ | 
+ Insomnio2, pesadillas2
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Frecuentes
+ | 
+ cefalea
+ | 
+ No conocida
+ | 
+ Disgeusia2, mareo
+ | 
+ Trastornos oculares
+ | 
+ Muy frecuentes
+ | 
+ hiperemia conjuntival
+ | 
+ Frecuentes
+ | 
+ queratitis punctata, erosión corneal2, sensación de ardor2, irritación de la conjuntiva1, prurito ocular, sensación de escozor en el ojo2, sensación de cuerpo extraño, sequedad de los ojos, eritema palpebral, dolor ocular, fotofobia, secreción ocular, alteración de la visión2, prurito palpebral, empeoramiento de la agudeza visual2, blefaritis2, edema palpebral, irritación ocular, aumento del lagrimeo, crecimiento de las pestañas
+ | 
+ Poco frecuentes
+ | 
+ Iritis2, edema conjuntival2, dolor de los párpados2, sensación anómala en el ojo1, astenopía, triquiasis2, hiperpigmentación del iris2, cambios periorbitarios y palpebrales asociados con atrofia de la grasa periorbitaria y rigidez de la piel que provocan una profundización del surco palpebral, ptosis palpebral, enoftalmos, lagoftalmos y retracción palpebral1 & 2, decoloración de las pestañas (oscurecimiento)1
+ | 
+ No conocida
+ | 
+ edema macular cistoide2, inflamación de los ojos, visión borrosa2, molestias oculares
+ | 
+ Trastornos cardiacos
+ | 
+ No conocida
+ | 
+ Bradicardia
+ | 
+ Trastornos vasculares
+ | 
+ No conocida
+ | 
+ hipertensión
+ | 
+ Trastornos respiratorios,
+ torácicos y mediastínicos
+ | 
+ Frecuentes
+ | 
+ rinitis2
+ | 
+ Poco frecuentes
+ | 
+ disnea
+ | 
+ No conocida
+ | 
+ broncoespasmo (predominantemente en pacientes con enfermedad broncoespástica preexistente)2, asma
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Frecuentes
+ | 
+ pigmentación palpebral2, hirsutismo2, hiperpigmentación de la piel (periocular)
+ | 
+ No conocida
+ | 
+ alopecia, decoloración de la piel (periocular)
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ No conocida
+ | 
+ fatiga
+ | 
+ 1Reacciones adversas observadas únicamente con la formulación unidosis de Ganfort
+ 2Reacciones adversas observadas únicamente con la formulación multidosis de Ganfort
+ Al igual que sucede con otros medicamentos oftálmicos tópicos, GANFORT (bimatoprost/timolol) se absorbe en la circulación sistémica. La absorción de timolol puede provocar reacciones adversas similares a las observadas con los betabloqueantes sistémicos. La incidencia de las reacciones adversas sistémicas tras la administración tópica oftálmica es inferior que con la administración sistémica. Para reducir la absorción sistémica, ver la sección 4.2.
+ Con cada uno de los principios activos (bimatoprost o timolol) se han visto reacciones adversas adicionales, que pueden también producirse potencialmente con GANFORT y que se enumeran a continuación en la tabla 2:
+ Tabla 2
+ Sistema de clasificación de órganos
+ | 
+ Reacción adversa
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ reacciones alérgicas sistémicas, incluida anafilaxis1
+ | 
+ Trastornos metabólicos y de la nutrición
+ | 
+ hipoglucemia1
+ | 
+ Trastornos psiquiátricos
+ | 
+ depresión1, pérdida de memoria1, alucinación1
+ | 
+ Trastornos del sistema nervioso
+ | 
+ síncope1, accidente cerebrovascular1, aumento de los signos y síntomas de miastenia grave1, parestesia1, isquemia cerebral1
+ | 
+ Trastornos oculares
+ | 
+ disminución de la sensibilidad corneal1, diplopía1, ptosis1, desprendimiento coroidal después de cirugía de filtración (ver sección 4.4)1, queratitis1, blefaroespasmo2, hemorragia retiniana2, uveítis2
+ | 
+ Trastornos cardiacos
+ | 
+ bloqueo auriculoventricular1, paro cardiaco1, arritmia1, insuficiencia cardiaca1, insuficiencia cardiaca congestiva1, dolor en el pecho1, palpitaciones1, edema1
+ | 
+ Trastornos vasculares
+ | 
+ hipotensión1, fenómeno de Raynaud1, manos y pies fríos1
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ exacerbación del asma2, exacerbación de la EPOC2, tos1
+ | 
+ Trastornos gastrointestinales
+ | 
+ náuseas1,2, diarrea1, dispepsia1, sequedad de la boca1, dolor abdominal1, vómitos1
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ erupción psoriasiforme1 o exacerbación de la psoriasis1, erupción cutánea1
+ | 
+ Trastornos musculoesqueléticos y del tejido conjuntivo
+ | 
+ mialgia1
+ | 
+ Trastornos del aparato reproductor y de la mama
+ | 
+ disfunción sexual1, disminución de la libido1
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ astenia1,2
+ | 
+ Exploraciones complementarias
+ | 
+ valores anómalos de las pruebas de la función hepática (LFT)2
+ | 
+ 1Reacciones adversas observadas con timolol
+ 2Reacciones adversas observadas con bimatoprost
+ Reacciones adversas notificadas con colirios que contienen fosfato
+ Se han notificado muy raramente casos de calcificación corneal asociados al uso de colirios que contienen fosfato en algunos pacientes con córneas gravemente dañadas.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ No es probable que se produzca una sobredosis por vía tópica con GANFORT ni que se asocie a toxicidades.
+ Bimatoprost
+ En caso de ingestión accidental de GANFORT, puede ser útil la siguiente información: en estudios de dos semanas de duración efectuados en ratas y ratones que recibieron bimatoprost por vía oral, dosis de hasta 100 mg/kg/día no produjeron toxicidad. Expresada como mg/m2la dosis mencionada es como mínimo 70 veces superior a la dosificación que recibiría un niño de 10 kg de peso al ingerir accidentalmente el contenido de un envase de GANFORT.
+ Timolol
+ Los síntomas de una sobredosis sistémica de timolol incluyen: bradicardia, hipotensión, broncoespasmo, dolor de cabeza, vértigo, falta de aliento y paro cardiaco. Un estudio de pacientes con insuficiencia renal mostró que timolol no se dializa fácilmente.
+ Si se produce sobredosis, el tratamiento debería ser sintomático y de apoyo.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.3. Periodo de validez
+ 2 años.
+ Se ha demostrado la estabilidad química y física del producto durante su utilización hasta 28 días a una temperatura de 25 ºC.
+ Desde el punto de vista microbiológico, las condiciones y tiempo de conservación del producto durante su utilización son responsabilidad del usuario y normalmente no superarían los 28 días a 25 ºC.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no precisa de condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Frascos de polietileno de baja densidad de color blanco opaco, con tapón de rosca de poliestireno. Cada frasco tiene un volumen de llenado de 3 ml.
+ Están disponibles las siguientes presentaciones: embalaje que contiene 1 o 3 envases de 3 ml. Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ninguna especial.

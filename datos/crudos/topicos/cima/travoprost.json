@@ -1,0 +1,16 @@
+{
+ "molecula": "TRAVOPROST",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 18,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "101199003",
+   "nombre": "TRAVATAN 40 MICROGRAMOS/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/101199003/FT_101199003.html"
+  }
+ ]
+}

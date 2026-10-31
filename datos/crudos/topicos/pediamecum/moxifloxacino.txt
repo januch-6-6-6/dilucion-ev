@@ -1,0 +1,102 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/moxifloxacino
+Volver Moxifloxacino
+ Ficha General Presentaciones Fecha de actualización: Noviembre 2020 Descripción Antibiótico. Fluoroquinolona de segunda generación. El moxifloxacino posee actividad frente a los microorganismos grampositivos y gramnegativos. Es más activo que el ciprofloxacino contra los microorganismos grampositivos, entre ellos los neumococos. El moxifloxacino no actúa frente a Pseudomonas aeruginosa ni Staphylococcus aureus resistentes a meticilina (SARM). El moxifloxacino presenta menos resistencia frente a M. tuberculosis que ciprofloxacino y ofloxacino.
+ Uso Clínico Tratamiento de las siguientes infecciones bacterianas, causadas por microorganismos sensibles. Solo debe utilizarse cuando no se considera apropiado el uso de otros agentes antibacterianos que son habitualmente recomendados para el tratamiento inicial de estas infecciones o cuando estos han fracasado en la resolución de la infección ( E: o ﬀ-label ):
+ Sinusitis bacteriana aguda (ABS).
+ Exacerbación aguda de EPOC (incluido la bronquitis crónica) (AECB).
+ Neumonía adquirida en la comunidad, excepto en casos graves:
+ Enfermedad inflamatoria pélvica leve o moderada sin absceso tubo-ovárico o pélvico asociados (siempre en combinación a otros agentes debido al aumento de cepas de Neisseria gonorrhoeae resistentes a moxifloxacino,
+ Infecciones complicadas de piel y tejidos.
+ Tratamiento en segunda línea de la tuberculosis multirresistente ( E: o ﬀ-label ).
+ Uso en Pediatría: las quinolonas producen artropatía de las articulaciones en animales en crecimiento y, por eso, no suelen recomendarse para los niños y adolescentes en fase de crecimiento. Sin embargo, se ignora la repercusión de este efecto en humanos y, en determinadas condiciones, la administración a corto plazo de quinolonas puede estar justificada en niños, sin que sea de primera elección.
+ La AAP indica algunas de las circunstancias en que las fluoroquinolonas pueden ser útiles ( E: off-label ).:
+ Infección causada por microorganismo multirresistente para los cuales no hay alternativa segura y no es posible la terapia parenteral y no hay disponible otro agente efectivo. Entre otros cuadros: Tratamiento del ántrax sistémico (incluida meningitis).
+ Profilaxis quirúrgica preoperatoria.
+ Tratamiento tuberculosis (resistente a multifármacos).
+ Dosis y Pautas de Administración Adolescentes: 400 mg una vez al día vía oral.
+ Exacerbación aguda de la bronquitis crónica: 5-10 días.
+ Neumonía adquirida en la comunidad: 10 días.
+ Sinusitis bacteriana aguda: 7 días.
+ Enfermedad inflamatoria pélvica leve o moderada: 14 días.
+ Niños: 7,5-10 mg/kg una vez al día vía oral.
+ Tratamiento de ántrax sistémico (incluida meningitis) (datos limitados). Administrar como parte de triple terapia, durante 2-3 semanas o más tiempo hasta criterios clínicos de estabilidad.
+ Neonatos: Con edad gestacional 32-37 semanas; edad posnatal ≤28 días = 5 mg/kg/dosis IV cada 24 h.
+ Con edad gestacional >37 semanas; edad posnatal ≤28 días = 10 mg/kg/dosis IV cada 24 h.
+ Lactantes ≥3 meses y niños <2 años = 6 mg/kg/dosis IV cada 12 h (máximo: 200 mg/dosis).
+ Niños 2-5 años = 5 mg/kg/dosis IV cada 12 h (máximo: 200 mg/dosis).
+ Niños 6-11 años = 4 mg/kg/dosis IV cada 12 h (máximo: 200 mg/dosis).
+ Niños y adolescentes de 12-17 años: <45 kg= 4 mg/kg/dosis IV cada 12 h (máximo: 200 mg/dosis).
+ >45 kg = 400 mg IV cada 24 h.
+ Profilaxis quirúrgica preoperatoria (datos limitados).
+ Niños y adolescentes = 10 mg/kg 120 minutos preintervención (máximo: 400 mg/dosis).
+ Tratamiento de la tuberculosis (resistente a multifármacos) (datos limitados): usar en combinación en función de la susceptibilidad. Algunos datos sugieren que se precisan dosis más altas en lactantes y niños para alcanzar concentraciones plasmáticas similares a las de los adultos que reciban una dosis estándar.
+ Lactantes, niños y adolescentes <15 años = 10 mg/kg/dosis IV/VO cada 24 h (máximo: 400 mg/dosis).
+ Adolescentes ≥15 años = 400 mg IV/VO cada 24 h.
+ Insuficiencia renal y hepática: 
+ No se requiere ajuste de dosis en pacientes con insuficiencia renal de leve a grave, ni en pacientes sometidos a diálisis crónica (por ejemplo, hemodiálisis) ni a diálisis peritoneal ambulatoria. Los datos en pacientes con insuficiencia hepática son escasos.
+ Contraindicaciones Hipersensibilidad a moxifloxacino, otras quinolonas o a alguno de los excipientes. Pacientes menores de 18 años (de acuerdo con la ficha técnica autorizada).
+ Pacientes con historia de trastornos en los tendones asociada al tratamiento con quinolonas. En pacientes con alteraciones cardiacas previas:
+ Prolongación del QT congénita o adquirida y documentada.
+ Alteraciones electrolíticas, particularmente hipocalemia no corregida.
+ Bradicardia clínicamente relevante.
+ Insuficiencia cardiaca clínicamente relevante con reducción de la fracción de eyección.
+ Ventricular izquierda.
+ Historial previo de arritmias sintomáticas.
+ Alteración de la función hepática (Child Pugh C) y en pacientes con un aumento de transaminasas 5 veces por encima del límite superior de la normalidad.
+ Precauciones Vigilar signos de tendinitis o ruptura de tendón, interrumpir el tratamiento si aparecen dolor o hinchazón. El riesgo de rotura aumenta con el uso concomitante de corticoides.
+ El tratamiento con quinolonas puede provocar convulsiones. Por ello, deben utilizarse con precaución en pacientes con trastornos del sistema nervioso central que puedan tener una predisposición a padecer convulsiones o una reducción en el umbral de estas.
+ Vigilar la aparición de síntomas de neuropatía periférica tales como dolor, quemazón, hormigueo, entumecimiento o debilidad muscular (especial precaución en casos de miastenia gravis ).
+ Las quinolonas pueden causar reacciones de fotosensibilidad en algunos pacientes. Se debe advertir a los pacientes para que eviten la exposición a radiaciones ultravioletas o a la luz solar intensa o de manera prolongada durante el tratamiento con moxifloxacino.
+ Los pacientes con historia familiar o con deficiencia de glucosa-6-fosfato deshidrogenasa son propensos a sufrir reacciones hemolíticas al ser tratados con quinolonas. Por tanto, moxifloxacino debe usarse con precaución en estos pacientes.
+ Posibles reacciones de hipersensibilidad graves incluso mortales: vigilar e interrumpir tratamiento si aparece rash , ictericia, fiebre, alteraciones hematológicas.
+ Vigilar posible aparición de diarrea por Clostridium di ﬃcile .
+ Trastornos hepáticos graves (incluyendo hepatitis fulminante): vigilar aparición de astenia, ictericia.
+ Efectos secundarios No hay datos específicos en niños. Se describen solo las reacciones adversas observadas en todos los ensayos clínicos con moxifloxacino 400 mg (oral y terapia secuencial) frecuentes (1-10%), muy frecuentes (>10%) o de relevancia clínica; para el resto consultar la ficha técnica.
+ Con excepción de la diarrea y las náuseas, todas las demás reacciones adversas se observaron con una frecuencia inferior al 3%.
+ Infecciones e infestaciones: sobreinfecciones debidas a bacterias resistentes u hongos, como la candidiasis oral y vaginal.
+ Trastornos del sistema nervioso: cefalea, mareo. Otros menos frecuentes (insomnio, confusión, agitación, alucinaciones).
+ Trastornos cardiacos: prolongación de QT en pacientes con hipopotasemia.
+ Trastornos gastrointestinales: náuseas, vómitos, dolor abdominal y diarrea.
+ Trastornos hepatobiliares: aumento de transaminasas.
+ Interacciones Framacológicas No puede excluirse que se produzca un efecto aditivo en la prolongación del intervalo QT al administrar simultáneamente moxifloxacino con fármacos que puedan actuar sobre el QT, por lo que se contraindica el uso simultáneo (ver ficha técnica).
+ Diferir alrededor de 6 horas entre la administración de agentes con cationes bivalentes o trivalentes (por ejemplo, antiácidos con magnesio o aluminio, comprimidos de didanosina, sucralfato y agentes con hierro o zinc) y la administración de moxifloxacino.
+ Anticoagulantes orales: monitorización periódica del INR.
+ Si uso concomitante con medicamentos que puedan reducir los niveles de potasio o medicamentos que estén asociados a una bradicardia clínica significativa: vigilar estrechamente.
+ Datos Farmacéuticos Excipientes (evitar en caso de anafilaxia a dichos componentes):
+ Núcleo del comprimido: celulosa microcristalina, croscarmelosa sódica, lactosa monohidrato, estearato de magnesio.
+ Película de recubrimiento: hipromelosa, macrogol 4000, óxido de hierro (E172), dióxido de titanio (E171).
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse en línea en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima .
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado en noviembre de 2020]. Disponible en: https://sinaem4.agemed.es/consaem/fichasTecnicas.do?metodo=detalleForm
+ Mellado Peña MJ, Baquero-Artigao F, Moreno-Pérez D, en representación del Grupo de Trabajo de Tuberculosis de la Sociedad Española de Infectología Pediátrica. Documento de consenso de la Sociedad Española de Infectología Pediátrica sobre la tuberculosis resistente a fármacos. An Pediatr (Barc). 2009;71(5):447-58.
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Moxifloxacin. Drugs@FDA. FDA approved drug products. Disponible en www.fda.gov
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2021 [consultado en noviembre de 2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: noviembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/moxifloxacino . Consultado el 30 de octubre de 2026. ACTIRA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Bayer Hispania S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO CINFA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO NORMON 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO SANDOZ 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Sandoz Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO STADA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA VIGAMOX 5 mg/ml COLIRIO EN SOLUCION
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ABIMOX 5 MG/ML COLIRIO EN SOLUCION
+ Principio activo: MOXIFLOXACINO Laboratorio titular: Tiedra Farmaceutica S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACTIRA 400 MG/ 250 ML SOLUCION PARA PERFUSION
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Bayer Hispania S.L. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ERELAN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Medochemie Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO AUROVITAS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO KABI 400 MG/250 ML SOLUCION PARA PERFUSION EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO KERN PHARMA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO KRKA 400 MG COMPRIMIDO RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Krka D.D. Novo Mesto Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO MACLEODS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Macleods Pharma España Slu Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO PENSA 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO QUALIGEN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Neuraxpharm Spain S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO TEVAGEN 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO TILLOMED 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Tillomed Spain S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MOXIFLOXACINO VIATRIS 400 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: MOXIFLOXACINO HIDROCLORURO Laboratorio titular: Viatris Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ AntiTBC Infectología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

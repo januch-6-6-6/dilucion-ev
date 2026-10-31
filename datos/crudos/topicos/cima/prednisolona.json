@@ -1,0 +1,16 @@
+{
+ "molecula": "PREDNISOLONA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "62038",
+   "nombre": "PRED FORTE 10 MG/ML COLIRIO EN SUSPENSION",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/62038/FT_62038.html"
+  }
+ ]
+}

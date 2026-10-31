@@ -1,0 +1,16 @@
+{
+ "molecula": "BRINZOLAMIDA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 6,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "00129001",
+   "nombre": "AZOPT 10 mg/ml COLIRIO EN SUSPENSION",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/00129001/FT_00129001.html"
+  }
+ ]
+}

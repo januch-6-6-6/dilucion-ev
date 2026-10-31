@@ -1,0 +1,16 @@
+{
+ "molecula": "PILOCARPINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "10955",
+   "nombre": "COLIRCUSI PILOCARPINA 20 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/10955/FT_10955.html"
+  }
+ ]
+}

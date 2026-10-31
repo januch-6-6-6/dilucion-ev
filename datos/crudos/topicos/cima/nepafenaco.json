@@ -1,0 +1,16 @@
+{
+ "molecula": "NEPAFENACO",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 8,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "07433001",
+   "nombre": "NEVANAC 1 mg/ml COLIRIO EN SUSPENSION",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/07433001/FT_07433001.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "KETOTIFENO",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 11,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "63616",
+   "nombre": "ZADITEN 0,25 mg/ml COLIRIO EN SOLUCION EN ENVASE UNIDOSIS",
+   "forma": "COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/63616/FT_63616.html"
+  }
+ ]
+}

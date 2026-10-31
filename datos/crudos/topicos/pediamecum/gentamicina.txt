@@ -1,0 +1,111 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/gentamicina
+Volver Gentamicina
+ Ficha General Presentaciones Fecha de actualización: Diciembre 2020 Descripción Antibiótico. Aminoglucósido de administración parenteral, tópica y uso oftálmico. Tiene efecto concentración-dependiente, efecto posantibiótico prolongado y acción sinérgica con antibióticos betalactámicos. Posee un espectro antimicrobiano principalmente frente a bacterias gramnegativas ( Pseudomonas aeruginosa , E. coli , Proteus , Serratia ) y tiene actividad frente a ciertas bacterias grampositivas ( S. aureus , S. epidermidis , L. monocytogenes ). En combinación con antibióticos betalactámicos es eficaz en infecciones producidas por E. fecalis y Streptococcus sp.
+ Uso Clínico Tratamiento de las siguientes infecciones en recién nacidos y niños ( A ):
+ Septicemia, incluyendo bacteriemia y sepsis neonatal.
+ Infecciones de piel y tejidos blandos.
+ Infecciones de vías respiratorias, incluida la fibrosis quística.
+ Infecciones del SNC (meningitis y ventriculitis).
+ Infecciones de vías urinarias.
+ Infecciones óseas y articulares.
+ Infecciones intrabdominales, peritonitis.
+ Endocarditis bacteriana.
+ En tratamiento empírico de sepsis neonatal combinado con ampicilina.
+ Dosis y Pautas de Administración Dosis recomendada* según la revisión de las fichas técnicas en Europa (se recomienda la dosis única diaria como primera opción en todos los grupos de edad):
+ Prematuros o recién nacidos a término hasta 1 semana de edad: 5 mg/kg/día en 1 dosis.
+ Lactantes y recién nacidos de más de una semana: 7.5 mg/kg/día en 1 o 2 dosis.
+ Niños y adolescentes: 6-7,5 mg/kg/día en 1 o 2 dosis.
+ Neonatos y prematuros 
+ ≤29 semanas: 0-7 días: 5 mg/kg/48 h.
+ 8-28 días: 4 mg/kg/36 h.
+ ≥29 días: 4 mg/kg/24 h.
+ 30-34 semanas: 0-7 días: 4,5 mg/kg/36 h.
+ ≥8 días: 4 mg/kg/24 h.
+ ≥35 semanas: Todas edades: 4 mg/kg/24 h.
+ ECMO: 2,5-3 mg/kg/dosis cada 18-24 h (dosis subsiguientes según niveles; algunos autores recomiendan 5 mg/kg/dosis en la dosis inicial).
+ SNC: intraventricular o intratecal: 1 mg/24 h.
+ *Algunos pacientes pueden requerir dosis mayores: quemaduras extensas, hemofiltración, neutropenia febril. Se modificarán las dosis según los niveles séricos del fármaco. 
+ Intraventricular/Intratecal ( off-label por vía de administración): lactantes >3 meses y niños: 1-2 mg/día.
+ Insuficiencia renal: las dosis se ajustarán según el nivel de insuficiencia renal. En lactantes, niños y adolescentes: 2,5 mg/kg/dosis, 1 dosis; obtener 2-3 controles de los niveles séricos tras la dosis inicial para medir la vida media, con objeto de determinar la frecuencia de las dosis siguientes. Según aclaramiento renal se recomiendan las siguientes dosis:
+ ClCr =30-50: 2,5 mg/kg/dosis cada 12-18 h.
+ ClCr=10-29: 2,5 mg/kg/dosis cada 18-24 h.
+ ClCr <10: 2,5 mg/kg/dosis cada 48-72 h.
+ Insuficiencia hepática: no requiere modificación de dosis.
+ Monitorización plasmática: 
+ No todos los niños que reciben aminoglucósidos requieren la determinación de los niveles séricos de fármaco. Las indicaciones incluirían:
+ Tratamientos de más de 5 días.
+ Pacientes con función renal inestable o disminuida.
+ Escasa respuesta terapéutica.
+ Niños <3 meses.
+ Situaciones especiales: quemaduras extensas, fibrosis quística, meningitis, pacientes críticamente enfermos.
+ Hemodiálisis o diálisis peritoneal.
+ Signos de neurotoxicidad u ototoxicidad.
+ Uso concomitante de agentes neurotóxicos.
+ En neonatos, se pueden realizar niveles tras tratamiento de más de 48 h, en especial si se trata de pacientes con alteración de los ﬂuidos o de la función renal.
+ Se determinarán el pico y el valle de gentamicina. El pico se extrae tras 30 minutos de finalizar la infusión de la dosis correspondiente; el valle, previo a la administración de una dosis. Los valores son 5-12 µg/ml en pico y 0,5-1 µg/ml en valle. Cuando se administra en dosis única el pico es 2-3 veces mayor.
+ Administración: 
+ Administración parenteral (IV) lenta, en 30-60 minutos o por inyección directa en 15 minutos, aunque no se recomienda por la toxicidad asociada a la presencia de picos en las concentraciones séricas. La concentración IV no debe exceder 10 mg/ml.
+ Intramuscular.
+ Contraindicaciones Hipersensibilidad a la gentamicina, a otros aminoglucósidos o a alguno de sus componentes.
+ Perforación del tímpano.
+ Precauciones Administrar con precaución en neonatos debido a su inmadurez renal, que podría ocasionar una vida media prolongada; en pacientes con alteración renal previa, alteraciones auditivas (vestibular), hipocalcemia, miastenia gravis y en situaciones con depresión de la transmisión neuromuscular.
+ La neurotoxicidad se manifiesta como ototoxicidad auditiva bilateral o vestibular; si se produce, generalmente es irreversible. La aparición de tinnitus o vértigo son signos de alteración vestibular.
+ El riesgo de neurotoxicidad u ototoxicidad están aumentados en pacientes con alteración de la función renal, altas dosis de gentamicina o terapia prolongada. El riesgo de neurotoxicidad aumenta si se utiliza con otros fármacos potencialmente neurotóxicos y en casos de deshidratación.
+ Nefrotoxicidad: los cambios en la función renal son generalmente reversibles tras la interrupción del tratamiento.
+ Efectos secundarios No hay datos específicos en niños. Se describen solo los efectos secundarios frecuentes (>1/100, <1/10) o de relevancia clínica; para el resto, consultar ficha técnica.
+ Trastornos neurológicos: ototoxicidad (pérdida auditiva, tinnitus ), bloqueo neuromuscular (parálisis muscular y apnea).
+ Trastornos renales: nefrotoxicidad, proteinuria, disminución del filtrado glomerular, elevación de creatinina sérica, presencia de leucocitos o eritrocitos en la orina, aumento o disminución del volumen de orina, aumento de la sed.
+ Interacciones Framacológicas Puede disminuir el efecto terapéutico de la vacuna BCG, por lo que se debe evitar su uso simultáneo.
+ Vacuna antitifoidea: los antibióticos pueden disminuir la respuesta inmunológica de la vacuna de fiebre tifoidea atenuada (Ty21a). Se debe evitar su administración hasta al menos 24 horas tras suspender el tratamiento.
+ Anfotericina, clindamicina, vancomicina, cefalosporinas (2.ª, 3.ª y 4.ª generación, especialmente la cefalotina), agentes inmunológicos y citotóxicos (ciclosporina, cisplatino, daunorubicina), diuréticos potentes (furosemida, ácido etacrínico), podrían aumentar el efecto nefrotóxico de gentamicina.
+ Vigilar la administración concomitante de anestésicos inhalados (halogenados), transfusiones de sangre masivas con citrato como anticoagulante, potencian el bloqueo neuromuscular.
+ Pancuronio y tubocurarina: su uso simultáneo con gentamicina podría aumentar el riesgo de bloqueo neuromuscular, ocasionando debilidad del músculo esquelético y parálisis respiratoria.
+ Colistina, polimixina (antibióticos polipeptídicos): su uso simultáneo con gentamicina podría producir aumento de riesgo de neurotoxicidad o bloqueo neuromuscular.
+ Betalactámicos: su uso simultáneo puede originar una inactivación mutua significativa. Las penicilinas pueden ocasionar disminución de la concentración sérica de aminoglucósidos (gentamicina), asociado sobre todo al uso de penicilinas de amplio espectro y a pacientes con disfunción renal.
+ Datos Farmacéuticos Las presentaciones contienen sulfitos y parabenos.
+ Preparación 
+ Existen preparaciones diluidas listas para su administración, de 1 y 3 mg/ml. Para las demás, diluir el vial de 80 mg/2 ml en suero fisiológico 0,9% y suero glucosado 5% hasta la concentración deseada (hasta concentraciones de 10 mg/ml). Para su administración IM preparar siempre a la máxima concentración (40 mg/ml) para esta vía.
+ Incompatibilidades 
+ Si se administra con penicilinas o cefalosporinas, administrar al menos 1 hora antes o después de la administración de gentamicina.
+ Conservación 
+ No precisa condiciones especiales de conservación. Conservar en el envase original. 
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace "Presentaciones" correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado en diciembre de 2020]. Disponible en: https://cima.aemps.es/cima 
+ Aberg JA, Goldman MP, Gray LD, et al . Infectious Diseases Handbook. 6.ª edición. Hudson (OH); Lexi-Comp; 2006.
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Aronoff GR, Bennett WM, Berns JS, et al . Drug prescribing in renal failure. Doping guidelines for adults and children. 5.ª edición. Filadelfía: American College of Physicians; 2007.
+ British Medical Association, Royal Pharmaceutical Sociedy of Great Britain, Royal College of Paediatrics and Child Health and Neonatal and Paediatric Pharmacists Group. BNF for children 2010-2011. Basingstoke (UK): BMJ Group, Pharmaceutical Press and RCPCH; 2011
+ Gentamicina. Public Assessment Report for paediatric studies submitted in accordance with Article 45 of Regulation (EC) No 1901/2006. [consultado el 10/05/2012] Disponible en: www.hma.eu 
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ Phelps SJ, Hak EB, Crill CM. The teddy bear book: Pediatric injectable drugs. 8.ª edición. Bethesda, MD: American Society of Health System Pharmacists; 2007.
+ UpToDate (Pediatric drug information). [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions [consultado en diciembre de 2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Young TE, Mangum BM. Neofax. 23.ª edición. Montvale, NJ: Thomson Reuters; 2010.
+ Fecha de actualización: diciembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/gentamicina . Consultado el 30 de octubre de 2026. CELESTODERM 1 mg/g + 1 mg/g CREMA
+ Principio activo: GENTAMICINA, BETAMETASONA 17-VALERATO Laboratorio titular: Organon Salud, S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA COLIRCUSI GENTADEXA 5 MG/ML+ 1 MG/ML+ 0,5 MG/ML COLIRIO/GOTAS ÓTICAS EN SOLUCIÓN
+ Principio activo: DEXAMETASONA FOSFATO SODIO, TETRIZOLINA HIDROCLORURO, GENTAMICINA SULFATO Laboratorio titular: Ntc S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA COLIRCUSI GENTAMICINA 3mg/ml COLIRIO EN SOLUCION
+ Principio activo: GENTAMICINA SULFATO Laboratorio titular: Ntc S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA 0,5 mg/g + 1 mg/g crema
+ Principio activo: GENTAMICINA, BETAMETASONA DIPROPIONATO Laboratorio titular: Organon Salud, S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA GENTA GOBENS 20 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION
+ Principio activo: GENTAMICINA SULFATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA GENTA GOBENS 40 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION
+ Principio activo: GENTAMICINA SULFATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA GENTA GOBENS 80 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION
+ Principio activo: GENTAMICINA SULFATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTALMOLOSA CUSI GENTAMICINA 3mg/g POMADA OFTALMICA
+ Principio activo: GENTAMICINA SULFATO Laboratorio titular: Ntc S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CUATROCREM CREMA
+ Principio activo: GENTAMICINA SULFATO, TOLNAFTATO, BETAMETASONA 17-VALERATO, CLIOQUINOL Laboratorio titular: Galenicum Derma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA GENTAMICINA BRAUN 3 MG/ML SOLUCION PARA PERFUSION
+ Principio activo: GENTAMICINA Laboratorio titular: B Braun Medical S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA MIBETIN 0,5 MG/G + 1 MG/G CREMA
+ Principio activo: GENTAMICINA SULFATO, BETAMETASONA DIPROPIONATO Laboratorio titular: Mibe Pharma Espana S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA CREMA
+ Principio activo: GENTAMICINA SULFATO, BETAMETASONA DIPROPIONATO Laboratorio titular: Organon Portugal Sociedade Unipessoal Lda. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA CREMA
+ Principio activo: GENTAMICINA SULFATO, BETAMETASONA DIPROPIONATO Laboratorio titular: Organon Portugal Sociedade Unipessoal Lda. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA CREMA
+ Principio activo: BETAMETASONA DIPROPIONATO, GENTAMICINA SULFATO Laboratorio titular: Organon Portugal Sociedade Unipessoal Lda. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA 0,5 MG/G + 1 MG/G CREMA
+ Principio activo: GENTAMICINA, BETAMETASONA DIPROPIONATO Laboratorio titular: Organon Portugal Sociedade Unipessoal Lda. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DIPROGENTA 0,5 MG/G + 1 MG/G CREMA
+ Principio activo: GENTAMICINA, BETAMETASONA DIPROPIONATO Laboratorio titular: Organon Portugal Sociedade Unipessoal Lda. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA INTERDERM CREMA 30 GRAMOS
+ Principio activo: GENTAMICINA SULFATO, NISTATINA, TRIAMCINOLONA ACETONIDO Laboratorio titular: Interpharma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA NOVOTER GENTAMICINA
+ Principio activo: GENTAMICINA SULFATO, FLUOCINONIDA Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antibióticos Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

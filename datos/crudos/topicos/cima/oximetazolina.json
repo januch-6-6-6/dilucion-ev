@@ -1,0 +1,16 @@
+{
+ "molecula": "OXIMETAZOLINA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 20,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "41111",
+   "nombre": "RESPIR 0,5 mg/ml SOLUCION PARA PULVERIZACION NASAL",
+   "forma": "SOLUCION PARA PULVERIZACION NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/41111/FT_41111.html"
+  }
+ ]
+}

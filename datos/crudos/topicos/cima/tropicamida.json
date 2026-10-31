@@ -1,0 +1,16 @@
+{
+ "molecula": "TROPICAMIDA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "57050",
+   "nombre": "COLIROFTA TROPICAMIDA 10 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/57050/FT_57050.html"
+  }
+ ]
+}

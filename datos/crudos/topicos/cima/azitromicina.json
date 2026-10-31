@@ -1,0 +1,16 @@
+{
+ "molecula": "AZITROMICINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "69522",
+   "nombre": "AZYDROP 15mg/g, COLIRIO EN SOLUCION EN ENVASE UNIDOSIS",
+   "forma": "COLIRIO EN SOLUCIÓN EN ENVASE UNIDOSIS",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/69522/FT_69522.html"
+  }
+ ]
+}

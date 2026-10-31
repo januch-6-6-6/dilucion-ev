@@ -1,0 +1,16 @@
+{
+ "molecula": "BIMATOPROST + TIMOLOL",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 15,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "06340001",
+   "nombre": "GANFORT 0,3 MG/ML + 5 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/06340001/FT_06340001.html"
+  }
+ ]
+}

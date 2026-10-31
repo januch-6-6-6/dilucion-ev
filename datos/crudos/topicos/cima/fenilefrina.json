@@ -1,0 +1,16 @@
+{
+ "molecula": "FENILEFRINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 4,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "34185",
+   "nombre": "COLIRCUSI FENILEFRINA 100 mg/ml colirio en solución",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/34185/FT_34185.html"
+  }
+ ]
+}

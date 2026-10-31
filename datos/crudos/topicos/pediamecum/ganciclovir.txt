@@ -1,0 +1,88 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/ganciclovir
+Volver Ganciclovir
+ Ficha General Presentaciones Fecha de actualización: Diciembre 2020 Descripción Antiviral. Nucleósido similar al aciclovir que ejerce su acción antiviral a través de la inhibición de la síntesis de ADN viral y que presenta actividad frente a citomegalovirus (CMV) y herpes simplex (1 y 2), principalmente, aunque también presenta cierta actividad frente a virus de la varicela zóster (VVZ), virus de Epstein-Barr (VEB), herpesvirus humano tipo 6 y a algunos serotipos de adenovirus.
+ Uso Clínico Intravenoso: 
+ Tratamiento de las infecciones graves (retinitis, colitis, esofagitis, neumonía y otras afectaciones viscerales) por CMV en pacientes inmunodeprimidos (VIH, inmunodeficiencias primarias) y en pacientes trasplantados, en adolescentes >12 años ( A ).
+ Profilaxis de infecciones por CMV en pacientes con inmunosupresión iatrogénica (después de un trasplante de órgano o de una quimioterapia antineoplásica) desde el nacimiento ( A ).
+ CMV congénito: un ensayo clínico aleatorizado fase III reveló que el tratamiento con ganciclovir IV durante 6 semanas en <1 mes con CMV congénito y afectación del sistema nervioso central (SNC) disminuye la progresión de la hipoacusia ( E : off-label ).
+ Tópico oftálmico: 
+ Tratamiento de la queratitis superficial aguda por Herpes simples ( E : off-label ).
+ Dado su potencial riesgo carcinogénico y los posibles riesgos en la reproducción, su uso debe individualizarse y debe evaluarse cuidadosamente el riesgo/beneficio. Extremar la vigilancia.
+ Dosis y Pautas de Administración Profilaxis de enfermedad por CMV (según ficha técnica): 
+ La dosis recomendada de ganciclovir, 1 vez al día, administrada mediante perfusión intravenosa durante 1 hora, está basada en el área de superficie corporal (ASC), obtenida mediante la fórmula de Mosteller, y en el aclaramiento de creatinina obtenido mediante la fórmula de Schwartz (CLSCr), y se calcula mediante las ecuaciones que aparecen a continuación. La duración del tratamiento con profilaxis universal se basa en el riesgo de enfermedad por CMV y se debe determinar individualmente.
+ Dosis pediátrica (mg) = 3 × ASC × CLSCr.
+ Si el aclaramiento de creatinina de Schwartz calculado excede los 150 ml/min/1,73 m 2 , se debe utilizar en la ecuación el valor máximo de 150 ml/min/1,73 m 2 .
+ ASC Mosteller (m 2 ): ASC (m 2 ) = √[altura(cm) × peso(kg)]/3600.
+ Aclaramiento de creatinina Schwartz (ml/min/1,73 m 2 ) = [k × altura (cm)] / [creatina sérica (mg/dl)],
+ donde k = 0,33 para pacientes <1 año con bajo peso en el nacimiento, 0,45 para pacientes <2 años, 0,55 para niños de 2 a 13 años y niñas de 2 a 16 años de edad, y 0,7 para niños de 13 a 16 años. Consultar la dosis en adultos para pacientes >16 años.
+ Infección congénita: 
+ 6 mg/kg/12 h durante 6 semanas. Reducir la dosis a la mitad si existe neutropenia grave (<500 cl/ml).
+ Infección SNC (pacientes VIH expuestos o positivos): 
+ Lactantes y niños: 5 mg/kg/12 h (hasta mejoría de los síntomas).
+ Infección diseminada y retinitis: 
+ Lactantes >3 meses y niños:
+ Inducción: 5-7,5 mg/kg/12 h, durante 14-21 días.
+ Mantenimiento: 5 mg/kg/24 h, 5-7 días a la semana.
+ Profilaxis en trasplante de órganos: 
+ Niños: 5 mg/kg/12 h durante 7-14 días. Mantenimiento: 5 mg/kg/día en 1 dosis diaria o 6 mg/kg/día, 5 días por semana, durante 100 días.
+ Insuficiencia renal (adultos): filtrado glomerular (FG) 25-50: 2,5 mg/kg/12 h, FG: 10-25: 2,5 mg/kg/24 h, FG: 10: 1,25 mg/kg/24 h. Hemodiálisis: dializa el 50%; administrar la dosis tras la diálisis.
+ Insuficiencia hepática: sin cambios.
+ Gel oftálmico tópico en la queratitis superficial aguda por herpes simple: 1 gota, 5 veces al día hasta la reepitelización corneal completa; después, 1 gota, 3 veces al día durante 7 días. Duración máxima del tratamiento: 21 días.
+ Contraindicaciones No se debe administrar a personas con alergia al aciclovir o al ganciclovir.
+ Contraindicado en neutropenias graves (<500/mm 3 ) y trombopenia (<25 000/mm 3 ).
+ Precauciones Vigilar y ajustar la dosis si existe insuficiencia renal.
+ Control oftalmológico regular. Se han descrito cuadros de desprendimiento de retina en pacientes con retinitis por CMV tratados con ganciclovir.
+ Gel oftálmico tópico: el paciente debe abstenerse de conducir o utilizar maquinaria ante la aparición de cualquier alteración de la visión después de la aplicación.
+ En neonatos realizar controles de hemograma cada 2-3 días en las primeras 3 semanas; después semanalmente si permanece estable.
+ Efectos secundarios El perfil de eventos adversos en 120 pacientes pediátricos inmunocomprometidos con infecciones graves por CMV incluidos en un ensayo clínico fue similar al de los adultos. Fueron frecuentes la granulocitopenia (17%) y la trombopenia (10%).
+ A continuación se recogen los efectos adversos más frecuentes (>1/100 - <1/10) o de relevancia clínica, descritos en adultos; para el resto, consultar ficha técnica.
+ Hematológicos: leucopenia con neutropenia (<500 mm 3 ), anemia, trombocitopenia, eosinofilia.
+ Cardiovasculares: arritmias, edemas, hipertensión, flebitis, cuadro de sepsis.
+ Sistema nervioso central: coma, confusión, mareo, fiebre, alucinaciones, cefalea, insomnio y convulsiones.
+ Oftalmológicos: forma iv: desprendimiento de retina; tópico oftálmico: sensación transitoria de quemazón o picor y queratitis superficial punctata .
+ Dermatológicos: rash , acné, prurito, síndrome de Stevens-Johnson, urticaria.
+ Endocrino-metabólicos: hipercalcemia, hipocaliemia, hiponatremia, síndrome de secreción inadecuada de hormona antidiurética o vasopresina (SIADH).
+ Gastrointestinales: anorexia, diarrea, náuseas, pancreatitis, vómitos, aumento de enzimas hepáticas.
+ Hepáticos: colestasis, fallo hepático, elevación de enzimas hepáticas.
+ Neuromusculares: artralgias, mialgias, neuropatías y parestesias.
+ Renales: elevación de la urea y la creatinina, hematuria, fallo renal.
+ Respiratorios: broncoespasmo, disnea, neumonía.
+ Reacciones anafilácticas.
+ Interacciones Framacológicas La administración conjunta de didanosina y ganciclovir aumenta los niveles de didanosina.
+ Probenecid puede reducir el aclaramiento renal de ganciclovir y alargar su vida plasmática.
+ La administración conjunta con zidovudina puede ocasionar neutropenias graves, por lo que debe evitarse esta combinación.
+ Debido al incremento del riesgo de toxicidad medular se debe evitar el uso concomitante de dapsona, pentamidina, azatioprina, fluocitosina, vincristina, vinblastina, doxorrubicina, anfotericina B, combinaciones de trimetoprim con sulfamidas u otros análogos nucleósidos.
+ Aumenta el riesgo de neurotoxicidad por imipenem. Evitar el uso concomitante.
+ Micofenolato de mofetilo: en caso de insuficiencia renal se pueden incrementar los niveles de ambos fármacos.
+ Datos Farmacéuticos Excipientes 
+ Intravenoso: no procede.
+ Gel tópico oftálmico: carbómero (carbopol 974P), sorbitol, hidróxido de sodio (ajuste de pH), cloruro de benzalconio, agua purificada.
+ Normas para la correcta preparación y administración 
+ Antes de su administración, este medicamento debe prepararse del siguiente modo:
+ Reconstituir el polvo liofilizado inyectando en el vial 10 ml de agua estéril para inyección. No emplear agua bacteriostática para inyección que contenga parabenos ya que estos son incompatibles con el ganciclovir y pueden producir precipitación.
+ Agitar el vial para disolver completamente el polvo.
+ Comprobar la ausencia de partículas en suspensión en la solución reconstituida antes de proceder a la preparación de la infusión. La solución así reconstituida en el vial es estable durante 12 horas a temperatura ambiente (15-25 °C).
+ Preparación de la infusión y administración: 
+ En función del peso corporal del paciente y del tipo de tratamiento, extraer del vial (concentración de ganciclovir: 50 mg/ml) el volumen necesario y añadirlo a un líquido de infusión adecuado (100 ml, por regla general) para su administración intravenosa durante una hora. La inyección IV en embolada o la inyección IV rápida están prohibidas. No son recomendables concentraciones de infusión superiores a los 10 mg/ml. Los líquidos para infusión que han demostrado ser compatibles con el ganciclovir son los siguientes: suero fisiológico, solución acuosa de dextrosa al 5%, solución Ringer para inyección y solución Ringer con lactato para inyección.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace "Presentaciones" correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado en diciembre de 2020]. Disponible en: https://cima.aemps.es/cima 
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Baquero-Artigao F y Grupo de estudio de la infección congénita por citomegalovirus de la Sociedad Española de Infectología Pediátrica. Documento de consenso de la Sociedad Española de Infectología Pediátrica sobre el diagnóstico y el tratamiento de la infección congénita por citomegalovirus. An Pediatr (Barc). 2009;71:535-547.
+ British Medical Association, Royal Pharmaceutical Sociedy of Great Britain, Royal College of Paediatrics and Child Health and Neonatal and Paediatric Pharmacists Group. BNF for children 2010-2011. Basingstoke (UK): BMJ Group, Pharmaceutical Press and RCPCH; 2011.
+ Kimberlin DW, Lin CY, Sánchez PJ, et al . Eﬀect of ganciclovir therapy on hearing in symptomatic congenital cytomegalovirus disease involving the central nervous system: a randomized, controlled trial. The Journal of Pediatrics. 2003;143(1):16-25.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2012 [consultado en diciembre de 2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Young TE, Mangum BM. Neofax. 24.ª edición. Montvale, NJ: Thomson Reuters; 2011.
+ Fecha de actualización: diciembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/ganciclovir . Consultado el 30 de octubre de 2026. VIRGAN 1,5 mg/g GEL OFTALMICO
+ Principio activo: GANCICLOVIR Laboratorio titular: Laboratoires Thea S.A.S. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CYMEVENE 500 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION
+ Principio activo: GANCICLOVIR SODICO Laboratorio titular: Cheplapharm Arzneimittel Gmbh Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA GANCICLOVIR ACCORD 500 MG POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION EFG
+ Principio activo: GANCICLOVIR SODICO Laboratorio titular: Accord Healthcare S.L.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antivirales Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

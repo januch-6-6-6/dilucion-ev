@@ -1,0 +1,16 @@
+{
+ "molecula": "ATROPINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 3,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "39474",
+   "nombre": "COLIROFTA ATROPINA 10 MG/ML COLIRIO EN SOLUCIÓN",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/39474/FT_39474.html"
+  }
+ ]
+}

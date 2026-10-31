@@ -1,0 +1,16 @@
+{
+ "molecula": "TOBRAMICINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 5,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "57593",
+   "nombre": "TOBREX UNGÜENTO OFTÁLMICO 3 MG/G POMADA OFTÁLMICA",
+   "forma": "POMADA OFTÁLMICA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/57593/FT_57593.html"
+  }
+ ]
+}

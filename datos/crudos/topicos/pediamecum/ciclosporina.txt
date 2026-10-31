@@ -1,0 +1,139 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/ciclosporina
+Volver Ciclosporina
+ Ficha General Presentaciones Fecha de actualización: Octubre 2020 Descripción Inmunosupresor del grupo de los inhibidores de la calcineurina usado en enfermedades autoinmunes y en profilaxis de rechazo de trasplantes. Nefrotoxicidad frecuente, por lo que se debe monitorizar función renal, tensión arterial y niveles plasmáticos del fármaco. Interacciona con un gran número de fármacos.
+ Uso Clínico Uso en trasplantes (vía oral y parenteral) (A): 
+ Trasplante de órgano sólido:
+ Prevención de rechazo tras trasplante de órganos alogénicos (riñón, hígado, corazón, corazón-pulmón, pulmón y páncreas).
+ Tratamiento del rechazo de trasplantes en pacientes que previamente han recibido otros agentes inmunosupresores.
+ Trasplante de médula ósea:
+ Prevención de rechazo del injerto tras el trasplante de médula ósea.
+ Profilaxis y tratamiento de la enfermedad del injerto contra el huésped (EICH).
+ Enfermedades autoinmunes (oral) (A): 
+ Síndrome nefrótico secundario a nefropatía de cambios mínimos, glomerulonefritis membranosa y glomeruloesclerosis segmentaria y focal, en pacientes cortico-resistentes o cortico- dependientes.
+ Dermatitis atópica grave. 
+ Uveítis idiopática.
+ Uveítis relacionada con la enfermedad de Behçet.
+ Psoriasis en placas.
+ Artritis reumatoide activa grave.
+ También se ha empleado en hepatitis autoinmune, distrofia muscular de Duchenne, colitis ulcerosa grave, dermatomiositis juvenil, aplasia pura de células rojas, glomerulonefritis de Schönlein-Henoch, histiocitosis de las células de Langerhans, artritis reumatoide juvenil y psoriasis ( E: oﬀ- label ).
+ Tratamiento del ojo seco: emulsión oftálmica de ciclosporina (solo en adolescentes >16 años) ( E: extranjero y oﬀ-label ).
+ Dosis y Pautas de Administración La dosis pediátrica recomendada es la misma que la de los adultos, aunque en la profilaxis de rechazo de trasplante de órganos, la dosis requerida eventualmente puede exceder la dosis habitual en adultos.
+ La dosificación descrita a continuación sirve únicamente a título de recomendación, ya que, para establecer la dosificación más adecuada, es preciso monitorizar rutinariamente los niveles de ciclosporina en sangre.
+ Trasplante de órganos: 
+ En caso de que no sea posible la vía oral, en el trasplante se puede administrar por vía intravenosa. La dosis recomendada es de aproximadamente un tercio de la dosis oral, por el efecto de primer paso hepático. Debido al riesgo de anafilaxis asociado a la forma intravenosa, junto con la mayor comodidad de la vía oral y menor riesgo de infección se recomienda pasar a la vía oral tan pronto como sea posible.
+ La dosis inicial varía en función del órgano trasplantado y de la dosis de otros agentes inmunosupresores incluidos en el protocolo.
+ En general, se administrarán 10-15 mg/kg/día en 2 dosis durante las 12 h anteriores al trasplante (5-6 mg/kg/día por vía intravenosa, si no es posible la vía oral); se mantiene durante 1-2 semanas y posteriormente se ajustan las dosis en función de las concentraciones plasmáticas deseadas.
+ En función del tipo de trasplante pueden utilizarse como dosis iniciales:
+ Renal: 9 ± 3 mg/kg/día, repartidos cada 12 h.
+ Hepático: 8 ± 4 mg/kg/día, repartidos cada 12 h.
+ Cardiaco: 7 ± 3 mg/kg/día, repartidos cada 12 h.
+ Dosis de mantenimiento: 2-6 mg/kg/día, repartidos en dos dosis.
+ Trasplante de médula ósea: 
+ En trasplante de médula ósea en pacientes pediátricos, se administrará ciclosporina intravenosa (1,5 mg/kg) cada 12 horas, hasta que sea posible la administración por vía oral. La dosis oral es de 6,25 mg/12 horas durante 3-6 meses y después disminuir gradualmente hasta suspender al año del trasplante.
+ Síndrome nefrótico: 
+ Inicial: función renal normal: 6 mg/kg/día (dosis máxima en niños) dividido en 2 dosis, cada 12 horas. Función renal alterada: ≤2,5 mg/kg/día.
+ Suspender a los 3 meses si no se observa mejoría.
+ Mantenimiento: ajustar individualmente al nivel mínimo efectivo.
+ Dermatitis atópica: 
+ Inicial: 2,5 mg/kg/día dividido en 2 dosis, cada 12 horas. Si después de 2 semanas de tratamiento la respuesta no es satisfactoria, puede aumentarse gradualmente hasta una dosis máxima de 5 mg/kg/día. Suspender si no se observa respuesta después de 1 mes de tratamiento a la dosis máxima.
+ Uveítis: 
+ Inicial: 5 mg/kg/día dividido en 2 dosis, cada 12 horas. En casos refractarios y durante un periodo de tiempo limitado podrá aumentarse hasta 7 mg/kg/día. En caso de respuesta insuficiente, podrán añadirse corticoides a dosis de 0,2-0,6 mg/kg/día de prednisona o equivalente.
+ Mantenimiento: reducir lentamente a la dosis mínima eficaz, sin exceder los 5 mg/kg/día.
+ Otras indicaciones en pacientes pediátricos ( oﬀ-label ): 
+ Ciclosporina se utiliza sola o en combinación con otros agentes (normalmente corticosteroides), lo que permite un efecto ahorrador de esteroides, reduciendo la toxicidad asociada a altas dosis y uso prolongado de los mismos.
+ Hepatitis autoinmune 4 a 6 mg/kg/día.
+ Distrofia muscular de Duchenne, 5 mg/kg/día durante 8 semanas.
+ Colitis ulcerosa (CU) grave: en la CU grave refractaria a corticoesteroides puede evitar o retrasar la colectomía de urgencia. La terapia debe iniciarse con 2-4 mg/kg/día por vía intravenosa (con dosis elevadas de corticoides), continuando al menos 7-10 días y modificando las dosis hasta alcanzar concentraciones plasmáticas deseadas. Posteriormente, se puede cambiar a terapia oral a dosis de 8 mg/kg/día en 2 dosis, 1-3 meses.
+ Histiocitosis de las células de Langerhans: 12-15 mg/kg/día, en combinación con otros fármacos, como vinblastina y prednisona.
+ Dermatomiositis juvenil: dosis inicial de 2,5 mg/kg/día que puede modificarse en función de la respuesta clínica y las concentraciones plasmáticas. Mantenimiento 2,5 a 7,5 mg/kg/día. La administración de ciclosporina ha demostrado la reducción de dosis de corticosteroides e incluso su retirada.
+ Aplasia pura de células rojas: terapia inicial de 4-5 mg/kg/día, para mantener concentraciones valle entre 120 y 300 (ng/ml). Mantenimiento durante 6 meses.
+ Glomerulonefritis de Henoch-Schönlein: dosis de 4-8 mg/kg/día, para mantener concentraciones séricas de 150 a 200 µg/l en los primeros 6 meses del tratamiento. Durante la fase de mantenimiento, dosis de 1-5 mg/kg/día para alcanzar niveles de 80-100 µg/L. El tiempo medio de respuesta al tratamiento fue de 1,4 meses.
+ Sequedad ocular en la queratoconjuntivitis seca en adolescentes >16 años: emulsión oftálmica de ciclosporina al 0,05%: 1 gota en cada ojo/12 horas.
+ Niños con fibrosis quística: 
+ Los pacientes con fibrosis quística receptores de trasplante pulmonar requieren dosis mayores de ciclosporina, que pueden llegar a ser el doble que en otros pacientes trasplantados. Esta población de pacientes muestra una gran variabilidad en las dosis, lo que hace aún más necesario una monitorización intensiva de los niveles plasmáticos.
+ Insuficiencia renal o hepática: 
+ No hay recomendaciones específicas en población pediátrica.
+ Insuficiencia renal: en el tratamiento de las enfermedades autoinmunes en pacientes adultos, se recomienda reducir la dosis en un 25-50% cuando la creatinina sérica permanezca incrementada por encima del 30% de los niveles basales en más de una determinación, incluso si los valores de creatinina están dentro del intervalo normal. (hay que considerar que los cambios en la función renal pueden ser debidos a la propia patología y no al fármaco). Hemodiálisis: elimina menos del 1% de la dosis de ciclosporina.
+ Insuficiencia hepática: se recomienda precaución.
+ Preparación y administración: 
+ La dosis total diaria se administrará repartida en 2 dosis, cada 12 horas.
+ Oral: la formulación Neoral® (mejora la absorción y la biodisponibilidad del principio activo. Proporciona concentraciones plasmáticas más uniformes que no se ven alteradas por la ingesta de alimentos o el ritmo circadiano) existe en forma de solución oral y cápsulas blandas.
+ La solución oral es adecuada para el uso pediátrico. Para enmascarar el sabor, puede mezclarse en un vaso de vidrio con zumo de naranja o manzana, a temperatura ambiente. La jeringa no deberá entrar en contacto con el diluyente.
+ En el caso de adolescentes y niños mayores que puedan tragar las cápsulas, estas deberán tragarse enteras, sin masticar ni triturar. Las cápsulas y la suspensión oral Neoral® son bioequivalentes, por lo que podrán intercambiarse sin requerir ajuste de dosis.
+ Para la microemulsión de ciclosporina, la presencia o no de alimentos no inﬂuye en la absorción.
+ Parenteral: diluir la dosis en suero salino fisiológico (SSF) al 0,9% o suero glucosado (SG) a concentración ≤2,5 mg/ml y administrar en perfusión intravenosa intermitente de 2-6 h. También puede administrarse en perfusión continua, aunque la estabilidad en suero es corta.
+ Contraindicaciones Alergia al compuesto o cualquiera de los excipientes.
+ Combinación con productos que contienen Hypericum perforatum (hierba de San Juan).
+ Combinación con medicamentos que son sustratos de la bomba de flujo multifármaco glicoproteína-P o de las proteínas transportadoras de aniones orgánicos (PTAO) y para los cuales las concentraciones plasmáticas elevadas están asociadas con reacciones adversas graves o amenazantes para la vida, por ejemplo, bosentán, dabigatrán etexilato y aliskirén.
+ Pacientes con enfermedades autoinmunes con alteración de la función renal (excepto proteinuria en pacientes con síndrome nefrótico), procesos malignos o hipertensión no controlada.
+ Precauciones Debidas al principio activo: 
+ Por su perfil de efectos adversos, durante el tratamiento con ciclosporina se recomienda monitorizar:
+ Función renal: el tratamiento con ciclosporina puede provocar en las primeras semanas una nefrotoxicidad aguda dosis-dependiente. Deberá realizarse una monitorización cuidadosa de la función renal (en particular de la creatinina sérica) y ajustar la dosis por medio de la determinación de las concentraciones plasmáticas.
+ Función hepática: puede provocar aumentos reversibles, dosis-dependientes de la bilirrubina sérica y ocasionalmente de los enzimas hepáticos. Se han notificado algunos casos de insuficiencia hepática, en ocasiones fatal.
+ Electrolitos: incrementa el riesgo de hiperkaliemia, sobre todo en pacientes con disfunción renal. Utilizar con precaución cuando se administre junto con fármacos ahorradores de potasio (por ejemplo, diuréticos ahorradores de potasio, inhibidores de la enzima convertidora de la angiotensina [IECA], antagonistas de los receptores de la angiotensina II [ARA II]), fármacos que contengan potasio y en pacientes con dietas ricas en potasio. En estas situaciones se aconseja controlar los niveles de potasio.
+ Incrementa el aclaramiento del magnesio. Se recomienda controlar los niveles séricos de magnesio en el periodo peritrasplante, sobre todo en presencia de síntomas o signos neurológicos. En caso necesario, administrar suplementos de magnesio.
+ Presión arterial: monitorizar regularmente la presión arterial. Si se desarrolla hipertensión asociada al tratamiento, puede ser necesario establecer un tratamiento antihipertensivo adecuado.
+ Perfil lipídico: puede producir dislipemias. Se recomienda monitorizar lípidos sanguíneos de forma periódica.
+ Signos y síntomas de neurotoxicidad: se han descrito casos de encefalopatía (convulsiones) en pacientes pediátricos que recibieron además dosis altas de metilprednisolona. La mayoría de los casos se resolvieron de forma favorable al reducir la dosis o retirar el fármaco.
+ Infecciones y procesos neoplásicos: riesgo incrementado de linfomas y neoplasias de piel con su uso prolongado. Evitar el exceso de exposición a la luz ultravioleta.
+ En pacientes tratados con ciclosporina se han descrito casos de activación de infecciones latentes por Poliomavirus, que pueden conducir a nefropatía, especialmente a nefropatía por virus BK, o a leucoencefalopatía multifocal progresiva por virus JC. En estos casos hay que considerar la posibilidad de disminuir la carga inmunosupresora y emplear estrategias profilácticas y terapéuticas adecuadas.
+ Vacunas: durante el tratamiento con ciclosporina, el efecto de la vacunación puede verse reducido; asimismo, deberá evitarse el uso de vacunas vivas atenuadas.
+ Debidas a la formulación: 
+ Las cápsulas y solución oral contienen 11,8 y 12,0%, respectivamente, de etanol en volumen (alcohol). Debe tenerse en cuenta en lactantes y niños, sobre todo en grupos de alto riesgo, como son pacientes con enfermedades hepáticas o epilepsia.
+ Las ampollas para la administración intravenosa contienen, además de etanol, aceite de ricino polietoxilado (Cremophor EL), que puede provocar reacciones anafilactoides tras la administración intravenosa, por lo que se recomienda una vigilancia estrecha durante la perfusión. La administración profiláctica de un antihistamínico ha sido utilizada también utilizada con éxito para prevenir la aparición de reacciones anafilactoides.
+ Efectos secundarios Aunque no se han realizado ensayos clínicos bien controlados en niños, en la administración de ciclosporina en receptores de trasplantes incluso menores de 1 año de edad no se han observado efectos adversos diferentes a los observados en la población adulta.
+ Nefrotoxicidad (30%) habitualmente leve, reversible y dosis-dependiente. Puede acompañarse de hipertensión arterial, hiperuricemia, hiperpotasemia, hipomagnesemia.
+ Otros efectos adversos: trastornos digestivos, hepatotoxicidad (transitoria), hirsutismo/hipertricosis, angioedema, hipertrofia gingival, temblor, cefalea, parestesias, mialgias, astenia e hiperlipidemia.
+ Si se desea completar esta información, consultar la ficha técnica.
+ Interacciones Framacológicas La ciclosporina es un sustrato y un potente inhibidor del citocromo P450, e inhibidor de la glicoproteína-P. Presenta numerosas interacciones farmacológicas, muchas de ellas de relevancia clínica.
+ Aumentan las concentraciones plasmáticas de Ciclosporina (monitorizar niveles y ajustar dosis): 
+ Alopurinol, amiodarona, acetazolamida, antagonistas de los canales de calcio (diltiazem, verapamilo, nicardipino), colchicina, antibióticos macrólidos (claritromicina, eritromicina), antifúngicos azólicos (ketoconazol, ﬂuconazol, itraconazol, voriconazol) antiinflamatorios no esteroideos (AINE), corticoides a dosis altas, metoclopramida, omeprazol, sulfamidas, inhibidores de la proteasa del virus de la inmunodeficiencia humana (VIH), imatinib, ácido cólico y derivados. 
+ Disminuyen las concentraciones plasmáticas de Ciclosporina 
+ Rifampicina, fenitoína, fenobarbital, carbamazepina, oxcarbazepina, bosentán, octreótido, ticlopidina, ciclofosfamida. 
+ Ciclosporina puede incrementar los niveles plasmáticos de: 
+ AINE (diclofenaco), bosentán, budesonida (sistémica e inhalada), bloqueantes de los canales del calcio, colchicina, dexametasona sistémica, digoxina, doxorubicina, etopósido, imipenem, estatinas, inhibidores de la proteasa del VIH, metilprednisolona, metotrexato, prednisona, prednisolona, tacrolimus (sistémico y tópico). 
+ Incremento del riesgo de hiperpotasemia 
+ IECA, ARAII, diuréticos ahorradores de potasio, sales de potasio. 
+ Incremento del riesgo de nefrotoxicidad 
+ Antibióticos aminoglucósidos, anfotericina B, AINE, tacrolimus, cotrimoxazol (y trimetoprim solo), melfalán. 
+ Incremento del riesgo de miopatía y rabdomiolisis 
+ Estatinas 
+ Interacción con alimentos: la ingesta concomitante de zumo de pomelo aumenta la biodisponibilidad de ciclosporina. No se recomienda su administración concomitante.
+ Datos Farmacéuticos Excipiente :
+ Cápsulas blandas: Dl-α-tocoferol, etanol absoluto, propilenglicol, mono-di-triglicéridos de aceite de maíz, aceite de ricino polioxilo-40-hidrogenado, negro óxido de hierro, dióxido de titanio, glicerol, propilenglicol, gelatina.
+ Solución oral: Dl-α-tocoferol, etanol absoluto, propilenglicol, mono-di-triglicéridos de aceite de maíz, aceite de ricino polioxilo-40-hidrogenado.
+ Concentrado para solución para perfusión: etanol absoluto, aceite de ricino polietoxilado (Cremophor EL).
+ Conservación: 
+ Cápsulas: temperatura ambiente sin exceder los 25 °C; deben mantenerse en el blíster hasta su administración. Cuando se abre el blíster se desprende un olor característico, que es totalmente normal.
+ Solución: no refrigerar. Conservar entre 15-30 °C, preferiblemente no por debajo de 20 °C durante periodos prolongados, porque los componentes oleosos pueden solidificar. Debe utilizarse durante los 2 meses después de abierto el envase.
+ Ampollas: no refrigerar. Conservar a temperatura ambiente (inferior a 30 °C). Proteger de la luz.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha.
+ Bibliografía Sandimmun. Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 26/10/2020]. Disponible en: https://cima.aemps.es/cima/dochtml/ft/60320/FT_60320.html#10-fecha-de-la-revisi-n-del-texto 
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Barabino A, Torrente F, Castellano E, et al . The use of ciclosporin in paediatric inﬂammatory bowel disease: an Italian experience. Aliment Pharmacol Ther. 2002 Aug;16(8):1503-7.
+ Burton ME, Shaw LM, Schentag JJ, Evans WE. Applied Pharmacokinetics & Pharmacodynamics. Principles of Therapeutic Drug Monitoring. 4.ª edición. Lippincott Williams & Wilkins; 2006.
+ Medina E, Fuentes D, Suárez L, et al. Enfermedad Inflamatoria Intestinal. Protoc diagn ter pediatr. 2010;1:151-60.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: http://www.thomsonhc.com/home/dispatch 
+ Naftali T, Novis B, Pomeranz I, et al . Cyclosporin for severe ulcerative colitis. Isr Med Assoc J. 2000 Aug;2(8):588-91.
+ Neoral Product Information. Drugs@FDA [consultado el 24/10/2012]. Disponible en: http://www.accessdata.fda.gov/scripts/cder/drugsatfda/index.cfm 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2020 [consultado el 26/10/2012]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: octubre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/ciclosporina . Consultado el 30 de octubre de 2026. IKERVIS 1 mg/ml colirio en emulsion
+ Principio activo: CICLOSPORINA Laboratorio titular: Santen Oy Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN NEORAL 100 mg CAPSULAS BLANDAS
+ Principio activo: CICLOSPORINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN NEORAL 100 mg/ml SOLUCION ORAL
+ Principio activo: CICLOSPORINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN NEORAL 25 mg CAPSULAS BLANDAS
+ Principio activo: CICLOSPORINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN NEORAL 50 mg CAPSULAS BLANDAS
+ Principio activo: CICLOSPORINA PARA MICROEMULSION Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN 250 mg/5 ml CONCENTRADO PARA SOLUCION PARA PERFUSION
+ Principio activo: CICLOSPORINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA SANDIMMUN 50 mg/ml CONCENTRADO PARA SOLUCION PARA PERFUSION
+ Principio activo: CICLOSPORINA Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIQORIN 100 MG CAPSULAS BLANDAS EFG
+ Principio activo: CICLOSPORINA Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CIQORIN 25 MG CAPSULAS BLANDAS EFG
+ Principio activo: CICLOSPORINA Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA CIQORIN 50 MG CAPSULAS BLANDAS EFG
+ Principio activo: CICLOSPORINA Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Inmunosupresores Onco-Hematología Reumatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

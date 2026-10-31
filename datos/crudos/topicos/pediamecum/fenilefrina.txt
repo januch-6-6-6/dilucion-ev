@@ -1,0 +1,111 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/fenilefrina
+Volver Fenilefrina
+ Ficha General Presentaciones Fecha de actualización: Diciembre 2020 Descripción Agente simpaticomimético con efecto selectivo alfa-adrenérgico. De forma indirecta libera noradrenalina de sus depósitos a nivel de las terminaciones nerviosas, produciendo vasoconstricción de las arteriolas de la mucosa nasal y conjuntiva, activación del músculo responsable de la dilatación de la pupila y vasoconstricción sistémica arterial.
+ Uso Clínico Hipotensión durante la anestesia epidural ( A ), en hipotensión inducida por fármacos ( A ), anafilaxia o shock ( E : off-label ).
+ Tratamiento de algunos casos de taquicardia supraventricular ( E : off-label ).
+ Vasoconstrictor en analgesia regional ( E : off-label ).
+ Vía nasal en >12 años: descongestionante ( A ).
+ Vía oftálmica en >12 años: midriático en exploraciones del fondo de ojo, glaucoma de ángulo abierto, iridociclitis, iritis queratitis, úlceras corneales, irritación ocular leve ( A ).
+ Dosis y Pautas de Administración La eficacia y la seguridad en niños <2 años no se han establecido.
+ Procedimientos oftálmicos: 
+ Niños <1 año: instilación de una gota al 2,5%, 15-30 minutos antes del procedimiento.
+ Niños >1 año: instilación de una gota al 2,5% o solución al 10%, repetir en 10-60 minutos si es necesario.
+ Descongestionante nasal (no deben superarse los 3 días de tratamiento): 
+ Lactantes 6 meses-2 años: 0,1 ml de fenilefrina 0,5% en dosis única.
+ Niños 2-6 años: 1 gota cada 4 horas, si precisa, de solución al 0,125%.
+ Niños 6-12 años: 2-3 gotas cada 4 horas, si precisa, de solución al 0,25%.
+ Niños >12 años: 2-3 gotas o 1-2 spray cada 4 horas, si precisa, de solución al 0,25-0,5%.
+ Hipotensión/ shock : 
+ Intramuscular/subcutáneo: 0,1 mg/kg/dosis o 3 mg/m 2 /dosis cada 1-2 horas si precisa. Dosis máxima: 5 mg.
+ Bolo IV: 5-20 µg/kg/dosis cada 10-15 minutos, si precisa.
+ Infusión IV: 0,1-0,5 µg/kg/min titulando hasta alcanzar el efecto deseado.
+ Taquicardia paroxística supraventricular: 
+ 5-10 µg/kg cada 20-30 segundos.
+ Insuficiencia renal: no se han descrito pautas específicas de tratamiento. No parecen ser necesarios reajustes en las dosis.
+ Preparación y administración: 
+ Para la administración IV directa, diluir hasta 1 mg/ml y administrar en 20-30 segundos.
+ Para infusión: diluir con suero fisiológico hasta concentraciones de 20-60 µg/ml.
+ Infundir en una vena de gran calibre para evitar la posibilidad de extravasación. No se recomienda infusión a través de un catéter umbilical.
+ Contraindicaciones Hipersensibilidad a fenilefrina o algún excipiente.
+ Feocromocitoma.
+ Hipertensión grave.
+ Pancreatitis aguda.
+ Hepatitis.
+ Pacientes con enfermedades cardiovasculares, sobre todo enfermedad coronaria, miocardiopatías y arritmias, especialmente por vía parenteral ya que aumenta las demandas de oxígeno, aumenta el riesgo de sufrir arritmias y produce vasoconstricción.
+ Asma.
+ Glaucoma de ángulo estrecho.
+ La fenilefrina está contraindicada en combinación con anestésicos locales en los dedos de las manos y pies, nariz y genitales dado que puede ocasionar serias necrosis debido a la vasoconstricción de los capilares.
+ Debido a que produce alteraciones en el metabolismo de la glucosa está contraindicada en pacientes con diabetes mellitus .
+ Está contraindicada su utilización vía oftálmica en neonatos, lactantes y niños debido a la potencial exposición sistémica.
+ Precauciones Como vasopresor, no es sustitutivo de la administración de sangre, plasma y otros ﬂuidos.
+ Precisa un acceso vascular preferiblemente central para su administración para evitar necrosis tisular en la zona de inyección por su extravasación.
+ No se recomienda su uso como descongestionante nasal durante más de 3 días, ya que puede producir congestión de rebote.
+ En caso de sobredosificación, los efectos hipertensivos pueden tratarse con alfa bloqueantes como la fentolamina, 5-6 mg por vía IV durante 13-30 min, repitiendo si fuera necesario. También en el tratamiento de la necrosis tisular por extravasación se debe hacer infiltración local.
+ Efectos secundarios Las reacciones adversas importantes son muy poco frecuentes en la administración intranasal y ocular, aunque pueden aparecer cuando se produce su uso repetido y en niños muy pequeños. Sin embargo sí pueden producirse leves reacciones locales, como sensación de quemazón, picor y sequedad en la mucosa nasal tras su uso, y picor de ojos, visión borrosa, lagrimeo y fotofobia tras su administración ocular.
+ Para las reacciones adversas importantes no hay una frecuencia conocida: bradicardia reﬂeja, taquicardia reﬂeja, arritmias cardiacas, dolor anginoso, palpitaciones, parada cardiaca, hipertensión arterial, hipotensión, rubor, dolor de cabeza, hemorragia cerebral, vértigo, desvanecimiento, embotamiento, disnea, edema pulmonar, vómitos, hipersalivación, dificultad en la micción, retención urinaria, sudoración, hormigueo, sensación de frío, alteración en el metabolismo de glucosa y necrosis hepática.
+ Interacciones Framacológicas Fármacos alfa- y betabloqueantes pueden disminuir su efecto.
+ Fármacos oxitócicos potencian su acción.
+ Fármacos simpaticomiméticos y anestésicos derivados de hidrocarburos halogenados pueden provocar taquicardias y arritmias.
+ Los IMAO pueden potenciar su acción.
+ Datos Farmacéuticos Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace "Presentaciones" correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia española de medicamentos y productos sanitarios (AEMPS) [consultado en noviembre de 2020]. Disponible en: https://cima.aemps.es/cima 
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ Taketomo CK, Hodding JH, Kraus DM. Pediatric and Neonatal Dosage Handbook. 15.ª edición. Hudson (OH): American Pharmacists Association-Lexi Comp; 2008.
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions [consultado en diciembre de 2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 17.ª edición. España: Adis; 2012.
+ Fecha de actualización: diciembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/fenilefrina . Consultado el 30 de octubre de 2026. ASPIRINA COMPLEX GRANULADO EFERVESCENTE
+ Principio activo: ACETILSALICILICO ACIDO, CLORFENAMINA MALEATO, FENILEFRINA BITARTRATO Laboratorio titular: Bayer Hispania S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COLIRCUSI FENILEFRINA 100 mg/ml colirio en solución
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: M4 Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA GELOCATIL GRIPE FORTE CON FENILEFRINA GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Ferrer Internacional S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA GRIPALNORM GRANULADO PARA SOLUCION ORAL
+ Principio activo: FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO, PARACETAMOL Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MYDRIASERT 0,28 mg/5,4 mg INSERTO OFTALMICO
+ Principio activo: FENILEFRINA HIDROCLORURO, TROPICAMIDA Laboratorio titular: Laboratoires Thea S.A.S. Condiciones de Prescripción y Uso: Diagnóstico Hospitalario Consulta medicamento en AEMPS-CIMA NORMOGRIP CAPSULAS DURAS
+ Principio activo: PARACETAMOL, FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA PAIDOTERIN DESCONGESTIVO JARABE
+ Principio activo: CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO, DIFENHIDRAMINA HIDROCLORURO Laboratorio titular: Laboratorio Aldo Union S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA PHARMAGRIP CAPSULAS
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA PHARMAGRIP FORTE POLVO PARA SUSPENSION ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA PROPALGINA PLUS POLVO PARA SOLUCIÓN ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO, DEXTROMETORFANO HIDROBROMURO, VITAMINA C Laboratorio titular: Bayer Hispania S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA RINOBANEDIF POMADA NASAL
+ Principio activo: BACITRACINA-ZINC, NEOMICINA SULFATO, PREDNISOLONA, FENILEFRINA HIDROCLORURO, CLOROBUTANOL HEMIHIDRATO, ESENCIA NIAULI, ACEITE EUCALIPTO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TERMALGIN GRIPE 650 MG/15,58 MG/4 MG GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Haleon Spain S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA ABACAT GRANULADO PARA SOLUCIÓN ORAL.
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Tarbis Farma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ANTICATARRAL EDIGEN POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Aristo Pharma Iberia S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA APOGRIP POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA BISOLGRIP FORTE GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA BITARTRATO Laboratorio titular: Opella Healthcare Spain S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA BRONCHOGRIP POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, GUAIFENESINA, FENILEFRINA HIDROCLORURO Laboratorio titular: Perrigo Espana S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COULDINA CON ACIDO ACETILSALICILICO COMPRIMIDOS EFERVESCENTES
+ Principio activo: ACETILSALICILICO ACIDO, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COULDINA CON IBUPROFENO COMPRIMIDOS EFERVESCENTES
+ Principio activo: IBUPROFENO LISINA, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COULDINA CON PARACETAMOL COMPRIMIDOS EFERVESCENTES
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COULDINA INSTANT CON ACIDO ACETILSALICILICO GRANULADO EFERVESCENTE
+ Principio activo: ACETILSALICILICO ACIDO, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA COULDINA INSTANT CON PARACETAMOL GRANULADO EFERVESCENTE
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA DISNEUMON PERNASAL 5 MG/ML SOLUCION PARA PULVERIZACION
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Mylan Ire Healthcare Limited Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA DOLENGRIP 650 MG/15,58 MG/4 MG GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Tecnimede Espana Industria Farmaceutica S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA FENILEFRINA AGUETTANT 100 MICROGRAMOS/ML SOLUCION INYECTABLE Y PARA PERFUSION
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratoire Aguettant Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA FENILEFRINA AGUETTANT 50 MICROGRAMOS/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratoire Aguettant Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA FENILEFRINA ALTAN 0,1 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA FRICOLD GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Farline Comercializadora De Productos Farmaceuticos S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA FRIOLGRIP DESCONGESTIVO POLVO PARA SOLUCIÓN ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA FYDRANE 0,2 MG/ML + 3,1 MG/ML + 10 MG/ML SOLUCION INYECTABLE
+ Principio activo: LIDOCAINA HIDROCLORURO, FENILEFRINA HIDROCLORURO, TROPICAMIDA Laboratorio titular: Laboratoires Thea S.A.S. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA GRIPPAL CON FENILEFRINA GRANULADO PARA SOLUCION ORAL
+ Principio activo: FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO, PARACETAMOL Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA GRIPPOSTAD CON PARACETAMOL/CAFEINA CAPSULAS DURAS
+ Principio activo: PARACETAMOL, CAFEINA, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA HIDROCLORURO DE FENILEFRINA ALTAN 10 mg/ml SOLUCION INYECTABLE
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA ILVIGRIP EXPECTORANTE POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, GUAIFENESINA, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Vicks S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA INTERCOLD GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Interpharma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA KERNGRIP GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA BITARTRATO Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MINIMS FENILEFRINA HIDROCLORURO 100 MG/ML COLIRIO EN SOLUCION
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Bausch + Lomb Ireland Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MIRAZUL 1,25 MG/ML COLIRIO EN SOLUCIÓN.
+ Principio activo: FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorio De Aplicaciones Farmacodinamicas S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA NORMOGRIP GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA NOVAG ANTIGRIPAL GRANULADO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA BITARTRATO, CLORFENAMINA MALEATO Laboratorio titular: Tarbis Farma S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA RINOMICINE COMPRIMIDOS
+ Principio activo: CLORFENAMINA MALEATO, PARACETAMOL, SALICILAMIDA, FENILEFRINA HIDROCLORURO, CAFEINA Laboratorio titular: Laboratorio De Aplicaciones Farmacodinamicas S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA RINOMICINE POLVO PARA SUSPENSIÓN ORAL
+ Principio activo: CAFEINA, CLORFENAMINA MALEATO, FENILEFRINA HIDROCLORURO, ASCORBICO ACIDO, SALICILAMIDA, PARACETAMOL Laboratorio titular: Laboratorio De Aplicaciones Farmacodinamicas S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA SERRAGRIP 650 MG/ 10 MG/ 4 MG POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO Laboratorio titular: Laboratorios Serra Pamies S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA TUSELIN DESCONGESTIVO 2 mg/ml + 1 mg/ ml JARABE
+ Principio activo: FENILEFRINA HIDROCLORURO, DEXTROMETORFANO HIDROBROMURO Laboratorio titular: Korhispana S.L. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA VIRALKEY POLVO PARA SOLUCION ORAL
+ Principio activo: PARACETAMOL, FENILEFRINA HIDROCLORURO, CLORFENAMINA MALEATO Laboratorio titular: Pharminicio S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALAR NASAL
+ Principio activo: FLUOCINOLONA ACETONIDO, FENILEFRINA HIDROCLORURO, NEOMICINA SULFATO, POLIMIXINA B SULFATO Laboratorio titular: Tora Laboratories S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALAR NASAL INFANTIL
+ Principio activo: FENILEFRINA HIDROCLORURO, NEOMICINA SULFATO, FLUOCINOLONA ACETONIDO, POLIMIXINA B SULFATO Laboratorio titular: Tora Laboratories S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Cardiología Intensivos Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

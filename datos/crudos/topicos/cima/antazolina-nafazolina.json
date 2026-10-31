@@ -1,0 +1,16 @@
+{
+ "molecula": "ANTAZOLINA + NAFAZOLINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "19763",
+   "nombre": "ALERGOFTAL 0,25 mg/ml+ 5 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/19763/FT_19763.html"
+  }
+ ]
+}

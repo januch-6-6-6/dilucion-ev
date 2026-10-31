@@ -1,0 +1,16 @@
+{
+ "molecula": "DESMOPRESINA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 4,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "58566",
+   "nombre": "MINURIN 0,1 MILIGRAMOS/MILILITRO SOLUCION PARA PULVERIZACION NASAL",
+   "forma": "SOLUCION PARA PULVERIZACION NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/58566/FT_58566.html"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/ipratropio
+Volver Ipratropio
+ Ficha General Presentaciones Fecha de actualización: Noviembre 2020 Descripción El ipratropio (bromuro de ipratropio en forma de monohidrato) es un medicamento anticolinérgico derivado de la atropina y administrado por vía inhalatoria como broncodilatador.
+ Uso Clínico Adyuvante en el tratamiento de la crisis de broncoespasmo grave o en los casos de crisis moderada que no responda al tratamiento inicial con agonistas B 2 -adrenérgicos en niños >12 años ( A ).
+ Tratamiento de mantenimiento del broncoespasmo asociado a enfermedades pulmonares obstructivas crónicas en niños >6 años ( A ).
+ Alivio sintomático de la rinorrea en la rinitis alérgica y no alérgica ( A ).
+ Lactantes y recién nacidos prematuros afectos de displasia broncopulmonar ( E: oﬀ-label ).
+ Dosis y Pautas de Administración Presentaciones a presión: 20 microgramos de bromuro de ipratropio anhidro (forma en la que se expresan las dosis de forma habitual) equivalen a 21 microgramos de bromuro de ipratropio monohidratado.
+ Presentaciones para nebulización: un envase monodosis (2 ml) contiene 261 µg de bromuro de ipratropio monohidratado (equivalente a 250 µg de bromuro de ipratropio anhidro).
+ Presentaciones nasales: cada ml de solución contiene 0,31 mg de bromuro de ipratropio monohidratado (equivalentes a 0,30 mg de bromuro de ipratropio anhidro). Una pulverización libera 21,7 µg de bromuro de ipratropio monohidratado equivalentes a 21 µg de bromuro de ipratropio anhidro (forma en la que se expresan las dosis de forma habitual).
+ Crisis aguda de broncoespasmo: 
+ pMDI (suspensión para inhalación en envase a presión, administrar con cámara espaciadora): 40-80 µg (2-4 pulsaciones): cada 20 minutos (máximo 3 tandas) y mantener cada 4-6 horas durante las primeras 24-48 horas de inicio del tratamiento.
+ Suspensión para inhalación por nebulizador: 
+ <30 kg: 250 µg/4-6 horas.
+ >30 kg: 500 µg /4-6 horas.
+ Neonatos: 25 µg/kg/ 8 horas.
+ Tratamiento de rinitis: 
+ 12 años: 42 µg en cada fosa nasal de 2-3 veces al día.
+ 6-12 años: 42 µg en cada fosa nasal 2 veces al día.
+ Tratamiento de la displasia broncopulmonar: pMDI 
+ Si paciente en ventilación mecánica: 40-80 µg cada 4-6 horas (en cámara espaciadora acoplada a bolsa).
+ Si respiración espontánea: 40-80 µg cada 4-6 horas (con cámara espaciadora y mascarilla).
+ Contraindicaciones Hipersensibilidad a la atropina, bromuro de ipratropio o alguno de sus excipientes.
+ No está indicado como monofármaco en el tratamiento inicial de episodios agudos de broncoespasmo.
+ Precauciones La forma de presentación para pMDI contiene etanol, lo que puede ser causa de riesgo en pacientes pediátricos y con enfermedades hepáticas, epilepsia o lesiones cerebrales.
+ Pacientes con predisposición a glaucoma de ángulo estrecho. En estos casos se recomienda proteger los ojos frente al fármaco en polvo y nebulizado para evitar complicaciones oculares como aumento de la presión intraocular, midriasis, glaucoma y dolor.
+ Pacientes con fibrosis quística por mayor propensión a trastornos de la motilidad gastrointestinal.
+ Insuficiencia renal : no precisa ajuste de dosis.
+ Insuficiencia hepática : no precisa ajuste de dosis.
+ Efectos secundarios Los efectos secundarios más frecuentes son cefalea, tos, faringitis, sequedad de boca, trastornos de la motilidad gastrointestinal (incluyendo estreñimiento, diarrea y vómitos), visión borrosa, precipitación de glaucoma agudo de ángulo estrecho, náuseas y mareos.
+ Consultar ficha técnica para una información más detallada.
+ La sobredosis grave se caracteriza por síntomas atropínicos como taquicardia, taquipnea, fiebre alta y efectos centrales como inquietud, confusión y alucinaciones. Estos síntomas se deben tratar sintomáticamente.
+ Interacciones Framacológicas Los β-adrenérgicos y derivados de la xantina pueden potenciar el efecto broncodilatador del bromuro de ipratropio, aunque no es necesario el ajuste de dosis.
+ Se debe la administración concomitante con otros fármacos anticolinérgicos, así como el bromuro de ipratropio puede acentuar los efectos anticolinérgicos de otros fármacos
+ El riesgo de glaucoma agudo en pacientes con antecedentes de glaucoma de ángulo estrecho se puede ver incrementado al administrar conjuntamente bromuro de ipratropio nebulizado y agonistas β2.
+ Datos Farmacéuticos Excipientes: los excipientes pueden variar en función de la especialidad farmacéutica.
+ Las presentaciones a presión contienen un 15% de etanol (alcohol), esta pequeña cantidad se corresponde con 8,4 mg/pulsación. Para el resto, consultar la ficha técnica.
+ Condiciones de conservación: pueden variar en función de la especialidad farmacéutica. Consultar la ficha técnica.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha. 
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 7/11/2020]. Disponible en: https://cima.aemps.es/cima/publico/lista.html 
+ Displasia broncopulmonar. Protocolos neonatología SEN y AEP [en línea]. Disponible en http://www.aeped.es/documentos/protocolos-neonatologia 
+ Guía Española para el Manejo del Asma (GEMA) [consultado el 7/11/2020]. Disponible en http://www.gemasma.com/ 
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2020 [consultado el 7/11/2020]. Disponible en: www.uptodate.com 
+ Fecha de actualización: noviembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/ipratropio . Consultado el 30 de octubre de 2026. ATROALDO 20 microgramos/PULSACION SOLUCION PARA INHALACION EN ENVASE A PRESION
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Laboratorio Aldo Union S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA ATROVENT MONODOSIS 250 mcg / 2ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Boehringer Ingelheim Espana S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA ATROVENT MONODOSIS 500 mcg/ 2ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Boehringer Ingelheim Espana S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA ATROVENT NASAL 0,30 mg/ml SOLUCION PARA PULVERIZACION NASAL
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ATROVENT 20 microgramos SOLUCION PARA INHALACION EN ENVASE A PRESION
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Boehringer Ingelheim Espana S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA COMBIPRASAL 0.5 mg/2.5 mg SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO, SALBUTAMOL SULFATO Laboratorio titular: Laboratorio Aldo Union S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA RHINOVIN DUO 0,5 mg/ml + 0.6 mg/ml SOLUCION PARA PULVERIZACION NASAL
+ Principio activo: XILOMETAZOLINA HIDROCLORURO, IPRATROPIO BROMURO Laboratorio titular: Haleon Spain S.A. Condiciones de Prescripción y Uso: Sin Receta Consulta medicamento en AEMPS-CIMA IPRATROPIO BROMURO CIPLA 20 MICROGRAMOS SOLUCION PARA INHALACION EN ENVASE A PRESION
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Cipla Europe Nv Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA IPRATROPIO BROMURO/SALBUTAMOL CIPLA 0,5 MG/2,5 MG SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO, SALBUTAMOL SULFATO Laboratorio titular: Cipla Europe Nv Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA BROMURO DE IPRATROPIO ALDO-UNION 250 microgramos/ml SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Laboratorio Aldo Union S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA BROMURO DE IPRATROPIO ALDO-UNION 500 microgramos SOLUCION PARA INHALACION POR NEBULIZADOR
+ Principio activo: IPRATROPIO BROMURO Laboratorio titular: Laboratorio Aldo Union S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica. Tratamiento De Larga Duración Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Alergología Neonatología Neumología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

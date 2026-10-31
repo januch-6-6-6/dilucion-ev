@@ -1,0 +1,16 @@
+{
+ "molecula": "FLUOROMETOLONA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "56132",
+   "nombre": "ISOPTO FLUCON 1 MG/ML COLIRIO EN SUSPENSION",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/56132/FT_56132.html"
+  }
+ ]
+}

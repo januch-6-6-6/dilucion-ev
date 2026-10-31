@@ -1,0 +1,16 @@
+{
+ "molecula": "BIMATOPROST",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 20,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "02205003",
+   "nombre": "LUMIGAN 0,1 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/02205003/FT_02205003.html"
+  }
+ ]
+}

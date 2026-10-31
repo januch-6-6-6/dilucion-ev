@@ -1,0 +1,16 @@
+{
+ "molecula": "MUPIROCINA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "59531",
+   "nombre": "BACTROBAN NASAL 20 mg/g POMADA NASAL",
+   "forma": "POMADA NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/59531/FT_59531.html"
+  }
+ ]
+}

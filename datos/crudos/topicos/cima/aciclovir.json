@@ -1,0 +1,16 @@
+{
+ "molecula": "ACICLOVIR",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "84832",
+   "nombre": "XOROX 30 MG/G POMADA OFTALMICA",
+   "forma": "POMADA OFTÁLMICA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/84832/FT_84832.html"
+  }
+ ]
+}

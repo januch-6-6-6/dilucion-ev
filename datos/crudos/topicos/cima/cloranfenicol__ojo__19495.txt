@@ -1,0 +1,79 @@
+OFTALMOLOSA CUSI CLORAMFENICOL 10 MG/G POMADA OFTÁLMICA | POMADA OFTÁLMICA
+https://cima.aemps.es/cima/dochtml/ft/19495/FT_19495.html
+
+ 4.1. Indicaciones terapéuticas
+ Este medicamento está indicado en adultos y niños para infecciones del polo anterior del ojo (conjuntiva y/o córnea) causadas por microorganismos sensibles al cloranfenicol (ver sección 5.1)
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ Uso en adultos, incluidos pacientes de edad avanzada
+ En general se realizará una aplicación de 1 cm de pomada aproximadamente en el ojo(s) afectado(s) cada 3 horas, o más frecuentemente durante las primeras 48 horas, pudiéndose aumentar posteriormente el intervalo entre las aplicaciones, siempre según criterio médico.
+ En infecciones graves la aplicación oftálmica deberá ser completada con la administración sistémica de un antibiótico adecuado.
+ Población pediátrica
+ En recién nacidos puede ser necesario un ajuste de dosis debido a una eliminación sistémica reducida a causa de un metabolismo inmaduro y al riesgo de efectos adversos relacionados con la dosis. La duración máxima del tratamiento es de 10 - 14 días.
+ Insuficiencia hepática y renal
+ No se ha establecido la seguridad y eficacia de este medicamento en pacientes con insuficiencia hepática y renal.
+ Forma de administración
+ Vía oftálmica.
+ Si se emplea más de un medicamento por vía oftálmica, las aplicaciones de los medicamentos deben espaciarse al menos 5 minutos. Las pomadas oftálmicas deben administrarse en último lugar.
+ Evite tocar cualquier superficie con la punta del tubo para evitar una posible contaminación del contenido del tubo. 
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Antecedentes de depresión de médula ósea o discrasias sanguíneas.
+ Infecciones menores, profilaxis o cuando puedan utilizarse antibacterianos menos tóxicos.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Administrar únicamente por vía oftálmica.
+ El uso sistémico de cloranfenicol puede causar ocasionalmente toxicidad hematopoyética, pero raramente ocurre con la administración tópica. No se debe utilizar cloranfenicol a no ser que se considere absolutamente necesario y limite su uso únicamente para microorganismos sensibles a este antibiótico (ver sección 4.8).
+ Pueden aparecer concentraciones sanguíneas excesivas tras dosis habituales en pacientes con insuficiencia hepática o renal o en neonatos prematuros y a término que tienen un metabolismo inmaduro. Esto puede llevar a reacciones tóxicas graves.
+ No se recomienda el uso prolongado de este medicamento.
+ Después del uso de medicamentos que contienen cloranfenicol pueden ocurrir reacciones de hipersensibilidad que incluyen erupción cutánea, fiebre y angioedema. Si éstas ocurren, se debe interrumpir el tratamiento con este medicamento (ver sección 4.8).
+ Como sucede con otros antibióticos, el uso prolongado puede producir un sobrecrecimiento de microorganismos no sensibles, incluidos hongos. Si durante el tratamiento aparecen infecciones nuevas o sino se observa una mejoría clínica en 1 semana, debe instaurarse una terapia apropiada.
+ Poblacion pediatrica
+ Se requiere especial cuidado cuando se administra en recién nacidos debido al potencial de efectos tóxicos sistémicos relacionados con la dosis (tales como “síndrome gris del recién nacido”) a causa de una eliminación reducida por un metabolismo inmaduro. Se recomienda una monitorización de los niveles séricos del fármaco.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones.
+ Debe evitarse el uso concomitante de cloranfenicol con otros fármacos que puedan provocar depresión de la medula ósea.
+ No debe asociarse este medicamento con otros medicamentos de uso oftálmico que contengan otro antibiótico o una sulfamida. No debe administrarse con antibióticos bactericidas por la posibilidad de producirse un antagonismo.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No hay datos o éstos son limitados relativos al uso de este medicamento en mujeres embarazadas. La experiencia en humanos sugiere que los niños pueden desarrollar síndrome gris y colapso cardiovascular cuando se administran concentraciones elevadas de cloranfenicol vía sistémica. Los estudios realizados en animales han mostrado toxicidad para la reproducción. No debe utilizarse este medicamento durante el embarazo a no ser que la situación clínica de la mujer requiera tratamiento con este medicamento.
+ Lactancia
+ Cloranfenicol administrado sistémicamente se excreta en la leche materna en una proporción tal que se espera que tenga un efecto sobre los recién nacidos/niños lactantes. No se dispone de información suficiente relativa a la excreción de cloranfenicol de este medicamento en la leche materna. No obstante, no se puede excluir que existe un riesgo para el lactante. Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ Fertilidad
+ No se dispone de datos sobre los efectos de este medicamento en relación a la fertilidad masculina o femenina.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ Este medicamento tiene una influencia nula o insignificante sobre la capacidad para conducir y utilizar máquinas. Sin embargo, como con cualquier otro medicamento oftálmico, puede aparecer visión borrosa transitoria y otras alteraciones visuales que pueden afectar la capacidad de conducir o utilizar máquinas. Si aparece visión borrosa durante la instilación, el paciente debe esperar hasta que la visión sea nítida antes de conducir o utilizar maquinas.
+ 4.8. Reacciones adversas
+ Resumen tabulado de reacciones adversas
+ Se han identificado las reacciones adversas siguientes durante la experiencia postcomercialización con el uso de este medicamento. Las frecuencias no pueden estimarse a partir de los datos disponibles.
+ Sistema de Clasificación de Órganos
+ | 
+ Término preferido MedDRA (v.16.0)
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ hipersensibilidad
+ | 
+ Trastornos oculares
+ | 
+ edema conjuntival, edema palpebral
+ | 
+ Descripción de reacciones adversas seleccionadas
+ Pueden producirse reacciones alérgicas que requerirán interrupción del tratamiento (ver sección 4.4).
+ El cloranfenicol puede provocar depresión de médula ósea de dos tipos, el más común es el dosis dependiente, que suele ser reversible después de suspender el tratamiento. El segundo tipo es aparentemente idiosincrático, no relacionado con la dosis, más grave y generalmente da lugar a una depresión de médula ósea irreversible. Aunque la mayoría de los casos de discrasias sanguíneas se han relacionado con la administración oral de cloranfenicol, también se ha producido aplasia después de su administración vía intravenosa y oftálmica (ver sección 4.4). 
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaRAM.es.
+ 4.9. Sobredosis
+ No son de esperar efectos tóxicos con el uso oftálmico de este medicamento, ni en el caso de ingestión accidental del contenido de un envase.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.3. Periodo de validez
+ 3 años.
+ Desechar 4 semanas después de la primera apertura.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC.
+ 6.5. Naturaleza y contenido del envase
+ Tubo de pomada oftálmica conteniendo 3 g de pomada oftálmica estéril.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ninguna especial.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

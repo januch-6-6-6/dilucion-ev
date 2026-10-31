@@ -1,0 +1,16 @@
+{
+ "molecula": "DORZOLAMIDA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 5,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "60651",
+   "nombre": "TRUSOPT 20 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/60651/FT_60651.html"
+  }
+ ]
+}

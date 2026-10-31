@@ -1,0 +1,16 @@
+{
+ "molecula": "DEXAMETASONA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 15,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "40309",
+   "nombre": "OFTALMOLOSA CUSI DEXAMETASONA 0,5 mg/g POMADA OFTÁLMICA",
+   "forma": "POMADA OFTÁLMICA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/40309/FT_40309.html"
+  }
+ ]
+}

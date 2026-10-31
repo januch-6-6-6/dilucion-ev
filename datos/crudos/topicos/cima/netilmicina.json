@@ -1,0 +1,16 @@
+{
+ "molecula": "NETILMICINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "84965",
+   "nombre": "NETENAX 3 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/84965/FT_84965.html"
+  }
+ ]
+}

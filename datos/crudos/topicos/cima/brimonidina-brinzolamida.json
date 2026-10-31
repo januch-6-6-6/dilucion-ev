@@ -1,0 +1,16 @@
+{
+ "molecula": "BRIMONIDINA + BRINZOLAMIDA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 3,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "114933001",
+   "nombre": "SIMBRINZA 10mg/ml + 2mg/ml colirio en suspension",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/114933001/FT_114933001.html"
+  }
+ ]
+}

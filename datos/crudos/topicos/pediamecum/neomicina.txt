@@ -1,0 +1,80 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/neomicina
+Volver Neomicina
+ Ficha General Presentaciones Fecha de actualización: Diciembre 2020 Descripción Antibiótico de la familia de los aminoglucósidos, que se utiliza en clínica como antibiótico bactericida tanto por vía tópica como oral. Absorción por vía oral muy pobre, se elimina por heces más del 95%. Se produce en forma de sulfato de neomicina. Debido a su baja absorción vía oral, tiene acción principalmente local, por lo que se utiliza para situaciones clínicas muy concretas. Actualmente su principal indicación es para infecciones tópicas.
+ Uso Clínico Vía oral en niños >6 años ( A ):
+ Tratamiento de hiperamoniemia especialmente en situaciones de encefalopatía hepática.
+ Tratamiento adyuvante para la disminución de la flora bacteriana normal del intestino, en situaciones que esta sea precisa como la preparación preoperatoria del intestino (profilaxis antibiótica de cirugía intestinal).
+ Enteritis y gastroenteritis como terapia combinada, SPM por E. coli enteropatógeno. (actualmente en desuso).
+ Vía oral ( E: off-label ):
+ Colangitis, profilaxis episodios recurrentes después de portoenterostomía de Kasai.
+ Vía tópica ( A ):
+ Constituye su principal utilidad en la actualidad, indicado en tratamiento tópico de infecciones oftálmicas, óticas, nasales, de la piel, mucosa oral y vulvovaginitis. Habitualmente en combinación con otros antibióticos (polimixina B, bacitracina o gramicidina) o con corticoides (dexametasona, prednisona, hidrocortisona, fluocinolona).
+ Las distintas presentaciones comercializadas son de uso autorizado en distintas edades en la población pediátrica, consultar ficha técnica.
+ Dosis y Pautas de Administración Vía oral, preferentemente antes de las comidas.
+ Enteritis y gastroenteritis (2 semanas de duración máxima de tratamiento):
+ Neonatos: 100 mg/kg/día, dividido cada 6 horas ( E: o ﬀ-label ).
+ Niños: 50-100 mg/kg día cada 6-8 horas. Máximo 12 g/día.
+ Encefalopatía hepática 50-100 mg/kg día cada 6 horas (con o sin lactulosa). Máximo 12 g día durante 5-7 días.
+ Preparación intestinal preoperatoria: 15 mg/kg/dosis, administrar 3 dosis durante 10 horas el día antes de la cirugía; dosis máxima: 1000 mg/dosis.
+ Colangitis, profilaxis episodios recurrentes después de portoenterostomía de Kasai: datos limitados disponibles: lactantes y niños ≤3 años: vía oral, dosis de 25 a 50 mg/kg/día en 4 dosis divididas 4 días a la semana; continuar hasta los 2 a 3 años de edad.
+ Tópico (oftálmico, ótico, vaginal, cutáneo, mucosa oral, nasal) de 1 a 4 aplicaciones al día en función de la localización y el tipo de infección.
+ Insuficiencia renal: FG >10: no cambios en la dosis; FG <10: no utilizarla por vía oral ni por vía tópica. Hemodiálisis: no se dispone de datos. Diálisis peritoneal: no se dispone de datos.
+ Insuficiencia hepática: no cambios en la dosis.
+ Contraindicaciones Hipersensibilidad a la neomicina o a otros antibióticos del grupo de los aminoglucósidos.
+ Forma oral:
+ Obstrucción intestinal.
+ Miastenia grave.
+ Enfermedad intestinal inflamatoria o ulcerativa.
+ Formas tópicas: niños <2 años.
+ Precauciones En población pediátrica, evitar su uso durante más de 3 semanas.
+ No indicado vía parenteral por su toxicidad.
+ Pacientes con inflamación gastrointestinal, enfermedad ulcerosa o alteraciones de la motilidad gastrointestinal, puede aumentar la absorción gastrointestinal de neomicina y el riesgo de ototoxicidad y nefrotoxicidad, especialmente si factores de riesgo como: deterioro de la función renal previa, uso concomitante de otros fármacos nefrotóxicos o deshidratación. especialmente si fallo renal. Vigilar cuidadosamente función renal, auditiva y vestibular. Ajustar dosis.
+ Dosis por vía oral superiores a 12 g/día pueden producir un síndrome de malabsorción de diferentes sustancias, tales como azúcares, lípidos, electrolitos y hierro.
+ Efectos secundarios No datos específicos en niños. Los efectos adversos más frecuentes son a nivel gastrointestinal: náuseas, vómitos, diarrea, colitis y malabsorción.
+ Ototoxicidad y nefrotoxicidad.
+ Erupciones cutáneas, incluidas reacciones de hipersensibilidad, fiebre y anafilaxis.
+ En tratamientos largos pueden aparecer sobreinfecciones por bacterias no sensibles u hongos (cándida).
+ Puede producir bloqueos neuromusculares, sobre todo asociado a barbitúricos y relajantes musculares o anestésicos.
+ Aumento de las enzimas hepáticas y bilirrubina.
+ Interacciones Framacológicas Vía oral puede potenciar los efectos de los anticoagulantes orales y disminuir la absorción de digoxina y metotrexato.
+ Datos Farmacéuticos Principio activo: sulfato de neomicina.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse en línea en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima .
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado en diciembre de 2020]. Disponible en: https://sinaem4.agemed.es/consaem/fichasTecnicas.do?metodo=detalleForm 
+ American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Guía de Prescripción Terapéutica. Información de medicamentos autorizados en España. Barcelona: Pharma; 2006.
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Micromedex Healthcare® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2021 [consultado el 01/12/2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: diciembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/neomicina . Consultado el 30 de octubre de 2026. ANTIHEMORROIDAL CINFA POMADA RECTAL
+ Principio activo: HIDROCORTISONA ACETATO, NEOMICINA SULFATO, BENZOCAINA, TANICO ACIDO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MAXITROL 3.500 UI/ML + 6.000 UI/ML + 1 MG/ML COLIRIO EN SUSPENSIÓN
+ Principio activo: DEXAMETASONA, POLIMIXINA B SULFATO, NEOMICINA SULFATO Laboratorio titular: Laus Farma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MENADERM NEOMICINA 0,25 mg/ 7,2 mg/ g CREMA
+ Principio activo: BECLOMETASONA DIPROPIONATO, NEOMICINA SULFATO Laboratorio titular: Laboratorios Menarini S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MENADERM NEOMICINA 0,25 mg/ 7,2 mg/ ml EMULSION CUTANEA
+ Principio activo: BECLOMETASONA DIPROPIONATO, NEOMICINA SULFATO Laboratorio titular: Laboratorios Menarini S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTALMOLOSA CUSI PREDNISONA NEOMICINA
+ Principio activo: NEOMICINA SULFATO, PREDNISONA Laboratorio titular: Immedica Pharma Ab Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA RINOBANEDIF POMADA NASAL
+ Principio activo: BACITRACINA-ZINC, NEOMICINA SULFATO, PREDNISOLONA, FENILEFRINA HIDROCLORURO, CLOROBUTANOL HEMIHIDRATO, ESENCIA NIAULI, ACEITE EUCALIPTO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA IRUXOL NEO POMADA
+ Principio activo: CLOSTRIDIOPEPTIDASA, NEOMICINA SULFATO Laboratorio titular: Smith y Nephew Gmbh Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTALMOWELL COLIRIO EN SOLUCIÓN
+ Principio activo: GRAMICIDINA, NEOMICINA SULFATO, POLIMIXINA B SULFATO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TRUTEST 36 APOSITO ADHESIVO PARA PRUEBA DE PROVOCACION CON ALERGENOS
+ Principio activo: NIQUEL SULFATO, LANOLINA, ALCOHOLES DE, NEOMICINA SULFATO, POTASIO DICROMATO, BENZOCAINA, CINCOCAINA HIDROCLORURO, TETRACAINA HIDROCLORURO, ALFA AMILCINAMALDEHIDO, CINAMALDEHIDO, ISOEUGENOL, CINAMILICO ALCOHOL, HIDROXICITRONELAL, GERANIOL, MUSGO DE ENCINA, COLOFONIA, P-HIDROXIBENZOATO DE METILO, P-HIDROXIBENZOATO DE ETILO, P-HIDROXIBENZOATO DE PROPILO, P-HIDROXIBENZOATO DE BUTILO, P-HIDROXIBENZOATO DE BENCILO, BALSAMO PERU, ETILENDIAMINA DIHIDROCLORURO, COBALTO CLORURO, RESINA DE BUTILFENOL FORMALDEHIDO, RESINA EPOXI, DIFENILGUANIDINA, ZINC DIETILDITIOCARBAMATO, ZINC DIBUTILDITIOCARBAMATO, PARAFENILENDIAMINA ISOPROPILFENIL, PARAFENILENDIAMINA DIFENIL, METILCLOROISOTIAZOLINONA, QUATERNIUM-15, METILDIBROMO-GLUTARONITRILO, PARAFENILENDIAMINA, SUCCINIMIDA HIDROXIMETIL, MERCAPTOBENZOTIAZOL MORFOLINIL, DIBENZOTIAZIL DISULFIDA, CICLOHEXILBENZOTIAZIL SULFENAMIDA, TIOMERSAL, TETRAMETILURAMO DISULFURO, TETRAMETILTIURAMO MONOSULFURO, DISULFIRAM, DIPENTAMETILENETIURAMIO DISULFURO, UREA DIAZOLIDINIL, CLIOQUINOL, CLORQUINALDOL, TIXOCORTOL PIVALATO, AUROTIOSULFATO SODIO, UREA IMIDAZOLIDINIL, BUDESONIDA, HIDROCORTISONA BUTIRATO, MERCAPTOBENZOTIAZOL, BACITRACINA, PARTENOLIDA, AZUL DISPERSO, BRONOPOL, EUGENOL Laboratorio titular: Smartpractice Denmark Aps Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA VINCISEPTIL ÓTICO GOTAS ÓTICAS EN SOLUCIÓN
+ Principio activo: FLUOCINOLONA ACETONIDO, TETRACAINA HIDROCLORURO, BENCIDAMINA HIDROCLORURO, POLIMIXINA B SULFATO, NEOMICINA SULFATO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA POSITON 2,5 MG/G + 1 MG/G + 100.000 UI/G CREMA
+ Principio activo: NISTATINA, NEOMICINA SULFATO, TRIAMCINOLONA ACETONIDO Laboratorio titular: Faes Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA POSITON 2,5 MG/G + 1 MG/G + 100000 UI/G POMADA
+ Principio activo: TRIAMCINOLONA ACETONIDO, NISTATINA, NEOMICINA SULFATO Laboratorio titular: Faes Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MAXITROL COLIRIO
+ Principio activo: DEXAMETASONA, POLIMIXINA B SULFATO, NEOMICINA SULFATO Laboratorio titular: Alcon Couvreur N.V. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA BLASGINA OVULOS VAGINALES
+ Principio activo: METRONIDAZOL, MICONAZOL NITRATO, CENTELLA ASIATICA EXTO, POLIMIXINA B SULFATO, NEOMICINA SULFATO Laboratorio titular: Almirall S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DERMO HUBBER POMADA
+ Principio activo: HIDROCORTISONA ACETATO, NEOMICINA SULFATO, BACITRACINA-ZINC Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA FLODERMOL POMADA
+ Principio activo: FLUOCINOLONA ACETONIDO, GRAMICIDINA, NEOMICINA SULFATO Laboratorio titular: Laboratorios Ern S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA MIDACINA POMADA
+ Principio activo: FLUOCINOLONA ACETONIDO, GRAMICIDINA, NEOMICINA SULFATO Laboratorio titular: Laboratorio De Especialidades Nacionales S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA NEO-HUBBER GOTAS
+ Principio activo: HIDROCORTISONA ACETATO, NEOMICINA SULFATO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA NEOMICINA S.A.L.V.A.T.
+ Principio activo: NEOMICINA SULFATO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALAR NASAL
+ Principio activo: FLUOCINOLONA ACETONIDO, FENILEFRINA HIDROCLORURO, NEOMICINA SULFATO, POLIMIXINA B SULFATO Laboratorio titular: Tora Laboratories S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALAR NASAL INFANTIL
+ Principio activo: FENILEFRINA HIDROCLORURO, NEOMICINA SULFATO, FLUOCINOLONA ACETONIDO, POLIMIXINA B SULFATO Laboratorio titular: Tora Laboratories S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALAR OTICO
+ Principio activo: FLUOCINOLONA ACETONIDO, POLIMIXINA B SULFATO, NEOMICINA SULFATO Laboratorio titular: Tora Laboratories S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA TISUDERMA 2,5%
+ Principio activo: HIDROCORTISONA ACETATO, NEOMICINA SULFATO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antibióticos Gastroenterología Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

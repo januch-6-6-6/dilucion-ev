@@ -1,0 +1,16 @@
+{
+ "molecula": "BETAXOLOL",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "61015",
+   "nombre": "BETOPTIC SUSPENSIÓN 2,5 MG/ML COLIRIO EN SUSPENSIÓN",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/61015/FT_61015.html"
+  }
+ ]
+}

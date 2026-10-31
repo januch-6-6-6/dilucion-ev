@@ -1,0 +1,16 @@
+{
+ "molecula": "BRIMONIDINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 8,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "62010",
+   "nombre": "ALPHAGAN 2 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/62010/FT_62010.html"
+  }
+ ]
+}

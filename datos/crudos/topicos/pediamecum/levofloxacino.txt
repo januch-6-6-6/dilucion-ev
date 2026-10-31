@@ -1,0 +1,92 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/levofloxacino
+Volver Levofloxacino
+ Ficha General Presentaciones Fecha de actualización: Noviembre 2020 Descripción Antibiótico, fluorquinolona de segunda generación, con actividad frente a microorganismos gramnegativos (menos activa que ciprofloxacino frente a Pseuudomona aeruginosa ) y grampositivos (incluyendo S. pneumoniae R a penicilina, H. influenzae y S. aureus ). Tiene una actividad moderada frente a anaerobios es casi el doble de potente que ofloxacino frente a M. Tuberculosis y otras micobacterias, incluyendo M. avium complex . Presenta un mayor efecto contra los neumococos que el ciprofloxacino. con una farmacocinética que permite su administración vía oral o intravenosa una vez al día.
+ Uso Clínico Tratamiento de las siguientes infecciones bacterianas en pacientes >18 años , causadas por microorganismos sensibles ( E: oﬀ-label ).
+ Sinusitis bacteriana aguda.
+ Exacerbaciones bacterianas agudas de la bronquitis crónica.
+ Neumonía adquirida en la comunidad.
+ Infecciones piel y tejidos blandos (debe evitarse su uso en infecciones por SARM, por su resistencia).
+ Infecciones complicadas del tracto urinario incluyendo pielonefritis.
+ Prostatitis bacteriana crónica.
+ Para las sinusitis, exacerbaciones de la bronquitis y neumonía se deben utilizar cuando no se considere apropiado utilizar los agentes antibacterianos recomendados habitualmente para el tratamiento inicial de esta infección, o cuando estos no han conseguido resolver la infección Tratamiento en segunda línea de la tuberculosis multirresistente ( E: oﬀ-label ). La SEIP recomienda levofloxacino como quinolona de elección (fármaco de segunda línea) en el tratamiento de la tuberculosis (TBC) en Pediatría.
+ Uso en Pediatría. Las quinolonas producen artropatía de las articulaciones en animales en crecimiento y, por eso, no suelen recomendarse para los niños y adolescentes en fase de crecimiento. Sin embargo, se ignora la repercusión de este efecto en humanos y, en determinadas condiciones, la administración a corto plazo de quinolonas puede estar justificada en niños.
+ La AAP indica algunas de las circunstancias en que las fluorquinolonas pueden ser útiles:
+ Infección causada por microorganismo multirresistente para los cuales no hay alternativa segura.
+ No es posible la terapia parenteral y no hay disponible otro agente efectivo.
+ Dosis y Pautas de Administración Vía oral o intravenosa, durante 7-14 días.
+ Lactantes >6 meses y niños <5 años: 10 mg/kg cada 12 oral (oral o intravenosas).
+ Niños >5 años : 10 mg/kg/dosis cada 24 h (dosis máxima 750 mg/día).
+ No hay datos sobre seguridad en administración durante más de 14 días.
+ Tratamiento de la tuberculosis multirresistente: 15-20 mg/kg/dosis una vez al día; dosis máxima 1000 mg/día.
+ Insuficiencia renal (datos en adultos):
+ ClCr (ml/min) Pauta posológica 
+ 250 mg/24 h 500 mg/ 24 h 500 mg/12 h 
+ Inicial 250 mg Inicial 500 mg Inicial 500 mg 
+ 50-20 125 mg/24 h 250 mg/24 h 250 mg/12 h 
+ 19-10 125 mg/48 h 125 mg/24 h 125 mg/12 h 
+ >10
+Hemodiálisis y DPCA 125 mg/48 h 125 mg/24 h 125 mg/24 h 
+ Contraindicaciones Hipersensibilidad a levofloxacino otras quinolonas o a alguno de los excipientes.
+ Pacientes menores de 18 años (de acuerdo con la ficha técnica autorizada). 
+ Pacientes con historia de trastornos en los tendones asociada al tratamiento con quinolonas.
+ Pacientes con epilepsia.
+ Precauciones Vigilar signos de tendinitis o ruptura de tendón , interrumpir el tratamiento si dolor, o hinchazón. El riesgo de rotura aumenta con el uso concomitante de corticoides.
+ El tratamiento con quinolonas puede provocar convulsiones. Por ello, deben utilizarse con precaución en pacientes con trastornos del SNC que puedan tener una predisposición a padecer convulsiones o una reducción en el umbral de estas.
+ Vigilar la aparición de síntomas de neuropatía periférica tales como dolor, quemazón, hormigueo, entumecimiento o debilidad muscular (especial precaución si Miastenia Gravis).
+ Las quinolonas pueden causar reacciones de fotosensibilidad en algunos pacientes. Se debe advertir a los pacientes para que eviten la exposición a radiaciones UV o a la luz solar intensa o de manera prolongada durante el tratamiento con moxifloxacino.
+ Los pacientes con historia familiar o con deficiencia de glucosa-6-fosfato deshidrogenasa son propensos a sufrir reacciones hemolíticas al ser tratados con quinolonas. Por tanto, moxifloxacino debe usarse con precaución en estos pacientes.
+ Posibles reacciones de hipersensibilidad graves incluso mortales: vigilar e interrumpir tratamiento si aparece rash , ictericia, fiebre, alteraciones hematológicas.
+ Vigilar posible aparición de diarrea por Clostridium difficile . 
+ Trastornos hepáticos graves (incluyendo hepatitis fulminante): vigilar aparición de astenia, icteria. Utilizar con precaución en pacientes con factores de riesgo para desarrollar QT largo (síndrome de congénito prolongación QT, alteraciones hidroelectrolíticas…).
+ Efectos secundarios No datos específicos en niños: se describen solo frecuentes (1-10%), muy frecuentes (>10%) o de relevancia clínica, el resto consultar ficha técnica.
+ Trastornos gastrointestinales: náuseas, vómitos, dolor abdominal y diarrea. Trastornos hepatobiliares: aumento de transaminasas.
+ Otros efectos adversos menos frecuentes son anorexia, aumento de la urea y creatinina en sangre; mareos, agitación, astenia, depresión, confusión, alucinaciones, convulsiones, temblor, parestesia e hipoestesia; fotosensibilidad, reacciones de hipersensibilidad como fiebre, urticaria, angioedema, artralgias, mialgias y anafilaxia; trastornos hemáticos (como eosinofilia, leucopenia, trombopenia); alteraciones de la visión, del gusto, de la audición y del olfato, anemia hemolítica, la insuficiencia renal, la nefritis intersticial y la disfunción hepática (incluyendo, hepatitis e ictericia colestásica).
+ Interacciones Framacológicas No puede excluirse que se produzca un efecto aditivo en la prolongación del intervalo QT al administrar simultáneamente moxifloxacino con fármacos que puedan actuar sobre el QT (antiarrítmicos clase IA y III, antidepresivos tricíclicos y macrólidos).
+ Diferir alrededor de 2 horas entre la administración de agentes con cationes bivalentes o trivalentes (p.ej. antiácidos con magnesio o aluminio, comprimidos de didanosina, sucralfato y agentes con hierro o zinc) y la administración de levofloxacino.
+ Anticoagulantes orales: monitorización periódica del INR (posible aumento del efecto hipotrombinémico).
+ Si uso concomitante con medicamentos que puedan reducir los niveles de potasio o medicamentos que estén asociados a una bradicardia clínica significativa: vigilar estrechamente.
+ Puede disminuir el umbral convulsivo si administración concomitante con teofilina, AINES u otros fármacos proconvulsivantes.
+ Datos Farmacéuticos Excipientes: evitar en caso de anafilaxia a dichos componentes (consultar ficha técnica).
+ Incompatibilidades: la solución para perfusión intravenosa no se debe mezclar con heparina o soluciones alcalinas (por ejemplo, bicarbonato sódico).
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 25/11/2020]. Disponible en: https://cima.aemps.es/cima/publico/lista.html 
+ Levofloxacin Drugs@FDA, FDA approved drug products. Disponible en www.fda.gov 
+ Mellado Peña MJ, Baquero-Artigao F, Moreno-Pérez D;, en representación del Grupo de Trabajo de Tuberculosis de la Sociedad Española de Infectología Pediátrica. Documento de consenso de la Sociedad Española de Infectología Pediátrica sobre la tuberculosis resistente a fármacos. An Pediatr (Barc). 2009;71(5):447-458.
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Nahid P, Mase SR, Migliori GB, et al. Treatment of drug-resistant tuberculosis. An official ATS/CDC/ERS/IDSA clinical practice guideline. Am J Respir Crit Care Med. 2019;200(10):e93-e142.
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2020 [consultado el 25/11/2020]. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ Fecha de actualización: noviembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/levofloxacino . Consultado el 30 de octubre de 2026. DUCRESSA 1 MG/ML + 5 MG/ML COLIRIO EN SOLUCION
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO, DEXAMETASONA FOSFATO SODIO Laboratorio titular: Santen Oy Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO CINFA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO NORMON 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO SANDOZ 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Sandoz Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO STADA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO TECNIGEN 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Tecnimede Espana Industria Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO VIATRIS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Viatris Limited Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ASEY 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Especialidades Farmaceuticas Centrum S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO ACCORD 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Accord Healthcare S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO ALMUS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Almus Farmaceutica S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO ALTAN 5 MG/ML, SOLUCION PARA PERFUSION EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO ALTER 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO ARISTO 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Aristo Pharma Gmbh Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO AUROVITAS 5 MG/ML SOLUCION PARA PERFUSION EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Eugia Pharma (Malta) Limited Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO AUROVITAS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO DERMOGEN 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Dermogen-Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO KABI 5 MG/ML SOLUCION PARA PERFUSION EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO KERN PHARMA 5 mg/ml SOLUCION PARA PERFUSION EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO KERN PHARMA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO KRKA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Krka D.D. Novo Mesto Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO MABO-FARMA 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Mabo Farma S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO MACLEODS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Macleods Pharma España Slu Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO NORMON 5 mg/ml SOLUCION PARA PERFUSION EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO PENSA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA LEVOFLOXACINO PHARMA COMBIX 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: LEVOFLOXACINO HEMIHIDRATO Laboratorio titular: Laboratorios Combix S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ AntiTBC Infectología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

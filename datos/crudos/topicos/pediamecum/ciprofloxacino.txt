@@ -1,0 +1,130 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/ciprofloxacino
+Volver Ciprofloxacino
+ Ficha General Presentaciones Fecha de actualización: Octubre 2020 Descripción Antibiótico del grupo de las fluoroquinolonas, inhibe la síntesis del DNA bacteriano. Bactericida, con un espectro antimicrobiano que incluye bacilos gramnegativos entéricos y Pseudomonas aeruginosa . Escasa actividad frente a patógenos grampositivos y anaerobios.
+ Uso Clínico Uso sistémico:
+ Tratamiento de 2.ª-3.ª línea de infecciones complicadas del tracto urinario y pielonefritis en niños >1 año ( A ).
+ Tratamiento de la exacerbación pulmonar aguda por P. aeruginosa en pacientes con fibrosis quística en niños >5 años ( A ). 
+ Profilaxis-tratamiento tras inhalación de B. anthracis ( A ). 
+ El resto de los usos en población pediátrica se consideran oﬀ-label :
+ Infecciones por gérmenes gramnegativos en los que no se dispone de otro antibiótico por vía oral, (excepto en infecciones del sistema nervioso central, mala penetración): infecciones nosocomiales, infecciones articulares y osteomielitis, infecciones de partes blandas e infecciones respiratorias de vías bajas.
+ Tratamiento de segunda línea de la infección por Mycobacterium tuberculosis .
+ Tratamiento empírico en niños con fiebre y neutropenia de bajo riesgo.
+ Fiebre tifoidea por Salmonella typha .
+ Infecciones gastrointestinales con indicación de tratamiento antibiótico.
+ Gonorrea no complicada cervical y uretral por N . gonorrhoeae .
+ Vía oftálmica: tratamiento de la úlcera corneal y conjuntivitis por microorganismos sensibles en niños >1 año ( A ).
+ Vía ótica: tratamiento de la otitis externa.
+ Dosis y Pautas de Administración Fibrosis quística:
+ Vía oral: 40 mg/kg/día, divididos cada 12 horas; dosis máxima de 1500 mg/día.
+ Vía intravenosa: 30 mg/kg/día, divididos cada 8-12 h; dosis máxima: 1200 mg/día.
+ Infección del tracto urinario (ITU) complicada:
+ Vía intravenosa: 18-30 mg/kg/día, cada 8 h, durante 10-21 días; dosis máxima: 1200 mg/día.
+ Vía oral: 20-40 mg/kg/día, cada 12 h, durante 10-21 días; dosis máxima: 1500 mg/día.
+ Carbunco inhalado (posexposición): tratamiento inicial:
+ Vía intravenosa: 20 mg/kg/día, cada 12 h durante 60 días; dosis máxima: 800 mg/día (sustituir por antibiótico oral tan pronto como las condiciones clínicas mejoren).
+ Vía oral: 30 mg/kg/día, cada 12 h, durante 60 días; dosis máxima: 1000 mg/día.
+ Otras infecciones :
+ Oral: 20-30 mg/kg/día repartido en 2 dosis; dosis máxima: 1,5 g/día.
+ Vía intravenosa: 20-30 mg/kg/día repartido cada 12 h; dosis máxima: 800 mg/día.
+ Neonatos: 10 mg/kg/dosis, cada 12 horas, por vía intravenosa para infecciones gramnegativas. En caso de Pseudomonas o S. aureus : 10-60 mg/kg/día.
+ Insuficiencia renal o hepática: 
+ Insuficiencia renal (datos en adultos): no es preciso modificar las dosis cuando el aclaramiento de creatinina es mayor a 50 ml/min, entre 10-50 ml/min: 7,5 mg/kg/12 horas, <10 ml/min: 5 mg/kg/12 horas. En caso de hemodiálisis o diálisis peritoneal dosificación igual que en caso de aclaramiento de creatinina <10 ml/min.
+ No precisa ajuste de dosis en caso de insuficiencia hepática.
+ Contraindicaciones Hipersensibilidad a ciprofloxacino, a alguno de sus componentes, u otras quinolonas; administración concomitante con tizanidina.
+ Precauciones Estudios en animales inmaduros han demostrado que acusa artropatía en articulaciones de carga, sin embargo, de acuerdo con datos de un ensayo clínico comparativo ( n = 335) en menores de 18 años no se encontraron diferencias entre los niños que recibieron ciprofloxacino y los que fueron tratados con comparador.
+ Por lo general, el ciprofloxacino no debe administrarse en pacientes con antecedentes de enfermedad o trastorno tendinoso relacionado con un tratamiento con quinolonas. Se han descrito casos de tendinitis y ruptura de tendón, especialmente en las primeras 48 horas de tratamiento. Se recomienda vigilar e interrumpir tratamiento ante cualquier signo de sospecha.
+ Administrar con precaución en pacientes con desórdenes a nivel del sistema nervioso central (SNC): epilepsia, alteración orgánica cerebral.
+ La administración prolongada de ciprofloxacino podría resultar en sobreinfección bacteriana o fúngica (candidiasis).
+ El uso de ciprofloxacino puede desencadenar colitis pseudomembranosa.
+ Pueden producirse reacciones de fotosensibilidad moderada-grave. Evitar exposición al sol excesiva y tomar precauciones para limitar la exposición.
+ Debe administrarse con precaución en pacientes con historia familia o déficit de glucosa-6-fosfato deshidrogenasa ya que puede desencadenar una crisis hemolítica.
+ Debe ser usado con precaución en pacientes con miastenia gravis .
+ Efectos secundarios Cardiovasculares: arritmias ( torsade de pointes , taquicardia, flutter , palpitaciones), síncope, hipertensión, hipotensión, angina de pecho, vasoconstricción, vasculitis, migraña.
+ SNC: cefalea, insomnio, vértigo, confusión, alucinaciones, agitación, somnolencia, fiebre, pesadillas, depresión, paranoia, temblores, convulsiones.
+ Dermatológicos: rash , fotosensibilidad, prurito, urticaria, eritema, síndrome de Stevens Johnson. Endocrinos y metabólicos: elevación de triglicéridos, colesterol y lipasa. Hiperglucemia.
+ Gastrointestinales: náuseas, diarrea, vómitos, sangrado gastrointestinal, dolor abdominal, estreñimiento, colitis pseudomembranosa, pancreatitis, anorexia.
+ Hematológicos: anemia, eosinofilia, neutropenia, agranulocitosis. Hepáticos: elevación de las enzimas hepáticas, colestasis, hepatitis.
+ Locales: vía intravenosa: flebitis, dolor, eritema y tumefacción (más frecuentemente en infusiones <30 min).
+ Neuromusculares y esqueléticos: artralgia, dolor articular, rigidez, artritis, mioclonía, tendinitis, ruptura de tendón Aquileo (más frecuente en ancianos y en personas que reciben tratamiento corticoideo concomitante), neuropatía periférica, mialgia, parestesias, hipoestesia, debilidad.
+ Oculares: nistagmo, visión borrosa; pomada oftálmica: visión borrosa, sequedad ocular, fotofobia.
+ Trastornos del oído y del laberinto: acúfenos, pérdida o alteración de la audición.
+ Trastornos renales y urinarios: insuficiencia renal, hematuria, cristaluria, nefritis tubulointersticial.
+ Respiratorios: disnea, broncoespasmo, edema pulmonar.
+ Si se desea completar esta información, consultar la ficha técnica.
+ Interacciones Framacológicas Formación de complejos por quelación: la absorción de ciprofloxacino se reduce con la administración concomitante de hierro, sucralfato, antiácidos, fármacos altamente tamponados que contienen magnesio, aluminio o calcio, fármacos antivirales que contengan didanosina en forma tamponada, soluciones orales nutricionales y cantidades elevadas de productos lácteos o de bebidas enriquecidas en minerales; reducen la absorción de ciprofloxacino. El ciprofloxacino deberá administrarse 1-2 horas antes o bien al menos 4 horas después de administrar estos preparados, esto no es aplicable a los antagonistas de los receptores H2.
+ Derivados de las xantinas: la administración concomitante de ciprofloxacino y teofilina puede producir un incremento de las concentraciones plasmáticas de teofilina, por lo tanto, deberán monitorizarse las concentraciones plasmáticas de teofilina. También produce una elevación plasmática de las concentraciones de cafeína y pentoxifilina.
+ Ciclosporina: la administración concomitante puede inducir a la elevación de la creatinina sérica, se debe monitorizar.
+ Probenecid: inhibe la excreción renal de ciprofloxacino, se produce un aumento de las concentraciones plasmáticas de ciprofloxacino.
+ Omeprazol: la administración concomitante con omeprazol puede producir una disminución de las concentraciones plasmáticas de ciprofloxacino.
+ Fenitoína: puede aumentar o disminuir sus niveles plasmáticos. Monitorizar niveles.
+ Anticoagulantes orales: puede producirse un aumento de la actividad anticoagulante. Vigilar tiempo de coagulación.
+ Datos Farmacéuticos Excipientes: evitar en caso de anafilaxia a dichos componentes: 
+ Comprimidos recubiertos con película: celulosa microcristalina, glicolato sódico de almidón, povidona, almidón de maíz, sílice coloidal anhidra, estearato de magnesio, dióxido de titanio, hypromelosa 6cP y macrogol 4000. No requieren condiciones especiales de almacenamiento.
+ Comprimidos: almidón de maíz, celulosa microcristalina, sílice coloidal, estearato de magnesio, glicolato sódico de almidón, talco, hipromelosa, propilenglicol, dióxido de titanio, polisorbato 80, isopropano, cloruro de metilo.
+ Solución para perfusión: ácido láctico, glucosa 5 g/100 ml, ácido clorhídrico y agua para inyección. Suspensión oral: poliacrilato, estearato de magnesio, pipromelosa, polisorbato 20, povidona, lecitina de soja, sacarosa, sabor a fresa, triglicéridos de cadena media, agua purificada. Una vez reconstituida solo permanece estable durante 14 días, se puede conservar a temperatura ambiente (<30 °C) o en nevera (2-8 °C).
+ Sobres: lecitina de soja, manitol (E-421), etilcelulosa N-50, ácido ascórbico (E-200), sacarina sódica, ciclamato sódico, polisorbato 20, bicarbonato sódico, glicirrizato amónico, aroma de nuez, aroma de leche condensada, etasan 3575.
+ Gotas óticas: ácido láctico, povidona, glucosa anhidra, solución hidróxido sódico, agua purificada. Asociaciones con corticoides (parahidroxibenzoato de metilo, parahidroxibenzoato de propilo, povidona, dietilglicol monoetil etes, clicereth-26, ácido clorhídrico, agua purificada).
+ Los excipientes pueden variar de una forma comercial a otra, consultar la ficha técnica.
+ Presentaciones comerciales: las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima , y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha.
+ Bibliografía Fichas técnicas del Centro de Información online de Medicamentos de la AEMPS-CIMA [base de datos en Internet]. Madrid, España: Agencia Española de Medicamentos y Productos Sanitarios (AEMPS) [consultado el 29/10/2020]. Disponible en: https://cima.aemps.es/cima/dochtml/ft/62768/FT_62768.html#4-3-contraindicaciones 
+ Aggarwal P, Dutta S, Garg SK, et al . Multiple Dose Pharmacokinetics of Ciprofloxacin in Preterm Babies. Indian Pediatr. 2004;41(10):1001-7.
+ Ciproxin® and ciloxan® (ciprofloxacine). Assesments reports Worksharing project (Paediatric Regulation. Disponible en http://www.hma.eu 
+ Committee on Infectious Diseases. The Use of Systemic Fluoroquinolones. Pediatrics. 2006;118:1287.
+ Guía de Prescripción terapéutica AEMPS. Información de medicamentos autorizados en España. Barcelona: Pharma editores; 2006.
+ Kaguelidou F, Turner MA, Choonara I, et al . Ciprofloxacin Use in Neonates: A Systematic Review of the Literature. Pediatr Infect Dis J. 2011;30(2):e29-37.
+ Leibovitz E. The use of fluoroquinolones in children. Curr Opin Pediatr. 2006 Feb;18(1):64-70.
+ Sabharwal V, Marchant CD. Fluoroquinolone use in children. Pediatr Infect Dis J. 2006 Mar;25(3):257-8.
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2020 [consultado el 29/10/2020]. Disponible en: www.uptodate.com 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2020 [consultado el 5/12/2013]. Disponible en: www.uptodate.com 
+ Fecha de actualización: octubre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/ciprofloxacino . Consultado el 30 de octubre de 2026. CETRAXAL OTICO 3 MG/ML GOTAS OTICAS EN SOLUCION
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CETRAXAL OTICO 3 MG/ML GOTAS OTICAS EN SOLUCION EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CETRAXAL PLUS 3 mg/ml + 0,25 mg/ml GOTAS ÓTICAS EN SOLUCIÓN
+ Principio activo: FLUOCINOLONA ACETONIDO, CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CETRAXAL PLUS 3 MG/ML + 0,25 MG/ML GOTAS OTICAS EN SOLUCION EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO HIDROCLORURO, FLUOCINOLONA ACETONIDO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO CINFA 250 MG COMPRIMIDOS RECUBIERTOS EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO CINFA 500 MG COMPRIMIDOS RECUBIERTOS EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO CINFA 750 MG COMPRIMIDOS RECUBIERTOS EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Cinfa S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO NORMON 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO NORMON 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO NORMON 750 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO STADA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorio Stada S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTACILOX 3 mg/g POMADA OFTALMICA
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Ntc S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTACILOX 3 mg/ml COLIRIO EN SOLUCION
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Ntc S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACEOTO PLUS 3 mg/ml + 0,25 mg/ml GOTAS ÓTICAS EN SOLUCIÓN
+ Principio activo: FLUOCINOLONA ACETONIDO, CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Zambon, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA ACEOTO 3 MG/ML GOTAS ÓTICAS EN SOLUCIÓN
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Zambon, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CETRAFLUX 3 MG/ML COLIRIO EN SOLUCION EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CETRAXAL 100mg/ml SUSPENSION ORAL
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIFLOT 3 MG/ML GOTAS OTICAS EN SOLUCION EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorios Salvat S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO ALTAN 2 MG/ML SOLUCION PARA PERFUSION EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Altan Pharmaceuticals Sa Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO ALTER 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO ALTER 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO ALTER 750 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorios Alter S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO AUROVITAS 250 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO AUROVITAS 500 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO AUROVITAS 750 MG COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Aurovitas Spain, S.A.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO FRESENIUS KABI 2 mg/ml SOLUCION PARA PERFUSION EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO KABI 2 MG/ML SOLUCION PARA PERFUSION
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Fresenius Kabi España, S.A.U. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO KERN PHARMA 2 mg/ml SOLUCIÓN PARA PERFUSION EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Kern Pharma S.L. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO NORMON 2 mg/ml SOLUCION PARA PERFUSION EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Laboratorios Normon S.A. Condiciones de Prescripción y Uso: Uso Hospitalario Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO PENSA 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO PENSA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Towa Pharmaceutical S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO QUALIGEN 1MG GOTAS ÓTICAS EN SOLUCIÓN EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Neuraxpharm Spain S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO SUN 500 mg COMPRIMIDOS RECUBIERTOS CON PELÍCULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Sun Pharmaceutical Industries (Europe) B.V. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO TEVAGEN 750 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Teva Pharma S.L.U. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO VIR, 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROFLOXACINO VIR 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROXINA SIMPLE 3 mg/ml GOTAS OTICAS EN SOLUCION
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CIPROXINA 2 mg/ml + 10 mg/ml GOTAS OTICAS EN SUSPENSION
+ Principio activo: HIDROCORTISONA, CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Novartis Farmaceutica S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DORIMAN 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA DORIMAN 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Industria Quimica Y Farmaceutica Vir S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SEPTOCIPRO ÓTICO 1 MG GOTAS ÓTICAS EN SOLUCIÓN EN ENVASE UNIDOSIS
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Neuraxpharm Spain S.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA SYNALOTIC 3 mg/ml + 0,25 mg/ml GOTAS OTICAS EN SOLUCION
+ Principio activo: FLUOCINOLONA ACETONIDO, CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Industrial Farmaceutica Cantabria S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OTOCIPRIN OTICO SOLUCION ESTERIL
+ Principio activo: CIPROFLOXACINO HIDROCLORURO Laboratorio titular: Laboratorio De Aplicaciones Farmacodinamicas S.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antibióticos Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

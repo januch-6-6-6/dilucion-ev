@@ -1,0 +1,16 @@
+{
+ "molecula": "MOMETASONA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 18,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "61905",
+   "nombre": "NASONEX 50 MICROGRAMOS SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "forma": "SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/61905/FT_61905.html"
+  }
+ ]
+}

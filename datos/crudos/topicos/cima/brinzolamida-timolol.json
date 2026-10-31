@@ -1,0 +1,16 @@
+{
+ "molecula": "BRINZOLAMIDA + TIMOLOL",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 3,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "08482001",
+   "nombre": "AZARGA 10 MG/ML + 5 MG/ML COLIRIO EN SUSPENSION",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/08482001/FT_08482001.html"
+  }
+ ]
+}

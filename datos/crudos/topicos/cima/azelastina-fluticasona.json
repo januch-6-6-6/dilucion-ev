@@ -1,0 +1,16 @@
+{
+ "molecula": "AZELASTINA + FLUTICASONA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 12,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "76618",
+   "nombre": "DYMISTA 137 MICROGRAMOS/50 MICROGRAMOS/APLICACION SUSPENSION PARA PULVERIZACION NASAL",
+   "forma": "SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/76618/FT_76618.html"
+  }
+ ]
+}

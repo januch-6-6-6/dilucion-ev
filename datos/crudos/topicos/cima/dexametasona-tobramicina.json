@@ -1,0 +1,16 @@
+{
+ "molecula": "DEXAMETASONA + TOBRAMICINA",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "61575",
+   "nombre": "TOBRADEX 1 MG/ML + 3 MG/ML COLIRIO EN SUSPENSIÓN",
+   "forma": "COLIRIO EN SUSPENSIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/61575/FT_61575.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "IPRATROPIO",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "61848",
+   "nombre": "ATROVENT NASAL 0,30 mg/ml SOLUCION PARA PULVERIZACION NASAL",
+   "forma": "SOLUCION PARA PULVERIZACION NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/61848/FT_61848.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "DEXAMETASONA + LEVOFLOXACINO",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 2,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "85248",
+   "nombre": "DUCRESSA 1 MG/ML + 5 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/85248/FT_85248.html"
+  }
+ ]
+}

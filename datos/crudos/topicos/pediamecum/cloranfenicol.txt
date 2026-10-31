@@ -1,0 +1,81 @@
+https://www.aeped.es/comites/cm/pediamecum/principios-activos/cloranfenicol
+Volver Cloranfenicol
+ Ficha General Presentaciones Fecha de actualización: Diciembre 2020 Descripción Antibiótico bacteriostático del grupo de los anfenicoles que interfiere en la síntesis proteica bacteriana. Amplio espectro frente a bacterias grampositivas y negativas, incluyendo anaerobios y espiroquetas, Chlamydophila , Mycoplasma y Rickettsia . Debido al riesgo de efectos adversos hematológicos graves debe reservarse como 2.ª elección en algunas situaciones.
+ Uso Clínico Uso sistémico: 
+ Tratamiento de infecciones graves por microrganismos resistentes a otros antibióticos menos tóxicos o cuando su penetración en el lugar de la infección es clínicamente mayor que la de otros antibióticos a los que el germen es sensible; útil en infecciones causadas por Bacteroides , H. inﬂuenzae , Neisseria meningitidis , S. pneumoniae , Salmonella y Rickettsia . Es activo contra muchos enterococos vancomicina-resistentes ( E: extranjero).
+ El cloranfenicol debe reservarse para infecciones potencialmente mortales, incluyendo la fiebre tifoidea, septicemia, meningitis, epiglotitis, neumonía, absceso cerebral, mastoiditis, rickettsiosis, listeriosis, enfermedad de Whipple, fiebre Q y psitacosis ( E: extranjero).
+ Uso tópico: 
+ Infecciones del polo anterior del ojo (conjuntiva y/o córnea), producidas por microrganismos sensibles ( A ).
+ Dosis y Pautas de Administración Administración intravenosa: 
+ La administración intramuscular no se recomienda. En bolo administrar la dosis durante 5 minutos a concentración máxima de 100 mg/ml. Con administración intermitente, administrar la dosis en 15-30 minutos a una concentración <20 mg/ml.
+ Neonatos: 
+ Dosis inicial: 20 mg/kg; dosis de mantenimiento, (la primera dosis de mantenimiento debe administrarse 12 h después de la dosis de impregnación):
+ ≤7 días: 25 mg/kg/día una vez cada 24 h.
+ >7 días, ≤2000 g: 25 mg/kg/día una vez cada 24 h.
+ >7 días, >2000 g: 50 mg/kg/día, divididos en 2 dosis (cada 12 h).
+ Lactantes >30 días y niños: 
+ Meningitis: dosis de mantenimiento: 75-100 mg/kg/día, divididos en 4 dosis, administrados cada 6 h. Otras infecciones (epiglotitis por Haemophilus inﬂuenzae ): 50-100 mg/kg/día, divididos en 4 dosis y administrados cada 6 h; dosis diaria máxima: 4 g.
+ Administración tópica: 
+ Colirio: 1 gota cada 3 h. inicialmente, (más frecuente en procesos graves). Pomada: 3- 4 veces al día o por las noches asociadas al colirio.
+ Las dosis altas se reducirán lo antes posible.
+ Se deben monitorizar las concentraciones plasmáticas de los neonatos y también de los menores de 4 años, y de aquellos con insuficiencia hepática, renal o ambas; la concentración plasmática máxima recomendada (aprox. 1 h después de la inyección o perfusión intravenosas o 2 horas después de la administración oral) es de 15-25 mg/l; la concentración previa a la dosificación no debe exceder de 15 mg/l. Niveles superiores a 50 µg/ml se asocian fuertemente con el síndrome gris del recién nacido.
+ Ajuste de dosis en insuficiencia renal, hepática o ambas: La disminución de la dosis debe basarse en los niveles de cloranfenicol, se recomienda por tanto la monitorización de niveles. No obstante, se considera que se excreta en forma de metabolitos inactivos por vía renal por lo que no necesitaría ajuste de dosis en situación de insuficiencia renal.
+ Contraindicaciones Hipersensibilidad al cloranfenicol o cualquier componente de la preparación.
+ Porfiria.
+ Tratamiento de infecciones bacterianas banales o infecciones víricas. Profilaxis bacteriana.
+ En uso tópico: hipersensibilidad, recién nacidos, antecedentes de insuficiencia medular.
+ Precauciones Evitar los ciclos repetidos y el tratamiento prolongado. Evitar su uso si existen otros antibióticos menos tóxicos eficaces, debe reservarse para el tratamiento de infecciones potencialmente mortales.
+ Usar con precaución en pacientes con deficiencia de glucosa-6-fosfato-deshidrogenasa, insuficiencia renal o hepática, reducir la dosis en individuos con insuficiencia hepática y renal. Se ha descrito en recién nacidos y prematuros un cuadro clínico denominado “síndrome gris del recién nacido” debido a inmadurez del sistema metabólico hepático que conduce a excesivos niveles sanguíneos de cloranfenicol.
+ Se ha informado de la aparición de discrasias sanguíneas graves y mortales después de usar cloranfenicol por periodos de tiempo tanto cortos como largos. Se recomienda control hematológico en todos los pacientes y suspender el tratamiento si aparece evidencia de mielosupresión. Se deben monitorizar las series hematológicas con reticulocitos cada 3 días.
+ Su empleo por largo tiempo puede causar sobreinfección por Clostridium diﬃcile .
+ Su uso puede favorecer el sobrecrecimiento de hongos.
+ Efectos secundarios No hay datos específicos en niños. Se describen solo las frecuentes (1-10%), muy frecuentes (>10%) o de relevancia clínica, el resto consultar ficha técnica.
+ Toxicidad de la sangre y del sistema linfático: supresión medular reversible que depende de la dosis y se relaciona con concentraciones plasmáticas del fármaco que exceden los 25 µg/ml. y es reversible una vez que el uso del cloranfenicol se interrumpe.
+ Toxicidad gastrointestinal: vómitos, náuseas, sequedad de boca. Toxicidad a nivel de sistema nervioso central (SNC): cefalea.
+ Raros pero graves: supresión medular irreversible (anemia aplásica, leucopenia, trombocitopenia, anemia hemolítica y leucemia), es el efecto adverso más serio y peligroso del cloranfenicol, se trata de una reacción de idiosincrasia individual que no depende de la dosis administrada ni del tiempo de uso y puede presentarse con cualquier vía de administración; suele ocurrir 3 semanas a 12 meses después del contacto inicial con el fármaco; incidencia: 1 en 40 000 casos.
+ Neuropatía periférica, neuritis periférica, dermatitis de contacto, urticaria, angioedema, anafilaxia, eritema multiforme, onicólisis, hemoglobinuria nocturna, hepatotoxidad, síndrome de hepatitis- pancitopenia, atrofia óptica, neuritis óptica, ototoxicidad, broncoespasmo, reacción de Jarisch-Herxheimer, acidosis metabólica, síndrome gris del recién nacido (vómitos, diarrea verdosa, distensión abdominal, hipotermia, palidez cianótica, respiración irregular, shock) puede seguirse de la administración de dosis altas en neonatos con inmadurez metabólica hepática, se asocia con niveles en suero superiores a 50 µg/ml. Estos efectos también se han descrito en niños nacidos de madres tratadas al final del embarazo.
+ En uso tópico: escozor, quemazón ocular.
+ Interacciones Framacológicas El cloranfenicol inhibe el metabolismo de cloropropamida, fenitoína, fenobarbital, ciclosporina, tacrolimus, anticoagulantes orales, sulfonilureas y voriconazol y por tanto aumenta los niveles en sangre o aumentan sus efectos. Esto puede llevar a modificar el tratamiento.
+ El cloranfenicol puede disminuir el efecto terapéutico de la vitamina B 12 y modificar la respuesta sanguínea.
+ El fenobarbital y la rifampicina pueden disminuir los niveles de cloranfenicol. La fenitoína y algunos antivíricos como atazanavir, lopinavir, ritonavir y saquinavir pueden incrementarlos. Vigilar.
+ La fenitoína también puede disminuir los niveles de cloranfenicol sanguíneo.
+ Los niveles de hierro sérico se incrementan al administrar cloranfenicol.
+ El paracetamol puede aumentar, disminuir o dejar inalterada las concentraciones séricas de cloranfenicol, significación clínica no establecida. Por tanto, la actitud será vigilar la respuesta clínica.
+ La vacunación contra el tifus de gérmenes vivos atenuados (Ty21a) debería ser evitada en pacientes tratados con agentes antibacterianos sistémicos hasta al menos 24 horas después de la última dosis.
+ Puede disminuir el efecto terapéutico de la vacuna BCG. Evitar su uso concomitante.
+ Inhibe acción bactericida de penicilinas y cefalosporinas.
+ Interacción con alimentos. Puede disminuir la absorción intestinal de vitamina B 12 ; podría ser necesario aumentar la ingesta dietética de riboﬂavina, piridoxina y vitamina B 12 .
+ En uso tópico. Antagonismo con antibiótico o sulfamidas oftálmicos.
+ Datos Farmacéuticos Excipientes: 
+ Solución oral: sacarosa.
+ Colirio: ácido bórico; borato de sodio; timerosal; agua destilada.
+ Reconstituir el vial con su disolvente o con suero fisiológico. La estabilidad del vial reconstituido es de 30 días, refrigerado es estable durante 6 meses.
+ Las soluciones pueden ser claras o con un ligero color amarillo. Este color amarillento no indica pérdida de actividad o deterioro.
+ Las presentaciones tópicas oftálmicas deben desecharse al mes de la apertura.
+ Formas de administración sistémica: 
+ Presentaciones comerciales. Medicamento extranjero. No comercializado en España.
+ Presentaciones para administración vía tópica: 
+ Presentaciones comerciales. Las presentaciones disponibles en España pueden consultarse online en el Centro de Información de Medicamentos de la AEMPS (CIMA), http://www.aemps.gob.es/cima, y en https://www.aeped.es/comite-medicamentos/pediamecum en el enlace “Presentaciones” correspondiente a cada ficha.
+ Bibliografía American Pharmacists Association (ed.). Pediatric and Neonatal Dosage Handbook. 18.ª edición. Hudson (OH): Lexi Comp; 2010.
+ Gomella TL. Neonatology. Management, Procedures, On-Call Problems, Diseases, and Drugs. 6.ª ed. Mc Graw Hill Medical; 2009.
+ Guía de administración de medicamento vía parenteral. Servicio de farmacia Hospital Universitario Son Dureta. Enero 2001. Disponible en: http://www.elcomprimido.com/FARHSD/BASESGUIADMONPARENTERAL.html
+ Guía de Prescripción Terapéutica. Información de medicamentos autorizados en España. [consultado el 29/01/2012]. Pharma Editores, S.L. 2012 Agencia Española de Medicamentos y Productos Sanitarios. Fecha de última actualización: 18 de junio de 2008. Disponible en: http://www.imedicinas.com/GPTage/Home.php
+ Mensa J. Guía terapéutica antimicrobiana. 20.ª edición. Barcelona: Molins del Rei; 2012.
+ Micromedex Healthcare ® Series [base de datos en Internet]. Greenwood Village, Colorado: Thomson Micromedex Drugdex ® System. 1974-2012. Disponible en: www.thomsonhc.com/home/dispatch 
+ UpToDate (Pediatric drug information) [base de datos en Internet]. Waltham, MA: Wolters Kluwer Health Clinical Solutions 2021. Disponible en: www.uptodate.com 
+ Villa LF (ed.). Medimecum, guía de terapia farmacológica. 16.ª edición. España: Adis; 2011.
+ WHO model formulary for children 2010. Disponible en: https://apps.who.int/iris/handle/10665/44309 
+ Young TE: Neofax 2009. 18.ª ed. Acorn Publishing, Inc.; 2009.
+ Fecha de actualización: diciembre de 2020.
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). 
+ La información disponible en cada una de las fichas del Pediamécum ha sido revisada por el Comité de Medicamentos de la Asociación Española de Pediatría y se sustenta en la bibliografía citada. Estas fichas no deben sustituir en ningún caso a las aprobadas para cada medicamento por la Agencia Española del Medicamento y Productos Sanitarios (AEMPS) o la Agencia Europea del Medicamento (EMA). Sugerencia para mostrar esta cita Comité de Medicamentos de la Asociación Española de Pediatría. Pediamécum. Edición 2015. ISSN 2531-2464. Disponible en: https://www.aeped.es/comites/cm/pediamecum/principios-activos/cloranfenicol . Consultado el 30 de octubre de 2026. OFTALMOLOSA CUSI DE ICOL POMADA OFTALMICA
+ Principio activo: CLORANFENICOL, DEXAMETASONA FOSFATO DISODIO Laboratorio titular: Fidia Farmaceutici S.P.A. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CORTISON CHEMICETINA POMADA 5mg/g + 10mg/g POMADA
+ Principio activo: CLORANFENICOL, HIDROCORTISONA ACETATO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA CORTISON CHEMICETINA 25mg/g + 20mg/g POMADA
+ Principio activo: CLORANFENICOL, HIDROCORTISONA ACETATO Laboratorio titular: Teofarma S.R.L. Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA OFTALMOLOSA CUSI CLORAMFENICOL 10 MG/G POMADA OFTÁLMICA
+ Principio activo: CLORANFENICOL Laboratorio titular: Omnivision Gmbh Condiciones de Prescripción y Uso: Medicamento Sujeto A Prescripción Médica Consulta medicamento en AEMPS-CIMA Para más información puede dirigirse a la web de Agencia Española de Medicamentos Etiquetas
+ Antibióticos Infectología Neonatología Envíenos sus observaciones Finalidad: Sus datos solo se emplearán para responder a su consulta y quedarán integrados en el histórico de elaboración de la ficha de este fármaco
+ Legitimación: El consentimiento que otorga en este acto.
+ Destinatarios: Sus datos no son compartidos, cedidos a terceros ni utilizados para fines no solicitados.
+ Derechos: Puede ejercer los derechos de acceso, rectificación y cancelación enviando un email a la atención del Responsable. Sus email están igualmente amparados por nuestra política de privacidad.
+ Su nombre * Correo electrónico * Comentario Al enviar la observación sobre el medicamento acepta usted la Política de Privacidad de Pediamécum.
+ Enviar mensaje 

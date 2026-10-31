@@ -1,0 +1,81 @@
+OFTALMOLOSA CUSI GENTAMICINA 3mg/g POMADA OFTALMICA | POMADA OFTÁLMICA
+https://cima.aemps.es/cima/dochtml/ft/52662/FT_52662.html
+
+ 4.1. Indicaciones terapéuticas
+ Tratamiento oftálmico de infecciones bacterianas externas del ojo causadas por cepas sensibles a la gentamicina (ver sección 5.1), tales como conjuntivitis, queratitis, úlceras corneales, blefaritis y dacriocistitis.
+ Se debe tener en consideración las recomendacionesoficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ 4.2.1. Posología
+ Uso en adultos (incluidos pacientes de edad avanzada), adolescentes y pacientes pediátricos
+ En general se aplicará 1 cm de pomada aproximadamente dos o tres veces al día.
+ El número de aplicaciones diarias y la duración del tratamiento podrá modificarse según criterio médico.
+ Uso en insuficiencia hepática y renal
+ No se han realizado estudios con este medicamento en pacientes con insuficiencia hepática o renal.
+ 4.2.2. Forma de administración
+ Vía oftálmica.
+ Si se emplea más de un medicamento por vía oftálmica, las aplicaciones de los medicamentos deben espaciarse al menos 5 minutos. Las pomadas oftálmicas deben administrarse en último lugar.
+ Evite tocar cualquier superficie con la punta del tubo para evitar una posible contaminación del contenido del tubo.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo, a otros aminoglucósidos o a alguno de los excipientes incluidos en la sección 6.1.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Administrar únicamente por vía oftálmica.
+ El tratamiento oftálmico con aminoglucósidos puede dar lugar a reacciones de hipersensibilidad en algunos pacientes. La gravedad de las reacciones de hipersensibilidad puede variar desde efectos locales hasta reacciones generalizadas, tales como eritema, picor, urticaria, erupción cutánea, anafilaxia, reacciones anafilactoides o reacciones bullosas. Si con el uso de este medicamento aparecen signos de reacciones graves o de hipersensibilidad debe interrumpirse el tratamiento (ver sección 4.8).
+ Puede aparecer sensibilidad cruzada con otros aminoglucósidos y debe considerarse la posibilidad de que los pacientes hipersensibles a la gentamicina oftálmica, pueden serlo también a otros aminoglucósidos tópicos o sistémicos.
+ En pacientes tratados con gentamicina vía sistémica o cuando se aplica por vía tópica en heridas abiertas o piel dañada, se han observado reacciones adversas graves como neurotoxicidad, ototoxicidad y nefrotoxicidad. Aunque estas reacciones no se han descrito tras de la administración oftálmica de gentamicina, se recomienda precaución especialmente cuando se usa concomitantemente este u otros aminoglucósidos administrados por vía sistémica.
+ Como sucede con otros antibióticos, el uso prolongado puede producir un sobrecrecimiento de microorganismos no sensibles, incluidos hongos. En caso de sobreinfección, el medicamento debe suspenderse y debe instaurarse el tratamiento apropiado.
+ No se recomienda el uso de lentes de contacto durante el tratamiento de una infección ocular. Por este motivo, debe advertirse a los pacientes que no usen lentes de contacto durante el tratamiento con esta pomada oftálmica.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacción. Sin embargo, no se han descrito interacciones clínicas relevantes.
+ Dada la baja concentración sistémica de gentamicina después de la administración oftálmica de este medicamento (ver sección 5.2) es poco probable que se produzca interacciones medicamentosas.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ No se dispone de datos adecuados sobre el uso de este medicamento en mujeres embarazadas. Estudios en animales han mostrado toxicidad para la reproducción tras administración subcutánea de gentamicina (ver sección 5.3). No cabe esperar efectos en el embarazo puesto que la exposición sistémica a gentamicina es insignificante. No obstante, no se recomienda la utilización de este medicamento durante el embarazo.
+ 4.6.2. Lactancia
+ La gentamicina se excreta en la leche materna tras administración sistémica. Se desconoce si tras administración oftálmica la gentamicina se excreta en la leche materna. No cabe esperar efectos en lactantes puesto que la exposición sistémica a gentamicina es insignificante. No obstante, no se puede excluir que existe un riesgo para el niño lactante. Debe decidirse la conveniencia de interrumpir la lactancia o interrumpir el tratamiento con este medicamento valorando el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ 4.6.3. Fertilidad
+ No se han realizado estudios para evaluar el efecto de la administración oftálmica de gentamicina sobre la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de este medicamento sobre la capacidad para conducir y utilizar máquinas es nula o insignificante.
+ Como con cualquiera otra pomada oftálmica, puede aparecer visión borrosa transitoria y otras alteraciones visuales que pueden afectar la capacidad de conducir o utilizar máquinas. Si aparece visión borrosa después de la aplicación, el paciente debe esperar hasta que la visión sea nítida antes de conducir o utilizar maquinas.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ En ensayos clínicos, las reacciones adversas más frecuentes fueron prurito en el ojo, molestia ocular e hiperemia ocular.
+ Tabla resumen de reacciones adversas
+ Las siguientes reacciones adversas han sido notificadas durante ensayos clínicos con este medicamento y se clasifican de acuerdo con el siguiente criterio: muy frecuentes (=1/10), frecuentes (=1/100 hasta <1/10), poco frecuentes (=1/1.000 hasta <1/100), raras (=1/10.000 hasta <1/1.000), o muy raras (<1/10.000) o frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Las reacciones adversas se enumeran en orden decreciente de gravedad dentro de cada grupo de frecuencia.
+ Sistema de Clasificación por Órganos
+ | 
+ Frecuencia
+ | 
+ Término preferido MedDRA (v.14.0)
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Frecuentes:
+ | 
+ hipersensibilidad (ocular)
+ | 
+ Trastornos oculares
+ | 
+ Frecuentes:
+ Poco frecuentes:
+ | 
+ fotofobia, prurito en el ojo, molestia ocular, hiperemia ocular
+ queratitis, visión borrosa, ojo seco
+ | 
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaram.es.
+ 4.9. Sobredosis
+ Una sobredosis oftálmica de este medicamento puede ser eliminada de los ojos con agua templada si se aplica inmediatamente después de la administración de la pomada.
+ Debido a las características de esta preparación, no son de esperar efectos tóxicos conuna sobredosis oftálmica de este medicamento, ni en el caso de ingestión accidental del contenido de un tubo.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.3. Periodo de validez
+ 2 años.
+ Desechar 4 semanas después de la primera apertura.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC.
+ 6.5. Naturaleza y contenido del envase
+ Tubo de pomada oftálmica conteniendo 5 g de pomada oftálmica estéril
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ninguna especial.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

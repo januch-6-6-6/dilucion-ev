@@ -1,0 +1,16 @@
+{
+ "molecula": "GRAMICIDINA + NEOMICINA + POLIMIXINA B",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "45030",
+   "nombre": "OFTALMOWELL COLIRIO EN SOLUCIÓN",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/45030/FT_45030.html"
+  }
+ ]
+}

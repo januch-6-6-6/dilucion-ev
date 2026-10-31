@@ -1,0 +1,16 @@
+{
+ "molecula": "ESKETAMINA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "1191410001",
+   "nombre": "SPRAVATO 28 MG SOLUCION PARA PULVERIZACION NASAL",
+   "forma": "SOLUCION PARA PULVERIZACION NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/1191410001/FT_1191410001.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "MOMETASONA + OLOPATADINA",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "86059",
+   "nombre": "RYALTRIS 25 MICROGRAMOS/600 MICROGRAMOS/PULSACION SUSPENSION PARA PULVERIZACION NASAL",
+   "forma": "SUSPENSIÓN PARA PULVERIZACIÓN NASAL",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/86059/FT_86059.html"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "molecula": "CICLOPENTOLATO",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 1,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "42117",
+   "nombre": "COLIROFTA CICLOPLÉJICO 10 MG/ML COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/42117/FT_42117.html"
+  }
+ ]
+}

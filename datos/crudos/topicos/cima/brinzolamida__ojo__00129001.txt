@@ -1,0 +1,191 @@
+AZOPT 10 mg/ml COLIRIO EN SUSPENSION | COLIRIO EN SUSPENSIÓN
+https://cima.aemps.es/cima/dochtml/ft/00129001/FT_00129001.html
+
+ 4.1. Indicaciones terapéuticas
+ AZOPT está indicado para reducir la presión intraocular elevada en casos de:
+ hipertensión ocular
+ glaucoma de ángulo abierto
+ como monoterapia en pacientes adultos que no responden a los betabloqueantes o en pacientes adultos en los que los betabloqueantes están contraindicados, o bien como terapia coadyuvante a los betabloqueantes o a los análogos de prostaglandinas (ver también sección 5.1).
+ 4.2. Posología y forma de administración
+ Posología
+ Cuando se emplea como monoterapia o como terapia coadyuvante, la dosis es de una gota de AZOPT dos veces al día en el saco conjuntival de el/los ojo/s afectados. Algunos pacientes pueden responder mejor con una gota tres veces al día.
+ Poblaciones especiales
+ Pacientes de edad avanzada
+ No es necesario ajustar la dosis en pacientes de edad avanzada.
+ Insuficiencia hepática y renal
+ El tratamiento con AZOPT no se ha estudiado en pacientes con insuficiencia hepática por lo que no se recomienda su administración en estos pacientes.
+ El tratamiento con AZOPT no se ha estudiado en pacientes con insuficiencia renal grave (aclaramiento de creatinina <30 ml/min) ni en pacientes con acidosis hiperclorémica. Como la brinzolamida y su principal metabolito se excretan mayoritariamente por vía renal, el tratamiento con AZOPT está contraindicado en estos pacientes (ver también sección 4.3).
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de AZOPT en lactantes, niños y adolescentes con edades de 0 a 17 años. Los datos actualmente disponibles están descritos en las secciones 4.8 y 5.1. No se recomienda utilizar AZOPT en lactantes, niños y adolescentes.
+ Forma de administración
+ Vía oftálmica.
+ Después de la instilación es recomendable cerrar suavemente los ojos u ocluir el conducto nasolagrimal. De este modo se puede reducir la absorción sistémica de los medicamentos administrados por vía oftálmica y conseguirse una disminución de los efectos adversos sistémicos.
+ Indique a los pacientes que deben agitar bien el frasco antes de usar. Después de quitar el tapón, se debe retirar el anillo del precinto de seguridad antes de utilizar este medicamento.
+ Para evitar la contaminación de la punta del cuentagotas y de la suspensión, se debe tener la precaución de no tocar los párpados, áreas anexas u otras superficies con la punta del frasco. Indique a los pacientes que deben mantener el frasco bien cerrado cuando no se utilice.
+ Cuando se vaya a sustituir un fármaco antiglaucoma de uso oftálmico por AZOPT, se debe interrumpir la administración de ese otro fármaco e iniciarse la administración de AZOPT al día siguiente.
+ Si se emplea más de un medicamento por vía oftálmica, las aplicaciones de los distintos medicamentos deben espaciarse al menos 5 minutos. Las pomadas oftálmicas se deben administrar en último lugar.
+ Si se olvida una dosis, debe continuarse el tratamiento con la siguiente dosis, tal como estaba planificado. La dosis no debe exceder de una gota tres veces al día en el ojo (s) afectado(s).
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Hipersensibilidad conocida a las sulfonamidas (ver también sección 4.4).
+ Insuficiencia renal grave.
+ Acidosis hiperclorémica.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Efectos sistémicos
+ AZOPT es una sulfonamida inhibidora de la anhidrasa carbónica que, aunque se administra vía oftálmica, se absorbe a nivel sistémico. Tras la administración tópica, pueden aparecer las mismas reacciones adversas al medicamento que las atribuidas a las sulfonamidas, incluyendo el síndrome de Stevens-Johnson (SSJ) y la necrólisis epidérmica tóxica (NET). En el momento de la prescripción, se debe informar a los pacientes sobre los signos y los síntomas y monitorizar estrechamente las reacciones en la piel. En caso de que aparezcan signos de reacciones graves o de hipersensibilidad, AZOPT debe suspenderse inmediatamente.
+ Se han notificado alteraciones ácido‑base con inhibidores de la anhidrasa carbónica orales. Se debe utilizar con precaución en pacientes con riesgo de insuficiencia renal debido al posible riesgo de acidosis metabólica (ver sección 4.2).
+ La brinzolamida no se ha estudiado en recién nacidos pre‑término (menos de 36 semanas de gestación) ni en menores de 1 semana. Debido al posible riesgo de acidosis metabólica, los pacientes con anomalías o inmadurez tubular renal significativa, solo deberán recibir brinzolamida después de evaluar cuidadosamente el balance beneficio riesgo. 
+ Los inhibidores de la anhidrasa carbónica orales pueden empeorar la capacidad para realizar tareas que requieran alerta mental y/o coordinación física. Puesto que AZOPT se absorbe sistémicamente, estos efectos pueden presentarse tras su administración oftálmica.
+ Tratamiento concomitante
+ En los pacientes tratados simultáneamente con un inhibidor de la anhidrasa carbónica por vía oral y con AZOPT, potencialmente puede producirse un efecto aditivo en los efectos sistémicos conocidos de la inhibición de la anhidrasa carbónica. Ni se ha estudiado ni se recomienda la administración concomitante de AZOPT e inhibidores de la anhidrasa carbónica por vía oral (ver también sección 4.5).
+ Como terapia coadyuvante del glaucoma se ha estudiado principalmente la administración conjunta de AZOPT y timolol. Asimismo se ha estudiado el efecto reductor de AZOPT sobre la PIO cuando se administra como terapia coadyuvante a travoprost, análogo de prostaglandina. No hay datos disponibles del uso a largo plazo de AZOPT como terapia coadyuvante a travopost (ver también sección 5.1).
+ La experiencia del uso de AZOPT en el tratamiento de pacientes con glaucoma pseudoexfoliativo o glaucoma pigmentario es limitada. Se recomienda precaución en el tratamiento de estos pacientes y estrecha monitorización de la presión intraocular (PIO). No se ha estudiado la administración de AZOPT en pacientes con glaucoma de ángulo cerrado, por lo que no se recomienda su utilización en estos pacientes.
+ No se ha establecido el posible papel de la brinzolamida sobre la función del endotelio corneal en pacientes con córneas alteradas (especialmente en pacientes con bajo número de células endoteliales). En particular, no se han estudiado pacientes portadores de lentes de contacto por lo que se recomienda un seguimiento cuidadoso de estos pacientes cuando utilicen brinzolamida, ya que los inhibidores de la anhidrasa carbónica pueden afectar la hidratación corneal y el uso de lentes de contacto puede aumentar el riesgo corneal. Se recomienda monitorización estricta en pacientes con córneas alteradas como en pacientes con diabetes mellitus o distrofias corneales.
+ Se ha notificado que el cloruro de benzalconio, que se emplea frecuentemente como conservante en productos oftálmicos, produce queratopatía puntiforme y/o queratopatía ulcerativa tóxica. Puesto que AZOPT contiene cloruro de benzalconio, se recomienda llevar a cabo una monitorización estricta de los pacientes que padezcan ojo seco que utilicen el producto con frecuencia o durante periodos prolongados o en aquellas condiciones en las que la córnea esté comprometida.
+ No se ha estudiado el efecto del tratamiento con AZOPT en pacientes portadores de lentes de contacto. AZOPT contiene cloruro de benzalconio que puede causar irritación ocular y se sabe que altera el color de las lentes de contacto blandas. Debe evitarse el contacto con lentes de contacto blandas. Debe instruirse a los pacientes para que retiren las lentes de contacto antes de la aplicación de AZOPT y esperen al menos 15 minutos después de la instilación de la dosis antes de volver a colocar las lentes de contacto.
+ No se han estudiado los efectos potenciales de rebote después del tratamiento con AZOPT; es de esperar que el efecto de disminución de la PIO se mantenga durante 5‑7 días.
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de AZOPT en lactantes, niños y adolescentes con edades de 0 a 17 años, por lo que no se recomienda su uso en lactantes, niños y adolescentes.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han llevado a cabo estudios específicos de interacciones de AZOPT con otros medicamentos.
+ En ensayos clínicos se empleó AZOPT junto con análogos de prostaglandinas y preparados oftálmicos de timolol sin que se pusieran de manifiesto interacciones adversas. La asociación de AZOPT con mióticos o con agonistas adrenérgicos no ha sido evaluada durante la terapia coadyuvante del glaucoma.
+ AZOPT es un inhibidor de la anhidrasa carbónica que aunque se administra por vía oftálmica, se absorbe a nivel sistémico. Se ha informado de alteraciones ácido‑base con inhibidores orales de la anhidrasa carbónica. Debe tenerse en cuenta la posibilidad de interacciones en los pacientes tratados con AZOPT.
+ Los isoenzimas del citocromo P‑450 responsables del metabolismo de la brinzolamida incluyen CYP3A4 (principal), CYP2A6, CYP2C8 y CYP2C9. Es de esperar que los inhibidores del CYP3A4 como ketoconazol, itraconazol, clotrimazol, ritonavir y troleandomicina inhibirán la metabolización de la brinzolamida por el CYP3A4. Aunque es improbable que se produzca acumulación de brinzolamida, ya que la vía principal de eliminación es renal, se recomienda precaución si se administran concomitantemente inhibidores del CYP3A4. La brinzolamida no es un inhibidor de los isoenzimas del citocromo P‑450.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se dispone de datos o estos son limitados relativos al uso oftálmico de brinzolamida en mujeres embarazadas. Los estudios en animales han mostrado toxicidad reproductiva tras administración sistémica (ver también sección 5.3).
+ AZOPT no está recomendado durante el embarazo ni en mujeres en edad fértil que no utilicen métodos anticonceptivos.
+ Lactancia
+ Se desconoce si brinzolamida/metabolitos se excretan en la leche humana tras administración oftálmica. Estudios en animales muestran excreción de niveles mínimos de brinzolamida en la leche materna tras administración oral.
+ No se puede excluir el riesgo en recién nacidos / niños.
+ Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento con AZOPT tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ Fertilidad
+ Los estudios realizados en animales con brinzolamida no mostraron efectos sobre la fertilidad. No se han realizado estudios para evaluar el efecto de la administración oftálmica de brinzolamida sobre la fertilidad humana.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de AZOPT sobre la capacidad para conducir y utilizar máquinas es pequeña.
+ La visión borrosa transitoria y otras alteraciones visuales pueden afectar la capacidad de conducir o utilizar máquinas (ver también sección 4.8). Si aparece visión borrosa durante la instilación, el paciente debe esperar hasta que la visión sea nítida antes de conducir o utilizar máquinas.
+ Los inhibidores de la anhidrasa carbónica vía oral pueden empeorar la capacidad para realizar tareas que requieran alerta mental y/o coordinación física (ver también sección 4.4 y sección 4.8).
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ En ensayos clínicos incluyendo 2 732 pacientes tratados con AZOPT en monoterapia o terapia coadyuvante con timolol maleato 5 mg/ml, las reacciones adversas más comunes relacionadas con el tratamiento fueron: disgeusia (6,0%) (sabor amargo o extraño, ver descripción debajo) y visión borrosa transitoria (5,4%) tras la instilación, que dura desde unos pocos segundos a unos pocos minutos (ver también sección 4.7).
+ Tabla resumen de reacciones adversas
+ Las siguientes reacciones adversas se han notificado con brinzolamida 10 mg/ml colirio en suspensión y se clasifican de acuerdo con el siguiente criterio: muy frecuentes (≥1/10), frecuentes (≥1/100 a <1/10), poco frecuentes (≥1/1 000 a <1/100), raras (≥1/10 000 a <1/1 000), muy raras (<1/10 000), o de frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Las reacciones adversas se enumeran en orden decreciente de gravedad, dentro de cada intervalo de frecuencia. Las reacciones adversas se obtuvieron de ensayos clínicos y notificaciones espontáneas de postcomercialización.
+ Clasificación por órganos y sistemas
+ | 
+ Término preferente MedDRA (v.15.1)
+ | 
+ Infecciones e infestaciones
+ | 
+ Poco frecuentes: nasofaringitis, faringitis, sinusitis
+ Frecuencia no conocida: rinitis
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ Poco frecuentes: reducción del recuento de hematíes, elevación del cloruro en sangre
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Frecuencia no conocida: hipersensibilidad
+ | 
+ Trastornos del metabolismo y de la nutrición
+ | 
+ Frecuencia no conocida: apetito disminuido 
+ | 
+ Trastornos psiquiátricos
+ | 
+ Poco frecuentes: apatía, depresión, estado de ánimo deprimido, libido disminuida, pesadillas, nerviosismo
+ Raras: insomnio
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Poco frecuentes: disfunción motora, amnesia, mareo, parestesia, cefalea
+ Raras: alteración de la memoria, somnolencia
+ Frecuencia no conocida: temblor, hipoestesia, ageusia
+ | 
+ Trastornos oculares
+ | 
+ Frecuentes: visión borrosa, irritación ocular, dolor ocular, sensación de cuerpo extraño en los ojos, hiperemia ocular
+ Poco frecuentes: erosión corneal, queratitis, queratitis punteada, queratopatía, depósito en el ojo, manchas corneales, defecto del epitelio corneal, trastorno del epitelio corneal, blefaritis, prurito en el ojo, conjuntivitis, hinchazón ocular, meibomitis, deslumbramiento, fotofobia, ojo seco, conjuntivitis alérgica, pterigión, pigmentación de esclerótica, astenopía, molestia ocular, sensación anormal en el ojo, queratoconjuntivitis seca, quiste subconjuntival, hiperemia conjuntival, prurito en el párpado, secreción ocular, costras en el margen del párpado, lagrimeo aumentado
+ Raras: edema corneal, diplopía, agudeza visual disminuida, fotopsia, hipoestesia del ojo, edema periorbital, presión intraocular aumentada, relación fovea/papila del nervio óptico aumentada 
+ Frecuencia no conocida: trastorno corneal, alteración visual, alergia ocular, madarosis, trastorno del párpado, eritema del párpado
+ | 
+ Trastornos del oído y del laberinto
+ | 
+ Raras: acúfenos
+ Frecuencia no conocida: vértigo
+ | 
+ Trastornos cardíacos
+ | 
+ Poco frecuentes: distrés cardiorrespiratorio, bradicardia, palpitaciones
+ Raras: angina de pecho, frecuencia cardiaca irregular 
+ Frecuencia no conocida: arritmia, taquicardia, hipertensión, aumento de la presión arterial, presión arterial disminuida, frecuencia cardiaca aumentada
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ Poco frecuentes: disnea, epistaxis, dolor orofaríngeo, dolor faringolaríngeo, irritación de garganta, síndrome de tos de las vías respiratorias superiores, rinorrea, estornudos
+ Raras: hiperreactividad bronquial, congestión del tracto respiratorio alto, congestión sinusal, congestión nasal, tos, sequedad nasal 
+ Frecuencia no conocida: asma
+ | 
+ Trastornos gastrointestinales
+ | 
+ Frecuentes: disgeusia
+ Poco frecuentes: esofagitis, diarrea, náuseas, vómitos, dispepsia, dolor abdominal alto, molestia abdominal, molestia en el estómago, flatulencia, movimientos intestinales frecuentes, trastorno gastrointestinal, hipoestesia oral, parestesia oral, boca seca
+ | 
+ Trastornos hepatobiliares
+ | 
+ Frecuencia no conocida: anomalías en las pruebas de la función hepática
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Poco frecuentes: erupción, erupción maculopapular, tensión de la piel
+ Raras: urticaria, alopecia, prurito generalizado 
+ Frecuencia no conocida: síndrome de Stevens-Johnson (SSJ)/ necrólisis epidérmica tóxica (NET) (ver sección 4.4), dermatitis, eritema
+ | 
+ Trastornos musculoesqueléticos y del tejido conjuntivo
+ | 
+ Poco frecuentes: dolor de espalda, espasmos musculares, mialgia
+ Frecuencia no conocida: artralgia, dolor de extremidades
+ | 
+ Trastornos renales y urinarios
+ | 
+ Poco frecuentes: dolor renal
+ Frecuencia no conocida: polaquiuria
+ | 
+ Trastornos del aparato reproductor y de la mama
+ | 
+ Poco frecuentes: disfunción eréctil
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ Poco frecuentes: dolor, molestia torácica, fatiga, sensación anormal
+ Raras: dolor torácico, sensación de inquietud, astenia, irritabilidad 
+ Frecuencia no conocida: edema periférico, malestar
+ | 
+ Lesiones traumáticas, intoxicaciones y complicaciones de procedimientos terapéuticos
+ | 
+ Poco frecuentes: sensación de cuerpo extraño en el ojo
+ | 
+ Descripción de reacciones adversas seleccionadas
+ La reacción adversa sistémica descrita con mayor frecuencia, asociada al uso de AZOPT durante los ensayos clínicos fue disgeusia (sabor amargo o extraño en la boca después de la instilación). Posiblemente está causada por el paso del colirio a la nasofaringe a través del conducto nasolagrimal. La incidencia de este efecto puede reducirse con la oclusión nasolagrimal o cerrando los ojos suavemente (ver también sección 4.2).
+ AZOPT es una sulfonamida inhibidora de la anhidrasa carbónica con absorción sistémica.
+ Los inhibidores sistémicos de la anhidrasa carbónica generalmente se asocian a efectos gastrointestinales, del sistema nervioso, hematológicos, renales y metabólicos. Tras la administración oftálmica, pueden producirse el mismo tipo de reacciones adversas que las atribuidas a los inhibidores de la anhidrasa carbónica orales.
+ No se han observado reacciones adversas inesperadas cuando se utiliza AZOPT como terapia coadyuvante a travoprost. Las reacciones adversas detectadas durante el tratamiento coadyuvante se habían observado con cada principio activo por separado.
+ Población pediátrica
+ En ensayos clínicos de escala reducida y corta duración, se observó que aproximadamente un 12,5% de los pacientes pediátricos experimentaron reacciones adversas, la mayoría de las cuales fueron reacciones oculares locales no graves, como hiperemia conjuntival, irritación ocular, secreción ocular y lagrimeo aumentado (ver también sección 5.1).
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Anexo V.
+ 4.9. Sobredosis
+ No se han notificado casos de sobredosis.
+ El tratamiento debe ser sintomático y de mantenimiento. Pueden producirse desequilibrio electrolítico, acidosis y posibles efectos sobre el sistema nervioso. Deben monitorizarse los niveles séricos de electrolitos (especialmente potasio) y el pH sanguíneo.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.3. Periodo de validez
+ 2 años.
+ 4 semanas después de la primera apertura del envase.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no requiere condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Frascos de polietileno de baja densidad opacos de 5 y 10 ml con tapones de rosca de polipropileno.
+ Formatos de presentación: envase que contiene 1 frasco de 5 ml, envase que contiene 3 frascos de 5 ml y envase que contiene 1 frasco de 10 ml. Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ninguna especial.

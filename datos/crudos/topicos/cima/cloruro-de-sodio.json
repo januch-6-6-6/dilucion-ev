@@ -1,0 +1,16 @@
+{
+ "molecula": "CLORURO DE SODIO",
+ "vias_isp": [
+  "nariz"
+ ],
+ "candidatos": 4,
+ "sel": [
+  {
+   "via": "nariz",
+   "nregistro": "60230",
+   "nombre": "SOLUCION FISIOLOGICA RESPITOL 8,5 mg/ml GOTAS NASALES",
+   "forma": "GOTAS NASALES EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/60230/FT_60230.html"
+  }
+ ]
+}

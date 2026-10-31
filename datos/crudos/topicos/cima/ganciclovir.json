@@ -1,0 +1,16 @@
+{
+ "molecula": "GANCICLOVIR",
+ "vias_isp": [
+  "ojo"
+ ],
+ "candidatos": 3,
+ "sel": [
+  {
+   "via": "ojo",
+   "nregistro": "67075",
+   "nombre": "VIRGAN 1,5 mg/g GEL OFTALMICO",
+   "forma": "GEL OFTÁLMICO",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/67075/FT_67075.html"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "molecula": "CIPROFLOXACINO",
+ "vias_isp": [
+  "oido",
+  "ojo"
+ ],
+ "candidatos": 11,
+ "sel": [
+  {
+   "via": "oido",
+   "nregistro": "60883",
+   "nombre": "CETRAXAL OTICO 3 MG/ML GOTAS OTICAS EN SOLUCION",
+   "forma": "GOTAS ÓTICAS EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/60883/FT_60883.html"
+  },
+  {
+   "via": "ojo",
+   "nregistro": "60608",
+   "nombre": "OFTACILOX 3 mg/ml COLIRIO EN SOLUCION",
+   "forma": "COLIRIO EN SOLUCIÓN",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/60608/FT_60608.html"
+  }
+ ]
+}
