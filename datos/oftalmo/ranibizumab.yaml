@@ -1,0 +1,105 @@
+id: ranibizumab
+nombre: Ranibizumab intravítreo (Lucentis)
+comerciales: []
+grupo: anti-vegf
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: lucentis-vial
+  forma: solucion
+  cantidad:
+    valor: 2.3
+    unidad: mg
+  volumenMl: 0.23
+  registrosIsp:
+  - B-1989/22
+  usoDirecto: true
+  nota: 'Lucentis 10 mg/ml. El ISP registra «solución inyectable 10 mg/mL» sin distinguir vial de jeringa. Cantidad: 10 mg/ml
+    × 0,23 ml.'
+  fuente:
+    ref: CIMA-OFT-RANIBIZUMAB-106374004
+    detalle: 6.5 Vial con 0,23 ml de solución estéril (10 mg/ml)
+- id: lucentis-jeringa
+  forma: jeringa_precargada
+  cantidad:
+    valor: 1
+    unidad: mg
+  volumenMl: 0.1
+  registrosIsp: []
+  usoDirecto: true
+  nota: 'Jeringa precargada de 10 mg/ml; cantidad: 10 mg/ml × 0,1 ml extraíbles.'
+  fuente:
+    ref: CIMA-OFT-RANIBIZUMAB-106374003
+    detalle: 'Volumen extraíble de la jeringa precargada: 0,1 ml'
+dosis:
+- indicacion: Degeneración macular neovascular, edema macular diabético, oclusión venosa retiniana y neovascularización coroidea
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.5
+      unidad: mg
+    volumenMl: 0.05
+  texto: '0,5 mg (0,05 ml) en inyección intravítrea. El vial contiene 0,23 ml y la jeringa 0,1 ml extraíbles: hay que eliminar
+    el exceso antes de inyectar.'
+  estatus: autorizada
+  presentaciones:
+  - lucentis-vial
+  - lucentis-jeringa
+  fuente:
+    ref: CIMA-OFT-RANIBIZUMAB-106374004
+    detalle: '4.2 Posología: 0,5 mg administrados como una inyección intravítrea; volumen de inyección de 0,05 ml'
+  tambien:
+  - ref: SEFH-PNT-RANIBIZUMAB-05MG-005ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Indicaciones y posología: 0,5 mg/0,05 ml'
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: ranibizumab 0,5 mg/0,05 ml'
+- indicacion: Retinopatía del prematuro (zona I, zona II con estadio 3+ o ROP agresiva posterior)
+  via: intravitrea
+  poblacion: pediatrico
+  final:
+    cantidad:
+      valor: 0.2
+      unidad: mg
+    volumenMl: 0.02
+  texto: '0,2 mg (0,02 ml) en inyección intravítrea en recién nacidos pretérmino. El vial contiene 0,23 ml: se desecha el
+    exceso antes de inyectar.'
+  estatus: autorizada
+  condicion: 'Solo con el vial: la jeringa precargada no sirve para esta dosis porque no permite medir 0,02 ml.'
+  presentaciones:
+  - lucentis-vial
+  fuente:
+    ref: CIMA-OFT-RANIBIZUMAB-106374004
+    detalle: '4.2 Posología: 0,2 mg en recién nacidos pretérmino; volumen de inyección de 0,02 ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Retinopatía del prematuro: 0,2 mg/0,02 ml (CIMA 4.2). Para las demás indicaciones no se ha establecido en menores
+    de 18 años.'
+conservacion:
+- texto: Conservar en nevera (2–8 °C), sin congelar. Antes de usar, el vial sin abrir puede estar hasta 24 horas a 25 °C.
+  horas: 24
+  fuente:
+    ref: CIMA-OFT-RANIBIZUMAB-106374004
+    detalle: 6.3 Periodo de validez
+- texto: 'Alícuotas de farmacia (jeringas de 0,5 ml): 9 días refrigeradas según el PNT; el consenso da 28 días de estabilidad
+    fisicoquímica a 2–8 °C.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-RANIBIZUMAB-05MG-005ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad al ranibizumab o a alguno de los excipientes; infección ocular o periocular activa o sospechada; inflamación
+  intraocular activa grave (CIMA 4.3).
+alertas:
+- 'La presentación trae más volumen que la dosis: elimina el exceso hasta la marca de 0,05 ml antes de inyectar. Inyectar
+  todo el contenido puede causar una sobredosis (CIMA 4.2 y 6.6).'
+- El PNT de la SEFH describe un fraccionamiento en alícuotas de 0,065 ml en jeringas de 0,5 ml sin espacio muerto; es una
+  preparación de farmacia y no tiene verificador porque no hay dilución.
+discrepancias: []
+meta: {}

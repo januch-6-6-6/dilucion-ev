@@ -1,0 +1,109 @@
+id: bevacizumab
+nombre: Bevacizumab intravítreo (Avastin fraccionado)
+comerciales: []
+grupo: anti-vegf
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: avastin-100
+  forma: solucion
+  cantidad:
+    valor: 100
+    unidad: mg
+  volumenMl: 4
+  registrosIsp:
+  - B-1862/25
+  usoDirecto: false
+  nota: Frasco de uso intravenoso (25 mg/ml). El uso intravítreo es off-label y se hace fraccionando el frasco en farmacia.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-1862/25 Avastin concentrado 100 mg/4 mL (bevacizumab)
+- id: avastin-400
+  forma: solucion
+  cantidad:
+    valor: 400
+    unidad: mg
+  volumenMl: 16
+  registrosIsp:
+  - B-1863/25
+  usoDirecto: false
+  nota: Mismo medicamento, frasco grande (25 mg/ml).
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-1863/25 Avastin concentrado 400 mg/16 mL (bevacizumab)
+dosis:
+- indicacion: Degeneración macular asociada a la edad húmeda y otras indicaciones retinales
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 1.25
+      unidad: mg
+    volumenMl: 0.05
+  texto: Una inyección intravítrea de 1,25 mg en 0,05 ml, a intervalos regulares (cada 4 a 6 semanas) o según evolución. La
+    jeringa se prepara en farmacia cargando 0,15 ml del frasco de 25 mg/ml (0,08 ml quedan en el espacio muerto de la aguja).
+  estatus: off_label
+  condicion: 'El PNT lo marca como «off-label»: el frasco de Avastin solo está autorizado por vía intravenosa.'
+  presentaciones:
+  - avastin-100
+  - avastin-400
+  fuente:
+    ref: SEFH-PNT-BEVACIZUMAB-25MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Posología: 1,25 mg/0,05 ml por inyección intravítrea cada 4 o 6 semanas; indicación off-label'
+  tambien:
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: bevacizumab 25 mg/ml (estabilidad en jeringa)'
+protocolos:
+- id: pnt-sefh-fraccionado
+  dosis: 0
+  titulo: Fraccionar el frasco en jeringas de 1 ml (PNT SEFH)
+  partida: avastin-100
+  pasos:
+  - tipo: texto
+    texto: Desprecintar el vial de Avastin, limpiar el elastómero con alcohol de 70° y dejar secar.
+  - tipo: cargar
+    volumenMl: 0.15
+  - tipo: texto
+    texto: Quitar la aguja, cerrar la jeringa con un tapón estéril, envasar de forma individual en bolsa estéril, etiquetar
+      y proteger de la luz. Trabajar en campana de flujo laminar con técnica aséptica.
+  resultado:
+    valor: 3.75
+    unidad: mg
+    volumenMl: 0.15
+  fuente:
+    ref: SEFH-PNT-BEVACIZUMAB-25MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: Método específico, pasos 1 a 5
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: 'Pediamécum: en retinopatía del prematuro hay datos limitados (0,625 mg en dosis única; rango 0,37 a 1,25 mg) y
+    la dosis óptima no está establecida; la fuente no da el volumen de inyección, por eso no se carga como dosis.'
+conservacion:
+- texto: 'Jeringa preparada según el PNT: 9 días en refrigerador (2–8 °C), protegida de la luz. Hay datos de 3 meses; para
+    eso o para lotes de más de 25 unidades hay que hacer control de esterilidad.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-BEVACIZUMAB-25MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+- texto: 'Consenso SEFH-SEO-SERV: 180 días de estabilidad fisicoquímica a 2–8 °C en jeringas de policarbonato o polipropileno
+    (grado A+); el plazo real lo limitan los controles microbiológicos.'
+  horas: 4320
+  fuente:
+    ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: bevacizumab 25 mg/ml, 180 días a 2–8 °C'
+contraindicaciones:
+- No hay contraindicaciones propias de la vía intravítrea en las fuentes consultadas; el frasco no está autorizado para esta
+  vía.
+alertas:
+- 'No agitar el vial y trasvasar con cuidado: la agitación y las burbujas agregan la proteína. Descartar la jeringa si hay
+  turbidez (PNT SEFH).'
+- Se han notificado casos individuales y brotes de acontecimientos adversos oculares graves tras el uso intravítreo fuera
+  de indicación de bevacizumab (Pediamécum).
+- 'La jeringa se prepara con 0,15 ml para inyectar 0,05 ml: el resto es espacio muerto de la aguja. Inyectar solo hasta la
+  marca de 0,05 ml (PNT SEFH).'
+discrepancias: []
+meta: {}

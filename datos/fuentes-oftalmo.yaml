@@ -4,16 +4,70 @@
   url: https://cima.aemps.es/cima/dochtml/ft/58154/FT_58154.html
   anio: 2026
   consultado: '2026-10-31'
+- id: CIMA-OFT-AFLIBERCEPT-112797001
+  titulo: 'Ficha técnica: EYLEA 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/112797001/FT_112797001.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-AFLIBERCEPT-112797002
+  titulo: 'Ficha técnica: EYLEA 40 MG/ML SOLUCION INYECTABLE EN VIAL'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/112797002/FT_112797002.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-BROLUCIZUMAB-1191417
+  titulo: 'Ficha técnica: BEOVU 120 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/1191417/FT_1191417.html
+  anio: 2026
+  consultado: '2026-10-31'
 - id: CIMA-OFT-CEFUROXIMA-76098
   titulo: 'Ficha técnica: PROKAM 50 MG POLVO PARA SOLUCION INYECTABLE'
   institucion: AEMPS — CIMA (España)
   url: https://cima.aemps.es/cima/dochtml/ft/76098/FT_76098.html
   anio: 2026
   consultado: '2026-10-31'
+- id: CIMA-OFT-DEXAMETASONA-IMPLANTE-10638001
+  titulo: 'Ficha técnica: OZURDEX 700 microgramos IMPLANTE INTRAVITREO EN APLICADOR'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/10638001/FT_10638001.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-FARICIMAB-1221683001
+  titulo: 'Ficha técnica: VABYSMO 120 MG/ML SOLUCION INYECTABLE'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/1221683001/FT_1221683001.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-FARICIMAB-1221683002
+  titulo: 'Ficha técnica: VABYSMO 120 MG/ML SOLUCION PARA INYECCION EN JERINGA PRECARGADA'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/1221683002/FT_1221683002.html
+  anio: 2026
+  consultado: '2026-10-31'
 - id: CIMA-OFT-FENILEFRINA-TROPICAMIDA-LIDOCAINA-80177
   titulo: 'Ficha técnica: FYDRANE 0,2 MG/ML + 3,1 MG/ML + 10 MG/ML SOLUCION INYECTABLE'
   institucion: AEMPS — CIMA (España)
   url: https://cima.aemps.es/cima/dochtml/ft/80177/FT_80177.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-OCRIPLASMINA-113819002
+  titulo: 'Ficha técnica: JETREA 0,375mg/0,3ml solucion inyectable'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/113819002/FT_113819002.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-RANIBIZUMAB-106374003
+  titulo: 'Ficha técnica: LUCENTIS 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/106374003/FT_106374003.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-RANIBIZUMAB-106374004
+  titulo: 'Ficha técnica: LUCENTIS 10 MG/ML SOLUCION INYECTABLE'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/106374004/FT_106374004.html
   anio: 2026
   consultado: '2026-10-31'
 - id: CIMA-OFT-TRIAMCINOLONA-74673
@@ -32,6 +86,13 @@
   titulo: 'Etiqueta FDA (DailyMed): MIOCHOL E (ACETYLCHOLINE CHLORIDE) KIT [BAUSCH & LOMB INCORPORATED]'
   institucion: U.S. National Library of Medicine — DailyMed (FDA)
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e701ef07-9499-4b56-931f-f4eb3eedbe24
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-ANFOTERICINA-B
+  titulo: 'Etiqueta FDA (DailyMed): AMPHOTERICIN B LIPOSOME INJECTION, POWDER, LYOPHILIZED, FOR SUSPENSION [MYLAN INSTITUTIONAL
+    LLC]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a96a734f-d1c4-4d42-93c2-7c336da7f7b9
   anio: 2026
   consultado: '2026-10-31'
 - id: DAILYMED-OFT-AZUL-BRILLANTE
@@ -79,11 +140,53 @@
   url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/triamcinolona
   anio: 2026
   consultado: '2026-10-31'
+- id: SEFH-PNT-AFLIBERCEPT-2MG-005ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: AFLIBERCEPT 2 MG/0,05ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/A/AFLIBERCEPT_2MG_005ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
+- id: SEFH-PNT-BEVACIZUMAB-25MG-ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: BEVACIZUMAB 25 MG/ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/B/BEVACIZUMAB_25MG_ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
+- id: SEFH-PNT-CEFTAZIDIMA
+  titulo: 'PNT SEFH: CEFTAZIDIMA 2MG/0,1ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/C/CEFTAZIDIMA_2MG_01ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
+- id: SEFH-PNT-GANCICLOVIR-20MG-ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: GANCICLOVIR 20 MG/ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/G/GANCICLOVIR_20MG_ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
 - id: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
   titulo: 'PNT SEFH: CEFUROXIMA 1 MG/0,1 ML INYECCIÓN INTRACEMERULAR'
   institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
   url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/C/PN_CEFUROXIMA_INTRACAMERULAR.pdf
   anio: 2014
+  consultado: '2026-10-31'
+- id: SEFH-PNT-RANIBIZUMAB-05MG-005ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: RANIBIZUMAB 0,5 MG/0,05ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/R/RANIBIZUMAB_05MG_005ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
+- id: SEFH-PNT-VANCOMICINA-HIDROCLORURO-10MG-ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: VANCOMICINA HIDROCLORURO 10 MG/ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/V/VANCOMICINA_HIDROCLORURO_10MG_ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
+  consultado: '2026-10-31'
+- id: SEFH-PNT-VORICONAZOL-100MCG-01ML-INYECCIN-INTRAVTREA-PNT
+  titulo: 'PNT SEFH: VORICONAZOL 100 MCG/0,1ML INYECCIÓN INTRAVÍTREA'
+  institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
+  url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/V/VORICONAZOL_100MCG_01ML_INYECCIN_INTRAVTREA_PNT.pdf
+  anio: 2017
   consultado: '2026-10-31'
 - id: WEB-OFT-ADRENALINA-IC-19185242
   titulo: 'Myers WG, Shugar JK. Optimizing the intracameral dilation regimen for cataract surgery: prospective randomized
@@ -121,6 +224,69 @@
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6081127/
   anio: 2018
   consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-2064573
+  titulo: Campochiaro PA, Conway BP. Aminoglycoside toxicity--a survey of retinal specialists. Implications for ocular use.
+    Arch Ophthalmol. 1991;109(7):946-950. doi:10.1001/archopht.1991.01080070058035.
+  institucion: Archives of Ophthalmology
+  url: https://pubmed.ncbi.nlm.nih.gov/2064573/
+  anio: 1991
+  consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-28110950
+  titulo: 'Witkin AJ, Chang DF, Jumper JM, et al. Vancomycin-Associated Hemorrhagic Occlusive Retinal Vasculitis: Clinical
+    Characteristics of 36 Eyes. Ophthalmology. 2017;124(5):583-595. doi:10.1016/j.ophtha.2016.11.042.'
+  institucion: Ophthalmology (AAO)
+  url: https://pubmed.ncbi.nlm.nih.gov/28110950/
+  anio: 2017
+  consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-8285892
+  titulo: Campochiaro PA, Lim JI; Aminoglycoside Toxicity Study Group. Aminoglycoside toxicity in the treatment of endophthalmitis.
+    Arch Ophthalmol. 1994;112(1):48-53. doi:10.1001/archopht.1994.01090130058017.
+  institucion: Archives of Ophthalmology
+  url: https://pubmed.ncbi.nlm.nih.gov/8285892/
+  anio: 1994
+  consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-EYEWIKI.ORG/ENDOPHTHALMITIS
+  titulo: EyeWiki (AAO). Endophthalmitis. Iniciado por Sami Kamjoo, MD; editores asignados Jason Hsu, MD y Jennifer Cao, MD;
+    revisado "Up to Date" 21-jun-2026; última edición 31-oct-2026. (EyeWiki prohíbe reproducción; citas breves.)
+  institucion: Academia Americana de Oftalmología (EyeWiki)
+  url: https://eyewiki.org/Endophthalmitis
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-PMC13405202
+  titulo: Fenniri I, André C. Current Recommendations, Antibiotic Resistance, and Emerging Treatments for Gram-Positive Ocular
+    Infections in the United States. Antibiotics (Basel). 2026;15(7):710. doi:10.3390/antibiotics15070710.
+  institucion: Antibiotics (MDPI)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13405202/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-AMIKACINA-IV-PMC13421665
+  titulo: 'Muqit MM, Pavesio C, Wang Y, et al.; EVIAN Study Group; Bainbridge J. Early vitrectomy and intravitreal antibiotics
+    for post-operative exogenous endophthalmitis (EVIAN): a randomised control trial of feasibility. Commun Med (Lond). 2026;6(1'
+  institucion: Communications Medicine (Nature)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13421665/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANFOTERICINA-IV-EYEWIKI.ORG/ENDOPHTHALMITIS
+  titulo: EyeWiki (AAO). Endophthalmitis. Iniciado por Sami Kamjoo, MD; editores Jason Hsu, MD y Jennifer Cao, MD; última
+    edición 31-oct-2026. (Citas breves.)
+  institucion: Academia Americana de Oftalmología (EyeWiki)
+  url: https://eyewiki.org/Endophthalmitis
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANFOTERICINA-IV-PMC13676249
+  titulo: 'Kang S, Flynn HW, Smiddy WE, et al. Aspergillus Endophthalmitis: Clinical Features, Treatment Modalities, and Visual
+    Outcomes. Invest Ophthalmol Vis Sci. 2026;67(12):27. doi:10.1167/iovs.67.12.27.'
+  institucion: Investigative Ophthalmology & Visual Science
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13676249/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANFOTERICINA-IV-PMC6907248
+  titulo: Leung EH, Stout JT. Antibiotics and antifungals in silicone oil. Int J Retina Vitreous. 2019;5:50. doi:10.1186/s40942-019-0199-2
+    (PMID 31890279).
+  institucion: International Journal of Retina and Vitreous
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6907248/
+  anio: 2019
+  consultado: '2026-10-31'
 - id: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
   titulo: 'EyeWiki (AAO). Ocular Anesthesia. Lee AG, Queen JH, Bhuta N, Bhat N, Bindiganavile SH, Chahande SS, Wiley Z, Pandit
     R. Editora: Sonali Singh. Última edición 13-oct-2026.'
@@ -150,12 +316,55 @@
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10614322/
   anio: 2023
   consultado: '2026-10-31'
+- id: WEB-OFT-CLINDAMICINA-IV-20708269
+  titulo: Soheilian M, Ramezani A, Azimzadeh A, Sadoughi MM, Dehghan MH, Shahghadami R, Yaseri M, Peyman GA. Randomized trial
+    of intravitreal clindamycin and dexamethasone versus pyrimethamine, sulfadiazine, and prednisolone in treatment of ocular
+    to
+  institucion: Ophthalmology
+  url: https://pubmed.ncbi.nlm.nih.gov/20708269/
+  anio: 2011
+  consultado: '2026-10-31'
+- id: WEB-OFT-CLINDAMICINA-IV-PMC12277979
+  titulo: Casado FC, Samper AD. Sulfonamide Allergy and Alternative Treatments in Ocular Toxoplasmosis. Rom J Ophthalmol.
+    2025;69(2):147-157. doi:10.22336/rjo.2025.25.
+  institucion: Romanian Journal of Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12277979/
+  anio: 2025
+  consultado: '2026-10-31'
+- id: WEB-OFT-CLINDAMICINA-IV-PMC4329957
+  titulo: 'Hosseini SM, Abrishami M, Mehdi Zadeh M. Intravitreal clindamycin in the treatment of unresponsive zone one toxoplasmic
+    chorioretinitis: a case report. Iran Red Crescent Med J. 2014;16(11):e15428. doi:10.5812/ircmj.15428.'
+  institucion: Journal of Ophthalmic & Vision Research
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4329957/
+  anio: 2015
+  consultado: '2026-10-31'
 - id: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
   titulo: 'EyeWiki (American Academy of Ophthalmology) — Tissue Plasminogen Activator. Autores: Hashem Abu Serhan (iniciador),
     Yara Abukhaled, Kishan Avaiya, Rishika Geda, Mohd Salim Harun Gigani. Última edición: 11-may-2026. Consultado 31-oct-2026
     ví'
   institucion: American Academy of Ophthalmology (EyeWiki)
   url: https://eyewiki.org/Tissue_Plasminogen_Activator
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-FOSCARNET-IV-PMC13087365
+  titulo: Amiri I, Shah P, Soleimani M, Zhang AY. Intravitreal foscarnet is an effective adjunct after systemic therapy failure
+    in pediatric antiviral-resistant cytomegalovirus retinitis. J Int Med Res. 2026;54(4):3000605261436565. doi:10.1177/030006
+  institucion: Journal of Ophthalmic Inflammation and Infection
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13087365/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-FOSCARNET-IV-PMC13283819
+  titulo: 'Thompson D, Zafar S, Berkenstock M. Incidence and clinical characterization of retinal detachment in acute retinal
+    necrosis: a global federated database analysis. Front Ophthalmol (Lausanne). 2026 (PMID 42338517).'
+  institucion: Journal (serie de casos)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13283819/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-FOSCARNET-IV-PMC13665908
+  titulo: 'Su S, Yang Y, Wu J, Xiao Y. Cytomegalovirus Retinitis Across the Immunosuppression Spectrum: A Contemporary Framework
+    for Risk Stratification, Diagnosis, and Vision-Preserving Therapy. J Clin Med. 2026;15(19):7482. doi:10.3390/jcm15197482.'
+  institucion: Journal (revisión narrativa)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13665908/
   anio: 2026
   consultado: '2026-10-31'
 - id: WEB-OFT-LIDOCAINA-IC-14709298
@@ -171,6 +380,27 @@
   institucion: Journal of Current Ophthalmology
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6034170/
   anio: 2018
+  consultado: '2026-10-31'
+- id: WEB-OFT-METOTREXATO-IV-18303160
+  titulo: 'Frenkel S, Hendler K, Siegal T, Shalom E, Pe''er J. Intravitreal methotrexate for treating vitreoretinal lymphoma:
+    10 years of experience. Br J Ophthalmol. 2008;92(3):383-388. doi:10.1136/bjo.2007.127928.'
+  institucion: British Journal of Ophthalmology
+  url: https://pubmed.ncbi.nlm.nih.gov/18303160/
+  anio: 2008
+  consultado: '2026-10-31'
+- id: WEB-OFT-METOTREXATO-IV-PMC12997583
+  titulo: Lira RPC, Silveira APT, Lira GR, Gaete MIL. Dose adjustment of intravitreal medications and gases according to axial
+    length and vitreous cavity volume. Arq Bras Oftalmol. 2025;88(6):e20250077. doi:10.5935/0004-2749.2025-0077.
+  institucion: Arquivos Brasileiros de Oftalmologia
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12997583/
+  anio: 2025
+  consultado: '2026-10-31'
+- id: WEB-OFT-METOTREXATO-IV-PMC13565040
+  titulo: 'Cioboată ML, Abduraman S, Tofolean I, et al. Current and Emerging Therapies in Primary Vitreoretinal Lymphoma:
+    A Narrative Review. Cancers (Basel). 2026;18(17):2865. doi:10.3390/cancers18172865.'
+  institucion: Cancers (MDPI)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13565040/
+  anio: 2026
   consultado: '2026-10-31'
 - id: WEB-OFT-MOXIFLOXACINO-IC-28007104
   titulo: Arshinoff SA, Modabber M. Dose and administration of intracameral moxifloxacin for prophylaxis of postoperative

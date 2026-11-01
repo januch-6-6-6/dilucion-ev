@@ -97,15 +97,17 @@ def ped(slug, detalle):
     return fu(ref, detalle)
 
 
-def sefh_pnt(stem, detalle):
-    """Cita un PNT de la SEFH `sefh/<stem>.txt`; la URL sale de `sefh/indice.html` y el año de «FECHA ÚLTIMA REVISIÓN»."""
+def sefh_pnt(stem, detalle, enlace=None):
+    """Cita un PNT de la SEFH `sefh/<stem>.txt`; la URL sale de `sefh/indice.html` y el año de «FECHA ÚLTIMA REVISIÓN».
+
+    `enlace` solo si el PDF se llama distinto del .txt guardado (p. ej. CEFTAZIDIMA.txt ↔ CEFTAZIDIMA_2MG_01ML_…_PNT.pdf)."""
     ruta = CRUDOS / 'sefh' / f'{stem}.txt'
     if not ruta.exists():
         raise SystemExit(f'SEFH {stem}: no existe {ruta}')
     lineas = [x.strip() for x in _lineas(ruta)]
     titulo = next(x for x in lineas if x)
     indice = (CRUDOS / 'sefh' / 'indice.html').read_text(encoding='utf-8', errors='ignore')
-    m = re.search(rf'href="([^"]*{re.escape(stem)}\.pdf)"', indice, re.I)
+    m = re.search(rf'href="([^"]*{re.escape(enlace or stem)}\.pdf)"', indice, re.I)
     if not m:
         raise SystemExit(f'SEFH {stem}: no hay enlace en sefh/indice.html')
     url = m.group(1)

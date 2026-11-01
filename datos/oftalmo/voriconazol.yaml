@@ -1,0 +1,92 @@
+id: voriconazol
+nombre: Voriconazol intravítreo
+comerciales: []
+grupo: antifungico
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-200
+  forma: polvo
+  cantidad:
+    valor: 200
+    unidad: mg
+  registrosIsp:
+  - F-22354/25
+  usoDirecto: false
+  nota: Vial de uso intravenoso; el uso intravítreo es off-label. Medicamento peligroso (lista NIOSH 3).
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-22354/25 Fusitop liofilizado para solución inyectable 200 mg (voriconazol)
+dosis:
+- indicacion: Endoftalmitis fúngica
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 100
+      unidad: mcg
+    volumenMl: 0.1
+  texto: 100 µg en 0,1 ml (1 mg/ml) en inyección intravítrea.
+  estatus: off_label
+  condicion: Preparación magistral del PNT; el voriconazol no tiene indicación intravítrea en su ficha.
+  fuente:
+    ref: SEFH-PNT-VORICONAZOL-100MCG-01ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Posología: 100 microgramos/0,1 ml por vía intravítrea'
+  tambien:
+  - ref: WEB-OFT-ANFOTERICINA-IV-PMC13676249
+    detalle: 'Aspergillus: voriconazol 50 µg/0,1 mL'
+protocolos:
+- id: pnt-sefh-1-mg-ml
+  dosis: 0
+  titulo: Desde el vial de 200 mg (PNT SEFH)
+  partida: vial-200
+  pasos:
+  - tipo: reconstituir
+    diluyente: 'agua para inyección: agregar 19 ml, a través de un filtro de sistema cerrado (quedan 20 ml a 10 mg/ml)'
+    volumenMl: 20
+  - tipo: texto
+    texto: Agitar suavemente hasta que la solución esté libre de partículas visibles.
+  - tipo: diluir
+    tomarMl: 1
+    llevarAMl: 10
+    diluyente: cloruro de sodio 0,9 %
+  - tipo: texto
+    texto: Queda a 1 mg/ml (1000 µg/ml). Filtrar (0,22 µm) 0,5 ml sobre jeringas de 1 ml a través de su cono y tapar con tapón
+      estéril.
+  resultado:
+    valor: 500
+    unidad: mcg
+    volumenMl: 0.5
+  fuente:
+    ref: SEFH-PNT-VORICONAZOL-100MCG-01ML-INYECCIN-INTRAVTREA-PNT
+    detalle: Método específico, pasos 1 a 6
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: El PNT cita un caso pediátrico en su bibliografía, pero no da una pauta; no se carga.
+conservacion:
+- texto: 'Jeringa preparada: 9 días refrigerada (2–8 °C) o 45 días congelada (−20 °C), protegida de la luz y la humedad.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-VORICONAZOL-100MCG-01ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad al principio activo o a algún excipiente (ficha técnica de uso intravenoso, CIMA 4.3).
+alertas:
+- Desechar si hay partículas, precipitado o color amarillo oscuro (PNT SEFH).
+- 'Medicamento peligroso (NIOSH 3): preparar en campana de flujo laminar y valorar con el servicio de prevención si hace falta
+  cabina de seguridad biológica (PNT SEFH).'
+discrepancias:
+- campo: Dosis intravítrea de voriconazol por 0,1 ml
+  valores:
+  - fuente: SEFH-PNT-VORICONAZOL-100MCG-01ML-INYECCIN-INTRAVTREA-PNT
+    valor: 100 µg/0,1 ml (PNT SEFH)
+  - fuente: WEB-OFT-ANFOTERICINA-IV-PMC13676249
+    valor: 50 µg/0,1 ml (Kang 2026, Aspergillus)
+  mostrado: 100 µg/0,1 ml
+  motivo: El PNT fija 100 µg; una serie clínica de endoftalmitis por Aspergillus usó 50 µg.
+meta: {}

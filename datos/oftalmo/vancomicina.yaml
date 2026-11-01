@@ -1,0 +1,90 @@
+id: vancomicina
+nombre: Vancomicina intravítrea
+comerciales: []
+grupo: antibiotico
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-500
+  forma: polvo
+  cantidad:
+    valor: 500
+    unidad: mg
+  registrosIsp:
+  - B-3218/26
+  usoDirecto: false
+  nota: Vial de uso intravenoso; el uso intravítreo es off-label y se prepara en farmacia.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-3218/26 Vancomicina liofilizado para solución inyectable 500 mg
+dosis:
+- indicacion: Endoftalmitis bacteriana
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenMl: 0.1
+  texto: 1 mg en 0,1 ml (10 mg/ml) en inyección intravítrea, en general dosis única. Si hay gas o aceite de silicona, reducir
+    la dosis (1/4 a 1/10); en vitrectomía, al 50 %.
+  estatus: off_label
+  condicion: Preparación magistral del PNT; la vancomicina no tiene indicación intravítrea en su ficha.
+  fuente:
+    ref: SEFH-PNT-VANCOMICINA-HIDROCLORURO-10MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Composición: 5 mg de vancomicina en 0,5 ml (10 mg/ml); Posología: dosis única'
+  tambien:
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: vancomicina 1 mg/0,1 ml'
+  - ref: WEB-OFT-AMIKACINA-IV-PMC13405202
+    detalle: 'Endoftalmitis: vancomicina intravítrea 1 mg/0,1 ml'
+protocolos:
+- id: pnt-sefh-10-mg-ml
+  dosis: 0
+  titulo: Desde el vial de 500 mg (PNT SEFH)
+  partida: vial-500
+  pasos:
+  - tipo: reconstituir
+    diluyente: 'agua para inyección: agregar 10 ml (queda a 50 mg/ml)'
+    volumenMl: 10
+  - tipo: diluir
+    tomarMl: 2
+    llevarAMl: 10
+    diluyente: cloruro de sodio 0,9 %
+  - tipo: texto
+    texto: Homogeneizar la mezcla en la misma jeringa (queda a 10 mg/ml).
+  - tipo: texto
+    texto: Filtrar (0,22 µm) 0,5 ml de esta solución sobre una jeringa de insulina de 1 ml, tapar, envasar en bolsa y etiquetar.
+      El volumen inyectado es 0,1 ml; el resto compensa el espacio muerto de la jeringa y la aguja.
+  resultado:
+    valor: 5
+    unidad: mg
+    volumenMl: 0.5
+  fuente:
+    ref: SEFH-PNT-VANCOMICINA-HIDROCLORURO-10MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: Método específico, pasos 1 a 7
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: El PNT y las fuentes consultadas no traen una pauta pediátrica.
+conservacion:
+- texto: 'Jeringa preparada: 9 días refrigerada (2–8 °C) y protegida de la luz; 30 horas a temperatura ambiente. Congelada,
+    hay datos de 6 meses con ensayos de esterilidad.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-VANCOMICINA-HIDROCLORURO-10MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad al principio activo o a algún excipiente (ficha técnica de uso intravenoso, CIMA 4.3).
+- La ficha de uso intravenoso prohíbe la vía intramuscular por riesgo de necrosis (CIMA 4.3).
+alertas:
+- 'ALERTA ROJA — La vancomicina intraocular se ha asociado a vasculitis retiniana oclusiva hemorrágica (HORV): en la serie
+  de 36 ojos, 33 recibieron vancomicina por bolo intracameral, 22 (61 %) terminaron con visión de 20/200 o peor y 8 (22 %)
+  sin percepción de luz (Witkin 2017). No uses esta ficha para la vía intracameral.'
+- Reducir la dosis de los antibióticos intravítreos si se usó gas o aceite de silicona (PNT SEFH).
+discrepancias: []
+meta: {}

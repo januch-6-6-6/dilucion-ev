@@ -1,0 +1,72 @@
+id: foscarnet
+nombre: Foscarnet intravítreo
+comerciales: []
+grupo: antiviral
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: sol-24
+  forma: solucion
+  cantidad:
+    valor: 24
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-27647/23
+  usoDirecto: true
+  nota: 'Solución de uso intravenoso a 24 mg/ml. El ISP no informa el contenido del envase: se modela por 1 ml para expresar
+    la concentración. La dosis intravítrea publicada tiene la misma concentración (24 mg/ml), por eso se usa sin diluir.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-27647/23 Foscarnet sódico hexahidrato solución inyectable 24 mg/mL
+dosis:
+- indicacion: 'Retinitis por citomegalovirus y necrosis retinal aguda: complemento del tratamiento sistémico'
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2.4
+      unidad: mg
+    volumenMl: 0.1
+  texto: 2,4 mg en 0,1 ml (24 mg/ml) en inyección intravítrea; algunas series usan 1,2 mg en 0,05 ml (misma concentración).
+    La frecuencia varía entre las fuentes (semanal o dos veces por semana).
+  estatus: off_label
+  condicion: La ficha técnica del foscarnet no incluye la vía intravítrea.
+  presentaciones:
+  - sol-24
+  fuente:
+    ref: WEB-OFT-FOSCARNET-IV-PMC13665908
+    detalle: 'Guía NIH citada: foscarnet 2,4 mg por inyección, semanal en la inducción'
+  tambien:
+  - ref: WEB-OFT-FOSCARNET-IV-PMC13087365
+    detalle: Foscarnet intravítreo 1,2 mg/0,05 mL bajo anestesia y luego en consulta
+  - ref: WEB-OFT-FOSCARNET-IV-PMC13283819
+    detalle: 'Necrosis retinal aguda: foscarnet 1,2–2,4 mg/0,1 mL dos veces por semana'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Esta ficha no trae pasos de preparación: ninguna fuente aceptable los describe paso a paso. La guía NIH/CDC/IDSA no se
+  pudo leer directamente (403); se cita a través de Su 2026.'
+- 'Con 1,2 mg en 0,05 ml y 2,4 mg en 0,1 ml la concentración es la misma (24 mg/ml): confirma el volumen que se va a inyectar
+  antes de cargar la jeringa.'
+discrepancias:
+- campo: Frecuencia de las inyecciones intravítreas de foscarnet
+  valores:
+  - fuente: WEB-OFT-FOSCARNET-IV-PMC13665908
+    valor: Una vez por semana durante la inducción (guía NIH, citada por Su 2026)
+  - fuente: WEB-OFT-FOSCARNET-IV-PMC13087365
+    valor: Dos veces por semana (Amiri 2026)
+  - fuente: WEB-OFT-FOSCARNET-IV-PMC13283819
+    valor: Dos veces por semana (Thompson 2026)
+  mostrado: La frecuencia la fija el oftalmólogo tratante
+  motivo: Las series clínicas usan dos veces por semana y la guía citada una vez por semana; no se muestra una pauta única.
+meta: {}

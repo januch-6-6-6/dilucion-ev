@@ -1,0 +1,49 @@
+id: dexametasona-implante
+nombre: Dexametasona, implante intravítreo (Ozurdex)
+comerciales: []
+grupo: corticoide
+familias:
+- intravitreo
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: ozurdex-700
+  forma: implante
+  cantidad:
+    valor: 700
+    unidad: mcg
+  registrosIsp:
+  - F-19167/22
+  usoDirecto: false
+  nota: Implante de 700 µg en un aplicador de un solo uso. No se prepara ni se diluye.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-19167/22 Ozurdex implante intravítreo
+dosis:
+- indicacion: Edema macular diabético en pseudofáquicos, edema macular por oclusión venosa retiniana y uveítis no infecciosa
+    del segmento posterior
+  via: intravitrea
+  poblacion: adulto
+  texto: Un implante de 700 µg por vía intravítrea en el ojo afectado. No se recomienda en ambos ojos al mismo tiempo. Cada
+    aplicador es para un solo ojo.
+  estatus: autorizada
+  fuente:
+    ref: CIMA-OFT-DEXAMETASONA-IMPLANTE-10638001
+    detalle: '4.2 Posología: un implante OZURDEX por vía intravítrea en el ojo afectado'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No se han establecido la seguridad y eficacia en la población pediátrica; no hay datos (CIMA 4.2).
+conservacion: []
+contraindicaciones:
+- Hipersensibilidad al principio activo o a algún excipiente (CIMA 4.3).
+alertas:
+- 'Es un implante: no hay concentración ni volumen que verificar. Solo un oftalmólogo con experiencia en inyecciones intravítreas
+  debe aplicarlo (CIMA 4.2).'
+- Con desgarro de la cápsula posterior o una apertura del iris al vítreo hay riesgo de que el implante se desplace a la cámara
+  anterior y cause edema o descompensación corneal (CIMA 4.4).
+discrepancias: []
+meta: {}

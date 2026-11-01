@@ -99,3 +99,92 @@ describe('lote 1: las 13 intracamerales', () => {
     expect(r.ok && r.algunaCoincide).toBe(true)
   })
 })
+
+const INTRAVITREAS = [
+  'bevacizumab', 'ranibizumab', 'aflibercept', 'faricimab', 'brolucizumab', 'dexametasona-implante', 'vancomicina', 'ceftazidima',
+  'amikacina', 'anfotericina-b', 'voriconazol', 'ganciclovir', 'foscarnet', 'clindamicina', 'metotrexato', 'ocriplasmina',
+]
+
+describe('lote 2: intravítreas', () => {
+  it('hay exactamente las 16 intravítreas del listado', () => {
+    const ids = oculares.filter((f) => f.familias[0] === 'intravitreo').map((f) => f.id).sort()
+    expect(ids).toEqual([...INTRAVITREAS].sort())
+  })
+  it('las no registradas del lote son brolucizumab, anfotericina B y ocriplasmina', () => {
+    const ids = oculares.filter((f) => f.familias[0] === 'intravitreo' && f.registroChile === 'no_registrado').map((f) => f.id).sort()
+    expect(ids).toEqual(['anfotericina-b', 'brolucizumab', 'ocriplasmina'])
+  })
+  it('anti-VEGF listos para usar: usoDirecto y alerta de eliminar el exceso de volumen', () => {
+    for (const id of ['ranibizumab', 'aflibercept', 'faricimab', 'brolucizumab']) {
+      const f = obtenerOcular(id)!
+      expect(f.presentaciones.every((p) => p.usoDirecto), id).toBe(true)
+      expect(f.protocolos, id).toEqual([])
+      expect(f.alertas.join(' '), id).toContain('elimina el exceso')
+    }
+  })
+  it('Lucentis trae la dosis pediátrica de 0,2 mg/0,02 ml (retinopatía del prematuro)', () => {
+    const f = obtenerOcular('ranibizumab')!
+    expect(f.pediatria.estado).toBe('con_dosis')
+    expect(f.dosis.map((d) => [d.poblacion, d.final!.cantidad, d.final!.volumenMl])).toEqual([
+      ['adulto', { valor: 0.5, unidad: 'mg' }, 0.05],
+      ['pediatrico', { valor: 0.2, unidad: 'mg' }, 0.02],
+    ])
+  })
+  it('bevacizumab: 1,25 mg/0,05 ml off-label y el protocolo del PNT cuadra sin diluir', () => {
+    const f = obtenerOcular('bevacizumab')!
+    expect(f.dosis).toHaveLength(1)
+    expect(f.dosis[0].estatus).toBe('off_label')
+    expect(f.dosis[0].final).toEqual({ cantidad: { valor: 1.25, unidad: 'mg' }, volumenMl: 0.05 })
+    const r = verificar({ presentacion: f.presentaciones[0], pasos: [], objetivos: [f.dosis[0].final!] })
+    expect(r.ok && r.algunaCoincide).toBe(true)
+  })
+  it('dexametasona en implante es informativa: sin protocolo ni cifra de concentración', () => {
+    const f = obtenerOcular('dexametasona-implante')!
+    expect(f.modo).toBe('informativa')
+    expect(f.protocolos).toEqual([])
+    expect(f.dosis[0].final).toBeUndefined()
+  })
+  it('ceftazidima muestra 2 mg/0,1 ml y registra la discrepancia con 2,25 mg', () => {
+    const f = obtenerOcular('ceftazidima')!
+    expect(f.dosis[0].final).toEqual({ cantidad: { valor: 2, unidad: 'mg' }, volumenMl: 0.1 })
+    const d = f.discrepancias[0]
+    expect(d.valores.map((v) => v.valor).join(' | ')).toContain('2,25 mg/0,1 ml')
+    expect(d.valores.length).toBeGreaterThanOrEqual(3)
+  })
+  it('vancomicina: el verificador acepta 10 ml → 2 ml → 10 ml y rechaza 10 ml → 1 ml → 10 ml', () => {
+    const f = obtenerOcular('vancomicina')!
+    const presentacion = f.presentaciones[0]
+    const objetivos = objetivosDe(f, presentacion.id)
+    const bien = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 10 }, { tipo: 'diluir', tomarMl: 2, llevarAMl: 10 }], objetivos })
+    const mal = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 10 }, { tipo: 'diluir', tomarMl: 1, llevarAMl: 10 }], objetivos })
+    expect(bien.ok && bien.algunaCoincide).toBe(true)
+    expect(mal.ok && mal.algunaCoincide).toBe(false)
+  })
+  it('vancomicina lleva la alerta roja HORV y amikacina la de infarto macular', () => {
+    expect(obtenerOcular('vancomicina')!.alertas.join(' ')).toContain('HORV')
+    expect(obtenerOcular('amikacina')!.alertas.join(' ')).toContain('INFARTO MACULAR')
+  })
+  it('amikacina, anfotericina B, clindamicina, foscarnet y metotrexato no traen protocolo', () => {
+    for (const id of ['amikacina', 'anfotericina-b', 'clindamicina', 'foscarnet', 'metotrexato']) {
+      expect(obtenerOcular(id)!.protocolos, id).toEqual([])
+    }
+  })
+  it('voriconazol (200 mg → 20 ml → 1 mg/ml) y ganciclovir (500 mg → 10 ml → 2 ml a 5 ml) cuadran con el verificador', () => {
+    const v = obtenerOcular('voriconazol')!
+    const rv = verificar({ presentacion: v.presentaciones[0], pasos: [{ tipo: 'reconstituir', volumenMl: 20 }, { tipo: 'diluir', tomarMl: 1, llevarAMl: 10 }], objetivos: [v.dosis[0].final!] })
+    expect(rv.ok && rv.algunaCoincide).toBe(true)
+    const g = obtenerOcular('ganciclovir')!
+    const rg = verificar({ presentacion: g.presentaciones[0], pasos: [{ tipo: 'reconstituir', volumenMl: 10 }, { tipo: 'diluir', tomarMl: 2, llevarAMl: 5 }], objetivos: [g.dosis[0].final!] })
+    expect(rg.ok && rg.algunaCoincide).toBe(true)
+  })
+  it('discrepancias registradas: ganciclovir (PNT vs consenso), anfotericina (5 vs 10 µg) y foscarnet (frecuencia)', () => {
+    expect(obtenerOcular('ganciclovir')!.discrepancias).toHaveLength(1)
+    expect(obtenerOcular('anfotericina-b')!.dosis[0].final!.cantidad).toEqual({ min: 5, max: 10, unidad: 'mcg' })
+    expect(obtenerOcular('foscarnet')!.discrepancias[0].campo).toContain('Frecuencia')
+  })
+  it('solo brolucizumab, el implante de dexametasona y ocriplasmina quedan con una sola fuente (la ficha CIMA); el resto está contrastado', () => {
+    const unica = INTRAVITREAS.filter((id) => verificacionDeOcular(obtenerOcular(id)!) === 'fuente_unica').sort()
+    expect(unica).toEqual(['brolucizumab', 'dexametasona-implante', 'ocriplasmina'])
+    for (const id of INTRAVITREAS.filter((x) => !unica.includes(x))) expect(verificacionDeOcular(obtenerOcular(id)!), id).toBe('contrastada')
+  })
+})
