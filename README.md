@@ -30,9 +30,11 @@ Son capturas reales de la app en un celular de 360 px, montadas en un marco de t
 Versión 0.2: 89 medicamentos en tres tandas — urgencia/prehospitalario (42), antibióticos, antivirales y antifúngicos (25) y hospitalarios (22) — con compatibilidad en Y para todos los pares (Stabilis).
 Revisión clínica del autor aplicada el 2-oct-2026: decisiones documentadas en `informes/v0.2-decisiones-revision.md` y aplicadas en `scripts/fichas/revision.py`; discrepancias entre fuentes en `informes/v0.2-revision-clinica.md`. Las fichas **no están firmadas como validadas**: falta la validación de un químico farmacéutico antes de cualquier uso en terreno.
 
-**Módulo Orales (APS):** 79 medicamentos orales del arsenal de Atención Primaria de Salud chilena con calculadora pediátrica por peso/edad, dosis fija de adulto, conversión a presentaciones líquidas (jarabes y gotas) y cotejo de fuentes (CIMA y Pediamécum). Revisión: `informes/orales-v1-revision-pendiente.md`.
+**Módulo Orales (APS):** 86 medicamentos orales (79 del arsenal de Atención Primaria de Salud chilena con calculadora pediátrica por peso/edad, dosis fija de adulto, conversión a presentaciones líquidas (jarabes y gotas) y cotejo de fuentes (CIMA y Pediamécum). Siete de ellos, y cuatro más que ya existían, llevan además pautas de uso oftalmológico. Revisión: `informes/orales-v1-revision-pendiente.md`.
 
 **Módulo Tópicos (ojo, oído y nariz):** 80 moléculas o combinaciones registradas en el ISP, con sus presentaciones chilenas y las pautas atadas a la concentración chilena (CIMA, DailyMed y Pediamécum). Son 13 fichas contrastadas, 51 de una sola fuente (con aviso) y 16 informativas sin pauta. Incluye la calculadora «¿Cuánto dura el frasco?». Diseño: `docs/superpowers/specs/2026-10-31-topicos-design.md`; revisión: `informes/topicos-discrepancias.md`.
+
+**Módulo Oftalmología (pabellón y orales):** 41 preparaciones de uso intraocular y periocular (13 intracamerales, 16 intravítreas, 4 bloqueos, 5 perioculares y 3 antifibróticos con toxina) más los 11 orales con uso oftalmológico, con un **verificador** que compara lo que preparaste con la dosis de la fuente (no propone cómo preparar). 27 fichas contrastadas, 12 de una sola fuente y 2 sin pauta; 9 productos sin registro en Chile se muestran con aviso. Solo se muestran pasos de preparación publicados por una fuente. Material de formación, no de prescripción: verifica el protocolo de tu pabellón. Pendiente: revisión clínica. Diseño: `docs/superpowers/specs/2026-11-01-oftalmologia-design.md`; revisión: `informes/oftalmologia-revision.md`.
 
 ## Desarrollo
 
@@ -40,9 +42,11 @@ Revisión clínica del autor aplicada el 2-oct-2026: decisiones documentadas en 
 npm install
 npm run dev                  # servidor local
 npm test                     # pruebas (cálculos, validador, pantallas y build PWA)
-npm run validar              # valida medicamentos EV, fichas orales y tópicas
+npm run validar              # valida medicamentos EV, fichas orales, tópicas y oftalmológicas
 python3 scripts/generar-orales.py  # regenera datos/orales/*.yaml y fuentes-orales.yaml
 python3 scripts/generar-topicos.py # regenera datos/topicos/*.yaml y fuentes-topicos.yaml (desde scripts/topicos/lote1..4.py)
+python3 scripts/generar-oftalmo.py # regenera datos/oftalmo/*.yaml y fuentes-oftalmo.yaml (lote1..3); los orales oftálmicos salen de scripts/orales/tanda4.py
+python3 scripts/informe-oftalmo.py # regenera informes/oftalmologia-revision.md
 npm run build                # valida datos y compila
 ```
 

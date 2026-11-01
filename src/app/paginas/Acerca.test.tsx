@@ -30,4 +30,11 @@ describe('Acerca', () => {
     expect(screen.getByText(/atada a la concentración y forma registradas en Chile/i)).toBeInTheDocument()
     expect(screen.getByText(/20 gotas por ml/i)).toBeInTheDocument()
   })
+
+  it('explica la sección de Oftalmología: pasos citados, verificador y sus límites', () => {
+    render(<MemoryRouter><Acerca /></MemoryRouter>)
+    expect(screen.getByText(/solo se muestran pasos de preparación que una fuente publica/i)).toBeInTheDocument()
+    expect(screen.getByText(/el verificador solo compara/i)).toBeInTheDocument()
+    expect(screen.getByText(/verifica el protocolo de tu pabellón/i)).toBeInTheDocument()
+  })
 })

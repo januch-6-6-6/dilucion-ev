@@ -17,6 +17,29 @@ describe('App', () => {
     expect(within(nav).getByRole('link', { name: 'EV' })).toHaveAttribute('href', '#/')
     expect(within(nav).getByRole('link', { name: 'Orales' })).toHaveAttribute('href', '#/orales')
   })
+  it('la navegación tiene Oftalmología después de Tópicos', () => {
+    render(<App />)
+    const nav = screen.getByRole('navigation', { name: 'Secciones' })
+    const textos = within(nav).getAllByRole('link').map((a) => a.textContent)
+    expect(textos).toEqual(['EV', 'Orales', 'Tópicos', 'Oftalmología'])
+    expect(within(nav).getByRole('link', { name: 'Oftalmología' })).toHaveAttribute('href', '#/oftalmologia')
+  })
+  it('/oftalmologia/m/cefuroxima renderiza la ficha y /oftalmologia el centro', async () => {
+    window.location.hash = '#/oftalmologia/m/cefuroxima'
+    const { unmount } = render(<App />)
+    expect(await screen.findByRole('heading', { name: /Cefuroxima intracameral/ })).toBeInTheDocument()
+    unmount()
+    window.location.hash = '#/oftalmologia'
+    render(<App />)
+    expect(await screen.findByRole('tab', { name: 'Pabellón' })).toBeInTheDocument()
+    window.location.hash = ''
+  })
+  it('/oftalmologia/m/cefuroxima/verificar renderiza el verificador', async () => {
+    window.location.hash = '#/oftalmologia/m/cefuroxima/verificar'
+    render(<App />)
+    expect(await screen.findByRole('heading', { name: /Verificar mi preparación/ })).toBeInTheDocument()
+    window.location.hash = ''
+  })
   it('«Orales» queda activa en rutas que empiezan por /orales', async () => {
     window.location.hash = '#/orales'
     render(<App />)

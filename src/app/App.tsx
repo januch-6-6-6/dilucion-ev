@@ -15,6 +15,9 @@ const CalculadoraOral = lazy(() => import('./orales/CalculadoraOral'))
 const ListaTopicos = lazy(() => import('./topicos/ListaTopicos'))
 const FichaTopica = lazy(() => import('./topicos/FichaTopica'))
 const CalculadoraTopica = lazy(() => import('./topicos/CalculadoraTopica'))
+const CentroOftalmologia = lazy(() => import('./oftalmo/CentroOftalmologia'))
+const FichaOcular = lazy(() => import('./oftalmo/FichaOcular'))
+const VerificadorOcular = lazy(() => import('./oftalmo/VerificadorOcular'))
 
 /** Cabecera con degradado. En la portada (/) agrega la presentación: qué es y para quién. */
 function Cabecera() {
@@ -30,6 +33,7 @@ function Cabecera() {
           <NavLink to="/" end>EV</NavLink>
           <NavLink to="/orales">Orales</NavLink>
           <NavLink to="/topicos">Tópicos</NavLink>
+          <NavLink to="/oftalmologia">Oftalmología</NavLink>
         </nav>
         {portada && (
           <div className="presentacion">
@@ -64,6 +68,9 @@ export default function App() {
           <Route path="/topicos" element={<ListaTopicos />} />
           <Route path="/topicos/m/:id" element={<FichaTopica />} />
           <Route path="/topicos/m/:id/calcular" element={<CalculadoraTopica />} />
+          <Route path="/oftalmologia" element={<CentroOftalmologia />} />
+          <Route path="/oftalmologia/m/:id" element={<FichaOcular />} />
+          <Route path="/oftalmologia/m/:id/verificar" element={<VerificadorOcular />} />
           <Route path="/ambito/:ambito" element={<Lista />} />
           <Route path="/grupo/:grupo" element={<Lista />} />
           <Route path="/m/:id" element={<Ficha />} />
