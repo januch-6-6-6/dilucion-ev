@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { verificar, objetivosDe, type PasoNumerico } from '../calculos/verificadorOcular'
 import { validarOculares } from '../esquema/validar-oculares'
+import { colorGrupo } from '../app/colores'
+import { etiquetaGrupo } from '../app/etiquetas'
+import { orales } from './cargarOrales'
 import { fuentesOculares, obtenerOcular, oculares, verificacionDeOcular } from './cargarOculares'
 
 // Recetas de mezcla que no caben en el verificador de una presentación (usan varias ampollas y otros fármacos).
@@ -269,5 +272,31 @@ describe('lote 3: bloqueos, perioculares y antifibróticos', () => {
     const ids = [...BLOQUEOS, ...PERIOCULARES, ...ANTIFIBROTICOS]
     const unica = ids.filter((id) => verificacionDeOcular(obtenerOcular(id)!) === 'fuente_unica').sort()
     expect(unica).toEqual(['dexametasona', 'gentamicina', 'metilprednisolona', 'toxina-botulinica'])
+  })
+})
+
+describe('conteos finales y grupos de la sección Oftalmología', () => {
+  it('hay 41 fichas oculares: 13 intracamerales, 16 intravítreas, 4 bloqueos, 5 perioculares y 3 antifibróticos', () => {
+    expect(oculares).toHaveLength(41)
+    const porFamilia = (f: string) => oculares.filter((o) => o.familias[0] === f).length
+    expect([porFamilia('intracameral'), porFamilia('intravitreo'), porFamilia('bloqueo'), porFamilia('periocular'), porFamilia('antifibrotico')])
+      .toEqual([13, 16, 4, 5, 3])
+  })
+
+  it('9 fichas no registradas en Chile, todas con ficha FDA o CIMA como fuente', () => {
+    const ids = oculares.filter((o) => o.registroChile === 'no_registrado').map((o) => o.id).sort()
+    expect(ids).toEqual(['acetilcolina', 'anfotericina-b', 'azul-brillante', 'azul-tripano', 'brolucizumab', 'carbacol', 'fenilefrina-ketorolaco', 'ocriplasmina', 'ropivacaina'])
+  })
+
+  it('toda ficha ocular es de alto riesgo', () => {
+    expect(oculares.filter((o) => !o.altoRiesgo).map((o) => o.id)).toEqual([])
+  })
+
+  it('todo grupo de las fichas oculares y de los orales oftalmológicos tiene etiqueta legible y color propio (nunca neutro)', () => {
+    const grupos = new Set([...oculares.map((o) => o.grupo), ...orales.filter((o) => o.usos?.includes('oftalmologia')).map((o) => o.grupo)])
+    for (const g of grupos) {
+      expect(etiquetaGrupo(g), `etiqueta de ${g}`).not.toBe(g)
+      expect(colorGrupo(g), `color de ${g}`).not.toBe('neutro')
+    }
   })
 })

@@ -17,7 +17,24 @@ const NUEVOS_ORALES: Record<string, string> = {
   'vitamina-mineral': 'Vitaminas y minerales',
 }
 
+const OFTALMO: Record<string, string> = {
+  'anestesico-local': 'Anestésicos locales',
+  miotico: 'Mióticos',
+  colorante: 'Colorantes',
+  fibrinolitico: 'Fibrinolíticos',
+  'anti-vegf': 'Anti-VEGF',
+  antifungico: 'Antifúngicos',
+  antiviral: 'Antivirales',
+  enzima: 'Enzimas',
+  antimetabolito: 'Antimetabolitos',
+  toxina: 'Toxinas',
+}
+
 describe('etiquetaGrupo', () => {
+  it('los grupos de Oftalmología tienen etiqueta propia distinta del id', () => {
+    for (const [id, nombre] of Object.entries(OFTALMO)) expect(etiquetaGrupo(id)).toBe(nombre)
+  })
+
   it('los grupos nuevos de orales tienen etiqueta propia distinta del id', () => {
     for (const [id, nombre] of Object.entries(NUEVOS_ORALES)) {
       expect(etiquetaGrupo(id)).toBe(nombre)

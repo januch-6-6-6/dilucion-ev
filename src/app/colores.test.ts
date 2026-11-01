@@ -25,6 +25,16 @@ describe('colorGrupo', () => {
   it('todo grupo usado en los datos tiene color (salvo hematológico)', () => {
     for (const m of medicamentos) if (m.grupo !== 'hematologico') expect(colorGrupo(m.grupo), m.id).not.toBe('neutro')
   })
+  it('grupos de Oftalmología: color asignado, nunca neutro ni rojo', () => {
+    const tabla: Record<string, string> = {
+      'anestesico-local': 'turquesa', miotico: 'ambar', colorante: 'naranjo', fibrinolitico: 'verde', 'anti-vegf': 'indigo',
+      antifungico: 'cian', antiviral: 'cian', enzima: 'lima', antimetabolito: 'violeta', toxina: 'naranjo',
+    }
+    for (const [g, c] of Object.entries(tabla)) {
+      expect(colorGrupo(g), g).toBe(c)
+      expect(colorGrupo(g), g).not.toMatch(/rojo|red/)
+    }
+  })
   it('un grupo nuevo sin color usa el neutro (nunca rojo, reservado a alertas)', () => expect(colorGrupo('antibiotico-x')).toBe('neutro'))
   it('grupos nuevos de orales: color asignado, nunca neutro ni rojo', () => {
     const tabla: Record<string, string> = {

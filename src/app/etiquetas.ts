@@ -52,6 +52,17 @@ export const GRUPOS: Record<string, string> = {
   'lavado-nasal': 'Lavado nasal',
   'lubricante-ocular': 'Lubricantes oculares',
   'analgesico-otico': 'Analgésicos óticos',
+  // Oftalmología (pabellón)
+  'anestesico-local': 'Anestésicos locales',
+  miotico: 'Mióticos',
+  colorante: 'Colorantes',
+  fibrinolitico: 'Fibrinolíticos',
+  'anti-vegf': 'Anti-VEGF',
+  antifungico: 'Antifúngicos',
+  antiviral: 'Antivirales',
+  enzima: 'Enzimas',
+  antimetabolito: 'Antimetabolitos',
+  toxina: 'Toxinas',
 }
 
 export const etiquetaGrupo = (g: string) => GRUPOS[g] ?? g

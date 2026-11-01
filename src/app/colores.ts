@@ -46,6 +46,17 @@ const COLORES: Record<string, ColorGrupo> = {
   'lavado-nasal': 'verde',
   'lubricante-ocular': 'turquesa',
   'analgesico-otico': 'azul',
+  // Oftalmología (pabellón)
+  'anestesico-local': 'turquesa',
+  miotico: 'ambar',
+  colorante: 'naranjo',
+  fibrinolitico: 'verde',
+  'anti-vegf': 'indigo',
+  antifungico: 'cian',
+  antiviral: 'cian',
+  enzima: 'lima',
+  antimetabolito: 'violeta',
+  toxina: 'naranjo',
 }
 
 export const colorGrupo = (grupo: string): ColorGrupo => COLORES[grupo] ?? 'neutro'
