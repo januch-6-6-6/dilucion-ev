@@ -308,3 +308,5 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
   .compatibilidad td:first-child { font-size: 0.9rem; }
   .compatibilidad cite { font-size: 0.7rem; }
 }
+
+.solo-lector { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

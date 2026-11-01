@@ -38,8 +38,9 @@ describe('lote piloto: cefuroxima y moxifloxacino', () => {
   })
   it('moxifloxacino: dos protocolos off-label y una discrepancia con las cinco posturas', () => {
     const f = obtenerOcular('moxifloxacino')!
-    expect(f.dosis.map((d) => d.estatus)).toEqual(['off_label', 'off_label'])
+    expect(f.dosis.map((d) => d.estatus)).toEqual(['off_label', 'off_label', 'off_label'])
     expect(objetivosDe(f, 'oftalmica-0-5').map((o) => o.cantidad)).toEqual([
+      { valor: 0.5, unidad: 'mg' },
       { valor: 0.5, unidad: 'mg' },
       { valor: 150, unidad: 'mcg' },
     ])
@@ -254,6 +255,26 @@ describe('lote 3: bloqueos, perioculares y antifibróticos', () => {
     const mal = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 10 }], objetivos })
     expect(bien.ok && bien.algunaCoincide).toBe(true)
     expect(mal.ok && mal.algunaCoincide).toBe(false)
+  })
+  it('toxina botulínica: compara con las diluciones exactas de la etiqueta (1,25 / 2,5 / 5 U por 0,1 ml), no con un rango', () => {
+    const f = obtenerOcular('toxina-botulinica')!
+    const presentacion = f.presentaciones[0]
+    const objetivos = objetivosDe(f, presentacion.id)
+    expect(objetivos.every((o) => 'valor' in o.cantidad)).toBe(true)
+    expect(objetivos.map((o) => ('valor' in o.cantidad ? o.cantidad.valor : null)).sort((a, b) => (a ?? 0) - (b ?? 0))).toEqual([1.25, 2.5, 5])
+    for (const ml of [8, 4, 2]) {
+      const r = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: ml }], objetivos })
+      expect(r.ok && r.algunaCoincide, `${ml} ml`).toBe(true)
+    }
+    // 3 ml dan 3,33 U por 0,1 ml: está entre dos diluciones de la etiqueta y no coincide con ninguna
+    const intermedia = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 3 }], objetivos })
+    expect(intermedia.ok && intermedia.algunaCoincide).toBe(false)
+  })
+  it('moxifloxacino: la alternativa ASCRS de 0,5 ml al 0,1 % (0,5 mg) es una dosis comparable', () => {
+    const f = obtenerOcular('moxifloxacino')!
+    const finales = objetivosDe(f, f.presentaciones[0].id)
+    expect(finales).toContainEqual({ cantidad: { valor: 0.5, unidad: 'mg' }, volumenMl: 0.5 })
+    expect(finales).toContainEqual({ cantidad: { valor: 0.5, unidad: 'mg' }, volumenMl: 0.1 })
   })
   it('5-FU: el vial de 50 mg/ml sin diluir da 5 mg en 0,1 ml, y 1 ml → 5 ml da la solución de 10 mg/ml', () => {
     const f = obtenerOcular('fluorouracilo')!

@@ -26,12 +26,6 @@ dosis:
 - indicacion: Blefaroespasmo esencial benigno y trastornos del nervio VII
   via: intramuscular
   poblacion: adulto
-  final:
-    cantidad:
-      min: 1.25
-      max: 2.5
-      unidad: U
-    volumenMl: 0.1
   texto: Dosis inicial de 1,25 a 2,5 U (0,05 a 0,1 ml) por sitio, en el orbicular preseptal medial y lateral del párpado superior
     y lateral del inferior. Aguja de 27 a 30 G. En sesiones siguientes puede aumentar hasta el doble; más de 5 U por sitio
     aporta poco beneficio. Máximo 200 U acumuladas en 30 días.
@@ -50,12 +44,6 @@ dosis:
 - indicacion: Estrabismo vertical o horizontal de menos de 20 dioptrías prismáticas, y parálisis persistente del nervio VI
   via: intramuscular
   poblacion: adulto
-  final:
-    cantidad:
-      min: 1.25
-      max: 2.5
-      unidad: U
-    volumenMl: 0.1
   texto: 1,25 a 2,5 U en cualquier músculo, con 0,05 a 0,15 ml por músculo. No inyectar sin exposición quirúrgica ni guía
     electromiográfica. Las dosis siguientes pueden subir hasta el doble.
   estatus: autorizada
@@ -70,12 +58,6 @@ dosis:
 - indicacion: Estrabismo horizontal de 20 a 50 dioptrías prismáticas
   via: intramuscular
   poblacion: adulto
-  final:
-    cantidad:
-      min: 2.5
-      max: 5
-      unidad: U
-    volumenMl: 0.1
   texto: 2,5 a 5 U en cualquier músculo, con 0,05 a 0,15 ml por músculo. Tenga a mano instrumentos para descomprimir la órbita.
   estatus: autorizada
   condicion: Autorizada en la etiqueta FDA de Botox para mayores de 12 años. La dosis y el tiempo de aplicación los define
@@ -85,9 +67,54 @@ dosis:
   fuente:
     ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
     detalle: 'Estrabismo: 2,5 a 5 U en desviaciones horizontales de 20 a 50 dioptrías prismáticas'
+- indicacion: 'Diluciones de la etiqueta (tabla 1): lo que queda en el vial de 100 U según el diluyente agregado'
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 1.25
+      unidad: U
+    volumenMl: 0.1
+  texto: 'Vial de 100 U con 8 ml de cloruro de sodio 0,9 % inyectable sin conservantes: 1,25 U por 0,1 ml. Es la concentración
+    de la etiqueta, no la dosis: las U por sitio y el volumen por músculo están en las indicaciones de arriba.'
+  estatus: autorizada
+  condicion: La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente: *id001
+- indicacion: 'Diluciones de la etiqueta (tabla 1): lo que queda en el vial de 100 U según el diluyente agregado'
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2.5
+      unidad: U
+    volumenMl: 0.1
+  texto: 'Vial de 100 U con 4 ml de cloruro de sodio 0,9 % inyectable sin conservantes: 2,5 U por 0,1 ml. Es la concentración
+    de la etiqueta, no la dosis: las U por sitio y el volumen por músculo están en las indicaciones de arriba.'
+  estatus: autorizada
+  condicion: La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente: *id001
+- indicacion: 'Diluciones de la etiqueta (tabla 1): lo que queda en el vial de 100 U según el diluyente agregado'
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 5.0
+      unidad: U
+    volumenMl: 0.1
+  texto: 'Vial de 100 U con 2 ml de cloruro de sodio 0,9 % inyectable sin conservantes: 5 U por 0,1 ml. Es la concentración
+    de la etiqueta, no la dosis: las U por sitio y el volumen por músculo están en las indicaciones de arriba.'
+  estatus: autorizada
+  condicion: La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente: *id001
 protocolos:
 - id: botox-100-8ml
-  dosis: 0
+  dosis: 3
   titulo: Vial de 100 U con 8 ml (1,25 U por 0,1 ml)
   partida: botox-100
   pasos:
@@ -110,7 +137,7 @@ protocolos:
     volumenMl: 0.1
   fuente: *id001
 - id: botox-100-4ml
-  dosis: 0
+  dosis: 4
   titulo: Vial de 100 U con 4 ml (2,5 U por 0,1 ml)
   partida: botox-100
   pasos:
@@ -126,7 +153,7 @@ protocolos:
     volumenMl: 0.1
   fuente: *id001
 - id: botox-100-2ml
-  dosis: 2
+  dosis: 5
   titulo: Vial de 100 U con 2 ml (5 U por 0,1 ml)
   partida: botox-100
   pasos:
@@ -156,6 +183,8 @@ conservacion:
 contraindicaciones: []
 alertas:
 - La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+- 'El verificador compara solo con las diluciones de la etiqueta (1,25; 2,5 y 5 U por 0,1 ml). La dosis en U por sitio y el
+  volumen por músculo no se verifican: los define el cirujano.'
 - 'ALTO RIESGO: las unidades de Botox NO son intercambiables con las de otras toxinas botulínicas (Dysport, Xeomin y otras);
   no conviertas unidades entre marcas.'
 - Reconstituir SOLO con cloruro de sodio al 0,9 % inyectable sin conservantes (etiqueta FDA).

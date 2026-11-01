@@ -21,7 +21,7 @@ beforeEach(() => localStorage.clear())
 
 async function cefuroximaVial750(reconstituir: string, tomar: string, llevarA: string) {
   montar('cefuroxima')
-  await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'vial-750')
+  await userEvent.selectOptions(screen.getByLabelText('Frasco o presentación de partida'), 'vial-750')
   await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), reconstituir)
   await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
   await userEvent.selectOptions(screen.getByLabelText('Paso 2: tipo'), 'diluir')
@@ -32,7 +32,7 @@ async function cefuroximaVial750(reconstituir: string, tomar: string, llevarA: s
 describe('VerificadorOcular', () => {
   it('cefuroxima: frasco de 750 mg, reconstituir 7,5 y diluir 1→10 coincide con la fuente', async () => {
     await cefuroximaVial750('7,5', '1', '10')
-    const estado = screen.getByRole('status')
+    const estado = screen.getByTestId('resultado')
     expect(estado).toHaveTextContent('Coincide con')
     expect(estado).toHaveTextContent('1 mg en 0,1 ml')
     expect(estado).not.toHaveTextContent('NO coincide')
@@ -43,7 +43,7 @@ describe('VerificadorOcular', () => {
     expect(
       screen.getByText('NO coincide: obtuviste 1,25 mg en 0,1 ml; la fuente dice 1 mg en 0,1 ml. No administres; revisa los pasos.'),
     ).toBeInTheDocument()
-    expect(screen.getByRole('status')).not.toHaveTextContent('Coincide con')
+    expect(screen.getByTestId('resultado')).not.toHaveTextContent('Coincide con')
   })
 
   it('ceftazidima (PNT): 9,4 ml de agua dejan 10 ml; escribir 10 y diluir 2→10 coincide con 2 mg en 0,1 ml', async () => {
@@ -52,8 +52,8 @@ describe('VerificadorOcular', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
     await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '2')
     await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10')
-    expect(screen.getByRole('status')).toHaveTextContent('Coincide con')
-    expect(screen.getByRole('status')).not.toHaveTextContent('NO coincide')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Coincide con')
+    expect(screen.getByTestId('resultado')).not.toHaveTextContent('NO coincide')
   })
 
   it('el campo del polvo pide el volumen final y explica que el diluyente a agregar lo indica la ficha', () => {
@@ -63,19 +63,20 @@ describe('VerificadorOcular', () => {
 
   it('un volumen escrito como 1.000 se lee como 1 ml (no 1000) y 0.100 como 0,1', async () => {
     montar('cefuroxima')
-    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'vial-750')
+    await userEvent.selectOptions(screen.getByLabelText('Frasco o presentación de partida'), 'vial-750')
     await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '7.500')
     await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
     await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '1.000')
     await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10.000')
-    expect(screen.getByRole('status')).toHaveTextContent('Concentración final: 10 mg por ml')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Concentración final: 10 mg por ml')
   })
 
   it('moxifloxacino: diluir 3→10 coincide con la pauta de Arshinoff', async () => {
     montar('moxifloxacino')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
     await userEvent.type(screen.getByLabelText('Paso 1: tomar (ml)'), '3')
     await userEvent.type(screen.getByLabelText('Paso 1: llevar a (ml)'), '10')
-    const estado = screen.getByRole('status')
+    const estado = screen.getByTestId('resultado')
     expect(estado).toHaveTextContent('Coincide con')
     expect(estado).toHaveTextContent(/Arshinoff/)
   })
@@ -104,22 +105,22 @@ describe('VerificadorOcular', () => {
 
   it('muestra la concentración por ml y la cantidad en el volumen de la dosis', async () => {
     await cefuroximaVial750('7,5', '1', '10')
-    const estado = screen.getByRole('status')
+    const estado = screen.getByTestId('resultado')
     expect(estado).toHaveTextContent('Concentración final: 10 mg por ml')
     expect(estado).toHaveTextContent('En 0,1 ml hay 1 mg')
   })
 
   it('solo ofrece presentaciones que se preparan y pide completar los volúmenes antes de calcular', () => {
     montar('cefuroxima')
-    const opciones = within(screen.getByLabelText('Presentación')).getAllByRole('option')
+    const opciones = within(screen.getByLabelText('Frasco o presentación de partida')).getAllByRole('option')
     expect(opciones).toHaveLength(2)
-    expect(screen.getByRole('status')).toHaveTextContent('Completa los volúmenes de todos los pasos')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Completa los volúmenes de todos los pasos')
   })
 
   it('el polvo sin reconstituir avisa que primero se reconstituye', async () => {
     montar('cefuroxima')
     await userEvent.click(screen.getByRole('button', { name: 'Quitar paso 1' }))
-    expect(screen.getByRole('status')).toHaveTextContent('Primero reconstituye el polvo')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Primero reconstituye el polvo')
   })
 
   it('permite hasta 4 pasos y después deshabilita Agregar paso', async () => {
@@ -134,8 +135,72 @@ describe('VerificadorOcular', () => {
 
   it('un volumen que no se puede tomar muestra el error del cálculo, no una coincidencia', async () => {
     await cefuroximaVial750('7,5', '9', '10')
-    const estado = screen.getByRole('status')
+    const estado = screen.getByTestId('resultado')
     expect(estado).toHaveTextContent('No puedes tomar más volumen del que tienes')
     expect(estado).not.toHaveTextContent('Coincide con')
+  })
+
+  // M1: la concentración puede coincidir y aun así no quedar volumen para una dosis.
+  it('si la concentración coincide pero queda menos volumen que el de la dosis, avisa que no alcanza', async () => {
+    montar('cefuroxima')
+    await userEvent.selectOptions(screen.getByLabelText('Frasco o presentación de partida'), 'vial-750')
+    await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '75')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '0,05')
+    await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '0,05')
+    const estado = screen.getByTestId('resultado')
+    expect(estado).toHaveTextContent('no alcanza para una dosis')
+    expect(estado).not.toHaveTextContent('Coincide con')
+  })
+
+  // M3: una solución puede usarse sin diluir; no debe abrir con un paso vacío que bloquea el resultado.
+  it('bevacizumab (solución) abre sin pasos y compara el frasco tal como viene', () => {
+    montar('bevacizumab')
+    expect(screen.queryByLabelText(/^Paso 1: tipo$/)).not.toBeInTheDocument()
+    expect(screen.getByText(/Sin pasos: se compara la solución tal como viene/)).toBeInTheDocument()
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Coincide con')
+  })
+
+  // M4: el resumen anunciado es corto; el detalle queda fuera de la región viva.
+  it('la región de estado anuncia un resumen corto, no todo el resultado', async () => {
+    await cefuroximaVial750('7,5', '1', '10')
+    expect(screen.getByRole('status')).toHaveTextContent(/^Coincide con la fuente\.$/)
+  })
+  it('la región de estado avisa el rojo en una frase corta', async () => {
+    await cefuroximaVial750('7,5', '1', '8')
+    expect(screen.getByRole('status')).toHaveTextContent(/^No coincide con la fuente\. No administres; revisa los pasos\.$/)
+  })
+
+  // M5: unidades distintas (frasco en mg, dosis en mcg) y volumen tras reconstituir (el polvo ocupa volumen).
+  it('voriconazol: frasco en mg y dosis en mcg; 20 ml tras reconstituir y diluir 1→10 coincide con 100 mcg en 0,1 ml', async () => {
+    montar('voriconazol')
+    await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '20')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '1')
+    await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Coincide con')
+  })
+  it('voriconazol: escribir los 19 ml de agua en vez de los 20 ml finales da rojo (el polvo ocupa volumen)', async () => {
+    montar('voriconazol')
+    await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '19')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '1')
+    await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('NO coincide')
+  })
+
+  // M6: la alternativa de la ASCRS (0,5 ml al 0,1 %) es válida y no debe salir en rojo.
+  it('moxifloxacino: 0,5 % diluido 1→5 (al 0,1 %) coincide con la alternativa ASCRS de 0,5 ml', async () => {
+    montar('moxifloxacino')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 1: tomar (ml)'), '1')
+    await userEvent.type(screen.getByLabelText('Paso 1: llevar a (ml)'), '5')
+    const estado = screen.getByTestId('resultado')
+    expect(estado).toHaveTextContent('Coincide con')
+    expect(estado).not.toHaveTextContent('NO coincide')
+  })
+  it('moxifloxacino: la solución al 0,5 % sin diluir (sin pasos) coincide con ASCRS', () => {
+    montar('moxifloxacino')
+    expect(screen.getByTestId('resultado')).toHaveTextContent('Coincide con')
   })
 })

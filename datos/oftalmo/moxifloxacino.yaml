@@ -47,6 +47,22 @@ dosis:
   poblacion: adulto
   final:
     cantidad:
+      valor: 0.5
+      unidad: mg
+    volumenMl: 0.5
+  texto: 'ASCRS 2023, alternativa: 0,5 ml de una solución al 0,1 % (1 mg/ml), que también da 0,5 mg en total. Se obtiene,
+    por ejemplo, diluyendo la solución al 0,5 % de 1 ml a 5 ml.'
+  estatus: off_label
+  condicion: Misma recomendación ASCRS leída de forma secundaria. Solo cambia la concentración y el volumen; la dosis total
+    es la misma.
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12577578
+    detalle: 'Dosis ASCRS: 0,5 mg con 0,1 ml de solución al 0,5 % o 0,5 ml de una al 0,1 %'
+- indicacion: Profilaxis de endoftalmitis tras cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
       valor: 150
       unidad: mcg
     volumenMl: 0.1
@@ -75,7 +91,7 @@ protocolos:
     ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12823917
     detalle: 'Tabla del ECA de Egipto 2022: 0,1 ml (0,5 mg) de moxifloxacino al 0,5 % sin diluir'
 - id: arshinoff-3-7
-  dosis: 1
+  dosis: 2
   titulo: 'Arshinoff: 3 ml de moxifloxacino 0,5 % + 7 ml de BSS'
   partida: oftalmica-0-5
   pasos:

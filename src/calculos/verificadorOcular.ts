@@ -3,7 +3,13 @@ import { convertirOcular, TOLERANCIA_OCULAR, type CantidadOcular, type DosisFina
 /** Un paso de preparación ya con números (los que escribe el usuario en el verificador). */
 export type PasoNumerico = { tipo: 'reconstituir'; volumenMl: number } | { tipo: 'diluir'; tomarMl: number; llevarAMl: number }
 
-export type Comparacion = { dosis: DosisFinal; estado: 'coincide' | 'no_coincide'; diferenciaPct: number | null }
+export type Comparacion = {
+  dosis: DosisFinal
+  estado: 'coincide' | 'no_coincide'
+  diferenciaPct: number | null
+  /** El volumen que queda tras los pasos alcanza para el volumen de esta dosis. */
+  volumenAlcanza: boolean
+}
 
 export type ResultadoVerificacion =
   | {
@@ -63,12 +69,13 @@ export function verificar(e: { presentacion: PresentacionOcular; pasos: PasoNume
     if (enUnidadObj === null) return fallo(`Unidades no comparables: el frasco está en ${porMl.unidad} y la dosis en ${unidadObj}.`)
     const obtenido = enUnidadObj * o.volumenMl
     porVolumenObjetivo.push({ valor: obtenido, unidad: unidadObj })
+    const volumenAlcanza = volumen >= o.volumenMl - EPS
     if ('min' in o.cantidad) {
       const dentro = obtenido >= o.cantidad.min * (1 - EPS) && obtenido <= o.cantidad.max * (1 + EPS)
-      comparaciones.push({ dosis: o, estado: dentro ? 'coincide' : 'no_coincide', diferenciaPct: null })
+      comparaciones.push({ dosis: o, estado: dentro ? 'coincide' : 'no_coincide', diferenciaPct: null, volumenAlcanza })
     } else {
       const pct = ((obtenido - o.cantidad.valor) / o.cantidad.valor) * 100
-      comparaciones.push({ dosis: o, estado: Math.abs(pct) <= TOLERANCIA_OCULAR * 100 + EPS ? 'coincide' : 'no_coincide', diferenciaPct: pct })
+      comparaciones.push({ dosis: o, estado: Math.abs(pct) <= TOLERANCIA_OCULAR * 100 + EPS ? 'coincide' : 'no_coincide', diferenciaPct: pct, volumenAlcanza })
     }
   }
   return {
@@ -77,13 +84,19 @@ export function verificar(e: { presentacion: PresentacionOcular; pasos: PasoNume
     porVolumenObjetivo,
     volumenDisponibleMl: volumen,
     comparaciones,
-    algunaCoincide: comparaciones.some((c) => c.estado === 'coincide'),
+    /** Coincide solo si la concentración es la de la fuente Y queda volumen para una dosis. */
+    algunaCoincide: comparaciones.some((c) => c.estado === 'coincide' && c.volumenAlcanza),
   }
 }
 
-/** El verificador existe solo en fichas intraoculares con una dosis final y al menos una presentación que se prepara. */
+/** El verificador existe solo en fichas intraoculares con alguna presentación que se prepara y tiene una dosis de la fuente con la que comparar. */
 export function tieneVerificador(f: FichaOcular): boolean {
-  return f.modo === 'intraocular' && f.dosis.some((d) => d.final) && f.presentaciones.some((p) => !p.usoDirecto)
+  return f.modo === 'intraocular' && presentacionesVerificables(f).length > 0
+}
+
+/** Presentaciones que se preparan y tienen al menos una dosis final de la fuente contra la que comparar. */
+export function presentacionesVerificables(f: FichaOcular): PresentacionOcular[] {
+  return f.presentaciones.filter((p) => !p.usoDirecto && objetivosDe(f, p.id).length > 0)
 }
 
 /** Dosis finales de la fuente que aplican a esa presentación (una dosis sin `presentaciones` aplica a todas). */

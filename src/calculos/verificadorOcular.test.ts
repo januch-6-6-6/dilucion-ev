@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { FichaOcular, type DosisFinal, type PresentacionOcular } from '../esquema/ficha-ocular'
 import { fichaOcularValida } from '../esquema/__fixtures__/oculares'
-import { objetivosDe, tieneVerificador, verificar, type PasoNumerico } from './verificadorOcular'
+import { objetivosDe, presentacionesVerificables, tieneVerificador, verificar, type PasoNumerico } from './verificadorOcular'
 
 const fuente = { ref: 'ISP', detalle: 'x' }
 const pres = (p: Partial<PresentacionOcular>): PresentacionOcular => ({
@@ -110,5 +110,36 @@ describe('tieneVerificador y objetivosDe', () => {
     const ficha = FichaOcular.parse(f)
     expect(objetivosDe(ficha, 'polvo-750')).toEqual([])
     expect(objetivosDe(ficha, 'otra')).toHaveLength(1)
+  })
+})
+
+describe('volumen disponible frente al volumen de la dosis', () => {
+  const jeringa = pres({ forma: 'solucion', cantidad: { valor: 1, unidad: 'mg' }, volumenMl: 0.05 })
+  it('la concentración coincide pero queda menos volumen del que pide la dosis: no alcanza y no cuenta como coincidencia', () => {
+    const r = verificar({ presentacion: jeringa, pasos: [], objetivos: [puntual(2, 'mg', 0.1)] })
+    if (!r.ok) throw new Error(r.error)
+    expect(r.comparaciones[0]).toMatchObject({ estado: 'coincide', volumenAlcanza: false })
+    expect(r.algunaCoincide).toBe(false)
+  })
+  it('si el volumen alcanza (diluyendo a 0,1 ml o más) sí coincide', () => {
+    const r = verificar({ presentacion: jeringa, pasos: [dil(0.05, 0.1)], objetivos: [puntual(1, 'mg', 0.1)] })
+    if (!r.ok) throw new Error(r.error)
+    expect(r.comparaciones[0]).toMatchObject({ estado: 'coincide', volumenAlcanza: true })
+    expect(r.algunaCoincide).toBe(true)
+  })
+})
+
+describe('presentacionesVerificables', () => {
+  it('excluye las presentaciones sin dosis aplicable y tieneVerificador lo respeta', () => {
+    const f = fichaOcularValida()
+    f.presentaciones.push({ ...f.presentaciones[0], id: 'otra' })
+    f.dosis[0].presentaciones = ['otra']
+    const ficha = FichaOcular.parse(f)
+    expect(presentacionesVerificables(ficha).map((p) => p.id)).toEqual(['otra'])
+    const sola = fichaOcularValida()
+    sola.presentaciones.push({ ...sola.presentaciones[0], id: 'directa', usoDirecto: true, volumenMl: 0.05 })
+    sola.dosis[0].presentaciones = ['directa']
+    sola.protocolos = []
+    expect(tieneVerificador(FichaOcular.parse(sola))).toBe(false)
   })
 })

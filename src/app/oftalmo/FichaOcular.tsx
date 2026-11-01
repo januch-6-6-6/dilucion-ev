@@ -301,7 +301,7 @@ export default function FichaOcular() {
       )}
       <div role="tablist" aria-label="Secciones de la ficha" className="pestanas">
         {PESTANAS.map((p) => (
-          <button key={p} role="tab" type="button" aria-selected={activa === p} aria-controls={`panel-${p}`} id={`tab-${p}`} onClick={() => setActiva(p)}>
+          <button key={p} role="tab" type="button" aria-selected={activa === p} aria-controls={activa === p ? `panel-${p}` : undefined} id={`tab-${p}`} onClick={() => setActiva(p)}>
             {p}
           </button>
         ))}

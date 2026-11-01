@@ -156,3 +156,25 @@ describe('FichaOcular', () => {
     expect(screen.getByText('Medicamento no encontrado')).toBeInTheDocument()
   })
 })
+
+describe('pestañas accesibles', () => {
+  const controlesExisten = () => {
+    for (const t of screen.getAllByRole('tab')) {
+      const ids = t.getAttribute('aria-controls')
+      if (ids) expect(document.getElementById(ids), `aria-controls ${ids}`).not.toBeNull()
+    }
+  }
+  it('en la ficha, aria-controls solo apunta a un panel que existe', async () => {
+    montar('/oftalmologia/m/cefuroxima')
+    controlesExisten()
+    await userEvent.click(screen.getByRole('tab', { name: 'Alertas' }))
+    controlesExisten()
+    expect(screen.getByRole('tab', { name: 'Alertas' })).toHaveAttribute('aria-controls', 'panel-Alertas')
+  })
+  it('en el centro, aria-controls solo apunta a un panel que existe', async () => {
+    montar('/oftalmologia')
+    controlesExisten()
+    await userEvent.click(screen.getByRole('tab', { name: 'Orales' }))
+    controlesExisten()
+  })
+})

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { parsearNumero } from '../../calculos/numeros'
-import { MAX_PASOS, objetivosDe, tieneVerificador, verificar, type PasoNumerico } from '../../calculos/verificadorOcular'
+import { MAX_PASOS, objetivosDe, presentacionesVerificables, tieneVerificador, verificar, type PasoNumerico } from '../../calculos/verificadorOcular'
 import { obtenerOcular } from '../../datos/cargarOculares'
 import { convertirOcular, type DosisOcular, type FichaOcular, type PresentacionOcular, type UnidadOcular } from '../../esquema/ficha-ocular'
 import { AVISO_FORMACION, AVISO_PABELLON, describirPresentacion, finalTexto, unidadTexto } from './textos'
@@ -12,7 +12,8 @@ type Fila = { clave: number; tipo: TipoPaso; a: string; b: string }
 const redondear = (n: number) => Number(n.toPrecision(3))
 const coma = (n: number) => String(redondear(n)).replace('.', ',')
 
-const filaInicial = (p: PresentacionOcular, clave: number): Fila => ({ clave, tipo: p.forma === 'polvo' ? 'reconstituir' : 'diluir', a: '', b: '' })
+/** El polvo siempre parte reconstituyéndose; una solución puede usarse tal como viene, así que no abre con ningún paso. */
+const filasIniciales = (p: PresentacionOcular, clave: number): Fila[] => (p.forma === 'polvo' ? [{ clave, tipo: 'reconstituir', a: '', b: '' }] : [])
 
 /** Dosis de la fuente que aplican a la presentación, en el mismo orden que `objetivosDe`. */
 const dosisConFinal = (f: FichaOcular, presentacionId: string): DosisOcular[] =>
@@ -41,32 +42,37 @@ function aPasos(filas: Fila[]): PasoNumerico[] | null {
 }
 
 function VerificadorVista({ f }: { f: FichaOcular }) {
-  const preparables = f.presentaciones.filter((p) => !p.usoDirecto)
+  const preparables = presentacionesVerificables(f)
   const [presentacionId, setPresentacionId] = useState(preparables[0].id)
   const presentacion = preparables.find((p) => p.id === presentacionId) ?? preparables[0]
-  const [filas, setFilas] = useState<Fila[]>([filaInicial(preparables[0], 1)])
+  const [filas, setFilas] = useState<Fila[]>(filasIniciales(preparables[0], 1))
   const [siguiente, setSiguiente] = useState(2)
 
   const cambiarFila = (clave: number, cambio: Partial<Fila>) => setFilas(filas.map((x) => (x.clave === clave ? { ...x, ...cambio } : x)))
   const elegirPresentacion = (id: string) => {
     const nueva = preparables.find((p) => p.id === id) ?? preparables[0]
     setPresentacionId(nueva.id)
-    setFilas([filaInicial(nueva, siguiente)])
+    setFilas(filasIniciales(nueva, siguiente))
     setSiguiente(siguiente + 1)
   }
 
   const pasos = aPasos(filas)
   const dosis = dosisConFinal(f, presentacion.id)
   let salida: React.ReactNode
+  let resumen: string
   if (pasos === null) {
     salida = <span className="falta">Completa los volúmenes de todos los pasos</span>
+    resumen = 'Completa los volúmenes de todos los pasos.'
   } else {
     const r = verificar({ presentacion, pasos, objetivos: objetivosDe(f, presentacion.id) })
     if (!r.ok) {
       salida = <span className="falta">{r.error}</span>
+      resumen = r.error
     } else {
       const lineas = r.comparaciones.map((c, i) => ({ c, d: dosis[i], obtenido: r.porVolumenObjetivo[i] }))
-      const coinciden = lineas.filter((l) => l.c.estado === 'coincide')
+      const coinciden = lineas.filter((l) => l.c.estado === 'coincide' && l.c.volumenAlcanza)
+      const sinVolumen = lineas.filter((l) => l.c.estado === 'coincide' && !l.c.volumenAlcanza)
+      resumen = coinciden.length > 0 ? 'Coincide con la fuente.' : sinVolumen.length > 0 ? 'La concentración coincide pero el volumen no alcanza para una dosis.' : 'No coincide con la fuente. No administres; revisa los pasos.'
       salida = (
         <>
           <p>Concentración final: {coma(r.porMl.valor)} {unidadTexto(r.porMl.unidad)} por ml</p>
@@ -93,6 +99,11 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
               </ul>
               <p className="sin-datos">Solo compara con la fuente: confirma el resultado con el protocolo de tu pabellón.</p>
             </div>
+          ) : sinVolumen.length > 0 ? (
+            <p className="alerta-roja">
+              La concentración coincide con la fuente, pero te quedan {coma(r.volumenDisponibleMl)} ml y la dosis es de{' '}
+              {coma(sinVolumen[0].d.final?.volumenMl ?? 0)} ml: no alcanza para una dosis. Revisa los volúmenes.
+            </p>
           ) : (
             <p className="alerta-roja">{textoNoCoincide(lineas)}</p>
           )}
@@ -116,7 +127,7 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
       <p className="sin-datos">Esta herramienta solo compara lo que preparaste con la dosis de la fuente; no propone cómo preparar.</p>
       <label className="campo">
         <span>Frasco o presentación de partida</span>
-        <select aria-label="Presentación" value={presentacion.id} onChange={(e) => elegirPresentacion(e.target.value)}>
+        <select value={presentacion.id} onChange={(e) => elegirPresentacion(e.target.value)}>
           {preparables.map((p) => (
             <option key={p.id} value={p.id}>
               {describirPresentacion(p)}
@@ -132,6 +143,9 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
         </p>
       )}
       <h3>Pasos que hiciste</h3>
+      {filas.length === 0 && presentacion.forma !== 'polvo' && (
+        <p className="sin-datos">Sin pasos: se compara la solución tal como viene. Agrega un paso si la diluiste.</p>
+      )}
       {filas.map((fila, i) => {
         const n = i + 1
         return (
@@ -179,7 +193,10 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
         Agregar paso
       </button>
       <div className="salida">
-        <div role="status" className="resultado">
+        <p role="status" className="solo-lector">
+          {resumen}
+        </p>
+        <div data-testid="resultado" className="resultado">
           {salida}
         </div>
       </div>

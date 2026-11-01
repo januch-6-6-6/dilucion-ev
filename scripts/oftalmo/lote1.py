@@ -69,6 +69,12 @@ def fichas():
                condicion='La recomendación de la ASCRS se leyó de forma secundaria: su texto completo es solo para socios.',
                tambien=[abuz('Tabla del ECA de Egipto 2022: 0,1 ml (0,5 mg) de moxifloxacino al 0,5 % sin diluir')]),
          dosis('Profilaxis de endoftalmitis tras cirugía de catarata', 'intracameral',
+               'ASCRS 2023, alternativa: 0,5 ml de una solución al 0,1 % (1 mg/ml), que también da 0,5 mg en total. '
+               'Se obtiene, por ejemplo, diluyendo la solución al 0,5 % de 1 ml a 5 ml.',
+               final(0.5, 'mg', 0.5), sura('Dosis ASCRS: 0,5 mg con 0,1 ml de solución al 0,5 % o 0,5 ml de una al 0,1 %'),
+               estatus='off_label',
+               condicion='Misma recomendación ASCRS leída de forma secundaria. Solo cambia la concentración y el volumen; la dosis total es la misma.'),
+         dosis('Profilaxis de endoftalmitis tras cirugía de catarata', 'intracameral',
                'Arshinoff 2016: 3 ml de moxifloxacino al 0,5 % + 7 ml de BSS (1,5 mg/ml = 150 µg/0,1 ml). Se inyectan 0,3 a 0,4 ml '
                '(450 a 600 µg) por el puerto lateral al final de la cirugía, con la incisión principal sellada e hidratada.',
                final(150, 'mcg', 0.1), arsh('Resumen: dilución de 3 cc de Vigamox 0,5 % con 7 cc de BSS y 0,3 a 0,4 cc (450 a 600 mcg)'),
@@ -78,7 +84,7 @@ def fichas():
             protocolo('ascrs-sin-diluir', 0, 'ASCRS: solución al 0,5 % sin diluir', 'oftalmica-0-5',
                       [texto('Usar la solución al 0,5 % tal como viene, sin diluir.'), cargar(0.1)],
                       (0.5, 'mg', 0.1), abuz('Tabla del ECA de Egipto 2022: 0,1 ml (0,5 mg) de moxifloxacino al 0,5 % sin diluir')),
-            protocolo('arshinoff-3-7', 1, 'Arshinoff: 3 ml de moxifloxacino 0,5 % + 7 ml de BSS', 'oftalmica-0-5',
+            protocolo('arshinoff-3-7', 2, 'Arshinoff: 3 ml de moxifloxacino 0,5 % + 7 ml de BSS', 'oftalmica-0-5',
                       [diluir(3, 10, 'solución salina balanceada (BSS)'),
                        texto('Inyectar 0,3 a 0,4 ml (450 a 600 µg) por el puerto lateral como último paso de la cirugía.')],
                       (150, 'mcg', 0.1), arsh('Resumen: dilución de 3 cc de Vigamox 0,5 % con 7 cc de BSS'))],
