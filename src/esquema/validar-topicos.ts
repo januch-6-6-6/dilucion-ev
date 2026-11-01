@@ -21,7 +21,7 @@ export function verificacionTopica(ficha: FichaTopica, fuentes: Fuente[]): Verif
   return contrastada ? 'contrastada' : 'fuente_unica'
 }
 
-function refsDeFuente(valor: unknown, ruta: string, salida: { ruta: string; ref: string }[]) {
+export function refsDeFuente(valor: unknown, ruta: string, salida: { ruta: string; ref: string }[]) {
   if (Array.isArray(valor)) {
     valor.forEach((v, i) => refsDeFuente(v, `${ruta}[${i}]`, salida))
   } else if (valor && typeof valor === 'object') {
@@ -40,7 +40,7 @@ function refsDeFuente(valor: unknown, ruta: string, salida: { ruta: string; ref:
   }
 }
 
-const rutaLegible = (ruta: PropertyKey[]): string =>
+export const rutaLegible = (ruta: PropertyKey[]): string =>
   ruta.reduce<string>((acc, seg) => (typeof seg === 'number' ? `${acc}[${seg}]` : acc ? `${acc}.${String(seg)}` : String(seg)), '')
 
 /** Valida fichas tópicas y sus fuentes. Devuelve errores legibles; lista vacía = todo OK. */

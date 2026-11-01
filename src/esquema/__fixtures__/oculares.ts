@@ -55,3 +55,13 @@ export function fichaOcularValida() {
     meta: {},
   } as Record<string, any>
 }
+
+const f = (id: string, institucion: string) => ({
+  id,
+  titulo: `Fuente ${id}`,
+  institucion,
+  url: `https://ejemplo.cl/${id}`,
+  anio: 2025,
+  consultado: '2026-11-01',
+})
+export const fuentesOcularesPrueba = [f('ISP', 'ISP'), f('PNT', 'SEFH'), f('PNT2', 'SEFH'), f('EYEWIKI', 'AAO')]
