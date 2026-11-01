@@ -120,6 +120,12 @@ describe('FichaOcular', () => {
     }
   })
 
+  it('triamcinolona rotula 40 mg en 1 ml como concentración de referencia, nunca como «Dosis final»', () => {
+    montar('/oftalmologia/m/triamcinolona')
+    expect(screen.queryByText(/Dosis final/)).not.toBeInTheDocument()
+    expect(screen.getAllByText(/Concentración de referencia: 40 mg en 1 ml/).length).toBeGreaterThan(0)
+  })
+
   it('la ficha de toxina botulínica muestra la vía intramuscular con su etiqueta', () => {
     montar('/oftalmologia/m/toxina-botulinica')
     expect(screen.getAllByText(/Intramuscular/).length).toBeGreaterThan(0)

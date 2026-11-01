@@ -28,11 +28,11 @@ dosis:
   poblacion: adulto
   final:
     cantidad:
-      min: 0.2
+      min: 0.1
       max: 0.5
       unidad: mg
     volumenMl: 1
-  texto: 'Esponjas empapadas con 0,2 a 0,5 mg/ml bajo la conjuntiva durante 1 a 5 minutos (EyeWiki: de 30 segundos a 5 minutos).
+  texto: 'Esponjas empapadas con 0,1 a 0,5 mg/ml bajo la conjuntiva durante 1 a 5 minutos (EyeWiki: de 30 segundos a 5 minutos).
     En poblaciones de ascendencia africana, al menos 0,4 mg/ml durante 3 minutos y hasta 1,0 mg/ml en los casos difíciles.'
   estatus: off_label
   condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
@@ -112,7 +112,7 @@ discrepancias:
     valor: mínimo 0,4 mg/ml durante 3 minutos; hasta 1,0 mg/ml en casos difíciles
   - fuente: WEB-OFT-ANTIFIBROTICOS-EYEWIKI.ORG/TRABECULECTOMY
     valor: 30 segundos a 5 minutos
-  mostrado: 0,2 a 0,5 mg/ml
-  motivo: Cada autor fija su propia concentración y tiempo según el riesgo del paciente; se muestra el rango central y la
-    dosis la define el cirujano.
+  mostrado: 0,1 a 0,5 mg/ml
+  motivo: Cada autor fija su propia concentración y tiempo según el riesgo del paciente; se muestra el rango de la fuente
+    principal (0,1 a 0,5 mg/ml), que incluye todo lo que otros usan salvo los casos difíciles, y la dosis la define el cirujano.
 meta: {}

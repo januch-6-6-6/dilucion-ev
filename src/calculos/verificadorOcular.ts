@@ -25,7 +25,7 @@ const fallo = (error: string): ResultadoVerificacion => ({ ok: false, error })
 
 /**
  * Calcula la concentración que resulta de los pasos y la compara con las dosis de la fuente.
- * Solo compara: nunca propone cómo preparar. Supuesto: el volumen tras reconstituir es igual al diluyente agregado.
+ * Solo compara: nunca propone cómo preparar. El volumen de una reconstitución es el volumen total que queda tras disolver el polvo (el que indica la fuente), no el diluyente agregado: el polvo puede ocupar volumen.
  */
 export function verificar(e: { presentacion: PresentacionOcular; pasos: PasoNumerico[]; objetivos: DosisFinal[] }): ResultadoVerificacion {
   const { presentacion: p, pasos, objetivos } = e

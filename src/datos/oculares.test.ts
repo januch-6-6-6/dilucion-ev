@@ -299,4 +299,10 @@ describe('conteos finales y grupos de la sección Oftalmología', () => {
       expect(colorGrupo(g), `color de ${g}`).not.toBe('neutro')
     }
   })
+
+  it('mitomicina muestra el rango de la fuente citada (0,1 a 0,5 mg/ml), no un rango central inventado', () => {
+    const esponja = obtenerOcular('mitomicina')!.dosis[0]
+    expect(esponja.final).toEqual({ cantidad: { min: 0.1, max: 0.5, unidad: 'mg' }, volumenMl: 1 })
+    expect(esponja.texto).toContain('0,1 a 0,5 mg/ml')
+  })
 })

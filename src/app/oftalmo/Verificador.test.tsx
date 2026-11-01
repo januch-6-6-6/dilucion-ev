@@ -22,7 +22,7 @@ beforeEach(() => localStorage.clear())
 async function cefuroximaVial750(reconstituir: string, tomar: string, llevarA: string) {
   montar('cefuroxima')
   await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'vial-750')
-  await userEvent.type(screen.getByLabelText('Paso 1: diluyente agregado (ml)'), reconstituir)
+  await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), reconstituir)
   await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
   await userEvent.selectOptions(screen.getByLabelText('Paso 2: tipo'), 'diluir')
   await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), tomar)
@@ -44,6 +44,31 @@ describe('VerificadorOcular', () => {
       screen.getByText('NO coincide: obtuviste 1,25 mg en 0,1 ml; la fuente dice 1 mg en 0,1 ml. No administres; revisa los pasos.'),
     ).toBeInTheDocument()
     expect(screen.getByRole('status')).not.toHaveTextContent('Coincide con')
+  })
+
+  it('ceftazidima (PNT): 9,4 ml de agua dejan 10 ml; escribir 10 y diluir 2→10 coincide con 2 mg en 0,1 ml', async () => {
+    montar('ceftazidima')
+    await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '10')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '2')
+    await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10')
+    expect(screen.getByRole('status')).toHaveTextContent('Coincide con')
+    expect(screen.getByRole('status')).not.toHaveTextContent('NO coincide')
+  })
+
+  it('el campo del polvo pide el volumen final y explica que el diluyente a agregar lo indica la ficha', () => {
+    montar('ceftazidima')
+    expect(screen.getByText(/el polvo ocupa volumen/i)).toBeInTheDocument()
+  })
+
+  it('un volumen escrito como 1.000 se lee como 1 ml (no 1000) y 0.100 como 0,1', async () => {
+    montar('cefuroxima')
+    await userEvent.selectOptions(screen.getByLabelText('Presentación'), 'vial-750')
+    await userEvent.type(screen.getByLabelText('Paso 1: volumen final tras reconstituir (ml)'), '7.500')
+    await userEvent.click(screen.getByRole('button', { name: 'Agregar paso' }))
+    await userEvent.type(screen.getByLabelText('Paso 2: tomar (ml)'), '1.000')
+    await userEvent.type(screen.getByLabelText('Paso 2: llevar a (ml)'), '10.000')
+    expect(screen.getByRole('status')).toHaveTextContent('Concentración final: 10 mg por ml')
   })
 
   it('moxifloxacino: diluir 3→10 coincide con la pauta de Arshinoff', async () => {
@@ -73,7 +98,7 @@ describe('VerificadorOcular', () => {
 
   it('muestra el supuesto del volumen tras reconstituir y el aviso de pabellón', () => {
     montar('cefuroxima')
-    expect(screen.getByText(/el volumen final se toma igual al diluyente agregado/)).toBeInTheDocument()
+    expect(screen.getByText(/escribes el volumen total que queda tras disolver el polvo/)).toBeInTheDocument()
     expect(screen.getByText(AVISO_PABELLON)).toBeInTheDocument()
   })
 

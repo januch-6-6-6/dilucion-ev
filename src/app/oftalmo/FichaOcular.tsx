@@ -34,7 +34,7 @@ const sinPasos = (f: TFicha): boolean =>
 
 function textoDosis(d: DosisOcular, f: TFicha): string {
   const partes = [d.texto]
-  if (d.final) partes.push(`Dosis final: ${finalTexto(d.final)}`)
+  if (d.final) partes.push(`Concentración de referencia: ${finalTexto(d.final)}`)
   if (d.condicion) partes.push(d.condicion)
   if (d.presentaciones) {
     const solo = f.presentaciones.filter((p) => d.presentaciones?.includes(p.id)).map(describirPresentacion)

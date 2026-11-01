@@ -18,15 +18,21 @@ const filaInicial = (p: PresentacionOcular, clave: number): Fila => ({ clave, ti
 const dosisConFinal = (f: FichaOcular, presentacionId: string): DosisOcular[] =>
   f.dosis.filter((d) => d.final && (!d.presentaciones || d.presentaciones.includes(presentacionId)))
 
+/** «1.000» o «7.500» en un volumen en ml son jeringa con 3 decimales (1 y 7,5), no mil ni siete mil quinientos. */
+function leerVolumen(texto: string): number | null {
+  const t = texto.trim()
+  return /^\d+\.\d{3}$/.test(t) ? parsearNumero(t.replace('.', ',')) : parsearNumero(t)
+}
+
 function aPasos(filas: Fila[]): PasoNumerico[] | null {
   const pasos: PasoNumerico[] = []
   for (const fila of filas) {
-    const a = parsearNumero(fila.a)
+    const a = leerVolumen(fila.a)
     if (a === null) return null
     if (fila.tipo === 'reconstituir') {
       pasos.push({ tipo: 'reconstituir', volumenMl: a })
     } else {
-      const b = parsearNumero(fila.b)
+      const b = leerVolumen(fila.b)
       if (b === null) return null
       pasos.push({ tipo: 'diluir', tomarMl: a, llevarAMl: b })
     }
@@ -119,7 +125,11 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
         </select>
       </label>
       {presentacion.forma === 'polvo' && (
-        <p className="aviso">Supuesto: el volumen final se toma igual al diluyente agregado (el polvo no suma volumen).</p>
+        <p className="aviso">
+          Supuesto: escribes el volumen total que queda tras disolver el polvo, tal como lo indica la fuente (pestaña Preparación de la ficha). El
+          polvo ocupa volumen, así que ese total puede ser mayor que el diluyente que agregas; el verificador no lo calcula por ti.
+          {presentacion.nota ? ` Nota de la presentación: ${presentacion.nota}` : ''}
+        </p>
       )}
       <h3>Pasos que hiciste</h3>
       {filas.map((fila, i) => {
@@ -136,8 +146,8 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
             </label>
             {fila.tipo === 'reconstituir' ? (
               <label className="campo">
-                <span>Diluyente agregado (ml)</span>
-                <input inputMode="decimal" aria-label={`Paso ${n}: diluyente agregado (ml)`} value={fila.a} onChange={(e) => cambiarFila(fila.clave, { a: e.target.value })} />
+                <span>Volumen final tras reconstituir (ml)</span>
+                <input inputMode="decimal" aria-label={`Paso ${n}: volumen final tras reconstituir (ml)`} value={fila.a} onChange={(e) => cambiarFila(fila.clave, { a: e.target.value })} />
               </label>
             ) : (
               <>
@@ -151,7 +161,7 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
                 </label>
               </>
             )}
-            <button type="button" aria-label={`Quitar paso ${n}`} onClick={() => setFilas(filas.filter((x) => x.clave !== fila.clave))}>
+            <button type="button" className="boton-paso" aria-label={`Quitar paso ${n}`} onClick={() => setFilas(filas.filter((x) => x.clave !== fila.clave))}>
               Quitar paso
             </button>
           </fieldset>
@@ -159,6 +169,7 @@ function VerificadorVista({ f }: { f: FichaOcular }) {
       })}
       <button
         type="button"
+        className="boton-paso"
         disabled={filas.length >= MAX_PASOS}
         onClick={() => {
           setFilas([...filas, { clave: siguiente, tipo: 'diluir', a: '', b: '' }])

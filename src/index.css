@@ -213,6 +213,12 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .alerta-roja p { margin: 4px 0; }
 .alerta-roja p::before { content: '⚠ '; }
 .pasos { color: var(--suave); font-size: 0.9rem; }
+.resultado .coincide { margin-top: 12px; padding: 12px 16px; border-radius: 12px; background: var(--verde-estado-fondo); color: var(--verde-estado); font-size: 1rem; font-weight: 650; border-left: 5px solid var(--verde); }
+.resultado .coincide p, .resultado .coincide ul { margin: 4px 0; }
+.resultado .coincide p::before { content: '✓ '; }
+.resultado .alerta-roja { font-size: 1rem; }
+.boton-paso { min-height: 44px; min-width: 44px; padding: 8px 16px; margin: 6px 8px 6px 0; font: inherit; font-weight: 700; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie); color: var(--primario); cursor: pointer; }
+.boton-paso:disabled { opacity: 0.5; cursor: not-allowed; }
 .aviso, .aviso-fijo { background: var(--ambar-suave); color: var(--ambar-texto); padding: 12px 16px; border-radius: 12px; font-weight: 600; }
 
 /* ====== Aviso inicial ====== */

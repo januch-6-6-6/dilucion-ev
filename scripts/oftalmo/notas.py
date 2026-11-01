@@ -38,7 +38,7 @@ NOTAS = {
     'metilprednisolona': 'Una sola cita (Birtel 2026 describe un ensayo): 20 mg subconjuntival. La sal no está especificada.',
     'betametasona': 'Hosseini 2022: 2 mg; Birtel 2026: acetato 5,7 mg. Discrepancia registrada (sales distintas).',
     'dexametasona': 'Una sola serie (Ay 2026): 2 mg (0,5 ml de 4 mg/ml). No confundir con el implante Ozurdex.',
-    'mitomicina': 'Sin receta de reconstitución (no hay fuente aceptable). Esponja 0,2–0,5 mg/ml (0,4–1,0 en ascendencia africana), pterigión 0,02 %, inyección 0,1 ml de 0,1–0,4 mg/ml. Alerta: la define el cirujano.',
+    'mitomicina': 'Sin receta de reconstitución (no hay fuente aceptable). Esponja 0,1–0,5 mg/ml (rango de la fuente principal) (0,4–1,0 en ascendencia africana), pterigión 0,02 %, inyección 0,1 ml de 0,1–0,4 mg/ml. Alerta: la define el cirujano.',
     'fluorouracilo': 'Singh 2025 y Ahmed 2026: 5 mg (0,1 ml de 50 mg/ml o 0,5 ml de 10 mg/ml). El vial sin diluir tiene protocolo; la dilución a 10 mg/ml no trae pasos en la fuente.',
     'toxina-botulinica': 'Solo Botox (etiqueta FDA, tabla 1 de dilución). Se agregó la vía «intramuscular» al esquema. Unidades no intercambiables entre marcas.',
 }

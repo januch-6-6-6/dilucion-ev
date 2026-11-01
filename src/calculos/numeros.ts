@@ -5,7 +5,7 @@
  */
 export function parsearNumero(texto: string): number | null {
   let limpio = texto.trim()
-  if (/^\d{1,3}(\.\d{3})+(,\d+)?$/.test(limpio)) limpio = limpio.replace(/\./g, '')
+  if (/^[1-9]\d{0,2}(\.\d{3})+(,\d+)?$/.test(limpio)) limpio = limpio.replace(/\./g, '')
   limpio = limpio.replace(',', '.')
   if (limpio === '' || !/^[0-9]*\.?[0-9]+$/.test(limpio)) return null
   const n = Number(limpio)

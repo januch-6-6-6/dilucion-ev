@@ -228,9 +228,9 @@ def fichas():
         [pres('vial-20', 'polvo', 20, 'mg', isp('F-19531/22 Mitomicina liofilizado para solución inyectable 20 mg'), isp_codigos=['F-19531/22'],
               nota='Vial de uso intravenoso e intravesical; el uso ocular es off-label. Hay también el de 5 mg (F-19530/22). Medicamento peligroso. No se halló receta de reconstitución en fuentes aceptables.')],
         [dosis('Trabeculectomía (prevención de la cicatrización)', 'topica_intraoperatoria',
-               'Esponjas empapadas con 0,2 a 0,5 mg/ml bajo la conjuntiva durante 1 a 5 minutos (EyeWiki: de 30 segundos a 5 minutos). '
+               'Esponjas empapadas con 0,1 a 0,5 mg/ml bajo la conjuntiva durante 1 a 5 minutos (EyeWiki: de 30 segundos a 5 minutos). '
                'En poblaciones de ascendencia africana, al menos 0,4 mg/ml durante 3 minutos y hasta 1,0 mg/ml en los casos difíciles.',
-               final_rango(0.2, 0.5, 'mg', 1), s_a, estatus='off_label', condicion=NO_SISTEMICA + ' ' + CIRUJANO, presentaciones=['vial-20'],
+               final_rango(0.1, 0.5, 'mg', 1), s_a, estatus='off_label', condicion=NO_SISTEMICA + ' ' + CIRUJANO, presentaciones=['vial-20'],
                tambien=[ewt('Tiempo de esponja con mitomicina C o 5-FU: de 30 segundos a 5 minutos'), s_g]),
          dosis('Pterigión', 'topica_intraoperatoria',
                'Mitomicina C al 0,02 % (0,2 mg/ml), aplicación única durante la cirugía de 1 a 3 minutos, seguida de lavado con suero fisiológico.',
@@ -248,8 +248,8 @@ def fichas():
         discrepancias=[disc('Concentración de mitomicina C en esponja para trabeculectomía',
                             [(s_a['ref'], '0,1 a 0,5 mg/ml durante 1 a 5 minutos'), (s_g['ref'], 'mínimo 0,4 mg/ml durante 3 minutos; hasta 1,0 mg/ml en casos difíciles'),
                              (ewt('Tiempo de esponja: de 30 segundos a 5 minutos')['ref'], '30 segundos a 5 minutos')],
-                            '0,2 a 0,5 mg/ml',
-                            'Cada autor fija su propia concentración y tiempo según el riesgo del paciente; se muestra el rango central y la dosis la define el cirujano.')],
+                            '0,1 a 0,5 mg/ml',
+                            'Cada autor fija su propia concentración y tiempo según el riesgo del paciente; se muestra el rango de la fuente principal (0,1 a 0,5 mg/ml), que incluye todo lo que otros usan salvo los casos difíciles, y la dosis la define el cirujano.')],
     )
     coc('La mitomicina C reduce el riesgo relativo de fracaso de la trabeculectomía')
 
