@@ -8,7 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from orales import tanda1  # noqa: E402
 
 MODULOS = [tanda1]
-for nombre in ('tanda2', 'tanda3'):
+for nombre in ('tanda2', 'tanda3', 'tanda4'):
     try:
         MODULOS.append(__import__(f'orales.{nombre}', fromlist=[nombre]))
     except ModuleNotFoundError as e:  # la tanda aún no existe; un error dentro de ella sí debe verse
@@ -35,6 +35,10 @@ def main():
         if repetidas:
             raise SystemExit(f'ficha repetida entre tandas: {sorted(repetidas)}')
         fichas.update(nuevas)
+    # Las fichas de uso oftalmológico que ya existían reciben sus dosis oftálmicas (tanda4.marcar)
+    for m in MODULOS:
+        if hasattr(m, 'marcar'):
+            m.marcar(fichas)
     (RAIZ / 'datos' / 'orales').mkdir(exist_ok=True)
     volcar(RAIZ / 'datos' / 'fuentes-orales.yaml', fuentes)
     for viejo in (RAIZ / 'datos' / 'orales').glob('*.yaml'):

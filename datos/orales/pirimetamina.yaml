@@ -1,0 +1,121 @@
+id: pirimetamina
+nombre: Pirimetamina
+comerciales:
+- Daraprim
+grupo: antiparasitario
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: Daraprim 25 mg comprimidos (la ficha no menciona ranura ni partición)
+dosis:
+- indicacion: 'Toxoplasmosis, incluida la retinocoroiditis: dosis de carga, día 1 (adultos inmunocompetentes)'
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: Solo el primer día (el CDC acepta 1 o 2 días); siempre junto con sulfadiazina o clindamicina
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: '4.2 Toxoplasmosis, adultos inmunocompetentes: "Una dosis de carga de 100 mg de pirimetamina seguida de 25 a
+      50 mg de pirimetamina al día"'
+- indicacion: 'Toxoplasmosis, incluida la retinocoroiditis: mantenimiento (adultos inmunocompetentes)'
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 25
+  max: 50
+  tomasPorDia: 1
+  estatus: autorizada
+  condicion: En la toxoplasmosis ocular el CDC da el tratamiento 4 a 6 semanas y luego reevalúa; con ácido folínico (leucovorina)
+    en cada dosis
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-TOXOPLASMOSIS-TOXOPLASMOSIS/HCP
+    detalle: 'Tabla ocular, adultos: "100 mg for one day as a loading dose, then 25 - 50 mg per day"; "Therapy should be given
+      for 4 to 6 weeks, followed by reevaluation"'
+- indicacion: 'Toxoplasmosis: dosis de carga, día 1 (niños de 3 a 6 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 2
+  max: 2
+  tomasPorDia: 1
+  topeDiario:
+    valor: 50
+    unidad: mg
+  estatus: autorizada
+  condicion: 'El CDC da la misma pauta en toxoplasmosis ocular de niños: 2 mg/kg el primer día; junto con sulfadiazina'
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: '4.2 Niños de 3 a 6 años: "dosis de carga de pirimetamina 2 mg/kg peso corporal (hasta un máximo de 50 mg) seguida
+      de una dosis de 1 mg/kg/día (dosis máxima de 25 mg)"'
+- indicacion: 'Toxoplasmosis: mantenimiento (niños de 3 a 6 años)'
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 1
+  tomasPorDia: 1
+  topeDiario:
+    valor: 25
+    unidad: mg
+  estatus: autorizada
+  condicion: El CDC da 1 mg/kg/día en toxoplasmosis ocular de niños, con ácido folínico
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: '4.2 Niños de 3 a 6 años: "1 mg/kg/día (dosis máxima de 25 mg)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Duración del tratamiento de la toxoplasmosis ocular
+  valores:
+  - fuente: CIMA-OFT-PIRIMETAMINA-19625
+    valor: 'Daraprim (CIMA): no fija una duración para la forma ocular'
+  - fuente: WEB-OFT-ORAL-TOXOPLASMOSIS-TOXOPLASMOSIS/HCP
+    valor: 'CDC: 4 a 6 semanas y luego reevaluar'
+  mostrado: Se muestra la duración del CDC (4 a 6 semanas)
+  motivo: Es la única fuente que da duración para la retinocoroiditis.
+administracion:
+  comida: indiferente
+  texto: La ficha técnica no fija relación con las comidas.
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: 4.2 Posología y forma de administración (sin indicación sobre las comidas)
+ajusteRenalHepatico:
+  hepatico: Se usa con precaución; no hay recomendación general de reducir la dosis (CIMA 4.2 y 4.4).
+  fuente:
+    ref: CIMA-OFT-PIRIMETAMINA-19625
+    detalle: 4.2 Insuficiencia hepática
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones. No carga malaria ni la toxoplasmosis
+  congénita.
+- 'Se usa siempre en combinación con un medicamento sinérgico: sulfadiazina o clindamicina (CIMA 4.2).'
+- Deprime la médula ósea en el 25 a 50 % de los pacientes con dosis terapéuticas; el folinato de calcio (ácido folínico) reduce
+  el riesgo, y el hemograma se hace semanal durante el tratamiento y 2 semanas después (CIMA 4.4).
+- Evitar en el primer trimestre del embarazo; no se recomienda en la lactancia (CDC; CIMA 4.6).
+- Con antecedentes de convulsiones evitar dosis de carga altas (CIMA 4.4).
+- Una lesión ya cicatrizada no se trata (CDC).
+meta: {}

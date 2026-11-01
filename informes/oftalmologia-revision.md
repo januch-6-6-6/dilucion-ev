@@ -60,3 +60,24 @@
 | vancomicina | intravitrea: 1 mg/0.1 ml | Sociedad Española de Farmacia Hospitalaria (SEFH); 2.ª: Antibiotics (MDPI) + SERV, SEFH y SEO (Farmacia Hospitalaria) | sí | ISP | contrastada | PNT (500 mg + 10 ml; 2 ml → 10 ml; 1 mg/0,1 ml) + consenso + Fenniri. Alerta HORV (Witkin 2017) para la vía intracameral. |
 | verde-indocianina | — | —; 2.ª: — | no | ISP | sin pauta | SIN PAUTA: la etiqueta consultada es intravenosa; no hay fuente ocular. |
 | voriconazol | intravitrea: 100 mcg/0.1 ml | Sociedad Española de Farmacia Hospitalaria (SEFH); 2.ª: Investigative Ophthalmology & Visual Science | sí | ISP | contrastada | PNT: 200 mg + 19 ml → 20 ml; 1 ml → 10 ml = 1 mg/ml = 100 µg/0,1 ml. Kang 2026 usó 50 µg (discrepancia). |
+
+## Orales de uso oftalmológico
+
+- Orales marcados con uso oftalmológico: **11** (7 fichas nuevas en `scripts/orales/tanda4.py` y 4 ya existentes a las que `tanda4.marcar` suma dosis oftálmicas sin tocar las anteriores).
+- Cada ficha nueva carga solo el uso oftalmológico del fármaco; las demás indicaciones no se cargan.
+- **No se citan** hasta cotejar con el original: los autores del PPP de cierre angular de la AAO, la conversión de metilprednisolona del ONTT (en prednisona solo hay una alerta con el resultado de prednisona oral sola) y el estudio ZEDS (valaciclovir en zóster oftálmico; un repositorio lo marca «withdrawn»).
+- Evidencia débil fuera de la v1 (decisión 4 de Héctor): tranexámico en hipema, ivermectina en Demodex, glicerol oral, isosorbida osmótica.
+
+| id | dosis oftálmicas | registro | pediatría | notas |
+|---|---|---|---|---|
+| acetazolamida | 6 | sin verificar | con_dosis | 6 alertas; 2 discrepancias |
+| aciclovir | 6 | sin verificar | con_dosis | 8 alertas; 1 discrepancias |
+| azitromicina | 3 | sin verificar | con_dosis | 7 alertas; 0 discrepancias |
+| cotrimoxazol | 2 | sin verificar | con_dosis | 10 alertas; 2 discrepancias |
+| doxiciclina | 2 | sin verificar | solo_adulto | 6 alertas; 0 discrepancias |
+| famciclovir | 4 | NO registrado | solo_adulto | 4 alertas; 0 discrepancias |
+| metazolamida | 2 | NO registrado | con_dosis | 6 alertas; 1 discrepancias |
+| minociclina | 1 | sin verificar | solo_adulto | 4 alertas; 0 discrepancias |
+| pirimetamina | 4 | sin verificar | con_dosis | 6 alertas; 1 discrepancias |
+| prednisona | 4 | sin verificar | con_dosis | 8 alertas; 1 discrepancias |
+| valaciclovir | 6 | sin verificar | con_dosis | 4 alertas; 1 discrepancias |

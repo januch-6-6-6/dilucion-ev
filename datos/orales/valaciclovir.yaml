@@ -1,0 +1,146 @@
+id: valaciclovir
+nombre: Valaciclovir
+comerciales:
+- Valtrex
+- Perviroral
+grupo: antiviral-antifungico
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: comprimido-500-mg
+  forma: comprimido
+  cantidad:
+    valor: 500
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OFT-VALACICLOVIR-61240
+    detalle: Valtrex 500 mg comprimidos recubiertos (la ficha no menciona ranura ni partición)
+dosis:
+- indicacion: Herpes zóster oftálmico (adultos inmunocompetentes)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 3
+  topeDiario:
+    valor: 3000
+    unidad: mg
+  estatus: autorizada
+  condicion: 7 días; empezar lo antes posible (no hay datos si se inicia después de 72 h de la erupción)
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-VALACICLOVIR-61240
+    detalle: '4.2: "1.000 mg tres veces al día durante siete días (dosis diaria total de 3.000 mg)"'
+- indicacion: Queratitis herpética epitelial dendrítica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: 7 a 10 días
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial dendrítica: "Valacyclovir (Valtrex): 500 mg twice daily for 7-10 days"'
+- indicacion: Queratitis herpética epitelial geográfica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 3
+  estatus: off_label
+  condicion: 14 a 21 días
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial geográfica: "Valacyclovir (Valtrex): 1 g 3 times daily for 14-21 days"'
+- indicacion: Profilaxis de queratitis herpética recurrente (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Al menos un año; la duración óptima no está establecida
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, profilaxis: "Valacyclovir (Valtrex): 500 mg once daily ... at least one year is recommended"'
+- indicacion: Supresión de infecciones oculares recurrentes por herpes simple (≥12 años)
+  poblacion: pediatrico
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Adolescentes inmunocompetentes de 12 años o más
+  oftalmica: true
+  fuente:
+    ref: PEDIAMECUM-OFT-VALACICLOVIR
+    detalle: 'Uso clínico (>12 años): "tratamiento y supresión de infecciones oculares recurrentes"; supresión del VHS en
+      ≥12 años: 500 mg/24 h'
+- indicacion: Enfermedad ocular aguda tras ciclo de aciclovir IV (≥12 años)
+  poblacion: pediatrico
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 3
+  estatus: off_label
+  condicion: 4 a 6 semanas, después de un ciclo intravenoso de aciclovir de 10 a 14 días
+  oftalmica: true
+  fuente:
+    ref: PEDIAMECUM-OFT-VALACICLOVIR
+    detalle: '"Tratamiento de enfermedad ocular aguda: 1000 mg, 3 veces al día durante 4-6 semanas, tras haber finalizado
+      un ciclo endovenoso de aciclovir (10-14 días)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Edad mínima de uso
+  valores:
+  - fuente: CIMA-OFT-VALACICLOVIR-61240
+    valor: '12 años como edad mínima en la ficha técnica (Valtrex, CIMA): seguridad y eficacia no establecidas en menores'
+  - fuente: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    valor: '2 años como edad mínima en la guía MEEI/Harvard: valaciclovir indicado en niños mayores'
+  mostrado: Solo la pauta para adolescentes, que es la edad mínima de la ficha técnica
+  motivo: La ficha técnica y Pediamécum dan datos desde esa edad; en menores decide el especialista.
+administracion:
+  comida: indiferente
+  texto: La ficha técnica no fija relación con las comidas.
+  fuente:
+    ref: CIMA-OFT-VALACICLOVIR-61240
+    detalle: 4.2 Posología y forma de administración (sin indicación sobre las comidas)
+ajusteRenalHepatico:
+  renal: La dosis se reduce según el aclaramiento de creatinina (Tabla 1 de la ficha); mantener buena hidratación; en hemodiálisis
+    dar la dosis después de la sesión (CIMA 4.2).
+  hepatico: No hace falta ajustar la dosis en cirrosis leve o moderada ni en cirrosis avanzada, según los estudios de la ficha
+    (CIMA 4.2).
+  fuente:
+    ref: CIMA-OFT-VALACICLOVIR-61240
+    detalle: 4.2 Insuficiencia renal / Insuficiencia hepática
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones.
+- El zóster oftálmico de un paciente inmunodeprimido se trata con aciclovir intravenoso, no con la vía oral (CIMA 4.4).
+- 'Precaución en mayores de 65 años y en insuficiencia renal: los tres antivirales orales pueden dañar el riñón, y aciclovir
+  y valaciclovir dan más reacciones del sistema nervioso en ancianos (guía MEEI/Harvard).'
+- En el estudio HEDS agregar un antiviral oral de dosis alta al tópico en la queratitis epitelial no evitó la queratitis estromal
+  posterior (guía MEEI/Harvard).
+meta: {}

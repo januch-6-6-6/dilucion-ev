@@ -6,6 +6,8 @@ comerciales:
 grupo: antiviral-antifungico
 ambitos:
 - aps
+usos:
+- oftalmologia
 altoRiesgo: false
 presentaciones:
 - id: comprimido-200-mg
@@ -196,6 +198,103 @@ dosis:
   fuente:
     ref: PEDIAMECUM-ACICLOVIR
     detalle: 'Gingivoestomatitis herpética: "60 mg/kg/día (máximo: 200 mg/dosis) cada 6 h por vía oral (VO) durante 7 días"'
+- indicacion: Herpes zóster oftálmico (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 800
+  max: 800
+  tomasPorDia: 5
+  estatus: off_label
+  condicion: 7 a 10 días; es el tratamiento estándar según EyeWiki
+  presentaciones:
+  - comprimido-800-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HERPES_ZOSTER_OPHTHALMICUS
+    detalle: '"Oral acyclovir 800 mg PO five times daily for 7 to 10 days is the standard treatment."'
+- indicacion: Queratitis herpética epitelial dendrítica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 400
+  max: 400
+  tomasPorDia: 5
+  estatus: off_label
+  condicion: 7 a 10 días
+  texto: 400 mg, de 3 a 5 veces al día
+  presentaciones:
+  - comprimido-400-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial dendrítica: "Acyclovir (Zovirax): 400 mg 3-5 times daily for 7-10 days"'
+- indicacion: Queratitis herpética epitelial geográfica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 800
+  max: 800
+  tomasPorDia: 5
+  estatus: off_label
+  condicion: 14 a 21 días
+  presentaciones:
+  - comprimido-800-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial geográfica: "Acyclovir (Zovirax): 800 mg 5 times daily for 14-21 days"'
+- indicacion: Profilaxis de queratitis herpética recurrente (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 400
+  max: 400
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: Al menos un año; con el antiviral oral de profilaxis mientras se usen corticoides tópicos
+  presentaciones:
+  - comprimido-400-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'Profilaxis: "Acyclovir (Zovirax): 400 mg twice daily for one year"; HEDS: es uno de los dos antivirales que
+      reducen las recurrencias'
+- indicacion: Queratitis herpética (niños), dosis de tratamiento
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 12
+  max: 80
+  estatus: off_label
+  condicion: Fuente secundaria (revista profesional) que cita el estudio de Schwartz y Holland; dosis divididas
+  presentaciones:
+  - suspension-80-mg-ml
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-PEDIATRIC-HERPES-KERATITIS
+    detalle: '"The range that was used in the study by Gary Schwartz, MD, and Edward Holland, MD, was 12 to 80 mg/kg/day in
+      divided doses."'
+- indicacion: Queratitis herpética (niños), supresión
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 12
+  max: 20
+  estatus: off_label
+  condicion: Fuente secundaria (revista profesional)
+  presentaciones:
+  - suspension-80-mg-ml
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-PEDIATRIC-HERPES-KERATITIS
+    detalle: '"For children the suppression dose was found to range between 12 to 20 mg/kg/day."'
 pediatria:
   estado: con_dosis
 discrepancias:
@@ -230,4 +329,10 @@ alertas:
   neurológicas) (CIMA, 4.4).
 - 'Inmunocomprometidos (Pediamécum, ≥2 años): 1000 mg/día en 3-5 dosis, máximo 80 mg/kg/día sin exceder 1 g/día; no se carga.'
 - 'Suspensión: no diluir (CIMA 59226).'
+- 'Uso oftalmológico: en el estudio HEDS, agregar aciclovir oral de dosis alta al tratamiento tópico de la queratitis epitelial
+  no evitó la queratitis estromal posterior (guía MEEI/Harvard).'
+- Precaución en mayores de 65 años y en insuficiencia renal (nefrotoxicidad; más reacciones del sistema nervioso en ancianos).
+  Niños y atópicos pueden requerir dosis relativamente más altas (guía MEEI/Harvard).
+- Las dosis pediátricas oftálmicas vienen de un artículo de revista profesional, no de una guía; revisar con oftalmología
+  pediátrica.
 meta: {}

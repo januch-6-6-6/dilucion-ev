@@ -1,0 +1,78 @@
+id: doxiciclina
+nombre: Doxiciclina
+comerciales:
+- Vibracina
+grupo: antibiotico
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: capsula-100-mg
+  forma: capsula
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OFT-DOXICICLINA-46406
+    detalle: 'Vibracina 100 mg cápsulas duras (cápsula: no se parte)'
+dosis:
+- indicacion: Blefaritis posterior y disfunción de glándulas de Meibomio (adultos), pauta del Wills Eye Manual
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: 6 semanas; en casos recurrentes los tratamientos pueden extenderse meses
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-PMC3072163
+    detalle: 'Tabla 2, Wills Eye Manual: "Tetracycline 250 mg four times a day or doxycycline 100 mg twice a day for 6 weeks"'
+- indicacion: Blefaritis con compromiso corneal (adultos), pauta del Moorfields Manual
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 100
+  max: 100
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: 8 semanas
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-PMC3072163
+    detalle: 'Tabla 2, Moorfields Manual: "With corneal involvement: doxycycline 100 mg once a day ... for 8 weeks"'
+pediatria:
+  estado: solo_adulto
+  motivo: Las tetraciclinas no se usan en menores de 8 años; en niños con blefaritis la guía AAO propone eritromicina o azitromicina.
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: Con la comida y un vaso de agua (200 ml) o leche, y esperar al menos una hora antes de acostarse para evitar irritar
+    el esófago.
+  fuente:
+    ref: CIMA-OFT-DOXICICLINA-46406
+    detalle: '4.2 Forma de administración: "en el transcurso de una comida, acompañado de un vaso de agua (200 ml) o con leche
+      ... al menos una hora antes de tumbarse"'
+ajusteRenalHepatico: null
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones. El uso en blefaritis y disfunción
+  de glándulas de Meibomio no está en la ficha técnica.
+- Contraindicada en el embarazo y en la lactancia; no se usa en menores de 8 años por riesgo de decoloración permanente de
+  los dientes (CIMA 4.3 y 4.4; AAO PPP).
+- Una revisión Cochrane concluye que no hay evidencia suficiente para sacar conclusiones sobre los antibióticos orales en
+  la blefaritis crónica y que la doxiciclina puede dar más efectos adversos serios (Cochrane 2021).
+- Los estudios con dosis subantimicrobianas usaron 40 mg al día o 20 mg dos veces al día (Cochrane 2021; IOVS 2011); esa presentación
+  no está cargada aquí.
+- La guía AAO la da una vez al día y la baja cuando hay mejoría; existe una presentación de liberación sostenida que reduce
+  los efectos adversos (AAO PPP 2024).
+- Fotosensibilidad, molestias digestivas, y rara vez seudotumor cerebral o síndrome de Stevens-Johnson; baja el efecto de
+  anticonceptivos orales y potencia a la warfarina (AAO PPP 2024).
+meta: {}

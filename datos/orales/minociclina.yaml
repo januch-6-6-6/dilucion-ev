@@ -1,0 +1,61 @@
+id: minociclina
+nombre: Minociclina
+comerciales:
+- Minocin
+- Bagomicina
+grupo: antibiotico
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: capsula-100-mg
+  forma: capsula
+  cantidad:
+    valor: 100
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OFT-MINOCICLINA-51179
+    detalle: Minocin 100 mg cápsulas duras ("Las cápsulas deben tragarse enteras")
+dosis:
+- indicacion: Blefaritis posterior y disfunción de glándulas de Meibomio (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 50
+  max: 100
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: Los estudios usaron 50 a 100 mg una o dos veces al día; la fuente no fija una pauta única. Con 100 mg por cápsula,
+    50 mg exige otra presentación
+  texto: 50 a 100 mg, 1 o 2 veces al día; se baja cuando hay mejoría
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-PMC3072163
+    detalle: 'Dosis en estudios: "50 to 100 mg once or twice a day (doxycycline and minocycline)"'
+pediatria:
+  estado: solo_adulto
+  motivo: Contraindicada en menores de 8 años (CIMA 4.3); en niños con blefaritis la guía AAO propone eritromicina o azitromicina.
+discrepancias: []
+administracion:
+  comida: con_comida
+  texto: Con la comida y un vaso de agua (200 ml) o leche; tragar las cápsulas enteras y esperar al menos una hora antes de
+    acostarse.
+  fuente:
+    ref: CIMA-OFT-MINOCICLINA-51179
+    detalle: '4.2 Forma de administración: cápsulas enteras, "en el transcurso de una comida", un vaso de agua (200 ml) o
+      leche'
+ajusteRenalHepatico: null
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones. El uso en blefaritis no está en
+  la ficha técnica.
+- Contraindicada en el embarazo, la lactancia y en menores de 8 años (CIMA 4.3 y 4.4).
+- Puede manchar la piel, las uñas, la esclera, la conjuntiva, los dientes y el hueso (AAO PPP 2024).
+- Una revisión Cochrane concluye que no hay evidencia suficiente sobre los antibióticos orales en la blefaritis crónica (Cochrane
+  2021).
+meta: {}

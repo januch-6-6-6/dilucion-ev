@@ -5,6 +5,8 @@ comerciales:
 grupo: corticoide
 ambitos:
 - aps
+usos:
+- oftalmologia
 altoRiesgo: false
 presentaciones:
 - id: comprimido-10-mg
@@ -97,9 +99,81 @@ dosis:
   fuente:
     ref: PEDIAMECUM-PREDNISONA
     detalle: 'Asma, niños <12 años: "Exacerbaciones agudas: 1-2 mg/kg/día, divididos en 2 dosis (máximo: 60 mg/día)"'
+- indicacion: Uveítis no infecciosa, dosis inicial (adultos)
+  poblacion: adulto
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 1.5
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Después se baja de forma gradual según la respuesta clínica; bajar muy rápido o suspender pronto puede causar
+    recaída
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-CORTICOIDES-TREATMENT_OF_UVEITIS
+    detalle: '"Initial dosing of oral prednisone is typically 1-1.5 mg/kg/day."; "Too rapid tapering or early discontinuation
+      ... may lead to disease recurrence."'
+- indicacion: Arteritis de células gigantes (adultos), guía británica
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 40
+  max: 60
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Prednisona o prednisolona; el descenso lleva 12 a 18 meses
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-CORTICOIDES-RHEUMATOLOGY/ARTICLE/59/3/487
+    detalle: 'Rec. 3: "The standard initial glucocorticoid dose for GCA is 40-60 mg oral prednis(ol)one per day."'
+- indicacion: Arteritis de células gigantes (adultos), EyeWiki
+  poblacion: adulto
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 1
+  max: 1
+  tomasPorDia: 1
+  topeDiario:
+    valor: 100
+    unidad: mg
+  estatus: off_label
+  condicion: Rango de 40 a 100 mg/día; la dosis habitual de inicio es 1 mg/kg/día
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-CORTICOIDES-GIANT_CELL_ARTERITIS
+    detalle: '"Suggested dosages of prednisone for initiation of treatment range from 40-100 mg per day with a common starting
+      dosage of 1 mg/kg/day."'
+- indicacion: Retinocoroiditis toxoplásmica, corticoide acompañante (adultos)
+  poblacion: adulto
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 0.5
+  max: 1
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Se empieza unos días después del antiparasitario y dura cerca de 1 mes con descenso gradual; la decisión es del
+    oftalmólogo
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-TOXOPLASMOSIS-PMC6148195
+    detalle: 'Nota a la Tabla 1: "concomitant steroids (prednisone at 0.5 to 1 mg/kg/day) with gradual tapering can be used;
+      this decision is best made by the ophthalmologist"'
 pediatria:
   estado: con_dosis
-discrepancias: []
+discrepancias:
+- campo: Dosis inicial en arteritis de células gigantes
+  valores:
+  - fuente: WEB-OFT-ORAL-CORTICOIDES-RHEUMATOLOGY/ARTICLE/59/3/487
+    valor: 'Guía británica (BSR): 40 a 60 mg/día de prednisona o prednisolona'
+  - fuente: WEB-OFT-ORAL-CORTICOIDES-GIANT_CELL_ARTERITIS
+    valor: 'EyeWiki: 40 a 100 mg/día, habitual 1 mg/kg/día'
+  mostrado: Se muestran las dos pautas, cada una con su fuente
+  motivo: Son guías distintas; el rango de EyeWiki llega a 100 mg/día.
 administracion:
   comida: despues
   texto: Dosis diaria repartida en 3-4 tomas, preferentemente después de las comidas y al acostarse; en algunos casos, dosis
@@ -116,4 +190,10 @@ alertas:
 - Pediamécum agrega pautas de asma para ≥12 años (40-80 mg/día en exacerbaciones) y por edad; no se cargan.
 - 'La dosis intermedia de 1 mg/kg/día no tiene tope pediátrico en la fuente; como referencia, la pauta de asma del adulto
   llega a 60 mg al día (CIMA 75649, «Asma bronquial: de 15 mg a 60 mg al día»).'
+- 'Uso oftalmológico: en la neuritis óptica aguda, la prednisona oral sola (1 mg/kg/día por 14 días) resultó ineficaz y aumentó
+  el riesgo de nuevos episodios en el ONTT; no es la pauta de la neuritis óptica (ONTT, NEJM 1992).'
+- En arteritis de células gigantes con pérdida visual la guía británica usa pulsos de metilprednisolona intravenosa (500 mg
+  a 1 g al día hasta 3 días); esa pauta no está cargada aquí.
+- Los corticoides sistémicos pueden causar catarata, aumento de la presión intraocular y glaucoma; con más de 7,5 mg/día por
+  más de 3 meses hay que considerar ahorradores de esteroides, y dar calcio y vitamina D (EyeWiki, tratamiento de uveítis).
 meta: {}

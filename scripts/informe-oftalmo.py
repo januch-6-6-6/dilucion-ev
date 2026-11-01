@@ -43,6 +43,26 @@ def dosis_txt(f):
     return '; '.join(partes) if partes else '—'
 
 
+def orales_oftalmicos():
+    """Secciones del informe para los orales con `usos: [oftalmologia]` (fichas de datos/orales/)."""
+    fichas = [yaml.safe_load(open(p, encoding='utf-8')) for p in sorted((RAIZ / 'datos' / 'orales').glob('*.yaml'))]
+    fichas = [f for f in fichas if 'oftalmologia' in f.get('usos', [])]
+    L = ['', '## Orales de uso oftalmológico', '',
+         f'- Orales marcados con uso oftalmológico: **{len(fichas)}** (7 fichas nuevas en `scripts/orales/tanda4.py` y 4 ya existentes '
+         'a las que `tanda4.marcar` suma dosis oftálmicas sin tocar las anteriores).',
+         '- Cada ficha nueva carga solo el uso oftalmológico del fármaco; las demás indicaciones no se cargan.',
+         '- **No se citan** hasta cotejar con el original: los autores del PPP de cierre angular de la AAO, la conversión de '
+         'metilprednisolona del ONTT (en prednisona solo hay una alerta con el resultado de prednisona oral sola) y el estudio ZEDS '
+         '(valaciclovir en zóster oftálmico; un repositorio lo marca «withdrawn»).',
+         '- Evidencia débil fuera de la v1 (decisión 4 de Héctor): tranexámico en hipema, ivermectina en Demodex, glicerol oral, isosorbida osmótica.',
+         '', '| id | dosis oftálmicas | registro | pediatría | notas |', '|---|---|---|---|---|']
+    for f in fichas:
+        n = sum(1 for d in f['dosis'] if d.get('oftalmica'))
+        reg = 'NO registrado' if any(p['registroChile'] == 'no_registrado' for p in f['presentaciones']) else 'sin verificar'
+        L.append(f"| {f['id']} | {n} | {reg} | {f['pediatria']['estado']} | {len(f['alertas'])} alertas; {len(f['discrepancias'])} discrepancias |")
+    return L
+
+
 def main():
     fichas, fuentes = cargar()
     est = {f['id']: estado(f, fuentes) for f in fichas}
@@ -68,6 +88,7 @@ def main():
         tam = ' + '.join(sorted({fuentes[t['ref']]['institucion'] for d in f['dosis'] for t in d.get('tambien', [])})) or '—'
         L.append(f"| {f['id']} | {dosis_txt(f)} | {fu}; 2.ª: {tam} | {'sí' if f['protocolos'] else 'no'} | "
                  f"{'ISP' if f['registroChile'] == 'verificado' else 'NO registrado'} | {est[f['id']]} | {NOTAS.get(f['id'], '')} |")
+    L += orales_oftalmicos()
     (RAIZ / 'informes' / 'oftalmologia-revision.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
     print(f'{len(fichas)} fichas en el informe')
 
