@@ -20,11 +20,11 @@
    - Subretiniano: 25–50 µg en 0,1–0,2 ml (EyeWiki).
    - Preparación (EyeWiki): reconstituir a 1 mg/ml, diluir con suero sin conservantes y usar de inmediato. **El riesgo principal es la hemorragia (hipema)**, que depende de la dosis.
 3. **Cefuroxima intracameral: en Chile está APROKAM** (F-25555/25), listo para 1 mg/0,1 ml (ficha CIMA de Prokam/Ximaract: «NO INYECTAR MÁS DE LA DOSIS RECOMENDADA»). El PNT de la SEFH describe la alternativa desde un frasco de 750 mg: reconstituir con 7,5 ml (100 mg/ml), tomar 1 ml y llevar a 10 ml (10 mg/ml), lo que da 1 mg/0,1 ml. Es el ejemplo ideal para el verificador.
-4. **Moxifloxacino intracameral, discrepancia grande.** Los 160 µg/0,1 ml (Fenniri 2026, no el consenso) son **intravítreos**. Para la cámara anterior las fuentes van de 150 a 500 µg:
+4. **Moxifloxacino intracameral, discrepancia grande.** Los 160 µg/0,1 ml del consenso (tabla 4, y también Fenniri 2026) son **intravítreos**. Para la cámara anterior las fuentes van de 150 a 500 µg:
    - ASCRS: 0,5 mg.
    - Arshinoff 2016: 150 µg/0,1 ml (3 ml de Vigamox + 7 ml de BSS).
    - Con 100 µg hubo un fracaso.
-   - → **Decisión 2.** (Corrección del 1-nov: el consenso SEFH no menciona moxifloxacino; los 160 µg/0,1 ml intravítreos salen de Fenniri 2026.)
+   - → **Decisión 2.**
 5. **Mydrane está en Chile** (F-25730/25): 0,2 ml intracameral, dosis única, sin dosis adicionales porque aumenta la pérdida endotelial (CIMA Fydrane).
 6. **Anti-VEGF:**
    - Lucentis: 0,5 mg/0,05 ml; 0,2 mg/0,02 ml en recién nacidos pretérmino con ROP.

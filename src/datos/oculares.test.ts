@@ -29,14 +29,14 @@ describe('lote piloto: cefuroxima y moxifloxacino', () => {
     expect(f.protocolos.map((p) => p.id)).toEqual(['aprokam-ficha-tecnica', 'pnt-sefh-750'])
     expect(verificacionDeOcular(f)).toBe('contrastada')
   })
-  it('moxifloxacino: dos protocolos off-label y una discrepancia con las cuatro posturas', () => {
+  it('moxifloxacino: dos protocolos off-label y una discrepancia con las cinco posturas', () => {
     const f = obtenerOcular('moxifloxacino')!
     expect(f.dosis.map((d) => d.estatus)).toEqual(['off_label', 'off_label'])
     expect(objetivosDe(f, 'oftalmica-0-5').map((o) => o.cantidad)).toEqual([
       { valor: 0.5, unidad: 'mg' },
       { valor: 150, unidad: 'mcg' },
     ])
-    expect(f.discrepancias[0].valores).toHaveLength(4)
+    expect(f.discrepancias[0].valores).toHaveLength(5)
   })
   it('moxifloxacino: el verificador acepta Arshinoff (3→10) y rechaza 1→10 frente a las dos dosis', () => {
     const f = obtenerOcular('moxifloxacino')!

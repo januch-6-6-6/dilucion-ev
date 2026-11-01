@@ -103,7 +103,7 @@ alertas:
   de síndrome tóxico del segmento anterior (TASS) o de endoftalmitis (ASCRS 2023).'
 - La FDA publicó una alerta sobre eventos adversos del moxifloxacino intraocular preparado fuera de la industria (ASCRS 2023).
 - Preparar la mezcla en el pabellón preocupa por contaminación bacteriana, errores de dilución y TASS (Surawatsatien 2025).
-- Los 160 µg/0,1 ml que aparecen en algunas tablas son una dosis INTRAVÍTREA, no intracameral (Fenniri 2026).
+- Los 160 µg/0,1 ml de la tabla 4 del consenso SEFH-SEO-SERV 2025 (y de Fenniri 2026) son una dosis INTRAVÍTREA, no intracameral.
 - Con 100 µg/0,1 ml hubo una infección por un estafilococo resistente en 3.430 casos; por eso Arshinoff subió la dosis (Arshinoff
   2016).
 discrepancias:
@@ -115,6 +115,8 @@ discrepancias:
     valor: 450 a 600 µg (0,3 a 0,4 ml de una mezcla de 1,5 mg/ml)
   - fuente: WEB-OFT-MOXIFLOXACINO-IC-PMC12823917
     valor: Rango publicado de 150 a 500 µg por inyección
+  - fuente: CONSENSO-SEFH-SEO-SERV-2025
+    valor: '160 µg/0,1 ml: preparación intravítrea, no intracameral'
   - fuente: WEB-OFT-MOXIFLOXACINO-IC-PMC13405202
     valor: '160 µg/0,1 ml: dosis intravítrea, no intracameral'
   mostrado: Los dos protocolos citados (ASCRS y Arshinoff)
