@@ -1,0 +1,67 @@
+id: hialuronidasa
+nombre: Hialuronidasa como coadyuvante de bloqueos
+comerciales: []
+grupo: enzima
+familias:
+- bloqueo
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: hylase-150
+  forma: polvo
+  cantidad:
+    valor: 150
+    unidad: UI
+  registrosIsp:
+  - B-2256/22
+  usoDirecto: false
+  nota: 'Liofilizado de 150 UI. La etiqueta de referencia (DailyMed) es la de Hylenex recombinante, de 150 unidades/ml: son
+    productos distintos.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-2256/22 Hylase Dessau liofilizado para solución inyectable 150 U.I.
+dosis:
+- indicacion: Coadyuvante del bloqueo peribulbar o retrobulbar
+  via: peribulbar
+  poblacion: adulto
+  texto: 'Se agrega al anestésico para que se disperse mejor: 50 UI por ml de mezcla (EyeWiki). La etiqueta FDA de Hylenex
+    indica 50 a 300 unidades, lo más típico 150 USP, antes o junto con el fármaco. El rango publicado es muy amplio: de 0,75
+    a 300 UI/ml, y en bloqueo peribulbar de 12,5 a 50 UI/ml.'
+  estatus: autorizada
+  condicion: 'La etiqueta FDA de Hylenex incluye las vías peribulbar y retrobulbar. Hylase Dessau es otro producto: confirma
+    su ficha en Chile.'
+  presentaciones:
+  - hylase-150
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    detalle: Hialuronidasa como adyuvante a 50 UI por ml
+  tambien:
+  - ref: DAILYMED-OFT-HIALURONIDASA
+    detalle: 'Aumento de la dispersión de otros fármacos: 50 a 300 unidades, lo más típico 150 USP'
+  - ref: WEB-OFT-BLOQUEOS-PMC10491076
+    detalle: Rango publicado de 0,75 a 300 UI/ml; peribulbar de 12,5 a 50 UI/ml
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica en bloqueos oculares.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'No aplicar directamente sobre la córnea: no es de uso tópico (etiqueta FDA, 5.2).'
+- 'La hialuronidasa acelera la dispersión y el inicio del bloqueo, pero la dosis no está estandarizada: confirma la del protocolo
+  de tu pabellón.'
+discrepancias:
+- campo: Concentración de la hialuronidasa en la mezcla anestésica
+  valores:
+  - fuente: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    valor: 50 UI/ml
+  - fuente: WEB-OFT-BLOQUEOS-PMC10491076
+    valor: 0,75 a 300 UI/ml (peribulbar 12,5 a 50)
+  - fuente: DAILYMED-OFT-HIALURONIDASA
+    valor: 50 a 300 unidades por administración (típico 150)
+  mostrado: 50 UI/ml (EyeWiki), con el rango publicado como referencia
+  motivo: No hay una guía que fije la dosis; los estudios usan desde 0,75 hasta 300 UI/ml.
+meta: {}

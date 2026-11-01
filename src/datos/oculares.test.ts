@@ -188,3 +188,86 @@ describe('lote 2: intravítreas', () => {
     for (const id of INTRAVITREAS.filter((x) => !unica.includes(x))) expect(verificacionDeOcular(obtenerOcular(id)!), id).toBe('contrastada')
   })
 })
+
+const BLOQUEOS = ['bupivacaina', 'ropivacaina', 'mepivacaina', 'hialuronidasa']
+const PERIOCULARES = ['cefazolina', 'gentamicina', 'metilprednisolona', 'betametasona', 'dexametasona']
+const ANTIFIBROTICOS = ['mitomicina', 'fluorouracilo', 'toxina-botulinica']
+
+describe('lote 3: bloqueos, perioculares y antifibróticos', () => {
+  it('hay 4 bloqueos, 5 perioculares y 3 antifibróticos con toxina, y las 41 fichas suman', () => {
+    const por = (fam: string) => oculares.filter((f) => f.familias[0] === fam).map((f) => f.id).sort()
+    expect(por('bloqueo')).toEqual([...BLOQUEOS].sort())
+    expect(por('periocular')).toEqual([...PERIOCULARES].sort())
+    expect(por('antifibrotico')).toEqual([...ANTIFIBROTICOS].sort())
+    expect(oculares).toHaveLength(41)
+  })
+  it('bloqueos y perioculares son informativos: sin protocolos y sin dosis final de concentración', () => {
+    for (const id of [...BLOQUEOS, ...PERIOCULARES]) {
+      const f = obtenerOcular(id)!
+      expect(f.modo, id).toBe('informativa')
+      expect(f.protocolos, id).toEqual([])
+      expect(f.dosis.every((d) => d.final === undefined), id).toBe(true)
+    }
+  })
+  it('los volúmenes de bloqueo de la ficha técnica y de EyeWiki quedan como texto', () => {
+    const b = obtenerOcular('bupivacaina')!
+    const texto = (via: string) => b.dosis.find((d) => d.via === via)!.texto
+    expect(texto('retrobulbar')).toContain('2 a 4 ml')
+    expect(texto('peribulbar')).toContain('6 a 10 ml')
+    expect(texto('subtenoniana')).toContain('2 a 5 ml')
+  })
+  it('ropivacaína es la única no registrada del lote y mepivacaína queda sin pauta', () => {
+    const noReg = oculares.filter((f) => [...BLOQUEOS, ...PERIOCULARES, ...ANTIFIBROTICOS].includes(f.id) && f.registroChile === 'no_registrado').map((f) => f.id)
+    expect(noReg).toEqual(['ropivacaina'])
+    const m = obtenerOcular('mepivacaina')!
+    expect(m.sinPauta).not.toBeNull()
+    expect(m.dosis).toEqual([])
+  })
+  it('mitomicina, 5-FU y toxina llevan la alerta «La dosis y el tiempo de aplicación los define el cirujano»', () => {
+    for (const id of ANTIFIBROTICOS) {
+      const f = obtenerOcular(id)!
+      expect(f.altoRiesgo, id).toBe(true)
+      expect(f.alertas.join(' '), id).toContain('La dosis y el tiempo de aplicación los define el cirujano')
+    }
+  })
+  it('mitomicina no trae protocolo de reconstitución, pero el verificador acepta 20 mg en 40 ml (0,5 mg/ml) y rechaza 20 mg en 10 ml', () => {
+    const f = obtenerOcular('mitomicina')!
+    expect(f.protocolos).toEqual([])
+    const presentacion = f.presentaciones[0]
+    const objetivos = objetivosDe(f, presentacion.id)
+    const bien = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 40 }], objetivos })
+    const mal = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 10 }], objetivos })
+    expect(bien.ok && bien.algunaCoincide).toBe(true)
+    expect(mal.ok && mal.algunaCoincide).toBe(false)
+  })
+  it('toxina botulínica: unidades U, alerta de no intercambiables y diluciones de 8, 4 y 2 ml', () => {
+    const f = obtenerOcular('toxina-botulinica')!
+    expect(f.presentaciones[0].cantidad.unidad).toBe('U')
+    expect(f.alertas.join(' ')).toContain('NO son intercambiables')
+    expect(f.protocolos.map((p) => p.id)).toEqual(['botox-100-8ml', 'botox-100-4ml', 'botox-100-2ml'])
+    const presentacion = f.presentaciones[0]
+    const objetivos = objetivosDe(f, presentacion.id)
+    const bien = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 4 }], objetivos })
+    const mal = verificar({ presentacion, pasos: [{ tipo: 'reconstituir', volumenMl: 10 }], objetivos })
+    expect(bien.ok && bien.algunaCoincide).toBe(true)
+    expect(mal.ok && mal.algunaCoincide).toBe(false)
+  })
+  it('5-FU: el vial de 50 mg/ml sin diluir da 5 mg en 0,1 ml, y 1 ml → 5 ml da la solución de 10 mg/ml', () => {
+    const f = obtenerOcular('fluorouracilo')!
+    const presentacion = f.presentaciones[0]
+    const sinDiluir = verificar({ presentacion, pasos: [], objetivos: [f.dosis[0].final!] })
+    expect(sinDiluir.ok && sinDiluir.algunaCoincide).toBe(true)
+    const diluido = verificar({ presentacion, pasos: [{ tipo: 'diluir', tomarMl: 1, llevarAMl: 5 }], objetivos: [f.dosis[1].final!] })
+    expect(diluido.ok && diluido.algunaCoincide).toBe(true)
+  })
+  it('gentamicina lleva la alerta de infarto macular y betametasona la discrepancia de 2 mg frente a 5,7 mg', () => {
+    expect(obtenerOcular('gentamicina')!.alertas.join(' ')).toContain('INFARTO MACULAR')
+    const d = obtenerOcular('betametasona')!.discrepancias[0]
+    expect(d.valores.map((v) => v.valor).join(' | ')).toContain('5,7 mg')
+  })
+  it('estados de verificación: las de una sola fuente son dexametasona, gentamicina, metilprednisolona y toxina', () => {
+    const ids = [...BLOQUEOS, ...PERIOCULARES, ...ANTIFIBROTICOS]
+    const unica = ids.filter((id) => verificacionDeOcular(obtenerOcular(id)!) === 'fuente_unica').sort()
+    expect(unica).toEqual(['dexametasona', 'gentamicina', 'metilprednisolona', 'toxina-botulinica'])
+  })
+})

@@ -1,0 +1,118 @@
+id: mitomicina
+nombre: Mitomicina C (antifibrótico)
+comerciales: []
+grupo: antimetabolito
+familias:
+- antifibrotico
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-20
+  forma: polvo
+  cantidad:
+    valor: 20
+    unidad: mg
+  registrosIsp:
+  - F-19531/22
+  usoDirecto: false
+  nota: Vial de uso intravenoso e intravesical; el uso ocular es off-label. Hay también el de 5 mg (F-19530/22). Medicamento
+    peligroso. No se halló receta de reconstitución en fuentes aceptables.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-19531/22 Mitomicina liofilizado para solución inyectable 20 mg
+dosis:
+- indicacion: Trabeculectomía (prevención de la cicatrización)
+  via: topica_intraoperatoria
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 0.2
+      max: 0.5
+      unidad: mg
+    volumenMl: 1
+  texto: 'Esponjas empapadas con 0,2 a 0,5 mg/ml bajo la conjuntiva durante 1 a 5 minutos (EyeWiki: de 30 segundos a 5 minutos).
+    En poblaciones de ascendencia africana, al menos 0,4 mg/ml durante 3 minutos y hasta 1,0 mg/ml en los casos difíciles.'
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
+    los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - vial-20
+  fuente: &id001
+    ref: WEB-OFT-ANTIFIBROTICOS-PMC13627763
+    detalle: Esponjas con mitomicina C de 0,1 a 0,5 mg/ml durante 1 a 5 minutos; inyección de 0,1 ml de una solución de 0,1
+      a 0,4 mg/ml
+  tambien:
+  - ref: WEB-OFT-ANTIFIBROTICOS-EYEWIKI.ORG/TRABECULECTOMY
+    detalle: 'Tiempo de esponja con mitomicina C o 5-FU: de 30 segundos a 5 minutos'
+  - ref: WEB-OFT-ANTIFIBROTICOS-PMC12989694
+    detalle: Mínimo 0,4 mg/ml durante 3 minutos en poblaciones de ascendencia africana; hasta 1,0 mg/ml en los casos más difíciles
+- indicacion: Pterigión
+  via: topica_intraoperatoria
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.2
+      unidad: mg
+    volumenMl: 1
+  texto: Mitomicina C al 0,02 % (0,2 mg/ml), aplicación única durante la cirugía de 1 a 3 minutos, seguida de lavado con suero
+    fisiológico.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
+    los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - vial-20
+  fuente:
+    ref: WEB-OFT-ANTIFIBROTICOS-PMC9684179
+    detalle: 'Pterigión: mitomicina C al 0,02 % durante 1 a 3 minutos'
+- indicacion: Inyección subconjuntival antes o después de la trabeculectomía o del implante XEN
+  via: subconjuntival
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 0.01
+      max: 0.04
+      unidad: mg
+    volumenMl: 0.1
+  texto: 0,1 ml de una solución de 0,1 a 0,4 mg/ml (10 a 40 µg); un experto describe 0,1 ml a 0,2 mg/ml (0,02 %). Para el
+    needling de ampollas, 20 µg o 40 a 60 µg según la serie.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
+    los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - vial-20
+  fuente: *id001
+  tambien:
+  - ref: WEB-OFT-ANTIFIBROTICOS-PMC12013292
+    detalle: 'Needling: 60 µg (0,15 ml de 0,4 mg/ml con lidocaína) o 20 µg (0,1 ml de 0,2 mg/ml con lidocaína)'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion:
+- texto: 'La mitomicina C no es estable a temperatura ambiente una vez preparada (EyeWiki): prepararla justo antes de usar.'
+  fuente:
+    ref: WEB-OFT-ANTIFIBROTICOS-EYEWIKI.ORG/TRABECULECTOMY
+    detalle: 'Mitomicina C: no estable a temperatura ambiente'
+contraindicaciones: []
+alertas:
+- La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+- 'ALTO RIESGO: una concentración o un tiempo de aplicación mal calculados dañan el tejido ocular. No hay una guía de sociedad
+  que fije la concentración oficial (nota de la búsqueda).'
+- En trabeculectomía reduce el riesgo relativo de fracaso (RR 0,32 en ojos de alto riesgo; 0,29 en primera cirugía) sin aumento
+  significativo de complicaciones permanentes que amenacen la visión (Cochrane).
+discrepancias:
+- campo: Concentración de mitomicina C en esponja para trabeculectomía
+  valores:
+  - fuente: WEB-OFT-ANTIFIBROTICOS-PMC13627763
+    valor: 0,1 a 0,5 mg/ml durante 1 a 5 minutos
+  - fuente: WEB-OFT-ANTIFIBROTICOS-PMC12989694
+    valor: mínimo 0,4 mg/ml durante 3 minutos; hasta 1,0 mg/ml en casos difíciles
+  - fuente: WEB-OFT-ANTIFIBROTICOS-EYEWIKI.ORG/TRABECULECTOMY
+    valor: 30 segundos a 5 minutos
+  mostrado: 0,2 a 0,5 mg/ml
+  motivo: Cada autor fija su propia concentración y tiempo según el riesgo del paciente; se muestra el rango central y la
+    dosis la define el cirujano.
+meta: {}

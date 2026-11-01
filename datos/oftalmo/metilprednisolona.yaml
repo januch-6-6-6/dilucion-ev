@@ -1,0 +1,47 @@
+id: metilprednisolona
+nombre: Metilprednisolona subconjuntival
+comerciales: []
+grupo: corticoide
+familias:
+- periocular
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-40
+  forma: polvo
+  cantidad:
+    valor: 40
+    unidad: mg
+  registrosIsp:
+  - F-23536/22
+  usoDirecto: false
+  nota: Vial de uso intravenoso e intramuscular. La fuente no precisa la sal (acetato o succinato) ni el producto usado.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-23536/22 Metilprednisolona polvo para solución inyectable 40 mg
+dosis:
+- indicacion: Alternativa a los corticoides tópicos tras cirugía de catarata
+  via: subconjuntival
+  poblacion: adulto
+  texto: 20 mg bajo la conjuntiva (ensayo clínico citado por Birtel 2026, frente a corticoides tópicos).
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía.
+  presentaciones:
+  - vial-40
+  fuente:
+    ref: WEB-OFT-SUBCONJUNTIVALES-PMC13415846
+    detalle: Metilprednisolona subconjuntival 20 mg frente a esquemas tópicos
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Dosis tomada de una revisión que cita un ensayo, sin guía de sociedad: las dosis subconjuntivales de corticoides son muy
+  variables (triamcinolona de 1 a 20 mg). Verifica el protocolo de tu pabellón.'
+discrepancias: []
+meta: {}

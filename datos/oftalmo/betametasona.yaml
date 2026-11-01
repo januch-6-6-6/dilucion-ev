@@ -1,0 +1,59 @@
+id: betametasona
+nombre: Betametasona subconjuntival
+comerciales: []
+grupo: corticoide
+familias:
+- periocular
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: amp-4
+  forma: solucion
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-7623/26
+  usoDirecto: false
+  nota: Betametasona fosfato 4 mg/ml. La serie de 5,7 mg usó el acetato, que no es esta presentación.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-7623/26 Betametasona sodio fosfato solución inyectable 4 mg/1 mL
+dosis:
+- indicacion: Corticoide al final de la cirugía ocular
+  via: subconjuntival
+  poblacion: adulto
+  texto: 2 mg junto con cefazolina 50 mg al final de la vitrectomía (Hosseini 2022). Un ensayo citado usó betametasona acetato
+    5,7 mg.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía.
+  presentaciones:
+  - amp-4
+  fuente:
+    ref: WEB-OFT-SUBCONJUNTIVALES-PMC9768931
+    detalle: 'Al final de la cirugía: cefazolina 50 mg y betametasona 2 mg subconjuntivales'
+  tambien:
+  - ref: WEB-OFT-SUBCONJUNTIVALES-PMC13415846
+    detalle: Betametasona acetato subconjuntival 5,7 mg frente a esquemas tópicos
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Las dosis subconjuntivales de corticoides son muy variables entre series: verifica el protocolo de tu pabellón.'
+discrepancias:
+- campo: Dosis subconjuntival de betametasona
+  valores:
+  - fuente: WEB-OFT-SUBCONJUNTIVALES-PMC9768931
+    valor: 2 mg (betametasona)
+  - fuente: WEB-OFT-SUBCONJUNTIVALES-PMC13415846
+    valor: 5,7 mg (betametasona acetato)
+  mostrado: 2 mg
+  motivo: Las dos cifras corresponden a sales y esquemas distintos; no hay una guía que fije una sola.
+meta: {}

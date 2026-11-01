@@ -1,0 +1,167 @@
+id: toxina-botulinica
+nombre: Toxina botulínica A (Botox) en estrabismo y blefaroespasmo
+comerciales: []
+grupo: toxina
+familias:
+- antifibrotico
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: botox-100
+  forma: polvo
+  cantidad:
+    valor: 100
+    unidad: U
+  registrosIsp:
+  - B-1397/26
+  usoDirecto: false
+  nota: 'Botox de 100 U. También están registrados el de 50 U (B-2175/26) y el de 200 U (B-2176/26). Solo se documentó onabotulinumtoxinA:
+    las unidades de otras toxinas no son equivalentes.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-1397/26 Botox polvo para solución inyectable 100 U (onabotulinumtoxinA)
+dosis:
+- indicacion: Blefaroespasmo esencial benigno y trastornos del nervio VII
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 1.25
+      max: 2.5
+      unidad: U
+    volumenMl: 0.1
+  texto: Dosis inicial de 1,25 a 2,5 U (0,05 a 0,1 ml) por sitio, en el orbicular preseptal medial y lateral del párpado superior
+    y lateral del inferior. Aguja de 27 a 30 G. En sesiones siguientes puede aumentar hasta el doble; más de 5 U por sitio
+    aporta poco beneficio. Máximo 200 U acumuladas en 30 días.
+  estatus: autorizada
+  condicion: Autorizada en la etiqueta FDA de Botox para mayores de 12 años. La dosis y el tiempo de aplicación los define
+    el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente:
+    ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+    detalle: 'Blefaroespasmo: dosis inicial de 1,25 a 2,5 U (0,05 a 0,1 ml) por sitio'
+  tambien:
+  - &id001
+    ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+    detalle: 'Tabla 1: vial de 100 U con 1, 2, 4, 8 o 10 ml de diluyente da 10, 5, 2,5, 1,25 o 1 U por 0,1 ml'
+- indicacion: Estrabismo vertical o horizontal de menos de 20 dioptrías prismáticas, y parálisis persistente del nervio VI
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 1.25
+      max: 2.5
+      unidad: U
+    volumenMl: 0.1
+  texto: 1,25 a 2,5 U en cualquier músculo, con 0,05 a 0,15 ml por músculo. No inyectar sin exposición quirúrgica ni guía
+    electromiográfica. Las dosis siguientes pueden subir hasta el doble.
+  estatus: autorizada
+  condicion: Autorizada en la etiqueta FDA de Botox para mayores de 12 años. La dosis y el tiempo de aplicación los define
+    el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente:
+    ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+    detalle: 'Estrabismo: 0,05 a 0,15 ml por músculo; 1,25–2,5 U en músculos verticales y desviaciones horizontales de menos
+      de 20 dioptrías prismáticas'
+- indicacion: Estrabismo horizontal de 20 a 50 dioptrías prismáticas
+  via: intramuscular
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 2.5
+      max: 5
+      unidad: U
+    volumenMl: 0.1
+  texto: 2,5 a 5 U en cualquier músculo, con 0,05 a 0,15 ml por músculo. Tenga a mano instrumentos para descomprimir la órbita.
+  estatus: autorizada
+  condicion: Autorizada en la etiqueta FDA de Botox para mayores de 12 años. La dosis y el tiempo de aplicación los define
+    el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - botox-100
+  fuente:
+    ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+    detalle: 'Estrabismo: 2,5 a 5 U en desviaciones horizontales de 20 a 50 dioptrías prismáticas'
+protocolos:
+- id: botox-100-8ml
+  dosis: 0
+  titulo: Vial de 100 U con 8 ml (1,25 U por 0,1 ml)
+  partida: botox-100
+  pasos:
+  - tipo: reconstituir
+    diluyente: cloruro de sodio 0,9 % inyectable SIN conservantes (solo ese diluyente)
+    volumenMl: 8
+  - &id002
+    tipo: texto
+    texto: Inyectar el diluyente lentamente en el vial. Descartar el vial si el vacío no lo aspira.
+  - &id003
+    tipo: texto
+    texto: Mezclar con suavidad rotando el vial y anotar la fecha y hora de la reconstitución en la etiqueta.
+  - &id004
+    tipo: texto
+    texto: Cargar en una jeringa estéril una cantidad ligeramente mayor que la dosis, expulsar las burbujas de aire y colocar
+      la aguja.
+  resultado:
+    valor: 1.25
+    unidad: U
+    volumenMl: 0.1
+  fuente: *id001
+- id: botox-100-4ml
+  dosis: 0
+  titulo: Vial de 100 U con 4 ml (2,5 U por 0,1 ml)
+  partida: botox-100
+  pasos:
+  - tipo: reconstituir
+    diluyente: cloruro de sodio 0,9 % inyectable SIN conservantes (solo ese diluyente)
+    volumenMl: 4
+  - *id002
+  - *id003
+  - *id004
+  resultado:
+    valor: 2.5
+    unidad: U
+    volumenMl: 0.1
+  fuente: *id001
+- id: botox-100-2ml
+  dosis: 2
+  titulo: Vial de 100 U con 2 ml (5 U por 0,1 ml)
+  partida: botox-100
+  pasos:
+  - tipo: reconstituir
+    diluyente: cloruro de sodio 0,9 % inyectable SIN conservantes (solo ese diluyente)
+    volumenMl: 2
+  - *id002
+  - *id003
+  - *id004
+  resultado:
+    valor: 5
+    unidad: U
+    volumenMl: 0.1
+  fuente: *id001
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La indicación de la etiqueta FDA para estrabismo y blefaroespasmo es para pacientes de 12 años o más; no hay pauta
+    en menores.
+conservacion:
+- texto: 'Usar dentro de las 24 horas posteriores a la reconstitución; mientras tanto, guardar el sobrante en refrigerador
+    (2–8 °C). El vial es de una sola dosis: descartar lo que no se use.'
+  horas: 24
+  fuente:
+    ref: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+    detalle: 'Conservación: administrar dentro de 24 horas tras reconstituir, 2–8 °C, vial de una sola dosis'
+contraindicaciones: []
+alertas:
+- La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+- 'ALTO RIESGO: las unidades de Botox NO son intercambiables con las de otras toxinas botulínicas (Dysport, Xeomin y otras);
+  no conviertas unidades entre marcas.'
+- Reconstituir SOLO con cloruro de sodio al 0,9 % inyectable sin conservantes (etiqueta FDA).
+- En el tratamiento del estrabismo se han producido hemorragias retrobulbares capaces de comprometer la circulación de la
+  retina; hay que tener a mano instrumentos para descomprimir la órbita (etiqueta FDA).
+- En el blefaroespasmo puede haber ptosis (evitar el elevador del párpado), diplopía (evitar inyecciones mediales en el párpado
+  inferior) y exposición corneal por disminución del parpadeo (etiqueta FDA).
+discrepancias: []
+meta: {}

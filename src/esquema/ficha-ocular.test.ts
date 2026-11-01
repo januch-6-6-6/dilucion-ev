@@ -99,4 +99,9 @@ describe('FichaOcular', () => {
     f.dosis[0].via = 'subretiniana'
     expect(errores(f)).toEqual([])
   })
+  it('acepta la vía intramuscular (toxina botulínica en músculos extraoculares y párpados)', () => {
+    const f = fichaOcularValida()
+    f.dosis[0].via = 'intramuscular'
+    expect(errores(f)).toEqual([])
+  })
 })

@@ -23,6 +23,7 @@ export const ViaOcular = z.enum([
   'peribulbar',
   'intralesional',
   'topica_intraoperatoria',
+  'intramuscular',
 ])
 export const FormaOcular = z.enum(['polvo', 'solucion', 'suspension', 'implante', 'jeringa_precargada'])
 

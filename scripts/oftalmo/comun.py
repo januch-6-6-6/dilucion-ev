@@ -137,15 +137,17 @@ def web(archivo, clave, institucion, detalle, anio=None):
     """
     ruta = CRUDOS / 'web' / f'{archivo}.txt'
     bloques = [b.strip().split('\n') for b in ruta.read_text(encoding='utf-8').split('\n---\n')]
+    bloques = [b[1:] if b[0].startswith('## ') else b for b in bloques]  # algunos bloques traen un título «## …» antes de la URL
     hallados = [b for b in bloques if clave in b[0]]
     if len(hallados) != 1:
         raise SystemExit(f'web/{archivo}: la clave {clave} encontró {len(hallados)} bloques')
     url, cita = hallados[0][0].strip(), hallados[0][1].strip()
     m = re.search(r'\.\s*((?:19|20)\d\d);', cita)
-    if not m and anio is None:
+    anio_final = int(m.group(1)) if m else anio  # el año de la referencia manda; `anio` solo cuando no se puede leer
+    if anio_final is None:
         raise SystemExit(f'web/{archivo} {clave}: no se pudo leer el año de la referencia; pásalo con anio=')
     ref = f'WEB-OFT-{archivo.upper()}-{clave.upper()}'
-    _agregar(ref, re.split(r' \((?:Solo|Resumen|Texto)', cita)[0][:240], institucion, url, anio or int(m.group(1)))
+    _agregar(ref, re.split(r' \((?:Solo|Resumen|Texto)', cita)[0][:240], institucion, url, anio_final)
     return fu(ref, detalle)
 
 

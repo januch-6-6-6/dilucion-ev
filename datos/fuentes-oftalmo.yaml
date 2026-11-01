@@ -22,6 +22,12 @@
   url: https://cima.aemps.es/cima/dochtml/ft/1191417/FT_1191417.html
   anio: 2026
   consultado: '2026-10-31'
+- id: CIMA-OFT-BUPIVACAINA-57110
+  titulo: 'Ficha técnica: BUPIVACAINA PHYSAN 5 MG/ML SOLUCIÓN INYECTABLE'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/57110/FT_57110.html
+  anio: 2026
+  consultado: '2026-10-31'
 - id: CIMA-OFT-CEFUROXIMA-76098
   titulo: 'Ficha técnica: PROKAM 50 MG POLVO PARA SOLUCION INYECTABLE'
   institucion: AEMPS — CIMA (España)
@@ -68,6 +74,12 @@
   titulo: 'Ficha técnica: LUCENTIS 10 MG/ML SOLUCION INYECTABLE'
   institucion: AEMPS — CIMA (España)
   url: https://cima.aemps.es/cima/dochtml/ft/106374004/FT_106374004.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-ROPIVACAINA-73054
+  titulo: 'Ficha técnica: ROPIVACAINA KABI 2MG/ML SOLUCION INYECTABLE EFG'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/73054/FT_73054.html
   anio: 2026
   consultado: '2026-10-31'
 - id: CIMA-OFT-TRIAMCINOLONA-74673
@@ -119,6 +131,12 @@
   titulo: 'Etiqueta FDA (DailyMed): OMIDRIA (PHENYLEPHRINE AND KETOROLAC) INJECTION, SOLUTION, CONCENTRATE [OMEROS CORPORATION]'
   institucion: U.S. National Library of Medicine — DailyMed (FDA)
   url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21470688-4e81-4ea5-ac38-f72e10552e7e
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-HIALURONIDASA
+  titulo: 'Etiqueta FDA (DailyMed): HYLENEX RECOMBINANT (HYALURONIDASE) INJECTION, SOLUTION [ANTARES PHARMA, INC.]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3023cc56-ed4b-4e87-b3a1-81b20943f658
   anio: 2026
   consultado: '2026-10-31'
 - id: DAILYMED-OFT-TRIAMCINOLONA
@@ -287,6 +305,55 @@
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6907248/
   anio: 2019
   consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-16235305
+  titulo: Wilkins M, Indar A, Wormald R. Intra-operative mitomycin C for glaucoma surgery. Cochrane Database Syst Rev. 2005;(4):CD002897.
+    doi:10.1002/14651858.CD002897.pub2.
+  institucion: Cochrane Database of Systematic Reviews
+  url: https://pubmed.ncbi.nlm.nih.gov/16235305/
+  anio: 2005
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-24554410
+  titulo: Green E, Wilkins M, Bunce C, Wormald R. 5-Fluorouracil for glaucoma surgery. Cochrane Database Syst Rev. 2014;(2):CD001132.
+    doi:10.1002/14651858.CD001132.pub2.
+  institucion: Cochrane Database of Systematic Reviews
+  url: https://pubmed.ncbi.nlm.nih.gov/24554410/
+  anio: 2014
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-EYEWIKI.ORG/TRABECULECTOMY
+  titulo: EyeWiki (AAO). Trabeculectomy. Iniciado por Jody Piltz-Seymour, MD, y Tak Yee Tania Tai, MD; editor Arsham Sheybani,
+    MD. Última edición 31-oct-2026. (Citas breves; la página NO da concentraciones.)
+  institucion: American Academy of Ophthalmology (EyeWiki)
+  url: https://eyewiki.org/Trabeculectomy
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-PMC12013292
+  titulo: 'Singh A, Singh K, Singh A. Bleb resuscitation of failing, leaking and dysfunctional blebs: A review. Indian J Ophthalmol.
+    2025;73(Suppl 2):S197-S206. doi:10.4103/ijo.ijo_1233_24.'
+  institucion: Indian Journal of Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12013292/
+  anio: 2025
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-PMC12989694
+  titulo: 'Gazzard G, Kailani O, Muntasser H, Lim KS, Vig N, Yu J. Optimizing Filtration Surgery Procedures in African-Derived
+    Populations: Trabeculectomy and Preserflo. Clin Ophthalmol. 2026;20:570347. doi:10.2147/opth.s570347. (Opinión de expertos, '
+  institucion: Clinical Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12989694/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-PMC13627763
+  titulo: 'Ahmed IIK, Martinez-De-La-Casa JM, Fea AM, et al. XEN63 Gel Stent in Glaucoma: Narrative Review and Expert Perspectives
+    on Patient Selection, Surgical Technique, and Perioperative Management. Clin Ophthalmol. 2026;20:615868. doi:10.2147/opt'
+  institucion: Clinical Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13627763/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-ANTIFIBROTICOS-PMC9684179
+  titulo: 'Taher NO, Alnabihi AN, Hersi RM, et al. Amniotic membrane transplantation and conjunctival autograft combined with
+    mitomycin C for the management of primary pterygium: A systematic review and meta-analysis. Front Med (Lausanne). 2022;9:9816'
+  institucion: Frontiers in Medicine
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9684179/
+  anio: 2022
+  consultado: '2026-10-31'
 - id: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
   titulo: 'EyeWiki (AAO). Ocular Anesthesia. Lee AG, Queen JH, Bhuta N, Bhat N, Bindiganavile SH, Chahande SS, Wiley Z, Pandit
     R. Editora: Sonali Singh. Última edición 13-oct-2026.'
@@ -309,12 +376,34 @@
   url: https://eyewiki.org/Sub-Tenon_Anaesthesia
   anio: 2026
   consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-OPHTHALMIC-SURGERY-2012
+  titulo: Royal College of Anaesthetists & Royal College of Ophthalmologists. Local anaesthesia for ophthalmic surgery. Joint
+    guidelines from the Royal College of Anaesthetists and the Royal College of Ophthalmologists. Londres, febrero 2012 (Kumar
+    C
+  institucion: Royal College of Anaesthetists y Royal College of Ophthalmologists
+  url: https://curriculum.rcophth.ac.uk/2012-sci-247-local-anaesthesia-in-ophthalmic-surgery-2012
+  anio: 2012
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-PMC10491076
+  titulo: Mohankumar A, Rajan M. Role of hyaluronidase as an adjuvant in local anesthesia for cataract surgery. Indian J Ophthalmol.
+    2023;71(7):2649-2655. doi:10.4103/ijo.ijo_2515_22.
+  institucion: Indian Journal of Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10491076/
+  anio: 2023
+  consultado: '2026-10-31'
 - id: WEB-OFT-BLOQUEOS-PMC10614322
   titulo: 'Lohmann T, Baumgarten S, Prinz J, Walter P, Koutsonas A. Safety and feasibility of sutureless pars-plana vitrectomy
     in sub-Tenon anesthesia (SAFE-VISA): a prospective study. Eur J Med Res. 2023;28(1):472. doi:10.1186/s40001-023-01447-2.'
   institucion: European Journal of Medical Research
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10614322/
   anio: 2023
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-PMC12771858
+  titulo: 'Cao X, Ge Z, Gong Y. Transient orbital apex syndrome with magnetic resonance imaging evidence following sub-Tenon''s
+    ropivacaine anesthesia during combined cataract and macular surgery: a case report. BMC Ophthalmol. 2025;26(1):3. doi:10.118'
+  institucion: BMC Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12771858/
+  anio: 2025
   consultado: '2026-10-31'
 - id: WEB-OFT-CLINDAMICINA-IV-20708269
   titulo: Soheilian M, Ramezani A, Azimzadeh A, Sadoughi MM, Dehghan MH, Shahghadami R, Yaseri M, Peyman GA. Randomized trial
@@ -336,7 +425,7 @@
     chorioretinitis: a case report. Iran Red Crescent Med J. 2014;16(11):e15428. doi:10.5812/ircmj.15428.'
   institucion: Journal of Ophthalmic & Vision Research
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4329957/
-  anio: 2015
+  anio: 2014
   consultado: '2026-10-31'
 - id: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
   titulo: 'EyeWiki (American Academy of Ophthalmology) — Tissue Plasminogen Activator. Autores: Hashem Abu Serhan (iniciador),
@@ -428,5 +517,77 @@
     Infections in the United States. Antibiotics (Basel). 2026;15(7):710. doi:10.3390/antibiotics15070710.
   institucion: Antibiotics (MDPI)
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13405202/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-29121356
+  titulo: 'Mak MYK, Yan P, Park J, et al. Pain Associated With a Subconjunctival Cefazolin-Lidocaine Mixture in Retinal Surgery:
+    A Randomized Control Trial. Ophthalmic Surg Lasers Imaging Retina. 2017;48(11):881-886. doi:10.3928/23258160-20171030-02.'
+  institucion: Ophthalmic Surgery, Lasers and Imaging Retina
+  url: https://pubmed.ncbi.nlm.nih.gov/29121356/
+  anio: 2017
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC12577578
+  titulo: Surawatsatien N, et al. Systematic Review of Clinical Practice Guidelines for Post-Cataract Surgery Endophthalmitis
+    Prophylaxis from 2008-2023. Clin Ophthalmol. 2025;19:3949-3960. doi:10.2147/opth.s559156.
+  institucion: Clinical Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12577578/
+  anio: 2025
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC13415846
+  titulo: 'Birtel J, Ong AY, Deichl K, Mole G, Aslam SA, Charbel Issa P. Dropless after cataract surgery (DACS): concepts,
+    evidence and clinical potential. Eye (Lond). 2026;40(11):1602-1617. doi:10.1038/s41433-026-04604-z.'
+  institucion: Eye (Londres)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13415846/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC13417846
+  titulo: 'Ay IE, Genc S, Abouki COA, Yorukoglu Kayabas S, Mumyakmaz Yaman B. Cataract surgery without a phacoemulsification
+    device during a humanitarian mission in benin: outcomes of manual small-incision cataract surgery and extracapsular cataract
+    e'
+  institucion: BMC Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13417846/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC13528843
+  titulo: 'Wanten JC, Till V, Findl O, Cochener-Lamard B, Kohnen T, Nuijts RMMA; ESCRS Cataract Surgery Guidelines Working
+    Group. ESCRS guideline for cataract surgery 2024: executive summary. J Cataract Refract Surg. 2026;52(9):e1-e13. doi:10.1097/j.j'
+  institucion: Journal of Cataract & Refractive Surgery (guía ESCRS)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13528843/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC4255380
+  titulo: Panahibazaz M, Moosavian M, Khataminia G, et al. Sub-Conjunctival Injection of Antibiotics vs. Povidone-Iodine Drop
+    on Bacterial Colonies in Phacoemulsification Cataract Surgery. Jundishapur J Microbiol. 2014;7(9):e13108. doi:10.5812/jjm.13
+  institucion: Jundishapur Journal of Microbiology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4255380/
+  anio: 2014
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC8841617
+  titulo: Ku JY, Wong SW, Steeples LR, Delaney C, Parry NRA, Fenerty C. High dose cefuroxime causing retinal toxicity in a
+    patient undergoing trabeculectomy. Am J Ophthalmol Case Rep. 2022;25:101343. doi:10.1016/j.ajoc.2022.101343.
+  institucion: American Journal of Ophthalmology Case Reports
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8841617/
+  anio: 2022
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC9092187
+  titulo: 'Raharja A, Neffendorf JE, Williamson TH. Retinal toxicity secondary to subconjunctival cefuroxime following pars
+    plana vitrectomy: A case report and literature review. Am J Ophthalmol Case Rep. 2022;26:101557. doi:10.1016/j.ajoc.2022.101557'
+  institucion: American Journal of Ophthalmology Case Reports
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9092187/
+  anio: 2022
+  consultado: '2026-10-31'
+- id: WEB-OFT-SUBCONJUNTIVALES-PMC9768931
+  titulo: Hosseini S, Daraee G, Shoeibi N, et al. Incidence rate and clinical characteristics of acute endophthalmitis following
+    23-gauge pars plana vitrectomy. Int J Retina Vitreous. 2022;8(1):85. doi:10.1186/s40942-022-00435-8.
+  institucion: International Journal of Retina and Vitreous
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9768931/
+  anio: 2022
+  consultado: '2026-10-31'
+- id: WEB-OFT-TOXINA-BOTULINICA-SETID=33D066A9
+  titulo: BOTOX (onabotulinumtoxinA) for injection, powder, lyophilized, for solution. Allergan, Inc. Ficha técnica (Prescribing
+    Information) en DailyMed, NLM; versión publicada 3-ago-2026; setid 33d066a9-34ff-4a1a-b38b-d10983df3300. Descargada vía
+    A
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33d066a9-34ff-4a1a-b38b-d10983df3300
   anio: 2026
   consultado: '2026-10-31'
