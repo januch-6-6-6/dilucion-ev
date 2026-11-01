@@ -63,6 +63,8 @@
 4. **Orales con evidencia débil** (tranexámico en el hipema, glicerol oral sin registro, ivermectina en Demodex): ¿se incluyen con aviso o se dejan fuera?
 5. **Antifibróticos y toxina botulínica** (mitomicina, 5-FU, Botox): son muy delicados y cambian según el protocolo del cirujano. ¿Van en la v1?
 
+**Respuestas de Héctor (1-nov-2026):** 1) se muestran con aviso «No registrado en Chile»; 2) rango + los 2 protocolos; 3) bloqueos y subconjuntivales sí, como texto sin verificador; 4) orales de evidencia débil fuera de la v1; 5) antifibróticos y toxina sí, como alto riesgo. Detalle en `datos/crudos/oftalmo/DECISIONES.md`.
+
 ## 5. Siguiente paso
 
 Con las decisiones de Héctor: spec (`FichaOcular` + verificador + marca `oftalmologia` + centro `/oftalmologia`) → plan → lotes de datos con revisión molécula por molécula, igual que en tópicos.

@@ -22,3 +22,11 @@ Fuente única con aviso; concentración chilena; sin pauta si no hay fuente; off
 ## Regla nueva (propuesta en el diseño, aprobada con «Adelante»)
 
 Muchos usos intraoculares son off-label por naturaleza (bevacizumab, alteplasa, moxifloxacino o vancomicina intraocular). Se muestran con la etiqueta off-label y su fuente publicada, nunca sin fuente. Todo lo de pabellón se marca como alto riesgo.
+
+## 1-nov-2026 — las 5 decisiones del informe Fase 0
+
+1. **Sin registro en Chile** (Miostat, Miochol, VisionBlue, azul brillante, Omidria, Beovu, Jetrea, ropivacaína): **se muestran** con la etiqueta «No registrado en Chile (importación o uso compasivo)» y su ficha FDA o CIMA como fuente.
+2. **Moxifloxacino intracameral:** se muestra el **rango publicado (150–500 µg/0,1 ml)** con los **dos protocolos** y su fuente (ASCRS 0,5 mg; Arshinoff 150 µg/0,1 ml). El verificador acepta cualquiera de las dos concentraciones y recuerda «verifica el protocolo de tu pabellón».
+3. **Bloqueos y subconjuntivales: SÍ en la v1**, como texto informativo con volúmenes y **sin verificador**.
+4. **Orales con evidencia débil** (tranexámico en el hipema, ivermectina en Demodex, glicerol oral): **FUERA de la v1**, quedan para después.
+5. **Antifibróticos (mitomicina C, 5-FU) y toxina botulínica: SÍ en la v1**, marcados como alto riesgo y «según el protocolo del cirujano». Sin pasos publicados → solo la dosis o concentración final citada.
