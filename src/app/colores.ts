@@ -35,6 +35,17 @@ const COLORES: Record<string, ColorGrupo> = {
   antidepresivo: 'indigo',
   'hipnotico-ansiolitico': 'indigo',
   'vitamina-mineral': 'verde',
+  // Tópicos ojo/oído/nariz
+  descongestionante: 'ambar',
+  midriatico: 'ambar',
+  antialergico: 'ambar',
+  'corticoide-nasal': 'lima',
+  antiglaucomatoso: 'violeta',
+  'antibiotico-corticoide': 'cian',
+  'inmunomodulador-ocular': 'indigo',
+  'lavado-nasal': 'verde',
+  'lubricante-ocular': 'turquesa',
+  'analgesico-otico': 'azul',
 }
 
 export const colorGrupo = (grupo: string): ColorGrupo => COLORES[grupo] ?? 'neutro'

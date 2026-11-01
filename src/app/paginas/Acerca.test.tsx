@@ -24,4 +24,10 @@ describe('Acerca', () => {
     expect(screen.getByText(/no son chilenas/i)).toBeInTheDocument()
     expect(screen.getByText(/sin verificar/i)).toBeInTheDocument()
   })
+
+  it('explica la sección de tópicos: regla de concentración y supuesto de gotas', () => {
+    render(<MemoryRouter><Acerca /></MemoryRouter>)
+    expect(screen.getByText(/atada a la concentración y forma registradas en Chile/i)).toBeInTheDocument()
+    expect(screen.getByText(/20 gotas por ml/i)).toBeInTheDocument()
+  })
 })

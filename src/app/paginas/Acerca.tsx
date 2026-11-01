@@ -52,6 +52,21 @@ export default function Acerca() {
         al no disponer de monografía pediátrica independiente en Pediamécum. En dichos casos se recomienda contrastar especialmente la dosis con
         guías clínicas y protocolos institucionales.
       </p>
+      <h3>Tópicos de ojo, oído y nariz</h3>
+      <p>
+        La sección de tópicos reúne los colirios, ungüentos oftálmicos, gotas óticas y sprays o gotas nasales registrados en el ISP de Chile
+        (80 moléculas o combinaciones). Las presentaciones salen del registro del ISP. Las pautas salen de las fichas técnicas de CIMA (España),
+        de DailyMed (FDA, Estados Unidos) y de Pediamécum, que tampoco son <strong>fuentes chilenas</strong>.
+      </p>
+      <p>
+        Cada pauta va <strong>atada a la concentración y forma registradas en Chile</strong>. Si la única fuente es de otra concentración, la
+        ficha queda informativa, sin pauta, y la diferencia aparece en «Discrepancias». Lo mismo pasa con las combinaciones que no tienen una
+        fuente de la combinación. Una pauta pediátrica que solo trae Pediamécum se marca como off-label.
+      </p>
+      <p>
+        La calculadora «¿Cuánto dura el frasco?» usa como supuesto 20 gotas por ml, que puedes editar, y nunca supera la validez del envase
+        una vez abierto. No calcula ungüentos ni unidosis.
+      </p>
       <p>Proyecto de formación y portafolio de Héctor Salvo Agüero (TENS e Ingeniero en Informática).</p>
       <p>
         Privacidad: la app cuenta visitas de forma anónima con{' '}

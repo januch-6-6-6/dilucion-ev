@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { parse } from 'yaml'
 import { validarDatos } from '../src/esquema/validar'
 import { validarOrales } from '../src/esquema/validar-orales'
+import { validarTopicos } from '../src/esquema/validar-topicos'
 
 const raiz = join(import.meta.dirname, '..', 'datos')
 const dirMed = join(raiz, 'medicamentos')
@@ -43,3 +44,21 @@ if (erroresOrales.length) {
   process.exit(1)
 }
 console.log(`${orales.length} fichas orales validadas, ${fuentesOrales.length} fuentes orales.`)
+
+// Tópicos (datos/topicos/*.yaml + datos/fuentes-topicos.yaml); ambos opcionales.
+const dirTopicos = join(raiz, 'topicos')
+const archivoFuentesTopicos = join(raiz, 'fuentes-topicos.yaml')
+const archivosTopicos = existsSync(dirTopicos) ? readdirSync(dirTopicos).filter((a) => a.endsWith('.yaml')).sort() : []
+const topicos = archivosTopicos.map((a) => parse(readFileSync(join(dirTopicos, a), 'utf8')))
+const fuentesTopicos = existsSync(archivoFuentesTopicos) ? (parse(readFileSync(archivoFuentesTopicos, 'utf8')) ?? []) : []
+const erroresTopicos = validarTopicos(topicos, fuentesTopicos)
+topicos.forEach((f, i) => {
+  const esperado = archivosTopicos[i].replace(/\.yaml$/, '')
+  if (f?.id !== esperado) erroresTopicos.push(`${archivosTopicos[i]}: el id "${f?.id}" no coincide con el nombre del archivo`)
+})
+if (erroresTopicos.length) {
+  for (const e of erroresTopicos) console.error(`✗ ${e}`)
+  console.error(`\n${erroresTopicos.length} errores en ${topicos.length} fichas tópicas.`)
+  process.exit(1)
+}
+console.log(`${topicos.length} fichas tópicas validadas, ${fuentesTopicos.length} fuentes tópicas.`)

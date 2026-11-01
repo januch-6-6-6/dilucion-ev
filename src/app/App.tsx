@@ -12,6 +12,9 @@ import ContadorVisitas from './visitas'
 const ListaOrales = lazy(() => import('./orales/ListaOrales'))
 const FichaOral = lazy(() => import('./orales/FichaOral'))
 const CalculadoraOral = lazy(() => import('./orales/CalculadoraOral'))
+const ListaTopicos = lazy(() => import('./topicos/ListaTopicos'))
+const FichaTopica = lazy(() => import('./topicos/FichaTopica'))
+const CalculadoraTopica = lazy(() => import('./topicos/CalculadoraTopica'))
 
 /** Cabecera con degradado. En la portada (/) agrega la presentación: qué es y para quién. */
 function Cabecera() {
@@ -26,6 +29,7 @@ function Cabecera() {
         <nav aria-label="Secciones" className="secciones">
           <NavLink to="/" end>EV</NavLink>
           <NavLink to="/orales">Orales</NavLink>
+          <NavLink to="/topicos">Tópicos</NavLink>
         </nav>
         {portada && (
           <div className="presentacion">
@@ -57,6 +61,9 @@ export default function App() {
           <Route path="/orales" element={<ListaOrales />} />
           <Route path="/orales/m/:id" element={<FichaOral />} />
           <Route path="/orales/m/:id/calcular" element={<CalculadoraOral />} />
+          <Route path="/topicos" element={<ListaTopicos />} />
+          <Route path="/topicos/m/:id" element={<FichaTopica />} />
+          <Route path="/topicos/m/:id/calcular" element={<CalculadoraTopica />} />
           <Route path="/ambito/:ambito" element={<Lista />} />
           <Route path="/grupo/:grupo" element={<Lista />} />
           <Route path="/m/:id" element={<Ficha />} />
