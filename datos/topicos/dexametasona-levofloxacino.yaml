@@ -1,0 +1,53 @@
+id: dexametasona-levofloxacino
+nombre: Levofloxacino + dexametasona oftálmico
+comerciales:
+- Istadine
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Levofloxacino
+- Dexametasona
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-26815/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26815/22 ISTADINE SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Prevención de infección e inflamación tras cirugía de catarata
+  poblacion: adulto
+  texto: 1 gota en el saco conjuntival cada 6 h durante 7 días
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: 7 días; luego reevaluar
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-LEVOFLOXACINO-85248
+    detalle: '4.2: una gota aplicada en el saco conjuntival tras la intervención cada 6 horas; 7 días'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No se recomienda en menores de 18 años; sin datos (CIMA).
+conservacion: []
+administracion:
+  texto: Instilar en el canto externo presionando el canto interno. Lavarse las manos; no tocar el ojo con la punta. Separar
+    15 minutos de otros colirios.
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-LEVOFLOXACINO-85248
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a quinolonas o corticoides (CIMA).
+- Queratitis herpética, varicela y otras virosis corneales (CIMA).
+- Infecciones micobacterianas o micóticas del ojo; infección purulenta no tratada (CIMA).
+alertas:
+- Ducressa es 1 mg/ml + 5 mg/ml; el registro chileno (Istadine) no indica concentración en el nombre.
+discrepancias: []
+meta: {}

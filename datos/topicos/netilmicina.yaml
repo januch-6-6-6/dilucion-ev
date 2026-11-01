@@ -1,0 +1,53 @@
+id: netilmicina
+nombre: Netilmicina oftálmica 0,3 %
+comerciales:
+- Netira
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-3
+  forma: solucion
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - B-3058/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-3058/24 NETIRA SOLUCIÓN OFTÁLMICA 0,3% (NETILMICINA)
+dosis:
+- indicacion: Infección ocular externa bacteriana
+  poblacion: adulto
+  texto: 1 o 2 gotas en el saco conjuntival 3 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  duracion: Habitualmente 5 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-NETILMICINA-84965
+    detalle: '4.2: 1 o 2 gotas 3 veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas de 3 a 18 años (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: 'Después de abrir: 28 días. Bajo 25 °C, protegido de la luz.'
+  fuente:
+    ref: CIMA-TOP-NETILMICINA-84965
+    detalle: '6.3: después de la primera apertura, 28 días'
+administracion:
+  texto: Enroscar el tapón hacia abajo para perforar la punta. Retirar lentes de contacto y esperar 15 minutos. Comprimir
+    el saco lagrimal 1 minuto.
+  fuente:
+    ref: CIMA-TOP-NETILMICINA-84965
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a netilmicina u otros aminoglucósidos (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

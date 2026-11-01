@@ -1,0 +1,71 @@
+id: prednisolona
+nombre: Prednisolona acetato oftálmica 1 %
+comerciales:
+- Proxten Plus
+- Oftacort
+- Oftalpred
+- Pred Forte
+- Predsolets Forte
+- Sophipren Ofteno
+grupo: corticoide
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-1
+  forma: suspension
+  via: ojo
+  concentracion: 1 %
+  registrosIsp:
+  - F-22116/25
+  - F-24979/24
+  - FX-357/25
+  - F-25859/25
+  - F-22198/20
+  - F-8553/26
+  - F-25788/25
+  - F-22874/26
+  - F-16082/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-22116/25 PREDNISOLONA ACETATO SUSPENSION OFTALMICA 1%; F-24979/24 PROXTEN PLUS SUSPENSIÓN OFTALMICA 1% (PREDNISOLONA
+      ACETATO); FX-357/25 OFTACORT SUSPENSIÓN OFTÁLMICA 1% (PREDNISOLONA ACETATO); F-25859/25 OFTACORT SUSPENSIÓN OFTÁLMICA
+      1% (PREDNISOLONA ACETATO); F-22198/20 OFTALPRED SUSPENSIÓN OFTÁLMICA 1%; F-8553/26 PRED FORTE SUSPENSIÓN OFTÁLMICA 1%;
+      F-25788/25 PREDNISOLONA ACETATO SUSPENSIÓN OFTÁLMICA 1%; F-22874/26 PREDSOLETS FORTE SUSPENSIÓN OFTÁLMICA  1% (PREDNISOLONA
+      ACETATO); F-16082/22 SOPHIPREN OFTENO SUSPENSIÓN OFTÁLMICA 1% (PREDNISOLONA)
+dosis:
+- indicacion: Inflamación ocular que responde a corticoides
+  poblacion: adulto
+  texto: 1 o 2 gotas 2 a 4 veces al día (puede aumentarse según indicación)
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-PREDNISOLONA-62038
+    detalle: '4.2: una o dos gotas de 2 a 4 veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas en niños (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Una vez abierto, desechar a los 28 días. Bajo 25 °C; no congelar.
+  fuente:
+    ref: CIMA-TOP-PREDNISOLONA-62038
+    detalle: '6.3: una vez abierto el envase, desechar a los 28 días'
+administracion:
+  texto: Agitar antes de usar. Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir la
+    absorción sistémica. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta
+    del frasco.
+  fuente:
+    ref: CIMA-TOP-PREDNISOLONA-62038
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Queratitis por herpes simple; vaccinia, varicela y otras infecciones víricas de córnea o conjuntiva.
+- Infecciones fúngicas o micobacterianas del ojo; infecciones agudas no tratadas.
+alertas: []
+discrepancias: []
+meta: {}

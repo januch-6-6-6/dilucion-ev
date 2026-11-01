@@ -1,0 +1,77 @@
+id: ciprofloxacino-fluocinolona
+nombre: Ciprofloxacino + fluocinolona ótico
+comerciales:
+- Cetraxal Plus 3/0,25
+grupo: antibiotico-corticoide
+vias:
+- oido
+componentes:
+- Ciprofloxacino
+- Fluocinolona
+altoRiesgo: false
+presentaciones:
+- id: oido-solucion-0-3-0-025
+  forma: solucion
+  via: oido
+  concentracion: 0,3 % + 0,025 %
+  registrosIsp:
+  - F-20638/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-20638/23 CETRAXAL PLUS 3/0,25  SOLUCIÓN PARA GOTAS ÓTICAS
+dosis:
+- indicacion: Otitis externa aguda u otitis media aguda con tubos de timpanostomía
+  poblacion: adulto
+  texto: 6 a 8 gotas en el conducto auditivo cada 12 h durante 7 días
+  cantidad: 8
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  duracion: 7 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-FLUOCINOLONA-64655
+    detalle: '4.2.1: aplicar 6-8 gotas en el conducto auditivo externo afectado cada 12 horas durante 7 días'
+- indicacion: Otitis externa aguda u otitis media aguda con tubos de timpanostomía
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: 6 a 8 gotas cada 12 h durante 7 días'
+  cantidad: 8
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  estatus: autorizada
+  condicion: Desde los 6 meses
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-FLUOCINOLONA-64655
+    detalle: '4.2.1 Población pediátrica: en niños de 6 meses y mayores la misma dosis que en adultos'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 6 meses, igual que en adultos (CIMA).
+  edadMinima: 6 meses
+conservacion:
+- validezAbiertoDias: 28
+  texto: 'Una vez abierto: 1 mes (la calculadora usa 28 días). Conservar bajo 30 °C.'
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-FLUOCINOLONA-64655
+    detalle: '6.3: una vez abierto, 1 mes'
+administracion:
+  texto: Entibiar el frasco en la mano, cabeza de lado, instilar y tirar del lóbulo; con tubos, bombear el trago 4 veces.
+    Mantener 1 minuto.
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-FLUOCINOLONA-64655
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a ciprofloxacino, fluocinolona u otras quinolonas (CIMA).
+- Infecciones virales (varicela, herpes) o fúngicas del conducto auditivo (CIMA).
+alertas: []
+discrepancias:
+- campo: Pauta ótica
+  valores:
+  - fuente: CIMA-TOP-CIPROFLOXACINO-FLUOCINOLONA-64655
+    valor: 'Synalotic 3 + 0,25 mg/ml: 6-8 gotas cada 12 h, 7 días'
+  - fuente: PEDIAMECUM-TOP-FLUOCINOLONA
+    valor: 'Fluocinolona asociada a ciprofloxacino: 4-6 gotas cada 8 h'
+  mostrado: Pauta de la ficha técnica (6–8 gotas cada 12 h)
+  motivo: Misma concentración que el registro chileno; Pediamécum no indica la concentración de la asociación que describe.
+meta: {}

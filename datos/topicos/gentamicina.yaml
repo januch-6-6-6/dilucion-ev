@@ -1,0 +1,91 @@
+id: gentamicina
+nombre: Gentamicina oftálmica 0,3 %
+comerciales:
+- Gentabrand
+- Oftagen
+- Gentisal
+- Oftaglicol
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-0-3
+  forma: unguento
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - B-2519/25
+  - B-2250/22
+  - B-889/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2519/25 GENTABRAND UNGÜENTO OFTÁLMICO 0,3% (GENTAMICINA); B-2250/22 GENTAMICINA UNGÜENTO OFTÁLMICO 0,3%; B-889/25
+      OFTAGEN UNGÜENTO OFTÁLMICO 0,3%
+- id: ojo-solucion-0-3
+  forma: solucion
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - B-2632/26
+  - B-2638/26
+  - B-2654/26
+  - B-1243/26
+  - B-888/25
+  - B-2639/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2632/26 GENTAMICINA SOLUCIÓN OFTÁLMICA 0,3 %; B-2638/26 GENTAMICINA SOLUCIÓN OFTÁLMICA 0,3%; B-2654/26 GENTAMICINA
+      SOLUCIÓN OFTÁLMICA 0,3%; B-1243/26 GENTISAL SOLUCIÓN OFTÁLMICA 0,3%; B-888/25 OFTAGEN SOLUCIÓN OFTÁLMICA 0,3%; B-2639/26
+      OFTAGLICOL SOLUCIÓN OFTÁLMICA 0,3% (GENTAMICINA)
+dosis:
+- indicacion: Infección ocular bacteriana
+  poblacion: adulto
+  texto: 1 cm de pomada 2 o 3 veces al día
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-unguento-0-3
+  fuente:
+    ref: CIMA-TOP-GENTAMICINA-52662
+    detalle: '4.2.1: en general se aplicará 1 cm de pomada dos o tres veces al día'
+- indicacion: Infección ocular bacteriana
+  poblacion: pediatrico
+  texto: 1 cm de pomada 2 o 3 veces al día
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-unguento-0-3
+  fuente:
+    ref: CIMA-TOP-GENTAMICINA-52662
+    detalle: '4.2.1: uso en adultos, adolescentes y pacientes pediátricos'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha técnica de la pomada incluye a los pacientes pediátricos.
+conservacion:
+- presentaciones:
+  - ojo-unguento-0-3
+  validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. No conservar sobre 25 °C.
+  fuente:
+    ref: CIMA-TOP-GENTAMICINA-52662
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-GENTAMICINA-52662
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a gentamicina u otros aminoglucósidos (CIMA).
+alertas:
+- 'La solución 0,3 % no tiene ficha técnica en las fuentes consultadas: sin pauta.'
+discrepancias: []
+meta: {}

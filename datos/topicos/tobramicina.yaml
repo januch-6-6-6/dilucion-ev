@@ -1,0 +1,106 @@
+id: tobramicina
+nombre: Tobramicina oftálmica 0,3 %
+comerciales:
+- Tobral
+- Tobrex
+- Xolof
+- Tobraler
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-0-3
+  forma: unguento
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - B-2368/24
+  - B-2807/25
+  - B-2803/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2368/24 TOBRAL UNGÜENTO OFTÁLMICO 0,3%; B-2807/25 TOBREX UNGÜENTO OFTÁLMICO 0,3% (TOBRAMICINA); B-2803/22 XOLOF
+      UNGÜENTO OFTÁLMICO 0,3%
+- id: ojo-solucion-0-3
+  forma: solucion
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - B-2369/23
+  - B-3075/25
+  - B-2630/26
+  - B-1261/26
+  - B-2808/25
+  - B-2802/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2369/23 TOBRAL SOLUCIÓN OFTÁLMICA 0,3%; B-3075/25 TOBRALER SOLUCIÓN OFTÁLMICA 0,3% (TOBRAMICINA); B-2630/26
+      TOBRAMICINA SOLUCIÓN OFTÁLMICA 0,3%; B-1261/26 TOBRAMICINA SOLUCIÓN OFTÁLMICA 0,3%; B-2808/25 TOBREX SOLUCIÓN OFTÁLMICA
+      0,3% (TOBRAMICINA); B-2802/22 XOLOF SOLUCIÓN OFTÁLMICA 0,3%
+dosis:
+- indicacion: Infección leve o moderada
+  poblacion: adulto
+  texto: 1 cm de pomada 2 o 3 veces al día
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-unguento-0-3
+  fuente:
+    ref: CIMA-TOP-TOBRAMICINA-57593
+    detalle: '4.2: infecciones leves o moderadas, 1 cm de pomada dos o tres veces al día'
+- indicacion: Infección grave
+  poblacion: adulto
+  texto: 1 cm de pomada cada 3–4 h hasta mejorar; luego espaciar
+  cantidad: 1
+  unidad: cm
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-unguento-0-3
+  fuente:
+    ref: CIMA-TOP-TOBRAMICINA-57593
+    detalle: '4.2: infecciones graves, 1 cm cada tres o cuatro horas'
+- indicacion: Infección leve o moderada
+  poblacion: pediatrico
+  texto: Igual que en adultos
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde 1 año
+  presentaciones:
+  - ojo-unguento-0-3
+  fuente:
+    ref: CIMA-TOP-TOBRAMICINA-57593
+    detalle: '4.2 Población pediátrica: adolescentes y niños de 1 año y mayores, misma dosis'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde 1 año; no establecida en menores (CIMA).
+  edadMinima: 1 año
+conservacion:
+- presentaciones:
+  - ojo-unguento-0-3
+  validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Bajo 25 °C.
+  fuente:
+    ref: CIMA-TOP-TOBRAMICINA-57593
+    detalle: '6.3: desechar cuatro semanas después de la primera apertura'
+administracion:
+  texto: Aplicar al final si se usan colirios. No tocar el ojo con la punta del tubo.
+  fuente:
+    ref: CIMA-TOP-TOBRAMICINA-57593
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a tobramicina o a algún excipiente (CIMA).
+alertas:
+- Con aminoglucósidos sistémicos a la vez, vigilar niveles séricos (CIMA).
+- 'La solución 0,3 % no tiene ficha técnica en las fuentes consultadas: sin pauta.'
+discrepancias: []
+meta: {}

@@ -1,0 +1,40 @@
+id: brimonidina-dorzolamida-timolol
+nombre: Brimonidina + dorzolamida + timolol oftálmico
+comerciales:
+- Krytantek Ofteno Pf
+- Tiof Max
+- Tiof Max Sp
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Brimonidina
+- Dorzolamida
+- Timolol
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-28388/24
+  - FX-331/24
+  - F-29811/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28388/24 KRYTANTEK OFTENO PF SOLUCIÓN OFTÁLMICA; FX-331/24 TIOF MAX SOLUCIÓN OFTÁLMICA; F-29811/26 TIOF MAX
+      SP SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente para la combinación. Brimonidina está contraindicada en menores de 2 años.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

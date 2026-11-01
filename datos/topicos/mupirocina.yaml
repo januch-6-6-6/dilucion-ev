@@ -1,0 +1,68 @@
+id: mupirocina
+nombre: Mupirocina ungüento nasal 2 %
+comerciales:
+- Mupax
+- Underan
+grupo: antibiotico
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-unguento-2
+  forma: unguento
+  via: nariz
+  concentracion: 2 %
+  registrosIsp:
+  - F-22821/26
+  - F-13363/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-22821/26 MUPAX UNGÜENTO NASAL 2% (MUPIROCINA); F-13363/23 UNDERAN UNGÜENTO NASAL 2%
+dosis:
+- indicacion: Descolonización de Staphylococcus aureus nasal
+  poblacion: adulto
+  texto: Pequeña cantidad (cabeza de fósforo, ~30 mg) en cada fosa 2 o 3 veces al día
+  vecesAlDia: 3
+  porSitio: fosa
+  duracion: La erradicación suele lograrse en 5–7 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-MUPIROCINA-59531
+    detalle: '4.2: aplicar una pequeña cantidad en cada fosa nasal dos o tres veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-MUPIROCINA
+    detalle: 'Descolonización por SARM en portadores nasales: pequeña cantidad en cada fosa nasal 2-3 veces al día'
+- indicacion: Descolonización de Staphylococcus aureus nasal
+  poblacion: pediatrico
+  texto: Igual que en adultos; en lactantes, aplicar con una tórula
+  vecesAlDia: 3
+  porSitio: fosa
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-MUPIROCINA-59531
+    detalle: '4.2: adultos y población pediátrica'
+  tambien:
+  - ref: PEDIAMECUM-TOP-MUPIROCINA
+    detalle: 'Descolonización por SARM en portadores nasales: aplicar una pequeña cantidad en cada fosa nasal 2-3 veces al
+      día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha incluye a la población pediátrica.
+conservacion:
+- texto: Bajo 25 °C. Desechar lo que sobre al terminar.
+  fuente:
+    ref: CIMA-TOP-MUPIROCINA-59531
+    detalle: '6.4: conservar por debajo de 25 ºC; desechar el producto sobrante'
+administracion:
+  texto: Poner la pomada en el meñique (o en una tórula en lactantes), aplicar en cada fosa y apretar varias veces las alas
+    de la nariz.
+  fuente:
+    ref: CIMA-TOP-MUPIROCINA-59531
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a mupirocina o a algún excipiente (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

@@ -1,0 +1,61 @@
+id: timolol-travoprost
+nombre: Travoprost + timolol oftálmico
+comerciales:
+- Duotrav
+- Travof T Sp
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Travoprost
+- Timolol
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-15433/26
+  - F-17825/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-15433/26 DUOTRAV SOLUCIÓN OFTÁLMICA; F-17825/25 TRAVOF T SP SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 1 vez al día, siempre a la misma hora (no más)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-TRAVOPROST-106338004
+    detalle: '4.2: una gota una vez al día por la mañana o por la noche; no sobrepasar una gota diaria'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas en menores de 18 años; sin datos (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Bajo 30 °C.
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-TRAVOPROST-106338004
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Retirar el envoltorio protector antes del primer uso. Retirar lentes blandos y esperar 15 minutos. Ocluir o cerrar
+    2 minutos. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-TRAVOPROST-106338004
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a otros betabloqueantes (CIMA).
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+- Rinitis alérgica grave y distrofias corneales (CIMA).
+alertas:
+- DuoTrav es 40 mcg/ml + 5 mg/ml; los registros chilenos no indican concentración en el nombre.
+discrepancias: []
+meta: {}

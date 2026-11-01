@@ -1,0 +1,77 @@
+id: brimonidina-timolol
+nombre: Brimonidina + timolol oftálmico
+comerciales:
+- Brimof T Sp
+- Brimopress T
+- Combigan
+- Mymof 0,2/0,5
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Brimonidina
+- Timolol
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-0-2-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,2 % + 0,5 %
+  registrosIsp:
+  - F-28836/25
+  - F-26445/26
+  - F-28290/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28836/25 Brimonidina Tartrato 0,2% Timolol 0,5% solución oftálmica; F-26445/26 BRIMONIDINA TARTRATO/TIMOLOL
+      0,2/0,5 SOLUCIÓN OFTÁLMICA; F-28290/24 MYMOF 0,2/0,5 SOLUCIÓN OFTÁLMICA
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - FX-325/24
+  - F-20015/23
+  - F-15423/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-325/24 BRIMOF T SP SOLUCIÓN OFTÁLMICA; F-20015/23 BRIMOPRESS T SOLUCIÓN OFTÁLMICA; F-15423/26 COMBIGAN SOLUCIÓN
+      OFTÁLMICA
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día, con unas 12 h de diferencia
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-TIMOLOL-67438
+    detalle: '4.2.1: una gota dos veces al día, con 12 horas de diferencia aproximadamente'
+sinPauta: null
+pediatria:
+  estado: contraindicada
+  motivo: Contraindicada en menores de 2 años; no recomendada de 2 a 17 años (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Usar dentro de 28 días tras abrir. Mantener en la caja (luz).
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-TIMOLOL-67438
+    detalle: '6.3: después de la primera apertura, usar en el transcurso de 28 días'
+administracion:
+  texto: Presionar el saco lagrimal o cerrar los ojos 2 minutos inmediatamente después de cada gota. Espaciar al menos 5 minutos
+    de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-TIMOLOL-67438
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+- Neonatos y niños menores de 2 años (CIMA).
+- En tratamiento con IMAO o con antidepresivos que afectan la transmisión noradrenérgica (tricíclicos, mianserina) (CIMA).
+alertas:
+- 'Combigan es 2 mg/ml + 5 mg/ml (0,2 % + 0,5 %): igual a los registros chilenos que indican concentración.'
+discrepancias: []
+meta: {}

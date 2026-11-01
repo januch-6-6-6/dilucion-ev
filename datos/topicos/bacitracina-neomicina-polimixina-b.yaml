@@ -1,0 +1,51 @@
+id: bacitracina-neomicina-polimixina-b
+nombre: Bacitracina + neomicina + polimixina B oftálmica
+comerciales:
+- Oftabiótico Con Bacitracina
+grupo: antibiotico
+vias:
+- ojo
+componentes:
+- Bacitracina
+- Neomicina
+- Polimixina B
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-sc
+  forma: unguento
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-885/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-885/25 OFTABIÓTICO CON BACITRACINA UNGÜENTO OFTÁLMICO
+dosis:
+- indicacion: Infección ocular superficial
+  poblacion: adulto
+  texto: Aplicar el ungüento en el saco conjuntival cada 3 o 4 horas durante 7 a 10 días
+  duracion: 7 a 10 días
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-BACITRACINA-NEOMICINA-POLIMIXINA-B
+    detalle: 'DOSAGE: apply into the conjunctival sac every 3 or 4 hours for 7 to 10 days'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia en niños no establecidas (etiqueta FDA).
+conservacion:
+- texto: Conservar entre 15 y 25 °C, bien cerrado. La etiqueta no fija validez tras abrir.
+  fuente:
+    ref: DAILYMED-TOP-BACITRACINA-NEOMICINA-POLIMIXINA-B
+    detalle: 'Storage: store between 15°C to 25°C; keep tightly closed'
+administracion:
+  texto: Aplicar en el saco conjuntival del ojo afectado.
+  fuente:
+    ref: DAILYMED-TOP-BACITRACINA-NEOMICINA-POLIMIXINA-B
+    detalle: DOSAGE AND ADMINISTRATION
+contraindicaciones:
+- Hipersensibilidad a cualquiera de sus componentes (FDA).
+alertas:
+- 'Neomicina: reacciones de sensibilización alérgica frecuentes (FDA).'
+discrepancias: []
+meta: {}

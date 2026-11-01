@@ -1,0 +1,76 @@
+id: fenilefrina
+nombre: Fenilefrina oftálmica 2,5 %
+comerciales:
+- Mydfrin
+- Ocumidra
+grupo: midriatico
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-2-5
+  forma: solucion
+  via: ojo
+  concentracion: 2,5 %
+  registrosIsp:
+  - F-29863/26
+  - F-3249/25
+  - F-26762/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-29863/26 FENILEFRINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2,5%; F-3249/25 MYDFRIN SOLUCIÓN OFTÁLMICA 2,5% (FENILEFRINA
+      CLORHIDRATO); F-26762/22 OCUMIDRA SOLUCIÓN OFTÁLMICA 2,5% (FENILEFRINA CLORHIDRATO)
+dosis:
+- indicacion: Midriasis para procedimientos (menores de 1 año)
+  poblacion: pediatrico
+  texto: 1 gota al 2,5 % 15–30 minutos antes del procedimiento
+  cantidad: 1
+  unidad: gota
+  porSitio: ojo
+  estatus: off_label
+  condicion: Sin ficha técnica para la concentración de 2,5 %
+  fuente:
+    ref: PEDIAMECUM-TOP-FENILEFRINA
+    detalle: 'Niños <1 año: instilación de una gota al 2,5%, 15-30 minutos antes del procedimiento'
+- indicacion: Midriasis para procedimientos (mayores de 1 año)
+  poblacion: pediatrico
+  texto: 1 gota al 2,5 %; repetir en 10–60 minutos si hace falta
+  cantidad: 1
+  unidad: gota
+  porSitio: ojo
+  estatus: off_label
+  condicion: Sin ficha técnica para la concentración de 2,5 %
+  fuente:
+    ref: PEDIAMECUM-TOP-FENILEFRINA
+    detalle: 'Niños >1 año: instilación de una gota al 2,5% o solución al 10%, repetir en 10-60 minutos si es necesario'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Solo pauta de Pediamécum para 2,5 %. La ficha CIMA (10 %) contraindica su uso en menores de 12 años.
+conservacion: []
+administracion:
+  texto: Ocluir el conducto nasolagrimal al menos 2 minutos o cerrar suavemente los ojos. La midriasis completa tarda 30–60
+    minutos. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-FENILEFRINA-34185
+    detalle: 4.2 Forma de administración (válida para la vía, no para la dosis)
+contraindicaciones:
+- Ángulo estrecho anatómico o glaucoma de ángulo estrecho (CIMA, 10 %).
+- Hipertensión grave; cardiopatía orgánica, aneurismas (CIMA, 10 %).
+alertas:
+- 'Sin pauta de adulto para 2,5 %: la ficha CIMA es de 10 % (cuatro veces más concentrada); su pauta y su contraindicación
+  en menores de 12 años y ancianos son de esa concentración.'
+- Los niños pueden ser especialmente sensibles a la fenilefrina (CIMA).
+discrepancias:
+- campo: Concentración
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: solución 2,5 %'
+  - fuente: CIMA-TOP-FENILEFRINA-34185
+    valor: 'CIMA: Colircusí 100 mg/ml (10 %): 1 gota, repetir en 1 h; contraindicado <12 años y ancianos'
+  - fuente: PEDIAMECUM-TOP-FENILEFRINA
+    valor: 'Pediamécum: 1 gota al 2,5 % (desde lactantes)'
+  mostrado: Solo la pauta pediátrica de 2,5 % (off-label)
+  motivo: Regla de concentración (decisión de Héctor, 31-oct).
+meta: {}

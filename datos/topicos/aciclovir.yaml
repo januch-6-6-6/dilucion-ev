@@ -1,0 +1,78 @@
+id: aciclovir
+nombre: Aciclovir oftálmico
+comerciales:
+- Oftavir
+grupo: antiviral-antifungico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-3
+  forma: unguento
+  via: ojo
+  concentracion: 3 %
+  registrosIsp:
+  - F-8844/26
+  - F-8704/26
+  - F-9585/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-8844/26 ACICLOVIR UNGÜENTO OFTÁLMICO 3%; F-8704/26 ACICLOVIR UNGÜENTO OFTÁLMICO AL 3%; F-9585/26 OFTAVIR UNGÜENTO
+      OFTÁLMICO AL 3%
+dosis:
+- indicacion: Queratitis por herpes simple
+  poblacion: adulto
+  texto: Tira de 1 cm de pomada en el saco conjuntival inferior 5 veces al día (cada 4 h aprox.); seguir al menos 3 días después
+    de la curación
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 5
+  porSitio: ojo
+  duracion: Hasta 3 días después de la curación completa
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-ACICLOVIR-84832
+    detalle: '4.2 Adultos: tira de 1 cm dentro del saco conjuntival inferior cinco veces al día (intervalos de aproximadamente
+      4 horas)'
+- indicacion: Queratitis por herpes simple
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: tira de 1 cm 5 veces al día'
+  cantidad: 1
+  unidad: cm
+  vecesAlDia: 5
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-ACICLOVIR-84832
+    detalle: '4.2 Población pediátrica: igual que los adultos'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha técnica indica la misma pauta que en adultos.
+conservacion:
+- validezAbiertoDias: 28
+  texto: Una vez abierto, máximo 28 días a 25 °C. Conservar por debajo de 25 °C.
+  fuente:
+    ref: CIMA-TOP-ACICLOVIR-84832
+    detalle: '6.3: una vez abierto, máximo 28 días a 25°C; 6.4 conservar por debajo de 25°C'
+administracion:
+  texto: 'Vía oftálmica: aplicar la tira de pomada dentro del saco conjuntival inferior.'
+  fuente:
+    ref: CIMA-TOP-ACICLOVIR-84832
+    detalle: '4.2 Método de administración: vía oftálmica'
+contraindicaciones:
+- Hipersensibilidad a aciclovir, valaciclovir o a algún excipiente (CIMA).
+alertas:
+- No requiere ajuste en mayores de 65 años ni en insuficiencia renal o hepática (CIMA).
+discrepancias:
+- campo: Pauta pediátrica tópica
+  valores:
+  - fuente: CIMA-TOP-ACICLOVIR-84832
+    valor: 'Pomada oftálmica: 1 cm 5 veces al día, igual que adultos'
+  - fuente: PEDIAMECUM-TOP-ACICLOVIR
+    valor: 'Tópica (sin precisar vía oftálmica): 1 aplicación 6 veces al día durante 7 días'
+  mostrado: Pauta de la ficha técnica oftálmica (5 veces al día)
+  motivo: La pauta tópica de Pediamécum no es específica de la vía oftálmica (aplica a piel y mucosas); no se usa como pauta
+    del ungüento oftálmico.
+meta: {}

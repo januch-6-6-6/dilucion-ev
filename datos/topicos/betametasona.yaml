@@ -1,0 +1,38 @@
+id: betametasona
+nombre: Betametasona oftálmica
+comerciales:
+- Oftasona-P
+grupo: corticoide
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-2376/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-2376/24 OFTASONA-P SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Ninguna fuente consultada trae la posología de esta presentación por vía oftálmica: Pediamécum solo describe la
+    betametasona inyectable y cutánea, y CIMA y DailyMed no tienen ficha.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología oftálmica.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias:
+- campo: Fuente pediátrica descargada
+  valores:
+  - fuente: PEDIAMECUM-TOP-BETAMETASONA
+    valor: Betametasona inyectable y cutánea
+  mostrado: No se usa
+  motivo: 'Vía equivocada: no informa sobre la solución oftálmica.'
+meta: {}

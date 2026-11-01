@@ -1,0 +1,76 @@
+id: budesonida
+nombre: Budesonida nasal 100 mcg/dosis
+comerciales:
+- Budanase
+- Rino B Aqua
+grupo: corticoide-nasal
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-100-mcg
+  forma: spray
+  via: nariz
+  concentracion: 100 mcg por pulverización
+  registrosIsp:
+  - F-23599/22
+  - F-15899/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-23599/22 BUDANASE SUSPENSIÓN NASAL PARA NEBULIZACIÓN 100 mcg/dosis (BUDESÓNIDA); F-15899/22 RINO B AQUA SUSPENSIÓN
+      NASAL PARA NEBULIZACIÓN 100 mcg/dosis
+dosis:
+- indicacion: Rinitis
+  poblacion: adulto
+  texto: 2 pulverizaciones (200 mcg) en cada fosa nasal por la mañana (total 400 mcg); al mejorar, 1 pulverización por fosa
+    al día (200 mcg)
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-BUDESONIDA-59533
+    detalle: '4.2.1 Budesonida Alcon 100 mcg/dosis: dos aplicaciones (200 mcg) en cada fosa nasal, por la mañana (total 400
+      mcg)'
+  tambien:
+  - ref: PEDIAMECUM-TOP-BUDESONIDA
+    detalle: 'Budesonida 100 µg/dosis: 2 aplicaciones (200 µg) en cada fosa nasal, por la mañana (total: 400 µg)'
+- indicacion: Rinitis
+  poblacion: pediatrico
+  texto: 2 pulverizaciones en cada fosa nasal por la mañana; al mejorar, 1 por fosa al día
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Desde los 6 años
+  fuente:
+    ref: CIMA-TOP-BUDESONIDA-59533
+    detalle: '4.2.1: adultos y niños a partir de 6 años'
+  tambien:
+  - ref: PEDIAMECUM-TOP-BUDESONIDA
+    detalle: Dosis nasal usual en niños a partir de 6 años; budesonida 100 µg/dosis
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No establecida en menores de 6 años (Pediamécum, CIMA).
+  edadMinima: 6 años
+conservacion:
+- texto: Sin condiciones especiales. La ficha no fija una validez tras abrir.
+  fuente:
+    ref: CIMA-TOP-BUDESONIDA-59533
+    detalle: '6.3/6.4: validez 2 años; sin condiciones especiales'
+administracion:
+  texto: Antes del primer uso, cargar la válvula. Limpiar la nariz, agitar, inclinar la cabeza hacia adelante, tapar la otra
+    fosa, inspirar y pulsar. Respirar por la boca.
+  fuente:
+    ref: CIMA-TOP-BUDESONIDA-59533
+    detalle: 4.2.2 Instrucciones de uso
+contraindicaciones:
+- Hipersensibilidad a budesonida o a algún excipiente (CIMA).
+alertas:
+- En pólipos nasales la dosis diaria puede subir hasta 800 mcg (CIMA).
+discrepancias: []
+meta: {}

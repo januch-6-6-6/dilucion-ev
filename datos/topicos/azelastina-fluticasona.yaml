@@ -1,0 +1,64 @@
+id: azelastina-fluticasona
+nombre: Azelastina + fluticasona nasal
+comerciales:
+- Rinodual 137/50
+grupo: corticoide-nasal
+vias:
+- nariz
+componentes:
+- Azelastina
+- Fluticasona
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-137-mcg-azelastina-50-mcg-fluticasona
+  forma: spray
+  via: nariz
+  concentracion: 137 mcg azelastina + 50 mcg fluticasona por pulverización
+  registrosIsp:
+  - F-28330/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28330/24 RINODUAL 137/50 SUSPENSIÓN NASAL PARA NEBULIZACIÓN
+dosis:
+- indicacion: Rinitis alérgica
+  poblacion: adulto
+  texto: 1 pulverización en cada fosa nasal 2 veces al día (mañana y noche)
+  cantidad: 1
+  unidad: pulverizacion
+  vecesAlDia: 2
+  porSitio: fosa
+  duracion: Uso regular mientras dure la exposición al alérgeno
+  estatus: autorizada
+  condicion: Adultos y adolescentes desde 12 años
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-FLUTICASONA-76618
+    detalle: '4.2.1 Adultos y adolescentes (12 años y mayores): una aplicación en cada fosa nasal, dos veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: 'No se recomienda en menores de 12 años: seguridad y eficacia no establecidas (CIMA).'
+  edadMinima: 12 años
+conservacion:
+- validezAbiertoDias: 180
+  texto: 'Validez en uso: 6 meses desde el primer uso. No refrigerar ni congelar.'
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-FLUTICASONA-76618
+    detalle: '6.3: validez en uso (después del primer uso) 6 meses; 6.4 no refrigerar o congelar'
+administracion:
+  texto: Agitar suavemente 5 segundos. Antes del primer uso, cebar la bomba 6 veces (y otra vez si lleva más de 7 días sin
+    usar). Sonarse, inclinar la cabeza hacia abajo y pulverizar una vez en cada fosa. Evitar los ojos.
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-FLUTICASONA-76618
+    detalle: 4.2.2 Forma de administración e instrucciones de uso
+contraindicaciones:
+- Hipersensibilidad a los principios activos o a algún excipiente (CIMA).
+alertas:
+- Sin datos en insuficiencia renal ni hepática (CIMA).
+discrepancias:
+- campo: Fuente pediátrica descargada
+  valores:
+  - fuente: PEDIAMECUM-TOP-AZELASTINA-OFTALMICA
+    valor: Ficha de azelastina COLIRIO (vía oftálmica)
+  mostrado: No se usa
+  motivo: 'Vía equivocada: el colirio no informa sobre el spray nasal combinado.'
+meta: {}

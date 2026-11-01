@@ -1,0 +1,42 @@
+id: cromoglicato
+nombre: Cromoglicato oftálmico (ungüento 4 %)
+comerciales:
+- Oftacon
+grupo: antialergico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-4
+  forma: unguento
+  via: ojo
+  concentracion: 4 %
+  registrosIsp:
+  - F-9584/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-9584/26 OFTACON UNGÜENTO OFTÁLMICO 4%
+dosis: []
+sinPauta:
+  motivo: En Chile está registrado como ungüento oftálmico 4 %; la única fuente oftálmica (FDA) es de solución 4 % en gotas
+    (1–2 gotas 4–6 veces al día), que no sirve para una pomada. Pediamécum solo trae la vía inhalatoria.
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente para el ungüento.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias:
+- campo: Forma farmacéutica
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: ungüento oftálmico 4 %'
+  - fuente: DAILYMED-TOP-CROMOGLICATO
+    valor: 'FDA: solución oftálmica 4 %, 1-2 gotas 4-6 veces al día'
+  - fuente: PEDIAMECUM-TOP-CROMOGLICATO
+    valor: 'Pediamécum: cromoglicato nebulizado (asma)'
+  mostrado: Sin pauta
+  motivo: Forma (gotas vs. pomada) y vía (inhalatoria) distintas del registro chileno.
+meta: {}

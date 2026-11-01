@@ -1,0 +1,67 @@
+id: nepafenaco
+nombre: Nepafenaco oftálmico 0,1 %
+comerciales:
+- Nevanac
+grupo: aine
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-0-1
+  forma: suspension
+  via: ojo
+  concentracion: 0,1 %
+  registrosIsp:
+  - F-27299/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-27299/23 NEVANAC SUSPENSIÓN OFTÁLMICA 0,1% (NEPAFENACO)
+dosis:
+- indicacion: Dolor e inflamación por cirugía de catarata
+  poblacion: adulto
+  texto: 1 gota 3 veces al día desde el día anterior a la cirugía, el mismo día y las 2 primeras semanas; 1 gota extra 30–120
+    min antes
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  duracion: 2 semanas (hasta 3)
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-NEPAFENACO-07433001
+    detalle: '4.2: 1 gota 3 veces al día; empezar el día anterior; 2 primeras semanas (hasta 3)'
+- indicacion: Prevención del edema macular tras catarata en diabéticos
+  poblacion: adulto
+  texto: 1 gota 3 veces al día desde el día anterior y hasta 60 días después
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  duracion: Hasta 60 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-NEPAFENACO-07433001
+    detalle: '4.2: pacientes diabéticos, hasta los 60 días del período postoperatorio'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No recomendado en niños y adolescentes; sin datos (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Bajo 30 °C.
+  fuente:
+    ref: CIMA-TOP-NEPAFENACO-07433001
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Agitar bien; retirar el anillo del precinto. Espaciar al menos 5 minutos de otros colirios; las pomadas al final.
+    No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-NEPAFENACO-07433001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a otros AINE (CIMA).
+- Asma, urticaria o rinitis aguda desencadenadas por salicilatos u otros AINE (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

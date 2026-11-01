@@ -1,0 +1,95 @@
+id: bimatoprost
+nombre: Bimatoprost oftálmico
+comerciales:
+- Elymbus
+- Bimatron
+- Klare
+- Lumigan Rc
+- Lumigan
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-01
+  forma: solucion
+  via: ojo
+  concentracion: 0,01 %
+  registrosIsp:
+  - F-18052/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-18052/25 LUMIGAN RC SOLUCIÓN OFTÁLMICA 0,01%
+- id: ojo-solucion-0-03
+  forma: solucion
+  via: ojo
+  concentracion: 0,03 %
+  registrosIsp:
+  - F-28684/25
+  - F-27211/22
+  - F-27977/23
+  - F-26442/26
+  - F-28685/25
+  - F-27202/22
+  - F-9090/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28684/25 BIMATOPROST SOLUCIÓN OFTÁLMICA 0,03%; F-27211/22 BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL; F-27977/23
+      BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL; F-26442/26 BIMATOPROST SOLUCIÓN OFTÁLMICA 0,3 mg/mL; F-28685/25 BIMATRON SOLUCIÓN
+      OFTÁLMICA 0,03% (BIMATOPROST); F-27202/22 KLARE SOLUCIÓN OFTÁLMICA 0,3 mg/mL (BIMATOPROST); F-9090/26 LUMIGAN SOLUCIÓN
+      OFTÁLMICA 0,03% (BIMATOPROST)
+- id: ojo-gel-0-1-mg-g
+  forma: gel
+  via: ojo
+  concentracion: 0,1 mg/g
+  registrosIsp:
+  - F-29759/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-29759/26 ELYMBUS GEL OFTÁLMICO 0,1 mg/g (BIMATOPROST)
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 1 vez al día, por la noche
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-01
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-02205003
+    detalle: '4.2: una gota en el ojo(s) afectado(s), una vez al día por la noche; no exceder de una vez al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas de 0 a 18 años (CIMA).
+conservacion:
+- presentaciones:
+  - ojo-solucion-0-01
+  validezAbiertoDias: 28
+  texto: 4 semanas después de abrir. Sin condiciones especiales de conservación.
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-02205003
+    detalle: '6.3: 4 semanas después que se haya abierto por primera vez'
+administracion:
+  texto: Más de 1 vez al día puede reducir el efecto. Espaciar al menos 5 minutos de otros colirios.
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-02205003
+    detalle: 4.2 Posología y forma de administración
+contraindicaciones:
+- Reacción previa al cloruro de benzalconio que obligó a suspender (Lumigan 0,1 mg/ml, CIMA).
+alertas:
+- Precaución en insuficiencia renal o hepática moderada a grave (no estudiado, CIMA).
+discrepancias:
+- campo: Concentraciones sin ficha
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: Chile también registra solución 0,03 % (0,3 mg/ml) y gel 0,1 mg/g
+  - fuente: CIMA-TOP-BIMATOPROST-02205003
+    valor: 'Ficha descargada: Lumigan 0,1 mg/ml (0,01 %)'
+  mostrado: Pauta solo para 0,01 %
+  motivo: La pauta se ata a la concentración de la ficha; 0,03 % y gel quedan sin pauta.
+meta: {}

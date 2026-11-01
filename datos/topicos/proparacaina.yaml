@@ -1,0 +1,74 @@
+id: proparacaina
+nombre: Proparacaína oftálmica 0,5 %
+comerciales:
+- Anestalcon
+- Oftanest
+- Poencaína
+grupo: anestesico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-2798/24
+  - F-27237/22
+  - F-26758/22
+  - F-11855/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-2798/24 ANESTALCON SOLUCIÓN OFTÁLMICA 0,5%; F-27237/22 ANESTALCON SOLUCIÓN OFTÁLMICA 0,5% (PROPARACAINA CLORHIDRATO);
+      F-26758/22 OFTANEST SOLUCIÓN OFTÁLMICA 0,5%; F-11855/22 POENCAÍNA SOLUCIÓN OFTÁLMICA 0,5% (PROPARACAINA)
+dosis:
+- indicacion: Tonometría, retiro de cuerpo extraño o de suturas
+  poblacion: adulto
+  texto: 1 o 2 gotas en cada ojo antes del procedimiento
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-PROPARACAINA
+    detalle: 'Usual dosage: removal of foreign bodies and sutures, and for tonometry: 1 to 2 drops in each eye before operating'
+- indicacion: Procedimientos cortos de córnea y conjuntiva
+  poblacion: adulto
+  texto: 1 gota en cada ojo cada 5–10 minutos, 5 a 7 dosis
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-PROPARACAINA
+    detalle: 'Short corneal and conjunctival procedures: 1 drop in each eye every 5 to 10 minutes for 5 to 7 doses'
+- indicacion: Tonometría, retiro de cuerpo extraño o de suturas
+  poblacion: pediatrico
+  texto: 1 o 2 gotas en cada ojo antes del procedimiento
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-PROPARACAINA
+    detalle: 'Pediatric use: safety and effectiveness in pediatric patients have been established'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Seguridad y eficacia establecidas en pediatría (FDA).
+conservacion:
+- texto: Refrigerar a 2–8 °C en su caja (luz). Una vez abierto, usable hasta el vencimiento. Desechar si se oscurece.
+  fuente:
+    ref: DAILYMED-TOP-PROPARACAINA
+    detalle: 'Storage: store under refrigeration 2°C to 8°C; after opening can be used until the expiration date'
+administracion:
+  texto: Uso en procedimientos por profesional. No tocar superficies con el gotero.
+  fuente:
+    ref: DAILYMED-TOP-PROPARACAINA
+    detalle: Precaution
+contraindicaciones:
+- Hipersensibilidad a algún componente (FDA).
+alertas:
+- 'Cadena de frío: refrigerar (FDA, Alcaine).'
+- 'Anestésico de uso en procedimiento: no es para tratamiento continuado.'
+discrepancias: []
+meta: {}

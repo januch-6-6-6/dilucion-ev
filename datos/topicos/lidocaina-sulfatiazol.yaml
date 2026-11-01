@@ -1,0 +1,34 @@
+id: lidocaina-sulfatiazol
+nombre: Lidocaína + sulfatiazol ótico
+comerciales:
+- Tru
+grupo: analgesico-otico
+vias:
+- oido
+componentes:
+- Lidocaína
+- Sulfatiazol
+altoRiesgo: false
+presentaciones:
+- id: oido-solucion-sc
+  forma: solucion
+  via: oido
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-11656/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-11656/26 TRU SOLUCIÓN PARA GOTAS ÓTICAS
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

@@ -1,0 +1,71 @@
+id: tropicamida
+nombre: Tropicamida oftálmica 1 %
+comerciales:
+- Midrafar
+- Mydriacyl
+grupo: midriatico
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-1
+  forma: solucion
+  via: ojo
+  concentracion: 1 %
+  registrosIsp:
+  - F-27161/22
+  - F-28820/25
+  - F-1180/23
+  - F-22314/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-27161/22 MIDRAFAR SOLUCIÓN OFTÁLMICA 1 % (TROPICAMIDA); F-28820/25 MYDRIACYL SOLUCIÓN OFTÁLMICA 1% (TROPICAMIDA);
+      F-1180/23 MYDRIACYL SOLUCIÓN OFTÁLMICA ESTÉRIL 1%; F-22314/25 TROPICAMIDA SOLUCIÓN OFTÁLMICA 1%
+dosis:
+- indicacion: Midriasis para examen
+  poblacion: adulto
+  texto: 1 o 2 gotas; repetir a los 5 minutos. Si el examen se atrasa 20–30 min, 1 gota más
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-TROPICAMIDA-57050
+    detalle: '4.2 Uso en adultos: 1 o 2 gotas, repetir al cabo de 5 minutos'
+- indicacion: Midriasis para examen
+  poblacion: pediatrico
+  texto: 1 gota y repetir a los 5 minutos; explorar a los 15 minutos
+  cantidad: 1
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  condicion: No recomendada al 1 % en recién nacidos y lactantes (CIMA)
+  fuente:
+    ref: PEDIAMECUM-TOP-TROPICAMIDA
+    detalle: 'Tópica oftálmica: 1 gota y repetir a los 5 minutos. Explorar a los 15 minutos'
+  tambien:
+  - ref: CIMA-TOP-TROPICAMIDA-57050
+    detalle: '4.2 Población pediátrica: precaución; dosis eficaz más baja'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Con precaución; al 1 % no se recomienda en recién nacidos ni lactantes (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Bajo 25 °C.
+  fuente:
+    ref: CIMA-TOP-TROPICAMIDA-57050
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Ocluir el conducto nasolagrimal al menos 2 minutos. Precaución en ojos inflamados (más absorción). Espaciar al menos
+    5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-TROPICAMIDA-57050
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Glaucoma de ángulo estrecho conocido o sospechado (CIMA).
+alertas:
+- 'Ancianos y presión intraocular elevada: precaución (CIMA).'
+discrepancias: []
+meta: {}

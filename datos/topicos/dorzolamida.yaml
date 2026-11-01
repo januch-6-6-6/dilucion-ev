@@ -1,0 +1,102 @@
+id: dorzolamida
+nombre: Dorzolamida oftálmica 2 %
+comerciales:
+- Biomira
+- Dorlenka
+- Dorzox
+- Ethoscop
+- Glaucotensil
+- Trusomida
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-2
+  forma: solucion
+  via: ojo
+  concentracion: 2 %
+  registrosIsp:
+  - F-26236/26
+  - F-26462/26
+  - F-28465/24
+  - FX-329/24
+  - F-23044/26
+  - F-24570/24
+  - F-28468/24
+  - F-11896/22
+  - F-29674/26
+  - F-29939/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26236/26 BIOMIRA SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA); F-26462/26 DORLENKA SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA);
+      F-28465/24 DORZOLAMIDA CLORHIDRATO SOLUCIÓN OFTÁLMICA  2%; FX-329/24 DORZOLAMIDA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2%;
+      F-23044/26 DORZOLAMIDA SOLUCIÓN OFTÁLMICA 2%; F-24570/24 DORZOX SOLUCIÓN OFTÁLMICA  2 % (DORZOLAMIDA CLORHIDRATO 20
+      Mg/mL); F-28468/24 ETHOSCOP SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA); F-11896/22 GLAUCOTENSIL SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA);
+      F-29674/26 GLAUCOTENSIL SOLUCIÓN OFTÁLMICA 2% (DORZOLAMIDA); F-29939/26 TRUSOMIDA SOLUCIÓN OFTÁLMICA 2%
+dosis:
+- indicacion: Glaucoma / hipertensión ocular (monoterapia)
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 3 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-60651
+    detalle: '4.2: monoterapia, una gota tres veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-DORZOLAMIDA
+    detalle: Una gota cada 8 h en cada ojo afectado
+- indicacion: Glaucoma / hipertensión ocular (con betabloqueante)
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-60651
+    detalle: '4.2: terapia coadyuvante con un betabloqueante oftálmico, una gota dos veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-DORZOLAMIDA
+    detalle: Una gota cada 12 h
+- indicacion: Glaucoma pediátrico
+  poblacion: pediatrico
+  texto: 1 gota cada 8 h (monoterapia) o cada 12 h si se asocia a betabloqueante
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Datos clínicos pediátricos limitados (CIMA)
+  fuente:
+    ref: PEDIAMECUM-TOP-DORZOLAMIDA
+    detalle: Una gota cada 8 h en cada ojo afectado | Una gota cada 12 h
+  tambien:
+  - ref: CIMA-TOP-DORZOLAMIDA-60651
+    detalle: '4.2 Población pediátrica: datos limitados tres veces al día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Datos pediátricos limitados con 3 veces al día (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: No usar más de 28 días tras abrir. Proteger de la luz.
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-60651
+    detalle: '6.3: después de la primera apertura, no más de 28 días'
+administracion:
+  texto: Lavarse las manos. Tras la gota, oprimir el ángulo interno del ojo o cerrar los párpados unos 2 minutos. Separar
+    al menos 10 minutos de otros colirios.
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-60651
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Insuficiencia renal grave (ClCr <30 ml/min) o acidosis hiperclorémica (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

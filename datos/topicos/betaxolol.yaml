@@ -1,0 +1,45 @@
+id: betaxolol
+nombre: Betaxolol oftálmico 0,5 %
+comerciales:
+- Beof
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-5522/25
+  - F-8873/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-5522/25 BEOF SOLUCIÓN OFTÁLMICA AL 0,5%; F-8873/26 BETAXOLOL SOLUCIÓN OFTÁLMICA 0,5%
+dosis: []
+sinPauta:
+  motivo: En Chile está registrado al 0,5 % (solución); la única ficha disponible es de betaxolol 0,25 % en suspensión (Betoptic,
+    CIMA). Por la regla de concentración no se muestra su pauta.
+pediatria:
+  estado: no_establecida
+  motivo: Sin fuente para la concentración chilena; la ficha de 0,25 % no establece seguridad ni eficacia en niños.
+conservacion: []
+administracion: null
+contraindicaciones:
+- Hipersensibilidad a betaxolol u otros betabloqueantes (CIMA).
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+alertas: []
+discrepancias:
+- campo: Concentración
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: solución oftálmica 0,5 % (5 mg/ml)'
+  - fuente: CIMA-TOP-BETAXOLOL-61015
+    valor: 'CIMA: suspensión 0,25 % (2,5 mg/ml), 1–2 gotas 2 veces al día'
+  mostrado: Sin pauta
+  motivo: 'Decisión de Héctor (31-oct): la ficha se ata a la concentración registrada en Chile.'
+meta: {}

@@ -1,0 +1,41 @@
+id: ketorolaco
+nombre: Ketorolaco oftálmico 0,4 %
+comerciales:
+- Acular Ls
+grupo: aine
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-4
+  forma: solucion
+  via: ojo
+  concentracion: 0,4 %
+  registrosIsp:
+  - F-14888/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-14888/25 ACULAR LS SOLUCIÓN OFTÁLMICA 0,4% (KETOROLACO TROMETAMOL)
+dosis: []
+sinPauta:
+  motivo: En Chile está registrado al 0,4 % (Acular LS); la ficha disponible es del 0,5 % (Acular, CIMA). Por la regla de
+    concentración no se muestra su pauta.
+pediatria:
+  estado: no_establecida
+  motivo: Sin fuente para 0,4 %; la ficha de 0,5 % no tiene uso pediátrico relevante.
+conservacion: []
+administracion: null
+contraindicaciones:
+- Sensibilidad previa a ácido acetilsalicílico u otros AINE (CIMA).
+alertas: []
+discrepancias:
+- campo: Concentración
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: 0,4 %'
+  - fuente: CIMA-TOP-KETOROLACO-61690
+    valor: 'CIMA: Acular 5 mg/ml (0,5 %), 1 gota 3 veces al día'
+  mostrado: Sin pauta
+  motivo: Decisión de Héctor (31-oct).
+meta: {}

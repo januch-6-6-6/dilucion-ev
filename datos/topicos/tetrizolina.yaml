@@ -1,0 +1,79 @@
+id: tetrizolina
+nombre: Tetrizolina oftálmica 0,05 %
+comerciales:
+- Visional
+grupo: descongestionante
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-05
+  forma: solucion
+  via: ojo
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-1830/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1830/24 VISIONAL SOLUCIÓN OFTÁLMICA 0,05%
+dosis:
+- indicacion: Irritación ocular menor
+  poblacion: adulto
+  texto: 1 o 2 gotas 2 o 3 veces al día según necesidad; máximo 4 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Máximo 72 horas (Pediamécum; la ficha técnica permite hasta 1 semana)
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-TETRIZOLINA-69030
+    detalle: '4.2: adultos y niños mayores de 6 años, 1 ó 2 gotas 2 o 3 veces al día, hasta un máximo de 4 veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-TETRIZOLINA
+    detalle: 1 o 2 gotas por aplicación, 2-3 veces al día, máximo 4 veces al día
+- indicacion: Irritación ocular menor
+  poblacion: pediatrico
+  texto: 1 o 2 gotas 2 o 3 veces al día; máximo 4 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Máximo 72 horas
+  estatus: autorizada
+  condicion: Mayores de 6 años (de 2 a 6, solo con control médico)
+  fuente:
+    ref: CIMA-TOP-TETRIZOLINA-69030
+    detalle: '4.2: niños mayores de 6 años; de 2 a 6 años solo bajo estricto control médico; menores de 2 años contraindicado'
+  tambien:
+  - ref: PEDIAMECUM-TOP-TETRIZOLINA
+    detalle: El tratamiento no debe continuar más de 72 horas
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Contraindicada en menores de 2 años; de 2 a 6 años solo bajo estricto control médico (CIMA).
+  edadMinima: 6 años
+conservacion:
+- texto: 'Ficha de unidosis: desechar después de cada uso. Bajo 25 °C.'
+  fuente:
+    ref: CIMA-TOP-TETRIZOLINA-69030
+    detalle: '4.2/6.4: desechar el envase después de cada uso'
+administracion: null
+contraindicaciones:
+- Niños menores de 2 años (CIMA).
+- Glaucoma de ángulo estrecho (CIMA).
+- Enfermedad cardiovascular grave, feocromocitoma, hipertiroidismo o diabetes (CIMA).
+- Tratamiento con IMAO u otros fármacos que suben la presión arterial (CIMA).
+alertas:
+- Si no alivia en 48 h, o el enrojecimiento aumenta o persiste, suspender y consultar (CIMA).
+discrepancias:
+- campo: Duración máxima
+  valores:
+  - fuente: CIMA-TOP-TETRIZOLINA-69030
+    valor: Nunca más de una semana
+  - fuente: PEDIAMECUM-TOP-TETRIZOLINA
+    valor: No más de 72 horas
+  mostrado: Máximo 72 horas
+  motivo: 'Se muestra la cifra más baja: es el mismo régimen y la misma población.'
+meta: {}

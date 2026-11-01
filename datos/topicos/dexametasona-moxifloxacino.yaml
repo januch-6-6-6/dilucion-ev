@@ -1,0 +1,34 @@
+id: dexametasona-moxifloxacino
+nombre: Moxifloxacino + dexametasona oftálmico
+comerciales:
+- Moxof D
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Moxifloxacino
+- Dexametasona
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - FX-354/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-354/25 MOXOF D SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

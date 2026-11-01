@@ -1,0 +1,60 @@
+id: brimonidina-brinzolamida
+nombre: Brinzolamida + brimonidina oftálmica
+comerciales:
+- Simbrinza
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Brinzolamida
+- Brimonidina
+altoRiesgo: true
+presentaciones:
+- id: ojo-suspension-sc
+  forma: suspension
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-21735/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-21735/25 SIMBRINZA SUSPENSIÓN OFTÁLMICA
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-BRINZOLAMIDA-114933001
+    detalle: '4.2: una gota de SIMBRINZA dos veces al día en el ojo(s) afectado(s)'
+sinPauta: null
+pediatria:
+  estado: contraindicada
+  motivo: Contraindicada en menores de 2 años; sin datos de 2 a 17 años (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: 4 semanas tras la primera apertura.
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-BRINZOLAMIDA-114933001
+    detalle: '6.3: 4 semanas tras la primera apertura del envase'
+administracion:
+  texto: Agitar bien antes de usar. Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir
+    la absorción sistémica. Ocluir 2 minutos. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar
+    el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-BRINZOLAMIDA-114933001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a las sulfonamidas (CIMA).
+- En tratamiento con IMAO o con antidepresivos que afectan la transmisión noradrenérgica (tricíclicos, mianserina) (CIMA).
+- Insuficiencia renal grave (ClCr <30 ml/min) o acidosis hiperclorémica (CIMA).
+- Neonatos y niños menores de 2 años (CIMA).
+alertas:
+- Simbrinza es 10 mg/ml + 2 mg/ml; el registro chileno no indica concentración en el nombre.
+- Precaución en insuficiencia hepática (CIMA).
+discrepancias: []
+meta: {}

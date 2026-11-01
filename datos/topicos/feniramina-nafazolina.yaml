@@ -1,0 +1,65 @@
+id: feniramina-nafazolina
+nombre: Nafazolina + feniramina oftálmica
+comerciales:
+- Clarimir F
+- Naphcon A
+grupo: descongestionante
+vias:
+- ojo
+componentes:
+- Nafazolina
+- Feniramina
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-26856/22
+  - F-9001/26
+  - F-22329/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26856/22 CLARIMIR F SOLUCIÓN OFTÁLMICA; F-9001/26 NAFAZOLINA CLORHIDRATO FENIRAMINA MALEATO SOLUCIÓN OFTÁLMICA
+      ESTÉRIL; F-22329/25 NAPHCON A SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Alergia ocular (picazón y enrojecimiento)
+  poblacion: adulto
+  texto: 1 o 2 gotas en el ojo afectado hasta 4 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-FENIRAMINA-NAFAZOLINA
+    detalle: 'Directions: adults and children 6 years of age and older: instill 1 or 2 drops up to 4 times daily'
+- indicacion: Alergia ocular (picazón y enrojecimiento)
+  poblacion: pediatrico
+  texto: 1 o 2 gotas hasta 4 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 6 años
+  fuente:
+    ref: DAILYMED-TOP-FENIRAMINA-NAFAZOLINA
+    detalle: 'Directions: children 6 years of age and older; children under 6 years: ask a doctor'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 6 años; en menores, consultar al médico (FDA).
+  edadMinima: 6 años
+conservacion:
+- texto: Conservar a 20–25 °C, protegido de la luz.
+  fuente:
+    ref: DAILYMED-TOP-FENIRAMINA-NAFAZOLINA
+    detalle: 'Storage: store at 20-25°C; protect from light'
+administracion: null
+contraindicaciones: []
+alertas:
+- 'Pediamécum (nafazolina): si tras 3–4 días los síntomas siguen o empeoran, reevaluar.'
+discrepancias: []
+meta: {}

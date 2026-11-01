@@ -1,0 +1,69 @@
+id: gramicidina-neomicina-polimixina-b
+nombre: Gramicidina + neomicina + polimixina B oftálmica
+comerciales:
+- Oftabiotico Con Gramicidina
+grupo: antibiotico
+vias:
+- ojo
+componentes:
+- Gramicidina
+- Neomicina
+- Polimixina B
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-519/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-519/24 OFTABIOTICO CON GRAMICIDINA SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Conjuntivitis bacteriana, queratitis, úlcera corneal
+  poblacion: adulto
+  texto: 1 o 2 gotas cada 2–4 h durante el día los 2 primeros días; luego 1 o 2 gotas cada 4–6 h hasta resolver
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  duracion: Hasta 2 días después de resolver; no más de 7 días sin control
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-GRAMICIDINA-NEOMICINA-POLIMIXINA-B-45030
+    detalle: '4.2: durante los dos primeros días, una o dos gotas cada 2-4 horas; posteriormente cada 4-6 horas'
+- indicacion: Conjuntivitis bacteriana, queratitis, úlcera corneal
+  poblacion: pediatrico
+  texto: Igual que en adultos
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Mayores de 2 años; no recomendado en neonatos ni menores de 2
+  fuente:
+    ref: CIMA-TOP-GRAMICIDINA-NEOMICINA-POLIMIXINA-B-45030
+    detalle: '4.2 Población pediátrica: niños mayores de dos años a la misma dosis de adultos'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Mayores de 2 años igual que adultos; no recomendado en neonatos ni menores de 2 años (CIMA).
+  edadMinima: 2 años
+conservacion:
+- validezAbiertoDias: 28
+  texto: 1 mes tras la primera apertura (la calculadora usa 28 días). Bajo 25 °C, protegido de la luz.
+  fuente:
+    ref: CIMA-TOP-GRAMICIDINA-NEOMICINA-POLIMIXINA-B-45030
+    detalle: '6.3: 1 mes tras la primera apertura'
+administracion:
+  texto: Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-GRAMICIDINA-NEOMICINA-POLIMIXINA-B-45030
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Sensibilidad cruzada con framicetina, kanamicina, gentamicina y antibióticos relacionados (CIMA).
+- Cuando el producto pueda llegar a fluidos intraoculares (CIMA).
+alertas:
+- 'Insuficiencia renal: precaución, puede haber absorción sistémica de neomicina (CIMA).'
+- Oftalmowell (CIMA) es la misma asociación; el registro chileno no indica concentración en el nombre.
+discrepancias: []
+meta: {}

@@ -1,0 +1,35 @@
+id: dextrano-hipromelosa-nafazolina
+nombre: Dextrano + hipromelosa + nafazolina oftálmica
+comerciales:
+- Nicodrops
+grupo: descongestionante
+vias:
+- ojo
+componentes:
+- Dextrano
+- Hipromelosa
+- Nafazolina
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-13530/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-13530/24 NICODROPS SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

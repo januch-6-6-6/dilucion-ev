@@ -1,0 +1,88 @@
+id: ketotifeno
+nombre: Ketotifeno oftálmico
+comerciales:
+- Kenaler
+- Oftaler Forte
+- Oftaler
+- Zabak
+grupo: antialergico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-025
+  forma: solucion
+  via: ojo
+  concentracion: 0,025 %
+  registrosIsp:
+  - F-14977/25
+  - F-21952/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-14977/25 OFTALER SOLUCIÓN OFTÁLMICA 0,025%; F-21952/25 ZABAK SOLUCIÓN OFTÁLMICA 0,025% (KETOTIFENO)
+- id: ojo-solucion-0-05
+  forma: solucion
+  via: ojo
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-21531/24
+  - F-2555/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-21531/24 KENALER SOLUCIÓN OFTÁLMICA 0,05% (KETOTIFENO); F-2555/24 OFTALER FORTE SOLUCIÓN OFTÁLMICA 0,05%
+dosis:
+- indicacion: Conjuntivitis alérgica estacional
+  poblacion: adulto
+  texto: 1 gota en el saco conjuntival 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-025
+  fuente:
+    ref: CIMA-TOP-KETOTIFENO-63616
+    detalle: '4.2: una gota de Zaditen en el saco conjuntival, dos veces al día'
+- indicacion: Conjuntivitis alérgica estacional
+  poblacion: pediatrico
+  texto: 1 gota 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 3 años
+  presentaciones:
+  - ojo-solucion-0-025
+  fuente:
+    ref: CIMA-TOP-KETOTIFENO-63616
+    detalle: '4.2: niños a partir de 3 años de edad'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No establecida en menores de 3 años (CIMA).
+  edadMinima: 3 años
+conservacion:
+- presentaciones:
+  - ojo-solucion-0-025
+  texto: 'La ficha es de envases unidosis: usar de inmediato tras abrir; con el blíster abierto, 28 días. No hay dato de validez
+    para frasco multidosis.'
+  fuente:
+    ref: CIMA-TOP-KETOTIFENO-63616
+    detalle: 6.3 Periodo de validez
+administracion: null
+contraindicaciones:
+- Hipersensibilidad a ketotifeno o a algún excipiente (CIMA).
+alertas: []
+discrepancias:
+- campo: Concentración 0,05 %
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: 0,025 % y 0,05 % (Oftaler Forte, Kenaler)'
+  - fuente: CIMA-TOP-KETOTIFENO-63616
+    valor: 'CIMA: Zaditen 0,25 mg/ml (0,025 %)'
+  mostrado: Pauta solo para 0,025 %
+  motivo: Regla de concentración.
+meta: {}

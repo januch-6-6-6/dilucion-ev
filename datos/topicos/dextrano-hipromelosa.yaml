@@ -1,0 +1,47 @@
+id: dextrano-hipromelosa
+nombre: Dextrano + hipromelosa (lágrima artificial)
+comerciales:
+- Nicotears
+grupo: lubricante-ocular
+vias:
+- ojo
+componentes:
+- Dextrano 70
+- Hipromelosa
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - FX-337/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-337/24 NICOTEARS SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Sequedad o irritación ocular
+  poblacion: adulto
+  texto: 1 o 2 gotas en el ojo afectado según necesidad
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-DEXTRANO-HIPROMELOSA
+    detalle: 'Directions: put 1 or 2 drops in the affected eye(s) as needed'
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: La etiqueta de venta libre no trae indicaciones por edad.
+conservacion:
+- texto: Conservar a 15–25 °C. La etiqueta FDA consultada indica no reutilizar una vez abierto.
+  fuente:
+    ref: DAILYMED-TOP-DEXTRANO-HIPROMELOSA
+    detalle: Storage; do not reuse once opened
+administracion: null
+contraindicaciones: []
+alertas:
+- Suspender y consultar si hay dolor ocular, cambios de visión, o si el enrojecimiento empeora o dura más de 72 h (FDA).
+discrepancias: []
+meta: {}

@@ -1,0 +1,86 @@
+id: ipratropio
+nombre: Ipratropio nasal
+comerciales:
+- Aerotrop
+- Influmix
+grupo: anticolinergico
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-21-mcg
+  forma: spray
+  via: nariz
+  concentracion: 21 mcg por pulverización
+  registrosIsp:
+  - F-18345/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-18345/25 AEROTROP SPRAY NASAL 21 mcg/dosis
+- id: nariz-spray-42-mcg
+  forma: spray
+  via: nariz
+  concentracion: 42 mcg por pulverización
+  registrosIsp:
+  - F-24099/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-24099/23 INFLUMIX SOLUCION PARA NEBULIZACION NASAL 42 mcg/dosis (BROMURO DE IPRATROPIO)
+dosis:
+- indicacion: Rinorrea
+  poblacion: adulto
+  texto: 2 pulverizaciones en cada fosa (42 mcg por fosa) 2 o 3 veces al día
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 3
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Desde los 12 años
+  presentaciones:
+  - nariz-spray-21-mcg
+  fuente:
+    ref: CIMA-TOP-IPRATROPIO-61848
+    detalle: '4.2: adultos y adolescentes mayores de 12 años, 2 pulverizaciones en cada fosa nasal (42 mcg/fosa nasal), 2-3
+      veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-IPRATROPIO
+    detalle: '>12 años: 42 µg en cada fosa nasal de 2-3 veces al día'
+- indicacion: Rinorrea
+  poblacion: pediatrico
+  texto: 2 pulverizaciones en cada fosa (42 mcg por fosa) 2 veces al día
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 2
+  porSitio: fosa
+  estatus: autorizada
+  condicion: 6 a 12 años
+  presentaciones:
+  - nariz-spray-21-mcg
+  fuente:
+    ref: CIMA-TOP-IPRATROPIO-61848
+    detalle: '4.2: niños de 6 a 12 años, 2 pulverizaciones en cada fosa nasal (42 mcg/fosa nasal), 2 veces al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-IPRATROPIO
+    detalle: '6-12 años: 42 µg en cada fosa nasal 2 veces al día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 6 años (CIMA, Pediamécum).
+  edadMinima: 6 años
+conservacion:
+- presentaciones:
+  - nariz-spray-21-mcg
+  validezAbiertoDias: 365
+  texto: No usar después de 12 meses de abierto.
+  fuente:
+    ref: CIMA-TOP-IPRATROPIO-61848
+    detalle: '6.3: no utilizar después de 12 meses de abrir el envase'
+administracion: null
+contraindicaciones:
+- Hipersensibilidad a sustancias análogas a la atropina (CIMA).
+alertas:
+- 'La presentación de 42 mcg por pulverización no tiene ficha: la dosis en microgramos sería 1 pulverización por fosa, pero
+  no se muestra como pauta.'
+discrepancias: []
+meta: {}

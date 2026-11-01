@@ -1,0 +1,54 @@
+id: loteprednol-tobramicina
+nombre: Loteprednol + tobramicina oftálmico
+comerciales:
+- Oftol Plus
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Loteprednol
+- Tobramicina
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-sc
+  forma: suspension
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-2152/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2152/25 OFTOL PLUS SUSPENSIÓN OFTÁLMICA
+dosis:
+- indicacion: Inflamación ocular con infección bacteriana o riesgo de ella
+  poblacion: adulto
+  texto: 1 o 2 gotas en el saco conjuntival cada 4–6 h; las primeras 24–48 h, hasta cada 1–2 h. Bajar la frecuencia al mejorar
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 6
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL-TOBRAMICINA
+    detalle: '2.1: one or two drops every four to six hours; during the initial 24 to 48 hours, every one to two hours'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: En ensayos de 0 a 6 años no demostró eficacia (FDA).
+conservacion:
+- texto: Conservar vertical a 15–25 °C; no congelar. Una vez abierto puede usarse hasta la fecha de vencimiento.
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL-TOBRAMICINA
+    detalle: 'Storage: after opening, can be used until the expiration date'
+administracion:
+  texto: Agitar enérgicamente. No indicar más de 20 ml de inicio sin reevaluar.
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL-TOBRAMICINA
+    detalle: 2.2 Prescription guideline
+contraindicaciones:
+- Virosis de córnea y conjuntiva (incluido herpes simple), infección micobacteriana o fúngica del ojo (FDA).
+alertas:
+- La etiqueta FDA es de 0,5 % + 0,3 %; el registro chileno (Oftol Plus) no indica concentración en el nombre.
+- Para calcular se usa la frecuencia de cada 4 h (6 veces al día).
+discrepancias: []
+meta: {}

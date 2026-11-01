@@ -1,0 +1,75 @@
+id: moxifloxacino
+nombre: Moxifloxacino oftálmico 0,5 %
+comerciales:
+- Megrelan
+- Moxof
+- Premoxin
+- Quimox
+- Vigamox
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-21130/24
+  - F-22365/25
+  - F-15694/26
+  - F-25812/25
+  - F-21672/25
+  - F-27866/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-21130/24 MEGRELAN SOLUCIÓN OFTÁLMICA 0,5%; F-22365/25 MOXIFLOXACINO SOLUCIÓN OFTÁLMICA 0,5%; F-15694/26 MOXOF
+      SOLUCIÓN OFTÁLMICA 0,5%; F-25812/25 PREMOXIN SOLUCIÓN OFTÁLMICA 0,5% (MOXIFLOXACINO); F-21672/25 QUIMOX SOLUCIÓN OFTÁLMICA
+      0,5%  (MOXIFLOXACINO); F-27866/23 VIGAMOX SOLUCIÓN OFTÁLMICA 0,5%
+dosis:
+- indicacion: Conjuntivitis bacteriana
+  poblacion: adulto
+  texto: 1 gota 3 veces al día; suele mejorar en 5 días y se sigue 2–3 días más
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-MOXIFLOXACINO-71576
+    detalle: '4.2: una gota 3 veces al día; continuar 2-3 días más tras mejorar'
+- indicacion: Conjuntivitis bacteriana
+  poblacion: pediatrico
+  texto: Igual que en adultos
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-MOXIFLOXACINO-71576
+    detalle: '4.2 Población pediátrica: no se requiere un ajuste de la dosis'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No requiere ajuste en niños (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir.
+  fuente:
+    ref: CIMA-TOP-MOXIFLOXACINO-71576
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Solo vía oftálmica; no inyectar. Ocluir el conducto nasolagrimal 2–3 minutos, sobre todo en recién nacidos y niños.
+    Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-MOXIFLOXACINO-71576
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a moxifloxacino u otras quinolonas (CIMA).
+alertas:
+- Si no mejora a los 5 días, reconsiderar el diagnóstico o el tratamiento (CIMA).
+discrepancias: []
+meta: {}

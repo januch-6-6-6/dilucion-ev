@@ -1,0 +1,107 @@
+id: nafazolina
+nombre: Nafazolina oftálmica
+comerciales:
+- Clarimir
+- Novotears
+- Red-Off
+- Sharof F
+- Thrive
+- Vibien
+- Viclaro
+grupo: descongestionante
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-012
+  forma: solucion
+  via: ojo
+  concentracion: 0,012 %
+  registrosIsp:
+  - F-26855/22
+  - F-635/23
+  - F-23836/23
+  - F-22543/26
+  - F-25701/25
+  - F-21476/24
+  - F-20411/23
+  - F-22542/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26855/22 CLARIMIR SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO); F-635/23 NOVOTEARS SOLUCIÓN OFTÁLMICA
+      0,012%; F-23836/23 RED-OFF SOLUCIÓN OFTÁLMICA 0,0125%; F-22543/26 SHAROF F SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO);
+      F-25701/25 SHAROF F SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA CLORHIDRATO); F-21476/24 VIBIEN SOLUCIÓN OFTÁLMICA 0,012%
+      (NAFAZOLINA); F-20411/23 VIBIEN SOLUCIÓN OFTÁLMICA 0,012% (NAFAZOLINA); F-22542/26 VICLARO SOLUCIÓN OFTÁLMICA 0,012
+      % (NAFAZOLINA CLORHIDRATO)
+- id: ojo-solucion-0-1
+  forma: solucion
+  via: ojo
+  concentracion: 0,1 %
+  registrosIsp:
+  - F-17094/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-17094/23 THRIVE SOLUCIÓN OFTÁLMICA 0,1% (NAFAZOLINA)
+dosis:
+- indicacion: Enrojecimiento o irritación ocular leve
+  poblacion: adulto
+  texto: 1 o 2 gotas en el ojo afectado hasta 4 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Producto FDA de nafazolina con propilenglicol
+  presentaciones:
+  - ojo-solucion-0-012
+  fuente:
+    ref: DAILYMED-TOP-NAFAZOLINA
+    detalle: 'Directions: put 1 or 2 drops in the affected eye(s) up to 4 times daily'
+- indicacion: Enrojecimiento o irritación ocular leve
+  poblacion: pediatrico
+  texto: 1 o 2 gotas hasta 4 veces al día, cada 6 a 8 h
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Reevaluar si sigue igual a los 3–4 días
+  estatus: off_label
+  condicion: Desde los 3 años; sin ficha técnica de la concentración
+  presentaciones:
+  - ojo-solucion-0-012
+  fuente:
+    ref: PEDIAMECUM-TOP-NAFAZOLINA
+    detalle: 1 o 2 gotas hasta 4 veces al día, cada 6 a 8 horas; contraindicado en niños menores de 3 años
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Contraindicada en menores de 3 años (Pediamécum).
+  edadMinima: 3 años
+conservacion:
+- presentaciones:
+  - ojo-solucion-0-012
+  texto: Conservar a 20–25 °C y cerrar bien tras usar.
+  fuente:
+    ref: DAILYMED-TOP-NAFAZOLINA
+    detalle: 'Storage: store at 20-25°C'
+administracion:
+  texto: Lavarse las manos; dejar caer la gota sin tocar el ojo con la punta.
+  fuente:
+    ref: PEDIAMECUM-TOP-NAFAZOLINA
+    detalle: Administración
+contraindicaciones:
+- Glaucoma de ángulo estrecho o predisposición (Pediamécum).
+- Diabetes, enfermedad ocular grave, hipertensión o hipertiroidismo (Pediamécum).
+- Niños menores de 3 años (Pediamécum).
+alertas:
+- Ninguna fuente indica la concentración. La pauta se asocia a 0,012 %; la presentación de 0,1 % (Thrive) queda sin pauta.
+- Si a los 3–4 días sigue o empeora, reevaluar (Pediamécum).
+discrepancias:
+- campo: Producto de la fuente FDA
+  valores:
+  - fuente: DAILYMED-TOP-NAFAZOLINA
+    valor: Gotas de nafazolina + propilenglicol (lubricante); no indica concentración
+  mostrado: Se usa solo para la frecuencia de adulto
+  motivo: La pauta coincide con la de Pediamécum; fuente débil.
+meta: {}

@@ -1,0 +1,85 @@
+id: azelastina
+nombre: Azelastina oftálmica
+comerciales:
+- Brixia
+grupo: antialergico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-05
+  forma: solucion
+  via: ojo
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-11830/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-11830/22 BRIXIA SOLUCIÓN OFTÁLMICA 0,05% (AZELASTINA)
+dosis:
+- indicacion: Conjuntivitis alérgica estacional
+  poblacion: adulto
+  texto: 1 gota en cada ojo 2 veces al día; si hace falta, hasta 4 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: Máximo 6 semanas
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-62373
+    detalle: '4.2: adultos y niños desde 4 años, una gota en cada ojo dos veces al día, aumentable a cuatro'
+  tambien:
+  - ref: PEDIAMECUM-TOP-AZELASTINA-OFTALMICA
+    detalle: 1 gota cada 12 horas; se puede aumentar hasta 4 veces por día; máximo 6 semanas
+- indicacion: Conjuntivitis alérgica perenne
+  poblacion: adulto
+  texto: 1 gota en cada ojo 2 veces al día; si hace falta, hasta 4 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: Máximo 6 semanas
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-62373
+    detalle: '4.2: conjuntivitis no estacional, adultos y niños desde 12 años, una gota dos veces al día; máximo 6 semanas'
+- indicacion: Conjuntivitis alérgica estacional
+  poblacion: pediatrico
+  texto: 1 gota en cada ojo 2 veces al día; si hace falta, hasta 4 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: Máximo 6 semanas
+  estatus: autorizada
+  condicion: 'Desde los 4 años (perenne: desde los 12)'
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-62373
+    detalle: '4.2: la dosis normal en adultos y niños a partir de los 4 años'
+  tambien:
+  - ref: PEDIAMECUM-TOP-AZELASTINA-OFTALMICA
+    detalle: 'Administración: 1 gota cada 12 horas; hasta 4 veces por día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Estacional desde los 4 años; perenne desde los 12 años.
+  edadMinima: 4 años
+conservacion:
+- validezAbiertoDias: 28
+  texto: Una vez abierto, no usar después de 4 semanas. Sin condiciones especiales de conservación.
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-62373
+    detalle: '6.3: una vez abierto, no utilizar después de 4 semanas'
+administracion:
+  texto: Si se prevé exposición al alérgeno, aplicarla antes, de forma preventiva. Consultar si no mejora en 48 horas.
+  fuente:
+    ref: CIMA-TOP-AZELASTINA-62373
+    detalle: 4.2 Posología y aviso para uso sin prescripción
+contraindicaciones:
+- Hipersensibilidad a azelastina o a algún excipiente (CIMA).
+alertas:
+- Más de 6 semanas de uso solo con supervisión médica (CIMA, Pediamécum).
+discrepancias: []
+meta: {}

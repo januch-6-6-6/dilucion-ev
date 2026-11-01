@@ -1,0 +1,97 @@
+id: oximetazolina
+nombre: Oximetazolina nasal 0,05 %
+comerciales:
+- Facimin
+- Iliadin
+- Oxiler D
+- Oxilin
+- Oxival
+- Respisan
+grupo: descongestionante
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-0-05
+  forma: spray
+  via: nariz
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-17530/24
+  - F-27336/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-17530/24 ILIADIN SOLUCIÓN NASAL PARA NEBULIZACIÓN 0,05%; F-27336/23 RESPISAN SOLUCIÓN NASAL PARA NEBULIZACION
+      0,05% (OXIMETAZOLINA CLORHIDRATO)
+- id: nariz-solucion-0-05
+  forma: solucion
+  via: nariz
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-12765/23
+  - F-21969/25
+  - F-15485/26
+  - F-28549/24
+  nota: El nombre del registro no indica si es gota o pulverizador
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12765/23 FACIMIN SOLUCIÓN NASAL 0,5 mg/mL; F-21969/25 OXILER D SOLUCIÓN NASAL 0,05 % (OXIMETAZOLINA CLORHIDRATO);
+      F-15485/26 OXILIN SOLUCIÓN NASAL 0,05%; F-28549/24 OXIVAL SOLUCIÓN NASAL 0,05 % (OXIMETAZOLINA CLORHIDRATO)
+dosis:
+- indicacion: Congestión nasal
+  poblacion: adulto
+  texto: 1 pulverización en cada fosa, máximo 2 veces al día (no repetir antes de 12 h)
+  cantidad: 1
+  unidad: pulverizacion
+  vecesAlDia: 2
+  porSitio: fosa
+  duracion: Suspender si a los 3 días sigue igual
+  estatus: autorizada
+  presentaciones:
+  - nariz-spray-0-05
+  fuente:
+    ref: CIMA-TOP-OXIMETAZOLINA-41111
+    detalle: '4.2: adultos, adolescentes y niños mayores de 6 años, 1 pulverización en cada fosa nasal, máximo 2 veces al
+      día'
+- indicacion: Congestión nasal
+  poblacion: pediatrico
+  texto: 1 pulverización en cada fosa, máximo 2 veces al día
+  cantidad: 1
+  unidad: pulverizacion
+  vecesAlDia: 2
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Mayores de 6 años
+  presentaciones:
+  - nariz-spray-0-05
+  fuente:
+    ref: CIMA-TOP-OXIMETAZOLINA-41111
+    detalle: '4.2: niños mayores de 6 años; contraindicado en menores de 6 años'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Contraindicada en menores de 6 años (CIMA).
+  edadMinima: 6 años
+conservacion:
+- presentaciones:
+  - nariz-spray-0-05
+  texto: Sin condiciones especiales. La ficha no fija validez tras abrir.
+  fuente:
+    ref: CIMA-TOP-OXIMETAZOLINA-41111
+    detalle: 6.3/6.4
+administracion:
+  texto: Cabeza erguida, boquilla en la fosa sin taparla, pulsar con firmeza. Mantener el frasco vertical.
+  fuente:
+    ref: CIMA-TOP-OXIMETAZOLINA-41111
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Niños menores de 6 años (CIMA).
+- En tratamiento con IMAO o en las 2 semanas previas (CIMA).
+- Glaucoma de ángulo estrecho; rinitis seca (CIMA).
+- Hipofisectomía transesfenoidal o cirugía con exposición de la duramadre (CIMA).
+alertas:
+- No más de 2 aplicaciones en 24 h ni intervalos menores de 12 h (CIMA).
+- Las soluciones nasales cuyo nombre no indica la forma (gota o pulverizador) quedan sin pauta.
+discrepancias: []
+meta: {}

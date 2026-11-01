@@ -1,0 +1,43 @@
+id: betametasona-gentamicina
+nombre: Betametasona + gentamicina oftálmica
+comerciales:
+- Oftagen Compuesto
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Betametasona
+- Gentamicina
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-sc
+  forma: unguento
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-887/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-887/25 OFTAGEN COMPUESTO UNGÜENTO OFTÁLMICO
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-886/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-886/25 OFTAGEN COMPUESTO SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

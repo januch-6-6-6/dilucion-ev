@@ -1,0 +1,82 @@
+id: travoprost
+nombre: Travoprost oftálmico 0,004 %
+comerciales:
+- Travof Sp
+- Avoplos
+- Glaucoprost
+- Tenoprox
+- Travatan
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-004
+  forma: solucion
+  via: ojo
+  concentracion: 0,004 %
+  registrosIsp:
+  - F-17796/24
+  - F-25563/25
+  - F-22122/25
+  - F-23473/22
+  - F-25612/25
+  - F-9089/26
+  - F-24800/24
+  - F-29697/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-17796/24 TRAVOF SP SOLUCIÓN OFTALMICA 0,004%; F-25563/25 AVOPLOS SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST); F-22122/25
+      GLAUCOPROST SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST); F-23473/22 TENOPROX SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST); F-25612/25
+      TENOPROX SOLUCIÓN OFTÁLMICA 0,004% (TRAVOPROST); F-9089/26 TRAVATAN SOLUCIÓN OFTÁLMICA 0,004%; F-24800/24 TRAVOPROST
+      SOLUCIÓN OFTÁLMICA 0,004 %; F-29697/26 TRAVOPROST SOLUCIÓN OFTÁLMICA 0,004%
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota 1 vez al día, de preferencia por la noche (no más)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-TRAVOPROST-101199003
+    detalle: '4.2: una gota una vez al día; efecto óptimo por la noche; no sobrepasar una gota diaria'
+- indicacion: Glaucoma pediátrico
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: 1 gota 1 vez al día'
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 2 meses (datos limitados hasta los 3 años)
+  fuente:
+    ref: CIMA-TOP-TRAVOPROST-101199003
+    detalle: '4.2: pacientes pediátricos desde los 2 meses a <18 años con la misma posología; datos limitados de 2 meses a
+      3 años'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 2 meses; datos limitados entre 2 meses y 3 años (CIMA).
+  edadMinima: 2 meses
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir.
+  fuente:
+    ref: CIMA-TOP-TRAVOPROST-101199003
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Retirar el envoltorio protector antes del primer uso. Tras instilar, cerrar suavemente los ojos u ocluir el conducto
+    nasolagrimal para reducir la absorción sistémica. Espaciar al menos 5 minutos de otros colirios; las pomadas al final.
+    No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-TRAVOPROST-101199003
+    detalle: '4.2'
+contraindicaciones:
+- Hipersensibilidad a travoprost o a algún excipiente (CIMA).
+alertas:
+- No requiere ajuste en insuficiencia hepática o renal (CIMA).
+discrepancias: []
+meta: {}

@@ -1,0 +1,100 @@
+id: cloranfenicol
+nombre: Cloranfenicol oftálmico
+comerciales:
+- Kaph
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-unguento-1
+  forma: unguento
+  via: ojo
+  concentracion: 1 %
+  registrosIsp:
+  - F-22797/26
+  - F-12980/23
+  - F-7259/25
+  - F-19212/22
+  - F-19320/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-22797/26 CLORANFENICOL UNGÜENTO OFTÁLMICO 1%; F-12980/23 CLORANFENICOL UNGÜENTO OFTÁLMICO 1%; F-7259/25 CLORANFENICOL
+      UNGÜENTO OFTÁLMICO 1%; F-19212/22 CLORANFENICOL UNGÜENTO OFTÁLMICO 1%; F-19320/22 KAPH UNGÜENTO OFTÁLMICO 1%
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-28264/24
+  - F-25283/25
+  - F-20082/23
+  - F-22034/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28264/24 CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5 %; F-25283/25 CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5%; F-20082/23
+      CLORANFENICOL SOLUCIÓN OFTÁLMICA 0,5%; F-22034/25 KAPH SOLUCIÓN OFTÁLMICA 0,5%
+dosis:
+- indicacion: Infección ocular bacteriana
+  poblacion: adulto
+  texto: 1 cm de pomada cada 3 h (o más seguido las primeras 48 h); luego espaciar según indicación
+  cantidad: 1
+  unidad: cm
+  porSitio: ojo
+  duracion: Máximo 10–14 días
+  estatus: autorizada
+  presentaciones:
+  - ojo-unguento-1
+  fuente:
+    ref: CIMA-TOP-CLORANFENICOL-19495
+    detalle: '4.2: una aplicación de 1 cm aproximadamente cada 3 horas, o más frecuentemente durante las primeras 48 horas'
+- indicacion: Infección ocular bacteriana (pomada)
+  poblacion: pediatrico
+  texto: Pomada 3–4 veces al día, o por la noche junto al colirio
+  duracion: Máximo 10–14 días (CIMA)
+  estatus: autorizada
+  condicion: En recién nacidos puede requerir ajuste (CIMA)
+  presentaciones:
+  - ojo-unguento-1
+  fuente:
+    ref: PEDIAMECUM-TOP-CLORANFENICOL
+    detalle: 'Pomada: 3-4 veces al día o por las noches asociadas al colirio'
+- indicacion: Infección ocular bacteriana (colirio)
+  poblacion: pediatrico
+  texto: 1 gota cada 3 h al inicio (más seguido en procesos graves)
+  cantidad: 1
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Pediamécum no indica la concentración del colirio
+  presentaciones:
+  - ojo-solucion-0-5
+  fuente:
+    ref: PEDIAMECUM-TOP-CLORANFENICOL
+    detalle: 'Colirio: 1 gota cada 3 h inicialmente (más frecuente en procesos graves)'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha técnica de la pomada no excluye a los niños; en recién nacidos puede requerir ajuste.
+conservacion:
+- presentaciones:
+  - ojo-unguento-1
+  validezAbiertoDias: 28
+  texto: 'Pomada: desechar 4 semanas después de abrir; no conservar sobre 25 °C.'
+  fuente:
+    ref: CIMA-TOP-CLORANFENICOL-19495
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: En infecciones graves, completar con un antibiótico sistémico. Espaciar al menos 5 minutos de otros colirios; las
+    pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-CLORANFENICOL-19495
+    detalle: 4.2 Posología y forma de administración
+contraindicaciones:
+- Antecedentes de depresión de médula ósea o discrasias sanguíneas (CIMA).
+- Infecciones menores, profilaxis, o cuando sirven antibacterianos menos tóxicos (CIMA).
+alertas:
+- La solución 0,5 % no tiene ficha técnica en las fuentes consultadas; para adultos solo hay pauta de la pomada.
+discrepancias: []
+meta: {}

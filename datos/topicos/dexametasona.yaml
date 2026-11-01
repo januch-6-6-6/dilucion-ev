@@ -1,0 +1,58 @@
+id: dexametasona
+nombre: Dexametasona oftálmica 0,15 % (unidosis)
+comerciales:
+- Etacortilen
+grupo: corticoide
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-15
+  forma: solucion
+  via: ojo
+  concentracion: 0,15 %
+  registrosIsp:
+  - F-16739/23
+  unidosis: true
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-16739/23 ETACORTILEN SOLUCIÓN OFTÁLMICA UNIDOSIS 0,15%
+dosis:
+- indicacion: Inflamación ocular
+  poblacion: pediatrico
+  texto: 1 gota 4–6 veces al día en el ojo afectado; retirar de forma gradual
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 6
+  porSitio: ojo
+  estatus: off_label
+  condicion: Pediamécum no indica la concentración; la ficha técnica no establece el uso pediátrico
+  fuente:
+    ref: PEDIAMECUM-TOP-DEXAMETASONA
+    detalle: 'Tópica oftálmica: 1 gota 4-6 veces al día en el ojo afecto. Se aconseja la suspensión gradual del tratamiento'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Solo pauta de Pediamécum, como off-label.
+conservacion:
+- texto: 'Envase unidosis: usar y desechar tras cada aplicación.'
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-16739/23 ETACORTILEN SOLUCIÓN OFTÁLMICA UNIDOSIS 0,15%
+administracion: null
+contraindicaciones:
+- Queratitis por herpes simple; infecciones bacterianas agudas no tratadas (CIMA).
+- Vaccinia, varicela y otras infecciones víricas de córnea o conjuntiva; infecciones fúngicas o por micobacterias (CIMA).
+alertas:
+- 'Sin pauta de adulto para la solución 0,15 %: la ficha CIMA es de pomada 0,05 % (regla de concentración).'
+discrepancias:
+- campo: Concentración y forma
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: solución oftálmica unidosis 0,15 %'
+  - fuente: CIMA-TOP-DEXAMETASONA-40309
+    valor: 'CIMA: pomada 0,5 mg/g (0,05 %), 1 cm 2-3 veces al día, máx. 14 días; pediatría no establecida'
+  mostrado: Sin pauta de adulto; pediátrica de Pediamécum como off-label
+  motivo: Regla de concentración (decisión de Héctor, 31-oct) y regla pediátrica (Pediamécum off-label).
+meta: {}

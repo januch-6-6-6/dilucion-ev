@@ -1,0 +1,66 @@
+id: azitromicina
+nombre: Azitromicina oftálmica
+comerciales:
+- Azydrop
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-1-43
+  forma: solucion
+  via: ojo
+  concentracion: 1,43 %
+  registrosIsp:
+  - F-19315/22
+  unidosis: true
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-19315/22 AZYDROP SOLUCIÓN OFTÁLMICA 1,43%
+dosis:
+- indicacion: Conjuntivitis bacteriana o tracomatosa
+  poblacion: adulto
+  texto: 1 gota en el fondo de saco conjuntival 2 veces al día (mañana y tarde) durante 3 días
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: 3 días; no hace falta prolongarlo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-AZITROMICINA-69522
+    detalle: '4.2.1 Población adulta: una gota dos veces al día, mañana y tarde durante tres días'
+- indicacion: Conjuntivitis bacteriana o tracomatosa
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: 1 gota 2 veces al día durante 3 días'
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: 3 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-AZITROMICINA-69522
+    detalle: '4.2.1 Población pediátrica: no se requiere un ajuste de la dosis'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha técnica no exige ajuste en niños.
+conservacion:
+- texto: 'Envase unidosis: usar de inmediato y desechar después de cada uso. No conservar sobre 25 °C; mantener en el sobre
+    (luz).'
+  fuente:
+    ref: CIMA-TOP-AZITROMICINA-69522
+    detalle: '6.3: desechar el envase unidosis inmediatamente después del primer uso; 6.4'
+administracion:
+  texto: Lavarse las manos antes y después. No tocar el ojo ni los párpados con la punta del unidosis; desecharlo tras usarlo.
+  fuente:
+    ref: CIMA-TOP-AZITROMICINA-69522
+    detalle: 4.2 Método de administración
+contraindicaciones:
+- Hipersensibilidad a azitromicina u otro macrólido (CIMA).
+alertas:
+- El cumplimiento de las 6 dosis es importante para el éxito del tratamiento (CIMA).
+discrepancias: []
+meta: {}

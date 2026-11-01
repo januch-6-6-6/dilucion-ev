@@ -1,0 +1,35 @@
+id: bimatoprost-brimonidina-timolol
+nombre: Bimatoprost + brimonidina + timolol oftálmico
+comerciales:
+- Triplenex
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Bimatoprost
+- Brimonidina
+- Timolol
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-23487/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-23487/22 TRIPLENEX SOLUCIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente para la combinación. Sus componentes brimonidina y timolol tienen riesgo sistémico grave en lactantes.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias: []
+meta: {}

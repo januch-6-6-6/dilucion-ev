@@ -1,0 +1,122 @@
+id: latanoprost
+nombre: Latanoprost oftálmico 0,005 %
+comerciales:
+- Exalo
+- Gaap Ofteno Pf
+- Gaap Ofteno
+- Kairós Pf
+- Latof
+- Latof Sp
+- Louten
+- Monoprost
+- Xalatan
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-005
+  forma: solucion
+  via: ojo
+  concentracion: 0,005 %
+  registrosIsp:
+  - F-29700/26
+  - F-24272/23
+  - F-15625/26
+  - F-26909/22
+  - F-19214/22
+  - F-28401/24
+  - F-23582/22
+  - F-24791/24
+  - FX-275/23
+  - FX-307/24
+  - F-3393/25
+  - FX-195/21
+  - FX-214/22
+  - F-24966/24
+  - F-7585/26
+  - F-21752/25
+  - F-56/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-29700/26 EXALO SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST); F-24272/23 GAAP OFTENO PF SOLUCIÓN OFTÁLMICA 0,005%
+      (LATANOPROST); F-15625/26 GAAP OFTENO SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST); F-26909/22 KAIRÓS PF SOLUCIÓN OFTÁLMICA
+      0,005% (LATANOPROST); F-19214/22 LATANOPROST  SOLUCIÓN OFTÁLMICA  50 mcg/mL; F-28401/24 LATANOPROST SOLUCIÓN OFTÁLMICA
+      0,005 %; F-23582/22 LATANOPROST SOLUCIÓN OFTÁLMICA 50 mcg/mL; F-24791/24 LATANOPROST SOLUCIÓN OFTÁLMICA 50 mcg/mL; FX-275/23
+      LATOF SOLUCIÓN OFTÁLMICA 0,005 %; FX-307/24 Latof solución oftálmica 0,005%; F-3393/25 LATOF SOLUCIÓN OFTÁLMICA 0,005%;
+      FX-195/21 LATOF SOLUCIÓN OFTÁLMICA 0,005%; FX-214/22 LATOF SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST); F-24966/24 LATOF
+      SP SOLUCIÓN OFTÁLMICA 0,005% (LATANOPROST); F-7585/26 LOUTEN SOLUCIÓN OFTÁLMICA 0,005%; F-21752/25 MONOPROST SOLUCIÓN
+      OFTÁLMICA 50 mcg/mL (LATANOPROST); F-56/22 XALATAN SOLUCIÓN OFTÁLMICA 50 mcg/mL
+- id: ojo-emulsion-0-005
+  forma: emulsion
+  via: ojo
+  concentracion: 0,005 %
+  registrosIsp:
+  - F-25281/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-25281/25 LOUTEN EMULSIÓN OFTÁLMICA 0,005% (LATANOPROST)
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - FX-308/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-308/24 LATOF SP SOLUCIÓN OFTÁLMICA (LATANAPROST)
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 1 vez al día, de preferencia por la noche (no más)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-005
+  - ojo-emulsion-0-005
+  fuente:
+    ref: CIMA-TOP-LATANOPROST-1231763001
+    detalle: '4.2: una gota en el (los) ojo(s) afectado(s) una vez al día; óptimo por la noche; no exceder de una vez al día'
+- indicacion: Glaucoma pediátrico
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: 1 gota 1 vez al día'
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 4 años; dato de la emulsión
+  presentaciones:
+  - ojo-emulsion-0-005
+  fuente:
+    ref: CIMA-TOP-LATANOPROST-1231763001
+    detalle: '4.2: Catiolanze se puede administrar a pacientes pediátricos a partir de 4 años con la misma posología'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Emulsión: desde los 4 años (CIMA). Para la solución no hay fuente pediátrica.'
+  edadMinima: 4 años (emulsión)
+conservacion:
+- presentaciones:
+  - ojo-emulsion-0-005
+  texto: 'Emulsión unidosis sin conservantes: desechar inmediatamente después de usar. Bajo 30 °C.'
+  fuente:
+    ref: CIMA-TOP-LATANOPROST-1231763001
+    detalle: 6.3/6.4
+administracion:
+  texto: Comprimir el saco lagrimal en el canto interno 1 minuto tras cada gota. Retirar lentes de contacto y esperar 15 minutos.
+    Separar 5 minutos de otros colirios.
+  fuente:
+    ref: CIMA-TOP-LATANOPROST-1231763001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a latanoprost o a algún excipiente (CIMA).
+alertas:
+- La ficha consultada es de la emulsión unidosis (Catiolanze); para los frascos multidosis chilenos no hay dato de validez
+  tras abrir.
+discrepancias: []
+meta: {}

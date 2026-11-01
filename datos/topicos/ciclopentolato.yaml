@@ -1,0 +1,97 @@
+id: ciclopentolato
+nombre: Ciclopentolato oftálmico 1 %
+comerciales:
+- Cyclogyl
+grupo: midriatico
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-1
+  forma: solucion
+  via: ojo
+  concentracion: 1 %
+  registrosIsp:
+  - F-22302/25
+  - F-29430/26
+  - F-2796/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-22302/25 CICLOPENTOLATO CLORHIDRATO SOLUCIÓN OFTÁLMICA 1%; F-29430/26 CYCLOGYL SOLUCIÓN OFTÁLMICA 1% (CICLOPENTOLATO
+      CLORHIDRATO); F-2796/24 CYCLOGYL SOLUCIÓN OFTÁLMICA AL 1%
+dosis:
+- indicacion: Refracción / examen de fondo de ojo
+  poblacion: adulto
+  texto: 1 o 2 gotas unos 40–45 minutos antes del examen; si hace falta, repetir a los 5–10 minutos
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  duracion: Dosis única antes del examen
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: '4.2 Uso en adultos: 1 o 2 gotas aproximadamente 40-45 minutos antes del examen; repetir a los 5 o 10 minutos'
+- indicacion: Efecto ciclopléjico sostenido
+  poblacion: adulto
+  texto: 2 gotas 3 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: '4.2 Uso en adultos: efecto sostenido, en general 2 gotas tres veces al día'
+- indicacion: Refracción (menores de 6 años)
+  poblacion: pediatrico
+  texto: 1 gota 40–50 minutos antes del examen; si hace falta, una segunda gota 5–10 minutos después
+  cantidad: 1
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  condicion: No recomendado en recién nacidos ni lactantes (concentración >0,5 %)
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: '4.2 Población pediátrica: niños menores de 6 años, 1 gota 40 o 50 minutos antes del examen'
+  tambien:
+  - ref: PEDIAMECUM-TOP-CICLOPENTOLATO
+    detalle: Para estudios de refracción, 1 gota, repetir a los 5 minutos, y explorar a los 45 minutos. En niños menores de
+      6 años, solo una gota
+- indicacion: Refracción (mayores de 6 años)
+  poblacion: pediatrico
+  texto: 1 o 2 gotas; si hace falta, otra a los 5 minutos, 40–50 minutos antes del examen
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: '4.2 Población pediátrica: niños mayores de 6 años, 1 o 2 gotas'
+  tambien:
+  - ref: PEDIAMECUM-TOP-CICLOPENTOLATO
+    detalle: 1 gota, repetir a los 5 minutos y explorar a los 45 minutos
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No recomendado en recién nacidos ni lactantes por riesgo sistémico grave (CIMA). Observar al niño 30 minutos.
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. No conservar sobre 25 °C.
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Ocluir el conducto nasolagrimal al menos 2 minutos (sobre todo en niños). En neonatos y lactantes, no darles alimento
+    durante 4 horas después. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta
+    del frasco.
+  fuente:
+    ref: CIMA-TOP-CICLOPENTOLATO-42117
+    detalle: 4.2 Población pediátrica y forma de administración
+contraindicaciones:
+- Glaucoma de ángulo estrecho o ángulo estrecho anatómico (CIMA).
+alertas:
+- 'Los niños son más susceptibles a la toxicidad sistémica: usar la dosis eficaz más baja (CIMA).'
+- 'Ancianos: más riesgo de glaucoma no diagnosticado y reacciones psicóticas (CIMA).'
+discrepancias: []
+meta: {}

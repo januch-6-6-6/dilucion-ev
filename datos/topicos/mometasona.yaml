@@ -1,0 +1,114 @@
+id: mometasona
+nombre: Mometasona nasal 50 mcg/dosis
+comerciales:
+- Dimuxon
+- Momenase
+- Monez
+- Nasonex
+- Nasoval
+- Pluster
+- Proxona
+- Rinitek
+- Rino-Val
+- Rinomase
+- Suavicort
+- Synaller
+grupo: corticoide-nasal
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-50-mcg
+  forma: spray
+  via: nariz
+  concentracion: 50 mcg por pulverización
+  registrosIsp:
+  - F-22780/26
+  - F-25024/24
+  - F-28065/24
+  - F-19862/23
+  - F-15316/25
+  - F-28612/24
+  - F-22337/25
+  - F-25912/26
+  - F-19277/22
+  - F-2341/24
+  - F-23560/22
+  - F-20526/23
+  - F-20095/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-22780/26 DIMUXON SUSPENSIÓN PARA INHALACIÓN NASAL 0,05% (MOMETASONA FUROATO); F-25024/24 MOMENASE SUSPENSION
+      NASAL PARA NEBULIZACION 50 mcg / dosis (MOMETASONA FUROATO); F-28065/24 MOMETASONA FUROATO SUSPENSIÓN NASAL PARA NEBULIZACIÓN
+      50 mcg/dosis; F-19862/23 MONEZ SUSPENSIÓN NASAL SPRAY 50 mcg/DOSIS; F-15316/25 NASONEX SUSPENSIÓN NASAL PARA NEBULIZACIÓN
+      50 mcg/DOSIS; F-28612/24 NASOVAL SUSPENSIÓN PARA INHALACIÓN NASAL 50 mcg/dosis (MOMETASONA FUROATO); F-22337/25 PLUSTER
+      SUSPENSIÓN ACUOSA PARA NEBULIZACIÓN NASAL 50 mcg/dosis (MOMETASONA FUROATO); F-25912/26 PROXONA SUSPENSIÓN NASAL PARA
+      NEBULIZACIÓN 50 mcg/dosis; F-19277/22 RINITEK SUSPENSIÓN  PARA NEBULIZACIÓN NASAL 50 mg/100mL; F-2341/24 RINO-VAL SUSPENSIÓN
+      NASAL PARA NEBULIZACIÓN  50 mcg/dosis; F-23560/22 RINOMASE SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/ dosis (MOMETASONA
+      FUROATO); F-20526/23 SUAVICORT SUSPENSIÓN NASAL PARA NEBULIZACIÓN 50 mcg/DOSIS (MOMETASONA FUROATO); F-20095/23 SYNALLER
+      SUSPENSIÓN PARA INHALACIÓN NASAL 50 mcg/dosis
+dosis:
+- indicacion: Rinitis alérgica estacional o perenne
+  poblacion: adulto
+  texto: 2 pulverizaciones en cada fosa 1 vez al día (200 mcg); mantención 1 por fosa; máximo 4 por fosa al día
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Adultos y desde 12 años
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-61905
+    detalle: '4.2.1: adultos y niños de 12 años y mayores, dos pulverizaciones en cada orificio nasal una vez al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-MOMETASONA
+    detalle: 'Adolescentes ≥12 años: dos aplicaciones (50 µg/dosis) en cada fosa nasal, una vez al día (200 µg/día)'
+- indicacion: Poliposis nasal
+  poblacion: adulto
+  texto: 2 pulverizaciones en cada fosa 1 vez al día; si no hay control a las 5–6 semanas, 2 por fosa 2 veces al día
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-61905
+    detalle: 4.2.1 Poliposis nasal
+- indicacion: Rinitis alérgica
+  poblacion: pediatrico
+  texto: 1 pulverización en cada fosa 1 vez al día (100 mcg)
+  cantidad: 1
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  condicion: 3 a 11 años
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-61905
+    detalle: '4.2.1: niños de 3 a 11 años, una pulverización en cada orificio nasal una vez al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-MOMETASONA
+    detalle: 'Niños de 3 a 11 años: una pulverización (50 µg) en cada orificio nasal una vez al día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 3 años (CIMA).
+  edadMinima: 3 años
+conservacion:
+- validezAbiertoDias: 60
+  texto: Usar dentro de 2 meses desde la primera aplicación. Bajo 25 °C; no congelar.
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-61905
+    detalle: '6.3: utilizar dentro de los 2 meses desde la primera administración'
+administracion:
+  texto: Cebar la bomba antes del primer uso. Dirigir hacia la pared lateral de la nariz, no hacia el tabique.
+  fuente:
+    ref: PEDIAMECUM-TOP-MOMETASONA
+    detalle: Se debe administrar hacia el lateral de la cavidad nasal (no hacia el septo)
+contraindicaciones:
+- Infección localizada no tratada de la mucosa nasal (p. ej., herpes simple) (CIMA).
+- Cirugía o traumatismo nasal reciente, hasta que cicatrice (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

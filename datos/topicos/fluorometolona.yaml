@@ -1,0 +1,72 @@
+id: fluorometolona
+nombre: Fluorometolona oftálmica 0,1 %
+comerciales:
+- Fluforte
+- Flumetol Nf Ofteno
+- Flusure
+grupo: corticoide
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-0-1
+  forma: suspension
+  via: ojo
+  concentracion: 0,1 %
+  registrosIsp:
+  - F-20888/24
+  - F-12259/22
+  - F-21677/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-20888/24 FLUFORTE SUSPENSIÓN OFTÁLMICA 0,1%; F-12259/22 FLUMETOL NF OFTENO SUSPENSIÓN OFTÁLMICA 0,1 % (FLUOROMETOLONA);
+      F-21677/25 FLUSURE SUSPENSIÓN OFTÁLMICA 0,1 % ( FLUOROMETOLONA)
+dosis:
+- indicacion: Inflamación ocular que responde a corticoides
+  poblacion: adulto
+  texto: 1 gota 2 a 4 veces al día; las primeras 24–48 h puede darse cada 4 h
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Evitar tratamientos prolongados; retirar de forma gradual
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-FLUOROMETOLONA-56132
+    detalle: '4.2: adultos y niños mayores de 3 años, 1 gota de 2 a 4 veces al día; primeras 24-48 horas cada 4 horas'
+- indicacion: Inflamación ocular que responde a corticoides
+  poblacion: pediatrico
+  texto: 1 gota 2 a 4 veces al día; reducir frecuencia y duración en niños
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Mayores de 3 años
+  fuente:
+    ref: CIMA-TOP-FLUOROMETOLONA-56132
+    detalle: '4.2: niños mayores de 3 años; se recomienda reducir la frecuencia y la duración en niños'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No establecida en menores de 3 años (CIMA).
+  edadMinima: 3 años
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. No conservar sobre 30 °C.
+  fuente:
+    ref: CIMA-TOP-FLUOROMETOLONA-56132
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Agitar bien. Si no mejora en 2 días, reevaluar. En glaucoma, limitar a 2 semanas. Espaciar al menos 5 minutos de
+    otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-FLUOROMETOLONA-56132
+    detalle: '4.2'
+contraindicaciones:
+- Queratitis por herpes simple; vaccinia, varicela y otras infecciones víricas de córnea o conjuntiva.
+- Infecciones fúngicas o micobacterianas del ojo; infecciones agudas no tratadas.
+alertas: []
+discrepancias: []
+meta: {}

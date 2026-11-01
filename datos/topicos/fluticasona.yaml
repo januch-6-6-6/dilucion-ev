@@ -1,0 +1,106 @@
+id: fluticasona
+nombre: Fluticasona nasal
+comerciales:
+- Alenys
+- Avamys
+- Flixonase
+- Fremaval
+- Nebulex
+- Ticanase
+grupo: corticoide-nasal
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-27-5-mcg-furoato
+  forma: spray
+  via: nariz
+  concentracion: 27,5 mcg (furoato) por pulverización
+  registrosIsp:
+  - F-16784/23
+  - F-16477/22
+  - F-22559/26
+  - F-28280/24
+  - FX-424/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-16784/23 ALENYS SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/dosis; F-16477/22 AVAMYS SUSPENSIÓN PARA NEBULIZACIÓN
+      NASAL 27,5 mcg/dosis; F-22559/26 AVAMYS SUSPENSIÓN PARA NEBULIZACIÓN NASAL 27,5 mcg/dosis; F-28280/24 FREMAVAL SUSPENSIÓN
+      NASAL PARA NEBULIZACIÓN 27,5 mcg/dosis (FLUTICASONA FUROATO); FX-424/23 FREMAVAL SUSPENSIÓN PARA NEBULIZACIÓN NASAL
+      27,5 mcg/ dosis
+- id: nariz-spray-50-mcg-propionato
+  forma: spray
+  via: nariz
+  concentracion: 50 mcg (propionato) por pulverización
+  registrosIsp:
+  - F-10656/26
+  - F-15296/25
+  - F-24823/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-10656/26 FLIXONASE SUSPENSIÓN PARA NEBULIZACIÓN NASAL 50 mcg/dosis (FLUTICASONA); F-15296/25 NEBULEX SUSPENSIÓN
+      PARA NEBULIZACIÓN NASAL 50 mcg/dosis; F-24823/24 TICANASE SUSPENSIÓN PARA NEBULIZACIÓN NASAL 50 mcg/dosis (FLUTICASONA
+      PROPIONATO)
+dosis:
+- indicacion: Rinitis alérgica
+  poblacion: adulto
+  texto: 2 pulverizaciones en cada fosa 1 vez al día (110 mcg); al controlar, 1 por fosa (55 mcg)
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Adultos y adolescentes desde 12 años
+  presentaciones:
+  - nariz-spray-27-5-mcg-furoato
+  fuente:
+    ref: CIMA-TOP-FLUTICASONA-07434003
+    detalle: '4.2: adultos y adolescentes (12 años y mayores), dos pulverizaciones en cada fosa nasal una vez al día'
+- indicacion: Rinitis alérgica
+  poblacion: pediatrico
+  texto: 1 pulverización en cada fosa 1 vez al día (55 mcg); si no responde, 2 por fosa
+  cantidad: 1
+  unidad: pulverizacion
+  vecesAlDia: 1
+  porSitio: fosa
+  estatus: autorizada
+  condicion: 6 a 11 años
+  presentaciones:
+  - nariz-spray-27-5-mcg-furoato
+  fuente:
+    ref: CIMA-TOP-FLUTICASONA-07434003
+    detalle: '4.2: niños de 6 a 11 años, una pulverización en cada fosa nasal una vez al día'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No establecida en menores de 6 años (CIMA).
+  edadMinima: 6 años
+conservacion:
+- presentaciones:
+  - nariz-spray-27-5-mcg-furoato
+  validezAbiertoDias: 60
+  texto: 'Tras abrir: 2 meses. No refrigerar ni congelar; guardar vertical y con la tapa.'
+  fuente:
+    ref: CIMA-TOP-FLUTICASONA-07434003
+    detalle: '6.3: tras la apertura, 2 meses'
+administracion:
+  texto: Solo vía intranasal. Agitar antes de usar; cebar con al menos 6 pulverizaciones la primera vez.
+  fuente:
+    ref: CIMA-TOP-FLUTICASONA-07434003
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a fluticasona o a algún excipiente (CIMA).
+alertas:
+- No requiere ajuste en ancianos ni en insuficiencia renal o hepática (CIMA).
+- Furoato (27,5 mcg) y propionato (50 mcg) de fluticasona no son intercambiables pulverización por pulverización.
+discrepancias:
+- campo: Sal y dosis por pulverización
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: furoato 27,5 mcg/dosis y propionato 50 mcg/dosis'
+  - fuente: CIMA-TOP-FLUTICASONA-07434003
+    valor: 'Ficha descargada: Avamys (furoato 27,5 mcg)'
+  mostrado: Pauta solo para 27,5 mcg (furoato)
+  motivo: 'Regla de concentración: el propionato 50 mcg queda sin pauta.'
+meta: {}

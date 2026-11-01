@@ -1,0 +1,99 @@
+id: brimonidina
+nombre: Brimonidina oftálmica
+comerciales:
+- Agglad Ofteno
+- Alphagan P
+- Brimof
+- Brimof Sp
+- Brimokem
+- Brimopress
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-0-2
+  forma: solucion
+  via: ojo
+  concentracion: 0,2 %
+  registrosIsp:
+  - F-12304/22
+  - F-23254/21
+  - F-25575/25
+  - F-25743/25
+  - F-28518/24
+  - F-11880/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12304/22 AGGLAD OFTENO SOLUCIÓN OFTÁLMICA 0,2%; F-23254/21 BRIMOF SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA TARTRATO);
+      F-25575/25 BRIMOF SP SOLUCIÓN OFTÁLMICA  0,2% (BRIMONIDINA TARTRATO); F-25743/25 BRIMOKEM SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA);
+      F-28518/24 BRIMONIDINA TARTRATO SOLUCIÓN OFTÁLMICA 0,2%; F-11880/22 BRIMOPRESS SOLUCIÓN OFTÁLMICA 0,2% (BRIMONIDINA)
+- id: ojo-solucion-0-15
+  forma: solucion
+  via: ojo
+  concentracion: 0,15 %
+  registrosIsp:
+  - F-12327/22
+  - F-28236/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12327/22 ALPHAGAN P SOLUCIÓN OFTÁLMICA 0,15% (BRIMONIDINA TARTRATO); F-28236/24 BRIMONIDINA TARTRATO SOLUCIÓN
+      OFTÁLMICA 0,15%
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - FX-328/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-328/24 BRIMOF SP SOLUCIÓN OFTÁLMICA (BRIMONIDINA TARTRATO)
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día, cada 12 h aprox.
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-2
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-62010
+    detalle: '4.2: una gota dos veces al día, con un intervalo de aproximadamente 12 horas'
+sinPauta: null
+pediatria:
+  estado: contraindicada
+  motivo: Contraindicada en menores de 2 años (reacciones graves en neonatos); no recomendada en menores de 12 años (CIMA).
+  edadMinima: 12 años
+conservacion:
+- presentaciones:
+  - ojo-solucion-0-2
+  validezAbiertoDias: 28
+  texto: 'Tras la primera apertura: 28 días. No conservar sobre 25 °C.'
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-62010
+    detalle: '6.3: tras la primera apertura 28 días'
+administracion:
+  texto: Inmediatamente después de cada gota, presionar el saco lagrimal en el canto interno 1 minuto. Separar 5–15 minutos
+    de otros colirios. No tocar superficies con el gotero.
+  fuente:
+    ref: CIMA-TOP-BRIMONIDINA-62010
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Neonatos y niños menores de 2 años (CIMA).
+- En tratamiento con IMAO o con antidepresivos que afectan la transmisión noradrenérgica (tricíclicos, mianserina) (CIMA).
+alertas:
+- Sin datos en insuficiencia renal o hepática (CIMA).
+discrepancias:
+- campo: Concentración 0,15 %
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: Chile también registra 0,15 % (Alphagan P y genérico)
+  - fuente: CIMA-TOP-BRIMONIDINA-62010
+    valor: 'Ficha descargada: Alphagan 2 mg/ml (0,2 %)'
+  mostrado: Pauta solo para 0,2 %
+  motivo: La pauta se ata a la concentración de la ficha; 0,15 % y el registro sin concentración quedan sin pauta.
+meta: {}

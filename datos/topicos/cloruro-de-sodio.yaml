@@ -1,0 +1,92 @@
+id: cloruro-de-sodio
+nombre: Cloruro de sodio nasal (suero fisiológico)
+comerciales:
+- Fisiolimp
+- Rinokid
+- Rinosteryl
+grupo: lavado-nasal
+vias:
+- nariz
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-0-9
+  forma: spray
+  via: nariz
+  concentracion: 0,9 %
+  registrosIsp:
+  - F-1993/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1993/24 FISIOLIMP SOLUCIÓN NASAL PARA NEBULIZACIÓN 0,9%
+- id: nariz-solucion-0-9
+  forma: solucion
+  via: nariz
+  concentracion: 0,9 %
+  registrosIsp:
+  - F-12764/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12764/23 RINOSTERYL SOLUCIÓN NASAL 0,9% (CLORURO DE SODIO)
+- id: nariz-spray-3-hipertonica
+  forma: spray
+  via: nariz
+  concentracion: 3 % (hipertónica)
+  registrosIsp:
+  - F-12574/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12574/22 RINOKID SOLUCIÓN NASAL PARA NEBULIZACIÓN 3%
+dosis:
+- indicacion: Limpieza y humidificación nasal
+  poblacion: adulto
+  texto: 1 a 3 gotas en cada fosa nasal, tantas veces como sea necesario
+  cantidad: 3
+  unidad: gota
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Si no mejora en 3 días, reevaluar
+  presentaciones:
+  - nariz-solucion-0-9
+  fuente:
+    ref: CIMA-TOP-CLORURO-DE-SODIO-60230
+    detalle: '4.2: aplicar de 1 a 3 gotas en cada orificio nasal, tantas veces como sea necesario'
+- indicacion: Limpieza y humidificación nasal
+  poblacion: pediatrico
+  texto: 1 a 3 gotas en cada fosa nasal, tantas veces como sea necesario
+  cantidad: 3
+  unidad: gota
+  porSitio: fosa
+  estatus: autorizada
+  condicion: La ficha no distingue edades
+  presentaciones:
+  - nariz-solucion-0-9
+  fuente:
+    ref: CIMA-TOP-CLORURO-DE-SODIO-60230
+    detalle: '4.2: la ficha no distingue edades'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La ficha técnica no distingue edades.
+conservacion:
+- presentaciones:
+  - nariz-solucion-0-9
+  validezAbiertoDias: 7
+  texto: Una vez abierto, lugar fresco y desechar a los 7 días. No conservar sobre 30 °C.
+  fuente:
+    ref: CIMA-TOP-CLORURO-DE-SODIO-60230
+    detalle: '6.4: una vez abierto, desechar a los 7 días'
+administracion: null
+contraindicaciones:
+- Hipersensibilidad al cloruro de sodio o a algún excipiente (CIMA).
+alertas: []
+discrepancias:
+- campo: Concentración y forma
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: solución nasal 0,9 %, nebulización 0,9 % y 3 % hipertónica'
+  - fuente: CIMA-TOP-CLORURO-DE-SODIO-60230
+    valor: 'CIMA: gotas nasales 8,5 mg/ml (0,85 %)'
+  mostrado: Pauta solo para la solución en gotas 0,9 %
+  motivo: Ambas son prácticamente isotónicas; los nebulizadores y la solución hipertónica 3 % no tienen ficha.
+meta: {}

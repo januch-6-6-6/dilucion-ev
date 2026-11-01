@@ -1,0 +1,63 @@
+id: mometasona-olopatadina
+nombre: Olopatadina + mometasona nasal
+comerciales:
+- Ryaltris 600/25
+grupo: corticoide-nasal
+vias:
+- nariz
+componentes:
+- Olopatadina
+- Mometasona
+altoRiesgo: false
+presentaciones:
+- id: nariz-spray-600-mcg-olopatadina-25-mcg-mometasona
+  forma: spray
+  via: nariz
+  concentracion: 600 mcg olopatadina + 25 mcg mometasona por pulverización
+  registrosIsp:
+  - F-28399/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28399/24 RYALTRIS 600/25 SUSPENSIÓN NASAL PARA NEBULIZACIÓN
+dosis:
+- indicacion: Rinitis alérgica
+  poblacion: adulto
+  texto: 2 pulverizaciones en cada fosa 2 veces al día (mañana y noche)
+  cantidad: 2
+  unidad: pulverizacion
+  vecesAlDia: 2
+  porSitio: fosa
+  estatus: autorizada
+  condicion: Adultos y desde 12 años
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-OLOPATADINA-86059
+    detalle: '4.2: adultos y adolescentes (12 años y mayores), dos pulverizaciones en cada orificio nasal dos veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No se recomienda en menores de 12 años (CIMA).
+  edadMinima: 12 años
+conservacion:
+- validezAbiertoDias: 60
+  texto: Desechar 2 meses después del primer uso o al terminar las pulverizaciones de la etiqueta. No congelar.
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-OLOPATADINA-86059
+    detalle: '4.2/6.3: desechar en los 2 meses posteriores a la primera utilización'
+administracion:
+  texto: Solo nasal. Agitar 10 segundos antes de cada uso; cebar 6 veces la primera vez y 2 si lleva 14 días sin uso. Limpiar
+    la boquilla.
+  fuente:
+    ref: CIMA-TOP-MOMETASONA-OLOPATADINA-86059
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Infección localizada no tratada de la mucosa nasal (p. ej., herpes simple) (CIMA).
+- Cirugía o traumatismo nasal reciente, hasta que cicatrice (CIMA).
+alertas: []
+discrepancias:
+- campo: Fuente pediátrica descargada
+  valores:
+  - fuente: PEDIAMECUM-TOP-OLOPATADINA
+    valor: Olopatadina en colirio (vía oftálmica)
+  mostrado: No se usa
+  motivo: Vía equivocada y componente aislado.
+meta: {}

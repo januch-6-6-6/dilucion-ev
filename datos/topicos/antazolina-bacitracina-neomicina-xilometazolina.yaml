@@ -1,0 +1,37 @@
+id: antazolina-bacitracina-neomicina-xilometazolina
+nombre: Antazolina + bacitracina + neomicina + xilometazolina (ungüento nasal)
+comerciales:
+- Rinobanedif
+grupo: antibiotico
+vias:
+- nariz
+componentes:
+- Antazolina
+- Bacitracina
+- Neomicina
+- Xilometazolina
+altoRiesgo: false
+presentaciones:
+- id: nariz-unguento-sc
+  forma: unguento
+  via: nariz
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-157/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-157/23 RINOBANEDIF UNGÜENTO NASAL
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas:
+- 'Neomicina (Pediamécum): con filtrado glomerular <10 ml/min no usarla por vía oral ni tópica.'
+discrepancias: []
+meta: {}

@@ -1,0 +1,59 @@
+id: bepotastina
+nombre: Bepotastina oftálmica
+comerciales:
+- Elar-B
+grupo: antialergico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-1-5
+  forma: solucion
+  via: ojo
+  concentracion: 1,5 %
+  registrosIsp:
+  - F-27478/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-27478/23 ELAR-B SOLUCIÓN OFTÁLMICA 1,5% (BEPOTASTINA BESILATO)
+dosis:
+- indicacion: Prurito por conjuntivitis alérgica
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-BEPOTASTINA
+    detalle: 'DOSAGE: instill one drop into the affected eye(s) twice a day'
+- indicacion: Prurito por conjuntivitis alérgica
+  poblacion: pediatrico
+  texto: 1 gota en el ojo afectado 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 2 años
+  fuente:
+    ref: DAILYMED-TOP-BEPOTASTINA
+    detalle: '8.4 Pediatric Use: not established under 2 years of age; efficacy under 10 years extrapolated'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: No establecida en menores de 2 años (FDA).
+  edadMinima: 2 años
+conservacion: []
+administracion:
+  texto: Retirar los lentes de contacto antes de instilar.
+  fuente:
+    ref: DAILYMED-TOP-BEPOTASTINA
+    detalle: 'DOSAGE: remove contact lenses prior to instillation'
+contraindicaciones:
+- Hipersensibilidad a bepotastina o a algún componente (FDA).
+alertas: []
+discrepancias: []
+meta: {}

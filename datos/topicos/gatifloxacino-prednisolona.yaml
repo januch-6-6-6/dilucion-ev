@@ -1,0 +1,42 @@
+id: gatifloxacino-prednisolona
+nombre: Gatifloxacino + prednisolona oftálmico
+comerciales:
+- Zypred
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Gatifloxacino
+- Prednisolona
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-sc
+  forma: suspension
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-19136/21
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-19136/21 ZYPRED SUSPENSIÓN OFTÁLMICA
+dosis: []
+sinPauta:
+  motivo: 'Combinación registrada solo en Chile: ninguna fuente consultada (CIMA, DailyMed, Pediamécum) trae la posología
+    de esta asociación; solo hay datos por componente, que no valen para la combinación.'
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente de posología para la combinación.
+conservacion: []
+administracion: null
+contraindicaciones: []
+alertas: []
+discrepancias:
+- campo: Fuentes descargadas
+  valores:
+  - fuente: DAILYMED-TOP-GATIFLOXACINO-PREDNISOLONA
+    valor: 'FDA: gatifloxacino 0,5 % solo'
+  - fuente: PEDIAMECUM-TOP-PREDNISOLONA
+    valor: 'Pediamécum: prednisolona oral'
+  mostrado: No se usan
+  motivo: Son fichas de un solo componente o de otra vía; no valen para la combinación.
+meta: {}

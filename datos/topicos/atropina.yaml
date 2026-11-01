@@ -1,0 +1,118 @@
+id: atropina
+nombre: Atropina oftálmica 1 %
+comerciales: []
+grupo: midriatico
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-1
+  forma: solucion
+  via: ojo
+  concentracion: 1 %
+  registrosIsp:
+  - F-1161/23
+  - F-15393/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1161/23 ATROPINA SOLUCIÓN OFTÁLMICA 1%; F-15393/26 ATROPINA SULFATO MONOHIDRATO SOLUCIÓN OFTÁLMICA 1%
+dosis:
+- indicacion: Efecto ciclopléjico sostenido (uveítis, iritis)
+  poblacion: adulto
+  texto: 2 gotas 3 veces al día
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: '4.2 Uso en adultos: cuando se pretenda un efecto sostenido, tres aplicaciones diarias de 2 gotas'
+- indicacion: Refracción ciclopléjica
+  poblacion: adulto
+  texto: 1 o 2 gotas en cada ojo 2 veces al día, de 1 a 3 días antes del examen
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  duracion: 1 a 3 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: '4.2 Uso en adultos: refracción ciclopléjica 1 ó 2 gotas en cada ojo dos veces al día, de 1 a 3 días antes'
+- indicacion: Efecto sostenido
+  poblacion: pediatrico
+  texto: 1 gota 3 veces al día; usar la dosis eficaz más baja
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Solo desde los 3 años, con precaución
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: '4.2 Población pediátrica: 10 mg/ml contraindicado en menores de 3 años; efecto sostenido, tres aplicaciones
+      diarias de 1 gota'
+  tambien:
+  - ref: PEDIAMECUM-TOP-ATROPINA
+    detalle: 'Finalidad terapéutica: 1 gota, 3 veces al día'
+- indicacion: Refracción ciclopléjica
+  poblacion: pediatrico
+  texto: 1 o 2 gotas 2 veces al día, de 1 a 3 días antes del examen
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Solo desde los 3 años, con precaución
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: '4.2 Población pediátrica: examen de refracción 1 ó 2 gotas 2 veces al día, de 1 a 3 días antes'
+- indicacion: Refracción en niños de 1 a 3 años
+  poblacion: pediatrico
+  texto: 1 gota 2 veces al día, 1–2 días antes del examen
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: off_label
+  condicion: Pediamécum desde 1 año; la ficha técnica contraindica la atropina 1 % en menores de 3 años
+  fuente:
+    ref: PEDIAMECUM-TOP-ATROPINA
+    detalle: 'En estudio de refracción en niños ≥1 año: 1 gota 2 veces al día, 1-2 días antes del examen'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Ficha técnica: la atropina 1 % está contraindicada en menores de 3 años; desde los 3 años con precaución.'
+  edadMinima: 3 años (ficha técnica)
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Conservar por debajo de 25 °C.
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: '6.3: desechar 4 semanas después de la primera apertura; 6.4 por debajo de 25ºC'
+administracion:
+  texto: Lavarse las manos. Tras instilar, ocluir el conducto nasolagrimal 2–3 minutos para reducir la absorción sistémica.
+    Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-ATROPINA-39474
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Glaucoma primario o predisposición a glaucoma de ángulo estrecho (CIMA).
+- Niños con síndrome de Down, parálisis espástica o lesión cerebral (CIMA).
+- Atropina 1 % en menores de 3 años (CIMA).
+- Menores de 12 años con reacción grave previa a atropina; lactancia (CIMA).
+alertas:
+- 'Riesgo de efectos adversos sistémicos graves en niños: usar la dosis eficaz más baja (CIMA).'
+- 'Ancianos: más riesgo de glaucoma no diagnosticado y de reacciones psicóticas (CIMA).'
+discrepancias:
+- campo: Edad mínima pediátrica
+  valores:
+  - fuente: CIMA-TOP-ATROPINA-39474
+    valor: 'Atropina 10 mg/ml (1 %): contraindicada en menores de 3 años'
+  - fuente: PEDIAMECUM-TOP-ATROPINA
+    valor: 'Refracción en niños ≥1 año: 1 gota 2 veces al día'
+  mostrado: 'Ambas: ficha técnica como autorizada (≥3 años) y Pediamécum como off-label (1–3 años)'
+  motivo: 'Decisión de Héctor (31-oct): la pauta de Pediamécum se muestra como off-label con alerta.'
+meta: {}

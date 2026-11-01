@@ -1,0 +1,77 @@
+id: ganciclovir
+nombre: Ganciclovir gel oftálmico
+comerciales:
+- Virgan
+grupo: antiviral-antifungico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-gel-0-15-1-5-mg-g
+  forma: gel
+  via: ojo
+  concentracion: 0,15 % (1,5 mg/g)
+  registrosIsp:
+  - F-19120/21
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-19120/21 VIRGAN GEL OFTÁLMICO 1,5 mg/g
+dosis:
+- indicacion: Queratitis herpética superficial aguda
+  poblacion: adulto
+  texto: 1 gota 5 veces al día hasta la reepitelización completa; luego 1 gota 3 veces al día por 7 días
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 5
+  porSitio: ojo
+  duracion: Máximo 21 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-GANCICLOVIR-67075
+    detalle: '4.2.1: 1 gota 5 veces al día hasta la reepitelización corneal completa, después 1 gota 3 veces al día durante
+      7 días'
+  tambien:
+  - ref: PEDIAMECUM-TOP-GANCICLOVIR
+    detalle: 1 gota, 5 veces al día hasta la reepitelización corneal completa; después, 1 gota, 3 veces al día durante 7 días
+- indicacion: Queratitis herpética superficial aguda
+  poblacion: pediatrico
+  texto: 1 gota 5 veces al día hasta la reepitelización; luego 1 gota 3 veces al día por 7 días
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 5
+  porSitio: ojo
+  duracion: Máximo 21 días
+  estatus: off_label
+  condicion: La ficha técnica no lo recomienda en menores de 18 años
+  fuente:
+    ref: PEDIAMECUM-TOP-GANCICLOVIR
+    detalle: Gel oftálmico tópico en la queratitis superficial aguda por herpes simple; duración máxima 21 días
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Ficha técnica: no recomendado en menores de 18 años (sin estudios). Pediamécum da la misma pauta, como off-label.'
+conservacion:
+- validezAbiertoDias: 28
+  texto: 'Después de abrir: 4 semanas.'
+  fuente:
+    ref: CIMA-TOP-GANCICLOVIR-67075
+    detalle: '6.3: después de la apertura, 4 semanas'
+administracion:
+  texto: Instilar en el fondo de saco conjuntival inferior del ojo afectado.
+  fuente:
+    ref: CIMA-TOP-GANCICLOVIR-67075
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a ganciclovir o aciclovir (CIMA).
+alertas: []
+discrepancias:
+- campo: Uso pediátrico
+  valores:
+  - fuente: CIMA-TOP-GANCICLOVIR-67075
+    valor: No recomendado en menores de 18 años
+  - fuente: PEDIAMECUM-TOP-GANCICLOVIR
+    valor: Misma pauta que en adultos
+  mostrado: 'Ambas: Pediamécum como off-label'
+  motivo: Decisión de Héctor (31-oct).
+meta: {}

@@ -1,0 +1,95 @@
+id: dorzolamida-timolol
+nombre: Dorzolamida + timolol oftálmico
+comerciales:
+- Ailicec
+- Biomira T
+- Dortim
+- Dorzox T
+- Eliptic Ofteno  Pf
+- Eliptic Ofteno
+- Glaucotensil T
+- Glaucotensil-T
+- Glausolets Advanced
+- Glausolets Plus
+- Tiof Plus
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Dorzolamida
+- Timolol
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-2-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 2 % + 0,5 %
+  registrosIsp:
+  - F-26840/22
+  - F-28487/24
+  - F-28464/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26840/22 DORZOLAMIDA/TIMOLOL 2%/0,5% SOLUCIÓN OFTÁLMICA; F-28487/24 DORZOLAMIDA/TIMOLOL 2/0,5 SOLUCIÓN OFTÁLMICA;
+      F-28464/24 DORZOLAMIDA/TIMOLOL 2/0,5 SOLUCIÓN OFTÁLMICA
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-26522/21
+  - F-26134/26
+  - F-20789/24
+  - F-27653/23
+  - F-24559/24
+  - F-24561/24
+  - F-22044/25
+  - F-28211/24
+  - F-11829/22
+  - F-26526/21
+  - F-14275/24
+  - F-29819/26
+  - F-5304/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-26522/21 AILICEC SOLUCIÓN OFTÁLMICA; F-26134/26 BIOMIRA T SOLUCIÓN OFTÁLMICA; F-20789/24 DORTIM SOLUCIÓN OFTÁLMICA;
+      F-27653/23 DORZOLAMIDA/TIMOLOL SOLUCIÓN OFTÁLMICA; F-24559/24 DORZOX T SOLUCIÓN OFTÁLMICA; F-24561/24 ELIPTIC OFTENO  PF
+      SOLUCIÓN OFTÁLMICA; F-22044/25 ELIPTIC OFTENO SOLUCIÓN OFTÁLMICA; F-28211/24 GLAUCOTENSIL T SOLUCIÓN OFTÁLMICA; F-11829/22
+      GLAUCOTENSIL-T SOLUCIÓN OFTÁLMICA; F-26526/21 GLAUSOLETS ADVANCED SOLUCIÓN OFTÁLMICA; F-14275/24 GLAUSOLETS PLUS SOLUCIÓN
+      OFTÁLMICA; F-29819/26 TIOF PLUS SOLUCIÓN OFTÁLMICA; F-5304/25 TIOF PLUS SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-TIMOLOL-62535
+    detalle: '4.2.1: una gota de COSOPT dos veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Eficacia no establecida en niños; seguridad no establecida en menores de 2 años (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Usar dentro de 28 días tras abrir. Proteger de la luz.
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-TIMOLOL-62535
+    detalle: '6.3: una vez abierto, no superior a 28 días'
+administracion:
+  texto: Cerrar el ojo y oprimir el ángulo interno unos 2 minutos. Separar al menos 10 minutos de otros colirios.
+  fuente:
+    ref: CIMA-TOP-DORZOLAMIDA-TIMOLOL-62535
+    detalle: 4.2.1 Método de administración
+contraindicaciones:
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+- Insuficiencia renal grave (ClCr <30 ml/min) o acidosis hiperclorémica (CIMA).
+alertas:
+- 'Cosopt es 20 mg/ml + 5 mg/ml (2 % + 0,5 %); varios registros chilenos no indican concentración: verificar el envase.'
+discrepancias: []
+meta: {}

@@ -1,0 +1,92 @@
+id: ciclosporina
+nombre: Ciclosporina oftálmica
+comerciales:
+- Modusik - A Ofteno
+- Restasis
+grupo: inmunomodulador-ocular
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-1
+  forma: solucion
+  via: ojo
+  concentracion: 0,1 %
+  registrosIsp:
+  - F-13844/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-13844/24 MODUSIK - A OFTENO SOLUCIÓN OFTÁLMICA 0,1%
+- id: ojo-emulsion-0-05
+  forma: emulsion
+  via: ojo
+  concentracion: 0,05 %
+  registrosIsp:
+  - F-13719/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-13719/24 RESTASIS EMULSIÓN OFTÁLMICA 0,05% (CICLOSPORINA)
+dosis:
+- indicacion: Queratitis grave en ojo seco que no mejora con lágrimas artificiales
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 1 vez al día, al acostarse; reevaluar al menos cada 6 meses
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  condicion: La ficha es de una emulsión de 1 mg/ml (Ikervis); en Chile, 0,1 % es solución (Modusik-A)
+  presentaciones:
+  - ojo-solucion-0-1
+  fuente:
+    ref: CIMA-TOP-CICLOSPORINA-115990001
+    detalle: '4.2: una gota una vez al día en el (los) ojo(s) afectados a la hora de acostarse'
+- indicacion: Ojo seco (queratoconjuntivitis seca)
+  poblacion: pediatrico
+  texto: 1 gota en cada ojo cada 12 horas
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: off_label
+  condicion: Adolescentes mayores de 16 años
+  presentaciones:
+  - ojo-emulsion-0-05
+  fuente:
+    ref: PEDIAMECUM-TOP-CICLOSPORINA
+    detalle: 'Sequedad ocular en la queratoconjuntivitis seca en adolescentes >16 años: emulsión al 0,05%: 1 gota en cada
+      ojo/12 horas'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Ficha técnica (Ikervis): no apropiada en menores de 18 años. Pediamécum da pauta para mayores de 16 años con la
+    emulsión 0,05 %.'
+  edadMinima: 16 años (Pediamécum)
+conservacion:
+- texto: 'Unidosis (Ikervis): desechar inmediatamente después de usar; no congelar; bajo 25 °C.'
+  fuente:
+    ref: CIMA-TOP-CICLOSPORINA-115990001
+    detalle: 6.4 Precauciones especiales de conservación
+administracion:
+  texto: Lavarse las manos; agitar suavemente el unidosis. Ocluir y cerrar los párpados 2 minutos. Separar al menos 15 minutos
+    de otros colirios y aplicarla al final. Tratamiento iniciado por oftalmólogo.
+  fuente:
+    ref: CIMA-TOP-CICLOSPORINA-115990001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Neoplasias oculares o perioculares, o afecciones preneoplásicas (CIMA).
+- Infección ocular o periocular activa o sospechada (CIMA).
+alertas: []
+discrepancias:
+- campo: Presentación y concentración
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: solución 0,1 % (Modusik-A) y emulsión 0,05 % (Restasis)'
+  - fuente: CIMA-TOP-CICLOSPORINA-115990001
+    valor: 'CIMA: emulsión 1 mg/ml (0,1 %), 1 vez al día'
+  - fuente: PEDIAMECUM-TOP-CICLOSPORINA
+    valor: 'Pediamécum: emulsión 0,05 %, 1 gota c/12 h en >16 años'
+  mostrado: Cada pauta solo con su concentración
+  motivo: Regla de concentración. La solución 0,1 % chilena y la emulsión 0,1 % de CIMA tienen distinto vehículo.
+meta: {}

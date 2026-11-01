@@ -1,0 +1,92 @@
+id: pilocarpina
+nombre: Pilocarpina oftálmica
+comerciales: []
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-2
+  forma: solucion
+  via: ojo
+  concentracion: 2 %
+  registrosIsp:
+  - F-1167/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1167/23 PILOCARPINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 2%
+- id: ojo-solucion-4
+  forma: solucion
+  via: ojo
+  concentracion: 4 %
+  registrosIsp:
+  - F-1168/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1168/23 PILOCARPINA CLORHIDRATO SOLUCIÓN OFTÁLMICA 4%
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota hasta 4 veces al día según la presión y la respuesta
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-2
+  fuente:
+    ref: CIMA-TOP-PILOCARPINA-10955
+    detalle: '4.2: 1 gota hasta 4 veces al día'
+- indicacion: Glaucoma agudo de ángulo cerrado
+  poblacion: adulto
+  texto: 1 gota hasta 3 veces en 30 minutos (junto con otras medidas hipotensoras)
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-2
+  fuente:
+    ref: CIMA-TOP-PILOCARPINA-10955
+    detalle: '4.2: dosis inicial de 1 gota hasta tres veces en un período de 30 minutos'
+- indicacion: Miosis / profilaxis de PIO en cirugía láser
+  poblacion: adulto
+  texto: 1 o 2 gotas espaciadas 5 minutos (en láser, 15–60 min antes)
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-2
+  fuente:
+    ref: CIMA-TOP-PILOCARPINA-10955
+    detalle: '4.2: inducción de miosis; profilaxis de presión intraocular elevada en cirugía de láser'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas en niños (CIMA).
+conservacion:
+- presentaciones:
+  - ojo-solucion-2
+  validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. Bajo 25 °C.
+  fuente:
+    ref: CIMA-TOP-PILOCARPINA-10955
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir la absorción sistémica.
+    Ocluir o cerrar 2 minutos. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la
+    punta del frasco.
+  fuente:
+    ref: CIMA-TOP-PILOCARPINA-10955
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Iritis aguda o uveítis anterior (cuando la miosis no es deseable) (CIMA).
+- Glaucoma por bloqueo pupilar (CIMA).
+alertas: []
+discrepancias:
+- campo: Concentración 4 %
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: 2 % y 4 %'
+  - fuente: CIMA-TOP-PILOCARPINA-10955
+    valor: 'CIMA: Colircusí pilocarpina 20 mg/ml (2 %)'
+  mostrado: Pauta solo para 2 %
+  motivo: Regla de concentración.
+meta: {}

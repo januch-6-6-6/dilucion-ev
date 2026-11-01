@@ -1,0 +1,72 @@
+id: ciprofloxacino-hidrocortisona
+nombre: Ciprofloxacino + hidrocortisona ótico
+comerciales:
+- Otex Hc
+grupo: antibiotico-corticoide
+vias:
+- oido
+componentes:
+- Ciprofloxacino
+- Hidrocortisona
+altoRiesgo: false
+presentaciones:
+- id: oido-suspension-sc
+  forma: suspension
+  via: oido
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-12589/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-12589/22 OTEX HC SUSPENSIÓN ÓTICA
+dosis:
+- indicacion: Otitis externa
+  poblacion: adulto
+  texto: 3 gotas en el oído afectado 2 veces al día durante 7 días
+  cantidad: 3
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  duracion: 7 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-HIDROCORTISONA-63285
+    detalle: '4.2.1: en adultos y en niños a partir de dos años, instilar 3 gotas dos veces al día; 7 días'
+- indicacion: Otitis externa
+  poblacion: pediatrico
+  texto: 3 gotas en el oído afectado 2 veces al día durante 7 días
+  cantidad: 3
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  estatus: autorizada
+  condicion: Desde los 2 años
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-HIDROCORTISONA-63285
+    detalle: '4.2.1: niños a partir de dos años; menores de 2 años, datos limitados'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 2 años; datos limitados en menores (CIMA).
+  edadMinima: 2 años
+conservacion:
+- validezAbiertoDias: 14
+  texto: 'Tras abrir e insertar el cuentagotas: 14 días. Bajo 25 °C, sin refrigerar, protegido de la luz; desechar lo sobrante
+    al terminar.'
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-HIDROCORTISONA-63285
+    detalle: '6.3: tras apertura e inserción del cuentagotas: 14 días'
+administracion:
+  texto: Solo vía ótica. Agitar bien, entibiar en la mano, cabeza de lado y mantener 5 minutos.
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-HIDROCORTISONA-63285
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Perforación de tímpano posible o conocida (CIMA).
+- Otitis media aguda o crónica (CIMA).
+- Infecciones víricas o fúngicas del conducto auditivo (CIMA).
+- Hipersensibilidad a quinolonas (CIMA).
+alertas:
+- Ciproxina es 2 mg/ml + 10 mg/ml; el registro chileno (Otex HC) no indica concentración en el nombre.
+discrepancias: []
+meta: {}

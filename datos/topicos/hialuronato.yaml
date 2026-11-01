@@ -1,0 +1,46 @@
+id: hialuronato
+nombre: Hialuronato de sodio oftálmico 0,4 % (lágrima artificial)
+comerciales:
+- Oftafilm Sp
+grupo: lubricante-ocular
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-4
+  forma: solucion
+  via: ojo
+  concentracion: 0,4 %
+  registrosIsp:
+  - FX-374/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: FX-374/26 OFTAFILM SP SOLUCIÓN OFTÁLMICA 0,4%
+dosis:
+- indicacion: Sequedad ocular
+  poblacion: adulto
+  texto: 1 o 2 gotas según necesidad
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-TOP-HIALURONATO
+    detalle: 'Directions: instill 1 or 2 drops as needed'
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: La etiqueta no trae indicaciones por edad.
+conservacion:
+- validezAbiertoDias: 30
+  texto: Usar dentro de 30 días después de abrir. Conservar a 15–30 °C, protegido del sol.
+  fuente:
+    ref: DAILYMED-TOP-HIALURONATO
+    detalle: 'Warnings: use within 30 days after opening'
+administracion: null
+contraindicaciones: []
+alertas:
+- 'Fuente débil: etiqueta FDA de un distribuidor de venta libre que no indica la concentración. Tómalo como orientación.'
+discrepancias: []
+meta: {}

@@ -21,3 +21,10 @@ Quedan fuera:
 | Otoseptil (B-779/25) | el ISP no declara su principio activo |
 
 Se aplican en `armar_lista.py` (`EXCLUIR`). Otoseptil nunca estuvo entre las 84 (sin principio activo, `armar_lista.py` ya lo dejaba fuera), por eso el total es 80.
+
+## 31-oct-2026 — reglas de datos (antes del informe final)
+
+1. **Fuente única:** se publica con aviso visible («se apoya en una sola fuente»), igual que en orales.
+2. **Concentración:** la ficha se ata a la concentración registrada en el ISP. Una pauta de otra concentración (fenilefrina 10 %, betaxolol 0,25 %, ketorolaco 0,5 %, levofloxacino 1,5 %) no se muestra como pauta; queda como nota de discrepancia.
+3. **Combinaciones solo chilenas sin fuente de la combinación:** ficha informativa sin pauta, con presentación, componentes, alertas por componente y aviso «sin fuente de posología para la combinación».
+4. **Pediatría no autorizada en la ficha técnica pero con pauta en Pediamécum:** se muestran ambas; el límite de la ficha como autorizado y la pauta de Pediamécum como «off-label» con alerta (ej. atropina 1 %: CIMA ≥3 años, Pediamécum ≥1 año).

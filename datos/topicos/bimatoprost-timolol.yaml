@@ -1,0 +1,63 @@
+id: bimatoprost-timolol
+nombre: Bimatoprost + timolol oftálmico
+comerciales:
+- Ganfort
+- Klare T
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Bimatoprost
+- Timolol
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-29877/26
+  - F-27712/23
+  - F-16196/22
+  - F-28122/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-29877/26 BIMATOPROST/TIMOLOL SOLUCIÓN OFTÁLMICA; F-27712/23 BIMATOPROST/TIMOLOL SOLUCIÓN OFTÁLMICA; F-16196/22
+      GANFORT SOLUCIÓN OFTÁLMICA; F-28122/24 KLARE T SOLUCIÓN OFTÁLMICA (BIMATROPRIOST / TIMOLOL MALEATO)
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 1 vez al día, siempre a la misma hora (mañana o noche)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-TIMOLOL-06340001
+    detalle: '4.2: una gota una vez al día bien por la mañana o bien por la noche; no exceder de una gota una vez al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas de 0 a 18 años; sin datos (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: Usar dentro de 28 días tras abrir (a 25 °C).
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-TIMOLOL-06340001
+    detalle: '6.3: estabilidad en uso hasta 28 días a 25 ºC'
+administracion:
+  texto: Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir la absorción sistémica.
+    Ocluir o cerrar los párpados 2 minutos. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar
+    el ojo con la punta del frasco.
+  fuente:
+    ref: CIMA-TOP-BIMATOPROST-TIMOLOL-06340001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+alertas:
+- 'Ganfort es 0,3 mg/ml + 5 mg/ml; los registros chilenos no indican concentración en el nombre: verificar el envase.'
+discrepancias: []
+meta: {}

@@ -1,0 +1,84 @@
+id: diclofenaco
+nombre: Diclofenaco oftálmico 0,1 %
+comerciales:
+- 3-A Ofteno
+- Oftic
+grupo: aine
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-1
+  forma: solucion
+  via: ojo
+  concentracion: 0,1 %
+  registrosIsp:
+  - F-1877/24
+  - F-9586/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-1877/24 3-A OFTENO SOLUCIÓN OFTÁLMICA 0,1%; F-9586/26 OFTIC SOLUCIÓN OFTÁLMICA 1 mg/mL
+dosis:
+- indicacion: Inflamación ocular
+  poblacion: adulto
+  texto: 1 gota 4 a 5 veces al día en el saco conjuntival
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 5
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DICLOFENACO-58308
+    detalle: '4.2.1 Adultos: 1 gota de 4 a 5 veces al día'
+- indicacion: Dolor y fotofobia en cirugía
+  poblacion: adulto
+  texto: 1 gota 30–60 min antes; después, 1 gota 1 o 2 veces en los 10 min siguientes y luego 1 gota 4 veces al día por 2
+    días
+  duracion: 2 días
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-DICLOFENACO-58308
+    detalle: '4.2.1: tratamiento del dolor y de la fotofobia'
+- indicacion: Inflamación ocular
+  poblacion: pediatrico
+  texto: 1 gota cada 6 horas
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: off_label
+  condicion: La ficha técnica dice que no está indicado en niños
+  fuente:
+    ref: PEDIAMECUM-TOP-DICLOFENACO
+    detalle: 'Colirio: 1 gota cada 6 horas'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Ficha técnica: no indicado en niños (experiencia limitada a cirugía de estrabismo). Pediamécum da pauta, como off-label.'
+conservacion:
+- validezAbiertoDias: 28
+  texto: 'Una vez abierto: 28 días. Desechar al terminar el tratamiento aunque quede.'
+  fuente:
+    ref: CIMA-TOP-DICLOFENACO-58308
+    detalle: '6.3: una vez abierto el envase, 28 días'
+administracion:
+  texto: Manos recién lavadas; no tocar el ojo con el gotero. Ocluir o cerrar los ojos 5 minutos. Esperar 5 minutos antes
+    de otro colirio.
+  fuente:
+    ref: CIMA-TOP-DICLOFENACO-58308
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Asma, urticaria o rinitis aguda desencadenadas por ácido acetilsalicílico u otros AINE (CIMA).
+alertas:
+- Posible sensibilidad cruzada con ácido acetilsalicílico y otros AINE (CIMA).
+discrepancias:
+- campo: Uso pediátrico
+  valores:
+  - fuente: CIMA-TOP-DICLOFENACO-58308
+    valor: No indicado en niños
+  - fuente: PEDIAMECUM-TOP-DICLOFENACO
+    valor: 'Colirio: 1 gota cada 6 horas'
+  mostrado: 'Ambas: Pediamécum como off-label'
+  motivo: Decisión de Héctor (31-oct) para pediatría no autorizada en la ficha técnica.
+meta: {}

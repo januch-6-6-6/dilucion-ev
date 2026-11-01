@@ -1,0 +1,78 @@
+id: loteprednol
+nombre: Loteprednol oftálmico
+comerciales:
+- Disalot
+- Oftol Forte
+- Oftol
+- Talof
+grupo: corticoide
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-0-2
+  forma: suspension
+  via: ojo
+  concentracion: 0,2 %
+  registrosIsp:
+  - F-15929/22
+  - F-17918/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-15929/22 OFTOL SUSPENSIÓN OFTÁLMICA 0,2%.; F-17918/25 TALOF SUSPENSIÓN OFTÁLMICA 0,2%
+- id: ojo-suspension-0-5
+  forma: suspension
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-21664/25
+  - F-15780/21
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-21664/25 DISALOT SUSPENSIÓN OFTÁLMICA 0,5% (LOTEPREDNOL ETABONATO); F-15780/21 OFTOL FORTE SUSPENSIÓN OFTÁLMICA
+      0,5%
+dosis:
+- indicacion: Conjuntivitis alérgica estacional
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 4 veces al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-suspension-0-2
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL
+    detalle: 'DOSAGE: one drop instilled into the affected eye(s) four times daily'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas en niños (FDA).
+conservacion:
+- presentaciones:
+  - ojo-suspension-0-2
+  texto: Conservar vertical a 15–25 °C; no congelar. La etiqueta no fija validez tras abrir.
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL
+    detalle: 'Storage: store upright between 15°C to 25°C; do not freeze'
+administracion:
+  texto: Agitar enérgicamente antes de usar.
+  fuente:
+    ref: DAILYMED-TOP-LOTEPREDNOL
+    detalle: SHAKE VIGOROUSLY BEFORE USING
+contraindicaciones:
+- Queratitis por herpes simple epitelial, vaccinia, varicela y la mayoría de las virosis de córnea y conjuntiva (FDA).
+- Infección micobacteriana o fúngica del ojo (FDA).
+alertas: []
+discrepancias:
+- campo: Concentración 0,5 %
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: 0,2 % (Oftol, Talof) y 0,5 % (Oftol Forte, Disalot)'
+  - fuente: DAILYMED-TOP-LOTEPREDNOL
+    valor: 'FDA: suspensión 0,2 %'
+  mostrado: Pauta solo para 0,2 %
+  motivo: Regla de concentración.
+meta: {}

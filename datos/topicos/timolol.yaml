@@ -1,0 +1,86 @@
+id: timolol
+nombre: Timolol oftálmico 0,5 %
+comerciales:
+- Oculix
+- Tiof
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes: []
+altoRiesgo: true
+presentaciones:
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-9066/26
+  - F-29551/26
+  - F-22975/26
+  - F-22085/25
+  - F-27289/23
+  - F-20039/23
+  - F-5546/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-9066/26 OCULIX SOLUCIÓN OFTÁLMICA 0,5%; F-29551/26 Timolol  Solución oftálmica 0,5%; F-22975/26 TIMOLOL SOLUCIÓN
+      OFTÁLMICA 0,5 %; F-22085/25 TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%; F-27289/23 TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%; F-20039/23
+      TIMOLOL SOLUCIÓN OFTÁLMICA 0,5%; F-5546/25 TIOF SOLUCIÓN OFTÁLMICA AL 0,5%
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota de 0,5 % en el ojo afectado 2 veces al día; si la presión se controla, puede bastar 1 vez al día
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  condicion: La ficha inicia con 0,25 %, que no está registrado en Chile como monofármaco
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-55236
+    detalle: '4.2: si la respuesta no es suficiente, una gota de TIMOFTOL 5 mg/ml dos veces al día; luego puede pasarse a
+      una vez al día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-TIMOLOL
+    detalle: 1 gota al 0,25% cada 12 horas y, si no hay respuesta, 1 gota al 0,5% cada 12 horas
+- indicacion: Glaucoma congénito o juvenil, de forma transitoria
+  poblacion: pediatrico
+  texto: La concentración más baja disponible, 1 vez al día; si no controla, hasta 2 gotas al día por ojo (cada 12 h)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 1
+  porSitio: ojo
+  estatus: autorizada
+  condicion: En Chile solo hay 0,5 %; Pediamécum considera suficiente 0,1 % en niños
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-55236
+    detalle: '4.2 Población pediátrica: uso transitorio; menor concentración disponible, solamente una vez al día; máximo
+      dos gotas por día'
+  tambien:
+  - ref: PEDIAMECUM-TOP-TIMOLOL
+    detalle: Concentración más baja disponible, 1 vez al día; máximo de 2 gotas diarias; observar 1-2 h a neonatos
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Solo transitorio en glaucoma congénito o juvenil, con historia y examen previos; observar 1–2 h tras la primera
+    dosis, sobre todo a neonatos (CIMA, Pediamécum).
+conservacion:
+- validezAbiertoDias: 28
+  texto: 'Tras la primera apertura: un mes (la calculadora usa 28 días). Bajo 25 °C, protegido de la luz.'
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-55236
+    detalle: '6.3: tras la primera apertura, un mes'
+administracion:
+  texto: Separar al menos 10 minutos de otros colirios. No usar dos betabloqueantes tópicos a la vez.
+  fuente:
+    ref: CIMA-TOP-TIMOLOL-55236
+    detalle: 4.2 Posología
+contraindicaciones:
+- Hipersensibilidad a otros betabloqueantes (CIMA).
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+- Distrofia corneal; rinitis alérgica grave e hiperreactividad bronquial (CIMA).
+alertas: []
+discrepancias: []
+meta: {}

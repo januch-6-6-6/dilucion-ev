@@ -1,0 +1,65 @@
+id: antazolina-nafazolina
+nombre: Antazolina + nafazolina oftálmica
+comerciales:
+- Oftalirio
+grupo: descongestionante
+vias:
+- ojo
+componentes:
+- Antazolina
+- Nafazolina
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-5540/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-5540/25 OFTALIRIO SOLUCIÓN OFTÁLMICA
+dosis:
+- indicacion: Conjuntivitis alérgica / irritación ocular
+  poblacion: adulto
+  texto: 1 o 2 gotas en cada ojo afectado 3 o 4 veces al día (o cada 3–4 h según síntomas); no más de 3–5 días
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Máximo 3–5 días (congestión de rebote)
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-ANTAZOLINA-NAFAZOLINA-19763
+    detalle: '4.2.1 Adultos: 1 ó 2 gotas en cada ojo afectado 3 ó 4 veces al día; duración no superior a 3-5 días'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La ficha técnica no establece seguridad ni eficacia en niños.
+conservacion:
+- validezAbiertoDias: 28
+  texto: Desechar al mes de abierto (la calculadora usa 28 días). No conservar sobre 30 °C.
+  fuente:
+    ref: CIMA-TOP-ANTAZOLINA-NAFAZOLINA-19763
+    detalle: '6.3: desechar el envase al mes de abierto; 6.4 no conservar a temperatura superior a 30º'
+administracion:
+  texto: Cabeza hacia atrás, bajar el párpado inferior y dejar caer las gotas en el saco conjuntival; cerrar los ojos unos
+    segundos. Esperar al menos 5 minutos antes de otro colirio.
+  fuente:
+    ref: CIMA-TOP-ANTAZOLINA-NAFAZOLINA-19763
+    detalle: 4.2.2 Forma de administración
+contraindicaciones:
+- Glaucoma de ángulo estrecho (CIMA).
+- Hipersensibilidad a los principios activos o a agentes adrenérgicos (CIMA).
+alertas:
+- 'Uso prolongado: congestión de rebote; si no mejora en 3–5 días, reevaluar (CIMA).'
+discrepancias:
+- campo: Pauta pediátrica
+  valores:
+  - fuente: CIMA-TOP-ANTAZOLINA-NAFAZOLINA-19763
+    valor: No establecida en niños
+  - fuente: PEDIAMECUM-TOP-NAFAZOLINA
+    valor: 'Nafazolina sola: 1–2 gotas hasta 4 veces al día'
+  mostrado: Sin pauta pediátrica
+  motivo: Pediamécum describe solo la nafazolina; la ficha de un componente no vale para la combinación.
+meta: {}

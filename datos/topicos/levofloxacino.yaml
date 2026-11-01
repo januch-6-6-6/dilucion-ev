@@ -1,0 +1,41 @@
+id: levofloxacino
+nombre: Levofloxacino oftálmico 0,5 %
+comerciales:
+- Landax
+grupo: antibiotico
+vias:
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-5
+  forma: solucion
+  via: ojo
+  concentracion: 0,5 %
+  registrosIsp:
+  - F-28814/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-28814/25 LANDAX SOLUCIÓN OFTÁLMICA 0,5% (LEVOFLOXACINO)
+dosis: []
+sinPauta:
+  motivo: En Chile está registrado al 0,5 % (Landax); la única fuente es la etiqueta FDA del 1,5 % para úlcera corneal, con
+    un régimen intensivo que no aplica al colirio de 0,5 %. Por la regla de concentración no se muestra.
+pediatria:
+  estado: no_establecida
+  motivo: Sin fuente para 0,5 %; la etiqueta de 1,5 % no lo establece en menores de 6 años.
+conservacion: []
+administracion: null
+contraindicaciones:
+- Hipersensibilidad a levofloxacino u otras quinolonas (FDA).
+alertas: []
+discrepancias:
+- campo: Concentración
+  valores:
+  - fuente: ISP-REGISTRO-TOPICOS
+    valor: 'Chile: 0,5 %'
+  - fuente: DAILYMED-TOP-LEVOFLOXACINO
+    valor: 'FDA: 1,5 %, días 1-3 cada 30 min a 2 h despierto y de noche; luego cada 1-4 h'
+  mostrado: Sin pauta
+  motivo: Decisión de Héctor (31-oct).
+meta: {}

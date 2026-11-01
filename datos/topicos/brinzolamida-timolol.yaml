@@ -1,0 +1,65 @@
+id: brinzolamida-timolol
+nombre: Brinzolamida + timolol oftálmico
+comerciales:
+- Azarga
+- Brinzof-T
+grupo: antiglaucomatoso
+vias:
+- ojo
+componentes:
+- Brinzolamida
+- Timolol
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-sc
+  forma: suspension
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-17777/24
+  - F-24628/24
+  - F-27001/22
+  - F-28625/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-17777/24 AZARGA SUSPENSIÓN OFTÁLMICA; F-24628/24 BRINZOF-T SUSPENSIÓN OFTÁLMICA; F-27001/22 BRINZOLAMIDA/TIMOLOL
+      SUSPENSIÓN OFTÁLMICA; F-28625/24 BRINZOLAMIDA/TIMOLOL SUSPENSIÓN OFTÁLMICA
+dosis:
+- indicacion: Glaucoma de ángulo abierto / hipertensión ocular
+  poblacion: adulto
+  texto: 1 gota en el ojo afectado 2 veces al día (no sobrepasar)
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: ojo
+  estatus: autorizada
+  fuente:
+    ref: CIMA-TOP-BRINZOLAMIDA-TIMOLOL-08482001
+    detalle: '4.2: una gota dos veces al día; la dosis no debe sobrepasar de una gota dos veces al día'
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: Seguridad y eficacia no establecidas de 0 a 18 años; sin datos (CIMA).
+conservacion:
+- validezAbiertoDias: 28
+  texto: 4 semanas después de la primera apertura.
+  fuente:
+    ref: CIMA-TOP-BRINZOLAMIDA-TIMOLOL-08482001
+    detalle: '6.3: 4 semanas después de la primera apertura'
+administracion:
+  texto: Agitar bien antes de usar. Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir
+    la absorción sistémica. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta
+    del frasco.
+  fuente:
+    ref: CIMA-TOP-BRINZOLAMIDA-TIMOLOL-08482001
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Hipersensibilidad a otros betabloqueantes o a sulfonamidas (CIMA).
+- Asma bronquial o antecedente de asma, EPOC grave (CIMA).
+- Bradicardia sinusal, síndrome del seno enfermo, bloqueo sinoauricular o AV de 2.º–3.er grado sin marcapasos (CIMA).
+- Insuficiencia cardiaca manifiesta o shock cardiogénico (CIMA).
+- Rinitis alérgica grave, acidosis hiperclorémica, insuficiencia renal grave (CIMA).
+alertas:
+- Azarga es 10 mg/ml + 5 mg/ml; los registros chilenos no indican concentración en el nombre.
+discrepancias: []
+meta: {}

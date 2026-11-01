@@ -1,0 +1,122 @@
+id: dexametasona-tobramicina
+nombre: Tobramicina + dexametasona oftálmica
+comerciales:
+- Tobradex
+- Trazidex
+- Xolof-D
+- Flures-D
+- Poentobral Plus
+- Tobral-D
+- Todexona
+- Trazidex Ofteno
+grupo: antibiotico-corticoide
+vias:
+- ojo
+componentes:
+- Tobramicina
+- Dexametasona
+altoRiesgo: false
+presentaciones:
+- id: ojo-suspension-0-3-0-1
+  forma: suspension
+  via: ojo
+  concentracion: 0,3 % + 0,1 %
+  registrosIsp:
+  - B-2727/23
+  - B-2801/22
+  - B-2798/26
+  - B-2371/23
+  - B-2813/22
+  - B-2816/21
+  - B-2811/21
+  - B-2805/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2727/23 FLURES-D SUSPENSIÓN OFTÁLMICA; B-2801/22 POENTOBRAL PLUS SUSPENSIÓN OFTÁLMICA (DEXAMETASONA/TOBRAMICINA);
+      B-2798/26 TOBRADEX SUSPENSIÓN OFTÁLMICA (TOBRAMICINA/DEXAMETASONA); B-2371/23 TOBRAL-D SUSPENSIÓN OFTÁLMICA; B-2813/22
+      TOBRAMICINA SULFATO / DEXAMETASONA 0,3 / 0,1 SUSPENSIÓN OFTÁLMICA; B-2816/21 TODEXONA SUSPENSIÓN OFTÁLMICA; B-2811/21
+      TRAZIDEX OFTENO SUSPENSIÓN OFTÁLMICA; B-2805/22 XOLOF-D SUSPENSIÓN OFTÁLMICA
+- id: ojo-unguento-sc
+  forma: unguento
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - B-2797/26
+  - B-2815/26
+  - B-2804/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: B-2797/26 TOBRADEX UNGÜENTO OFTÁLMICO; B-2815/26 TRAZIDEX UNGENA UNGÜENTO OFTÁLMICO; B-2804/22 XOLOF-D UNGÜENTO
+      OFTÁLMICO
+dosis:
+- indicacion: Inflamación ocular con infección bacteriana o riesgo de ella
+  poblacion: adulto
+  texto: 1 o 2 gotas cada 4–6 h; las primeras 24–48 h, hasta cada 2 h. Bajar la frecuencia al mejorar
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 6
+  porSitio: ojo
+  duracion: No más de 14 días
+  estatus: autorizada
+  presentaciones:
+  - ojo-suspension-0-3-0-1
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-TOBRAMICINA-61575
+    detalle: '4.2: 1 o 2 gotas cada 4-6 horas; primeras 24-48 horas, 1-2 gotas cada dos horas; no más de 14 días'
+- indicacion: Después de cirugía de catarata
+  poblacion: adulto
+  texto: 1 gota 4 veces al día desde el día siguiente a la cirugía, hasta 24 días
+  cantidad: 1
+  unidad: gota
+  vecesAlDia: 4
+  porSitio: ojo
+  duracion: Hasta 24 días
+  estatus: autorizada
+  presentaciones:
+  - ojo-suspension-0-3-0-1
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-TOBRAMICINA-61575
+    detalle: '4.2: después de la cirugía de cataratas, 1 gota cuatro veces al día hasta 24 días'
+- indicacion: Inflamación ocular con infección bacteriana o riesgo de ella
+  poblacion: pediatrico
+  texto: 'Igual que en adultos: 1 o 2 gotas cada 4–6 h'
+  cantidad: 2
+  unidad: gota
+  vecesAlDia: 6
+  porSitio: ojo
+  estatus: autorizada
+  condicion: Desde los 2 años
+  presentaciones:
+  - ojo-suspension-0-3-0-1
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-TOBRAMICINA-61575
+    detalle: '4.2 Población pediátrica: niños de 2 años y mayores, a la misma dosis que en adultos'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: Desde los 2 años, igual que en adultos; no establecida en menores de 2 (CIMA).
+  edadMinima: 2 años
+conservacion:
+- presentaciones:
+  - ojo-suspension-0-3-0-1
+  validezAbiertoDias: 28
+  texto: Desechar 4 semanas después de abrir. No conservar sobre 25 °C; no congelar.
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-TOBRAMICINA-61575
+    detalle: '6.3: desechar 4 semanas después de la primera apertura'
+administracion:
+  texto: Agitar bien antes de usar. Tras instilar, cerrar suavemente los ojos u ocluir el conducto nasolagrimal para reducir
+    la absorción sistémica. Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta
+    del frasco.
+  fuente:
+    ref: CIMA-TOP-DEXAMETASONA-TOBRAMICINA-61575
+    detalle: 4.2 Forma de administración
+contraindicaciones:
+- Queratitis por herpes simple; vaccinia, varicela y otras infecciones víricas de córnea o conjuntiva.
+- Infecciones fúngicas o micobacterianas del ojo; infecciones agudas no tratadas.
+- Extracción simple de un cuerpo extraño de la córnea (CIMA).
+alertas:
+- 'El ungüento no tiene ficha en las fuentes consultadas: sin pauta.'
+- Para calcular se usa la frecuencia de cada 4 h (6 veces al día).
+discrepancias: []
+meta: {}

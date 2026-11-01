@@ -1,3 +1,17 @@
+# Tópicos ojo/oído/nariz — estado
+
+## 31-oct-2026: TERMINADO Y PUBLICADO (v1)
+
+- Claude revisó las 80 moléculas y escribió `scripts/topicos/lote1..4.py`. `python3 scripts/generar-topicos.py` genera `datos/topicos/*.yaml` (80) y `datos/fuentes-topicos.yaml` (99).
+- Informe final: `informes/topicos-discrepancias.md`. El borrador de Antigravity queda superado.
+- Spec: `docs/superpowers/specs/2026-10-31-topicos-design.md`. Plan: `docs/superpowers/plans/2026-10-31-topicos-v1.md`.
+- App: rutas `/topicos`, la ficha y la calculadora «¿Cuánto dura el frasco?». Resultado: 13 fichas contrastadas, 51 de una sola fuente y 16 sin pauta.
+- Pendiente: revisión clínica de un profesional (`meta.revisadoPor`) y buscar fuentes para las 16 sin pauta.
+
+---
+
+(Lo que sigue es el cierre de la Fase 0, del 30-oct, y se conserva como historia.)
+
 # Tópicos ojo/oído/nariz — estado de la Fase 0 (cierre del 30-oct-2026)
 
 Ampliación de Dilución EV con medicamentos tópicos de ojo, oído y nariz. Las decisiones de alcance están en [`DECISIONES.md`](DECISIONES.md). **Material de formación, no de prescripción.**

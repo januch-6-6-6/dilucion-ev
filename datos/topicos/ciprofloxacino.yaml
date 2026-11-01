@@ -1,0 +1,129 @@
+id: ciprofloxacino
+nombre: Ciprofloxacino oftálmico y ótico 0,3 %
+comerciales:
+- Ciproval
+- Cetraxal
+- Ciproscend
+- Flobact
+- Sophixin Ofteno
+grupo: antibiotico
+vias:
+- oido
+- ojo
+componentes: []
+altoRiesgo: false
+presentaciones:
+- id: ojo-solucion-0-3
+  forma: solucion
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - F-27267/23
+  - F-9567/21
+  - F-21517/24
+  - F-16044/22
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-27267/23 CIPROSCEND SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO); F-9567/21 CIPROVAL SOLUCIÓN OFTÁLMICA 0,3%; F-21517/24
+      FLOBACT SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO); F-16044/22 SOPHIXIN OFTENO SOLUCIÓN OFTÁLMICA 0,3% (CIPROFLOXACINO)
+- id: ojo-unguento-0-3
+  forma: unguento
+  via: ojo
+  concentracion: 0,3 %
+  registrosIsp:
+  - F-9569/26
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-9569/26 CIPROVAL UNGÜENTO OFTÁLMICO 0,3% (CIPROFLOXACINO)
+- id: oido-solucion-0-3
+  forma: solucion
+  via: oido
+  concentracion: 0,3 %
+  registrosIsp:
+  - F-20503/23
+  - F-514/23
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-20503/23 CETRAXAL SOLUCIÓN PARA GOTAS ÓTICAS 0,3%; F-514/23 CIPROVAL SOLUCIÓN ÓTICA PARA GOTAS AL 0,3%
+dosis:
+- indicacion: Conjuntivitis bacteriana, úlcera corneal, queratitis
+  poblacion: adulto
+  texto: 1 o 2 gotas cada 2 h durante el día los 2 primeros días; desde el 3.er día, 1 o 2 gotas cada 4 h durante el día
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-3
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60608
+    detalle: '4.2.1: conjuntivitis, úlceras corneales y queratitis: 1-2 gotas c/2 h los dos primeros días; desde el tercer
+      día c/4 h'
+- indicacion: Absceso corneal
+  poblacion: adulto
+  texto: 'Día 1: 2 gotas cada 15 min las primeras 6 h y luego cada 30 min; día 2: 2 gotas cada hora; días 3 a 14: 2 gotas
+    cada 4 h (también de noche)'
+  duracion: 14 días o más
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-3
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60608
+    detalle: 4.2.1 Abscesos corneales
+- indicacion: Conjuntivitis bacteriana, úlcera corneal, queratitis
+  poblacion: pediatrico
+  texto: Igual que en adultos (incluye neonatos)
+  cantidad: 2
+  unidad: gota
+  porSitio: ojo
+  estatus: autorizada
+  presentaciones:
+  - ojo-solucion-0-3
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60608
+    detalle: '4.2.1: adultos, neonatos (0-27 días), lactantes, niños y adolescentes'
+- indicacion: Otitis externa
+  poblacion: adulto
+  texto: 4 a 6 gotas en el conducto auditivo cada 8 h durante 7–8 días
+  cantidad: 6
+  unidad: gota
+  vecesAlDia: 3
+  porSitio: oido
+  duracion: 7 a 8 días
+  estatus: autorizada
+  presentaciones:
+  - oido-solucion-0-3
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60883
+    detalle: '4.2: instilar 4-6 gotas en el conducto auditivo externo, cada 8 horas; 7 a 8 días'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Colirio: misma pauta desde neonatos (CIMA). Gotas óticas: la ficha no trae pauta pediátrica.'
+conservacion:
+- presentaciones:
+  - ojo-solucion-0-3
+  validezAbiertoDias: 28
+  texto: 'Colirio: desechar 4 semanas después de abrir; no refrigerar ni congelar.'
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60608
+    detalle: 6.3/6.4
+- presentaciones:
+  - oido-solucion-0-3
+  texto: 'Gotas óticas: conservar el frasco hasta terminar el tratamiento.'
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60883
+    detalle: '4.2: conserve el frasco hasta la finalización del tratamiento'
+administracion:
+  texto: 'Oído: entibiar el frasco en la mano, cabeza de lado con el oído hacia arriba, instilar, tirar del lóbulo y mantener
+    5 minutos. Ojo: Espaciar al menos 5 minutos de otros colirios; las pomadas al final. No tocar el ojo con la punta del
+    frasco.'
+  fuente:
+    ref: CIMA-TOP-CIPROFLOXACINO-60883
+    detalle: 4.2 Forma de administración (ótico); Oftacilox 4.2.2 (oftálmico)
+contraindicaciones:
+- Hipersensibilidad a ciprofloxacino u otras quinolonas (CIMA).
+alertas:
+- 'El ungüento oftálmico 0,3 % (Ciproval) no tiene ficha en las fuentes consultadas: sin pauta.'
+discrepancias: []
+meta: {}

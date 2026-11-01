@@ -1,0 +1,108 @@
+id: ciprofloxacino-dexametasona
+nombre: Ciprofloxacino + dexametasona ótico y oftálmico
+comerciales:
+- Ciprodex
+- Sophixin Dx
+- Dexacort-C
+- Sophixin Dx Ofteno
+grupo: antibiotico-corticoide
+vias:
+- oido
+- ojo
+componentes:
+- Ciprofloxacino
+- Dexametasona
+altoRiesgo: false
+presentaciones:
+- id: oido-suspension-sc
+  forma: suspension
+  via: oido
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-14179/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-14179/24 CIPRODEX SUSPENSIÓN ÓTICA
+- id: ojo-suspension-sc
+  forma: suspension
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-9566/21
+  - F-22209/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-9566/21 CIPRODEX SUSPENSIÓN OFTÁLMICA; F-22209/25 DEXACORT-C SUSPENSIÓN OFTÁLMICA
+- id: ojo-solucion-sc
+  forma: solucion
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-17893/24
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-17893/24 SOPHIXIN DX OFTENO SOLUCIÓN OFTÁLMICA
+- id: ojo-unguento-sc
+  forma: unguento
+  via: ojo
+  concentracion: concentración no indicada en el registro
+  registrosIsp:
+  - F-15861/21
+  - F-22098/25
+  fuente:
+    ref: ISP-REGISTRO-TOPICOS
+    detalle: F-15861/21 CIPRODEX UNGÜENTO OFTÁLMICO; F-22098/25 SOPHIXIN DX UNGENA UNGÜENTO OFTÁLMICO
+dosis:
+- indicacion: Otitis externa aguda u otitis media aguda con tubos de timpanostomía
+  poblacion: adulto
+  texto: 4 gotas en el oído afectado 2 veces al día durante 7 días
+  cantidad: 4
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  duracion: 7 días
+  estatus: autorizada
+  presentaciones:
+  - oido-suspension-sc
+  fuente:
+    ref: DAILYMED-TOP-CIPROFLOXACINO-DEXAMETASONA
+    detalle: '2: instill four drops into the affected ear twice daily, for seven days'
+- indicacion: Otitis externa aguda u otitis media aguda con tubos de timpanostomía
+  poblacion: pediatrico
+  texto: 4 gotas en el oído afectado 2 veces al día durante 7 días
+  cantidad: 4
+  unidad: gota
+  vecesAlDia: 2
+  porSitio: oido
+  estatus: autorizada
+  condicion: Desde los 6 meses
+  presentaciones:
+  - oido-suspension-sc
+  fuente:
+    ref: DAILYMED-TOP-CIPROFLOXACINO-DEXAMETASONA
+    detalle: '2.2: pediatric patients age 6 months and older; 8.4 safety and efficacy established ≥6 months'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: 'Suspensión ótica: establecida desde los 6 meses (FDA). Presentaciones oftálmicas: sin fuente.'
+  edadMinima: 6 meses
+conservacion:
+- presentaciones:
+  - oido-suspension-sc
+  texto: 'Suspensión ótica: desechar lo que sobre al terminar el tratamiento. Conservar a 20–25 °C.'
+  fuente:
+    ref: DAILYMED-TOP-CIPROFLOXACINO-DEXAMETASONA
+    detalle: '2.2: discard unused portion after therapy is completed; storage 20°C to 25°C'
+administracion:
+  texto: 'Solo para el oído (no oftálmico ni inyectable). Agitar bien, entibiar 1–2 minutos en la mano, acostarse con el oído
+    hacia arriba, instilar y mantener 60 segundos. Con tubos: presionar el trago 5 veces.'
+  fuente:
+    ref: DAILYMED-TOP-CIPROFLOXACINO-DEXAMETASONA
+    detalle: 2.1 y 2.2 Administración
+contraindicaciones:
+- Hipersensibilidad a ciprofloxacino u otras quinolonas (FDA).
+- Infecciones virales (incluido herpes) o fúngicas del conducto auditivo (FDA).
+alertas:
+- 'Las presentaciones oftálmicas (suspensión, solución y ungüento) no tienen ficha en las fuentes consultadas: sin pauta.'
+discrepancias: []
+meta: {}
