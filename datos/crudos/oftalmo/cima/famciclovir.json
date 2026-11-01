@@ -1,0 +1,15 @@
+{
+ "id": "famciclovir",
+ "familia": "oral",
+ "resultados": 13,
+ "tipo": "oral",
+ "sel": [
+  {
+   "nregistro": "60609",
+   "nombre": "FAMVIR 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA",
+   "vias": "VIA ORAL COMPRIMIDO RECUBIERTO CON PELICULA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/60609/FT_60609.html",
+   "tipo": "oral"
+  }
+ ]
+}

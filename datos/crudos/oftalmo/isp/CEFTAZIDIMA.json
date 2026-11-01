@@ -1,0 +1,44 @@
+[
+ {
+  "Producto": "F-11944/22",
+  "Nombre": "CEFTAZIDIMA POLVO PARA SOLUCIÓN INYECTABLE 1 g",
+  "FechaRegistro": "2002-02-15",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "CEFTAZIDIMA"
+ },
+ {
+  "Producto": "F-8085/26",
+  "Nombre": "CEFTAZIDIMA POLVO PARA SOLUCIÓN INYECTABLE 1 g",
+  "FechaRegistro": "1996-03-21",
+  "Titular": "BPH SpA",
+  "PA": "CEFTAZIDIMA"
+ },
+ {
+  "Producto": "F-24860/24",
+  "Nombre": "CEFTAZIDIMA POLVO PARA SOLUCIÓN INYECTABLE 1 g",
+  "FechaRegistro": "2019-05-31",
+  "Titular": "DIFEM LABORATORIOS S.A.",
+  "PA": "CEFTAZIDIMA"
+ },
+ {
+  "Producto": "F-29564/26",
+  "Nombre": "CEFTAZIDIMA POLVO PARA SOLUCIÓN INYECTABLE 1 g",
+  "FechaRegistro": "2026-03-20",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "Ceftazidima Pentahidrato"
+ },
+ {
+  "Producto": "F-24428/23",
+  "Nombre": "EFADIMA POLVO PARA SOLUCIÓN INYECTABLE 1 g (CEFTAZIDIMA)",
+  "FechaRegistro": "2018-12-10",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "CEFTAZIDIMA"
+ },
+ {
+  "Producto": "F-24968/24",
+  "Nombre": "ZAVICEFTA 2/0,5 POLVO PARA SOLUCIÓN PARA PERFUSIÓN",
+  "FechaRegistro": "2019-07-31",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "AVIBACTAM//CEFTAZIDIMA"
+ }
+]

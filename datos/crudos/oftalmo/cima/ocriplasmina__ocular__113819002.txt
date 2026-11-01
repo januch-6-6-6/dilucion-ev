@@ -1,0 +1,189 @@
+JETREA 0,375mg/0,3ml solucion inyectable | VIA INTRAVITREA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/113819002/FT_113819002.html
+
+ 4.1. Indicaciones terapéuticas
+ JETREA está indicado en adultos para el tratamiento de la tracción vitreomacular (TVM), incluidos los casos en que ésta se presenta asociada a un agujero macular de diámetro menor o igual a 400 micrones (ver sección 5.1).
+ 4.2. Posología y forma de administración
+ JETREA debe ser administrado por un oftalmólogo cualificado que tenga experiencia en inyecciones intravítreas. El diagnóstico de tracción vitreomacular (TVM) debe realizarse considerando un cuadro clínico completo incluyendo historial del paciente, examen clínico e investigación utilizando pruebas de diagnóstico actualmente reconocidas, tal como tomografía de coherencia óptica (TCO).
+ Posología
+ JETREA 0,375 mg/0,3 ml solución inyectable es una formulación “lista para inyectar” que no requiere dilución adicional. La dosis recomendada es de 0,125 mg en 0,1 ml de la solución administrada una sola vez, como dosis única, mediante inyección intravítrea en el ojo afectado. Cada vial debe usarse solo en una ocasión y para el tratamiento de un único ojo. No se recomienda el tratamiento con JETREA en el otro ojo simultáneamente o dentro de los 7 días siguientes a la inyección inicial con el fin de controlar la evolución tras la inyección, incluido el potencial de disminución de la visión en el ojo inyectado. No se recomienda la administración repetida en el mismo ojo (ver sección 4.4).
+ Ver sección 4.4 para consultar las instrucciones de seguimiento posterior a la inyección
+ Poblaciones especiales
+ Insuficiencia renal
+ No se han realizado estudios específicos con JETREA en pacientes con insuficiencia renal. No se prevé la necesidad de ajustar la dosis ni de tener en cuenta otras consideraciones especiales en pacientes con insuficiencia renal (ver sección 5.2).
+ Insuficiencia hepática
+ No se han realizado estudios específicos con JETREA en pacientes con insuficiencia hepática. No se prevé la necesidad de ajustar la dosis ni de tener en cuenta otras consideraciones especiales en pacientes con insuficiencia hepática (ver sección 5.2).
+ Pacientes de edad avanzada
+ Se han realizado estudios clínicos en población de edad avanzada. En estos pacientes, no resulta necesario ajustar la dosis.
+ Población pediátrica
+ No existe una recomendación de uso específica para JETREA en niños menores de 18 años para el tratamiento de la indicación tracción vitreomacular (TVM), incluidos los casos en que ésta se presenta asociada a un agujero macular de diámetro menor o igual a 400 micrones. Los datos actualmente disponibles sobre el uso pediátrico están descritos en la sección 5.1.
+ Forma de administración
+ Vial de un solo uso únicamente para vía intravítrea.
+ En el preoperatorio pueden administrarse colirios antibióticos según criterio del oftalmólogo.
+ Precauciones que deben tomarse antes de manipular o administrar este medicamento
+ El procedimiento de inyección intravítrea debe llevarse a cabo en condiciones asépticas controladas, que incluyen la desinfección quirúrgica de las manos, el uso de guantes estériles, un campo estéril, un espéculo palpebral (o equivalente) estéril y la disponibilidad (en caso de ser necesario) de una paracentesis estéril. Antes de la inyección se debe desinfectar la piel de la zona periocular, párpado y superficie ocular, y se debe administrar una cantidad adecuada de anestesia y de antimicrobiano tópico de amplio espectro de acuerdo con la práctica médica habitual.
+ Solo se debe administrar 0,1 ml del total de 0,3 ml de la solución del vial. Antes de la inyección, se debe expulsar cualquier exceso de volumen para inyectar una dosis única de 0,1 ml que contiene 0,125 mg de ocriplasmina. Para consultar las instrucciones de manipulación del medicamento, ver sección 6.6.
+ La aguja de inyección debe insertarse a 3,5 - 4,0 mm posteriormente al limbo y dirigirse hacia el centro de la cavidad vítrea evitando el meridiano horizontal. El volumen de inyección de 0,1 ml se libera entonces en la parte media del vítreo.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1. Infecciones oculares o perioculares activas o sospecha de su existencia.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Seguimiento posterior a la inyección
+ JETREA se administra únicamente mediante inyección intravítrea. Las inyecciones intravítreas se han asociado a inflamación/ infección intraocular, hemorragia intraocular y aumento de la presión intraocular (PIO). Deben emplearse siempre técnicas de inyección apropiadas y en condiciones asépticas. Posteriormente a la inyección intravítrea, debe realizarse un seguimiento de los pacientes con el fin de detectar cualquier efecto adverso tales como (pero no limitados a) inflamación / infección intraocular y elevación de la PIO. Dentro de 60 minutos después de la inyección de JETREA se han observado aumentos transitorios de la PIO con resultado de ceguera temporal y falta de riego del nervio óptico. Los controles para detectar elevaciones de la PIO pueden consistir en comprobar el riego sanguíneo de la cabeza del nervio óptico inmediatamente después de la inyección, junto con la realización de una tonometría dentro de los 30 minutos siguientes a la inyección. Puede evaluarse la presencia de inflamación/ infección intraocular llevando a cabo una biomicroscopía entre 2 y 7 días después de la inyección. Debe instruirse al paciente que notifique inmediatamente si experimenta síntomas que sugieran la existencia de inflamación/ infección intraocular, o cualquier otro síntoma visual u ocular. Si ocurre alguno de los acontecimientos mencionados anteriormente, se debe tratar al paciente siguiendo la práctica médica habitual.
+ Tratamiento bilateral
+ No se ha estudiado la seguridad y eficacia de JETREA cuando se administra en ambos ojos simultáneamente. Por tanto, no se recomienda la administración en ambos ojos simultáneamente.
+ Administración repetida
+ No se ha estudiado adecuadamente la administración repetida de JETREA en el mismo ojo, de modo que no se aconseja llevarla a cabo.
+ Población sin datos o con datos limitados
+ No se han realizado estudios con JETREA en pacientes que presenten agujeros maculares de gran diámetro (> 400 micrones), miopía elevada (corrección esférica > 8 dioptrías o longitud axial > 28 mm), afaquia, antecedentes de desprendimiento de retina regmatógeno, inestabilidad de la zónula del cristalino, cirugía ocular o inyección intraocular recientes (incluido el tratamiento con láser), retinopatía diabética proliferativa, retinopatías isquémicas, oclusiones de la vena retiniana, degeneración macular asociada a la edad (DMAE) exudativa y hemorragia vítrea. El tratamiento no está recomendado para este tipo de pacientes.
+ Se dispone de escasa experiencia en pacientes con retinopatía diabética no proliferativa o que tengan antecedentes de uveítis (incluida la inflamación grave activa) o traumatismo ocular significativo, por lo que se debe actuar con precaución a la hora de tratar a estos pacientes.
+ Otros
+ No se puede descartar el potencial de subluxación o facodonesis del cristalino. En caso que esto ocurra, se debe tratar según la práctica médica habitual. Los pacientes se deben controlar adecuadamente (ver secciones 4.8 y 5.3).
+ El efecto de ocriplasmina (especialmente en la inducción de resolución de adherencia vitreomacular o en causar desprendimiento del vítreo posterior [DVP] total) se reduce en sujetos con membrana epirretiniana (MER) o un diámetro de AVM > 1.500 micrones (ver sección 5.1).
+ Existe el riesgo de una disminución significativa de la agudeza visual durante la primera semana tras la inyección. Los pacientes se deben controlar adecuadamente (ver sección 4.8).
+ Después de la administración de JETREA puede que los resultados de las exploraciones oftalmológicas sean anormales. Éstas incluyen tomografía de coherencia óptica (TCO), oftalmoscopia (reflejo foveal), prueba de visión del color (Roth 28-hue) y ERG de campo completo. Esto se debe tener en cuenta cuando se utilicen estas pruebas para diagnóstico o seguimiento de otras enfermedades (ver sección 4.8).
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios específicos de interacciones.
+ Ocriplasmina es una enzima proteolítica con actividad tipo serina-proteasa que podría estar presente en el ojo durante varios días tras la inyección intravítrea (ver sección 5.2). La administración de otro medicamento en el mismo ojo, en un intervalo de tiempo corto, puede afectar la actividad de ambos medicamentos y por ello esta práctica no está recomendada.
+ No se recomienda el uso concomitante de ocriplasmina con inhibidores del VEGF (factor de crecimiento endotelial vascular), ya que no se dispone de datos clínicos.
+ No se prevén interacciones sistémicas.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No hay datos relativos al uso de JETREA en mujeres embarazadas. No se han realizado estudios de toxicidad para la reproducción. Se espera que, tras la inyección intravítrea, la exposición sistémica a JETREA sea muy baja. JETREA no debe utilizarse durante el embarazo, a no ser que el beneficio clínico supere los posibles riesgos.
+ Lactancia
+ Se desconoce si JETREA se excreta en la leche materna. JETREA no debe utilizarse durante la lactancia, a no ser que el beneficio clínico supere los posibles riesgos.
+ Fertilidad
+ No hay datos relativos al efecto que pueda ejercer JETREA en la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de la inyección intravítrea de JETREA sobre la capacidad para conducir y utilizar máquinas es moderada debido a posibles alteraciones visuales transitorias (ver sección 4.8). En estos casos, los pacientes no deben conducir ni utilizar máquinas hasta que se hayan resuelto dichas alteraciones visuales.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ En estudios clínicos interevencionistas se ha tratado a más de 1400 pacientes con la dosis recomendada de 0,125 mg de JETREA.
+ Todas las reacciones adversas fueron oculares. En 3 estudios clínicos con seguimiento desde los 6 meses (TG-MV-006 y TG-MV-007) hasta los 24 meses (TG-MV-014), las reacciones adversas notificadas con mayor frecuencia, fueron la presencia de células flotantes en el vítreo (miodesopsias), dolor ocular, fotopsia y cromatopsia, así como hemorragia conjuntival derivada del procedimiento de inyección. La mayoría de las reacciones adversas se presentaron en la primera semana posterior a la inyección. La mayoría de estas reacciones fueron no graves, de intensidad leve a moderada y se resolvieron en un período de entre 2 y 3 semanas. La información sobre la resolución de acontecimientos específicos tales como cromatopsia o cambios en ERG, se puede ver en el párrafo correspondiente de la sección “Descripción de reacciones adversas seleccionadas”.
+ Las reacciones adversas clínicamente más relevantes incluyen ceguera transitoria, desgarro retiniano, desprendimiento de retina, subluxación del cristalino y progresión del agujero macular.
+ Tabla de reacciones adversas
+ En la tabla que figura a continuación se resumen las reacciones adversas notificadas en el ojo tratado en estudios clínicos y/o de la experiencia poscomercialización.
+ Se han notificado también síntomas visuales percibidos en el ojo contralateral o bilateralmente.
+ Esta lista de reacciones adversas con una posibilidad razonable de relación causal con el procedimiento de inyección o con JETREA se presenta de acuerdo a lo estipulado en el sistema de clasificación de órganos del sistema MedDRA y a su frecuencia, empleando la siguiente convención: muy frecuentes (≥1/10), frecuentes (≥1/100 a <1/10), poco frecuentes (≥1/1.000 a <1/100), raras (≥1/10.000 a <1/1.000), muy raras (<1/10.000) y de frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Dentro de cada grupo de frecuencia, las reacciones adversas se disponen de mayor a menor orden de gravedad.
+ Trastorno oculares
+ | 
+ Muy frcuentes
+ Células flotantes en vítreo (miodesopias), dolor ocular, hemorragia
+ Conjuntival, cromatosia*
+ | 
+ Frecuentes
+ Agudeza visual disminuida*, alteración visual1),visión
+ borrosa, hemorragia retiniana, hemorragia del vítreo, agujero macular*,
+ degeneración macular, degeneración retiniana, edema macular 3), edema retiniano
+ 4), epiteliopatía pigmentaria de la retina, metamorfopsia, edema conjuntival,
+ edema palpebral, vitritis, células en la cámara anterior, brote (flare) de cámara
+ anterior, iritis, fotopsia, hiperemia de la conjuntiva, hiperemia ocular,
+ desprendimiento del cuerpo vítreo, irritación ocular, ojo seco, sensación de cuerpo
+ extraño en los ojos, prurito en el ojo, molestia ocular, fotofobia, lagrimeo
+ aumentado
+ | 
+ Poco frecuentes
+ Ceguera transitoria, subluxuación del cristalino*, desgarro5),,
+ Desprendimiento de retina5), ceguera nocturna, reflejo pupilar alterado, diplopía,
+ hifema, miosis, pupilas desiguales, abrasión corneal, inflamación de cámara
+ anterior, inflamación ocular, irritación conjuntival
+ | 
+ Exploraciones
+ complementarias
+ | 
+ Muy frecuentes
+ Retinograma anormal*, prueba anormal de visión del color†
+ | 
+ Frecuentes
+ Presión intraocular aumentada, reflejo macular normal, tomografía de coherencia
+ Óptica (TCO) anormal *
+ | 
+ * ver sección ”Descripción de reacciones adversas seleccionadas”
+ 1) que incluye visión oscurecida
+ 2) que incluye escotoma
+ 3) que incluye edema macular cistoide
+ 4) que incluye líquido subretiniano
+ 5) acontecimientos que ocurren pre-vitrectomía
+ † utilizando la prueba de visión del color Roth 28-hue. Ver también sección 4.4.
+ Descripción de reacciones adversas seleccionadas
+ Agudeza visual disminuida
+ En los estudios pivotales de fase III controlados con placebo (TG-MV-006 y TG-MV-007), el 7,7% de pacientes con JETREA y el 1,6% de los pacientes con placebo sufrieron una disminución aguda en la agudeza visual mejor corregida (BCVA) ≥ 2 líneas (≥ 10 letras ETDRS) durante la primera semana tras la inyección sin explicación alternativa para el cambio. Al final de los estudios, la disminución de la agudeza visual se había resuelto en la mayoría de pacientes con JETREA (80,6%) pero hubo algunos pacientes que no se recuperaron a pesar de la vitrectomía. El tiempo medio de resolución fueron 22 días.
+ En el estudio TG-MV-014, el 2,8% de pacientes con JETREA y el 1,4% de los pacientes simulados sufrieron una pérdida aguda en la BCVA ≥ 2 líneas durante la primera semana después de la inyección. De los 4 pacientes con JETREA que sufrieron una disminución aguda en la agudeza visual, 3 se recuperaron tras la vitrectomía. Ver sección 4.4 para recomendaciones de seguimiento.
+ Cromatopsia (que incluyen discromatopsia y prueba anormal de visión del color)
+ Se ha notificado alteraciones de visión del color (que incluyen visión amarillenta y prueba anormal de la visión del color Roth 28-hue) como reacciones adversas muy frecuentes en pacientes a los que se les inyectó JETREA. La mayoría de efectos fueron no graves, leves y generalmente se resolvieron espontáneamente. El tiempo medio de resolución fue de 3 meses.
+ Retinograma anormal
+ En pacientes a los que se les inyectó JETREA se ha notificado como una reacción adversa muy frecuente la existencia de cambios electrorretinográficos (ERG) consistentes en una disminución de la amplitud de las ondas a y b; en la mayoría de casos también se notificaron alteración visual y cromatopsia. En el estudio TG-MV-014, un sub-grupo de 40 pacientes que recibieron JETREA fueron sistemáticamente sometidos a pruebas de ERG; los cambios ERG que sufrieron 16 de los 40 pacientes, se resolvieron en la mayoría de los pacientes (13 de los 16). El tiempo medio de resolución fue de 6 meses. Estos cambios en el ERG no fueron predictivos de la aparición de resultados negativos en lo referido a la agudeza visual; la agudeza visual mejoró o se mantuvo comparado con el valorinicial en 15 de los 16 pacientes.
+ Roturas retinianas (desgarros y desprendimiento)
+ En los estudios pivotales de fase III controlados con placebo (TG-MV-006 y TG-MV-007), se notificaron roturas retinianas (desgarros y desprendimiento) en el 1,9% de los pacientes a los que se les había inyectado JETREA, frente a un 4,3% de los que se les había inyectado placebo. La mayoría de estos acontecimientos tuvieron lugar durante la vitrectomía o después de ella en ambos grupos. La incidencia de desprendimiento de retina antes de la vitrectomía fue del 0,4% en el grupo de JETREA y en ningún paciente del grupo placebo. En el estudio TG-MV-014, se notificó rotura retiniana en el 1,4% de los pacientes a los que se les había inyectado JETREA, frente a un 6,8% de los simulados; la incidencia de desprendimiento de retina fue del 1,4% en ambos grupos. En el grupo simulado, no se produjeron acontecimientos antes de la vitrectomía. Mientras que en el grupo de JETREA, 1 paciente (0,7%) sufrió rotura retiniana y desprendimiento de retina entre el día 0 y el día 7 después de la inyección.
+ Agujero macular
+ En los estudios pivotales de fase III controlados con placebo (TG-MV-006 y TG-MV-007), se notificaron acontecimientos de agujero macular (que incluyen ambos, progresión y reaparición) en el 6,7% de la totalidad de los pacientes a los que se les inyectó JETREA, frente a un 9,6% de los pacientes a los que se les había administrado una inyección de placebo en el mes 6.
+ En el estudio TG-MV-014, se notificaron acontecimientos de agujero macular (que incluyen ambos, progresión y reaparición) en el 15,8% de los que recibieron JETREA, frente a un 13,5% de los simulados en el mes 24.
+ Las tasas de progresión temprana de agujero macular de espesor completo (hasta el día 7 después de la inyección) a nivel del epitelio pigmentoso de la retina (EPR) fueron mayores en pacientes tratados con JETREA comparados con los simulados o con placebo. Sin embargo, las tasas de progresión después del mes 6, fueron superiores en los simulados o con placebo que en los tratados con JETREA. Se debe tratar según la práctica habitual cualquier persistencia o progresión del agujero macular.
+ Subluxación/facodonesis del cristalino
+ Se notificó un caso de subluxación/facodonesis del cristalino en ensayos clínicos en adultos que parece hallarse posiblemente relacionado con el tratamiento con JETREA. En un estudio pediátrico de evaluación de JETREA como tratamiento coadyuvante a la vitrectomía, se notificó un caso de subluxación en un bebé prematuro al que se administró una única inyección intravítrea de 0,175 mg de JETREA. En 3 especies animales se observó subluxación del cristalino con concentraciones de ocriplasmina superiores a la concentración clínica propuesta (ver sección 5.3).
+ A causa de la actividad proteolítica de la ocriplasmina y a tenor de los hallazgos preclínicos y clínicos, no puede descartarse una posible subluxación o facodonesis del cristalino. De tener lugar este acontecimiento, debe tratarse de acuerdo a la práctica clínica habitual.
+ Tomografía de coherencia óptica anormal
+ En el estudio TG-MV-014, la banda del segmento interior / segmento exterior (SI/SE) incompleta, también conocida como zona elipsoide, fue muy frecuente en el área central en el momento inicial (65,8% en el grupo con JETREA y 62,2% en el grupo simulado). Sin embargo, después del tratamiento, una proporción mayor de pacientes del grupo con JETREA tuvieron un cambio de la banda SI/SE intacta en el momento inicial a una banda SI/SE incompleta en el área central en el siguiente control de tiempo en comparación con el grupo simulado (7,7% y 2,8%, respectivamente en el día 28). Más allá del área central, en hasta un 10% de los pacientes se observaron aspectos anormales de la banda SI/SE atribuidos a JETREA.
+ En estudios no-intervencionistas e informes pos-comercialización se ha notificado ruptura de la zona elipsoide dentro y fuera del área central. En la mayoría de los casos la recuperación se produjo dentro de los 6 meses. En relación con estos acontecimientos, se notificaron líquido subretiniano y signos y síntomas de alteración de la función fotoreceptora, que incluye disminución de la agudeza visual (en algunos casos graves).
+ Ver sección 4.4 para consultar las recomendaciones para efectuar el seguimiento. Por lo demás, en todas las situaciones antes mencionadas se recomienda realizar observaciones de manera sistemática.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Anexo V.
+ 4.9. Sobredosis
+ Se dispone de escasa información clínica relativa a los efectos causados por una sobredosis de JETREA. Se ha notificado un caso de sobredosis accidental de 0,250 mg de ocriplasmina (el doble de la dosis recomendada). El paciente sufrió una disminución en la BCVA de 21 letras ETDRS con respecto al momento inicial, que al final del estudio volvió a niveles de un máximo de 9 letras de diferencia con respecto al momento inicial. Asimismo, el paciente experimentó hiperemia conjuntival, inflamación ocular y miosis, todas ellas de intensidad leve, que se resolvieron con el empleo de colirio con corticosteroides.
+ En caso de sobredosis, se recomienda realizar un seguimiento intensivo. En caso de presentarse una reacción adversa, ésta debe tratarse de acuerdo a la práctica médica habitual.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros medicamentos.
+ 6.3. Periodo de validez
+ 3 años cuando se conserva en congelador (-20 ºC ± 5 ºC).
+ Después de descongelar
+ El vial sin abrir, en su caja original y protegido de la luz se puede conservar en nevera (entre 2ºC y 8ºC) hasta 1 semana. Se debe calcular y anotar en la caja la nueva fecha de caducidad en uso antes de guardarlo en la nevera.
+ Una vez retirado del congelador o de la nevera, el medicamento se puede conservar por debajo de 25ºC durante un máximo de 8 horas. Al final de este periodo de tiempo, el medicamento se debe usar o desechar.
+ No vuelva a congelar el vial una vez se ha descongelado.
+ Después de la apertura
+ Desde un punto de vista microbiológico, el medicamento se debe usar inmediatamente después de su apertura. El vial y toda parte de la solución que haya quedado sin utilizar deben desecharse tras un único uso.
+ 6.4. Precauciones especiales de conservación
+ Conservar en congelador (-20 °C ± 5 °C).
+ Para las condiciones de conservación tras la descongelación/apertura del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Solución de 0,3 ml en un vial (vidrio tipo I) cerrado con tapón de goma de clorobutilo y una cubierta flip-off azul de polipropileno. Envase con 1 vial.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Los viales son únicamente de un solo uso.
+ JETREA 0,375 mg/0,3 ml solución inyectable es una formulación “lista para inyectar” que no requiere dilución adicional. Solo se deben administrar 0,1 ml del total de 0,3 ml de la solución del vial. Antes de la inyección se debe expulsar cualquier exceso de volumen para inyectar una dosis única de 0,1 ml que contiene 0,125 mg de ocriplasmina.
+ Instrucciones de uso
+ Sacar el vial del congelador y dejarlo descongelar a temperatura ambiente (proceso que tarda
+ unos 2 minutos).
+ | 
+ Una vez que el producto se haya descongelaldo por
+ compleo, extraer del vial la cubierta protectora flip-off
+ azul de polipropileno.
+ | 
+ | 
+ Desinfectar la parte superior del vial con un paño
+ Impreganado en alcohol
+ | 
+ | 
+ Inspeccionar visualmente para detectar posiblespatículas.Unicamente debe emplearse
+ la solución si es transparentee incolora y carece de partículas visibles
+ | 
+ Mediante una técnica aséptica, extraer la totalidad
+ de la solución con una aguja estéril apropiada (inclinar
+ ligeramente el vial para proceder a la extracción con
+ mayor facilidad) y tirar la aguja después de sacar el
+ contenido del vial. Esta aguja no debe usarse para la
+ inyección intravítrea
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cambiar la aguja por otra estéril que resulte adecuada,
+ expulsar con cuidado el exceso de volumen de la jeringa
+ presionando ligeramente el émbolo hasta alinear la punta
+ del émbolo con la línea de 0,1 ml de la jeringa
+ (correspondiente a 0,125 mg de ocriplasmina)
+ | 
+ | 
+ Inyectar inmediatamente en la parte media del vítreo 0,1 ml de la solución.
+ Desechar el vial y toda parte de la solución diluida que haya quedado sin emplear tras un único uso.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.

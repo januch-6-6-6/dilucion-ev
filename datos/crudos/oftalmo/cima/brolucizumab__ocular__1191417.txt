@@ -1,0 +1,311 @@
+BEOVU 120 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | VIA INTRAVITREA SOLUCION INYECTABLE EN JERINGA PRECARGADA
+https://cima.aemps.es/cima/dochtml/ft/1191417/FT_1191417.html
+
+ 4.1. Indicaciones terapéuticas
+ Beovu está indicado en adultos para el tratamiento de:
+ la degeneración macular asociada a la edad (DMAE) neovascular (exudativa) (ver sección 5.1),
+ alteración visual debida al edema macular diabético (EMD) (ver sección 5.1).
+ 4.2. Posología y forma de administración
+ Beovu debe ser administrado por un oftalmólogo cualificado que tenga experiencia en la administración de inyecciones intravítreas.
+ Posología
+ DMAE exudativa
+ Inicio del tratamiento – carga
+ La dosis recomendada es 6 mg de brolucizumab (0,05 ml de solución), administrada en forma de inyección intravítrea cada 4 semanas (mensual) para las 3 primeras dosis. Se recomienda una evaluación de la actividad de la enfermedad a las 16 semanas (4 meses) después de iniciar el tratamiento.
+ Como alternativa, se pueden administrar 6 mg de brolucizumab (0,05 ml de solución) cada 6 semanas para las 2 primeras dosis. Se recomienda una evaluación de la actividad de la enfermedad a las 12 semanas (3 meses) después de iniciar el tratamiento. Se puede administrar una tercera dosis en base a la actividad de la enfermedad valorada mediante la agudeza visual y/o parámetros anatómicos en la semana 12.
+ Tratamiento de mantenimiento
+ Después de la última dosis de carga, el médico puede individualizar los intervalos de tratamiento en base a la actividad de la enfermedad valorada mediante la agudeza visual y/o parámetros anatómicos.
+ En pacientes sin actividad de la enfermedad, se debe considerar el tratamiento cada 12 semanas (3 meses). En pacientes con actividad de la enfermedad, se debe considerar el tratamiento cada 8 semanas (2 meses). Si se está tratando a los pacientes de acuerdo a un régimen de tratar y extender y no hay signos de actividad de la enfermedad, los intervalos de tratamiento podrían extenderse gradualmente hasta que reaparezcan los signos de actividad de la enfermedad. El intervalo de tratamiento no debe extenderse ni acortarse más de 4 semanas (1 mes) cada vez (ver sección 5.1). Existen datos limitados para intervalos de tratamiento superiores a 20 semanas (5 meses). El intervalo de tratamiento entre dos dosis de Beovu no debe ser inferior a cada 8 semanas (2 meses) (ver sección 4.4).
+ Se debe interrumpir el tratamiento con Beovu si los parámetros visuales y anatómicos indican que el paciente no se está beneficiando del tratamiento continuado.
+ EMD
+ La dosis recomendada es 6 mg de brolucizumab (0,05 ml de solución) administrada en forma de inyección intravítrea cada 6 semanas para las 5 primeras dosis.
+ Después, el médico puede individualizar los intervalos de tratamiento en base a la actividad de la enfermedad valorada mediante la agudeza visual y/o parámetros anatómicos. En pacientes sin actividad de la enfermedad, se debe considerar el tratamiento cada 12 semanas (3 meses). En pacientes con actividad de la enfermedad, se debe considerar el tratamiento cada 8 semanas (2 meses). Después de 12 meses de tratamiento, en pacientes sin actividad de la enfermedad, se podrían considerar intervalos de tratamiento de hasta 16 semanas (4 meses) (ver secciones 4.4 y 5.1).
+ Se debe interrumpir el tratamiento con Beovu si los parámetros visuales y anatómicos indican que el paciente no se está beneficiando del tratamiento continuado.
+ Poblaciones especiales
+ Pacientes de edad avanzada
+ No es necesario ningún ajuste de la dosis en pacientes de 65 años de edad o más (ver sección 5.2).
+ Insuficiencia renal
+ No es necesario ningún ajuste de la dosis en pacientes con insuficiencia renal (ver sección 5.2).
+ Insuficiencia hepática
+ Brolucizumab no ha sido estudiado en pacientes con insuficiencia hepática. No es necesario ningún ajuste de la dosis en pacientes con insuficiencia hepática (ver sección 5.2).
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de brolucizumab en niños y adolescentes menores de 18 años. No se dispone de datos.
+ Forma de administración
+ Beovu es únicamente para vía intravítrea.
+ Se debe inspeccionar visualmente la solución inyectable antes de la administración (ver sección 6.6).
+ El procedimiento de inyección intravítrea deberá llevarse a cabo bajo condiciones asépticas, que incluyen el lavado quirúrgico de las manos, el uso de guantes estériles, un campo estéril y un blefarostato estéril para los párpados (o equivalente). En caso necesario, debe estar disponible un equipo de paracentesis estéril. Antes de realizar el procedimiento de inyección intravítrea, se deberá evaluar detalladamente la historia clínica del paciente en cuanto a reacciones de hipersensibilidad (ver sección 4.3). Antes de la inyección se debe administrar una anestesia adecuada y un microbicida tópico de amplio espectro para desinfectar la piel de la zona periocular, párpado y superficie ocular.
+ La aguja para inyección se deberá introducir 3,5‑4,0 mm por detrás del limbo en la cavidad vítrea, evitando el meridiano horizontal y en dirección al centro del globo. Seguidamente se debe liberar lentamente el volumen de inyección de 0,05 ml; las inyecciones siguientes se deben aplicar cada vez en un punto escleral distinto.
+ Inmediatamente después de la inyección intravítrea, se debe monitorizar a los pacientes a fin de detectar una elevación de la presión intraocular. Una monitorización adecuada puede consistir en la comprobación de la perfusión de la cabeza del nervio óptico o en la realización de una tonometría. En caso necesario, debe estar disponible un equipo de paracentesis estéril.
+ Tras la inyección intravítrea, se debe instruir a los pacientes sobre la necesidad de notificar inmediatamente cualquier síntoma que sugiera endoftalmitis (p. ej, dolor ocular, enrojecimiento del ojo, fotofobia, visión borrosa).
+ Jeringa precargada
+ La jeringa precargada es para un solo uso. Cada jeringa precargada se debe usar exclusivamente para el tratamiento de un solo ojo.
+ Como la jeringa precargada contiene más volumen (0,165 ml) que el de la dosis recomendada (0,05 ml), se debe expulsar el exceso de volumen de la jeringa precargada antes de la administración.
+ Si se inyecta todo el volumen de la jeringa precargada puede dar lugar a una sobredosis. Para expulsar las burbujas de aire y el exceso de medicamento, se debe presionar lentamente el émbolo hasta que el borde inferior de la cúpula que forma el extremo del tapón de goma quede alineado con la marca de dosis de 0,05 ml (equivalente a 50 µl, es decir, 6 mg de brolucizumab).
+ Vial
+ El vial es para un solo uso. Cada vial debe usarse exclusivamente para el tratamiento de un solo ojo.
+ Como el vial contiene más volumen (0,23 ml) que el de la dosis recomendada (0,05 ml), se debe expulsar el exceso de volumen del vial antes de la administración.
+ Si se inyecta todo el volumen del vial puede dar lugar a una sobredosis. Para expulsar las burbujas de aire y el exceso de medicamento, el aire se debe expulsar cuidadosamente de la jeringa y la dosis se debe ajustar con la marca de 0,05 ml (equivalente a 50 µl, es decir, 6 mg de brolucizumab).
+ Para las instrucciones de preparación del medicamento antes de la administración, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Pacientes con infecciones oculares o perioculares activas o con sospecha de éstas.
+ Pacientes con inflamación intraocular activa.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Trazabilidad
+ Con objeto de mejorar la trazabilidad de los medicamentos biológicos, el nombre y el número de lote del medicamento administrado deben estar claramente registrados.
+ Endoftalmitis, inflamación intraocular, catarata traumática, desprendimiento de retina, desgarro retiniano, vasculitis retiniana y/u oclusión vascular retiniana
+ Las inyecciones intravítreas, incluidas las de Beovu, se han asociado a endoftalmitis, inflamación intraocular, catarata traumática, desprendimiento de retina y desgarro retiniano (ver sección 4.8). Siempre que se administre Beovu se deben emplear técnicas de inyección asépticas adecuadas.
+ Se deberá instruir a los pacientes sobre la necesidad de comunicar inmediatamente cualquier síntoma que sugiera cualquiera de los acontecimientos mencionados anteriormente.
+ Inflamación intraocular, incluyendo vasculitis retiniana y/u oclusión vascular retiniana
+ La inflamación intraocular, incluyendo vasculitis retiniana y/u oclusión vascular retiniana, se ha notificado con el uso de Beovu (ver secciones 4.3 y 4.8). Se observó un mayor número de acontecimientos de inflamación intraocular entre los pacientes con anticuerpos emergentes contra el tratamiento. Después de la investigación, se encontró que la vasculitis retiniana y/u oclusión vascular retiniana eran acontecimientos inmunomediados. La inflamación intraocular, incluyendo vasculitis retiniana y/u oclusión vascular retiniana, puede ocurrir después de la primera inyección intravítrea y en cualquier momento del tratamiento. Estos acontecimientos se observaron con mayor frecuencia al inicio del tratamiento.
+ En base a los estudios clínicos, estos acontecimientos fueron más frecuentes en pacientes femeninas tratadas con Beovu que en pacientes masculinos (p.ej., un 5,3% de mujeres frente a un 3,2% de hombres en HAWK y HARRIER) y en pacientes japoneses.
+ En pacientes que desarrollen estos acontecimientos, se debe interrumpir el tratamiento con Beovu y los acontecimientos se deben tratar de inmediato. Los pacientes tratados con Beovu con antecedentes médicos de inflamación intraocular y/u oclusión vascular retiniana (dentro de los 12 meses anteriores a la primera inyección de brolucizumab) deben ser estrechamente monitorizados, ya que tienen un mayor riesgo de desarrollar vasculitis retiniana y/u oclusión vascular retiniana.
+ El intervalo entre dos dosis de Beovu durante el tratamiento de mantenimiento no debe ser inferior a 8 semanas, teniendo en cuenta que se ha notificado una mayor incidencia de inflamación intraocular (incluyendo vasculitis retiniana) y oclusión vascular retiniana en pacientes con DMAE neovascular que recibieron Beovu cada 4 semanas como dosis de mantenimiento en un estudio clínico comparado con pacientes que recibieron Beovu cada 8 o 12 semanas de dosis de mantenimiento en los estudios clínicos pivotales de fase III.
+ Aumentos de la presión intraocular
+ Se han observado aumentos transitorios de la presión intraocular en los 30 minutos siguientes a la inyección intravítrea con inhibidores del factor de crecimiento endotelial vascular (VEGF), incluyendo brolucizumab (ver sección 4.8). Es necesario tener especial precaución en los pacientes con glaucoma mal controlado (no inyectar Beovu cuando la presión intraocular sea ≥30 mmHg). Tanto la presión intraocular como la perfusión de la cabeza del nervio óptico, se deben monitorizar y tratar adecuadamente.
+ Tratamiento bilateral
+ No se ha estudiado la seguridad y eficacia de brolucizumab administrado en ambos ojos simultáneamente.
+ Inmunogenicidad
+ Dado que se trata de una proteína terapéutica, existe la posibilidad de inmunogenicidad con brolucizumab (ver sección 4.8). Se debe instruir a los pacientes para que informen a su médico en caso de aparición de síntomas tales como dolor ocular o aumento del malestar en el ojo, empeoramiento del enrojecimiento del ojo, visión borrosa o disminución de la visión, aumento del número de pequeñas manchas en su visión o aumento de la sensibilidad a la luz (ver sección 4.8).
+ Uso concomitante con otros anti-VEGF
+ No hay datos disponibles sobre el uso concomitante de Beovu con otros medicamentos anti-VEGF en el mismo ojo. Brolucizumab no se deberá administrar de forma concurrente con otros medicamentos anti-VEGF (sistémicos u oculares) (ver sección 4.5).
+ Aplazamiento del tratamiento
+ En tratamientos anti-VEGF intravítreos, la dosis se debe aplazar y el tratamiento no se debe reanudar antes del siguiente tratamiento programado en caso de:
+ una disminución en la mejor agudeza visual corregida (MAVC) de ≥30 letras comparado con la última evaluación de la agudeza visual;
+ una rotura retiniana;
+ una hemorragia subretiniana que afecte al centro de la fóvea, o, si el tamaño de la hemorragia es ≥50% del área total de la lesión;
+ cirugía intraocular realizada en los 28 días previos o prevista durante los 28 días posteriores.
+ Desgarro del epitelio pigmentario de la retina
+ Los factores de riesgo asociados con el desarrollo de un desgarro del epitelio pigmentario de la retina tras la terapia con anti-VEGF para la DMAE exudativa, incluyen un desprendimiento del epitelio pigmentario de la retina extenso y/o elevado. Cuando se inicie la terapia con brolucizumab, se debe tener precaución en pacientes con estos factores de riesgo de desarrollar desgarros del epitelio pigmentario de la retina.
+ Desprendimiento de retina regmatógeno o agujeros maculares
+ El tratamiento se debe interrumpir en sujetos con desprendimiento de retina regmatógeno o agujeros maculares en estadíos 3 o 4.
+ Efectos sistémicos después del uso intravítreo
+ Se han notificado acontecimientos adversos sistémicos, incluyendo hemorragias no oculares y acontecimientos tromboembólicos arteriales después de la inyección intravítrea de inhibidores del VEGF y existe un riesgo teórico de que estos puedan relacionarse con la inhibición de VEGF. Los datos sobre seguridad del tratamiento de pacientes con DMAE y EMD con antecedentes de ictus, de ataques isquémicos transitorios o de infarto de miocardio en los últimos 3 meses son limitados. Se debe tener precaución cuando se traten dichos pacientes.
+ Poblaciones con datos limitados
+ Existe experiencia limitada en el tratamiento con Beovu en pacientes diabéticos con HbA1c superior al 10% o con retinopatía diabética proliferativa. Tampoco existe experiencia en el tratamiento con Beovu en pacientes diabéticos con hipertensión no controlada. El médico debe tener en cuenta esta falta de información al tratar a estos pacientes.
+ Contenido de sodio
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.
+ Contenido de polisorbato 80
+ Este medicamento contiene 0,01 mg de polisorbato 80 por dosis (0,05 ml). Los polisorbatos pueden causar reacciones alérgicas. Se debe instruir a los pacientes para que informen a su médico si tienen cualquier alergia conocida.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones.
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ Las mujeres en edad fértil deben utilizar métodos anticonceptivos efectivos durante el tratamiento con brolucizumab y hasta al menos un mes después de la última dosis tras finalizar el tratamiento con brolucizumab.
+ Embarazo
+ No hay datos o éstos son limitados relativos al uso de brolucizumab en mujeres embarazadas. Un estudio en monas cinomolgas preñadas no indicó ningún efecto dañino con respecto a la toxicidad reproductiva. Los estudios realizados en animales son insuficientes en relación a la toxicidad reproductiva (ver sección 5.3). Aunque la exposición sistémica tras la administración ocular es muy baja debido a su mecanismo de acción, existe un riesgo potencial para el desarrollo embriofetal. Es por ello que no se debe usar brolucizumab durante el embarazo a menos que el beneficio potencial supere al riesgo potencial para el feto.
+ Lactancia
+ Se desconoce si brolucizumab se excreta en la leche materna. En un estudio de toxicidad para la reproducción, no se detectó brolucizumab en la leche materna ni en el suero infantil de monos cinomolgos (ver sección 5.3). No se puede excluir el riesgo en recién nacidos/niños lactantes. No se recomienda utilizar brolucizumab durante la lactancia ni se debe iniciar la lactancia durante al menos un mes después de la última dosis tras finalizar el tratamiento con brolucizumab. Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento con brolucizumab tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ Fertilidad
+ No se han realizado estudios de la función reproductora o la fertilidad. Se ha demostrado que la inhibición del VEGF afecta el desarrollo folicular, la función del cuerpo lúteo y la fertilidad. Debido al mecanismo de acción de los inhibidores del VEGF, existe un riesgo potencial para la reproducción en la mujer.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de Beovu sobre la capacidad para conducir y utilizar máquinas es pequeña debido a las posibles alteraciones visuales transitorias tras la inyección intravítrea y de la exploración oftalmológica asociada. Los pacientes no deben conducir ni utilizar máquinas hasta que su función visual se haya recuperado lo suficiente.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ DMAE exudativa
+ Para la DMAE exudativa, la población total de seguridad en los dos estudios de fase III estuvo constituida por 1 088 pacientes tratados con brolucizumab. De ellos, 730 fueron tratados con la dosis recomendada de 6 mg.
+ Las reacciones adversas notificadas con mayor frecuencia fueron agudeza visual reducida (7,3%), catarata (7,0%), hemorragia conjuntival (6,3%) y partículas flotantes en el vítreo (5,1%).
+ Las reacciones adversas más graves fueron ceguera (0,8%), endoftalmitis (0,7%), oclusión arterial retiniana (0,8%) y desprendimiento de retina (0,7%).
+ EMD
+ Para el EMD, la población total de seguridad en los dos estudios de fase III estuvo constituida por 558 pacientes tratados con brolucizumab. De ellos, 368 fueron tratados con la dosis recomendada de 6 mg.
+ Las reacciones adversas notificadas con mayor frecuencia fueron catarata (9,0%), hemorragia conjuntival (6,5%) y presión intraocular alta (5,4%).
+ Las reacciones adversas más graves fueron catarata (9,0%), oclusión vascular retiniana (1,1%), oclusión arterial retiniana (0,8%) y endoftalmitis (0,5%).
+ Tabla de reacciones adversas
+ En la Tabla 1 siguiente se resumen las reacciones adversas observadas en ensayos clínicos después de la administración con Beovu.
+ Las reacciones adversas (tabla 1) se muestran de acuerdo con la clasificación por órganos y sistemas de MedDRA. Dentro de cada sistema de clasificación por órganos y sistemas, las reacciones adversas se clasifican por frecuencia, con las reacciones más frecuentes primero. La categoría de frecuencias para cada reacción adversa se basa de acuerdo con el siguiente criterio: muy frecuentes (≥1/10), frecuentes (≥1/100 a <1/10), poco frecuentes (≥1/1 000 a <1/100), raras (≥1/10 000 a <1/1 000), muy raras (<1/10 000), frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Dentro de cada grupo de frecuencia, se presentan en orden decreciente de gravedad.
+ Tabla 1 Frecuencia de las reacciones adversas en los ensayos clínicos
+ Clasificación por órganos y sistemas de MedDRA
+ | 
+ Categoría de frecuencia*
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Hipersensibilidad (incluye urticaria, erupción, prurito, eritema)
+ | 
+ Frecuentes
+ | 
+ Trastornos oculares
+ | 
+ Agudeza visual reducida
+ | 
+ Frecuentes
+ | 
+ Hemorragia retiniana
+ | 
+ Frecuentes
+ | 
+ Uveítis
+ | 
+ Frecuentes
+ | 
+ Iridociclitis
+ | 
+ Frecuentes
+ | 
+ Iritis
+ | 
+ Frecuentes
+ | 
+ Oclusión vascular retiniana
+ | 
+ Frecuentes
+ | 
+ Hemorragia vítrea
+ | 
+ Frecuentes
+ | 
+ Desprendimiento de vítreo
+ | 
+ Frecuentes
+ | 
+ Desgarro retiniano
+ | 
+ Frecuentes
+ | 
+ Catarata
+ | 
+ Frecuentes
+ | 
+ Hemorragia conjuntival
+ | 
+ Frecuentes
+ | 
+ Partículas flotantes en el vítreo
+ | 
+ Frecuentes
+ | 
+ Dolor ocular
+ | 
+ Frecuentes
+ | 
+ Presión intraocular elevada
+ | 
+ Frecuentes
+ | 
+ Conjuntivitis
+ | 
+ Frecuentes
+ | 
+ Desgarro del epitelio pigmentario retiniano
+ | 
+ Frecuentes
+ | 
+ Visión borrosa
+ | 
+ Frecuentes
+ | 
+ Abrasión corneal
+ | 
+ Frecuentes
+ | 
+ Queratitis punctata
+ | 
+ Frecuentes
+ | 
+ Ceguera
+ | 
+ Poco frecuentes
+ | 
+ Endoftalmitis
+ | 
+ Poco frecuentes
+ | 
+ Desprendimiento de retina
+ | 
+ Poco frecuentes
+ | 
+ Hiperemia conjuntival
+ | 
+ Poco frecuentes
+ | 
+ Lagrimeo aumentado
+ | 
+ Poco frecuentes
+ | 
+ Sensación anormal en el ojo
+ | 
+ Poco frecuentes
+ | 
+ Desprendimiento del epitelio pigmentario retiniano
+ | 
+ Poco frecuentes
+ | 
+ Vitritis
+ | 
+ Poco frecuentes
+ | 
+ Inflamación de la cámara anterior
+ | 
+ Poco frecuentes
+ | 
+ Destellos de la cámara anterior
+ | 
+ Poco frecuentes
+ | 
+ Edema corneal
+ | 
+ Poco frecuentes
+ | 
+ Vasculitis retiniana
+ | 
+ Poco frecuentes
+ | 
+ Escleritis**
+ | 
+ Poco frecuentes
+ | 
+ *La categoría de frecuencia para cada reacción adversa se basa en la tasa de incidencia más conservadora de los estudios pivotales de Fase III combinados de DMAEn o EMD.
+ **incluyendo epiescleritis
+ | 
+ | 
+ | 
+ Descripción de reacciones adversas seleccionadas
+ Inmunogenicidad
+ Existe la posibilidad de que se produzca una respuesta inmunitaria en los pacientes tratados con Beovu.
+ DMAE exudativa
+ Después de administrar Beovu durante 88 semanas, se detectaron anticuerpos emergentes contra el tratamiento de brolucizumab en el 23-25% de los pacientes.
+ EMD
+ Después de administrar Beovu durante 96 semanas, se detectaron anticuerpos emergentes contra el tratamiento de brolucizumab en el 16-23% de los pacientes.
+ Entre los pacientes con DMAE y EMD con anticuerpos emergentes del tratamiento, se observó un mayor número de reacciones adversas de inflamación intraocular. Después de la investigación, se encontró que la vasculitis retiniana y/u oclusión vascular retiniana, habitualmente en presencia de inflamación intraocular, eran reacciones adversas inmunomediadas relacionadas con la exposición a Beovu (ver sección 4.4). Los anticuerpos antibrolucizumab no se relacionaron con un impacto en la eficacia clínica.
+ Reacciones adversas relacionadas con la clase de producto
+ Tras el uso intravítreo de inhibidores del VEGF existe un riesgo teórico de acontecimientos tromboembólicos arteriales, incluidos accidente cerebrovascular e infarto de miocardio. Se observó una tasa de incidencia baja de acontecimientos tromboembólicos arteriales en los estudios clínicos con brolucizumab en pacientes con DMAE y EMD. No hubo diferencias notablemente importantes entre los grupos tratados con brolucizumab y el comparador.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ La sobredosificación con un volumen de inyección elevado puede aumentar la presión intraocular. Por lo tanto, en caso de sobredosis se debe monitorizar la presión intraocular e iniciarse el tratamiento adecuado, si el médico responsable del tratamiento lo considera necesario.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros.
+ 6.3. Periodo de validez
+ Jeringa precargada: 2 años
+ Vial: 2 años
+ 6.4. Precauciones especiales de conservación
+ Jeringa precargada
+ Conservar en nevera (entre 2 ºC y 8 ºC).
+ No congelar.
+ Conservar la jeringa precargada en su blíster sellado y en el embalaje exterior para protegerla de la luz.
+ Antes de usar, el blíster sin abrir se puede conservar a temperatura ambiente (por debajo de 25 °C) durante un máximo de 24 horas.
+ Vial
+ Conservar en nevera (entre 2 ºC y 8 ºC).
+ No congelar.
+ Conservar el vial en el embalaje exterior para protegerlo de la luz.
+ Antes de usar, el vial sin abrir se puede conservar a temperatura ambiente (por debajo de 25 °C) durante un máximo de 24 horas.
+ 6.5. Naturaleza y contenido del envase
+ Jeringa precargada
+ 0,165 ml de solución estéril en una jeringa precargada (vidrio tipo I) con un tapón con émbolo de goma de bromobutilo y una cápsula de cierre de la jeringa que consiste en un cierre rígido blanco con precinto de seguridad con un tapón de goma de bromobutilo gris y que incluye un adaptador Luer Lock. La jeringa precargada tiene un émbolo y una aleta de sujeción, y se envasa en un blíster sellado.
+ Tamaño de envase: 1 jeringa precargada.
+ Vial
+ 0,23 ml de solución estéril en un vial de vidrio de 2 ml con un tapón de goma sellado con una tapa de aluminio con un disco de plástico de color morado.
+ Tamaño de envase: 1 vial y 1 aguja roma con filtro (18G x 1½″, 1,2 mm x 40 mm, 5 µm).
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Jeringa precargada
+ La jeringa precargada contiene más cantidad que la dosis recomendada de 6 mg. El volumen extraíble de la jeringa precargada (0,165 ml) no se administrará en su totalidad. El exceso de volumen se debe expulsar antes de la inyección. Si se inyecta todo el volumen de la jeringa precargada puede dar lugar a una sobredosis. Para expulsar las burbujas de aire y el exceso de medicamento, presione lentamente el émbolo hasta que el borde inferior de la cúpula que forma el extremo del tapón de goma quede alineado con la línea negra de dosificación de la jeringa (equivalente a 0,05 ml, es decir, 6 mg de brolucizumab).
+ Se debe inspeccionar visualmente la solución una vez retirada de la nevera y antes de su administración. Si se ven partículas o turbidez, no se debe usar la jeringa precargada y se deben seguir los procedimientos de reemplazo apropiados.
+ La jeringa precargada es estéril y para un solo uso. No lo use si el envase o la jeringa precargada están deteriorados o caducados. Las instrucciones detalladas de uso se proporcionan en el prospecto.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ Vial
+ El vial contiene más cantidad que la dosis recomendada de 6 mg. El volumen extraíble del vial (0,23 ml) no se administrará en su totalidad. El exceso de volumen se debe expulsar antes de la inyección. Si se inyecta todo el volumen del vial puede dar lugar a una sobredosis. La dosis de inyección se debe ajustar a la marca de dosis de 0,05 ml, es decir, 6 mg de brolucizumab.
+ Se debe inspeccionar visualmente la solución una vez retirada de la nevera y antes de su administración. Si se ven partículas o turbidez, no se debe usar el vial y se deben seguir los procedimientos de reemplazo apropiados.
+ El contenido del vial y la aguja con filtro son estériles y para un solo uso. No lo use si el envase, el vial y/o la aguja con filtro están deteriorados o caducados. Las instrucciones detalladas de uso se proporcionan en el prospecto.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.

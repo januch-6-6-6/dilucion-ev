@@ -1,0 +1,94 @@
+ACETILCOLINA 10 MG/ML CUSÍ POLVO Y DISOLVENTE PARA SOLUCIÓN PARA INSTILACIÓN POR VÍA INTRAOCULAR | VIA INTRAOCULAR POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/58154/FT_58154.html
+
+ 4.1. Indicaciones terapéuticas
+ Inducción de miosis, para obtener una miosis rápida y completa después de la extracción del cristalino en la cirugía de la catarata así como en la queratoplastia penetrante, iridectomía y otras intervenciones del segmento anterior en las que se requiera una rápida y completa miosis.
+ 4.2. Posología y forma de administración
+ Este medicamento es únicamente para Uso Hospitalario.
+ Posología
+ Adultos:
+ La solución extemporánea de 10 mg/ml de acetilcolina cloruro se utiliza únicamente para irrigación intraocular en la cirugía del segmento anterior del ojo.
+ Con el uso de 0,5 a 2 ml en la mayoría de los casos se consigue en unos segundos una miosis adecuada. El efecto se mantiene durante 10-20 minutos. Si se necesita una miosis más prolongada puede repetirse la aplicación, o utilizar por vía oftálmica una solución de pilocarpina (2%) después de la cirugía y antes de la aplicación del vendaje.
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de Acetilcolina 10 mg/ml Cusí en niños.
+ Uso en insuficiencia hepática y renal
+ No se ha establecido la seguridad y eficacia de Acetilcolina 10 mg/ml Cusí en este grupo de pacientes.
+ Uso en pacintes mayores de 65 años
+ Los pacientes mayores de 65 años pueden ser más propensos a padecer hipotensión y/o bradicardia
+ debidas a una posible absorción sistémica de acetilcolina tras la administración intraocular.
+ Forma de administración
+ Vía intraocular.
+ Para instrucciones de reconstitución de este medicamento antes de su administración, ver secciones 6.3 y 6.6 .
+ La solución reconstituida de acetilcolina se instila dentro de la cámara anterior antes o después de asegurar una o más suturas. La instilación debe ser suave, paralela a la cara del iris y tangencial al borde de la pupila. No es necesario retirar la solución de la cámara anterior del ojo después de conseguirse la miosis.
+ En la operación de cataratas la aplicación de este medicamento se realiza solo tras la extracción del cristalino.
+ La solución de acetilcolina cloruro es inestable. Debe prepararse inmediatamente antes de su utilización y se desechará la que no se haya utilizado.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ 4.4. Advertencias y precauciones especiales de empleo
+ La miosis se producirá en menor medida en caso de glaucoma agudo de ángulo-cerrado o en ojos que presentan sinequias posteriores o atrofia del iris. Si se precisa miosis completa y rápida, puede ser necesaria la cirugía, previa a la administración de acetilcolina, para eliminar obstrucciones a la misosis, tales como sinequias anteriores o posteriores.
+ Aunque normalmente la acetilcolina se hidroliza rápidamente en el cuerpo, se han observado efectos sistémicos después de aplicación oftálmica de esteres de colina. Por lo tanto, se recomienda precaución cuando se utilice en pacientes con trastornos cardiovasculares, asma bronquial, úlcera péptica, hipertiroidismo, espasmos gastrointestinales, obstrucción del tracto urinario y enfermedad de Parkinson.
+ Pacientes de edad avanzada
+ Los pacientes mayores de 65 años pueden ser más propensos a padecer hipotensión y/o bradicardia debidas a una posible absorción sistémica de acetilcolina tras la administración intraocular, por lo que se requiere precaución (ver sección 4.8).
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Existen informes que indican que la acetilcolina cloruro ha resultado inefectiva al utilizarse en pacientes tratados con fármacos antiinflamatorios no esteroides (AINEs) por vía tópica.
+ Aunque estudios clínicos y en animales realizados con acetilcolina cloruro no han mostrado interferencia y no se conoce la base farmacológica para una interacción.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No hay datos o estos son limitados relativos al uso de acetilcolina cloruro en mujeres embarazadas. Fármacos mióticos, como acetilcolina, presentan riesgos potenciales en mujeres embarazadas debido a la inhibición de la colinesterasa.
+ Los estudios realizados en animales son insuficientes en términos de toxicidad para la reproducción (ver sección 5.3).
+ No se recomienda utilizar Aceticolina 10 mg/ml Cusí durante el embarazo, ni en mujeres en edad fértil que no estén utilizando métodos anticonceptivos.
+ Lactancia
+ Se desconoce si acetilcolina cloruro o sus metabolitos se excretan en la lecha materna. Sin embargo, no se puede excluir el riesgo en recién nacidos/niños.
+ Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ Después de la instilación, puede aparecer dificultad de adaptación a la oscuridad, visión borrosa y otras alteraciones visuales durante un tiempo prolongado que pueden afectar a la capacidad para conducir o utilizar máquinas. Si aparecen estos efectos, el paciente debe esperar hasta que la visión sea nítida antes de conducir o utilizar máquinas.
+ 4.8. Reacciones adversas
+ Resumen tabulado de las reacciones adversas
+ Se han observado las siguientes reacciones adversas con el uso oftálmico de acetilcolina. Las frecuencias no pueden estimarse a partir de los datos disponibles.
+ Sistema de Clasificación por Órganos
+ | 
+ Término preferido MedDRA
+ | 
+ Trastornos oculares
+ | 
+ Edema corneal, opacidad corneal, descompensación de la córnea, iritis y adherencias del iris post-quirúrgicas.
+ | 
+ Trastornos cardiacos
+ | 
+ Bradicardia
+ | 
+ Trastornos vasculares
+ | 
+ Hipotensión, rubefacción
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ Disnea
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Hiperhidrosis
+ | 
+ Aunque normalmente la acetilcolina se hidroliza rápidamente en el cuerpo, en raras ocasiones se han observado efectos sistémicos después de su administración oftálmica, los cuales podrían indicar absorción sistémica tras la administración intraocular, especialmente en pacientes mayores de 65 años (ver sección 4.4).
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaRAM.es.
+ 4.9. Sobredosis
+ Los síntomas de sobredosis son similares a los efectos producidos por absorción sistémica, p.ej. bradicardia, hipotensión, rubefacción, disnea e hiperhidrosis.
+ El tratamiento es de mantenimiento. Puede requerirse tratamiento con anticolinérgicos (atropina).
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No procede.
+ 6.3. Periodo de validez
+ 2 años.
+ Utilizar inmediatamente después de preparada la solución y desechar la solución no empleada.
+ 6.4. Precauciones especiales de conservación
+ No requiere condiciones especiales de conservación.
+ Para condiciones de reconstitución de este medicamento, ver secciones 6.3 y 6.6.
+ 6.5. Naturaleza y contenido del envase
+ Vial de vidrio (incoloro clase I) sellado con tapón de goma de butilo y precinto de aluminio. Ampolla de polietileno que contiene el disolvente.
+ Envase que contiene 1 vial y 1 ampolla.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Instrucciones de reconstitución:
+ Extraer el contenido de la ampolla en una jeringa seca y estéril con aguja. Añadir al vial que contiene el liofilizado de acetilcolina cloruro. Agitar cuidadosamente hasta conseguir la disolución del polvo. Aspirar la solución nuevamente con la jeringa y reemplazar la aguja por una cánula atraumática adecuada para la instilación intraocular.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

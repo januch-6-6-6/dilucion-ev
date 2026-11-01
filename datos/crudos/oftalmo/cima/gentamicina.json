@@ -1,0 +1,15 @@
+{
+ "id": "gentamicina",
+ "familia": "periocular",
+ "resultados": 24,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "51885",
+   "nombre": "GENTA GOBENS 40 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION",
+   "vias": "VIA INTRAMUSCULAR VIA INTRAVENOSA SOLUCION INYECTABLE Y PARA PERFUSION",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/51885/FT_51885.html",
+   "tipo": "parenteral"
+  }
+ ]
+}

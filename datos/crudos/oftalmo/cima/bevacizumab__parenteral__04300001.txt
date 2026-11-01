@@ -1,0 +1,1007 @@
+AVASTIN 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION | VIA INTRAVENOSA CONCENTRADO PARA SOLUCION PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/04300001/FT_04300001.html
+
+ 4.1. Indicaciones terapéuticas
+ Bevacizumab está indicado en combinación con quimioterapia basada en fluoropirimidinas para el tratamiento de pacientes adultos con carcinoma metastásico de colon o recto.
+ Bevacizumab está indicado en combinación con paclitaxel para el tratamiento en primera línea de pacientes adultos con cáncer de mama metastásico. Para más información sobre el estado del receptor 2 del factor de crecimiento epidérmico humano (HER2), ver sección 5.1.
+ Bevacizumab está indicado, en combinación con capecitabina, para el tratamiento en primera línea de pacientes adultos con cáncer de mama metastásico en los que no se considere apropiado el tratamiento con otras opciones de quimioterapia que incluyan taxanos o antraciclinas. Los pacientes que han recibido regímenes de tratamiento que contienen taxanos y antraciclinas en el entorno adyuvante en los últimos 12 meses deben ser excluidos del tratamiento con Avastin en combinación con capecitabina. Para más información sobre el estado del HER2, ver sección 5.1
+ Bevacizumab está indicado, asociado a quimioterapia basada en platino, para el tratamiento en primera línea de pacientes adultos con cáncer de pulmón no microcítico avanzado no resecable, metastásico o recidivante, salvo los que tengan un tipo histológico con predominio de células escamosas.
+ Bevacizumab, en combinación con erlotinib, está indicado para el tratamiento en primera línea de pacientes adultos con cáncer de pulmón no microcítico no escamoso avanzado no resecable, metastásico o recidivante con mutaciones activadoras del receptor del factor de crecimiento epidérmico (EGFR) (ver sección 5.1).
+ Bevacizumab está indicado en combinación con interferón alfa-2a para el tratamiento en primera línea de pacientes adultos con cáncer de células renales avanzado y/o metastásico.
+ Bevacizumab está indicado en combinación con carboplatino y paclitaxel para el tratamiento en primera línea de pacientes adultos con cáncer avanzado (estadios de la Federación Internacional de Ginecología y Obstetricia (FIGO) IIIB, IIIC y IV) de ovario epitelial, trompa de Falopio, o peritoneal primario (ver sección 5.1). 
+ Bevacizumab está indicado en combinación con carboplatino y gemcitabina o en combinación con carboplatino y paclitaxel para el tratamiento de pacientes adultos con cáncer de ovario epitelial sensible a platino tras primera recaída, carcinoma de la trompa de Falopio, o carcinoma peritoneal primario que no hayan recibido tratamiento previo con bevacizumab, otros inhibidores VEGF o agentes dirigidos frente a receptores VEGF.
+ .
+ Bevacizumab en combinación con paclitaxel, topotecán, o doxorrubicina liposomal pegilada está indicado para el tratamiento de pacientes adultos con cáncer de ovario epitelial recurrente resistente a platino, de trompa de Falopio o peritoneal primario que no hayan recibido más de dos regímenes de quimioterapia previos y no hayan recibido tratamiento previo con bevacizumab u otros inhibidores VEGF o agentes dirigidos frente a receptores VEGF (ver sección 5.1).
+ Bevacizumab en combinación con paclitaxel y cisplatino o, alternativamente, paclitaxel y topotecan en pacientes que no puedan recibir terapia con platino, está indicado para el tratamiento de pacientes adultos con carcinoma de cérvix persitente, recurrente o metastásico (ver sección 5.1).
+ 4.2. Posología y forma de administración
+ No agitar el vial.
+ Avastin debe administrarse bajo la supervisión de un médico con experiencia en el empleo de medicamentos antineoplásicos.
+ Posología
+ Carcinoma metastásico de colon o recto (CCRm)
+ La dosis recomendada de Avastin es de 5 mg/kg o 10 mg/kg de peso corporal administrados como perfusión intravenosa una vez cada 2 semanas o de 7,5 mg/kg o 15 mg/kg de peso corporal administrados una vez cada 3 semanas.
+ Se recomienda continuar el tratamiento hasta la progresión de la enfermedad subyacente o hasta toxicidad inaceptable.
+ Cáncer de mama metastásico (CMm)
+ La dosis recomendada de Avastin es de 10 mg/kg de peso corporal una vez cada 2 semanas o de 15 mg/kg de peso corporal una vez cada 3 semanas administrados como perfusión intravenosa.
+ Se recomienda continuar el tratamiento hasta la progresión de la enfermedad subyacente o hasta toxicidad inaceptable.
+ Cáncer de pulmón no microcítico (CPNM)
+ Primera línea de tratamiento para CPNM no escamoso en combinación con quimioterapia basada en platino
+ Avastin se administra en combinación con quimioterapia basada en platino durante 6 ciclos de tratamiento, seguido de Avastin en monoterapia hasta la progresión de la enfermedad.
+ La dosis recomendada de Avastin es de 7,5 mg/kg o 15 mg/kg de peso corporal administrados como perfusión intravenosa una vez cada 3 semanas.
+ En los pacientes con CPNM se ha demostrado el beneficio clínico con las dosis tanto de 7,5 mg/kg como de 15 mg/kg (ver sección 5.1).
+ Se recomienda continuar el tratamiento hasta la progresión de la enfermedad subyacente o hasta toxicidad inaceptable.
+ Primera línea de tratamiento para CPNM no escamoso con mutaciones activadoras en EGFR en combinación con erlotinib
+ Se debe llevar a cabo el test de la mutación de EGFR antes de iniciar el tratamiento con la combinación de Avastin y erlotinib. Cuando se evalúa el estado de mutación del EGFR de un paciente, es importante elegir una metodología adecuadamente validada y robusta para evitar la obtención de falsos negativos o falsos positivos.
+ La dosis recomendada de Avastin cuando se utiliza en combinación con erlotinib es de 15 mg/kg de peso corporal administrados como perfusión intravenosa una vez cada 3 semanas.
+ Se recomienda continuar el tratamiento con Avastin en combinación con erlotinib hasta progresión de la enfermedad.
+ Para la posología y método de administración de erlotinib, por favor consultar la ficha técnica de erlotinib.
+ Cáncer de células renales avanzado y/o metastásico (CRm)
+ La dosis recomendada de Avastin es de 10 mg/kg de peso corporal administrados como perfusión intravenosa una vez cada 2 semanas.
+ Se recomienda continuar el tratamiento hasta la progresión de la enfermedad subyacente o hasta toxicidad inaceptable.
+ Cáncer de ovario epitelial, trompa de Falopio y peritoneal primario
+ Tratamiento en primera línea: Avastin se administra en combinación con carboplatino y paclitaxel durante 6 ciclos de tratamiento, seguido de un uso continuado de Avastin en monoterapia hasta progresión de la enfermedad o hasta un máximo de 15 meses o toxicidad inaceptable, lo que ocurra primero.
+ La dosis recomendada de Avastin es de 15 mg/kg de peso corporal administrados una vez cada 3 semanas como perfusión intravenosa.
+ Tratamiento de la enfermedad recurrente sensible a platino: Avastin se administra en combinación con carboplatino y gemcitabina durante 6 ciclos y hasta 10 ciclos de tratamiento o en combinación con carboplatino y paclitaxel durante 6 ciclos y hasta 8 ciclos de tratamiento, seguido de un uso continuado de Avastin en monoterapia hasta la progresión de la enfermedad. La dosis recomendada de Avastin es de 15 mg/kg de peso corporal administrados como perfusión intravenosa una vez cada 3 semanas.
+ Tratamiento de la enfermedad recurrente resistente a platino: Avastin se administra en combinación con uno de los siguientes fármacos: paclitaxel, topotecán, (administrado semanalmente) o doxorrubicina liposomal pegilada. La dosis recomendada de Avastin es de 10 mg/kg de peso corporal administrado una vez cada 2 semanas como perfusión intravenosa. Cuando Avastin se administra en combinación con topotecán (administrado los días 1-5, cada 3 semanas), la dosis recomendada de Avastin es de 15 mg/kg de peso corporal administrado una vez cada 3 semanas como perfusión intravenosa. Se recomienda continuar el tratamiento hasta progresión de la enfermedad o toxicidad inaceptable (ver sección 5.1, ensayo clínico MO22224).
+ Cáncer de cérvix
+ Avastin se administra en combinación con uno de los siguientes regímenes de quimioterapia: paclitaxel y cisplatino o paclitaxel y topotecán.
+ La dosis recomendada de Avastin es de 15 mg/kg de peso corporal administrado una vez cada 3 semanas como perfusión intravenosa.
+ Se recomienda continuar el tratamiento hasta progresión de la enfermedad subyacente o hasta toxicidad inaceptable (ver sección 5.1).
+ Poblaciones especiales
+ Pacientes de edad avanzada: No es necesario un ajuste de la dosis en pacientes ≥ 65 años de edad .
+ Pacientes con insuficiencia renal: No se han estudiado la seguridad y la eficacia en pacientes con insuficiencia renal (ver sección 5.2).
+ Pacientes con insuficiencia hepática: No se han estudiado la seguridad y la eficacia en pacientes con insuficiencia hepática (ver sección 5.2).
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de bevacizumab en niños menores de 18 años. Los datos actualmente disponibles están descritos en las secciones 4.8, 5.1 y 5.2, sin embargo no se puede hacer una recomendación posológica. 
+ El uso de bevacizumab en la población pediátrica para las indicaciones del tratamiento de cánceres de colon, recto, mama, pulmón, ovario, trompa de Falopio, peritoneo, cérvix y riñón no es relevante.
+ Forma de administración
+ La dosis inicial debe administrarse en perfusión intravenosa durante 90 minutos. Si se tolera bien la primera perfusión, la segunda puede administrarse durante 60 minutos. Si se tolera bien la perfusión de 60 minutos, todas las perfusiones siguientes se pueden administrar durante 30 minutos.
+ No debe administrarse como pulso o bolo intravenoso.
+ No se recomienda la reducción de la dosis en caso de aparición de reacciones adversas. Si es necesario, el tratamiento debe interrumpirse permanente o temporalmente como se indica en la sección
+ 4.4.
+ Precauciones que deben tomarse antes de manipular o administrar este medicamento
+ Para consultar las instrucciones de dilución del medicamento antes de la administración, ver sección 6.6. Las perfusiones de Avastin no deben administrarse o mezclarse con soluciones de glucosa. Este medicamento no debe mezclarse con otros medicamentos excepto los mencionados en la sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Hipersensibilidad a productos derivados de células de ovario de hámster chino (CHO) o a otros anticuerpos recombinantes humanos o humanizados.
+ Embarazo (ver sección 4.6).
+ 4.4. Advertencias y precauciones especiales de empleo
+ Trazabilidad
+ Con el objeto de mejorar la trazabilidad de los medicamentos biológicos, el nombre y el número de lote del medicamento administrado deben estar claramente registrados.
+ Perforaciones gastrointestinales (GI) y fístulas (ver sección 4.8)
+ Los pacientes pueden tener un riesgo aumentado de perforación gastrointestinal y perforación de la vesícula biliar durante el tratamiento con Avastin. En pacientes con carcinoma metastásico de colon o recto, el proceso inflamatorio intra-abdominal puede ser un factor de riesgo para perforaciones gastrointestinales, por lo que se debe tener precaución cuando se trate a estos pacientes. La radiación previa es un factor de riesgo para la perforación GI en pacientes con cáncer de cérvix persistente, recurrente o metastásico tratados con Avastin y todos los pacientes con perforación GI tenían antecedentes de radiación previa. Se debe interrumpir de forma permanente el tratamiento en pacientes que desarrollen una perforación gastrointestinal.
+ Fístulas GI-vaginales en el estudio GOG-0240
+ Los pacientes con cáncer de cérvix persistente, recurrente o metastásico tratados con Avastin tienen un mayor riesgo de fístulas entre la vagina y cualquier parte del tracto GI (fístulas gastrointestinales-vaginales). La radiación previa es un factor de riesgo importante para el desarrollo de fístula GI-vaginal y todos los pacientes con fístula GI-vaginal han tenido antecedentes de radiación previa. La recurrencia del cáncer en la zona previamente irradiada es un importante factor de riesgo adicional para el desarrollo de fístulas GI-vaginales.
+ Fístulas no-GI (ver sección 4.8)
+ Los pacientes pueden tener un riesgo aumentado de desarrollar fístulas durante el tratamiento con Avastin.
+ En pacientes con fístula traqueoesofágica (TE) o con cualquier fístula de Grado 4 [(US National Cancer Institute-Common Terminology Criteria for Adverse Events (NCI-CTCAE) versión 3.0)] se debe interrumpir permanentemente el tratamiento con Avastin. Se dispone de información limitada acerca del uso continuado de Avastin en pacientes con otro tipo de fístulas. En aquellos casos de fístula interna que no se presenten en el tracto gastrointestinal, se debe considerar la interrupción del tratamiento con Avastin.
+ Complicaciones en la cicatrización (ver sección 4.8)
+ Avastin puede influir negativamente en el proceso de cicatrización. Se han notificado complicaciones en la cicatrización de heridas graves incluyendo complicaciones anastomóticas, con un resultado mortal. No debe iniciarse la terapia al menos durante los 28 días siguientes a una intervención de cirugía mayor o hasta que la herida quirúrgica haya cicatrizado completamente. Se interrumpirá la administración de Avastin en aquellos pacientes que presenten complicaciones de la cicatrización durante el tratamiento, hasta que la herida haya cicatrizado completamente. Debe aplazarse la terapia cuando se vayan a realizar intervenciones quirúrgicas programadas.
+ Se ha notificado raramente fascitis necrosante, incluyendo casos mortales, en pacientes tratados con Avastin. Esta enfermedad suele ser secundaria a las complicaciones en la cicatrización, perforación gastrointestinal o formación de fístula. Se debe interrumpir la administración de Avastin en aquellos pacientes que desarrollen fascitis necrosante, y se debe iniciar rápidamente un tratamiento adecuado.
+ Hipertensión (ver sección 4.8)
+ Se ha observado una mayor incidencia de hipertensión en pacientes tratados con Avastin. Los datos de seguridad clínica sugieren que es probable que la incidencia de hipertensión sea dependiente de la dosis. Se debe controlar adecuadamente la hipertensión preexistente antes de comenzar el tratamiento con Avastin. No existe información del efecto de Avastin en pacientes con hipertensión no controlada al inicio de la terapia. Generalmente se recomienda monitorizar la tensión arterial durante la terapia.
+ En la mayoría de los casos, la hipertensión se controló satisfactoriamente utilizando el tratamiento antihipertensivo estándar adecuado para la situación individual del paciente afectado. En pacientes que reciban un tratamiento de quimioterapia basada en cisplatino no se aconseja la utilización de diuréticos para controlar la hipertensión. El tratamiento con Avastin debe interrumpirse de forma permanente si la hipertensión clínicamente significativa no se puede controlar adecuadamente con el tratamiento antihipertensivo, o si el paciente desarrolla crisis hipertensivas o encefalopatía hipertensiva.
+ Síndrome de Encefalopatía Reversible Posterior (SERP) (ver sección 4.8)
+ Se han notificado casos raros de pacientes tratados con Avastin que han desarrollado signos y síntomas que concuerdan con el SERP, un trastorno neurológico raro que se puede presentar con los siguientes signos y síntomas, entre otros: convulsiones, cefalea, estado mental alterado, alteraciones visuales, o ceguera cortical, con o sin hipertensión asociada. Un diagnóstico del SERP requiere confirmación mediante técnicas de imagen cerebral, preferiblemente resonancia magnética (RM). En los pacientes que desarrollan SERP, está recomendado el tratamiento de los síntomas específicos incluyendo el control de la hipertensión, junto con la interrupción del tratamiento con Avastin. No se conoce la seguridad de la reiniciación de la terapia con Avastin en pacientes que hayan experimentado previamente el SERP.
+ Proteinuria (ver sección 4.8)
+ Los pacientes con antecedentes de hipertensión pueden tener un mayor riesgo de proteinuria durante el tratamiento con Avastin. Existen datos que sugieren que la proteinuria de todos los grados (US National Cancer Institute-Common Terminology Criteria for Adverse Events [NCI-CTCAE v.3]) puede estar relacionada con la dosis. Se recomienda monitorizar la proteinuria mediante análisis de orina empleando tiras reactivas antes y durante la terapia. Se debe interrumpir de forma permanente el tratamiento en pacientes que desarrollen proteinuria de grado 4 (síndrome nefrótico) (NCI-CTCAE v.3).
+ Tromboembolismo arterial (ver sección 4.8)
+ En ensayos clínicos, la incidencia de reacciones de tromboembolismo arterial, incluyendo accidentes cerebrovasculares (ACVs), ataques isquémicos transitorios (AITs) e infartos de miocardio (IMs), fue mayor en los pacientes que recibieron Avastin en combinación con quimioterapia en comparación con aquellos que sólo recibieron quimioterapia.
+ Los pacientes tratados con Avastin junto con quimioterapia que tengan antecedentes de tromboembolismo arterial, diabetes o sean mayores de 65 años tienen un riesgo aumentado de sufrir reacciones tromboembólicas arteriales durante el tratamiento. Se debe tener precaución cuando se traten estos pacientes con Avastin.
+ Se debe interrumpir permanentemente el tratamiento en los pacientes que sufran reacciones tromboembólicas arteriales.
+ Tromboembolismo venoso (ver sección 4.8)
+ Los pacientes tratados con Avastin pueden tener un riesgo de sufrir reacciones tromboembólicas venosas, incluyendo embolismo pulmonar.
+ Los pacientes con cáncer de cérvix persistente, recurrente o metastásico tratados con Avastin en combinación con paclitaxel y cisplatino pueden tener un mayor riesgo de acontecimientos tromboembólicos venosos.
+ El tratamiento con Avastin se debe interrumpir en pacientes con reacciones tromboembólicas que amenacen la vida (grado 4) incluyendo el embolismo pulmonar (NCI-CTCAE v.3). Los pacientes con reacciones tromboembólicas ≤ grado 3 requieren una monitorización rigurosa (NCI-CTCAE v.3).
+ Hemorragia
+ Los pacientes tratados con Avastin tienen un mayor riesgo de hemorragia, especialmente hemorragia asociada al tumor. Se debe interrumpir permanentemente el tratamiento con Avastin en pacientes que desarrollen hemorragia de grado 3 ó 4 durante la terapia con Avastin (NCI-CTCAE v.3) (ver sección 4.8).
+ En base a las técnicas de imagen o a los signos y síntomas, los pacientes con metástasis no tratadas localizadas en el SNC fueron excluidos de los ensayos clínicos con Avastin. Por tanto, el riesgo de hemorragia en el SNC en tales pacientes no se ha evaluado de manera prospectiva en los ensayos clínicos aleatorizados (ver sección 4.8). Se deben monitorizar los pacientes con signos y síntomas de hemorragia en el SNC, y se debe interrumpir el tratamiento con Avastin en casos de hemorragia intracraneal.
+ No existe información sobre el perfil de seguridad de Avastin en pacientes con diátesis hemorrágica congénita, coagulopatía adquirida o en aquellos que estaban recibiendo dosis completas de anticoagulantes para el tratamiento del tromboembolismo antes del inicio de la terapia con Avastin, ya que estos pacientes fueron excluidos de los ensayos clínicos. Por lo tanto, se debe tener precaución antes de iniciar la terapia en estos pacientes. Sin embargo, los pacientes que desarrollaron trombosis venosa durante el tratamiento aparentemente no tuvieron una mayor incidencia de hemorragia de Grado 3 o superior cuando fueron tratados con dosis completas de warfarina concomitantemente con Avastin (NCI-CTCAE v.3).
+ Hemorragia pulmonar/hemoptisis
+ Los pacientes con cáncer de pulmón no microcítico tratados con Avastin pueden tener riesgo de hemorragia pulmonar/hemoptisis grave, en algunos casos mortal. Los pacientes con hemorragia pulmonar/hemoptisis reciente (> 2,5 ml de sangre roja) no deben ser tratados con Avastin.
+ Aneurismas y disecciones arteriales
+ El uso de inhibidores de la vía VEGF en pacientes con o sin hipertensión puede promover la formación de aneurismas y/o disecciones arteriales. Antes de iniciar el tratamiento con Avastin, este riesgo se debe evaluar de forma cuidadosa en pacientes con factores de riesgo como hipertensión o antecedentes de aneurisma.
+ Insuficiencia cardíaca congestiva (ICC) (ver sección 4.8)
+ En los ensayos clínicos se notificaron reacciones relacionadas con ICC. Los acontecimientos oscilaron desde la disminución asintomática en la fracción de eyección del ventrículo izquierdo hasta la ICC sintomática, requiriendo tratamiento u hospitalización. Se debe tener precaución cuando se trate con Avastin a pacientes con enfermedad cardiovascular clínicamente significativa como por ejemplo enfermedad arterial coronaria preexistente, o insuficiencia cardíaca congestiva preexistente.
+ La mayoría de los pacientes que desarrollaron ICC tenían cáncer de mama metastásico y habían recibido previamente tratamiento con antraciclinas, radioterapia sobre la pared torácica izquierda o tenían otros factores de riesgo para el desarrollo de ICC.
+ En los pacientes del ensayo clínico AVF3694g que recibieron tratamiento con antraciclinas y que no habían recibido antraciclinas anteriormente, no se observó aumento en la incidencia de ICC de cualquier grado en el grupo tratado con antraciclina + bevacizumab en comparación con el grupo tratado solo con antraciclinas. Las reacciones de ICC de grado 3 o superiores fueron algo más frecuentes entre los pacientes tratados con bevacizumab en combinación con quimioterapia que en los pacientes tratados sólo con quimioterapia. Esto es concordante con los resultados en pacientes de otros ensayos en cáncer de mama metastásico que no recibieron tratamiento concomitante con antraciclinas (NCI-CTCAE v.3) (ver sección 4.8).
+ Neutropenia e infecciones (ver sección 4.8)
+ En pacientes tratados con algunos regímenes de quimioterapia mielotóxica junto con Avastin se ha observado un aumento de la incidencia de neutropenia grave, neutropenia febril o infección asociada o no a neutropenia grave (incluyendo casos mortales), en comparación con pacientes tratados sólo con quimioterapia. Esto se ha observado principalmente en tratamientos basados en la combinación con platino o taxanos en el tratamiento del CPNM, CMm, y en combinación con paclitaxel y topotecán en cáncer de cérvix persistente, recurrente o metastásico.
+ Reacciones de hipersensibilidad (incluyendo shock anafiláctico) / reacciones a la perfusión (ver sección 4.8)
+ Existe el riesgo de que los pacientes presenten reacciones a la perfusión o reacciones de hipersensibilidad (incluyendo shock anafiláctico). Se recomienda una observación estrecha del paciente durante y después de la administración de bevacizumab, al igual que con cualquier otra perfusión de un anticuerpo monoclonal humanizado. Si apareciera una reacción, debe interrumpirse la perfusión y se deben administrar los tratamientos médicos adecuados. No se considera necesario administrar premedicación de forma sistemática.
+ Osteonecrosis del maxilar (ONM) (ver sección 4.8)
+ Se han notificado casos de ONM en pacientes oncológicos tratados con Avastin, la mayoría de los cuales habían recibido tratamiento previo o concomitante con bifosfonatos por vía intravenosa y en estos casos la ONM es un riesgo identificado.
+ Se debe proceder con precaución cuando se administran simultánea o secuencialmente Avastin y bifosfonatos por vía intravenosa.
+ Los procesos dentales invasivos también están identificados como un factor de riesgo. Antes de comenzar el tratamiento con Avastin se debe considerar llevar a cabo un examen dental y una apropiada odontología preventiva. En aquellos pacientes que hayan recibido previamente o que estén recibiendo bifosfonatos por vía intravenosa, se deben evitar los procesos dentales invasivos, siempre que sea posible.
+ Uso intravítreo
+ La formulación de Avastin no se ha desarrollado para uso intravítreo.
+ Trastornos oculares
+ Se han notificado casos individuales y brotes de acontecimientos adversos oculares graves tras el uso intravítreo fuera de indicación de Avastin formulado en viales aprobados para su administración intravenosa en pacientes con cáncer. Estas reacciones incluyeron endoftalmitis infecciosa, inflamación intraocular como endoftalmitis estéril, uveítis, y vitritis, desprendimiento de retina, desgarro del epitelio pigmentoso de la retina, presión intraocular aumentada, hemorragia intraocular como hemorragia del vítreo o hemorragia retiniana y hemorragia conjuntival. Algunas de estas reacciones han conllevado a pérdida de visión en diferentes grados, incluyendo ceguera permanente.
+ Efectos sistémicos tras uso intravítreo
+ Tras un tratamiento anti-VEGF intravítreo se ha demostrado una reducción de la concentración del VEGF circulante. Se han notificado reacciones adversas sistémicas incluyendo hemorragias no oculares y reacciones tromboembólicas arteriales seguidos de la administración intravítrea de inhibidores del VEGF.
+ Insuficiencia ovárica/ fertilidad
+ Avastin puede afectar a la fertilidad de la mujer (ver secciones 4.6 y 4.8). Por lo tanto, antes de comenzar el tratamiento con Avastin se debe consultar con las mujeres en edad fértil las estrategias para mantener la fertilidad.
+ ExcipientesEste medicamento contiene menos de 23 mg de sodio (1 mmol) por vial; esto es, esencialmente “exento de sodio”.
+ Este medicamento contiene 1,6 mg de polisorbato 20 en cada vial de 100 mg/4 ml y 6,4 mg en cada vial de 400 mg/16 ml que equivale a 0,4 mg/ml. Los polisorbatos pueden provocar reacciones alérgicas.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Efecto de agentes antineoplásicos en la farmacocinética de bevacizumab
+ No se observaron interacciones clínicamente relevantes en la farmacocinética de bevacizumab con la administración concomitante de quimioterapia según los resultados del análisis farmacocinético poblacional. En los pacientes tratados con Avastin en monoterapia no hubo diferencias estadísticamente significativas ni clínicamente relevantes en el aclaramiento de bevacizumab en comparación con los pacientes tratados con Avastin en combinación con interferón alfa 2a, erlotinib o quimioterapias (IFL, 5-FU/LV, carboplatino/paclitaxel, capecitabina, doxorrubicina o cisplatino/gemcitabina).
+ Efecto de bevacizumab en la farmacocinética de otros agentes antineoplásicos
+ No se observaron interacciones clínicamente relevantes de bevacizumab en la farmacocinética de la administración concomitante de interferón alfa 2a, erlotinib (y su metabolito activo OSI-420), o quimioterapia con irinotecán (y su metabolito activo SN38), capecitabina, oxiplatino (que se determinó midiendo los niveles de platino libre y total), y cisplatino. No se pudieron extraer conclusiones del efecto de bevacizumab en la farmacocinética de gemcitabina.
+ Combinación de bevacizumab y maleato de sunitinib
+ En dos ensayos clínicos de carcinoma de células renales metastásico, se notificó anemia hemolítica microangiopática (MAHA) en 7 de 19 pacientes tratados con la combinación de bevacizumab (10 mg/kg cada dos semanas) y maleato de sunitinib (50 mg diarios).
+ MAHA es un trastorno hemolítico que se puede presentar con fragmentación de glóbulos rojos, anemia y trombocitopenia. Además, en algunos de los pacientes se observó hipertensión (incluyendo crisis hipertensiva), creatinina elevada y síntomas neurológicos. Todos estos acontecimientos fueron reversibles tras la retirada de bevacizumab y maleato de sunitinib (ver Hipertensión, Proteinuria y Síndrome de Encefalopatía Reversible Posterior en la sección 4.4).
+ Combinación con tratamientos basados en platino o taxanos (ver secciones 4.4 y 4.8)
+ Se han observado un aumento en las tasas de neutropenia grave, neutropenia febril, o infección con o sin neutropenia grave (incluyendo algunos casos mortales), principalmente en pacientes tratados con terapias basadas en platino o taxanos en el tratamiento del CPNM o CMm.
+ Radioterapia
+ No se han establecido la seguridad y la eficacia de la administración concomitante de radioterapia y Avastin.
+ Anticuerpos monoclonales dirigidos al EGFR en combinación con diferentes regímenes de bevacizumab
+ No se han realizado estudios de interacción. Para el tratamiento del CCRm los anticuerpos monoclonales dirigidos al EGFR no se deben administrar en combinación con regímenes de quimioterapia que contengan bevacizumab. Los resultados de dos estudios aleatorizados, fase III, PACCE y CAIRO-2 en pacientes con CCRm, sugieren que el uso de anticuerpos monoclonales anti-EGFR, panitumumab y cetuximab respectivamente, en combinación con bevacizumab más quimioterapia, se asocia a un descenso de la SLP y/o de la SG y con un incremento de la toxicidad, si se compara con bevacizumab más regímenes de quimioterapia solo.
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ Las mujeres en edad fértil deben utilizar métodos anticonceptivos efectivos durante el tratamiento (y hasta 6 meses después del mismo).
+ Embarazo
+ No existen ensayos clínicos con datos sobre el tratamiento con Avastin en mujeres embarazadas. Los estudios realizados en animales han mostrado toxicidad reproductiva incluyendo malformaciones (ver sección 5.3). Dado que se sabe que las IgGs atraviesan la placenta, se espera que Avastin inhiba la angiogénesis en el feto, y, por lo tanto, se sospecha que provoca defectos congénitos graves si se administra durante el embarazo. En la experiencia poscomercialización, se han observado casos de anomalías fetales en mujeres tratadas con bevacizumab solo o en combinación con quimioterápicos embriotóxicos conocidos (ver sección 4.8). Avastin está contraindicado durante el embarazo (ver sección 4.3).
+ Lactancia
+ No se sabe si bevacizumab se excreta en la leche materna. Dado que la IgG materna se excreta en la leche y que bevacizumab puede afectar negativamente al crecimiento y desarrollo del niño (ver sección 5.3), se debe interrumpir la lactancia materna durante la terapia y durante al menos los 6 meses posteriores a la administración de la última dosis de Avastin.
+ Fertilidad
+ Estudios de toxicidad de dosis repetidas en animales han demostrado que bevacizumab podría tener un efecto adverso sobre la fertilidad femenina (ver sección 5.3). Un subestudio con mujeres premenopáusicas de un ensayo en fase III para el tratamiento adyuvante de pacientes con cáncer de colon, mostró una mayor incidencia de nuevos casos de insuficiencia ovárica en el grupo de bevacizumab comparado con el grupo control. En la mayoría de las pacientes, tras retirar el tratamiento con bevacizumab se recuperó la función ovárica. Se desconoce el efecto a largo plazo del tratamiento con bevacizumab en la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de Avastin sobre la capacidad para conducir y utilizar máquinas es nula o insignificante. Sin embargo, se ha notificado somnolencia y síncope con el uso de Avastin (ver Tabla 1 en la sección 4.8). Si los pacientes experimentan síntomas que afectan a su visión o concentración, o su capacidad de reacción, deben ser advertidos de no conducir y utilizar máquinas hasta que los síntomas desaparezcan.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ El perfil de seguridad global de Avastin está basado en los datos de más de 5.700 pacientes con varios tipos de cáncer, tratados en su mayoría con Avastin en combinación con quimioterapia en ensayos clínicos.
+ Las reacciones adversas más graves fueron:
+ Perforaciones gastrointestinales (ver sección 4.4).
+ Hemorragia, incluyendo hemorragia pulmonar/hemoptisis, más frecuente en pacientes con cáncer de pulmón no microcítico (ver sección 4.4).
+ Tromboembolismo arterial (ver sección 4.4).
+ En los ensayos clínicos, las reacciones adversas observadas globalmente con mayor frecuencia en pacientes tratados con Avastin fueron hipertensión, fatiga o astenia, diarrea y dolor abdominal.
+ Los análisis de los datos de seguridad clínica sugieren que la incidencia de hipertensión y proteinuria durante la terapia con Avastin probablemente sea dosis-dependiente.
+ Tabla de reacciones adversas
+ Las reacciones adversas enumeradas en esta sección se clasifican por frecuencia en las siguientes categorías. Muy comunes (≥ 1/10); comunes (≥ 1/100 y < 1/10); poco comunes (≥ 1/1 000 y < 1/100); raras (≥ 1/10 000 y < 1/1 000); muy raras (< 1/10 000); frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Las Tablas 1 y 2 enumeran las reacciones adversas asociadas con el uso de Avastin en combinación con diferentes regímenes de quimioterapia en múltiples indicaciones, según la clasificación de órganos del sistema MedDRA.
+ La Tabla 1 muestra reacciones adversas clasificadas por frecuencia. Se determinó que éstas tenían una relación causal con Avastin a través de:
+ incidencias relativas observadas entre los brazos de tratamiento del ensayo clínico (al menos con una diferencia del 10% de reacciones NCI-CTCAE de Grado 1-5 o al menos con una diferencia del 2% de reacciones NCI-CTCAE de Grado 3-5)
+ estudios de seguridad post-autorización,
+ la notificación espontánea,
+ los estudios epidemiológicos/no intervencionales o los estudios observacionales,
+ o a través de la evaluación de notificaciones de casos individuales.
+ La Tabla 2 muestra la frecuencia de reacciones adversas graves. Las reacciones graves se definen como acontecimientos adversos con al menos una diferencia del 2% en comparación con el brazo de control en los estudios clínicos para reacciones NCI-CTCAE de Grado 3-5. La Tabla 2 también incluye las reacciones adversas que son consideradas por el TAC como clínicamente significativas o graves.
+ En ambas Tablas 1 y 2 se incluyen las reacciones adversas poscomercialización, según corresponda. La información detallada sobre estas reacciones posteriores a la comercialización se muestra en la Tabla 3.
+ Las reacciones adversas se incluyen en la categoría de frecuencia apropiada en las tablas que están a continuación según la incidencia más alta observada en cualquier indicación.
+ Las reacciones adversas se enumeran en orden decreciente de gravedad dentro de cada intervalo de frecuencia.
+ Algunas de las reacciones adversas son reacciones observadas frecuentemente con la quimioterapia; no obstante, Avastin puede exacerbar estas reacciones cuando se combina con agentes quimioterápicos. Los ejemplos incluyen el síndrome de eritrodisestesia palmo-plantar con doxorrubicina liposomal pegilada o capecitabina, neuropatía sensorial periférica con paclitaxel u oxaliplatino, alteraciones de las uñas o alopecia con paclitaxel y paroniquia con erlotinib.
+ Tabla 1: Reacciones adversas clasificadas por frecuencia
+ Sistema de
+ clasificación de
+ órganos
+ | 
+ Muy frecuentes
+ | 
+ Frecuentes
+ | 
+ Poco
+ frecuentes
+ | 
+ Raras
+ | 
+ Muy raras
+ | 
+ Frecuencia
+ no conocida
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ | 
+ Sepsis,
+ Abscesob,d,
+ Celulitis, Infección,
+ Infección en el tracto urinario
+ | 
+ | 
+ Fascitis
+ necrosantea
+ | 
+ | 
+ | 
+ Trastornos de la
+ sangre y del
+ sistema linfático
+ | 
+ Neutropenia
+ febril
+ Leucopenia
+ Neutropeniab
+ Trombocitopenia
+ | 
+ Anemia,
+ Linfopenia
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ sistema
+ inmunológico
+ | 
+ | 
+ Hipersensibilidad,
+ reacciones a la
+ perfusión a,b,d
+ | 
+ | 
+ Shock
+ anafiláctico
+ | 
+ | 
+ | 
+ Trastornos del
+ metabolismo y
+ de la nutrición
+ | 
+ Anorexia
+ Hipomagnesemia
+ Hiponatremia
+ | 
+ Deshidratación
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ sistema nervioso
+ | 
+ Neuropatía
+ sensorial
+ periféricab
+ Disartria,
+ Cefalea,
+ Disgeusia
+ | 
+ Accidente
+ cerebrovascular,
+ Síncope,
+ Somnolencia
+ | 
+ | 
+ Síndrome de
+ encefalopatía
+ posterior
+ reversiblea,b,d
+ | 
+ Encefalopatía
+ hipertensivaa
+ | 
+ | 
+ Trastornos
+ oculares
+ | 
+ Trastorno ocular,
+ Lagrimeo aumentado
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ cardíacos
+ | 
+ | 
+ Insuficiencia
+ cardíaca
+ congestivab,d
+ Taquicardia
+ supraventricular
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ vasculares
+ | 
+ Hipertensiónb,d,
+ Trombo-
+ embolismo
+ (venoso)b,d
+ | 
+ Tromboembolismo
+ (arterial)b,d
+ Hemorragiab,d
+ Trombosis venosa
+ profunda
+ | 
+ | 
+ | 
+ | 
+ Micro-
+ angiopatía renal
+ trombóticaa,b,
+ Microangiopatía
+ glomerular
+ oclusiva
+ hialinaa
+ Aneurismas y
+ disecciones
+ arteriales
+ | 
+ Trastornos
+ respiratorios,
+ torácicos y
+ mediastínicos
+ | 
+ Disnea,
+ Rinitis
+ Epistaxis
+ Tos
+ | 
+ Hemorragia
+ pulmonar/
+ Hemoptisisb,d,
+ Embolia
+ pulmonar,
+ Hipoxia
+ Disfoníaa
+ | 
+ | 
+ | 
+ | 
+ Hipertensión
+ pulmonara,
+ Perforación
+ del tabique
+ nasala
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ Hemorragia
+ rectal,
+ Estomatitis,
+ Estreñimiento,
+ Diarrea,
+ Náuseas,
+ Vómitos,
+ Dolor abdominal
+ | 
+ Perforación
+ gastrointestinalb,d
+ Perforación
+ intestinal
+ Íleo
+ Obstrucción
+ intestinal,
+ Fístulas recto-
+ vaginalesd,e,
+ Trastorno gastrointestinal,
+ Proctalgia
+ | 
+ | 
+ | 
+ | 
+ Úlcera gastro-
+ intestinala
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Perforación
+ de la vesícula
+ biliara,b
+ | 
+ Trastornos de la
+ piel y del tejido
+ subcutáneo
+ | 
+ Complicaciones
+ en la cicatrización
+ de heridasb,d,
+ Dermatitis
+ exfoliativa,
+ Piel seca,
+ Decoloración de
+ la piel
+ | 
+ Síndrome de
+ eritrodisestesia
+ palmo-plantar
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ musculoesque-
+ léticos y del
+ tejido
+ conjuntivo
+ | 
+ Artralgia
+ Mialgia
+ | 
+ Fístulab,d
+ Debilidad,
+ muscular,
+ Dolor de espalda
+ | 
+ | 
+ | 
+ | 
+ Osteonecrosis
+ de la
+ mandíbulaa,b
+ Osteonecrosis
+ no
+ mandibulara,f
+ | 
+ Trastornos
+ renales y
+ urinarios
+ | 
+ Proteinuriab,d
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del aparato
+ reproductor y de
+ la mama
+ | 
+ Insuficiencia
+ ováricab,c,d
+ | 
+ Dolor pélvico
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ congénitos,
+ familiares y
+ genéticos
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Anomalías
+ fetalesa,b
+ | 
+ Trastornos
+ generales y
+ alteraciones en
+ el lugar de
+ administración
+ | 
+ Astenia,
+ Fatiga,
+ Fiebre,
+ Dolor,
+ Inflamación de la
+ mucosa
+ | 
+ Letargia
+ | 
+ | 
+ | 
+ | 
+ | 
+ Exploraciones
+ complementarias
+ | 
+ Pérdida de peso
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cuando en los ensayos clínicos se observaron reacciones adversas en todos los grados y de grado 3-5, se ha notificado la frecuencia más alta observada en los pacientes.
+ Los datos no están ajustados para los diferentes tiempos de tratamiento.
+ a Para más información, consulte la Tabla 3 “Reacciones adversas notificadas durante la experiencia poscomercialización”.
+ b Los términos representan un grupo de acontecimientos adversos que describen un concepto médico en lugar de una sola afección o términos de referencia de MedDRA (Diccionario Médico para Actividades Regulatorias). Este conjunto de términos médicos puede implicar la misma fisiopatología subyacente (ej., agrupación de reacciones tromboembólicas arteriales incluyendo accidente cerebrovascular, infarto de miocardio, accidente isquémico transitorio y otras reacciones tromboembólicas arteriales).
+ c Basado en un subestudio del NSABP C-08 con 295 pacientes.
+ d Para obtener información adicional, consulte más adelante en la sección “Información adicional sobre reacciones adversas graves seleccionadas”.
+ e Las Fístulas recto-vaginales son las fístulas más frecuentes en la categoría de fístula GI-vaginal.
+ f Observado sólo en población pediátrica
+ Tabla 2: Reacciones adversas graves clasificadas por frecuencia
+ Sistema de
+ clasificación de
+ órganos
+ | 
+ Muy frecuentes
+ | 
+ Frecuentes
+ | 
+ Poco
+ frecuentes
+ | 
+ Raras
+ | 
+ Muy raras
+ | 
+ Frecuencia
+ no conocida
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ | 
+ Sepsis,
+ Celulitis
+ Abscesoa,b ,
+ Infección
+ Infección en el
+ tracto urinario
+ | 
+ | 
+ | 
+ | 
+ Fascitis
+ necrosante
+ | 
+ Trastornos de la
+ sangre y del
+ sistema linfático
+ | 
+ Neutropenia
+ febril,
+ Leucopenia,
+ Neutropeniaa,
+ Trombocitopenia
+ | 
+ Anemia,
+ Linfopenia
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ sistema
+ inmunológico
+ | 
+ | 
+ Hipersensibilidad,
+ reacciones a la
+ perfusióna,b,c
+ | 
+ | 
+ Shock
+ anafiláctico
+ | 
+ | 
+ | 
+ Trastornos del
+ metabolismo y
+ de la nutrición
+ | 
+ | 
+ Deshidratación
+ Hiponatremia
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ sistema nervioso
+ | 
+ Neuropatía
+ sensorial
+ periféricaa
+ | 
+ Accidente
+ cerebrovascular,
+ Síncope,
+ Somnolencia,
+ Cefalea
+ | 
+ | 
+ | 
+ | 
+ Síndrome de
+ encefalopatía
+ posterior
+ reversible
+ a,b,c,,
+ Encefalopatía
+ hipertensivac
+ | 
+ Trastornos
+ cardíacos
+ | 
+ | 
+ Insuficiencia
+ cardíaca
+ congestivaa,b,
+ Taquicardia
+ supraventricular
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ vasculares
+ | 
+ Hipertensióna,b
+ | 
+ Tromboembolismo
+ (arterial)a,b,
+ Hemorragiaa,b,
+ Tromboembolismo
+ (venoso)a,b,
+ Trombosis venosa
+ profunda
+ | 
+ | 
+ | 
+ | 
+ Microangiopatía
+ trombótica
+ renal b,c,
+ Microangiopatía
+ glomerular oclusiva
+ hialinaa
+ Aneurismas
+ y
+ disecciones
+ arteriales
+ | 
+ Trastornos
+ respiratorios,
+ torácicos y
+ mediastínicos
+ | 
+ | 
+ Hemorragia pulmonar/
+ Hemoptisisa,b,
+ Embolia pulmonar,
+ Epistaxis,
+ Disnea,
+ Hipoxia,
+ | 
+ | 
+ | 
+ | 
+ Hipertensión
+ pulmonarc,
+ Perforación
+ del tabique
+ nasal
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ Diarrea,
+ Náuseas,
+ Vómitos,
+ Dolor
+ abdominal
+ | 
+ Perforación
+ intestinal,
+ Íleo,
+ Obstrucción
+ intestinal,
+ Fístulas recto-vaginalesc,d,
+ Trastorno
+ gastrointestinal,
+ Estomatitis,
+ Proctalgia
+ | 
+ | 
+ | 
+ | 
+ Perforación
+ gastrointestinala,b,
+ Úlcera
+ gastrointestinalc,
+ Hemoragia
+ rectal
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Perforación
+ de la
+ vesicular
+ biliarb,c
+ | 
+ Trastornos de la
+ piel y del tejido
+ subcutáneo
+ | 
+ | 
+ Complicaciones en
+ la cicatrización de
+ heridasa,b,,
+ Síndrome de
+ eritrodisestesia
+ palmoplantar
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ musculoesque-
+ léticos y del
+ tejido
+ conjuntivo
+ | 
+ | 
+ Fístulaa,b
+ Mialgia,
+ Artralgia,
+ Debilidad muscular,
+ Dolor de espalda
+ | 
+ | 
+ | 
+ | 
+ ,
+ Osteonecrosis
+ mandibularb,c
+ | 
+ Trastornos
+ renales y
+ urinarios
+ | 
+ | 
+ Proteinuriaa,b
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ aparato
+ reproductor y de
+ la mama
+ | 
+ | 
+ Dolor pélvico
+ | 
+ | 
+ | 
+ | 
+ Insuficiencia
+ ováricaa,b
+ | 
+ Trastornos
+ congénitos,
+ familiares y
+ genéticos
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Anomalías
+ fetalesa,b
+ | 
+ Trastornos
+ generales y
+ alteraciones en
+ el lugar de
+ administración
+ | 
+ Astenia,
+ Fatiga
+ | 
+ Dolor,
+ Letargia,
+ Inflamación de la
+ mucosa
+ | 
+ | 
+ | 
+ | 
+ | 
+ La Tabla 2 muestra la frecuencia de reacciones adversas graves. Las reacciones graves se definen como acontecimientos adversos con una diferencia del 2% en comparación con el brazo de control en los estudios clínicos para reacciones NCI-CTCAE de Grado 3-5. La Tabla 2 también incluye las reacciones adversas que son consideradas por el TAC como clínicamente significativas o graves. Estas reacciones adversas clínicamente significativas se notificaron en los ensayos clínicos, pero las reacciones de grado 3-5 no cumplieron el umbral de al menos un 2% de diferencia en comparación con el brazo de control. La Tabla 2 también incluye las reacciones adversas clínicamente significativas que se observaron sólo posteriormente a la comercialización, por lo tanto, se desconoce la frecuencia y el grado de NCI-CTCAE. Estas reacciones clínicamente significativas, por tanto, han sido incluidos en la Tabla 2 en la columna titulada "Frecuencia no conocida”.
+ a Los términos representan un grupo de acontecimientos adversos que describen un concepto médico en lugar de una sola afección o términos de referencia de MedDRA (Diccionario Médico para Actividades Regulatorias). Este conjunto de términos médicos puede implicar la misma fisiopatología subyacente (ej., las reacciones tromboembólicas arteriales incluyen accidente cerebrovascular, infarto de miocardio, accidente isquémico transitorio y otras reacciones tromboembólicas arteriales).
+ b Para obtener información adicional, consulte más adelante en la sección “Descripción de reacciones adversas graves seleccionadas”.
+ c Para obtener información adicional, consulte la Tabla 3 “Reacciones adversas notificadas durante la experiencia poscomercialización”.
+ d Las fístulas recto-vaginales son las fístulas más frecuentes dentro de la categoría de fístula GI-vaginal.
+ Descripción de reacciones adversas graves seleccionadas
+ Perforaciones gastrointestinales (GI) y Fístulas (ver sección 4.4)
+ Se ha asociado el uso de Avastin con casos graves de perforación gastrointestinal.
+ En los ensayos clínicos se han notificado casos de perforaciones gastrointestinales con una incidencia de menos del 1% en pacientes con cáncer de pulmón no microcítico, hasta un 1,3% en pacientes con cáncer de mama metastásico, hasta un 2% en pacientes con cáncer de células renales metastásico o en pacientes con cáncer de ovario, y hasta un 2,7% en pacientes con cáncer colorrectal metastásico (incluyendo fistula gastrointestinal y absceso). Del ensayo clínico (GOG-0240) en pacientes con cáncer de cérvix persistente, recurrente o metastásico, se notificaron perforaciones GI (todos los grados) en el 3,2% de los pacientes, todos tenían antecedentes de radiación pélvica previa.
+ Hubo diferencia en el tipo y gravedad de aparición de estos acontecimientos, comprendiendo desde la presencia de aire libre detectada en radiografía simple de abdomen, que se resolvió sin necesidad de tratamiento, hasta la perforación intestinal con absceso abdominal y desenlace mortal. Algunos casos ya presentaban inflamación intrabdominal subyacente como consecuencia de úlcera gástrica, necrosis tumoral, diverticulitis o de colitis asociada a la quimioterapia.
+ Se notificó un desenlace mortal en aproximadamente un tercio de los casos graves de perforaciones gastrointestinales, los cuales representan entre el 0,2%-1% de todos los pacientes tratados con Avastin.
+ En ensayos clínicos con Avastin se han notificado fístulas gastrointestinales (todos los grados) con una incidencia de hasta el 2% en pacientes con cáncer colorrectal metastásico y cáncer de ovario, aunque también se notificaron con menos frecuencia en pacientes con otros tipos de cáncer.
+ Fístulas GI-vaginales en el estudio GOG-0240
+ En un ensayo con pacientes con cáncer de cérvix persistente, recurrente o metastásico, la incidencia de fístulas GI-vaginales fue del 8,3% en pacientes tratados con Avastin y del 0,9% en pacientes control, todos ellos tenían antecedentes de radiación pélvica previa. La frecuencia de fístulas GI-vaginales en el grupo tratado con Avastin + quimioterapia fue mayor en pacientes con recurrencia de la enfermedad dentro del campo previamente radiado (16,7%) comparado con pacientes sin radiación previa y/o sin recurrencia dentro del campo previamente radiado (3,6 %). Las frecuencias correspondientes en el grupo control que recibió únicamente quimioterapia fueron del 1,1 % frente al 0,8% respectivamente. Los pacientes que desarrollen fístulas GI-vaginales pueden tener también obstrucciones intestinales y requerir intervención quirúrgica, así como ostomía derivativa.
+ Fístulas no-GI (ver sección 4.4)
+ El uso de Avastin se ha asociado con casos graves de fístulas incluyendo reacciones con desenlace mortal.
+ Del ensayo clínico (GOG-240) en pacientes con cáncer de cérvix persistente, recurrente o metastásico, se notificó que el 1,8% de los pacientes tratados con Avastin y el 1,4% de los pacientes del grupo control habían tenido fístulas no gastrointestinales vaginales, vesicales o del tracto genital femenino.
+ En varias indicaciones se observaron casos poco frecuentes (≥ 0,1% y < 1%) de fístulas que implican a otras partes del organismo diferentes del tracto gastrointestinal (p. ej. fístulas broncopleurales y biliares). También se han notificado fístulas durante la experiencia poscomercialización.
+ Las reacciones se notificaron en distintos momentos del tratamiento, desde la primera semana hasta pasado el primer año desde el inicio del tratamiento con Avastin, produciéndose la mayoría de las reacciones dentro de los 6 primeros meses de tratamiento.
+ Cicatrización de heridas (ver sección 4.4)
+ Debido a que Avastin puede tener un impacto negativo en la cicatrización de heridas, se excluyeron de los ensayos clínicos fase III aquellos pacientes que se habían sometido a cirugía mayor en los últimos 28 días.
+ En los ensayos clínicos de carcinoma metastásico de colon o recto, los pacientes que habían sido sometidos a cirugía mayor entre los 28 y los 60 días antes de iniciar la terapia con Avastin no presentaron un aumento del riesgo de hemorragia postoperatoria ni se observaron complicaciones en la cicatrización de heridas. Se observó que, si los pacientes estaban siendo tratados con Avastin en el momento de la cirugía, presentaban un aumento del riesgo de hemorragia postoperatoria o complicaciones en la cicatrización de heridas en los 60 días siguientes a la cirugía mayor. La incidencia osciló entre el 10% (4/40) y el 20% (3/15).
+ Se han notificado complicaciones graves en la cicatrización de heridas, incluyendo complicación de una anastomosis, algunas de las cuales con resultado de muerte.
+ En los ensayos de cáncer de mama localmente recidivante y metastásico se observaron complicaciones en la cicatrización de heridas de Grado 3-5 hasta en un 1,1% de los pacientes tratados con Avastin comparado con hasta un 0,9% de los pacientes en los brazos control (NCI-CTCAE v.3).
+ En ensayos clínicos de cáncer de ovario, se observaron complicaciones en la cicatrización de heridas de Grado 3-5 hasta en un 1,8% de los pacientes del brazo de bevacizumab frente al 0,1% del brazo control (NCI-CTCAE v.3).
+ Hipertensión (ver sección 4.4)
+ En los ensayos clínicos, a excepción del estudio JO25567, la incidencia global de hipertensión (todos los grados) fue de hasta un 42,1% en los brazos que incluyeron Avastin comparado con hasta el 14% en los brazos control. La incidencia global NCI-CTC de la hipertensión de Grado 3 y 4 se produjo en 0,4% al 17,9% de los pacientes tratados con Avastin. La hipertensión de Grado 4 (crisis hipertensiva) se produjo en hasta un 1,0% de los pacientes tratados con Avastin y quimioterapia comparado con hasta el 0,2% de los pacientes tratados con la misma quimioterapia sola.
+ En el estudio JO25567, se observaron todos los grados de hipertensión en el 77,3% de los pacientes que recibieron Avastin en combinación con erlotinib como primera línea de tratamiento para CPNM no escamoso con mutaciones activadoras en EGFR, en comparación con el 14,3% de los pacientes tratados con erlotinib solo. La hipertensión de Grado 3 se produjo en el 60,0% de los pacientes tratados con Avastin en combinación con erlotinib en comparación con el 11,7% de los pacientes tratados con erlotinib solo. No hubo acontecimientos de hipertensión de grado 4 o 5.
+ En general, la hipertensión se controló adecuadamente con antihipertensivos orales tales como inhibidores de la enzima convertidora de angiotensina, diuréticos y bloqueadores de los canales de calcio. Rara vez fue necesaria la interrupción del tratamiento con Avastin o la hospitalización.
+ Se han notificado casos muy raros de encefalopatía hipertensiva, algunos de los cuales fueron mortales.
+ No existe una correlación entre el riesgo de hipertensión asociada al tratamiento con Avastin y las características basales de los pacientes, la enfermedad subyacente o la terapia concomitante.
+ Síndrome de Encefalopatía Reversible Posterior (ver sección 4.4)
+ Se han notificado casos raros de pacientes tratados con Avastin que desarrollan signos y síntomas consistentes con el Síndrome de Encefalopatía Reversible Posterior (SERP), un caso raro de trastorno neurológico. Su manifestación puede incluir convulsiones, dolor de cabeza, estado mental alterado, alteraciones visuales, o ceguera cortical, con o sin hipertensión asociada. Las características clínicas del SERP son, a menudo, inespecíficas, y, por lo tanto, el diagnóstico de SERP requiere confirmación mediante técnicas de imagen cerebral, preferiblemente resonancia magnética (RM).
+ En pacientes que desarrollan SERP, se recomienda un reconocimiento temprano de los síntomas, con un tratamiento oportuno de los síntomas específicos, incluyendo control de la hipertensión (si está asociado con hipertensión grave no controlada), además de interrumpir el tratamiento con bevacizumab. Los síntomas normalmente se resuelven o mejoran en los días posteriores a la interrupción del tratamiento, aunque algunos pacientes han experimentado algunas secuelas neurológicas. No se conoce la seguridad de la reiniciación del tratamiento con Avastin en pacientes que hayan experimentado previamente SERP.
+ A través de los ensayos clínicos, se han notificado 8 casos de SERP. Dos de los ocho casos no tuvieron confirmación radiológica por RM.
+ Proteinuria (ver sección 4.4)
+ En los ensayos clínicos, se han notificado casos de proteinuria en un intervalo desde el 0,7% hasta el 54,7% de los pacientes tratados con Avastin.
+ La gravedad de la proteinuria varió desde clínicamente asintomática, transitoria, indicios de proteinuria hasta síndrome nefrótico, siendo la gran mayoría de los casos proteinuria de Grado 1 (NCI-CTCAE v.3). Se registró proteinuria de Grado 3 hasta en un 10,9% de los pacientes tratados. La proteinuria de Grado 4 (síndrome nefrótico) se observó en hasta el 1,4% de los pacientes tratados. Se recomienda hacer pruebas de proteinuria antes de comenzar el tratamiento con Avastin. En la mayoría de los ensayos clínicos donde los niveles de proteínas en la orina fueron ≥ 2 g/24 h, el tratamiento con Avastin fue suspendido hasta la recuperación de niveles < 2 g/24 h.
+ Hemorragia (ver sección 4.4)
+ En los ensayos clínicos en todas las indicaciones, la incidencia global de reacciones hemorrágicas de Grado 3-5 según la escala NCI-CTCAE v.3, osciló desde 0,4% hasta 6,9% en los pacientes tratados con Avastin, comparado con hasta un 4,5% de los pacientes en el grupo de quimioterapia control.
+ Del ensayo clínico (GOG-0240) en pacientes con cáncer de cérvix persistente, recurrente o metastásico, se han notificado reacciones hemorrágicas de Grado 3-5 en hasta el 8,3% de los pacientes tratados con Avastin en combinación con paclitaxel y topotecán comparado con hasta el 4,6% de pacientes tratados con paclitaxel y topotecán.
+ Las reacciones hemorrágicas observadas en los ensayos clínicos fueron en su mayoría hemorragias asociadas al tumor (ver más adelante) y hemorragias mucocutáneas menores (p.ej, epistaxis).
+ Hemorragias asociadas al tumor (ver sección 4.4)
+ La hemorragia pulmonar/hemoptisis grave o masiva se ha observado principalmente en ensayos con pacientes con cáncer de pulmón no microcítico (CPNM). Los posibles factores de riesgo incluyen histología de células escamosas, tratamiento con fármacos antirreumáticos/antiinflamatorios, tratamiento con anticoagulantes, radioterapia previa, tratamiento con Avastin, historial médico previo de aterosclerosis, localización del tumor central y cavitación de tumores antes o durante el tratamiento. Las únicas variables que mostraron una correlación estadísticamente significativa con la hemorragia fueron el tratamiento con Avastin y la histología de células escamosas. Los pacientes con CPNM con un tipo histológico diagnosticado de células escamosas o con histología de tipo celular mixto con predominio de células escamosas se excluyeron de los ensayos fase III posteriores, mientras que los pacientes con histología tumoral desconocida sí se incluyeron.
+ En pacientes con CPNM excluyendo los que tenían una histología con predominio de células escamosas, se observaron reacciones de todos los Grados con una frecuencia de hasta el 9,3% en los pacientes tratados con Avastin + quimioterapia comparado con hasta el 5% en los pacientes tratados con quimioterapia sola. Las reacciones de Grado 3-5 se han observado en hasta el 2,3% de los pacientes tratados con Avastin + quimioterapia comparado con < 1% con quimioterapia sola (NCI-CTCAE v.3). La hemorragia pulmonar/hemoptisis grave o masiva puede presentarse de forma repentina y hasta dos tercios de las hemorragias pulmonares graves tuvieron un desenlace mortal.
+ En pacientes con cáncer colorrectal se han notificado hemorragias gastrointestinales, incluyendo hemorragia rectal y melena, y se evaluaron como hemorragias asociadas al tumor.
+ También se observaron casos raros de hemorragias asociadas al tumor en otros tipos y localizaciones tumorales, incluyendo casos de hemorragia en el sistema nervioso central (SNC) en pacientes con metástasis en el SNC (ver sección 4.4).
+ No se evaluó de manera prospectiva en los ensayos clínicos aleatorizados la incidencia de hemorragia en el SNC en pacientes con metástasis no tratadas localizadas en el SNC que recibieron bevacizumab. En un análisis exploratorio retrospectivo de los datos de 13 ensayos aleatorizados finalizados en pacientes con distintos tipos de tumores; 3 pacientes de 91 (3,3%) con metástasis cerebral experimentaron hemorragia del SNC (todas de Grado 4) cuando fueron tratados con bevacizumab, en comparación con 1 caso (Grado 5) de 96 pacientes (1%) cuando no fueron tratados con bevacizumab.
+ En dos ensayos posteriores en pacientes con metástasis cerebrales tratadas (que incluyeron alrededor de 800 pacientes), cuando se realizó el análisis de seguridad provisional se notificó un caso de Grado 2 de hemorragia en el SNC (1,2%) en los 83 pacientes tratados con bevacizumab (NCI-CTCAE v.3).
+ Durante todos los ensayos clínicos, se observó hemorragia mucocutánea hasta en un 50% de los pacientes tratados con Avastin. Lo más frecuente fueron casos de epistaxis de Grado 1 según la escala NCI-CTCAE v.3 que duraron menos de 5 minutos, se resolvieron sin necesidad de tratamiento médico y no requirieron ningún cambio en el régimen de tratamiento con Avastin. Los datos clínicos de seguridad sugieren que la incidencia de hemorragias mucocutáneas menores (p.ej. epistaxis) puede ser dependiente de la dosis.
+ Asimismo, con menor frecuencia se produjeron reacciones hemorrágicas mucocutáneas menores en otras localizaciones, tales como hemorragia gingival o hemorragia vaginal.
+ Tromboembolismo (ver sección 4.4)
+ Tromboembolismo arterial: En los pacientes tratados con Avastin en todas las indicaciones, se observó un aumento en la incidencia de reacciones tromboembólicas arteriales, incluyendo accidentes cerebrovasculares, infartos de miocardio, ataques isquémicos transitorios y otras reacciones tromboembólicas arteriales.
+ En los ensayos clínicos, la incidencia global de las reacciones tromboembólicas arteriales fue de hasta un 3,8% en los brazos que incluyeron Avastin comparado con hasta el 2,1% en los brazos de quimioterapia control. Se notificó desenlace mortal en el 0,8% de los pacientes tratados con Avastin comparado con el 0,5% de los pacientes tratados con quimioterapia sola. Se notificaron accidentes cerebrovasculares (incluyendo ataques isquémicos transitorios) en hasta el 2,7% de los pacientes tratados con Avastin en combinación con quimioterapia comparado con hasta el 0,5% de los pacientes tratados con quimioterapia sola. Se notificó infarto de miocardio en hasta el 1,4% de los pacientes tratados con Avastin en combinación con quimioterapia comparado con hasta el 0,7% de los pacientes tratados con quimioterapia sola.
+ En un ensayo clínico para evaluar Avastin en combinación con 5-fluorouracilo/ácido folínico, AVF2192g, se incluyeron pacientes con cáncer colorrectal metastásico que no eran candidatos para el tratamiento con irinotecán. En este ensayo se observaron reacciones tromboembólicas arteriales en el 11% (11/100) de los pacientes comparado con el 5,8% (6/104) en el grupo de quimioterapia control.
+ Tromboembolismo venoso: La incidencia de reacciones tromboembólicas venosas en los ensayos clínicos fue similar en los pacientes tratados con Avastin en combinación con quimioterapia comparado con aquellos que recibieron sólo la quimioterapia control. Las reacciones tromboembólicas venosas incluyen trombosis venosa profunda, embolismo pulmonar y tromboflebitis.
+ En los ensayos clínicos en todas las indicaciones, la incidencia global de acontecimientos tromboembólicos venosos osciló desde 2,8% hasta 17,3% de los pacientes tratados con Avastin en comparación con el 3,2% hasta 15,6% en los brazos control.
+ Se han notificado reacciones tromboembólicas venosas de Grado 3-5 (NCI-CTCAE v.3) en hasta un 7,8% de los pacientes tratados con quimioterapia + bevacizumab en comparación con hasta un 4,9% en pacientes tratados con quimioterapia sola (en todas las indicaciones, excluyendo cáncer de cérvix persistente, recurrente o metastásico).
+ Del ensayo clínico (GOG-0240) en pacientes con cáncer de cévix persistente, recurrente o metastásico, se han notificado acontecimientos tromboembólicos venosos de Grado 3-5 en hasta el 15,6% de los pacientes tratados con Avastin en combinación con paclitaxel y cisplatino comparado con hasta el 7,0% de los pacientes tratados con paclitaxel y cisplatino.
+ Los pacientes que han sufrido una reacción tromboembólica venosa pueden tener un riesgo mayor de recurrencia con Avastin en combinación con quimioterapia que con quimioterapia sola.
+ Insuficiencia cardíaca congestiva (ICC)
+ En los ensayos clínicos con Avastin, se observó insuficiencia cardíaca congestiva (ICC) en todas las indicaciones de cáncer estudiadas hasta la fecha, aunque tuvo lugar predominantemente en pacientes con cáncer de mama metastásico. En cuatro ensayos fase III en pacientes con cáncer de mama metastásico (AVF2119g, E2100, BO17708 y AVF3694g) se notificó hasta en un 3,5% de los pacientes tratados con Avastin en combinación con quimioterapia ICC de Grado 3 o superior (NCI-CTCAE v.3) en comparación con hasta un 0,9% en los brazos control. En los pacientes del ensayo AVF3694g que recibieron antraciclinas de forma concomitante con bevacizumab, las incidencias de ICC de Grado 3 o superior en los brazos control y con bevacizumab fueron similares a las de otros ensayos en cáncer de mama metastásico: 2,9% en el brazo de antraciclina + bevacizumab y 0% en el brazo de antraciclina + placebo. Además, en el ensayo AVF3694g las incidencias de ICC de cualquier Grado fueron similares entre el brazo de antraciclina + Avastin (6,2%) y el de antraciclina + placebo (6,0%).
+ Tras la terapia clínica apropiada, se observó una mejoría de los síntomas y/o de la función ventricular izquierda en la mayoría de los pacientes que desarrollaron ICC durante los ensayos en CMm.
+ En la mayoría de los ensayos clínicos con Avastin, se excluyeron los pacientes con ICC preexistente de grado II-IV de la NYHA (New York Heart Association), por lo tanto, no se dispone de información relacionada con el riesgo de agravamiento de la ICC en esta población.
+ La exposición previa a antraciclinas y/o la radiación previa sobre la pared torácica puede ser un posible factor de riesgo para el desarrollo de ICC.
+ En un ensayo clínico de pacientes con linfoma difuso de células B grandes, se observó un incremento de la incidencia de ICC cuando recibieron bevacizumab con una dosis acumulada de doxorrubicina superior a 300 mg/m². Este ensayo clínico fase III comparó rituximab/ ciclofosfamida/ doxorrubicina/ vincristina/ prednisona (R-CHOP) más bevacizumab con R-CHOP sin bevacizumab. Mientras que la incidencia de ICC fue, en ambos brazos, superior a la observada previamente para la terapia de doxorrubicina, la tasa fue mayor en el grupo de R-CHOP con bevacizumab. Estos resultados sugieren que se debería considerar una observación clínica estrecha con evaluaciones cardiológicas apropiadas en aquellos pacientes expuestos a dosis de doxorrubicina acumuladas mayores de 300 mg/m² cuando se combine con bevacizumab.
+ Reacciones de hipersensibilidad (incluyendo shock anafiláctico) / reacciones a la perfusión (ver sección 4.4 y Experiencia poscomercialización)
+ En algunos ensayos clínicos, se notificaron reacciones anafilácticas y de tipo anafilactoide con mayor frecuencia en los pacientes que habían recibido Avastin en combinación con quimioterapia que en los que habían recibido quimioterapia sola. La incidencia de estas reacciones en algunos ensayos clínicos con Avastin es frecuente (hasta un 5% en los pacientes tratados con bevacizumab).
+ Infecciones
+ Del ensayo clínico (GOG-0240) en pacientes con cáncer de cérvix persistente, recurrente o metastásico, se han notificado infecciones de grado 3-5 en hasta el 24% de los pacientes tratados con Avastin en combinación con paclitaxel y topotecán comparados con hasta el 13% de los pacientes tratados con paclitaxel y topotecán.
+ Insuficiencia ovárica/fertilidad (ver secciones 4.4 y 4.6)
+ En el ensayo NSABP C-08, fase III de Avastin en el tratamiento adyuvante de pacientes con cáncer de colon, se evaluó en 295 mujeres premenopáusicas la incidencia de nuevos casos de insuficiencia ovárica, definida como amenorrea de 3 o más meses, nivel de FSH ≥ 30 mUI/ml y un valor negativo de β-HCG para test de embarazo. Se notificaron nuevos casos de insuficiencia ovárica en un 2,6% de los pacientes del grupo mFOLFOX-6 en comparación con un 39% del grupo mFOLFOX-6 + bevacizumab. En un 86,2% de estas mujeres evaluadas se recuperó la función ovárica tras la interrupción del tratamiento con bevacizumab. Se desconoce el efecto a largo plazo del tratamiento con bevacizumab en la fertilidad.
+ Anomalías de laboratorio
+ La disminución del recuento de neutrófilos, la disminución del recuento de glóbulos blancos y la presencia de proteínas en la orina pueden estar asociadas con el tratamiento con Avastin.
+ A través de los ensayos clínicos, en pacientes tratados con Avastin, aparecieron anomalías de laboratorio de Grado 3 y 4 (NCI-CTCAE v.3) con al menos un 2% de diferencia en comparación con los grupos control correspondientes: hiperglucemia, disminución de la hemoglobina, hipopotasemia, hiponatremia, disminución del recuento de glóbulos blancos, aumento de la razón normalizada internacional (INR).
+ Los ensayos clínicos han demostrado que los aumentos transitorios de la creatinina sérica (que oscilan entre 1,5-1,9 veces el nivel basal), tanto con y sin proteinuria, están asociados con el uso de Avastin. El aumento observado de la creatinina sérica no se asoció con una mayor incidencia de manifestaciones clínicas de insuficiencia renal en pacientes tratados con Avastin.
+ Otras poblaciones especiales
+ Pacientes de edad avanzada
+ En los ensayos clínicos aleatorizados, la edad > 65 años estaba asociada con un aumento del riesgo de reacciones tromboembólicas arteriales incluyendo accidentes cerebrovasculares, ataques isquémicos transitorios e infartos de miocardio. Otras reacciones durante el tratamiento con Avastin que se observaron con una mayor frecuencia en pacientes mayores de 65 años fueron leucopenia y trombocitopenia de Grado 3-4 (NCI-CTCAE v.3); y neutropenia, diarrea, náuseas, cefalea y fatiga de todos los grados en comparación con los de edad ≤ 65 años (Tromboembolismo, ver secciones 4.4 y 4.8). En un ensayo clínico, la incidencia de hipertensión de grado ≥ 3 fue dos veces más alta en pacientes > 65 años que en el grupo más joven (< 65 años). En un ensayo de pacientes con cáncer de ovario recurrente resistente a platino, fueron también notificadas alopecia, inflamación de las mucosas, neuropatía sensorial periférica, proteinuria e hipertensión y aparecieron con una tasa de al menos un 5% superior en el brazo QT+BV para pacientes tratados con bevacizumab ≥ 65 años en comparación con pacientes tratados con bevacizumab < 65 años.
+ No se observó un aumento en la incidencia de otras reacciones, incluyendo perforación gastrointestinal, complicaciones en la cicatrización, insuficiencia cardíaca congestiva y hemorragia, en los pacientes de edad avanzada (> 65 años) tratados con Avastin en comparación con los pacientes ≤ 65 años tratados con Avastin.
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de Avastin en niños menores de 18 años.
+ En el estudio BO25041 de Avastin añadido a radioterapia (RT) posoperatoria con temozolomida concomitante y adyuvante en pacientes pediátricos con glioma supratentorial, infratentorial, cerebeloso o peduncular de alto grado recién diagnosticado, el perfil de seguridad fue comparable con el observado en otros tipos de tumores en adultos tratados con Avastin.
+ En el estudio BO20924 de Avastin con el tratamiento estándar para sarcoma metastásico de tejidos blandos, rabdomiosarcoma y no-rabdomiosarcoma, el perfil de seguridad de los niños tratados con Avastin fue comparable con el observado en los adultos tratados con Avastin.
+ Avastin no está aprobado para su uso en pacientes menores de 18 años. Existen publicaciones, en las que se han observado casos de osteonecrosis no mandibular en pacientes menores de 18 años tratados con Avastin.
+ Experiencia poscomercialización
+ Tabla 3 Reacciones adversas notificadas durante la experiencia poscomercialización
+ Sistema de
+ clasificación de
+ órganos
+ | 
+ Reacciones (frecuencia*)
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ Fascitis necrosante, generalmente secundaria a complicaciones de la cicatrización, perforación gastrointestinal o formación de fístula (raro) (ver también sección 4.4)
+ | 
+ Trastornos del sistema
+ inmunológico
+ | 
+ Reacciones de hipersensibilidad y reacciones a la perfusión (frecuente) con las siguientes co-manifestaciones posibles: disnea/dificultad respiratoria, rubefacción/enrojecimiento/erupción, hipotensión o hipertensión, desaturación de oxígeno, dolor torácico, escalofríos y náuseas/vómitos (ver también sección 4.4 y Reacciones de hipersensibilidad (incluyendo shock anafiláctico)/reacciones a la perfusión).
+ Shock anafiláctico (raro) (ver sección 4.4)
+ | 
+ Trastornos del sistema
+ nervioso
+ | 
+ Encefalopatía hipertensiva (muy rara) (ver sección 4.4 e Hipertensión en la sección 4.8)
+ Síndrome de Encefalopatía Reversible Posterior (SERP), (rara) (ver sección 4.4)
+ | 
+ Trastornos vasculares
+ | 
+ Microangiopatía trombótica renal, con o sin uso de sunitinib concomitante, y microangiopatía glomerular oclusiva hialina que podría manifestarse clínicamente como proteinuria (frecuencia no conocida). Para más información de proteinuria ver la sección 4.4 y Proteinuria en la sección 4.8.
+ | 
+ Trastornos
+ respiratorios,
+ torácicos y
+ mediastínicos
+ | 
+ Perforación del septum nasal (no conocida)
+ Hipertensión pulmonar (no conocida)
+ Disfonía (frecuente)
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ Úlcera gastrointestinal (no conocida)
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ Perforación de la vesicular biliar (no conocida)
+ | 
+ | 
+ | 
+ Trastornos
+ musculoesqueléticos y
+ de tejido conjuntivo
+ | 
+ Se han notificado casos de Osteonecrosis del maxilar (ONM) en
+ pacientes tratados con Avastin, la mayoría de los cuales aparecieron en
+ pacientes que tenían factores de riesgo identificados de ONM, en
+ concreto la exposición a bisfosfonatos por vía intravenosa y/o
+ antecedentes de enfermedad dental que requirió de procesos dentales
+ invasivos (ver también sección 4.4)
+ | 
+ Se han observado casos de osteonecrosis no mandibular en pacientes pediátricos tratados con Avastin (ver sección 4.8, Población
+ pediátrica).
+ | 
+ Trastornos congénitos,
+ familiares y genéticos
+ | 
+ Se han observado casos de anomalías fetales en mujeres tratadas con
+ bevacizumab solo o en combinación con quimioterápicos
+ embriotóxicos conocidos (ver sección 4.6)
+ | 
+ *si se especifica, la frecuencia se ha obtenido de los datos de los ensayos clínicos
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ La dosis más alta ensayada en humanos (20 mg/kg de peso corporal, por vía intravenosa, cada 2 semanas) se asoció con migraña grave en varios pacientes.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Este medicamento no debe mezclarse con otros, excepto los mencionados en la sección 6.6.
+ Se ha observado que el perfil de degradación de bevacizumab depende de la concentración cuando se diluye con soluciones de glucosa (5%).
+ 6.3. Periodo de validez
+ Vial (sin abrir)
+ 3 años.
+ Medicamento diluido
+ Se ha demostrado la estabilidad química y física en uso entre 2°C y 8°C durante 30 días más unas 48 horas adicionales entre 2°C y 30°C una vez diluido con una solución inyectable de 9 mg/ml (0,9%) de cloruro sódico. Desde el punto de vista microbiológico, el producto debe ser utilizado inmediatamente. Si no se utiliza inmediatamente, el tiempo y las condiciones de almacenamiento hasta su empleo serán responsabilidad del usuario y normalmente no deberían ser superiores a 24 horas entre 2ºC y 8ºC, a menos que la dilución se haya realizado bajo condiciones asépticas controladas y validadas.
+ 6.4. Precauciones especiales de conservación
+ Conservar en nevera (entre 2ºC y 8ºC).
+ No congelar.
+ Conservar el vial en el embalaje exterior para protegerlo de la luz.
+ Para las condiciones de conservación tras la dilución del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ 4 ml de solución en un vial (vidrio tipo I) con tapón (goma butílica) que contiene 100 mg de bevacizumab.
+ 16 ml de solución en un vial (vidrio tipo I) con tapón (goma butílica) que contiene 400 mg de bevacizumab.
+ Envase de 1 vial.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ No agitar el vial.
+ Avastin debe ser preparado por un profesional sanitario empleando técnicas asépticas para asegurar la esterilidad de la disolución preparada. Debe de usarse una ajuga y jeringa estéril para preparar Avastin.
+ Se deberá extraer la cantidad necesaria de bevacizumab y diluir con solución inyectable de 9 mg/ml de cloruro sódico (0,9%) hasta el volumen requerido para la administración. La concentración de la solución final de bevacizumab debe mantenerse dentro del intervalo de 1,4 mg/ml a 16,5 mg/ml. En la mayoría de las ocasiones la cantidad necesaria de Avastin puede ser diluida con una solución de cloruro sódico al 0,9% para inyección hasta un volumen total de 100 ml.
+ Los medicamentos de uso parenteral deben comprobarse visualmente antes de su administración para detectar la posible existencia de partículas o decoloración.
+ No se han observado incompatibilidades entre Avastin y el equipo de perfusión o las bolsas de cloruro de polivinilo o poliolefina.
+ Avastin es de un solo uso, debido a que el medicamento no contiene conservantes. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

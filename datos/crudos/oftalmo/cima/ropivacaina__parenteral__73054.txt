@@ -1,0 +1,720 @@
+ROPIVACAINA KABI 2MG/ML SOLUCION INYECTABLE EFG | VIA EPIDURAL VIA PERINEURAL SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/73054/FT_73054.html
+
+ 4.1. Indicaciones terapéuticas
+ Ropivacaína Kabi 2 mg/ml solución inyectable está indicada para el tratamiento del dolor agudo:
+ En adultos y adolescentes de más de 12 años de edad para:
+ Perfusión epidural continua o administración en bolo intermitente durante el postoperatorio o en dolor de parto
+ Bloqueos periféricos
+ Bloqueo nervioso periférico continuo mediante perfusión continua o inyecciones intermitentes en bolo, como por ejemplo en el tratamiento del dolor postoperatorio
+ En lactantes a partir de 1 año y niños de hasta 12 años de edad inclusive (peri- y postoperatorio), para:
+ Bloqueo nervioso periférico continuo o único
+ En neonatos, lactantes y niños de hasta 12 años de edad inclusive (peri- y postoperatorio), para:
+ Bloqueo epidural caudal
+ Perfusión epidural continua
+ Ropivacaína Kabi 7,5 mg/ml solución inyectable está indicada en adultos y adolescentes de más de 12 años de edad para:
+ Anestesia en cirugía
+ Bloqueo epidural para cirugía, incluyendo cesárea
+ Bloqueo de troncos nerviosos
+ Bloqueos periféricos
+ Ropivacaína Kabi 10 mg/ml está indicada en adultos y adolescentes de más de 12 años de edad para:
+ Anestesia en cirugía
+ Bloqueo epidural para cirugía
+ 4.2. Posología y forma de administración
+ Ropivacaína Kabi únicamente se administrará por, o bajo la supervisión de, un médico con amplia experiencia en anestesia regional.
+ Posología
+ Ropivacaína Kabi 2 mg/ml solución inyectable
+ Adultos y adolescentes de más de 12 años de edad
+ La siguiente Tabla 1 es una guía para la dosificación para los bloqueos utilizados más comúnmente. Deberá utilizarse la dosis más pequeña requerida para producir un bloqueo eficaz. La experiencia clínica y el conocimiento de estado físico del paciente son factores importantes para decidir la dosis.
+ Tabla 1 Adultos y adolescentes de más de 12 años de edad
+ | 
+ Concentración
+ (mg/ml)
+ | 
+ Volumen
+ (ml)
+ | 
+ Dosis
+ (mg)
+ | 
+ Inicio acción
+ (minutos)
+ | 
+ Duración
+ (horas)
+ | 
+ TRATAMIENTO DEL DOLOR AGUDO
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Administración Epidural Lumbar
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Bolo
+ | 
+ 2,0
+ | 
+ 10-20
+ | 
+ 20-40
+ | 
+ 10-15
+ | 
+ 0,5-1,5
+ | 
+ Inyecciones intermitentes (top-up) (p.ej. tratamiento del dolor en el parto)
+ | 
+ 2,0
+ | 
+ 10-15 (intervalo mínimo 30 minutos)
+ | 
+ 20-30
+ | 
+ | 
+ | 
+ Perfusión continua p.ej. dolor de parto
+ | 
+ 2,0
+ | 
+ 6-10 ml/h
+ | 
+ 12-20 mg/h
+ | 
+ n/p
+ | 
+ n/p
+ | 
+ Tratamiento del dolor postoperatorio
+ | 
+ 2,0
+ | 
+ 6-14 ml/h
+ | 
+ 12-28 mg/h
+ | 
+ n/p
+ | 
+ n/p
+ | 
+ Administración Epidural Torácica
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Perfusión continua
+ (tratamiento del dolor postoperatorio)
+ | 
+ 2,0
+ | 
+ 6-14 ml/h
+ | 
+ 12-28 mg/h
+ | 
+ n/p
+ | 
+ n/p
+ | 
+ Bloqueo periférico
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ (p. ej. Bloqueo de nervios menores e infiltración)
+ | 
+ 2,0
+ | 
+ 1-100
+ | 
+ 2,0-200
+ | 
+ 1-5
+ | 
+ 2-6
+ | 
+ Bloqueo nervioso periférico
+ (Bloqueo femoral o interescaleno)
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Perfusión continua o inyecciones intermitentes (p.ej. tratamiento del dolor postoperatorio)
+ | 
+ 2,0
+ | 
+ 5-10 ml/h
+ | 
+ 10-20 mg/h
+ | 
+ n/p
+ | 
+ n/p
+ | 
+ Las dosis expuestas en la tabla son las consideradas necesarias para producir un bloqueo adecuado y deberán considerarse como recomendaciones de uso en adultos. Tienen lugar variaciones individuales en el inicio y duración de la acción. Las cifras de la columna "Dosis" reflejan el intervalo de dosis promedio necesario esperado. Se consultará bibliografía adecuada para los factores que afectan a las técnicas de bloqueo específicas y a los requerimientos de cada uno de los pacientes.
+ n/p = no procede
+ Método de administración
+ Antes y durante la inyección se recomienda realizar una aspiración cuidadosa para prevenir una inyección intravascular. Cuando se requiere inyectar dosis más altas, se recomienda una dosis de prueba de 3-5 ml de lidocaína (lignocaina) con adrenalina (epinefrina). Una inyección intravascular inadvertida puede reconocerse por un incremento temporal en la frecuencia cardíaca y una inyección intratecal accidental por signos de bloqueo espinal.
+ Se realizará una aspiración antes y durante la administración de la dosis principal, que se inyectará de forma lenta o en dosis crecientes, a una velocidad de 25-50 mg/minuto, mientras se vigilan constantemente las funciones vitales del paciente y se mantiene el contacto verbal con él. Si aparecen síntomas tóxicos, la inyección deberá interrumpirse inmediatamente.
+ Cuando se requieren bloqueos prolongados, mediante una perfusión continua o la administración repetida en bolo, deberá tenerse en cuenta los riesgos de alcanzar una concentración plasmática tóxica o la posibilidad de inducir lesión neural local. Dosis acumuladas de hasta 675 mg de ropivacaína para cirugía y analgesia postoperatoria administradas durante 24 horas fueron bien toleradas en adultos, así como las perfusiones epidurales continuas postoperatorias a velocidades de hasta 28 mg/hora durante 72 horas. En un número limitado de pacientes se han administrado dosis superiores de hasta 800 mg/día con relativamente pocas reacciones adversas.
+ Para el tratamiento del dolor postoperatorio, se recomienda la siguiente técnica: A no ser que se instituya previamente a la operación, se induce un bloqueo epidural con Ropivacaína Kabi 7,5 mg/ml empleando un catéter epidural. La analgesia se mantiene con una perfusión de Ropivacaína Kabi 2 mg/ml. Velocidades de perfusión de 6-14 ml (12-28 mg) por hora proporcionan una analgesia adecuada con sólo un bloqueo motor ligero y no progresivo en la mayoría de los casos de dolor postoperatorio con carácter de moderado a grave. La duración máxima del bloqueo epidural es de 3 días. Sin embargo, deberá realizarse un seguimiento estrecho del efecto analgésico con el fin de extraer el catéter tan pronto como el dolor lo permita. Con esta técnica se ha observado una reducción significativa de la necesidad de utilizar opiáceos.
+ En estudios clínicos, se ha administrado una perfusión epidural de 2 mg/ml de ropivacaína sola o mezclada con 1-4 μg/ml de fentanilo para el tratamiento del dolor postoperatorio durante un periodo de hasta 72 horas. La combinación de ropivacaína y fentanilo proporcionó un mejor alivio del dolor pero causó efectos secundarios opiáceos. La combinación de ropivacaína y fentanilo sólo se ha investigado para ropivacaína 2 mg/ml.
+ Cuando se aplican bloqueos nerviosos periféricos prolongados, bien a través de una perfusión continua o mediante inyecciones repetidas, se deben considerar los riesgos de alcanzar una concentración plasmática tóxica o de inducir lesión neural local. En estudios clínicos, se estableció un bloqueo nervioso femoral con 300 mg de ropivacaína 7,5 mg/ml y un bloqueo interescaleno con 225 mg de ropivacaína 7,5 mg/ml, respectivamente, antes de la cirugía; manteniéndose entonces la analgesia con ropivacaína 2 mg/ml. Velocidades de perfusión o inyecciones intermitentes de 10-20 mg por hora durante 48 horas, provocaron una analgesia adecuada y fueron bien toleradas.
+ Concentraciones por encima de 7,5 mg/ml de ropivacaína no han sido estudiadas en las intervenciones de cesárea.
+ Insuficiencia renal
+ Normalmente no se requiere la modificación de la dosis en pacientes con alteraciones en la función renal cuando se utilizan dosis únicas o tratamientos a corto plazo (ver sección 4.4 y 5.2).
+ Insuficiencia hepática
+ Ropivacaína se metaboliza en el hígado, por lo que debe utilizarse con precaución en pacientes con enfermedades hepáticas graves. Puede requerirse la reducción de la repetición de las dosis debido a una eliminación retardada (ver sección 4.4 y 5.2).
+ Población pediátrica
+ Tabla 2 Bloqueo epidural: Pacientes pediátricos de 0 (neonatos a término) hasta 12 años de edad inclusive
+ | 
+ Concentración
+ mg/ml
+ | 
+ Volumen
+ ml/kg
+ | 
+ Dosis
+ mg/kg
+ | 
+ TRATAMIENTO DEL DOLOR AGUDO
+ (peri y postoperatorio)
+ | 
+ | 
+ | 
+ | 
+ Bloqueo epidural caudal único
+ | 
+ | 
+ | 
+ | 
+ Bloqueos inferiores a T12, en niños con peso corporal de hasta 25kg
+ | 
+ 2,0
+ | 
+ 1
+ | 
+ 2
+ | 
+ Perfusión epidural continua
+ | 
+ | 
+ | 
+ | 
+ En niños con un peso corporal de hasta 25 kg
+ | 
+ | 
+ | 
+ | 
+ De 0 hasta 6 meses
+ | 
+ | 
+ | 
+ | 
+ Dosis en bolo a
+ | 
+ 2,0
+ | 
+ 0,5 – 1
+ | 
+ 1 - 2
+ | 
+ Perfusión de hasta 72 horas
+ | 
+ 2,0
+ | 
+ 0,1 ml/kg/h
+ | 
+ 0,2 mg/kg/h
+ | 
+ De 6 hasta 12 meses
+ | 
+ | 
+ | 
+ | 
+ Dosis en bolo a
+ | 
+ 2,0
+ | 
+ 0,5 – 1
+ | 
+ 1-2
+ | 
+ Perfusión de hasta 72 horas
+ | 
+ 2,0
+ | 
+ 0,2 ml/kg/h
+ | 
+ 0,4 mg/kg/h
+ | 
+ De 1 a 12 años
+ | 
+ | 
+ | 
+ | 
+ Dosis en bolo b
+ | 
+ 2,0
+ | 
+ 1
+ | 
+ 2
+ | 
+ Perfusión de hasta 72 horas
+ | 
+ 2,0
+ | 
+ 0,2 ml/kg/h
+ | 
+ 0,4 mg/kg/h
+ | 
+ Las dosis incluidas en la tabla deberán considerarse como directrices para el empleo en pediatría. Existen variaciones individuales. En niños con un peso corporal elevado, a menudo es necesaria una reducción gradual de la dosis, que deberá basarse en el peso corporal ideal. El volumen para el bloqueo epidural caudal único y el volumen para las dosis epidurales en bolo no deben sobrepasar los 25 ml en ningún paciente. Se deberá consultar bibliografía adecuada en cuanto a los factores que afectan a las técnicas de bloqueo específicas y a los requerimientos individuales del paciente.
+ a Se recomienda emplear dosis en el límite inferior del intervalo de dosis para los bloqueos epidurales torácicos, mientras que para los bloqueos epidurales lumbares o caudales se recomienda administrar dosis en el límite superior del intervalo.
+ b Recomendada para el bloqueo epidural lumbar. Es apropiado reducir la dosis en bolo para la analgesia epidural torácica.
+ No se ha estudiado el uso de ropivacaína en neonatos prematuros.
+ Tabla 3 Bloqueo nervioso periférico: Lactantes a partir de un año y niños de hasta 12 años de edad inclusive:
+ | 
+ Concentración
+ mg/ml
+ | 
+ Volumen
+ ml/kg
+ | 
+ Dosis
+ mg/kg
+ | 
+ TRATAMIENTO DEL DOLOR AGUDO
+ (peri- y postoperatorio)
+ | 
+ | 
+ | 
+ | 
+ Inyecciones individuales para el bloqueo nervioso periférico
+ | 
+ | 
+ | 
+ | 
+ (p. ej., bloqueo del nervio ileoinguinal, bloqueo del plexo braquial, bloqueo del compartimento de la fascia ilíaca)
+ | 
+ 2,0
+ | 
+ 0,5 – 0,75
+ | 
+ 1,0 – 1,5
+ | 
+ Bloqueos múltiples
+ | 
+ 2,0
+ | 
+ 0,5 – 1,5
+ | 
+ 1,0 – 3,0
+ | 
+ Perfusión continua para el bloqueo nervioso periférico en niños de 1 a 12 años de edad
+ | 
+ | 
+ | 
+ | 
+ Perfusión de hasta 72 horas
+ | 
+ 2,0
+ | 
+ 0,1 – 0,3 ml/kg/h
+ | 
+ 0,2 – 0,6 mg/kg/h
+ | 
+ La dosis en la tabla se debe considerar como una guía para el uso en población pediátrica. Existen variaciones individuales. En niños con un peso corporal elevado, a menudo es necesaria una reducción gradual de la dosis y ésta deberá basarse en el peso corporal ideal. Se deberá consultar la bibliografía estándar para los factores que afecten a técnicas de bloqueo específicas y para los requerimientos individuales del paciente.
+ Las inyecciones individuales para el bloqueo de nervios periféricos (p.ej., bloqueo del nervio ilioinguinal, bloqueo del plexo braquial, bloqueo del compartimento de la fascia ilíaca) no deben exceder los 2,5-3,0 mg/kg.
+ Las dosis para el bloqueo periférico en lactantes y niños proporcionan pautas para el uso en niños sin enfermedades graves. Se recomiendan dosis más conservadoras y una vigilancia estrecha para los niños con enfermedades graves.
+ Método de administración
+ Se recomienda una aspiración cuidadosa antes y durante la inyección para prevenir la inyección intravascular. Se observarán estrechamente las funciones vitales del paciente durante la inyección. Si se producen síntomas tóxicos, la inyección deberá interrumpirse inmediatamente.
+ Una inyección epidural caudal única de 2 mg/ml de ropivacaína produce una analgesia postoperatoria adecuada por debajo de T12 en la mayoría de los pacientes cuando se emplea una dosis de 2 mg/kg en un volumen de 1 ml/kg. Se puede ajustar el volumen de la inyección epidural caudal para obtener una distribución diferente del bloqueo sensorial, tal como se recomienda en la bibliografía. Se han estudiado dosis de hasta 3 mg/kg de una concentración de ropivacaína de 3 mg/ml en niños mayores de 4 años. Sin embargo, esta concentración se asocia a una mayor incidencia de bloqueo motor.
+ Se recomienda fraccionar la dosis de anestésico local calculada, independientemente de la vía de administración.
+ En caso de que se recomiende una perfusión de ropivacaína, puede utilizarse Ropivacaína Kabi 2mg/ml solución para perfusión.
+ Ropivacaína Kabi 7,5 mg/ml solución inyectable y Ropivacaína Kabi 10 mg/ml solución inyectable
+ Adultos y adolescentes de más de 12 años de edad
+ La tabla siguiente es una guía para la dosificación de los bloqueos utilizados más comúnmente. Deberá utilizarse la dosis más pequeña requerida para producir un bloqueo eficaz. La experiencia clínica y el conocimiento de estado físico del paciente son factores importantes para decidir la dosis.
+ | 
+ Concentración
+ (mg/ml)
+ | 
+ Volumen
+ (ml)
+ | 
+ Dosis
+ (mg)
+ | 
+ Inicio acción
+ (minutos)
+ | 
+ Duración
+ (horas)
+ | 
+ ANESTÉSIA QUIRÚRGICA
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Administración Epidural Lumbar
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Cirugía
+ | 
+ 7,5
+ | 
+ 15-25
+ | 
+ 113-188
+ | 
+ 10-20
+ | 
+ 3-5
+ | 
+ | 
+ 10,0
+ | 
+ 15-20
+ | 
+ 150-200
+ | 
+ 10-20
+ | 
+ 4-6
+ | 
+ Cesárea
+ | 
+ 7,5
+ | 
+ 15-20
+ | 
+ 113-1501)
+ | 
+ 10-20
+ | 
+ 3-5
+ | 
+ Administración Epidural Torácica
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Establecer un bloqueo para el alivio del dolor en el postoperatorio
+ | 
+ 7,5
+ | 
+ 5-15 (dependiendo del nivel de la inyección)
+ | 
+ 38-113
+ | 
+ 10-20
+ | 
+ n/p2)
+ | 
+ Bloqueo de troncos nerviosos*
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Bloqueo del plexo braquial
+ | 
+ 7,5
+ | 
+ 30-40
+ | 
+ 225-3003)
+ | 
+ 10-25
+ | 
+ 6-10
+ | 
+ Bloqueo periférico
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ (p. ej. Bloqueos de nervios menores e infiltración)
+ | 
+ 7,5
+ | 
+ 1-30
+ | 
+ 7,5-225
+ | 
+ 1-15
+ | 
+ 2-6
+ | 
+ Las dosis expuestas en la tabla son las consideradas necesarias para producir un bloqueo adecuado y deberán considerarse como recomendaciones de uso en adultos. Tienen lugar variaciones individuales en el inicio y duración de la acción. Las cifras de la columna "Dosis" reflejan el intervalo de dosis promedio necesarias esperado. Se consultará bibliografía adecuada para los factores que afectan a las técnicas de bloqueo específicas y a los requerimientos de cada uno de los pacientes.
+ * Con respecto al bloqueo de troncos nerviosos, únicamente puede darse una recomendación posológica para el plexo braquial. Para bloqueos de otros troncos nerviosos, pueden requerirse dosis menores. Sin embargo, actualmente no existe experiencia para recomendaciones de dosis específicas para otros bloqueos.
+ 1 Deberá administrarse la dosis de forma creciente. La dosis inicial de unos 100 mg (97,5 mg = 13 ml; 105 mg = 14 ml) se administrará durante 3-5 minutos. En caso necesario pueden administrarse dos dosis extra, hasta un total de 50 mg adicionales.
+ 2 n/p = no procede
+ 3 La dosis empleada para el bloqueo de troncos nerviosos debe ajustarse según el lugar de administración y el estado del paciente. Los bloqueos interescaleno y del plexo braquial supraclavicular pueden estar asociados a una mayor frecuencia de reacciones adversas graves, independientemente del anestésico local utilizado (ver sección 4.4).
+ En general, la anestesia quirúrgica (p.ej. administración epidural) requiere el uso de dosis y concentraciones más altas. La formulación de Ropivacaína Kabi 10 mg/ml está recomendada para la anestesia epidural en la que un bloqueo motor completo es esencial para la cirugía. Para la analgesia (p.ej. administración epidural en el tratamiento del dolor agudo) se recomiendan dosis y concentraciones inferiores.
+ Método de administración
+ Antes y durante la inyección se recomienda realizar una aspiración cuidadosa para prevenir una inyección intravascular. Cuando se requiere inyectar dosis más altas, se recomienda una dosis de prueba de 3-5 ml de lidocaína (lignocaina) con adrenalina (epinefrina). Una inyección intravascular inadvertida puede reconocerse por un incremento temporal en la frecuencia cardíaca y una inyección intratecal accidental por signos de bloqueo espinal.
+ Se realizará una aspiración antes y durante la administración de la dosis principal, que se inyectará de forma lenta o en dosis crecientes, a una velocidad de 25-50 mg/minuto, mientras se vigilan constantemente las funciones vitales del paciente y se mantiene el contacto verbal con él. Si aparecen síntomas tóxicos, la inyección deberá interrumpirse inmediatamente.
+ En el bloqueo epidural para cirugía, se han empleado dosis únicas de hasta 250 mg de ropivacaína que fueron bien toleradas.
+ En el bloqueo del plexo braquial en un número limitado de pacientes se ha utilizado una dosis única de 300 mg que ha resultado ser bien tolerada.
+ Cuando se requieren bloqueos prolongados, mediante una perfusión continua o la administración repetida en bolo, deberá tenerse en cuenta los riesgos de alcanzar una concentración plasmática tóxica o la posibilidad de inducir lesión neural local. Dosis acumuladas de hasta 675 mg de ropivacaína para cirugía y analgesia post-operatoria administradas durante 24 horas fueron bien toleradas en adultos, así como las perfusiones epidurales continuas post-operatorias a velocidades de hasta 28 mg/hora durante 72 horas. En un número limitado de pacientes se han administrado dosis superiores de hasta 800 mg/día con relativamente pocas reacciones adversas.
+ Para el tratamiento del dolor post-operatorio, se recomienda la siguiente técnica: A no ser que se instituya previamente a la operación, se induce un bloqueo epidural con Ropivacaína Kabi 7,5 mg/ml empleando un catéter epidural. La analgesia se mantiene con una perfusión de Ropivacaína Kabi 2 mg/ml. Velocidades de perfusión de 6-14 ml (12-28 mg) por hora proporcionan una analgesia adecuada con sólo un bloqueo motor ligero y no progresivo en la mayoría de los casos de dolor post-operatorio con carácter de moderado a grave. La duración máxima del bloqueo epidural es de 3 días. Sin embargo, deberá realizarse un seguimiento estrecho del efecto analgésico con el fin de extraer el catéter tan pronto como el dolor lo permita. Con esta técnica se ha observado una reducción significativa de la necesidad de utilizar opiáceos.
+ En estudios clínicos, se ha administrado una perfusión epidural de 2 mg/ml de ropivacaína sola o mezclada con 1-4 μg/ml de fentanilo para el tratamiento del dolor post-operatorio durante un periodo de hasta 72 horas. La combinación de ropivacaína y fentanilo proporcionó un mejor alivio del dolor pero causó efectos secundarios opiáceos. La combinación de ropivacaína y fentanilo sólo se ha investigado para ropivacaína 2 mg/ml.
+ Cuando se aplican bloqueos nerviosos periféricos prolongados, bien a través de una perfusión continua o mediante inyecciones repetidas, se deben considerar los riesgos de alcanzar una concentración plasmática tóxica o de inducir lesión neural local. En estudios clínicos, se estableció un bloqueo nervioso femoral con 300 mg de ropivacaína 7,5 mg/ml y un bloqueo interescaleno con 225 mg de ropivacaína 7,5 mg/ml, respectivamente, antes de la cirugía; manteniéndose entonces la analgesia con ropivacaína 2 mg/ml. Velocidades de perfusión o inyecciones intermitentes de 10-20 mg por hora durante 48 horas, provocaron una analgesia adecuada y fueron bien toleradas.
+ Concentraciones por encima de 7,5 mg/ml de ropivacaína no han sido estudiadas en las intervenciones de cesárea.
+ Insuficiencia renal
+ Normalmente no se requiere la modificación de la dosis en pacientes con alteraciones en la función renal cuando se utilizan dosis únicas o tratamientos a corto plazo (ver sección 4.4 y 5.2).
+ Insuficiencia hepática
+ Ropivacaína se metaboliza en el hígado, por lo que debe utilizarse con precaución en pacientes con enfermedades hepáticas graves. Puede requerirse la reducción de la repetición de las dosis debido a una eliminación retardada (ver sección 4.4 y 5.2).
+ Población pediátrica
+ Pacientes pediátricos de 0 (neonatos a término) hasta los 12 años de edad inclusive
+ El uso de Ropivacaína 7,5 mg/ml y 10 mg/ml puede asociarse con episodios de toxicidad sistémica y central en niños. Las dosis menores (2mg/ml, 5mg/ml) son más apropiadas para la administración en esta población.
+ 4.3. Contraindicaciones
+ Hipersensibilidad a ropivacaína, a otros anestésicos locales de tipo amida, o a alguno de los excipientes en la lista del apartado 6.1.
+ Deberán considerarse las contraindicaciones generales relacionadas con la anestesia epidural, independientemente del anestésico local empleado.
+ Anestesia regional intravenosa.
+ Anestesia paracervical obstétrica.
+ Hipovolemia.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Los procedimientos de anestesia regional deberán siempre realizarse en un área con equipamiento y personal adecuados. Deberá estar disponible en cualquier momento el equipo y fármacos necesarios para la monitorización y reanimación de emergencia.
+ Los pacientes que van a recibir un bloqueo mayor deberán presentar un estado general óptimo y tener insertada una vía intravenosa antes de aplicar el procedimiento de bloqueo.
+ El responsable clínico tomará las precauciones necesarias para evitar la inyección intravascular (ver sección 4.2) y estará debidamente entrenado y familiarizado con el diagnóstico y tratamiento de los efectos adversos, toxicidad sistémica y otras complicaciones (ver sección 4.8 y 4.9) tales como inyección subaracnoidea accidental que puede provocar un bloqueo espinal de la parte superior, con apnea o hipotensión. Se han producido más frecuentemente convulsiones tras el bloqueo del plexo braquial y tras el bloqueo epidural. Ello probablemente sea debido a una inyección intravascular accidental o a una rápida absorción desde el lugar de inyección.
+ Se requiere precaución para evitar inyecciones en áreas inflamadas.
+ Efectos cardiovasculares
+ La anestesia epidural e intratecal puede conducir a hipotensión y bradicardia. La hipotensión se debe tratar de inmediato con un vasopresor por vía intravenosa y con un llenado vascular adecuado.
+ Los pacientes tratados con fármacos antiarrítmicos de clase III (por ejemplo amiodarona) deben ser estrechamente supervisados y considerarse la realización de un ECG, debido a que los efectos cardiacos pueden ser acumulativos. Se han registrado casos raros de paro cardíaco durante el empleo de ropivacaína en anestesia epidural o bloqueo nervioso periférico, especialmente después de la administración intravascular inintencionada en pacientes ancianos y en pacientes con enfermedad cardíaca concomitante. En algunos casos, la reanimación ha sido dificultosa. En caso de paro cardíaco, puede ser necesario realizar maniobras de reanimación prolongadas para aumentar la probabilidad de éxito.
+ Bloqueos de cabeza y cuello
+ Ciertos procedimientos de anestesia local tales como inyecciones en zonas de la cabeza y cuello pueden asociarse a una mayor frecuencia de reacciones adversas graves, independientemente del anestésico local empleado.
+ Bloqueos de los troncos nerviosos periféricos
+ El bloqueo de los troncos nerviosos periféricos puede suponer la administración de un gran volumen de anestésico local en zonas altamente vascularizadas, a menudo cercanas a grandes vasos, en las que existe un alto riesgo de inyección intravascular y/o una rápida absorción sistémica, lo que puede dar lugar a concentraciones plasmáticas elevadas.
+ Hipersensibilidad
+ Deberá tenerse en cuenta la posibilidad de que se presente una hipersensibilidad cruzada con otros anestésicos locales tipo amida (ver sección 4.3).
+ Hipovolemia
+ Los pacientes con hipovolemia debida a cualquier causa, pueden desarrollar una súbita hipotensión de carácter grave durante la anestesia epidural, independientemente del anestésico local empleado (ver sección 4.3).
+ Pacientes en mal estado general
+ Los pacientes con un mal estado general debido a edad avanzada u otros factores comprometedores tales como bloqueo parcial o completo de la conducción cardiaca, enfermedad hepática avanzada o disfunción renal grave requieren especial atención, aunque la anestesia regional esté frecuentemente indicada en este tipo de pacientes.
+ Pacientes con insuficiencia hepática y renal
+ Ropivacaína se metaboliza en el hígado y, por lo tanto, deberá emplearse con precaución en pacientes con enfermedad hepática grave. Puede requerirse la reducción de la repetición de las dosis debido a una eliminación retardada.
+ Normalmente no existe la necesidad de modificar la dosis en pacientes con alteración de la función renal cuando se administra para un tratamiento de dosis única o a corto plazo. La acidosis y una concentración reducida de proteínas plasmáticas, frecuentemente observada en pacientes con insuficiencia renal crónica, puede aumentar el riesgo de toxicidad sistémica.
+ Porfiria aguda
+ Ropivacaína Kabi solución inyectable es posiblemente porfirinogénica y únicamente debería prescribirse a pacientes con porfiria aguda cuando no se dispone de ninguna alternativa segura. Deben tomarse las precauciones apropiadas en caso de pacientes vulnerables, de acuerdo con la bibliografía y/o consultando con expertos en esta enfermedad.
+ Condrolisis
+ Se han notificado casos de condrolisis en pacientes que han recibido una perfusión intra-articular continua postoperatoria con anestésicos locales, incluyendo ropivacaína. La mayoría de los casos notificados de condrolisis han afectado a la articulación del hombro. La perfusión intra-articular continua no es una indicación aprobada de Ropivacaína Kabi. La perfusión intra-articular continua con Ropivacaína Kabi debe evitarse, ya que no se ha establecido su eficacia ni seguridad.
+ Excipientes con acción/efecto reconocido
+ Ropivacaína Kabi 2 mg/ml:
+ Este medicamento contiene 3,4 mg de sodio por ml, equivalente a 0,17% de la ingesta diaria máxima de 2 g de sodio recomendada por la OMS para un adulto.
+ Ropivacaína Kabi 7,5 mg/ml:
+ Este medicamento contiene 2,99 mg de sodio por ml, equivalente a 0,15% de la ingesta diaria máxima de 2 g de sodio recomendada por la OMS para un adulto.
+ Ropivacaína Kabi 10 mg/ml:
+ Este medicamento contiene 2,8 mg de sodio por ml, equivalente a 0,14% de la ingesta diaria máxima de 2 g de sodio recomendada por la OMS para un adulto.
+ Administración prolongada
+ La administración prolongada de ropivacaína debe evitarse en pacientes tratados de forma concomitante con inhibidores potentes del CYP1A2, como fluvoxamina y enoxacino (ver sección 4.5).
+ Población pediátrica
+ Ropivacaína Kabi 2 mg/ml solución inyectable:
+ Los neonatos pueden necesitar atención especial debido a la inmadurez de sus rutas metabólicas. Las mayores variaciones en las concentraciones plasmáticas de ropivacaína observadas en los ensayos clínicos en neonatos sugieren que puede haber un mayor riesgo de toxicidad sistémica en este grupo de edad, especialmente durante la perfusión epidural continua. Las dosis recomendadas en neonatos se basan en datos clínicos limitados. Cuando se emplea ropivacaína en este grupo de pacientes, es necesario monitorizar regularmente la toxicidad sistémica (por ejemplo, vigilando la aparición de signos de toxicidad en el SNC, ECG, SpO2) y la neurotoxicidad local (por ejemplo, recuperación prolongada). Esta monitorización debe continuarse después de terminar la perfusión de ropivacaína debido a su lenta eliminación en neonatos.
+ No se ha establecido la seguridad y eficacia de ropivacaína 2 mg/ml para bloqueos periféricos para niños de hasta 12 años de edad inclusive.
+ No se ha establecido la seguridad y eficacia de ropivacaína 2 mg/ml para el bloqueo de nervios periféricos para niños menores de 1 año.
+ Ropivacaína Kabi 7,5 mg/ml y Ropivacaína Kabi 10 mg/ml:
+ No se ha establecido la seguridad y eficacia ropivacaína 7,5 mg/ml y ropivacaína 10 mg/ml en niños de hasta 12 años inclusive.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Ropivacaína Kabi debe emplearse con precaución en pacientes que reciban otros anestésicos locales o agentes estructuralmente relacionados con los anestésicos locales tipo amida, por ejemplo ciertos antiarrítmicos, tales como lidocaína y mexiletina, debido a que los efectos tóxicos sistémicos son acumulativos. El uso simultáneo de Ropivacaína Kabi con anestésicos generales u opiáceos puede hacer que se potencien mutuamente los efectos (adversos) de los fármacos. No se han llevado a cabo estudios específicos de interacción con ropivacaína y fármacos antiarrítmicos de clase III (por ejemplo amiodarona), pero se recomienda tener precaución (ver también sección 4.4).
+ El citocromo P450 (CYP) lA2 está involucrado en la formación de 3-hidroxi-ropivacaína, el metabolito principal.
+ El aclaramiento plasmático in vivo de ropivacaína se redujo hasta un 77% durante la administración conjunta de fluvoxamina, un inhibidor selectivo y potente del CYP1A2. Así, los inhibidores potentes del CYP1A2, tales como fluvoxamina y enoxacino, administrados concomitantemente durante la administración prolongada de Ropivacaína Kabi, pueden interaccionar con Ropivacaína Kabi. Se evitará una administración prolongada de ropivacaína en pacientes que se estén tratando de forma concomitante con inhibidores potentes del sistema CYPlA2 (ver también sección 4.4.).
+ El aclaramiento plasmático de ropivacaína in vivo se redujo en un 15% durante la administración concomitante de ketoconazol, un inhibidor selectivo y potente del sistema CYP3A4. Sin embargo, la inhibición de este isoenzima no parece tener relevancia clínica.
+ Ropivacaína in vitro es un inhibidor competitivo del sistema CYP2D6 aunque no parece que inhiba a este isoenzima a las concentraciones plasmáticas alcanzadas clínicamente.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Aparte de la administración epidural para su empleo en obstetricia, no existen datos suficientes sobre el uso de ropivacaína durante el embarazo en humanos. Sin embargo, la ropivacaína atraviesa la placenta (ver sección 5.2) y puede reducir la frecuencia cardíaca del feto provocando bradicardia fetal. Por lo tanto, se recomienda una monitorización cuidadosa de la frecuencia cardíaca fetal. Los estudios experimentales en animales no indican efectos perjudiciales directos o indirectos en relación con el embarazo, desarrollo embrionario/fetal, parto o desarrollo postnatal (ver sección 5.3).
+ Lactancia
+ No existen datos acerca de la excreción de ropivacaína en la leche materna.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios sobre los efectos en la capacidad para conducir y utilizar maquinaria. Dependiendo de la dosis, los anestésicos locales pueden presentar una pequeña influencia sobre la función y coordinación mental incluso en ausencia de toxicidad del SNC y pueden deteriorar temporalmente la locomoción y el nivel de alerta.
+ 4.8. Reacciones adversas
+ General
+ El perfil de reacciones adversas de Ropivacaína Kabi es similar al que presentan otros anestésicos locales tipo amida de acción prolongada. Las reacciones adversas al fármaco deberán distinguirse de los efectos fisiológicos debidos al bloqueo nervioso en sí, por ejemplo hipotensión y bradicardia durante el bloqueo espinal/epidural y eventos causados por la punción de la aguja (por ej. hematoma espinal, dolor de cabeza por postpunción dural, meningitis y absceso epidural).
+ Las reacciones adversas más frecuentemente comunicadas, náuseas e hipotensión, son muy frecuentes durante la anestesia y cirugía en general y no es posible distinguir las producidas por la situación clínica de las causadas por el fármaco o el bloqueo.
+ El porcentaje de pacientes que se puede esperar que experimente reacciones adversas varía según la vía de administración de Ropivacaína Kabi. Las reacciones adversas sistémicas y localizadas de ropivacaína habitualmente se producen debido a una dosis excesiva, a una rápida absorción o a una inyección intravascular accidental.
+ Tabla 4 Lista de reacciones adversas
+ Las frecuencias utilizadas en la Tabla 4 de la sección 4.8 son: muy frecuentes (=1/10), frecuentes (=1/100 a <1/10), poco frecuentes (=1/1.000 a <1/100), raras (=1/10.000 a < 1/1.000), muy raras (<1/10.000) y de frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Clasificación de órganos del sistema
+ | 
+ Frecuencia
+ | 
+ Reacción adversa
+ | 
+ Trastornos del sistema inmunitario
+ | 
+ Raras
+ | 
+ Reacciones alérgicas (reacciones anafilácticas, shock anafiláptico, edema angioneurótico y urticaria)
+ | 
+ Trastornos psiquiátricos
+ | 
+ Poco frecuentes
+ | 
+ Ansiedad
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Frecuentes
+ | 
+ Parestesia, mareo, cefalea
+ | 
+ Poco frecuentes
+ | 
+ Síntomas de toxicidad del SNC (convulsiones, convulsiones Grand mal, crisis epiléptica, sensación de mareo, parestesia peribucal, entumecimiento de la lengua, hiperacusia, tinnitus, alteraciones de la visión, disartria, espasmos musculares, temblores)*, Hipoestesia
+ | 
+ Frecuencia no conocida
+ | 
+ Disquinesia, Síndrome de Horner
+ | 
+ Trastornos cardíacos
+ | 
+ Frecuentes
+ | 
+ Bradicardia, taquicardia
+ | 
+ Raras
+ | 
+ Paro cardíaco, arritmias cardíacas
+ | 
+ Trastornos vasculares
+ | 
+ Muy frecuentes
+ | 
+ Hipotensióna
+ | 
+ Frecuentes
+ | 
+ Hipertensión
+ | 
+ Poco frecuentes
+ | 
+ Síncope
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ Poco frecuentes
+ | 
+ Disnea
+ | 
+ Trastornos gastrointestinales
+ | 
+ Muy frecuentes
+ | 
+ Náuseas
+ | 
+ Frecuentes
+ | 
+ Vómitosb
+ | 
+ Trastornos musculoesqueléticos y del tejido conjuntivo
+ | 
+ Frecuentes
+ | 
+ Dolor de espalda
+ | 
+ Trastornos renales y urinarios
+ | 
+ Frecuentes
+ | 
+ Retención de orina
+ | 
+ Alteraciones generales y condiciones del lugar de administración
+ | 
+ Frecuentes
+ | 
+ Elevación de la temperatura, rigidez, escalofríos
+ | 
+ Poco frecuentes
+ | 
+ Hipotermia
+ | 
+ a La hipotensión es menos frecuente en niños (>1/100 a <1/10)
+ b Los vómitos son más frecuentes en niños. (>1/10)
+ * Estos síntomas suelen aparecer debido a una inyección intravascular accidental, sobredosis o absorción rápida (ver sección 4.9)
+ Descripción de reacciones adversas seleccionadas
+ Complicaciones neurológicas
+ La neuropatía y disfunción de la médula espinal (por ejemplo síndrome de la arteria espinal anterior, aracnoiditis, cola de caballo) que raramente pueden ocasionar secuelas permanentes, se han asociado con la anestesia regional, independientemente del anestésico local empleado.
+ Tras la administración epidural, la diseminación craneal del anestésico local, especialmente en mujeres embarazadas, puede dar lugar ocasionalmente al síndrome de Horner, caracterizado por miosis, ptosis y anhidrosis. La resolución espontánea se produce tras la interrupción del tratamiento.
+ Bloqueo espinal total
+ Puede darse un bloqueo espinal total si se administra accidentalmente una dosis epidural vía intratecal.
+ Toxicidad sistémica aguda
+ Las reacciones de toxicidad sistémica afectan principalmente al sistema nervioso central (SNC) y al sistema cardiovascular (SCV). Tales reacciones están provocadas por una alta concentración del anestésico local en sangre, que puede ser debido a inyecciones intravasculares (accidentales), sobredosis o una absorción excepcionalmente rápida en zonas altamente vascularizadas (ver sección 4.4). Las reacciones sobre el SNC son similares para todos los anestésicos locales de tipo amida, mientras que las reacciones cardíacas dependen más de la sustancia activa, tanto cuantitativa como cualitativamente.
+ Toxicidad del sistema nervioso central
+ La toxicidad del sistema nervioso central es una respuesta gradual con síntomas y signos de gravedad creciente. Inicialmente, se observan síntomas tales como alteraciones visuales o de audición, entumecimiento perioral, mareos, ligeros desvanecimientos, hormigueo y parestesia. Disartria, rigidez muscular y espasmos musculares son más graves y pueden preceder a la aparición de convulsiones generalizadas. Estos signos no deben confundirse con un comportamiento neurótico. Se pueden presentar a continuación pérdida de la consciencia y convulsiones tipo gran mal de duración variable desde unos segundos a varios minutos. Durante las convulsiones se presenta rápidamente hipoxia e hipercapnia debido al incremento de la actividad muscular junto con la alteración que se produce en la respiración. En los casos graves se puede producir incluso apnea. La acidosis respiratoria y metabólica aumenta y prolonga los efectos tóxicos de los anestésicos locales.
+ La recuperación se produce tras la redistribución del anestésico local del sistema nervioso central y el consiguiente metabolismo y excreción. La recuperación puede ser rápida a no ser que se hayan inyectado grandes cantidades de fármaco.
+ Toxicidad del sistema cardiovascular
+ La toxicidad cardiovascular indica una situación más grave. Pueden producirse hipotensión, bradicardia, arritmia e incluso paro cardíaco como un resultado de concentraciones sistémicas altas de anestésicos locales. En voluntarios, la perfusión intravenosa de ropivacaína resultó en signos de depresión de la conductividad y contractilidad.
+ Los efectos tóxicos cardiovasculares están generalmente precedidos por signos de toxicidad en el sistema nervioso central, a no ser que el paciente reciba un anestésico general o esté fuertemente sedado con fármacos como benzodiacepinas o barbitúricos.
+ Población pediátrica
+ La frecuencia, el tipo y la gravedad de las reacciones adversas en niños se espera que sean las mismas que en los adultos excepto para la hipotensión, que ocurre menos frecuentemente en niños (>1 de cada 100 a <1 de cada 10) y los vómitos, que ocurren más frecuentemente en niños (>1 de cada 10).
+ En niños, los signos iniciales de toxicidad anestésica local pueden ser difíciles de detectar, ya que puede que no sean capaces de expresarlos verbalmente (ver también sección 4.4).
+ Tratamiento de la toxicidad sistémica aguda
+ Ver sección 4.9.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es
+ 4.9. Sobredosis
+ Síntomas
+ La inyección intravascular accidental de anestésicos locales puede provocar efectos tóxicos sistémicos inmediatos (desde segundos a unos minutos). En caso de sobredosis, es posible que las concentraciones plasmáticas máximas no se alcancen hasta pasadas una o dos horas, dependiendo del lugar de inyección, pudiendo por tanto, retrasarse la aparición de los signos de toxicidad (ver sección 4.8).
+ Tratamiento
+ Si aparecen signos de toxicidad sistémica aguda, se interrumpirá la administración del anestésico local inmediatamente y se tratarán rápidamente los síntomas del SNC (convulsiones, depresión del SNC) con apoyo respiratorio/de las vías aéreas apropiado y la administración de fármacos anticonvulsivos.
+ Si se produjese paro circulatorio, aplicar inmediatamente reanimación cardiopulmonar. Son de vital importancia una oxigenación y ventilación óptimas, el mantenimiento de la circulación, así como el tratamiento para la acidosis.
+ Si se observa depresión cardiovascular (hipotensión, bradicardia), se considerará un tratamiento con fluidos intravenosos, vasopresores y/o agentes inotrópicos. Los niños deberán recibir dosis proporcionales a su edad y peso.
+ En caso de paro cardíaco, puede ser necesario realizar maniobras de reanimación prolongadas.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros.
+ Se puede producir precipitación en soluciones alcalinas, ya que ropivacaína muestra escasa solubilidad a pH > 6,0.
+ 6.3. Periodo de validez
+ Periodo de validez antes de la apertura
+ 3 años.
+ Periodo de validez tras la apertura
+ Utilizar de forma inmediata.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no requiere condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Ropivacaína Kabi 2 mg/ml solución inyectable:
+ Ampolla de 10 ml de polipropileno transparente.
+ Ampolla de 20 ml de polipropileno transparente.
+ Ropivacaína Kabi 7,5 mg/ml solución inyectable:
+ Ampolla de 10 ml de polipropileno transparente.
+ Ampolla de 20 ml de polipropileno transparente.
+ Ropivacaína Kabi 10 mg/ml solución inyectable:
+ Ampolla de 10 ml de polipropileno transparente.
+ Ampolla de 20 ml de polipropileno transparente.
+ Las ampollas de polipropileno están especialmente diseñadas para ajustarse a las jeringas "Luer lock" y "Luer fit".
+ Tamaños de envase:
+ 1, 5, 10 ampolla(s)
+ 1, 5, 10 ampolla(s) en envase blíster
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Manipulación
+ Ropivacaína Kabi está destinada para un solo uso. Desechar cualquier solución no utilizada.
+ El medicamento debe inspeccionarse visualmente antes de su utilización. La solución sólo debe utilizarse si es transparente, prácticamente libre de partículas y si el envase no está dañado.
+ El envase intacto no se debe volver a autoclavar.
+ Eliminación
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

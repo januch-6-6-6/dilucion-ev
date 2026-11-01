@@ -1,0 +1,22 @@
+{
+ "id": "aflibercept",
+ "familia": "intravitreo",
+ "resultados": 24,
+ "tipo": "ocular",
+ "sel": [
+  {
+   "nregistro": "112797001",
+   "nombre": "EYLEA 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/112797001/FT_112797001.html",
+   "tipo": "ocular"
+  },
+  {
+   "nregistro": "112797002",
+   "nombre": "EYLEA 40 MG/ML SOLUCION INYECTABLE EN VIAL",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/112797002/FT_112797002.html",
+   "tipo": "ocular"
+  }
+ ]
+}

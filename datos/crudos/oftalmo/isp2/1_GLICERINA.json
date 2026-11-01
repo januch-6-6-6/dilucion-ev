@@ -1,0 +1,72 @@
+[
+ {
+  "Producto": "F-24615/24",
+  "Nombre": "GLICERINA SUPOSITORIOS 1 g",
+  "FechaRegistro": "2019-01-31",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "GLICERINA"
+ },
+ {
+  "Producto": "F-2642/24",
+  "Nombre": "GLICERINA SUPOSITORIOS 1 g",
+  "FechaRegistro": "1978-02-01 02:10:00",
+  "Titular": "LABORATORIO VALMA SPA",
+  "PA": "GLICERINA"
+ },
+ {
+  "Producto": "F-6379/25",
+  "Nombre": "GLICERINA SUPOSITORIOS 3 g",
+  "FechaRegistro": "1986-10-31",
+  "Titular": "LABORATORIO VALMA SPA",
+  "PA": "GLICERINA"
+ },
+ {
+  "Producto": "F-24606/24",
+  "Nombre": "GLICERINA SUPOSITORIOS 3 g",
+  "FechaRegistro": "2019-01-31",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "GLICERINA"
+ },
+ {
+  "Producto": "F-6378/25",
+  "Nombre": "GLICERINA SUPOSITORIOS 3,5 g",
+  "FechaRegistro": "1986-10-31",
+  "Titular": "LABORATORIO VALMA SPA",
+  "PA": "GLICEROL"
+ },
+ {
+  "Producto": "F-3251/25",
+  "Nombre": "NITROGLICERINA SOLUCIÓN INYECTABLE 200 mcg/mL EN DEXTROSA AL 5%",
+  "FechaRegistro": "2000-04-13",
+  "Titular": "INDUSTRIAL Y COMERCIAL BAXTER DE CHILE LTDA.",
+  "PA": "NITROGLICERINA"
+ },
+ {
+  "Producto": "F-10905/21",
+  "Nombre": "NITROGLICERINA SOLUCIÓN INYECTABLE 50 mg/10 mL.",
+  "FechaRegistro": "1992-12-28",
+  "Titular": "LABORATORIO SANDERSON SpA",
+  "PA": "NITROGLICERINA"
+ },
+ {
+  "Producto": "F-12683/22",
+  "Nombre": "NUTRIFLEX LIPID PERI EMULSIÓN INYECTABLE",
+  "FechaRegistro": "2002-12-30",
+  "Titular": "B. BRAUN MEDICAL SpA",
+  "PA": "ACEITE DE SOYA//ACIDO ASPARTICO//ACIDO GLUTAMICO//ALANINA//ARGININA//DEXTROSA//FENILALANINA//GLICEROL//GLICINA//HISTIDINA//ISOLEUCINA//LECITINA DE HUEVO//LEUCINA//LISINA//METIONINA//PROLINA//SERINA//SODIO OLEATO//TREONINA//TRIGLICERIDO//TRIPTOFANO//VALINA"
+ },
+ {
+  "Producto": "F-19899/23",
+  "Nombre": "OMEGAVEN EMULSIÓN INYECTABLE",
+  "FechaRegistro": "2013-04-16",
+  "Titular": "FRESENIUS KABI CHILE LTDA.",
+  "PA": "ACEITE DE PESCADO//FOSFOLIPIDO//GLICEROL//SODIO OLEATO"
+ },
+ {
+  "Producto": "D-1620/22",
+  "Nombre": "PERAGUARD DESINFECTANTE GRANULADO SOLUBLE",
+  "FechaRegistro": "2022-09-01",
+  "Titular": "SOCIEDAD ENVIRO TECH CHILE S.A.",
+  "PA": "Percarbonato De Sodio 99% N°Cas:15630-89-4;Glicerina 99% N°Cas:56-81-5"
+ }
+]

@@ -1,0 +1,440 @@
+MOXIFLOXACINO KABI 400 MG/250 ML SOLUCION PARA PERFUSION EFG | VIA INTRAVENOSA SOLUCION PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/78972/FT_78972.html
+
+ 4.1. Indicaciones terapéuticas
+ Moxifloxacino está indicado para el tratamiento de:
+ • Neumonía adquirida en la comunidad (CAP)
+ • Infecciones complicadas de piel y tejidos blandos (cSSSI)
+ Moxifloxacino sólo debe utilizarse cuando no se considera apropiado el uso de otros agentes antibacterianos que son comúnmente recomendados para el tratamiento de estas infecciones.
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ La dosis recomendada es de 400 mg de moxifloxacino, perfundido una vez al día.
+ El tratamiento intravenoso inicial puede continuarse con el tratamiento oral con comprimidos de 400 mg de moxifloxacino cuando esté indicado desde el punto de vista clínico.
+ En los estudios clínicos la mayoría de los pacientes cambiaron a tratamiento oral después de 4 días (CAP) o 6 días (cSSSI). La duración total recomendada del tratamiento intravenoso y oral es de 7-14 días para CAP y 7-21 días para cSSSI.
+ Insuficiencia renal / hepática
+ No se precisan ajustes de dosis en pacientes con insuficiencia renal de leve a grave, como tampoco en pacientes sometidos a diálisis crónica, es decir, hemodiálisis y diálisis peritoneal ambulatoria continuada (para más información, ver sección 5.2).
+ No hay suficientes datos disponibles en pacientes con insuficiencia hepática (ver sección 4.3).
+ Otras poblaciones especiales
+ No se precisan ajustes de dosis en personas de edad avanzada ni en pacientes con bajo peso corporal.
+ Población pediátrica
+ El moxifloxacino está contraindicado en niños y adolescentes en fase de crecimiento. No se ha establecido la eficacia y seguridad de moxifloxacino en niños ni adolescentes (ver secciones 4.3, 4.4 y 5.3).
+ Forma de administración
+ Para uso intravenoso: perfusión constante durante 60 minutos (ver también sección 4.4).
+ Si está clínicamente indicado, la solución para perfusión puede administrarse a través de una sonda en T, conjuntamente con soluciones para perfusión que sean compatibles (ver sección 6.6).
+ 4.3. Contraindicaciones
+ Hipersensibilidad al moxifloxacino, a otras quinolonas o a alguno de los excipientes incluidos en la sección 6.1.
+ Embarazo y lactancia (ver sección 4.6).
+ Pacientes menores de 18 años.
+ Pacientes con antecedentes de trastornos en los tendones asociados al tratamiento con quinolonas.
+ En investigaciones preclínicas y en humanos se han observado cambios en la electrofisiología cardíaca en forma de prolongación QT después del tratamiento con moxifloxacino. Por motivos de seguridad del medicamento, moxifloxacino está contraindicado en pacientes con:
+ Prolongación de QT congénita o adquirida y documentada.
+ Alteraciones electrolíticas, particularmente en hipopotasemia no corregida.
+ Bradicardia clínicamente relevante.
+ Insuficiencia cardíaca clínicamente relevante con reducción de la fracción de eyección ventricular izquierda.
+ Antecedentes previos de arritmias sintomáticas
+ Moxifloxacino no debe administrarse simultáneamente con otros medicamentos que prolonguen el intervalo QT (ver también sección 4.5).
+ Debido a que los datos clínicos son limitados, moxifloxacino también está contraindicado en pacientes con alteración de la función hepática (Child Pugh C) y en pacientes con un aumento de transaminasas 5 veces por encima del límite superior de la normalidad.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Se debe evitar el uso de moxifloxacino en pacientes que hayan experimentado con anterioridad reacciones adversas graves con el uso de medicamentos que contienen quinolonas o fluoroquinolonas (ver sección 4.8). El tratamiento de estos pacientes con moxifloxacino sólo se debe iniciar en ausencia de opciones terapéuticas alternativas y después de una evaluación cuidadosa de la relación beneficio-riesgo (ver también sección 4.3).
+ Disección y aneurisma aórticos y regurgitación/insuficiencia de las válvulas cardíacas
+ Los estudios epidemiológicos informan de un aumento del riesgo de aneurisma y disección aórticos, especialmente en pacientes de edad avanzada, y de regurgitación de válvulas mitral y aórtica tras la administración de fluoroquinolonas. Se han notificado casos de disección o aneurisma aórticos, a veces complicados por rotura (incluso mortales), y de regurgitación/insuficiencia de cualquiera de las válvulas cardíacas en pacientes que reciben fluoroquinolonas (ver sección 4.8).
+ Por consiguiente, las fluoroquinolonas solo se deben utilizar tras una evaluación cuidadosa del beneficio/riesgo y tras considerar otras opciones terapéuticas en pacientes con antecedentes familiares de aneurisma, o enfermedades congénitas de las válvulas cardíacas, en pacientes diagnosticados de aneurisma aórtico y/o disección aórtica preexistentes o enfermedades de las válvulas cardíacas, o en presencia de otros factores de riesgo o trastornos que predispongan a:
+ Tanto para la disección y aneurisma aórticos como para la regurgitación/insuficiencia de las válvulas cardíacas (por ejemplo, trastornos del tejido conjuntivo como el síndrome de Marfan, o de Ehlers-Danlos, el síndrome de Turner, enfermedad de Behçet, hipertensión y artritis reumatoide) o
+ disección y aneurisma aórticos (por ejemplo, trastornos vasculares como la arteritis de Takayasu, la arteritis de células gigantes, la aterosclerosis conocida o el síndrome de Sjögren); o
+ regurgitación/insuficiencia de las válvulas cardíacas (p. ej., endocarditis infecciosa).
+ El riesgo de disección y aneurisma aórticos y su rotura también puede aumentar en pacientes tratados de forma concomitante con corticoesteroides sistémicos.
+ En caso de dolor abdominal, torácico o de espalda repentino, se indicará a los pacientes que consulten de inmediato a un médico en un servicio de urgencias.
+ Se debe recomendar a los pacientes que acudan inmediatamente a un médico en caso de disnea aguda, aparición reciente de palpitaciones cardíacas o aparición de edema abdominal o de las extremidades inferiores.
+ El beneficio del tratamiento con moxifloxacino, especialmente en infecciones de poca gravedad, debe valorarse en el contexto de la información contenida en la sección de advertencias y precauciones especiales de empleo .
+ Prolongación del intervalo QTc y condiciones clínicas potencialmente relacionadas con la prolongación del intervalo QTc
+ Se ha demostrado que moxifloxacino produce una prolongación del intervalo QTc en el electrocardiograma de algunos pacientes. La magnitud de la prolongación del intervalo QT puede aumentar con un incremento de las concentraciones plasmáticas debido a una perfusión intravenosa rápida. Por ello, la duración de la perfusión no debe ser inferior a los 60 minutos recomendados y no debe excederse la dosis intravenosa de 400 mg una vez al día. Para más información ver a continuación y las secciones 4.3 y 4.5.
+ El tratamiento con moxifloxacino debe interrumpirse, en el caso de aparición de signos o síntomas que puedan asociarse con una arritmia cardíaca durante el tratamiento, con o sin hallazgos del ECG.
+ Moxifloxacino debe utilizarse con precaución en pacientes con cualquier condición que predisponga a arritmias cardíacas (por ejemplo, isquemia aguda de miocardio) ya que puede conllevar un aumento del riesgo de desarrollar arritmias ventriculares (incluyendo torsade de pointes) y parada cardíaca. Ver también secciones 4.3 y 4.5.
+ Moxifloxacino debe utilizarse con precaución en pacientes que toman medicación que puede reducir los niveles de potasio. Ver también secciones 4.3 y 4.5.
+ Moxifloxacino debe utilizarse con precaución en pacientes que toman medicación asociada con bradicardia clínicamente significativa. Ver también sección 4.3.
+ Las mujeres y los pacientes de edad avanzada pueden ser más sensibles a los medicamentos que prolongan el intervalo QTc como moxifloxacino y por ello, es necesaria una precaución especial.
+ Reacciones adversas graves incapacitantes, de duración prolongada, y potencialmente irreversibles
+ Se han notificado casos muy raros de reacciones adversas graves incapacitantes, de duración prolongada (persistentes durante meses o años), y potencialmente irreversibles que afectaron a diferentes y, en ocasiones, múltiples sistemas corporales (musculoesquelético, nervioso, psiquiátrico y sensorial) en pacientes que recibieron quinolonas y fluoroquinolonas, con independencia de su edad y de los factores de riesgo preexistentes. Ante los primeros signos o síntomas de cualquier reacción adversa grave se debe interrumpir de manera inmediata el tratamiento con moxifloxacino, y se indicará a los pacientes que contacten con su médico.
+ Hipersensibilidad / reacciones alérgicas
+ Se han descrito reacciones alérgicas y de hipersensibilidad, tras la primera administración de fluoroquinolonas, incluido moxifloxacino. Las reacciones anafilácticas pueden evolucionar a un shock que ponga en peligro la vida, incluso tras la primera administración. En casos de manifestaciones clínicas de reacciones de hipersensibilidad graves se debe interrumpir la administración de moxifloxacino e instaurar un tratamiento adecuado (p. ej., tratamiento para el shock).
+ Trastornos hepáticos graves
+ Con moxifloxacino, se han notificado casos de hepatitis fulminante con posibilidad de conducir a una insuficiencia hepática (incluyendo casos mortales) (ver sección 4.8). Se debe advertir a los pacientes que consulten con su médico antes de continuar con el tratamiento, si aparecen signos o síntomas de hepatitis fulminante, como una rápida aparición de astenia asociada con ictericia, orina oscura, tendencia al sangrado o encefalopatía hepática.
+ En caso de aparición de indicios de alteración hepática, deben realizarse pruebas/estudios de la función hepática.
+ Reacciones adversas cutáneas graves
+ Se han notificado reacciones adversas cutáneas graves (SCARs, por sus siglas en inglés) incluyendo la necrólisis epidérmica tóxica (NET: también conocida como síndrome de Lyell), el síndrome de Stevens-Johnson (SSJ), la pustulosis exantemática generalizada aguda (PEGA) la reacción medicamentosa con eosinofilia y síntomas sistémicos (síndrome de DRESS o síndrome de hipersensibilidad a fármacos) con moxifloxacino, que pueden poner en peligro la vida o ser mortales (ver sección 4.8). En el momento de la prescripción, se debe informar a los pacientes de los signos y síntomas de las reacciones cutáneas graves y se deben monitorizar estrechamente. Si aparecen signos o síntomas que sugieran la aparición de estas reacciones, se debe interrumpir inmediatamente el tratamiento con moxifloxacino y se debe considerar un tratamiento alternativo. Si el paciente ha desarrollado una reacción grave como SSJ, NET, PEGA o DRESS con el uso de moxifloxacino, no se debe reiniciar el tratamiento con moxifloxacino en este paciente en ningún momento. 
+ Pacientes predispuestos a convulsiones
+ Se sabe que el tratamiento con quinolonas puede provocar convulsiones. Deben utilizarse con precaución en pacientes con trastornos del SNC o en presencia de otros factores de riesgo que puedan predisponer a sufrir convulsiones o reducir el umbral de las mismas. En el caso de convulsiones, se debe interrumpir el tratamiento con moxifloxacino e instaurar las medidas adecuadas.
+ Neuropatía periférica
+ Se han notificado casos de polineuropatía sensitiva o sensitivo-motora resultando en parestesias, hipoestesias, disestesias o debilidad en pacientes que recibían quinolonas y fluoroquinolonas. Se debe aconsejar a los pacientes bajo tratamiento con moxifloxacino de que informen a su médico antes de continuar el tratamiento si aparecen síntomas de neuropatía tales como dolor, quemazón, hormigueo, entumecimiento o debilidad, con el objeto de prevenir el desarrollo de un estado potencialmente irreversible (ver sección 4.8).
+ Reacciones psiquiátricas
+ Pueden producirse reacciones psiquiátricas, incluso tras la primera administración de quinolonas, incluyendo moxifloxacino. En casos muy raros, las reacciones psicóticas y la depresión han evolucionado a pensamientos suicidas y conductas autolesivas como intentos de suicidio (ver sección 4.8). En el caso de que el paciente desarrolle estas reacciones, se debe interrumpir el tratamiento con moxifloxacino e instaurar las medidas adecuadas. Se recomienda precaución si moxifloxacino es utilizado en pacientes psicóticos o en pacientes con antecedentes de enfermedad psiquiátrica.
+ Diarrea asociada al uso de antibióticos incluido colitis
+ Se ha notificado casos de diarrea asociada al uso de antibióticos (DAA) y colitis asociada al uso de antibióticos (CAA), incluyendo colitis pseudomembranosa y diarrea asociada a Clostridium difficile, en asociación con el uso de antibióticos de amplio espectro incluido moxifloxacino; y pueden variar en gravedad de diarrea leve a colitis mortal. Por tanto, es importante considerar este diagnóstico en pacientes que presentan diarrea intensa durante o después del uso de moxifloxacino. Si se sospecha o confirma DAA o CAA, se debe interrumpir el tratamiento con agentes antibacterianos, incluyendo moxifloxacino y se deben iniciar medidas terapéuticas adecuadas inmediatamente. Además se deben iniciar medidas de control de infecciones adecuadas para reducir el riesgo de transmisiones. Los medicamentos que inhiben el peristaltismo están contraindicados en pacientes que desarrollan diarreas graves.
+ Pacientes con miastenia gravis
+ Los pacientes con miastenia gravis deben usar moxifloxacino con precaución ya que los síntomas pueden exacerbarse.
+ Tendinitis y rotura de tendones
+ Se pueden producir tendinitis y rotura de tendones (especialmente, pero no únicamente limitada, al tendón de Aquiles), a veces bilateral, ya en las primeras 48 horas desde el inicio del tratamiento con quinolonas y fluoroquinolonas, y se han notificado casos hasta varios meses después de interrumpir el mismo. El riesgo de tendinitis y rotura de tendones se encuentra aumentado en los pacientes de edad avanzada, en los pacientes con insuficiencia renal, en pacientes que han recibido trasplantes de órganos sólidos y en los pacientes tratados simultáneamente con corticosteroides. Por lo tanto, debe evitarse el uso concomitante de corticosteroides.
+ Ante el primer signo de tendinitis (p. ej., tumefación dolorosa, inflamación), se debe interrumpir el tratamiento con moxifloxacino y se debe considerar un tratamiento alternativo. Se deben tratar de manera apropiada (p. ej., inmovilización) la(s) extremidad(es) afectada(s). No se deben utilizar corticosteroides si se producen signos de tendinopatía.
+ Pacientes con insuficiencia renal
+ Los pacientes de edad avanzada con alteración renal deben usar moxifloxacino con precaución si no pueden mantener una ingesta de líquidos adecuada, porque la deshidratación puede incrementar el riesgo de insuficiencia renal.
+ Alteraciones visuales
+ Si se producen alteraciones de la visión o se experimenta cualquier efecto en los ojos debe consultarse a un oftalmólogo inmediatamente (ver secciones 4.7 y 4.8).
+ Disglucemia
+ Al igual que con todas las quinolonas, con moxifloxacino se han notificado alteraciones en la glucosa sanguínea, incluyendo tanto hipoglucemia como hiperglucemia (ver sección 4.8), normalmente pacientes diabéticos que recibían tratamiento concomitante con un fármaco oral hipoglucemiante (por ejemplo glibenclamida) o con insulina. Se han reportado casos de coma hipoglucémico. En los pacientes diabéticos, se recomienda una cuidadosa monitorización de la glucemia.
+ Prevención de las reacciones de fotosensibilidad
+ Las quinolonas pueden causar reacciones de fotosensibilidad en algunos pacientes. Sin embargo, en algunos estudios se ha demostrado que moxifloxacino tiene un riesgo menor para inducir fotosensibilidad. No obstante, se debe advertir a los pacientes para que eviten la exposición a radiaciones UV y/o a la luz solar intensa de manera prolongada durante el tratamiento con moxifloxacino (ver sección 4.8).
+ Pacientes con deficiencia de glucosa-6-fosfato deshidrogenasa
+ Los pacientes con antecedentes familiares o con deficiencia de glucosa-6-fosfato deshidrogenasa son propensos a sufrir reacciones hemolíticas al ser tratados con quinolonas. Por tanto, moxifloxacino debe utilizarse con precaución en estos pacientes.
+ Inflamación tisular periarterial
+ La solución de moxifloxacino para perfusión es exclusivamente para uso intravenoso. Debe evitarse la administración intraarterial, ya que en ensayos preclínicos se ha demostrado una inflamación tisular periarterial después de la perfusión por esta vía.
+ Pacientes con infecciones complicadas de piel y tejidos blandos especiales
+ No se ha establecido la eficacia clínica del moxifloxacino en el tratamiento de quemaduras graves, fascitis e infecciones del pie diabético con osteomielitis.
+ Pacientes con dietas pobres en sodio
+ Este medicamento contiene aproximadamente 1206 mg de sodio por dosis, equivalente al 60% de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ Interferencias con pruebas biológicas
+ La terapia con moxifloxacino puede interferir con el cultivo de Mycobacterium spp. por supresión del crecimiento microbacteriano produciendo resultados falsos negativos en muestras obtenidas de pacientes que estaban recibiendo moxifloxacino.
+ Pacientes con infección por SARM
+ Moxifloxacino no está recomendado para el tratamiento de las infecciones por SARM. En caso de sospecha o confirmación de infección debido al SARM, se debe iniciar el tratamiento con un agente antibacteriano adecuado (ver sección 5.1).
+ Población pediátrica
+ Debido a los efectos adversos en el cartílago en animales inmaduros (ver sección 5.3) el uso de moxifloxacino en niños y adolescentes menores de 18 años está contraindicado (ver sección 4.3).
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Interacción con medicamentos
+ No puede excluirse que se produzca un efecto aditivo en la prolongación del intervalo QT entre moxifloxacino y otros medicamentos que puedan prolongar el intervalo QTc. Esto puede suponer un aumento del riesgo de arritmias ventriculares, incluyendo torsade de pointes. Por lo tanto, la coadministración de moxifloxacino con alguno de los siguientes medicamentos está contraindicada (ver también sección 4.3):
+ antiarrítmicos de clase IA (p. ej., quinidina, hidroquinidina, disopiramida)
+ antiarrítmicos de clase III (p. ej., amiodarona, sotalol, dofetilida, ibutilida)
+ antipsicóticos (p. ej. fenotiacinas, pimocida, sertindol, haloperidol, sultoprida)
+ antidepresivos tricíclicos
+ determinados agentes antimicrobianos (saquinavir, esparfloxacino, eritromicina IV, pentamidina, antipalúdicos en especial halofantrina)
+ determinados antihistamínicos (terfenadina, astemizol, mizolastina)
+ otros (cisaprida, vincamina IV, bepridil, difemanilo).
+ Moxifloxacino debe ser utilizado con precaución en pacientes que estén tomando medicamentos que puedan reducir los niveles de potasio (p. ej. diuréticos del asa o tiazidicos, laxantes y enemas [altas dosis], corticosteroides, amfotericina B) o medicamentos que estén asociados a una bradicardia clínica significativa.
+ Tras la administración de dosis repetidas en voluntarios sanos, moxifloxacino aumentó la C max de la digoxina en aproximadamente un 30%, sin afectar el AUC ni los niveles basales. No se requieren precauciones especiales para el uso simultáneo con digoxina.
+ En estudios con voluntarios diabéticos, la administración concomitante de moxifloxacino oral con glibenclamida dio lugar a una disminución de aproximadamente un 21% de las concentraciones plasmáticas máximas de glibenclamida. Teóricamente, la combinación de glibenclamida y moxifloxacino podría producir hiperglucemia leve y transitoria. Sin embargo, los cambios farmacocinéticos observados con la glibenclamida no dieron lugar a alteraciones en los parámetros farmacodinámicos (glucosa en sangre, insulina). Por tanto, no se observó ninguna interacción clínicamente relevante entre el moxifloxacino y la glibenclamida.
+ Cambios en el INR
+ En pacientes tratados con agentes antibacterianos, especialmente fluoroquinolonas, macrólidos, tetraciclinas, cotrimoxazol y algunas cefalosporinas, se han descrito numerosos casos que demuestran un aumento de la actividad anticoagulante oral. Entre los factores de riesgo se incluyen enfermedades infecciosas e inflamatorias, la edad y el estado general del paciente. En estas circunstancias resulta difícil determinar en qué medida la alteración del INR (relación internacional normalizada) está causada por la enfermedad infecciosa o por el tratamiento. Una medida de precaución podría ser una monitorización más frecuente de la INR. Si es preciso, se debe ajustar la dosis del anticoagulante oral de forma adecuada.
+ Estudios clínicos han demostrado que no se producen interacciones con la administración concomitante entre moxifloxacino y: ranitidina, probenecid, anticonceptivos orales, suplementos del calcio, morfina administrada por vía parenteral, teofilina, ciclosporina o itraconazol.
+ Estudios in vitro con enzimas del citocromo P450 humano avalan estos hallazgos. Considerando estos resultados, la interacción metabólica mediante enzimas del citocromo P450 es poco probable.
+ Interacción con alimentos
+ Moxifloxacino no presenta ninguna interacción clínicamente significativa con los alimentos, incluidos los productos lácteos.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se ha evaluado la seguridad de moxifloxacino en el embarazo en seres humanos. Los estudios en animales han demostrado toxicidad para la reproducción (ver sección 5.3). Se desconoce el posible riesgo para los humanos. Debido al riesgo experimental de daño de las fluoroquinolonas en el cartílago de las articulaciones que soportan peso de animales inmaduros y las lesiones articulares reversibles descritas en niños que recibieron algunas fluoroquinolonas, moxifloxacino no debe utilizarse en mujeres embarazadas (ver sección 4.3).
+ Lactancia
+ No se dispone de datos en madres lactantes. Los datos preclínicos indican que pequeñas cantidades de moxifloxacino pasan a la leche materna. En ausencia de datos en humanos y debido al riesgo experimental del daño de las fluoroquinolonas en el cartílago de las articulaciones que soportan peso de animales inmaduros, la lactancia materna está contraindicada durante el tratamiento con moxifloxacino (ver sección 4.3).
+ Fertilidad
+ Los estudios en animales no indican deterioro de la fertilidad (ver sección 5.3).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios de los efectos de moxifloxacino sobre la capacidad para conducir y utilizar maquinas. Sin embargo, las fluoroquinolonas, incluyendo moxifloxacino, pueden producir un trastorno de la capacidad del paciente para conducir o manejar maquinaria debido a reacciones del SNC (p. ej. mareo, pérdida transitoria aguda de la visión, ver sección 4.8) o pérdida de la consciencia aguda y de breve duración (síncope, ver sección 4.8). Debe aconsejarse a los pacientes que observen cómo reaccionan a moxifloxacino antes de conducir o manejar maquinaria.
+ 4.8. Reacciones adversas
+ A continuación se detallan las reacciones adversas observadas en los estudios clínicos y derivadas de los informes post-comercialización con 400 mg diarios de moxifloxacino administrados por vía oral o intravenosa (administración oral, secuencial [IV/oral], solo intravenosa), clasificadas por frecuencias:
+ Con excepción de diarrea y náuseas, todas las demás reacciones adversas se observaron con una frecuencia inferior al 3%.
+ Las reacciones adversas se clasifican por orden decreciente de gravedad dentro de cada intervalo de frecuencias.
+ Las frecuencias se definen como:
+ Frecuentes ≥ 1/100 a < 1/10
+ Poco frecuentes ≥ 1/1.000 a < 1/100
+ Raras ≥ 1/10.000 a < 1/1.000
+ Muy raras ≤ 1/10.000
+ Frecuencia no conocida No puede estimarse a partir de los datos disponibles
+ Clasificación de órganos del sistema
+ | 
+ Frecuentes
+ ≥ 1/100 a <1/10
+ | 
+ Poco frecuentes
+ ≥ 1/1.000 a <1/100
+ | 
+ Raras
+ ≥ 1/10.000 a <1/1.000
+ | 
+ Muy raras
+ ≤ 1/10.000
+ | 
+ Frecuencia no conocida
+ (La frecuencia no puede estimarse partir de los datos disponibles)
+ | 
+ Infecciones e infestaciones
+ | 
+ Sobreinfecciones debidas a bacterias resistentes u hongos, como la candidiasis oral y vaginal
+ | 
+ | 
+ | 
+ | 
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ | 
+ Anemia
+ Leucopenia(s)
+ Neutropenia
+ Trombocitopenia
+ Trombocitemia
+ Eosinofilia hemática
+ Prolongación del tiempo de protrombina/ aumento del INR
+ | 
+ | 
+ Aumento del valor de protrombina / disminución del INR
+ Agranulocitosis
+ Pancitopenia
+ | 
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ | 
+ Reacción alérgica (ver sección 4.4)
+ | 
+ Anafilaxia, incluyendo de forma muy rara un shock que ponga en peligro la vida (ver sección 4.4)
+ Edema alérgico / angioedema (incluyendo el edema laríngeo, que puede poner en peligro la vida, ver sección 4.4)
+ | 
+ | 
+ | 
+ Trastornos endocrinos
+ | 
+ | 
+ | 
+ | 
+ Síndrome de secreción inadecuada de hormona antidiurética (SIADH)
+ | 
+ | 
+ Trastornos del metabolismo y de la nutrición
+ | 
+ | 
+ Hiperlipidemia
+ | 
+ Hiperglucemia
+ Hiperuricemia
+ | 
+ Hipoglucemia
+ Coma hipoglucémico
+ | 
+ | 
+ Trastornos psiquiátricos*
+ | 
+ | 
+ Reacciones de ansiedad
+ Hiperactividad psicomotora/ agitación
+ | 
+ Labilidad emocional
+ Depresión (en casos muy raros puede conducir a conductas autolesivas, como ideas/pensamientos suicidas, o intentos de suicidio, ver sección 4.4)
+ Alucinaciones
+ Delirio
+ | 
+ Despersonalización
+ Reacciones psicóticas (que puede conducir a conductas autolesivas, como ideas/pensamientos suicidas, o intentos de suicidio, ver sección 4.4)
+ | 
+ | 
+ Trastornos del sistema nervioso*
+ | 
+ Cefalea
+ Mareos
+ | 
+ Parestesia y disestesia
+ Alteraciones del gusto (incluyendo ageusia en casos muy raros)
+ Confusión y desorientación
+ Alteraciones del sueño (predominantemente insomnio)
+ Temblores
+ Vértigo
+ Somnolencia
+ | 
+ Hipoestesia
+ Alteraciones del olfato (incluyendo anosmia)
+ Alteración en los sueños
+ Alteración de la coordinación (incluyendo trastornos en la forma de andar, especialmente debidos a mareo o vértigo)
+ Convulsiones incluyendo gran mal (ver sección 4.4)
+ Trastornos en la concentración
+ Alteración del habla
+ Amnesia
+ Neuropatía periférica y polineuropatía
+ | 
+ Hiperestesia
+ | 
+ | 
+ Trastornos oculares*
+ | 
+ | 
+ Alteraciones visuales como diplopía y visión borrosa (especialmente en el curso de reacciones el SNC, ver sección 4.4)
+ | 
+ Fotofobia
+ | 
+ Pérdida transitoria de la visión (especialmente en el curso de reacciones del SNC, ver secciones 4.4 y 4.7)
+ Uveitis y transiluminación iridiana bilateral aguda (ver sección 4.4)
+ | 
+ | 
+ Trastornos del oído y laberinto*
+ | 
+ | 
+ | 
+ Tinitus
+ Deficiencias auditivas incl. Sordera (normalmente reversible)
+ | 
+ | 
+ | 
+ Trastornos cardíacos**
+ | 
+ Prolongación de QT en pacientes con hipopotasemia (ver secciones 4.3 y 4.4)
+ | 
+ Prolongación de QT (ver sección 4.4)
+ Palpitaciones
+ Taquicardia
+ Fibrilación auricular
+ Angina de pecho
+ | 
+ Taquiarritmias ventriculares
+ Síncope (p.ej, pérdida de consciencia aguda y de breve duración)
+ | 
+ Arritmias inespecíficas
+ Torsade de pointes (ver sección 4.4)
+ Parada cardíaca (ver sección 4.4)
+ | 
+ | 
+ Alteraciones vasculares**
+ | 
+ | 
+ Vasodilatación
+ | 
+ Hipertensión
+ Hipotensión
+ | 
+ Vasculitis
+ | 
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ | 
+ Disnea (incluyendo las alteraciones asmáticas)
+ | 
+ | 
+ | 
+ | 
+ Trastornos gastrointestinales
+ | 
+ Náuseas
+ Vómitos
+ Dolor gastrointestinal y abdominal
+ Diarrea
+ | 
+ Disminución del apetito y de la ingesta de alimentos
+ Estreñimiento
+ Dispepsia
+ Flatulencia
+ Gastritis
+ Aumento de amilasa
+ | 
+ Disfagia
+ Estomatitis
+ Colitis asociada a antibióticos (incl. Colitis pseudomembranosa, en casos muy raros asociada a complicaciones que ponen en peligro la vida, ver sección 4.4)
+ | 
+ | 
+ | 
+ Trastornos hepatobiliares
+ | 
+ Aumento de transaminasas
+ | 
+ Insuficiencia hepática (incluido aumento de LDH)
+ Aumento de bilirrubina
+ Aumento de gammaglutamil-transferasa
+ Aumento de la fosfatasa alcalina en sangre
+ | 
+ Ictericia
+ Hepatitis (principalmente colestática)
+ | 
+ Hepatitis fulminante con posible insuficiencia hepática que pone en peligro la vida (incluyendo casos mortales, ver sección 4.4.)
+ | 
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ | 
+ Prurito
+ Exantema
+ Urticaria
+ Piel seca
+ | 
+ | 
+ Reacciones cutáneas vesiculares del tipo del síndrome de Stevens-Johnson o necrólisis epidérmica tóxica (con posible peligro para la vida, ver sección 4.4)
+ | 
+ Pustulosis exantemática generalizada aguda (PEGA)
+ Reacción medicamentosa con eosinofilia y síntomas sistémicos (DRESS) (ver sección 4.4), erupción fija medicamentosa, reacciones de fotosensibilidad (ver sección 4.4).
+ | 
+ Trastornos músculo-esqueléticos y de tejido conjuntivo*
+ | 
+ | 
+ Artralgia
+ Mialgia
+ | 
+ Tendinitis (ver sección 4.4)
+ Calambres musculares
+ Espasmos musculares
+ Debilidad muscular
+ | 
+ Rotura tendinosa (ver sección 4.4)
+ Artritis
+ Rigidez muscular
+ Exacerbación de los síntomas de la miastenia gravis (ver sección 4.4)
+ | 
+ Rabdomiólisis
+ | 
+ Trastornos renales y urinarios
+ | 
+ | 
+ Deshidratación
+ | 
+ Insuficiencia renal (incluido el aumento del BUN y la creatinina)
+ Fallo renal (ver sección 4.4)
+ | 
+ | 
+ | 
+ Trastornos generales y alteraciones en el lugar de administración*
+ | 
+ Reacciones en el lugar de la inyección / perfusión
+ | 
+ Malestar (principalmente astenia o fatiga)
+ Patologías dolorosas (incl. dolor de espalda, tórax, pelvis y extremidades)
+ Sudoración
+ (Trombo)flebitis en lugar de inyección
+ | 
+ Edema
+ | 
+ | 
+ | 
+ *Se han notificado casos muy raros de reacciones adversas graves prolongadas (incluso meses o años), incapacitantes y potencialmente irreversibles que afectaron a varios, en ocasiones múltiples, sistemas orgánicos y sentidos (incluyendo reacciones tales como tendinitis, rotura de tendones, artralgia, dolor en las extremidades, alteración de la marcha, neuropatías asociadas a parestesia y neuralgia, fatiga, síntomas psiquiátricos (incluidos trastornos del sueño, ansiedad de pánico, depresión e ideación suicida), deterioro de la memoria y la concentración y deterioro de la audición, la visión, el gusto y el olfato) asociados al uso de quinolonas y fluoroquinolonas, en algunos casos con independencia de factores de riesgo preexistentes (ver sección 4.4).
+ ** Se han notificado casos de disección y aneurisma aórticos, a veces complicados por rotura (incluso mortales), y de regurgitación/insuficiencia de cualquiera de las válvulas cardíacas en pacientes que reciben fluoroquinolonas (ver sección 4.4).
+ Las siguientes reacciones adversas son más frecuentes en el subgrupo de pacientes con el tratamiento IV con o sin tratamiento oral secuencial:
+ Frecuentes: Aumento de la gamma-glutamiltransferasa
+ Poco frecuente: Taquiarritmias ventriculares, hipotensión, edema, colitis asociada a antibióticos (incl. colitis pseudomembranosa, en casos muy raros asociada a complicaciones que ponen en peligro la vida, ver sección 4.4), convulsiones incluidas del tipo gran mal (ver sección 4.4), alucinaciones, trastornos renales (incl. aumento de BUN y creatinina), fallo renal (ver sección 4.4).
+ Después del tratamiento con otras fluoroquinolonas se han comunicado casos muy raros de los siguientes efectos adversos que también podrían aparecer durante el tratamiento con moxifloxacino: aumento de la presión intracraneal (incluyendo el pseudotumor cerebral), hipernatremia, hipercalcemia, anemia hemolítica.
+ Notificación de sospechas de reaciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es
+ 4.9. Sobredosis
+ No se recomiendan medidas específicas contra una sobredosis accidental. En caso de sobredosis, se debe iniciar un tratamiento sintomático. Debido a la posibilidad de la prolongación del intervalo QT, debe llevarse a cabo una monitorización del ECG. La administración concomitante de carbón activado con una dosis oral o intravenosa de 400 mg de moxifloxacino reduce la disponibilidad sistémica del producto en más del 80% ó 20%, respectivamente. En caso de sobredosis oral, el uso de carbón activado en las fases iniciales de la absorción puede ser útil para prevenir una exposición sistémica excesiva al moxifloxacino.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Las siguientes soluciones son incompatibles con moxifloxacino solución para perfusión:
+ Soluciones de cloruro de sodio al 10% y 20%,
+ Soluciones de bicarbonato de sodio al 4,2 % y 8,4 %
+ Este medicamento no debe mezclarse con otros excepto con los mencionados en la sección 6.6.
+ 6.3. Periodo de validez
+ 3 años
+ Se ha demostrado la estabilidad física y química en uso durante 24 horas a 25ºC.
+ Desde el punto de vista microbiológico el producto debe utilizarse inmediatamente, a menos que el método de apertura/reconstitución/dilución evite el riesgo de contaminación microbiana.
+ Si no se utilizar inmediatamente, los tiempos de almacenamiento en uso y las condiciones antes del uso son responsabilidad del usuario.
+ 6.4. Precauciones especiales de conservación
+ No refrigerar o congelar.
+ Conservar el frasco en el embalaje exterior para protegerlo de la luz.
+ Para las condiciones de conservación tras la primera apertura y dilución del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Moxifloxacino Kabi se acondiciona en:
+ Frascos de polietileno de baja densidad (KabiPac) como acondicionamiento primario con un tapón que contiene un disco de goma para permitir la inserción de la aguja.
+ o
+ Bolsas de poliolefina (freeflex) con un puerto de administración (puerto de perfusión) y puerto de adición (puerto de inyección) con boca de polipropileno y envoltura de aluminio.
+ Tamaños de envases
+ Frascos de polietileno (KabiPac): 1, 10, 20, 25 y 40
+ Bolsas de poliolefina (freeflex): 1, 10, 20, 25 y 40
+ Puede que solamente estén comercializados algunos tamaños de envase.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Este producto es para un solo uso. Cualquier solución no utilizada debe desecharse.
+ Se ha constatado que las siguientes co-perfusiones son compatibles con moxifloxacino 400 mg/250 ml solución para perfusión:
+ Agua para preparaciones inyectables, cloruro de sodio 9 mg/ml (0,9%) solución para inyección, glucosa al 5%/10%, solución de Ringer, solución de lactato de sodio compuesta (solución de Hartmann, solución de Ringer-lactato).
+ Moxifloxacino solución para perfusión no debe co-perfundirse con otros medicamentos.
+ No utilizar si se aprecian partículas visibles o si la solución está turbia.
+ A temperaturas de nevera, puede producirse precipitación, que se redisolverá a temperatura ambiente. Por ello, no se recomienda conservar la solución para perfusión a temperatura inferior a 8ºC.

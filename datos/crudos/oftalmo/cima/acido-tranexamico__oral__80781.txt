@@ -1,0 +1,113 @@
+ACIDO TRANEXAMICO ZENTIVA 500 mg COMPRIMIDOS RECUBIERTOS CON PELICULA EFG | VIA ORAL COMPRIMIDO RECUBIERTO CON PELICULA
+https://cima.aemps.es/cima/dochtml/ft/80781/FT_80781.html
+
+ 4.1. Indicaciones terapéuticas
+ Uso a corto plazo para la hemorragia o el riesgo de hemorragia en casos de aumento de la fibrinólisis o la fibrinogenólisis. La fibrinólisis local tiene lugar en los siguientes casos:
+ Prostatectomía y cirugía de la vejiga.
+ Menorragia.
+ Epistaxis intensa.
+ Conización del cuello uterino.
+ Prevención de la hemorragia recurrente en el hipema traumático.
+ Angioedema hereditario.
+ Manejo de la extracción dental en hemofílicos.
+ 4.2. Posología y forma de administración
+ 4.2.1. Posología
+ 1. Fibrinólisis local: La dosis estándar recomendada es de 15-25 mg/kg de peso corporal (es decir, de 2 a 3 comprimidos) de 2 a 3 veces al día. Para las indicaciones que figuran a continuación, pueden utilizarse las siguientes dosis:
+ 1a. Prostatectomía: La profilaxis y el tratamiento de la hemorragia en pacientes de alto riesgo deben comenzar antes o después de la cirugía con una inyección de ácido tranexámico; a partir de entonces, se tomarán 2 comprimidos de 3 a 4 veces al día hasta que no haya hematuria macroscópica.
+ 1b. Menorragia: La dosis recomendada es de 2 comprimidos 3 veces al día durante el período de tiempo que sea necesario, hasta un máximo de 4 días. Si el sangrado menstrual es muy intenso, puede aumentarse la dosis. No debe superarse la dosis total de 4 g al día (8 comprimidos). El tratamiento con ácido tranexámico no debe iniciarse hasta que el sangrado menstrual haya comenzado.
+ 1c. Epistaxis intensa: Cuando se prevea un sangrado recurrente, debe aplicarse un tratamiento oral (2 comprimidos 3 veces al día) durante 7 días.
+ 1d. Conización del cuello uterino: 3 comprimidos 3 veces al día durante 12-14 días.
+ 1e. Prevención de la hemorragia recurrente en el hipema traumático: 2-3 comprimidos 3 veces al día durante 7 días. La dosis se basa en 25 mg/kg 3 veces al día.
+ 2. Angioedema hereditario: Algunos pacientes son conscientes de la aparición de la enfermedad; el tratamiento adecuado para estos pacientes consiste en la administración intermitente de 2-3 comprimidos de 2 a 3 veces al día durante varios días. Otros pacientes son tratados de forma continua con esta dosis.
+ 3. Hemofilia: En la prevención y el tratamiento de las hemorragias relacionadas con el manejo de las extracciones dentales, se administrarán 2-3 comprimidos cada 8 horas durante 6-8 días. La dosis se basa en 25 mg/kg.
+ Insuficiencia renal: Por extrapolación de los datos del aclaramiento relativos a la forma de administración intravenosa, se recomienda la siguiente reducción de la dosis oral en los pacientes con insuficiencia renal de leve a moderada.
+ Creatinina sérica (μmol/l)
+ | 
+ Dosis de ácido tranexámico
+ | 
+ 120-249
+ | 
+ 15 mg/kg de peso corporal 2 veces al día
+ | 
+ 250-500
+ | 
+ 15 mg/kg de peso corporal/día
+ | 
+ Dosis en la población pediátrica: Debe calcularse según el peso corporal, con 25 mg/kg por dosis. Sin embargo, los datos sobre la eficacia, la posología y la seguridad en estas indicaciones son limitados.
+ Pacientes ancianos: No es necesario reducir la dosis a menos que exista evidencia de insuficiencia renal (ver las directrices a continuación).
+ 4.2.2. Forma de administración
+ Vía oral
+ 4.3. Contraindicaciones
+ Hipersensibilidad al ácido tranexámico o a cualquier otro de los excipientes indicados en la sección 6.
+ Insuficiencia renal grave (creatinina sérica > 500 μmol/l), debido al riesgo de acumulación.
+ Enfermedad tromboembólica activa.
+ Antecedentes de trombosis venosa o arterial.
+ Trastornos fibrinolíticos secundarios a coagulopatía de consumo.
+ Antecedentes de convulsiones.
+ 4.4. Advertencias y precauciones especiales de empleo
+ En caso de hematuria de origen renal (especialmente en la hemofilia), existe riesgo de anuria mecánica debido a la formación de un coágulo ureteral.
+ En el tratamiento a largo plazo de pacientes con angioedema hereditario, deben realizarse periódicamente exploraciones oculares (por ejemplo, agudeza visual, lámpara de hendidura, presión intraocular, campos visuales) y pruebas de la función hepática.
+ Cualquier uso de ácido tranexámico en pacientes con angioedema hereditario sólo debe ser dirigido por un médico con experiencia en el tratamiento de esta afección.
+ Las pacientes que presenten un sangrado menstrual irregular no deben tomar ácido tranexámico hasta que se conozca la causa del sangrado irregular. Si el ácido tranexámico no reduce adecuadamente el sangrado menstrual, debe considerarse aplicar otro tratamiento.
+ El ácido tranexámico debe administrarse con precaución en las pacientes que toman anticonceptivos orales, debido al aumento del riesgo de trombosis.
+ Los pacientes que hayan sufrido previamente un episodio tromboembólico y tengan antecedentes familiares de enfermedad tromboembólica (pacientes con trombofilia) solo deben tomar ácido tranexámico ante una firme indicación médica y bajo la estricta supervisión del médico.
+ Los niveles sanguíneos aumentan en los pacientes con insuficiencia renal. Por tanto, en estos casos se recomienda reducir la dosis (ver la sección 4.2).
+ No se recomienda utilizar ácido tranexámico en casos de aumento de la fibrinólisis debido a coagulación intravascular diseminada.
+ Debe retirarse el tratamiento en los pacientes que presenten alteraciones visuales.
+ No se dispone de experiencia clínica con el ácido tranexámico en niñas menorrágicas menores de 15 años de edad.
+ Ácido tranexámico Zentiva contiene aceite de ricino y sodio
+ Este medicamento contiene aceite de ricino, puede provocar molestias de estomago y diarrea.
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por comprimido; esto es, esencialmente “exento de sodio”.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ El ácido tranexámico contrarresta el efecto trombolítico de las preparaciones fibrinolíticas.
+ Los fármacos que afectan a la hemostasia deben administrarse con precaución en los pacientes que toman ácido tranexámico. En teoría, existe riesgo de aumento del potencial de formación de trombos, por ejemplo, con los estrógenos.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ Aunque los estudios en animales no han demostrado que se produzca un efecto teratógeno, deben aplicarse las precauciones habituales relativas al uso de fármacos durante el embarazo.
+ Se sabe que el ácido tranexámico atraviesa la placenta y aparece en la sangre del cordón umbilical en concentraciones aproximadamente iguales a la concentración materna.
+ 4.6.2. Lactancia
+ El ácido tranexámico pasa a la leche materna con una concentración aproximada de 1/100 de la concentración en la sangre materna. Es poco probable que se produzca un efecto antifibrinolítico en el lactante.
+ 4.6.3. Fertilidad
+ No existen datos clínicos sobre los efectos del ácido tranexámico en la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ Los comprimidos de 500 mg de ácido tranexámico no tienen ningún efecto conocido en la capacidad para conducir y utilizar máquinas.
+ 4.8. Reacciones adversas
+ A continuación, se indican las reacciones adversas, clasificadas por órganos y sistemas y por frecuencia. Las frecuencias se definen del modo siguiente: muy frecuentes (≥ 1/ l0); frecuentes (≥ 1/100 y < 1/10); poco frecuentes (≥ 1/1.000 y < 1/100); raros (≥ 1/10.000 y < 1/1.000); muy raros (< 1/10.000), incluyendo informes aislados; y frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Trastornos del sistema inmunitario
+ Muy raros: Reacciones de hipersensibilidad, incluyendo anafilaxia.
+ Trastornos del sistema nervioso
+ Muy raros: Convulsiones, sobre todo en caso de uso indebido.
+ Trastornos oculares
+ Raros: Alteraciones visuales, incluida la alteración de la visión de los colores.
+ Trastornos cardíacos
+ Muy raros: Malestar general, con hipotensión, con o sin pérdida del conocimiento (generalmente, después de una administración intravenosa demasiado rápida y, excepcionalmente, después de la administración oral).
+ Trastornos vasculares
+ Raros: Episodios tromboembólicos.
+ Muy raros: Trombosis arterial o venosa en cualquier punto.
+ Trastornos gastrointestinales
+ Muy raros: Pueden producirse efectos gastrointestinales como náuseas, vómitos y diarrea, pero desaparecen al reducir la dosis.
+ Trastornos de la piel y del tejido subcutáneo
+ Raros: Reacciones cutáneas alérgicas.
+ Frecuencia no conocida: Erupción fija por medicamentos.
+ Trastornos renales y urinarios
+ Frecuencia no conocida: Necrosis cortical renal aguda.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es
+ 4.9. Sobredosis
+ Los síntomas pueden ser náuseas, vómitos, síntomas ortostáticos e/o hipotensión. Se inducirá el vómito, se realizará un lavado de estómago y se iniciará un tratamiento con carbón activado. Mantener una ingestión elevada de líquidos para favorecer la excreción renal. Existe riesgo de trombosis en personas con predisposición. Debe considerarse la aplicación de un tratamiento anticoagulante.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No procede.
+ 6.3. Periodo de validez
+ 3 años.
+ Período de validez del frasco de HDPE una vez abierto: 25 días.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no requiere condiciones especiales de conservación.
+ Frasco de HDPE: Para las condiciones de conservación tras la primera apertura del medicamento ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Blíster de aluminio moldeado (OPA/Alu/PVC) con lámina de recubrimiento de aluminio. Tamaños de envase de 10, 20, 30, 50, 60 y 100 comprimidos.
+ Frasco de polietileno de alta densidad (HDPE) blanco con tapón de polipropileno y sello de inducción revestido de aluminio. Tamaño de envase de 100 comprimidos.
+ Puede que solamente estén comercializados algunos tamaños de envase.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

@@ -27,3 +27,8 @@ __pycache__/
 
 # Claves de Supabase (nunca al repositorio)
 .env.supabase
+
+# Oftalmología Fase 0: PDF completos de terceros (revistas, guías) — solo en disco, no al repo público
+datos/crudos/oftalmo/pdf/
+datos/crudos/oftalmo/**/*.pdf
+datos/crudos/oftalmo/__pycache__/

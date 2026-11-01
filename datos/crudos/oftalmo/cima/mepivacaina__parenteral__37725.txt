@@ -1,0 +1,402 @@
+MEPIVACAINA PHYSAN 20 mg/ml SOLUCION INYECTABLE | INFILTRACION SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/37725/FT_37725.html
+
+ 4.1. Indicaciones terapéuticas
+ Anestesia local por infiltración, bloqueo nervioso central y periférico, anestesia endovenosa regional y anestesia epidural, con fines terapéuticos ó diagnósticos.
+ 4.2. Posología y forma de administración
+ Se debe utilizar la dosis más baja requerida para producir la anestesia deseada. La dosificación debe ajustarse individualmente de acuerdo con la edad, el peso y el estado de salud de cada paciente.
+ Posología:
+ En general, el bloqueo completo de todas las fibras nerviosas en nervios largos, requiere elevadas concentraciones del fármaco. En nervios pequeños, o cuando el bloqueo nervioso es menor, se requieren concentraciones inferiores del fármaco. El volumen de fármaco administrado afectará a la extensión y profundidad de la anestesia.
+ La experiencia hasta la fecha, indica que la administración de 1000 mg del fármaco administrados en un periodo de 24 horas, es bien tolerada en la mayoría de adultos.
+ En niños la dosis debe calcularse en base al peso, con dosis máxima de 5 mg/kg.
+ En neonatos no es recomendable la administración de mepivacaína.
+ La siguiente tabla recoge las dosis recomendadas en el adulto para las técnicas anestésicas más comúnmente utilizadas. Existen importantes variaciones individuales respecto al inicio y duración de la acción.
+ Tipo de bloqueo
+ | 
+ Concentración
+ | 
+ Dosificación
+ | 
+ Inicio (min.)
+ | 
+ Duración (h)
+ | 
+ Indicaciones
+ | 
+ Observaciones
+ | 
+ | 
+ mg
+ | 
+ %
+ | 
+ ml
+ | 
+ mg
+ | 
+ | 
+ | 
+ | 
+ | 
+ Infiltración local
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ ≤40
+ | 
+ ≤400
+ | 
+ 1 – 2
+ | 
+ 2 – 3
+ | 
+ Cirugía
+ | 
+ | 
+ Bloqueo digital
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ 1 - 5
+ | 
+ 10 – 50
+ | 
+ 2 – 5
+ | 
+ 1, 5 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ Intercostal
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ 2 - 5
+ | 
+ 20 – 50
+ | 
+ 3 – 5
+ | 
+ 1 – 2
+ | 
+ Cirugía
+ Analgesia postoperatorio fracturación costillas
+ | 
+ | 
+ Paracervical
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ 10
+ | 
+ 100
+ | 
+ 3 – 5
+ | 
+ 1 – 1,5
+ | 
+ Cirugía
+ Dilatación de cérvix
+ | 
+ Ver sección 4.4. Precauciones.
+ No recomendable en el parto
+ | 
+ Bloqueo intra-articular
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ ≤40
+ | 
+ ≤400
+ | 
+ 5 – 10
+ | 
+ | 
+ Artroscopia
+ Cirugía
+ | 
+ | 
+ Retrobulbar
+ Peribulbar
+ | 
+ 20
+ 10
+ | 
+ 2,0
+ 1,0
+ | 
+ 4
+ 10 – 15
+ | 
+ 80
+ 100 – 150
+ | 
+ 3 – 5
+ 3 – 5
+ | 
+ 1,5 – 2
+ | 
+ Cirugía ocular
+ Cirugía ocular
+ | 
+ Ver sección 4.4. Precauciones.
+ | 
+ Plexo braquial: Axilar
+ Sublavicular Interescaleno y perivascular subclavio
+ | 
+ 10
+ 10
+ | 
+ 1,0
+ 1,0
+ | 
+ 40 – 50
+ 30 – 40
+ | 
+ 400 – 500
+ 300 – 400
+ | 
+ 15 – 30
+ 15 – 30
+ | 
+ 1,5 – 2
+ 1,5 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ Ciático
+ | 
+ 20
+ | 
+ 2,0
+ | 
+ 15 – 20
+ | 
+ 300 – 400
+ | 
+ 15 – 30
+ | 
+ 2 – 3
+ | 
+ Cirugía
+ | 
+ | 
+ 3 en 1 Femoral, obturador y cutáneo lateral
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ 30 – 40
+ | 
+ 300 – 400
+ | 
+ 15 – 30
+ | 
+ 1,5 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ Epidural lumbar
+ | 
+ 20
+ | 
+ 2,0
+ | 
+ 15 – 25
+ | 
+ 300 – 500
+ | 
+ 15 – 20
+ | 
+ 1, 5 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ Epidural torácico
+ | 
+ 20
+ | 
+ 2,0
+ | 
+ 10 – 15
+ | 
+ 200 – 300
+ | 
+ 10 -20
+ | 
+ 1,5 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ Epidural caudal
+ | 
+ 10
+ 20
+ | 
+ 1,0
+ 2,0
+ | 
+ 20 – 30
+ 15 – 25
+ | 
+ 200 – 300
+ 300 – 500
+ | 
+ 15 – 30
+ 15 – 30
+ | 
+ 1 – 1,5
+ 1,5 – 2
+ | 
+ Cirugía y analgesia
+ Cirugía
+ | 
+ | 
+ Epidural caudal
+ (niños)
+ | 
+ 10
+ | 
+ 1,0
+ | 
+ 0,5 ml/kg
+ | 
+ 5 mg/kg
+ | 
+ 10 – 15
+ | 
+ 1 – 2
+ | 
+ Cirugía
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Administración:
+ Inyección local (bloqueo o infiltración)
+ Mepivacaína Physan debe administrarse con precaución, para evitar reacciones de toxicidad aguda debidas a una inyección intravascular inadvertida. Es recomendable en todos los casos, antes y durante la inyección, proceder a una aspiración para evitar una inyección intravascular.
+ El anestésico local no debe ser administrado en regiones infectadas.
+ La dosis principal debe administrarse lentamente, a una velocidad de hasta 100- 200 mg/min., o en incrementos de dosis, manteniendo un contacto verbal constante con el paciente. Si se observan síntomas de toxicidad, debe interrumpirse inmediatamente la administración. La inyección intravascular accidental puede ser reconocida por un aumento temporal del ritmo cardíaco.
+ Para un efecto más prolongado, puede inyectarse el fármaco anestésico a través de un catéter permanente. Esta técnica es común en la anestesia epidural, y puede utilizarse también en la anestesia del plexo braquial y anestesia interpleural.
+ La dosis deberá reducirse en pacientes con ciertas enfermedades subyacentes (angina de pecho, arteriosclerosis) (ver apartado 4.4 “Advertencias y precauciones especiales de empleo).
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes.
+ Debido al contenido de mepivacaina:
+ - Hipersensibilidad conocida a los anestésicos locales de tipo amida.
+ - Pacientes con disfunciones graves de la conducción atrioventricular no compensada por un marcapaso.
+ - Pacientes con enfermedades nerviosas degenerativas.
+ - Pacientes con defectos de la coagulación.
+ - Epilepsia no controlada.
+ - Porfiria aguda intermitente.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Advertencias
+ No se recomienda su administración en el momento del parto debido a que la mepivacaína atraviesa fácilmente la barrera placentaria y el metabolismo neonatal es lento, incrementándose el potencial tóxico para el feto y el neonato.
+ No se recomienda el uso de Mepivacaína Physan en niños menores de 4 años.
+ Debe evitarse la inyección de anestésicos locales en áreas infectadas.
+ Precauciones
+ Antes de la administración de un anestésico local, debe contarse con un equipo de resucitación completo, provisto de un sistema de oxigenación y ventilación asistida, y de los fármacos adecuados para el tratamiento de posibles reacciones tóxicas.
+ Los procedimientos anestésicos loco-regionales, excepto los de naturaleza más trivial, deben llevarse a cabo por profesionales debidamente formados y en áreas con acceso inmediato al equipo y medicamentos de reanimación. Los especialistas deben recibir una formación apropiada para dichos procedimientos, y estar familiarizados con el diagnóstico y tratamiento de los efectos secundarios, toxicidad sistémica u otras complicaciones (ver sección 4.9. Sobredosis).
+ Cuando se realicen bloqueos mayores, debería insertarse un catéter, antes de inyectar el anestésico.
+ Ciertos procedimientos anestésicos locales, podrían estar asociados a reacciones adversas graves, independientemente del fármaco anestésico utilizado:
+ El bloqueo nervioso central puede ocasionar depresión cardiovascular, especialmente en presencia de hipovolemia. La anestesia epidural debería utilizarse con precaución en pacientes con una débil función cardiovascular.
+ Las inyecciones retrobulbares pueden alcanzar ocasionalmente el espacio subaracnoideo craneal, causando una ceguera temporal, colapso cardiovascular, apnea, convulsiones, etc. Éstas deberían diagnosticarse y tratarse de forma rápida.
+ Las inyecciones retro y peribulbares de anestésicos locales tienen un pequeño riesgo de disfunción permanente del músculo ocular. Las causas principales incluyen: traumatismo y/o toxicidad local sobre los músculos y/o nervios. La gravedad de tales reacciones tisulares está relacionada con el grado de traumatismo, la concentración del anestésico local y la duración de la exposición del tejido al anestésico local. Por esta razón, al igual que con otros anestésicos locales debería utilizarse la dosis efectiva más baja.
+ En el caso de administración del anestésico en las zonas de cabeza y cuello, hay que tener en cuenta, que puede producirse una inyección intravascular inadvertida, que incluso a dosis bajas, puede provocar serias reacciones adversas.
+ El bloqueo paracervical puede, a veces, ocasionar bradicardia/taquicardia fetal; con lo que es necesario una monitorización del ritmo fetal.
+ Cuando se utilizan bloqueos prolongados, como en el caso de administraciones repetidas, debe considerarse el riesgo de alcanzar una concentración plasmática tóxica o inducir un deterioro neuronal localizado.
+ La anestesia epidural puede conllevar hipotensión y bradicardia. Este riesgo puede reducirse mediante la precarga circulatoria de soluciones coloidales o cristaloidales, o mediante la inyección de un vasoconstrictor como la efedrina a dosis de 20-40 mg i.m. La hipotensión debería tratarse inmediatamente con efedrina a dosis de 5-10 mg intravenosa, y repetir la dosis, si es necesario.
+ Para reducir los efectos secundarios, algunos pacientes requieren una especial atención:
+ Pacientes con bloqueo cardiaco parcial o total, ya que los anestésicos locales pueden dar lugar a una depresión de la conducción miocárdica.
+ Pacientes con enfermedad hepática avanzada o disfunción renal grave.
+ Ancianos y pacientes debilitados.
+ La anestesia regional está indicada con frecuencia en estos pacientes. Antes de someterlos a una anestesia general, debe intentarse optimizar el estado del paciente, previo a efectuar el bloqueo de nervios mayores.
+ Deportistas
+ Se informa a los deportistas que este medicamento contiene un componente que puede establecer un resultado analítico de control del dopaje como positivo.
+ Advertencia sobre el contenido de sodio
+ Ampollas de 2 ml:
+ Este medicamento contiene menos de 23 mg de sodio (1 mmol) por ampolla de 5 ml, esto es, esencialmente “exento de sodio”.
+ Ampollas de 10 ml:
+ Este medicamento contiene 28 mg de sodio por ampolla de 10 ml, equivalente al 1,4% de la
+ ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ La mepivacaína debe utilizarse con precaución en pacientes que reciben simultáneamente agentes farmacológicos que presentan similitud estructural con los anestésicos locales (por ejemplo, medicamentos antiarrítmicos de clase Ib), dado que sus efectos tóxicos son de carácter aditivo.
+ Un tratamiento prolongado o permanente con antiarrítmicos, psicofármacos o anticonvulsivantes, y el consumo de alcohol, puede disminuir la sensibilidad a los anestésicos. Resulta suficiente aumentar la dosis de anestésico o simplemente esperar que actúe durante más tiempo, antes de la intervención.
+ Se debe tener cuidado con la dosificación en caso de uso simultáneo de medicamentos que producen depresión del SNC, ya que pueden provocar efectos depresores aditivos.
+ Los anestésicos locales pueden liberar iones de metales pesados de algunas soluciones desinfectantes. Se deben tomar medidas especiales cuando se utilice este tipo de desinfectantes, antes de administrar el anestésico. Estos iones liberados pueden provocar irritaciones locales, hinchazón y edema.
+ La administración de heparina, antiinflamatorios no esteroides o sustitutos del plasma (dextrano), puede incrementar la tendencia hemorrágica después de la inyección de anestésicos locales. 
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Los datos de un número limitado de mujeres embarazadas no indican reacciones adversas de la mepivacaína durante el embarazo o en la salud del feto o del recién nacido. Hasta la fecha no se dispone de más datos epidemiológicos relevantes. El riesgo potencial para los humanos es desconocido.
+ No se recomienda la administración de mepivacaína en el momento del parto (ver sección 4.4. Advertencias y precauciones especiales de empleo).
+ Lactancia
+ La mepivacaína se excreta en la leche materna. Sin embargo, considerando las dosis terapéuticas de Mepivacaína Physan, no se esperan efectos en el lactante y puede ser utilizado durante el periodo de lactancia.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de Mepivacaína Physan sobre la capacidad para conducir y utilizar máquinas es pequeña o moderada, pudiendo afectar levemente la respuesta motora y la coordinación de forma temporal en función de la dosis de anestésico local.
+ 4.8. Reacciones adversas
+ Las reacciones adversas a los anestésicos locales son raras (≥1/10000 a <1/1000), excepto en el caso de sobredosis o inyección intravascular inadvertida. Deben diferenciarse de los efectos fisiológicos del propio bloqueo nervioso, como la disminución de la presión sanguínea y bradicardia durante la anestesia epidural.
+ Los efectos de la sobredosis e inyecciones intravasculares accidentales pueden ser graves (ver sección 4.9. Sobredosis)
+ Debido al contenido de mepivacaína como anestésico local, pueden producirse las siguientes reacciones adversas:
+ Raras (≥1/10000 a <1/1000)
+ Trastornos del sistema nervioso: Inconsciencia y convulsiones (en caso de sobredosis absoluta o relativa). Se han observado efectos neurológicos (por ejemplo, sensación de entumecimiento, parestesia residual y otros problemas sensoriales). No se ha establecido de forma certera hasta qué punto estos síntomas dependen de factores técnicos (por ejemplo, inyecciones intravasculares accidentales) o del anestésico.
+ Procedimientos médicos y quirúrgicos: Dependiendo de la técnica anestésica regional utilizada e independientemente del tipo de anestésico, se pueden producir traumatismo nervioso, neuropatía, oclusión de la arteria espinal anterior y aracnoiditis.
+ Trastornos cardiacos: Depresión del miocardio y parada cardiaca (en pacientes con sobredosis absoluta o relativa).
+ Trastornos generales: Reacciones alérgicas a los anestésicos locales de tipo amida (erupción cutánea, eritema, prurito, edema de la lengua, la boca, los labios o la garganta) y, en los casos más graves, shock anafiláctico. Metahemoglobinemia.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaram.es.
+ | 
+ 4.9. Sobredosis
+ Toxicidad
+ Con una inyección intravascular accidental el efecto tóxico es obvio entre 1 y 3 minutos, mientras que con una sobredosis el pico de concentración plasmática no se alcanza hasta los 20-30 minutos, dependiendo del lugar de inyección; retrasándose de este modo los signos de toxicidad. Las reacciones tóxicas afectan principalmente al sistema nervioso y sistema cardiovascular.
+ Sistema nervioso central
+ La toxicidad en el SNC se produce de forma gradual con síntomas y reacciones que se agravan progresivamente. Inicialmente, los síntomas incluyen agitación, sensación de intoxicación y de entumecimiento de los labios y la lengua, parestesias alrededor de la boca, mareos, problemas de visión y oído y zumbido en los oídos. Si se observan estos efectos mientras se realiza la inyección, deben considerarse como una señal de advertencia y por tanto, la inyección debe detenerse de inmediato. Las dificultades de articulación de palabras, la rigidez de músculos y los espasmos son síntomas más graves que preceden convulsiones generalizadas. No debe cometerse el error de interpretar estos síntomas como un comportamiento neurótico. Puede producirse inconsciencia y crisis de epilepsia que se prolonguen desde unos segundos hasta varios minutos. Durante las convulsiones se produce falta de oxígeno e hipercapnia debido al aumento de la actividad muscular y a la falta de ventilación. En los casos más graves puede producirse una parada respiratoria. La acidosis incrementa los efectos tóxicos de los anestésicos locales.
+ La recuperación depende del metabolismo del anestésico local y de la distribución fuera del sistema nervioso central. La metabolización es rápida siempre que no se inyecten grandes cantidades del medicamento.
+ Sistema cardiovascular
+ Por lo general, los efectos cardiovasculares conllevan una situación más grave. Puede producirse una bajada de la presión sanguínea, bradicardia, arritmia y parada cardiaca a consecuencia de las altas concentraciones sistémicas del anestésico local. Estos efectos suelen ir precedidos de signos de toxicidad del SNC, a menos que el paciente haya recibido anestesia general o esté muy sedado con componentes como benzodiazepinas o barbitúricos. No obstante, cabe destacar que los propios bloqueos centrales dan lugar a menudo a un bloqueo simpático que produce una bajada de la presión sanguínea y, en ocasiones, bradicardia.
+ Tratamiento
+ Si aparecen signos de toxicidad sistémica aguda, deberá interrumpirse inmediatamente la inyección del anestésico.
+ Si se dan convulsiones, se requiere tratamiento inmediato, con lo que debe disponerse del equipo y fármacos adecuados. Los objetivos del tratamiento son mantener la oxigenación, detener las convulsiones y mantener la circulación.
+ Generalmente la administración de oxígeno es suficiente para tratar los síntomas de las convulsiones. Si es necesario se administra ventilación asistida.
+ Si las convulsiones no se detienen espontáneamente en 15-20 segundos, debería administrarse un anticonvulsionante intravenoso. Una dosis de 100-150 mg de tiopentano i.v. detendrá las convulsiones rápidamente.
+ Puede utilizarse, como alternativa, una dosis de 5 – 10 mg de diazepam i.v., aunque su acción es inferior. El suxametonio parará rápidamente las convulsiones del músculo, pero requerirá una intubación traqueal y ventilación controlada.
+ Si la depresión cardiovascular es evidente (hipotensión, bradicardia), debería administrarse entre 5 – 10 mg i.v. de efedrina, repitiendo la dosis, si fuera necesario a los 2 – 3 minutos.
+ En el caso de que se produzca un paro circulatorio, debe realizarse inmediatamente una reanimación cardiopulmonar. La oxigenación óptima, ventilación y soporte circulatorio, al igual que el tratamiento de la acidosis son de vital importancia, ya que la hipoxia y la acidosis incrementan la toxicidad de los anestésicos locales.
+ Debería administrarse epinefrina (0,1 – 1,2 mg intravenoso o intracardíaco) tan pronto como sea posible y repetir la dosis si es necesario. 
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ A partir de un pH>6.5 existe riesgo de precipitación. Esta característica debe tenerse en cuenta al añadir soluciones alcalinas, como carbonatos.
+ 6.3. Periodo de validez
+ 5 años.
+ 6.4. Precauciones especiales de conservación
+ No se precisan condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Ampolla de vidrio blanco neutro de calidad hidrolítica Tipo I.
+ Presentaciones:
+ Envase conteniendo 1 ampolla, o envases clínicos de 50 o 100 ampollas de 2 ml.
+ Envase conteniendo 1 ampolla, o envases clínicos de 50 o 100 ampollas de 10 ml.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Cartuchos para uso único.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

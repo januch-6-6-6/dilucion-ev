@@ -1,0 +1,22 @@
+{
+ "id": "ranibizumab",
+ "familia": "intravitreo",
+ "resultados": 16,
+ "tipo": "ocular",
+ "sel": [
+  {
+   "nregistro": "106374003",
+   "nombre": "LUCENTIS 10 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/106374003/FT_106374003.html",
+   "tipo": "ocular"
+  },
+  {
+   "nregistro": "106374004",
+   "nombre": "LUCENTIS 10 MG/ML SOLUCION INYECTABLE",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/106374004/FT_106374004.html",
+   "tipo": "ocular"
+  }
+ ]
+}

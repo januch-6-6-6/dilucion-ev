@@ -1,0 +1,387 @@
+[
+ {
+  "Producto": "F-9863/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 200 mg",
+  "FechaRegistro": "1995-02-17",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8516/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 200 mg",
+  "FechaRegistro": "1997-01-08",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29913/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2025-06-25",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8518/21",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "1991-11-08",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-13105/23",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2003-09-15",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-28868/25",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2025-05-15",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26680/22",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2022-03-14",
+  "Titular": "MDC HEALTH S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-22710/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2016-05-20",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29670/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "2026-05-07",
+  "Titular": "MDC HEALTH S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-22712/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS 800 mg",
+  "FechaRegistro": "2016-05-25",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29497/26",
+  "Nombre": "ACICLOVIR COMPRIMIDOS RECUBIERTOS 200 mg",
+  "FechaRegistro": "17-02-2026",
+  "Titular": "LABORATORIO FLEMING SpA",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8703/26",
+  "Nombre": "ACICLOVIR CREMA DÉRMICA 5%",
+  "FechaRegistro": "1990-06-19",
+  "Titular": "CHEMOPHARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-3865/25",
+  "Nombre": "ACICLOVIR CREMA DÉRMICA 5%",
+  "FechaRegistro": "1988-02-19",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-9864/26",
+  "Nombre": "ACICLOVIR CREMA DÉRMICA 5%",
+  "FechaRegistro": "1995-02-17",
+  "Titular": "MINTLAB Co. S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-24737/24",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5 %",
+  "FechaRegistro": "2019-03-27",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-21826/25",
+  "Nombre": "ACICLOVIR CREMA TOPICA 5%",
+  "FechaRegistro": "2015-04-22",
+  "Titular": "B Y B FARMACÉUTICA LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-27683/23",
+  "Nombre": "ACICLOVIR CREMA TOPICA 5%",
+  "FechaRegistro": "2023-07-24",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-27027/22",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "2022-09-01",
+  "Titular": "LABORATORIO SCL LIMITADA",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-25446/25",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "2020-05-26",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-23584/22",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "2017-08-22",
+  "Titular": "DROGUERÍA GLOBAL PHARMA S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-23793/23",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "2018-05-29",
+  "Titular": "LABORATORIO HOSPIFARMA CHILE LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-20822/24",
+  "Nombre": "ACICLOVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "2014-01-22",
+  "Titular": "OPKO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26809/22",
+  "Nombre": "ACICLOVIR LIOFILIZADO PARA SOLUCION INYECTABLE 250 mg",
+  "FechaRegistro": "2022-05-24",
+  "Titular": "DIFEM LABORATORIOS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8286/21",
+  "Nombre": "ACICLOVIR LIOFILIZADO PARA SOLUCIÓN INYECTABLE 250 mg",
+  "FechaRegistro": "1996-11-18 02:10:00",
+  "Titular": "BPH SpA",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-25938/26",
+  "Nombre": "ACICLOVIR LIOFILIZADO PARA SOLUCIÓN INYECTABLE 250 mg",
+  "FechaRegistro": "2021-01-19",
+  "Titular": "NEOETHICALS CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26810/22",
+  "Nombre": "ACICLOVIR LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg",
+  "FechaRegistro": "2022-05-24",
+  "Titular": "DIFEM LABORATORIOS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26001/26",
+  "Nombre": "ACICLOVIR LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg",
+  "FechaRegistro": "2021-02-24",
+  "Titular": "NEOETHICALS CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-28407/24",
+  "Nombre": "ACICLOVIR POLVO PARA SOLUCIÓN INYECTABLE 250 mg",
+  "FechaRegistro": "2024-08-01",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-27360/23",
+  "Nombre": "ACICLOVIR POLVO PARA SOLUCIÓN INYECTABLE 250 mg",
+  "FechaRegistro": "2023-02-28",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26313/26",
+  "Nombre": "ACICLOVIR SUSPENSIÓN ORAL 200 mg/5 mL",
+  "FechaRegistro": "2021-08-09",
+  "Titular": "NEOETHICALS CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8844/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO 3%",
+  "FechaRegistro": "1991-04-23",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8704/26",
+  "Nombre": "ACICLOVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-06-19",
+  "Titular": "CHEMOPHARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29695/26",
+  "Nombre": "ACLIR COMPRIMIDOS 400 mg (ACICLOVIR)",
+  "FechaRegistro": "2026-05-20",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29696/26",
+  "Nombre": "ACLIR COMPRIMIDOS 800 mg (ACICLOVIR)",
+  "FechaRegistro": "2026-05-20",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-29496/26",
+  "Nombre": "BLISTONIL CREMA DÉRMICA 5% (ACICLOVIR)",
+  "FechaRegistro": "17-02-2026",
+  "Titular": "EMCURE PHARMA CHILE S.p.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-27028/22",
+  "Nombre": "DERMAVIR CREMA TÓPICA 5%(ACICLOVIR)",
+  "FechaRegistro": "2022-09-01",
+  "Titular": "LABORATORIO SCL LIMITADA",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-9789/26",
+  "Nombre": "EUROVIR COMPRIMIDOS 400 mg",
+  "FechaRegistro": "1996-05-08",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "Aciclovir"
+ },
+ {
+  "Producto": "FX-266/22",
+  "Nombre": "EUROVIR comprimidos 400 mg",
+  "FechaRegistro": "2017-12-18 02:10:00",
+  "Titular": "EUROLAB LTDA.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-9791/26",
+  "Nombre": "EUROVIR COMPRIMIDOS 800 mg",
+  "FechaRegistro": "1990-04-10 02:10:00",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-9792/26",
+  "Nombre": "EUROVIR CREMA TÓPICA 5%",
+  "FechaRegistro": "1996-05-08",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-12913/23",
+  "Nombre": "EUROVIR FORTE SUSPENSIÓN ORAL 400 mg/5 mL",
+  "FechaRegistro": "2003-06-20",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-9794/26",
+  "Nombre": "EUROVIR SUSPENSIÓN ORAL 200 mg/5 mL",
+  "FechaRegistro": "1996-05-20 03:10:00",
+  "Titular": "EUROLAB LTDA.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26510/21",
+  "Nombre": "HERPIZO POLVO PARA SOLUCIÓN INYECTABLE 250 mg (ACICLOVIR)",
+  "FechaRegistro": "2021-11-23",
+  "Titular": "VITAFARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26511/21",
+  "Nombre": "HERPIZO POLVO PARA SOLUCIÓN INYECTABLE 500 mg (ACICLOVIR)",
+  "FechaRegistro": "2021-11-24",
+  "Titular": "VITAFARMA S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-9585/26",
+  "Nombre": "OFTAVIR UNGÜENTO OFTÁLMICO AL 3%",
+  "FechaRegistro": "1990-01-16",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-3588/25",
+  "Nombre": "PERVIORAL COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "2000-05-03",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-29929/26",
+  "Nombre": "PERVIORAL COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2026-08-13",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR CLORHIDRATO"
+ },
+ {
+  "Producto": "F-24877/24",
+  "Nombre": "TEGOVIR COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2019-06-13",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-16908/23",
+  "Nombre": "VADIRAL COMPRIMIDOS RECUBIERTOS 1000 mg (VALACICLOVIR)",
+  "FechaRegistro": "2008-07-01",
+  "Titular": "LABORATORIOS RECALCINE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "FX-80/23",
+  "Nombre": "VALACICLOVIR COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "2013-05-10",
+  "Titular": "LABORATORIO BAGÓ DE CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-22763/26",
+  "Nombre": "VALTERO COMPRIMIDOS RECUBIERTOS 500 mg.",
+  "FechaRegistro": "2016-06-07",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-24637/24",
+  "Nombre": "VIPROVIR COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2019-02-13",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-14861/25",
+  "Nombre": "VIRONIDA FORTE SUSPENSIÓN ORAL 400 mg/5 ml",
+  "FechaRegistro": "2005-06-20",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-8517/21",
+  "Nombre": "VIRONIDA SUSPENSIÓN ORAL 200 mg/5 mL",
+  "FechaRegistro": "1991-11-08",
+  "Titular": "LABORATORIO CHILE S.A.",
+  "PA": "ACICLOVIR"
+ },
+ {
+  "Producto": "F-26238/26",
+  "Nombre": "ZOYLEX SOLUCIÓN INYECTABLE 250 mg/10 mL (ACICLOVIR)",
+  "FechaRegistro": "2021-06-29",
+  "Titular": "INVERSIONES PHARMAVISAN S.A.",
+  "PA": "ACICLOVIR"
+ }
+]

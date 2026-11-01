@@ -1,0 +1,390 @@
+BUPIVACAÍNA/ADRENALINA PHYSAN 5 MG/ML + 0,005 MG/ML SOLUCIÓN INYECTABLE | VIA EPIDURAL VIA INTRAARTICULAR VIA INTRAMUSCULAR VIA PERINEURAL USO RETROBULBAR VIA SUBCUTANEA USO PERIOSEO INFILTRACION SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/45669/FT_45669.html
+
+ 4.1. Indicaciones terapéuticas
+ Bupivacaína puede ser usada en varios tipos de técnicas anestésicas incluyendo: infiltración local, bloqueo de los nervios menores y mayores, bloqueo epidural y artroscopia.
+ 4.2. Posología y forma de administración
+ Posología:
+ Deben evitarse dosis elevadas de anestésicos locales innecesarias. En general, el bloqueo completo de todas las fibras nerviosas de los nervios grandes requiere concentraciones elevadas del fármaco. En los nervios pequeños, o en el caso en que se requiera un bloqueo menos intenso (por ej. en el alivio de dolor en el parto), están indicadas concentraciones menores. El volumen de fármaco usado puede afectar el grado de diseminación de la anestesia.
+ La adición de adrenalina da lugar a una prolongación del bloqueo en un 50 - 100 %.
+ En el bloqueo caudal deben usarse dosis muy elevadas. Ver tabla.
+ Las tablas que se adjuntan a continuación sirven de guía para la dosificación en las técnicas más comúnmente aplicadas. La experiencia clínica y el conocimiento del estado físico del paciente son factores muy importantes para el cálculo de la dosis necesaria. Cuando se usa un bloqueo prolongado, bien sea mediante una perfusión continua o por la administración repetida de bolus, debe tenerse en cuenta el riesgo de alcanzar una concentración plasmática tóxica o dar lugar a un deterioro local neuronal.
+ Adultos y adolescentes a partir de 12 años
+ La experiencia conseguida hasta la fecha indica que la administración de 400 mg durante un periodo de 24 horas es bien tolerada en la mayoría de los adultos.
+ Dosis de bupivacaína recomendadas en adultos y adolescentes a partir de 12 años
+ Las dosis indicadas en la tabla son las consideradas necesarias para producir un bloqueo apropiado y deberían tomarse como guía para la mayoría de los adultos y adolescentes a partir de 12 años. Generalmente, las dosis de anestésicos locales que contienen adrenalina son iguales a las de las soluciones que no la contienen. En relación con el inicio y la duración de la acción, aparecen variaciones individuales y es imposible facilitar datos precisos. En el caso de otras técnicas anestésicas loco-regionales es necesario consultar libros de texto adecuados.
+ Nota. Existe riesgo de aparición de efectos sistémicos debido a la presencia de adrenalina en el caso de soluciones de grandes volúmenes que la contengan
+ Tipo de bloqueo
+ | 
+ Dosis
+ | 
+ Inicio
+ | 
+ Duración
+ | 
+ Indicación
+ | 
+ Comentarios
+ | 
+ ml
+ | 
+ mg
+ | 
+ (min)
+ | 
+ (h)
+ | 
+ Infiltración local
+ | 
+ ? 30
+ | 
+ ? 150
+ | 
+ 1 - 3
+ | 
+ > 4 - 8
+ | 
+ Operaciones quirúrgicas y analgesia postoperatoria
+ | 
+ | 
+ Retrobulbar
+ Peribulbar
+ | 
+ 2 - 4
+ 6 - 10
+ | 
+ 10 - 20
+ 30 - 50
+ | 
+ 5
+ 10
+ | 
+ 4 - 8
+ 4 - 8
+ | 
+ Cirugía ocular
+ | 
+ Ver Sección 4.4
+ | 
+ Intercostal
+ (por el nervio)
+ | 
+ 2 - 3
+ | 
+ 10 - 15
+ | 
+ 3 - 5
+ | 
+ 4 - 8
+ | 
+ Alivio del dolor en cirugía, postoperatorio y postraumático
+ | 
+ | 
+ Interpleural
+ | 
+ 20
+ | 
+ 100
+ | 
+ 10 - 20
+ | 
+ 4 - 8
+ | 
+ Analgesia postoperatoria
+ | 
+ | 
+ Plexo braquial:
+ axilar, supraclavicular, interescaleno y perivascular subclavio
+ | 
+ 30 - 40
+ 20 - 30
+ | 
+ 150 - 200
+ 100 - 150
+ | 
+ 15 - 30
+ 15 - 30
+ | 
+ 4 - 8
+ 4 - 8
+ | 
+ Operaciones quirúrgicas
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Tipo de bloqueo
+ | 
+ Dosis
+ | 
+ Inicio
+ | 
+ Duración
+ | 
+ Indicación
+ | 
+ Comentarios
+ | 
+ ml
+ | 
+ mg
+ | 
+ (min)
+ | 
+ (h)
+ | 
+ Ciático
+ | 
+ 10 - 20
+ | 
+ 50 - 100
+ | 
+ 15 - 30
+ | 
+ 4 - 8
+ | 
+ Operaciones quirúrgicas
+ | 
+ | 
+ 3 en 1
+ (femoral, obturador y cutáneo lateral)
+ | 
+ 20 - 30
+ | 
+ 100 - 150
+ | 
+ 15 - 30
+ | 
+ 4 - 8
+ | 
+ Operaciones quirúrgicas
+ | 
+ | 
+ Epidural lumbar
+ | 
+ 15 - 30
+ | 
+ 75 - 150
+ | 
+ 15 - 30
+ | 
+ 2 - 3
+ | 
+ Operaciones quirúrgicas incluyendo cesárea
+ | 
+ Realizar la dosis de prueba
+ | 
+ Epidural torácico
+ | 
+ 5 - 10
+ | 
+ 25 - 50
+ | 
+ 10 - 15
+ | 
+ 2 - 3
+ | 
+ Operaciones quirúrgicas
+ | 
+ Comprobar la dosificación - test dosis
+ | 
+ Epidural caudal
+ | 
+ 20 - 30
+ | 
+ 100 - 150
+ | 
+ 15 - 30
+ | 
+ 2 - 3
+ | 
+ Operaciones quirúrgicas y alivio del dolor postoperatorio
+ | 
+ Comprobar la dosificación - test dosis
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Niños de 1 a 12 años
+ La dosis debe ser calculada según la edad y el peso, hasta 2 mg/kg. En el caso de niños de elevado peso corporal debe realizarse una reducción gradual de la dosis basándose en el peso ideal.
+ Forma de administración
+ Vías de administración: infiltración, vía subcutánea, vía intramuscular, vía epidural, vía intraarticular, vía perineural, uso perióseo y uso retrobulbar.
+ Es necesario tomar precauciones con el fin de prevenir reacciones de toxicidad aguda, evitando la inyección intravascular. Se aconseja realizar una aspiración antes y durante la administración. Cuando se administran dosis elevadas, por ejemplo en el caso de bloqueo epidural, es conveniente realizar una dosis de prueba con 3-5 ml de bupivacaína con adrenalina. Una inyección intravascular accidental puede ser detectada por un aumento temporal del ritmo cardiaco.
+ La dosis máxima debe ser administrada muy lentamente, a un ritmo de 25-50 mg/min, o en incrementos de dosis, manteniendo un contacto verbal constante con el paciente. Si aparecen síntomas de toxicidad, debe cesarse inmediatamente la administración.
+ Puede usarse para la prolongación del bloqueo mediante su inyección o perfusión a través de un catéter insertado. Esta técnica es común en la anestesia epidural, y también puede usarse en anestesia del plexo braquial y analgesia interpleural.
+ En el caso de la infiltración local, la duración del efecto puede verse incrementada por la adición de adrenalina.
+ 4.3. Contraindicaciones
+ Las soluciones de bupivacaína están contraindicadas en pacientes con hipersensibilidad al hidrocloruro de bupivacaína o a otros anestésicos locales de tipo amida amida (como articaína, mepivacaína, lidocacína, prilocaína, etc.), a la adrenalina, o a alguno de los excipientes incluidos en la sección 6.1.
+ Las soluciones de bupivacaína están contraindicadas en el caso de anestesia regional intravenosa (bloqueo de Bier), ya que el paso inadvertido de bupivacaína a la circulación sistémica puede dar lugar a reacciones sistémicas de toxicidad aguda.
+ La anestesia epidural, con independencia del anestésico local utilizado, tiene sus propias contraindicaciones que incluyen:
+ Enfermedad activa del sistema nervioso central, como meningitis, poliomielitis, hemorragia intracraneal, degeneración subaguda combinada de la médula espinal debido a anemia perniciosa y tumores cerebrales y medulares.
+ Tuberculosis de la médula espinal
+ Infección pirogénica de la piel en el lugar de la punción o en posición adyacente.
+ Shock cardiogénico o hipovolémico.
+ Alteraciones de la coagulación o tratamientos anticoagulantes en curso
+ 4.4. Advertencias y precauciones especiales de empleo
+ Se ha informado de casos en los que ha tenido lugar un paro cardiaco o muerte durante el uso de bupivacaína en anestesia epidural o bloqueo del nervio periférico. En algunas ocasiones, la recuperación ha sido difícil o imposible a pesar de que la preparación y manipulación hayan sido apropiadas.
+ Los procedimientos de anestesia regional o local, exceptuando aquellos de naturaleza trivial, deben ser siempre llevados a cabo por profesionales debidamente formados y en áreas con acceso inmediato al equipo y medicamentos de reanimación. Cuando se llevan a cabo bloqueos mayores, debe insertarse previamente un catéter intravascular en el lugar de inyección del anestésico local. Los médicos deben recibir la formación adecuada según el procedimiento que deben realizar y estar familiarizados con el diagnóstico y tratamiento de los efectos secundarios, la toxicidad sistémica y otras complicaciones. (Ver sección 4.9 “Sobredosis”).
+ Algunos procedimientos realizados con anestésicos locales pueden ir asociados a reacciones adversas graves, independientemente del anestésico local utilizado, por ejemplo
+ El bloqueo nervioso central puede dar lugar a depresión cardiovascular, especialmente en presencia de hipovolemia. La anestesia epidural debe usarse con precaución en pacientes con deterioro de la función cardiovascular.
+ El bloqueo del nervio periférico mayor puede comportar la administración de volúmenes importantes en áreas muy vascularizadas, generalmente cercanas a vasos principales aumentando el riesgo de inyección intravascular y/o absorción sistémica, pudiendo dar lugar a concentraciones plasmáticas elevadas.
+ La administración retrobulbar puede ocasionalmente alcanzar el espacio subaracnoideo dando lugar a ceguera temporal, colapso cardiovascular, apnea, convulsiones, etc. Esto debe ser rápidamente diagnosticado y tratado.
+ La inyección retro y peribulbar de anestésicos locales conlleva un pequeño riesgo de disfunción permanente del músculo ocular, que puede ser producida por traumatismo y/o toxicidad local de los músculos y/o nervios. La gravedad de estas reacciones tisulares está relacionada con el grado de traumatismo, la concentración de anestésico local y el tiempo de exposición del tejido al anestésico local. Por este motivo, y para todos los anestésicos locales, deben usarse la concentración y dosificación efectivas más bajas. Los vasoconstrictores y otros aditivos pueden agravar las reacciones tisulares y únicamente deben usarse cuando sea apropiado.
+ Las inyecciones en las regiones de la cabeza y el cuello pueden producirse inadvertidamente en una arteria, causando graves síntomas incluso a bajas dosis.
+ El bloqueo paracervical puede causar, en algunas ocasiones, bradicardia / taquicardia fetal y debe realizarse una cuidadosa monitorización del ritmo cardiaco fetal.
+ Con el fin de reducir los efectos secundarios potencialmente peligrosos, es necesario prestar atención especial en algunos pacientes:
+ Pacientes con bloqueo cardiaco parcial o completo, debido a que la acción de los anestésicos locales puede dar lugar a una depresión de la conducción del miocardio.
+ Pacientes con enfermedad hepática avanzada o insuficiencia renal grave.
+ Pacientes de edad avanzada y pacientes debilitados, en los que la probabilidad de que se produzca toxicidad sistémica es mayor; además, dosis repetidas pueden causar acumulación del fármaco o sus metabolitos o enlentecer el metabolismo. Por tanto, se deben utilizar dosis más reducidas.
+ Aviso importante: en estos pacientes está aconsejada la anestesia regional. Antes de someterlos a anestesia general, debe intentarse mejorar el estado del paciente previo a efectuar bloqueo de nervios mayores.
+ Población pediátrica
+ La bupivacaína deberá utilizarse con precaución en niños de 1 a 12 años, debido a que tienen una mayor probabilidad de toxicidad sistémica.
+ Parto y embarazo
+ Debido a que la administración epidural, subaracnoidea, paracervical o pudenda puede alterar la contractilidad uterina y/o los esfuerzos de expulsión, e incluso incrementar la necesidad de fórceps.
+ La anestesia epidural puede causar hipotensión y bradicardia. Este riesgo puede ser reducido efectuando una precarga circulatoria con soluciones cristalinas o coloidales o inyectando vasopresores como 20 - 40 mg de efedrina i.m. La hipotensión debe tratarse previamente con 5 - 10 mg de efedrina intravenosa y repetir la administración en caso necesario.
+ Las soluciones con adrenalina deben usarse con precaución en pacientes con hipertensión severa o no tratada, tirotoxicosis mal controlada, alteración cardiaca isquémica, bloqueo cardiaco, insuficiencia cerebrovascular, diabetes avanzada y cualquier otra condición patológica que pueda verse agravada por los efectos de la adrenalina. Estas soluciones deben ser usadas con precaución y en cantidades restringidas en zonas arteriales distales, como son los dedos o aquellas que presentan un flujo sanguíneo comprometido. (Ver además 4.5 "Interacciones").
+ Advertencias sobre excipientes
+ Este medicamento puede producir reacciones alérgicas graves y broncoespasmo porque contiene metabisulfito de sodio.
+ Este medicamento contiene 32,8 mg de sodio por ampolla de 10 ml, equivalente a 1,64% de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Bupivacaína debe usarse con precaución en pacientes que están recibiendo tratamiento con agentes estructuralmente parecidos a los anestésicos locales tipo amida, ya que puede producirse aumento de los efectos tóxicos.
+ La administración conjunta de bupivacaína y vasoconstrictores prolonga el efecto y reduce la concentración plasmática del anestésico local.
+ La administración de heparina, antiinflamatorios no esteroideos (AINE) y sustitutivos plasmáticos, en particular dextranos, puede aumentar la tendencia a hemorragias por inyección de anestésicos locales.
+ Asimismo, puede ser necesario realizar controles del estado de la coagulación de los pacientes después de la medicación concomitante con AINE.
+ Las soluciones que contienen adrenalina deben ser evitadas o usadas con precaución en pacientes que estén recibiendo tratamiento con antidepresivos tricíclicos ya que podría producirse una hipertensión prolongada y grave. Asimismo, el uso de soluciones con adrenalina y fármacos oxitócicos de tipo ergotaminas puede causar hipertensión grave y persistente y accidentes cerebrovasculares y cardiacos. Las fenotiazinas y butirofenonas pueden reducir o invertir el efecto presor de la adrenalina.
+ Las soluciones que contienen adrenalina deben usarse con precaución en pacientes sometidos a anestesia general por inhalación de agentes como halotano, debido al riesgo de arritmias cardiacas severas.
+ Los betabloqueantes no cardioselectivos como el propanolol aumentan el efecto presor de la adrenalina, lo que puede conducir a una hipertensión severa y bradicardia.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Al igual que con la mayoría de los medicamentos se aconseja tomar las precauciones oportunas cuando se haga la prescripción a mujeres embarazadas.
+ Durante las primeras etapas del embarazo, bupivacaína solo debería ser administrada después de la consideración estricta de las indicaciones.
+ No se han descrito alteraciones específicas en el proceso reproductor, por ej. aumento de incidencias de malformaciones, ver sección 5.3.
+ La adición de adrenalina puede potenciar la disminución del flujo sanguíneo uterino y la contractilidad, especialmente tras una inyección involuntaria en los vasos sanguíneos maternos.
+ Los efectos adversos fetales debidos a los anestésicos locales, como bradicardia fetal, parecen estar más relacionados con anestesia del bloqueo paracervical. Estos efectos pueden ser debidos a concentraciones elevadas de anestésico que alcanzan al feto.
+ Lactancia
+ Bupivacaína se excreta en la leche materna, pero a las dosis terapéuticas de este medicamento no se esperan efectos en los niños en período de lactancia.
+ No se dispone de información suficiente relativa a la excreción de adrenalina en la leche materna, pero es poco probable que afecte al lactante.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ En función de la dosis y el lugar de administración, los anestésicos locales pueden afectar la función mental y alterar temporalmente la locomoción y la coordinación. Cuando se administre este medicamento el médico debe valorar en cada caso particular si la capacidad de reacción está comprometida y si el paciente puede conducir o utilizar máquinas.
+ 4.8. Reacciones adversas
+ En general, el perfil de las reacciones adversas de bupivacaína es parecido al de otros anestésicos locales de larga duración. Las reacciones adversas causadas por el fármaco en sí son difíciles de distinguir de los efectos fisiológicos del bloqueo nervioso (por ej. disminución de la presión arterial, bradicardia), efectos causados directamente (por ej. lesión del nervio) o indirectamente (por ej. absceso epidural) por la aguja de punción.
+ Tabla de reacciones adversas
+ A continuación se relacionan las reacciones adversas comunicadas con el uso de bupivacaína teniendo en cuenta la frecuencia de aparición.
+ Frecuencia
+ | 
+ Clasificación órgano-sistema (MedDRA)
+ | 
+ Acontecimiento
+ | 
+ Muy frecuentes
+ (≥ 1/10)
+ | 
+ Trastornos vasculares
+ | 
+ Hipotensión
+ | 
+ Trastornos gastrointestinales
+ | 
+ Náuseas
+ | 
+ Frecuentes
+ (≥1/100<1/10)
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Parestesia
+ Vértigo
+ | 
+ Trastornos cardiacos
+ | 
+ Bradicardia
+ | 
+ Trastornos vasculares
+ | 
+ Hipertensión
+ | 
+ Trastornos gastrointestinales
+ | 
+ Vómitos
+ | 
+ Trastornos renales y urinarios
+ | 
+ Retención urinaria
+ | 
+ Poco frecuentes
+ (≥1/1.000<1/100)
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Signos y síntomas de toxicidad del SNC (convulsiones, parestesia circumoral, adormecimiento de la lengua, hiperacusia, alteraciones visuales, pérdida de la conciencia, temblores, ligero dolor de cabeza, tinnitus y disartria)
+ | 
+ Raras (≥1/10.000 a <1/1.000)
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Reacciones alérgicas
+ Reacción/choque anafiláctico
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Neuropatía
+ Lesión del nervio periférico
+ Aracnoiditis
+ | 
+ Trastornos oculares
+ | 
+ Diplopía
+ | 
+ Trastornos cardiacos
+ | 
+ Paro cardiaco
+ Arritmias
+ | 
+ Trastornos respiratorios, torácidos y mediastínicos
+ | 
+ Depresión respiratoria
+ | 
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaram.es
+ 4.9. Sobredosis
+ Toxicidad sistémica aguda
+ En el caso de una inyección intravascular accidental, los efectos tóxicos son obvios en 1-3 minutos, mientras que en una sobredosificación, es posible que el pico de las concentraciones plasmáticas no se alcance hasta los 20-30 minutos dependiendo del lugar de inyección, de manera que los signos de toxicidad se retrasan. Las reacciones tóxicas se originan principalmente en el sistema nervioso central y cardiovascular.
+ La toxicidad sobre el sistema nervioso central es una respuesta repentina con síntomas y signos de intensidad grave. Los primeros síntomas son parestesia, entumecimiento de la lengua, ligeros desvanecimientos, hiperacusia y tinnitus. Son importantes las alteraciones de la visión y temblores musculares que preceden al inicio de una convulsión generalizada. Estos signos no deben confundirse con un comportamiento neurótico. A continuación puede aparecer inconsciencia y convulsiones gran mal que pueden durar desde unos segundos a varios minutos. Tras las convulsiones se da rápidamente hipoxia e hipercapnia debido a un incremento de la actividad muscular, junto con la interferencia con la respiración normal y disminución de la ventilación. Puede aparecer algún caso de apnea grave. La acidosis incrementa los efectos tóxicos de los anestésicos locales.
+ La recuperación es debida a la redistribución del anestésico local por el sistema nervioso central y al metabolismo. La recuperación suele ser rápida aunque se haya inyectado una gran cantidad de fármaco.
+ En casos graves pueden aparecer efectos sobre el sistema cardiovascular. Como resultado de concentraciones sistémicas elevadas puede darse hipotensión, bradicardia, arritmia y paro cardiaco.
+ Las reacciones cardiovasculares tóxicas están generalmente relacionadas con el sistema de conducción del corazón y el miocardio, dando lugar a una disminución del gasto cardiaco, hipotensión, bloqueo cardiaco, bradicardia y, en algunas ocasiones, arritmias ventriculares, incluyendo taquicardia ventricular, fibrilación ventricular y paro cardiaco. Generalmente esto va precedido o acompañado por toxicidad del SNC mayor, por ej. convulsiones, pero en algunas ocasiones el paro cardiaco se dan sin efectos prodrómicos del SNC. En pacientes sometidos a sedación severa o que están recibiendo anestesia general, no aparecen síntomas prodrómicos sobre el SNC.
+ Tratamiento de la toxicidad aguda
+ En el caso de que aparezcan signos de toxicidad sistémica aguda debe cesarse inmediatamente la administración del anestésico local.
+ El tratamiento será necesario si se dan convulsiones. Todos los fármacos y equipos deben estar inmediatamente disponibles. Los objetivos del tratamiento son mantener la oxigenación, parar las convulsiones y mantener la circulación. En caso necesario se dará oxígeno y ventilación asistida (máscara y cámara de gas). Se administrará un anticonvulsivante vía i.v. si las convulsiones no desaparecen espontáneamente a los 15-20 segundos. Para cesar rápidamente las convulsiones se pueden usar 100-150 mg de tiopental i.v. Como alternativa puede usarse 5-10 mg de diazepam i.v., pero su acción es más lenta. El suxametonio detiene rápidamente las convulsiones, pero requiere intubación traqueal y control de la ventilación, y solo debe ser usado si se está familiarizado con estos procesos.
+ Si se detecta depresión cardiovascular (hipotensión, bradicardia), se administrarán 5-10 mg i.v. de efedrina y se repetirá la dosis en caso necesario a los 2-3 minutos.
+ En el caso de que se produzca un paro circulatorio, debe instaurarse rápidamente la reanimación cardiopulmonar. Son de suma importancia una oxigenación y ventilación óptimas, soporte circulatorio y tratamiento de la acidosis, ya que la hipoxia y acidosis pueden incrementar la toxicidad sistémica del anestésico local.
+ Debe administrarse lo antes posible adrenalina (0,1-0,2 mg intravenosa o intracardiaca) y repetir la dosis en caso necesario.
+ Si aparece paro cardiaco, para obtener un buen resultado debe aplicarse un esfuerzo de reanimación prolongado.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ La solubilidad de bupivacaína es limitada a pH > 6,5. Esto debe tenerse en cuenta en el caso de que deban añadirse soluciones alcalinas (por ej. carbonatos), ya que puede aparecer precipitación.
+ La mezcla con soluciones alcalinas da lugar a una rápida degradación de la adrenalina.
+ 6.3. Periodo de validez
+ El periodo de validez es de 3 años.
+ El contenido de las ampollas debe ser usado inmediatamente tras su apertura.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC. No congelar. Proteger de la luz.
+ 6.5. Naturaleza y contenido del envase
+ Envases clínicos de 50 o de 100 ampollas de vidrio tipo I (Ph. Eur.) de 10 ml.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Las soluciones no contienen conservantes y deben ser usadas inmediatamente tras su apertura. Todo resto de solución debe ser desechado.
+ Debido a la inestabilidad de la adrenalina, los productos que la contienen no deben ser esterilizados.
+ Deben tomarse las precauciones apropiadas con el fin de evitar un contacto prolongado entre las soluciones anestésicas que contienen adrenalina (bajo pH) y las superficies metálicas (por ej. agujas y partes metálicas de las jeringas), ya que se disuelven los iones metálicos, principalmente iones de cobre, pudiendo causar irritación local (hinchazón, edema) en el lugar de inyección y degradación acelerada de la adrenalina).
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.

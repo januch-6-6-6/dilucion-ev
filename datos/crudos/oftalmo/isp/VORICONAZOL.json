@@ -1,0 +1,86 @@
+[
+ {
+  "Producto": "F-22353/25",
+  "Nombre": "FUSITOP COMPRIMIDOS RECUBIERTOS 200 mg (VORICONAZOL)",
+  "FechaRegistro": "2015-12-17",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-22354/25",
+  "Nombre": "FUSITOP LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg (VORICONAZOL)",
+  "FechaRegistro": "2015-12-17",
+  "Titular": "PHARMATECH CHILE S.p.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-25339/25",
+  "Nombre": "VFEND COMPRIMIDOS RECUBIERTOS 200 mg (VORICONAZOL)",
+  "FechaRegistro": "2020-03-17",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-20548/23",
+  "Nombre": "VFEND LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg",
+  "FechaRegistro": "2013-11-26",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-24461/23",
+  "Nombre": "VORICONAZOL COMPRIMIDOS RECUBIERTOS 200 mg",
+  "FechaRegistro": "2018-12-13",
+  "Titular": "MSN LABS CHILE S.p.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-27869/23",
+  "Nombre": "VORICONAZOL LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg",
+  "FechaRegistro": "2023-10-10",
+  "Titular": "VITAFARMA S.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-24066/23",
+  "Nombre": "VORICONAZOL LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg",
+  "FechaRegistro": "2018-08-28",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-24217/23",
+  "Nombre": "VORICONAZOL LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg",
+  "FechaRegistro": "2018-10-24",
+  "Titular": "MSN LABS CHILE S.p.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-23587/22",
+  "Nombre": "VORIOLE 200 COMPRIMIDOS RECUBIERTOS 200 mg (VORICONAZOL)",
+  "FechaRegistro": "2017-08-30",
+  "Titular": "LIBRA CHILE S.A.",
+  "PA": "Voriconazol"
+ },
+ {
+  "Producto": "F-22981/26",
+  "Nombre": "VORIOLE-IV LIOFILIZADO PARA SOLUCIÓN INYECTABLE 200 mg (VORICONAZOL)",
+  "FechaRegistro": "2016-08-25",
+  "Titular": "LIBRA CHILE S.A.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-25128/24",
+  "Nombre": "ZIVENAD COMPRIMIDOS RECUBIERTOS 200 mg",
+  "FechaRegistro": "2019-11-13",
+  "Titular": "SYNTHON CHILE LTDA.",
+  "PA": "VORICONAZOL"
+ },
+ {
+  "Producto": "F-20946/24",
+  "Nombre": "ZIVENAD COMPRIMIDOS RECUBIERTOS 200 mg",
+  "FechaRegistro": "2014-03-11",
+  "Titular": "SYNTHON CHILE LTDA.",
+  "PA": "VORICONAZOL"
+ }
+]

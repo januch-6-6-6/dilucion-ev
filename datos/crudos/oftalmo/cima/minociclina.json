@@ -1,0 +1,15 @@
+{
+ "id": "minociclina",
+ "familia": "oral",
+ "resultados": 1,
+ "tipo": "oral",
+ "sel": [
+  {
+   "nregistro": "51179",
+   "nombre": "MINOCIN 100 MG CÁPSULAS DURAS",
+   "vias": "VIA ORAL CAPSULA DURA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/51179/FT_51179.html",
+   "tipo": "oral"
+  }
+ ]
+}

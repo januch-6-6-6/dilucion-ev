@@ -1,0 +1,79 @@
+[
+ {
+  "Producto": "F-16120/22",
+  "Nombre": "DENTOCAIN 2% / 1:100000 SOLUCIÓN INYECTABLE PARA USO DENTAL",
+  "FechaRegistro": "2007-06-15",
+  "Titular": "IMPORTADORA SURDENT LTDA.",
+  "PA": "EPINEFRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-19851/23",
+  "Nombre": "DENTOCAIN SIMPLE SOLUCIÓN INYECTABLE 3% (MEPIVACAINA CLORHIDRATO)",
+  "FechaRegistro": "2013-03-29",
+  "Titular": "IMPORTADORA SURDENT LTDA.",
+  "PA": "MEPIVACAINA"
+ },
+ {
+  "Producto": "F-16538/22",
+  "Nombre": "ISOCAINE 2% CON CORBADRINA  1:20.000  SOLUCIÓN INYECTABLE PARA USO DENTAL",
+  "FechaRegistro": "2007-11-30",
+  "Titular": "SOCIEDAD IMPORTADORA DENTAL S.A. \"SIDENTAL\"",
+  "PA": "CORBADRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-16063/22",
+  "Nombre": "ISOCAINE SOLUCIÓN INYECTABLE PARA USO DENTAL 3%.",
+  "FechaRegistro": "2007-04-25",
+  "Titular": "SOCIEDAD IMPORTADORA DENTAL S.A. \"SIDENTAL\"",
+  "PA": "MEPIVACAINA"
+ },
+ {
+  "Producto": "F-19240/22",
+  "Nombre": "MEPIADRE 2% / 1:100.000 SOLUCIÓN INYECTABLE",
+  "FechaRegistro": "2012-02-14",
+  "Titular": "LABORATORIO MAVER S.A.",
+  "PA": "EPINEFRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-19223/22",
+  "Nombre": "MEPISV  SOLUCIÓN INYECTABLE  3%",
+  "FechaRegistro": "2012-01-25",
+  "Titular": "LABORATORIO MAVER S.A.",
+  "PA": "MEPIVACAINA"
+ },
+ {
+  "Producto": "F-17081/23",
+  "Nombre": "MEPIVACAÍNA CLORHIDRATO AL 2% CON EPINEFRINA 1:100.000 SOLUCIÓN INYECTABLE PARA USO DENTAL",
+  "FechaRegistro": "2008-09-09",
+  "Titular": "INMED DROGUERÍA LTDA.",
+  "PA": "EPINEFRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-29363/25",
+  "Nombre": "MEPIVACAÍNA CLORHIDRATO SOLUCIÓN INYECTABLE 3%",
+  "FechaRegistro": "2025-12-15",
+  "Titular": "DENTAL LAVAL LTDA.",
+  "PA": "MEPIVACAINA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-25076/24",
+  "Nombre": "ODONTOCAÍNA SOLUCIÓN INYECTABLE",
+  "FechaRegistro": "2019-10-15",
+  "Titular": "BUHOS SOCIEDAD COMERCIAL INDUSTRIAL LTDA.",
+  "PA": "EPINEFRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-12489/22",
+  "Nombre": "SCANDONEST 2% ESPECIAL SOLUCION INYECTABLE EN CARTUCHOS DENTALES (EPINEFRINA/MEPIVACAINA)",
+  "FechaRegistro": "2002-12-11",
+  "Titular": "DENTAL LAVAL LTDA.",
+  "PA": "EPINEFRINA//MEPIVACAINA"
+ },
+ {
+  "Producto": "F-3609/25",
+  "Nombre": "SCANDONEST SIN VASOCONSTRICTOR SOLUCION INYECTABLE 3%",
+  "FechaRegistro": "2000-05-17 03:10:00",
+  "Titular": "DENTAL LAVAL LTDA.",
+  "PA": "MEPIVACAINA"
+ }
+]

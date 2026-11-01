@@ -1,0 +1,360 @@
+IVERGALEN 3 MG COMPRIMIDOS EFG | VIA ORAL COMPRIMIDO
+https://cima.aemps.es/cima/dochtml/ft/85728/FT_85728.html
+
+ 4.1. Indicaciones terapéuticas
+ Tratamiento de la estrongiloidosis digestiva (anguilulosis).
+ Tratamiento de microfilaremia sospechada o diagnosticada en pacientes con filariasis linfática debida a Wuchereria bancrofti.
+ Tratamiento de la sarna sarcóptica en humanos. El tratamiento está justificado cuando el diagnóstico de sarna se ha establecido desde un punto de vista clínico o mediante exploración parasitológica. Sin un diagnóstico formal no está justificado el tratamiento en caso de prurito.
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antiparasitarios.
+ 4.2. Posología y forma de administración
+ Posología
+ Tratamiento de la estrongiloidosis digestiva
+ La posología de ivermectina recomendada es de 200 μg/kg de peso en una única toma.
+ La guía para determinar la dosis en función del peso del paciente, sería la siguiente:
+ PESO CORPORAL (kg)
+ | 
+ DOSIS (número de comprimidos de 3 mg)
+ | 
+ De 15 a 24
+ | 
+ uno
+ | 
+ De 25 a 35
+ | 
+ dos
+ | 
+ De 36 a 50
+ | 
+ tres
+ | 
+ De 51 a 65
+ | 
+ cuatro
+ | 
+ De 66 a 79
+ | 
+ cinco
+ | 
+ ≥80
+ | 
+ seis
+ | 
+ Tratamiento de microfilaremia causada por Wuchereria bancrofti
+ La posología recomendada en el tratamiento colectivo de la microfilaremia causada por Wuchereria bancrofti es de 150 a 200 μg/kg de peso en una única toma cada 6 meses.
+ En zonas endémicas en las que el tratamiento solo puede administrarse una vez cada 12 meses, la posología recomendada para mantener una supresión adecuada de la microfilaremia es de 300 a 400 μg/kg de peso.
+ La guía para determinar la dosis en función del peso del paciente, sería la siguiente:
+ PESO CORPORAL (kg)
+ | 
+ DOSIS administrada cada 6 meses (número de comprimidos de 3 mg)
+ | 
+ DOSIS administrada cada 12 meses (número de comprimidos de 3 mg)
+ | 
+ De 15 a 25
+ | 
+ uno
+ | 
+ dos
+ | 
+ De 26 a 44
+ | 
+ dos
+ | 
+ cuatro
+ | 
+ De 45 a 64
+ | 
+ tres
+ | 
+ seis
+ | 
+ De 65 a 84
+ | 
+ cuatro
+ | 
+ ocho
+ | 
+ Alternativamente, cuando no sea posible determinar el peso, la dosis de ivermectina para las campañas de tratamiento colectivo puede determinarse en función de la estatura del paciente de la siguiente manera:
+ ESTATURA
+ (cm)
+ | 
+ DOSIS administrada cada
+ 6 meses (número de comprimidos de 3 mg)
+ | 
+ DOSIS administrada cada 12 meses (número de comprimidos de 3 mg)
+ | 
+ De 90 a 119
+ | 
+ uno
+ | 
+ dos
+ | 
+ De 120 a 140
+ | 
+ dos
+ | 
+ cuatro
+ | 
+ De 141 a 158
+ | 
+ tres
+ | 
+ seis
+ | 
+ >158
+ | 
+ cuatro
+ | 
+ ocho
+ | 
+ Tratamiento de la sarna sarcóptica en humanos
+ La dosis de ivermectina recomendada es de 200 μg/kg de peso en una única toma.
+ Sarna común:
+ la recuperación solo se considerará definitiva después de 4 semanas de tratamiento. La persistencia de prurito o la aparición de lesiones por rascado no justifica un segundo tratamiento antes de esta fecha.
+ La administración de una segunda dosis en las 2 semanas posteriores a la primera dosis solo debe considerarse:
+ a) cuando se producen nuevas lesiones específicas,
+ b) cuando la exploración parasitológica es positiva en esta fecha.
+ Sarna profusa y costrosa:
+ En estas formas más graves, puede ser necesaria una segunda dosis a los 8 a 15 días de la primera o un tratamiento tópico concomitante.
+ Nota para pacientes tratados por sarna
+ Las personas de contacto, en especial familiares y parejas, deben someterse a una exploración médica lo antes posible y, si es necesario, deben recibir tratamiento inmediato contra la sarna.
+ Deberán considerarse medidas higiénicas para prevenir la reinfección (es decir, mantener las uñas cortas y limpias), y deberán seguirse de forma estricta las recomendaciones oficiales en relación con la limpieza de prendas de vestir y ropa de cama.
+ Población pediátrica
+ No se ha establecido la seguridad en pacientes pediátricos de menos de 15 kg de peso.
+ Pacientes de edad avanzada
+ Los estudios clínicos con ivermectina no incluyeron un número suficiente de sujetos de 65 años y mayores para poder determinar si responden de forma diferente a los sujetos más jóvenes. No obstante, en la práctica clínica no se han identificado diferencias entre la respuesta de los pacientes de edad avanzada y los más jóvenes. En general, deberá extremarse la precaución en el tratamiento de pacientes de edad avanzada, teniendo en cuenta la mayor frecuencia de deterioro de la función hepática, renal y cardíaca, así como de enfermedad concomitante u otros tratamientos farmacológicos.
+ Forma de administración
+ Vía oral.
+ En niños menores de 6 años los comprimidos deben machacarse antes de tragarse.
+ El tratamiento es una dosis oral única tomada con agua y con el estómago vacío.
+ La dosis puede tomarse en cualquier momento del día, pero no deben ingerirse alimentos en las dos horas previas o posteriores a su administración, ya que se desconoce la influencia de los alimentos en la absorción.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Advertencias especiales
+ No existen estudios clínicos adecuados que establezcan la eficacia y posología de ivermectina en el tratamiento de pacientes inmunodeprimidos con estrongiloidosis intestinal. Se han descrito casos de persistencia de la infestación después de una dosis única de ivermectina, especialmente en esta poblacion.
+ La ivermectina no es un tratamiento profiláctico de la infección por filarias o anguilulosis; no hay datos disponibles que demuestren la eficacia de la ivermectina, ni en la eliminación ni en la prevención de la maduración de larvas infecciosas en humanos.
+ No se ha demostrado que la ivermectina tenga actividad frente a la forma adulta de ninguna especie de filarias.
+ No se ha demostrado ningún efecto beneficioso de la ivermectina sobre el síndrome eosinofílico pulmonar tropical, la linfadenitis o la linfangitis observadas en casos de infección por filarias.
+ La intensidad y la gravedad de los efectos adversos tras la administración de ivermectina parecen estar relacionados con la carga microfilarial sanguínea previa al tratamiento. En caso de coinfección con Loa loa, la carga microfilarial sanguínea suele ser elevada, lo que predispone a los pacientes tratados a un mayor riesgo de efectos adversos graves.
+ En casos aislados se han descrito experiencias adversas del SNC (encefalopatías) en pacientes tratados con ivermectina y con coinfección por un gran número de microfilarias de Loa loa. En consecuencia, en zonas endémicas de Loa loa, deben adoptarse medidas especiales antes de administrar cualquier tratamiento con ivermectina (ver sección 4.8).
+ Se ha reportado toxicidad neurológica, incluyendo una disminución del nivel de conciencia y coma, en pacientes que utilizaron ivermectina en ausencia de infección por Loa loa. Estos acontecimientos generalmente se han resuelto con cuidados de apoyo y con la interrupción de la ivermectina (Ver secciones (4.8 y 4.9).
+ En África no se recomienda el tratamiento concomitante con citrato de dietilcarbamazina (DEC) e ivermectina en campañas de tratamiento colectivo para la filariasis causada por Wuchereria Bancrofti. La infección concomitante con otras microfilarias, como Loa loa, puede dar lugar a niveles elevados de microfilaremia en los pacientes infectados. La exposición sistémica a DEC en estos pacientes puede dar lugar a la aparición de efectos secundarios graves relacionados con el efectivo y rápido efecto microfilaricida de dicho fármaco.
+ En pacientes con oncocercosis se han descrito reacciones cutáneas o sistémicas de diversa intensidad (la reacción de Mazzotti), así como oftalmológicas tras la administración de fármacos con una acción microfilaricida rápida como DEC. Estas reacciones probablemente se deban a respuestas inflamatorias a productos de degradación liberados tras la muerte de las microfilarias.
+ Los pacientes tratados con ivermectina para la oncocercosis también pueden experimentar estas reacciones cuando se tratan por primera vez. Después del tratamiento con un fármaco microfilaricida, los pacientes con oncodermatitis hiperreactiva o «sowda» (observado en especial en Yemen) pueden tener más probabilidad que otros de experimentar reacciones adversas cutáneas (edema y agravamiento de oncodermatitis).
+ Reacciones adversas cutáneas graves (RACG)
+ Se han observado reacciones adversas cutáneas graves (RACG), como síndrome de Stevens-Johnson (SSJ) y necrolisis epidérmica tóxica (NET), que pueden ser potencialmente mortales o mortales, con la administración de ivermectina (ver sección 4.8).
+ En el momento de la prescripción, se debe informar a los pacientes de los signos y síntomas y vigilarlos estrechamente por si se producen reacciones cutáneas. Si aparecen signos y síntomas que sugieran estas reacciones, se deberá retirar inmediatamente la ivermectina y considerar un tratamiento alternativo. Si el paciente ha desarrollado una reacción adversa cutánea grave, como SSJ o NET, con el uso de ivermectina, no deberá reanudarse el tratamiento con ivermectina en ningún momento.
+ Población pediátrica
+ No se ha establecido la seguridad en pacientes pediátricos de menos de 15 kg de peso.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han llevado a cabo estudios de interacción.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Durante el tratamiento colectivo de la oncocercosis, los datos sobre un número limitado de mujeres embarazadas (aproximadamente 300) indicaron que no hubo efectos adversos como anomalías congénitas, abortos espontáneos, mortinatos y mortalidad infantil asociados al tratamiento con ivermectina durante el primer trimestre del embarazo. A fecha de hoy, no se dispone de datos epidemiológicos adicionales.
+ Los estudios en animales han demostrado toxicidad sobre la reproducción (ver sección 5.3); sin embargo, no se ha establecido el valor predictivo de estas observaciones.
+ La ivermectina solo debe utilizarse cuando esté estrictamente indicado.
+ Lactancia
+ Una cantidad inferior al 2 % de la dosis administrada de ivermectina se excreta en la leche materna.
+ No se ha establecido la seguridad en lactantes recién nacidos. La ivermectina solo puede administrarse a madres lactantes si el beneficio esperado supera el posible riesgo para el lactante.
+ El tratamiento de las madres que tienen la intención de amamantar a sus hijos debe retrasarse hasta 1 semana después del nacimiento del niño.
+ Fertilidad
+ La ivermectina no mostró efectos adversos en la fertilidad en ratas con hasta 3 veces la dosis humana recomendada máxima de 200 μg/kg (en mg/m²/d).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se ha estudiado el efecto de Ivergalen en la capacidad para conducir o utilizar máquinas. No puede excluirse la posibilidad de que algunos pacientes presenten efectos secundarios como mareos, somnolencia, vértigo y temblor, que puedan afectar a la capacidad para conducir o utilizar máquinas (ver sección 4.8).
+ 4.8. Reacciones adversas
+ Lista tabulada de reacciones adversas
+ Las reacciones adversas se clasifican según el Sistema de Clasificación de Órganos y por frecuencia, utilizando la siguiente convención: muy frecuentes (≥ 1/10), frecuentes (≥ 1/100 a < 1/10), poco frecuentes (≥ 1/1.000 a < 1/100), raras (≥ 1/10.000 a <1/1.000), muy raras (< 1/10.000), frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Clasificación por órganos y sistemas
+ | 
+ Frecuencia
+ | 
+ Reacciones Adversas
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ Frecuentes
+ | 
+ Transaminasa elevada, leucopeniab, linfadenopatíad
+ | 
+ Frecuencia no conocida
+ | 
+ Anemiab
+ | 
+ Trastornos gastrointestinales
+ | 
+ Frecuentes
+ | 
+ Dolor abdominalb,cdolor en la zona superior del abdomen, diarreab,d, náuseasb,c,d, vómitosb,d, dolor epigástricoc, incontinencia fecala
+ | 
+ Frecuencia no conocida
+ | 
+ Incontinencia anal, estreñimientob, dolor orofaríngeo
+ | 
+ Trastornos del metabolismo y la nutrición
+ | 
+ Frecuentes
+ | 
+ Anorexiab,c
+ | 
+ Frecuencia no conocida
+ | 
+ Edema
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Frecuentes
+ | 
+ Mareosb, vértigob,c,d, temblorb
+ | 
+ Raras
+ | 
+ Encepalopatíaa
+ | 
+ Frecuencia no conocida
+ | 
+ Alteración en la marcha, comaa, cefaleac,d
+ | 
+ Trastornos psiquiátricos
+ | 
+ Frecuentes
+ | 
+ Somnolenciab
+ | 
+ Frecuencia no conocida
+ | 
+ Cambios en el estado mentala, confusióna, estupora
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Frecuentes
+ | 
+ Pruritod, erupciónd, urticariad
+ | 
+ Trastornos musculoesqueléticos y del tejido conectivo
+ | 
+ Frecuencia no conocida
+ | 
+ Dolor de espaldaa, dolor de cuelloa, mialgiac,d, artralgiac,d, escalofríosc
+ | 
+ Lesiones traumáticas, intoxicaciones y complicaciones de procedimientos terapéuticos
+ | 
+ Muy raras
+ | 
+ Necrólisis epidérmica tóxica
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Muy raras
+ | 
+ Síndrome de Stevens-Johnson
+ | 
+ Frecuencia no conocida
+ | 
+ Asma
+ | 
+ Trastornos hepatobiliares
+ | 
+ Frecuencia no conocida
+ | 
+ Hipereosinofiliab, trastorno hepático, hepatitis aguda, hiperbilirrubinemia, prueba de función hepática anormal
+ | 
+ Trastornos del aparato reproductor y de la mama
+ | 
+ Frecuencia no conocida
+ | 
+ Hematuria, dolor testicularc
+ | 
+ Trastornos oculares
+ | 
+ Frecuencia no conocida
+ | 
+ Hiperemia oculara, hemorragia subconjuntivala, iridociclitis, limbitisd, queratitisd, coroiditisd, uveítis anteriord, edema parpebrald, sensación anormal en el ojod
+ | 
+ Trastornos renales y urinarios
+ | 
+ Frecuencia no conocida
+ | 
+ Incontinencia urinariaa
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ Frecuencia no conocida
+ | 
+ Disestesiaa, letargoa, asteniab,c,d, pirexiac,d, hiperhidrosis, molestia, dolor difusoc, sentimiento de debilidadc, dificultad en la marchaa, escalofríosc
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos
+ | 
+ Frecuencia no conocida
+ | 
+ Tosc, molestias respiratoriasc, exacerbación del asmad, garganta irritadac, disneaa
+ | 
+ Trastornos vasculares
+ | 
+ Frecuencia no conocida
+ | 
+ Hipotensión ortostáticac,d
+ | 
+ Infecciones e infestaciones
+ | 
+ Frecuencia no conocida
+ | 
+ Conjuntivitisd, corioretinitisd
+ | 
+ Trastornos del bazo, el sistema linfático y el sistema reticuloendotelial
+ | 
+ Frecuencia no conocida
+ | 
+ Linfadenitisd
+ | 
+ Trastornos cardíacos
+ | 
+ Frecuencia no conocida
+ | 
+ Taquicardiad
+ | 
+ Exploraciones complementarias
+ | 
+ Frecuencia no conocida
+ | 
+ Enzima hepática aumentada (ALAT/ALP)b
+ | 
+ Trastornos endocrinos
+ | 
+ Frecuencia no conocida
+ | 
+ Sudoración excesivac
+ | 
+ a: Pacientes infectados con Loa Loa
+ b: Pacientes con estrongiloidosis intestinal
+ c: Pacientes con filariasis Wuchereria bancrofti
+ d: Pacientes infectados con Onchocerca volvulus
+ Descripción de las reacciones adversas seleccionadas
+ Pacientes infectados con Loa Loa: Los efectos secundarios están relacionados con la carga parasitaria y son leves y transitorios en la mayoría de los casos, pero su gravedad puede aumentar en los pacientes infectados con más de un parásito, en particular en el caso de infestación con Loa loa.
+ Rara vez se han notificado casos graves y potencialmente mortales de encefalopatía tras la administración de ivermectina, en particular en pacientes muy infectados con Loa loa.
+ Pacientes con sarna: puede observarse exacerbación transitoria de prurito al comienzo del tratamiento.
+ Pacientes infectados con Ascaris: se han descrito casos de expulsión de Ascaris en forma adulta tras la ingestión de ivermectina.
+ Pacientes con oncocercosis: Se ha reportado la aparición de hemorragia conjuntival.
+ Población pediátrica
+ Se observó un perfil de seguridad similar en pacientes pediátricos de 6 a 13 años.
+ No se ha establecido la seguridad y eficacia de la ivermectina en niños que pesan menos de 15 kg. No se recomienda el uso de la ivermectina en niños pequeños (por ejemplo, los que pesan menos de 15 kg o menores de 2 años) debido en parte a que la barrera hematoencefálica puede estar menos desarrollada que en pacientes adultos.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es
+ 4.9. Sobredosis
+ Se han descrito casos de sobredosis accidental con ivermectina, aunque ninguno con desenlace mortal. En casos de intoxicación accidental con dosis desconocidas de productos destinados para uso veterinario (uso oral, inyectables, uso cutáneo), los síntomas descritos fueron: erupción, dermatitis de contacto, edema, dolor de cabeza, vértigo, astenia, náuseas, vómitos, diarrea y dolor abdominal. Otros efectos observados fueron convulsiones, ataxia, disnea, parestesia y urticaria.
+ Tratamiento en caso de intoxicación accidental:
+ tratamiento sintomático y vigilancia en un ámbito sanitario con restitución líquida y tratamiento hipertensivo, si fuera necesario. Si bien no hay estudios específicos disponibles, se recomienda evitar la combinación de agonistas de GABA en el tratamiento de la intoxicación accidental debida a la ivermectina.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No procede
+ 6.3. Periodo de validez
+ 24 meses
+ 6.4. Precauciones especiales de conservación
+ No conservar por encima de 25 °C.
+ Conservar en el embalaje original para proteger de la luz.
+ 6.5. Naturaleza y contenido del envase
+ Envases de 4, 8, 10, 12, 16 o 20 comprimidos en blísteres de aluminio/aluminio.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ninguna especial.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.

@@ -1,0 +1,773 @@
+METOTREXATO PFIZER 25 MG/ML SOLUCION INYECTABLE EFG | VIA INTRAMUSCULAR VIA INTRATECAL VIA INTRAVENOSA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/62121/FT_62121.html
+
+ 4.1. Indicaciones terapéuticas
+ Metotrexato es un fármaco citotóxico empleado en la quimioterapia antineoplásica y en determinados procesos benignos.
+ Indicaciones oncológicas
+ Metotrexato está indicado para el tratamiento de los siguientes tumores sólidos y procesos hematológicos malignos:
+ Neoplasia trofoblástica gestacional: metotrexato está indicado en el tratamiento de la neoplasia trofoblástica gestacional (coriocarcinoma).
+ Leucemias agudas: metotrexato se usa como componente de varios regímenes quimioterapéuticos en el tratamiento de leucemias agudas, en especial de la leucemia aguda linfoblástica, tanto en la fase de inducción/consolidación como sobre todo en la fase de mantenimiento.
+ Asimismo, se ha empleado la administración intratecal para prevenir y tratar la infiltración leucémica del sistema nervioso central.
+ Cáncer de mama: en monoterapia o más comúnmente en quimioterapia combinada.
+ Cáncer de cabeza y cuello: metotrexato se utiliza en monoterapia o en tratamiento combinado para el tratamiento de las formas localmente avanzadas o metastásico.
+ Cáncer de vejiga urinaria: en combinación con cisplatino y vinblastina, con o sin doxorubicina, para las formas invasivas y avanzadas de dicho cáncer.
+ Osteosarcoma: para las formas metastásicas o en recaída local.
+ Linfomas malignos: metotrexato se ha usado en monoterapia o más comúnmente en terapia combinada para el tratamiento de diversos linfomas no Hodgkin como el linfoma de Burkitt, linfoma difuso de células B grandes y linfoma linfoblástico.
+ Otras enfermedades no oncológicas
+ Artritis reumatoide activa y grave en pacientes adultos.
+ Artritis idiopática juvenil en sus formas poliartríticas, activas y graves cuando la respuesta a medicamentos antiinflamatorios no esteroideos (AINEs) ha sido inadecuada.
+ Psoriasis y artritis psoriásica, sólo cuando la gravedad lo requiera y hayan fracasado otros tratamientos en adultos.
+ Profilaxis de la enfermedad injerto contra huésped en el trasplante alogénico de médula ósea. 
+ 4.2. Posología y forma de administración
+ Posología
+ El metotrexato solo lo deben prescribir médicos con experiencia en el uso de metotrexato y con un total conocimiento de los riesgos del tratamiento con metotrexato.
+ Advertencia importante sobre la posología de Metotrexato Pfizer 25 mg/ml solución inyectable EFG
+ En el tratamiento de artritis reumatoide, artritis idiopática juvenil, psoriasis y artritis psoriásica, Metotrexato Pfizer solo se debe recibir una vez por semana. Los errores de dosificación durante el uso de Metotrexato Pfizer pueden producir efectos adversos graves, incluida la muerte. Lea esta sección de la ficha técnica con mucha atención.
+ | 
+ Indicaciones oncológicas
+ La dosis de metotrexato para las indicaciones oncológicas se basa generalmente en el área de superficie corporal del paciente (m2) o el peso corporal. Sin embargo, si el paciente es obeso o tiene una retención de líquidos importante, se debe basar en el peso corporal ideal estimado.
+ El intervalo de las dosis terapéuticas de metotrexato en las indicaciones oncológicas es muy amplio. La dosis, la vía de administración y el esquema posológico varía de acuerdo a la enfermedad a tratar, al tratamiento citotóxico concomitante (quimioterapia y radioterapia), a la situación del paciente y a la disponibilidad de medidas apropiadas quimioprotectoras y/o de soporte. A continuación se indican algunas posologías utilizadas con mayor frecuencia en las diferentes indicaciones, si bien deberán consultarse los protocolos publicados actuales para obtener información sobre la posología, método e intervalo de administración.
+ Neoplasia trofoblástica gestacional: La dosis habitual para las neoplasias no metastásicas o las metastásicas de bajo riesgo es de 15-30 mg diarios administrados por vía intramuscular durante 5 días y repetido cada 12-14 días según toxicidad. Normalmente se administran de 3 a 5 ciclos de tratamiento. El tratamiento se evalúa mediante análisis cuantitativo de la gonadotropina coriónica en orina de 24 horas que debe regresar a valores normales o menores de 50 UI/día, normalmente después del tercer o cuarto ciclo. La resolución completa de las lesiones medibles, se alcanza normalmente de 4 a 6 semanas después. Normalmente se administran uno o dos ciclos de tratamiento con metotrexato después de alcanzar la total normalización de los valores de gonadotropina coriónica en orina. Para las neoplasias metastásicas de alto riesgo se han usado combinaciones de etopósido, metotrexato y actinomicina D.
+ Leucemia aguda: Una vez que se alcanza la remisión, durante la fase de consolidación/mantenimiento se han empleado dosis variables desde 200 mg/m2 por vía intravenosa en 2 horas hasta altas dosis de 1-3 g/m2 en perfusión continua de 24 horas. En general estas administraciones necesitan rescate con folínico (ver más adelante “Rescate con ácido folínico”). La dosis de la fase de mantenimiento es de 20- 30 mg/m2 administrados por vía intramuscular una vez por semana asociado a 6-mercaptopurina.
+ Administración intratecal
+ Metotrexato administrado por vía intratecal se utiliza para la profilaxis y el tratamiento de la leucemia meníngea ya que el paso del fármaco de la sangre al líquido cefalorraquídeo es mínimo. Para la inyección intratecal se debe diluir metotrexato sin conservantes a una concentración de 1 mg/ml en un medio estéril apropiado sin conservantes, como por ejemplo cloruro de sodio al 0,9% para inyectables.
+ Las siguientes recomendaciones para la administración intratecal se pueden modificar en base a los protocolos de tratamiento específicos, teniendo en cuenta los requerimientos individuales del paciente. Antes de la administración intratecal de metotrexato, se ha de extraer un volumen de líquido cefalorraquídeo aproximadamente equivalente al volumen de fármaco que se va a administrar (5-15 ml).
+ Para la profilaxis de la leucemia meníngea, se utiliza una dosis intratecal empírica de 12 mg, a menudo asociada con citarabina y dexametasona o hidrocortisona. La frecuencia de administración es variable según se combine con quimioterapia sistémica y/o radioterapia.
+ Para el tratamiento de la leucemia meníngea se sugiere administrar una dosis intratecal empírica de 12 mg, a menudo asociada con citarabina y dexametasona o hidrocortisona, administrada a intervalos de 2 a 5 días hasta que el recuento celular en líquido cefalorraquídeo vuelva a la normalidad. Tras ello se administrarán una o varias dosis semanales durante dos semanas.
+ Se recomienda una única dosis máxima de 15 mg.
+ Dado que el volumen de líquido cefalorraquídeo está más relacionado con la edad que con la superficie corporal se debe administrar una dosis constante a niños de la siguiente forma: 6 mg en menores de 1 año, 8 mg en niños de 1 año, 10 mg en niños de 2 años y 12 mg en niños de 3 años y mayores.
+ Los pacientes de edad avanzada pueden necesitar menores dosis debido a la disminución de líquido cefalorraquídeo y a la disminución de volumen cerebral.
+ Téngase en cuenta que las dosis intratecales pueden dar lugar a cuadros inesperados de toxicidad sistémica.
+ Cáncer de mama: Se han usado distintos regímenes con metotrexato en el tratamiento del cáncer de mama y se debe consultar la literatura especializada. Un esquema frecuentemente usado, el CMF, incluye metotrexato 40 mg/m2 IV los días 1 y 8 de cada ciclo junto con ciclofosfamida 100 mg/m2 VO los días 1 a 14 y 5-fluorouracilo 600 mg/m2 IV los días 1 y 8 de cada ciclo. La repetición de los ciclos es generalmente mensual.
+ Cáncer de cabeza y cuello: Se han usado distintos regímenes con metotrexato en el tratamiento del cáncer de cabeza y cuello y se debe consultar la literatura especializada. Como agente único la dosis estándar inicial es de 40 mg/m2/semana IV con escala semanal de dosis de 10 mg/m2 IV, hasta alcanzar dosis de 60 mg/m2 IV o se desarrolle toxicidad dosis dependiente o se alcance una respuesta objetiva.
+ Cáncer de vejiga urinaria: Se han usado distintos regímenes con metotrexato en el tratamiento del cáncer de vejiga urinaria y se debe consultar la literatura especializada. Un esquema frecuentemente usado, el CMV, incluye metotrexato 30 mg/m2 IV días 1 y 8, vinblastina 3 mg/m2 IV días 1 y 8, y cisplatino 100 mg/m2 IV el día 2 y se repite cada 21 días. Otro esquema muy usado es el MVAC que consiste en metotrexato 30 mg/m2 IV los días 1, 15 y 22, vinblastina 3 mg/m2 IV los días 2, 15 y 22, cisplatino 70 mg/m2 IV el día 2, doxorrubicina 30 mg/m2 IV el día 2, repitiéndose cada 28 días.
+ Osteosarcoma: Se ha usado como agente único o combinado a dosis altas de 8-12 g/m2 IV el día 1 con posterior rescate con folínico, pudiendo repetirse este esquema cada 2-4 semanas. Es muy importante una hidratación adecuada, la alcalinización previa de la orina y la monitorización de niveles de metotrexato y de la función renal.
+ Linfomas malignos: Se han usado distintos regímenes con metotrexato en el tratamiento de los linfomas de alto grado. Estos han empleado dosis variables desde 200 mg/m2 IV en dos horas hasta altas dosis de 1–3 g/m2 en perfusión continúa de 24 horas. En general estos regímenes requieren rescate con folínico para prevenir toxicidades (ver más adelante “Rescate con ácido folínico”).
+ Otras enfermedades no oncológicas
+ Artritis reumatoide activa y grave (en adultos): Se administrarán por vía intramuscular o intravenosa de 7,5 a 20 mg una vez por semana. Dependiendo de la tolerabilidad del paciente se puede aumentar progresivamente la dosis de 2,5 en 2,5 mg hasta un máximo de 20 mg por semana. No se deberá exceder la dosis total de 20 mg/semanal de forma habitual. Una vez alcanzada la respuesta clínica óptima, debe reducirse la dosis a la más baja posible efectiva. El médico debe especificar el día de la administración en la receta. Metotrexato puede administrarse junto con etanercept u otras terapias biológicas.
+ Artritis idiopática juvenil (en adolescentes y niños de 3 años de edad y mayores): La dosis inicial recomendada es de 10 -15 mg/m2 una vez por semana.
+ El médico debe especificar el día de la administración en la receta.
+ En casos refractarios al tratamiento, la dosis semanal se puede incrementar hasta 15-20 mg/m2 de superficie corporal/semana
+ Psoriasis y artritis psoriásica: La pauta de administración oral, intramuscular o intravenoso es de 10 a 25 mg una vez por semana. La dosis inicial recomendada es de 7,5 mg de metotrexato una vez por semana. Una dosis total semanal no debe exceder un total de 25 mg. No obstante, las dosis superiores a 20 mg/semana se pueden asociar a un aumento significativo de la toxicidad, en especial mielosupresión.
+ Una vez que se alcanza la respuesta clínica óptima, la dosis debe reducirse a la dosis efectiva más baja posible.
+ El médico debe especificar el día de la administración en la receta.
+ Profilaxis de la enfermedad injerto contra huésped: Asociado a ciclosporina, se administrará una pauta de 15 mg/m2 por vía intravenosa el día +1 del trasplante, seguido de 10 mg/m2 por vía intravenosa los días +3, +6 y +11. Se entiende por día 0 el de la perfusión de progenitores hemopoyéticos.
+ Poblaciones especiales
+ Pacientes de edad avanzada
+ Debido a que estos pacientes (de 65 años o mayores) pueden sufrir una disminución en la función hepática o renal y a la disminución de las reservas de ácido fólico que se producen con el aumento de la edad, debería considerarse la posibilidad de reducir la dosis. Además, se recomienda una vigilancia estrecha con el fin de detectar los primeros síntomas de toxicidad (ver sección 4.4).
+ Población pediatrica
+ No se recomienda el uso en niños menores de 3 años, ya que no se dispone de datos suficientes sobre eficacia y seguridad en este grupo de pacientes
+ Insuficiencia renal
+ Metotrexato se excreta en gran medida por medio de los riñones y, por lo tanto, se debe usar con precaución en pacientes con insuficiencia renal (ver sección 4.3 y 4.4). La dosis en pacientes con insuficiencia renal debe ajustarse para evitar la acumulación del medicamento de acuerdo a la tabla siguiente. Además, es posible que la dosis deba ajustarse de nuevo debido a la variabilidad farmacocinética interindividual.
+ Ajustes de dosis para dosis de metotrexato <100 mg / m2 en pacientes con insuficiencia renal
+ Aclaramiento de creatinina (ml/min)
+ | 
+ % de la dosis administrada
+ | 
+ >60
+ | 
+ 100
+ | 
+ 30-59
+ | 
+ 50
+ | 
+ <30
+ | 
+ No se debe administrar metotrexato
+ | 
+ Ajustes de dosis para dosis de metotrexato >100 mg / m2 en pacientes con insuficiencia renal
+ Aclaramiento de creatinina (ml/min)
+ | 
+ % de la dosis administrada
+ | 
+ > 80
+ | 
+ 100
+ | 
+ ≤80
+ | 
+ 75
+ | 
+ ≤60
+ | 
+ 63
+ | 
+ < 60
+ | 
+ No se debe administrar metotrexato
+ | 
+ Insuficiencia hepática
+ Metotrexato debe administrarse con gran precaución en pacientes con enfermedad hepática previa o actual significativa, especialmente si es debida al alcohol. Metotrexato está contraindicado si el valor de bilirrubina es mayor de 5 mg/dl (85,5 µmol/l) (ver secciones 4.3 y 4.4).
+ Pacientes con acumulación patológica de líquidos (derrames pleurales, ascitis)
+ La semivida del metotrexato puede llegar a cuadruplicarse en pacientes con acumulación patológica de líquidos, por lo que, en algunos casos, puede que sea necesario interrumpir la administración de metotrexato (ver las secciones 4.4 y 5.2). El grado de reducción de la dosis se debe decidir caso por caso.
+ Rescate con ácido folínico
+ En pacientes con artritis reumatoide, incluida la artritis idiopática juvenil de evolución poliarticular, o con psoriasis, el ácido fólico o el ácido folínico pueden reducir las toxicidades por metotrexato, tales como síntomas gastrointestinales, estomatitis, alopecia y enzimas hepáticas elevadas.
+ Antes de tomar un suplemento de folato, es aconsejable comprobar los niveles de B12, especialmente en los adultos de más de 50 años, ya que la administración de folato puede enmascarar los síntomas de una carencia de B12.
+ El ácido folínico se administra 24 horas después del metotrexato a dosis de 15-25 mg cada 6 horas IV, IM o VO hasta que las concentraciones sanguíneas de metotrexato desciendan por debajo de 5 x 10-7 M. Para los pacientes que reciben dosis intermedias altas, los niveles de metotrexato y creatinina séricos deben monitorizarse cada 24 horas. Si a las 48 horas de la finalización del metotrexato los niveles sanguíneos de éste son mayores de 5 x 10-7 M y menores de 1 x 10-6 M se administrarán 8 dosis de folínico 25 mg/m2/6h; si los niveles están entre 1-2 x 10-6 M se administrarán 8 dosis de 100 mg/m2/6h de folínico; y si los niveles son mayores de 2 x 10-6 M, se administrarán 8 dosis de 200 mg/m2/6h (ver secciones 4.4 y 4.9).
+ Forma de administración
+ Si necesita ser diluido, puede hacerse en cloruro sódico al 0,9%, dextrosa al 5%, dextrosa al 10%, lactato de Ringer, solución de Ringer.
+ Metotrexato puede administrarse por vía intravenosa, intramuscular e intratecal (ver indicaciones en sección 4.1). En la administración intratecal debe evitarse el uso de conservantes (ver sección 4.3). 
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1
+ Insuficiencia hepática (bilirrubina sérica > 5 mg/dl [85,5 μmol/l], ver sección 4.2).
+ Alcoholismo.
+ Insuficiencia renal grave (aclaramiento de creatinina < 30 ml/min, ver sección 4.2).
+ Discrasias sanguíneas preexistentes, como hipoplasia de la médula ósea, leucopenia, trombocitopenia o anemia significativa.
+ Inmunodeficiencia.
+ Infecciones graves, agudas o crónicas como tuberculosis y VIH.
+ Estomatitis, úlceras de la cavidad oral y enfermedad de ulceración gastrointestinal activa conocida.
+ Lactancia (ver sección 4.6).
+ Vacunación concomitante de vacuna de microorganismos vivos atenuados.
+ Además, en el caso de indicaciones no oncológicas
+ Embarazo (ver sección 4.6) 
+ 4.4. Advertencias y precauciones especiales de empleo
+ El metotrexato solo lo deben prescribir médicos con experiencia en el uso de metotrexato y con un total conocimiento de los riesgos del tratamiento con metotrexato.
+ Los pacientes con artritis reumatoide, artritis idiopática juvenil, psoriasis y artritis psoriásica deben recibir instrucciones claras de que el tratamiento se debe administrar una vez por semana, y no cada día.
+ El uso incorrecto de metotrexato puede producir reacciones adversas graves, incluso mortales. Los profesionales sanitarios y los pacientes deben recibir instrucciones claras.
+ | 
+ El médico debe especificar el día de administración en la receta.
+ El médico prescriptor se debe asegurar de que los pacientes o sus cuidadores entiendan que solo deben recibir Metotrexato Pfizer (metotrexato) una vez por semana.
+ Los pacientes deben ser informados sobre la importancia de no saltarse las pautas semanales.
+ Se debe efectuar un seguimiento adecuado de los pacientes que reciben tratamiento, de modo que puedan reconocerse y evaluarse de inmediato los signos de los posibles efectos tóxicos o reacciones adversas.
+ Por ello, el metotrexato solo debe ser administrado por o bajo la supervisión de un médico con conocimientos y experiencia en cuanto al uso del tratamiento con antimetabolitos.
+ Está indicado un seguimiento especialmente estrecho del paciente después de una radioterapia previa (especialmente de la pelvis), con deterioro funcional del sistema hematopoyético (por ejemplo, tras una radio o quimioterapia previa), con deterioro del estado general, con una edad avanzada o en niños de muy corta edad.
+ Debido al riesgo de reacciones tóxicas graves o incluso mortales, el médico debe informar exhaustivamente a los pacientes sobre los riesgos (incluidos los primeros signos y los síntomas de toxicidad) y las medidas de seguridad recomendadas. Deben ser informados sobre la necesidad de consultar inmediatamente al médico si aparecen síntomas de sobredosis, así como del seguimiento necesario posterior de los síntomas de sobredosis (incluidas las pruebas de laboratorio habituales).
+ Las dosis superiores a 20 mg por semana se pueden asociar a un aumento significativo de la toxicidad, especialmente de la supresión de la médula ósea.
+ Debido a la excreción más lenta de metotrexato en pacientes con insuficiencia renal, se recomienda administrar el tratamiento con precaución y solo con dosis bajas de metotrexato (ver sección 4.2).
+ El metotrexato se debe administrar con mucha precaución, sobre todo en pacientes con enfermedad hepática previa o actual significativa, especialmente si se debe al alcohol.
+ Fertilidad
+ Se ha notificado que metotrexato causa alteraciones de la fertilidad, oligospermia, alteraciones de la menstruación y amenorrea en humanos, durante el tratamiento y durante un breve periodo después de la interrupción del tratamiento, que afectan a la espermatogénesis y la ovogénesis durante el periodo de administración, efectos que parecen ser reversibles al suspender el tratamiento.
+ Teratogenicidad y riesgo para la reproducción
+ El metotrexato produce embriotoxicidad, abortos y malformaciones fetales en humanos. Por lo tanto, se debe comentar con las mujeres en edad fértil acerca de los posibles efectos sobre la reproducción, abortos y malformaciones congénitas (ver sección 4.6). En las indicaciones no oncológicas, se debe confirmar la ausencia de embarazo antes de utilizar metotrexato. Si se trata a mujeres sexualmente maduras, se deben utilizar métodos anticonceptivos efectivos durante el tratamiento y durante al menos seis meses después.
+ Para obtener información sobre los métodos anticonceptivos masculinos, ver sección 4.6.
+ Exploraciones recomendadas y medidas de seguridad
+ Antes de iniciar el tratamiento o al reanudar el tratamiento después de un período de descanso
+ Se deben efectuar un hemograma completo con fórmula leucocitaria y trombocitos, enzimas hepáticas, bilirrubina, albúmina sérica, una radiografía torácica y pruebas de función renal. Si está clínicamente indicado, se debe descartar la presencia de tuberculosis y hepatitis B y C.
+ Durante el tratamiento
+ Las siguientes pruebas se deben realizar cada semana durante las primeras dos semanas, y después cada dos semanas durante el mes siguiente; posteriormente, en función del recuento leucocitario y la estabilidad del paciente, al menos una vez al mes durante los seis meses siguientes y al menos cada tres meses posteriormente.
+ También se debe considerar la posibilidad de aumentar la frecuencia de supervisión al aumentar la dosis. Se debe realizar una exploración de los pacientes de edad avanzada para detectar signos precoces de toxicidad a intervalos cortos (ver sección 4.2).
+ Exploración de la cavidad oral y la garganta para detectar cambios en la mucosa.
+ Hemograma completo con fórmula leucocitaria y trombocitos. La supresión hematopoyética inducida por metotrexato puede aparecer de forma repentina y con dosis aparentemente seguras. En el caso de un descenso significativo de los leucocitos o los trombocitos, el tratamiento se debe interrumpir inmediatamente y se debe instaurar un tratamiento de apoyo adecuado. Se debe instruir a los pacientes sobre la necesidad de notificar todos los signos y síntomas que sugieran una infección. En pacientes que toman medicamentos hematotóxicos de forma concomitante (por ejemplo, leflunomida), se debe llevar un control estricto del hemograma y los trombocitos.
+ Pruebas funcionales hepáticas
+ El tratamiento no se debe iniciar o se debe suspender si existen anomalías persistentes o significativas en las pruebas funcionales hepáticas, otras exploraciones complementarias no invasivas de fibrosis hepática o las biopsias hepáticas.
+ Se han notificado aumentos transitorios de las transaminasas de hasta dos o tres veces el límite superior del valor medio en pacientes con una frecuencia del 13-20 %. La elevación persistente de las enzimas hepáticas y/o la disminución de la albúmina sérica pueden ser indicativas de hepatotoxicidad grave. En caso de un aumento persistente de las enzimas hepáticas, se debe considerar la posibilidad de reducir la dosis o suspender el tratamiento.
+ Los cambios histológicos, la fibrosis y, más raramente, la cirrosis hepática pueden no estar precedidos por pruebas funcionales hepáticas anómalas. Hay casos de cirrosis en los que las transaminasas son normales. Por lo tanto, se deben considerar métodos de diagnóstico no invasivos para el control de la función hepática, además de las pruebas funcionales hepáticas rutinarias. La biopsia hepática se debe considerar de forma individual, teniendo en cuenta las comorbilidades del paciente, los antecedentes médicos y los riesgos relacionados con la biopsia. Los factores de riesgo de la hepatotoxicidad incluyen: consumo previo excesivo de alcohol, elevación persistente de las enzimas hepáticas, antecedentes de enfermedad hepática, antecedentes familiares de trastornos hepáticos hereditarios, diabetes mellitus, obesidad y contacto previo con fármacos o productos químicos hepatotóxicos y tratamiento prolongado con metotrexato.
+ No se deben administrar medicamentos hepatotóxicos adicionales durante el tratamiento con metotrexato a menos que sea claramente necesario. Se debe evitar el consumo de alcohol (ver las secciones 4.3 y 4.5). Se debe realizar un control más estrecho de las enzimas hepáticas en pacientes que toman de forma concomitante otros medicamentos hepatotóxicos.
+ Se debe tener mayor precaución en pacientes con diabetes mellitus insulino-dependiente, ya que, durante el tratamiento con metotrexato, se desarrolló cirrosis hepática en casos aislados sin elevación de las transaminasas.
+ Se debe efectuar un seguimiento de la función renal por medio de pruebas de función renal y análisis de orina. Si aumenta la creatinina sérica, se debe reducir la dosis. Si el aclaramiento de la creatinina es inferior a 30 ml/min, no se debe administrar el tratamiento con metotrexato (ver las secciones 4.2 y 4.3).
+ El tratamiento con dosis moderadamente altas y altas de metotrexato no debe iniciarse con valores de pH de la orina inferiores a 7,0. Se debe evaluar la alcalinización de la orina mediante controles repetidos del pH (valor superior o igual a 6,8) durante al menos las primeras 24 horas tras iniciar la administración de metotrexato.
+ Evaluación del sistema respiratorio - Se vigilará al paciente por si presenta síntomas de trastornos pulmonares y, en caso necesario, se efectuarán pruebas de la función pulmonar. Los síntomas pulmonares (especialmente tos seca improductiva) o neumonitis inespecífica que aparezcan durante el tratamiento con metotrexato pueden ser signo de un daño potencialmente peligroso y precisan la interrupción del tratamiento y un estrecho seguimiento del paciente.
+ Aunque las manifestaciones clínicas varían, los pacientes con enfermedades pulmonares inducidas por metotrexato suelen presentar fiebre, tos, disnea o hipoxemia. Se debe realizar una radiografía torácica para poder descartar una infección. Se puede producir una neumonitis intersticial aguda o crónica, asociada a menudo con eosinofilia sanguínea, y se han notificado muertes. Se debe informar a los pacientes del riesgo de neumonitis y se les debe aconsejar que se pongan en contacto con su médico inmediatamente en caso de tos persistente o disnea.
+ Además, se ha notificado con metotrexato hemorragia alveolar pulmonar cuando se utiliza en indicaciones reumatológicas y relacionadas. Este acontecimiento, también, se puede asociar a vasculitis y otras comorbilidades. Cuando se sospeche de hemorragia alveolar pulmonar se deben considerar pruebas complementarias rápidas para confirmar el diagnóstico.
+ El tratamiento con metotrexato se debe interrumpir en pacientes con síntomas pulmonares y se debe efectuar una exploración exhaustiva (incluida una radiografía torácica) para descartar infecciones y tumores. Si se sospecha que el metotrexato ha inducido una enfermedad pulmonar, se debe iniciar un tratamiento con corticosteroides y no reanudar la administración de metotrexato.
+ Los síntomas pulmonares requieren un diagnóstico rápido y la interrupción del tratamiento con metotrexato. Las enfermedades pulmonares inducidas por metotrexato, como la neumonitis, pueden aparecer de forma aguda en cualquier momento del tratamiento, no son siempre completamente reversibles y ya se han observado con todas las dosis (incluso con dosis bajas de 7,5 mg /semana.
+ Durante el tratamiento con metotrexato, se pueden producir infecciones oportunistas, como neumonía por Pneumocystis jiroveci, que en ocasiones pueden tener un desenlace mortal. Si un paciente presenta síntomas pulmonares, se debe tener en cuenta la posibilidad de que se trate de una neumonía por Pneumocystis jiroveci.
+ Se requiere especial precaución en pacientes con deterioro de la función pulmonar.
+ Se debe proceder con especial precaución también en caso de infecciones inactivas y crónicas (por ejemplo, herpes zóster, tuberculosis, hepatitis B o C) debido a una posible activación
+ Insuficiencia renal y pacientes con riesgo de insuficiencia renal
+ El metotrexato se excreta principalmente por vía renal y se pueden prever mayores concentraciones en presencia de insuficiencia renal, las cuales podrían causar reacciones adversas graves.
+ Si existe la posibilidad de insuficiencia renal (por ejemplo, en pacientes de edad avanzada), se requiere un seguimiento a intervalos más cortos. Esto se aplica particularmente a la administración conjunta de medicamentos que afectan a la excreción de metotrexato, producen daños renales (por ejemplo, AINE) o pueden alterar la hematopoyesis.
+ En presencia de factores de riesgo como trastornos de la función renal, incluida la insuficiencia renal leve, no se recomienda la administración concomitante de AINE. La deshidratación también puede potenciar la toxicidad del metotrexato. (Ver seguimiento de la función renal).
+ Sistema inmunitario
+ El metotrexato, debido a su efecto en el sistema inmunitario, puede afectar a la respuesta a las vacunas e interferir en el resultado de las pruebas inmunológicas. No se debe administrar de forma concomitante una vacuna de microorganismos vivos atenuados.
+ Linfomas malignos
+ Pueden aparecer linfomas malignos en pacientes tratados con dosis bajas de metotrexato; en cuyo caso, se debe interrumpir el tratamiento con metotrexato. En caso de que los linfomas no reviertan espontáneamente, se debe iniciar un tratamiento citotóxico.
+ Derrames pleurales y ascitis
+ Los derrames pleurales y la ascitis se deben drenar antes de iniciar el tratamiento con metotrexato (ver sección 4.2).
+ Trastornos que producen deshidratación, como emesis, diarrea o estomatitis
+ Los trastornos que producen deshidratación, como emesis, diarrea o estomatitis, pueden aumentar la toxicidad como consecuencia del aumento de los niveles del principio activo. En estos casos, se debe interrumpir el uso de metotrexato hasta que cesen los síntomas.
+ Es importante determinar cualquier aumento de las concentraciones del principio activo en las 48 horas siguientes al tratamiento, ya que puede producirse toxicidad irreversible del metotrexato.
+ La diarrea y la estomatitis ulcerosa pueden ser signos de efectos tóxicos y requieren la suspensión del tratamiento, porque de lo contrario puede producirse enteritis hemorrágica y muerte por perforación intestinal. En presencia de hematemesis, deposiciones de color negro o con sangre, se debe interrumpir el tratamiento.
+ Complementos de ácido fólico
+ Si el metotrexato produce toxicidad aguda, puede que sea necesario tratar a los pacientes con ácido folínico. En pacientes con artritis reumatoide o psoriasis, la administración de ácido fólico o ácido folínico puede reducir la toxicidad del metotrexato, como síntomas gastrointestinales, inflamación de la mucosa oral, pérdida de cabello y aumento de las enzimas hepáticas.
+ Antes de usar medicamentos que contienen ácido fólico, se recomienda controlar los niveles de vitamina B12, puesto que la ingesta de ácido fólico puede enmascarar una deficiencia de vitamina B12 existente, particularmente en adultos mayores de 50 años.
+ Productos con vitaminas
+ Los preparados vitamínicos y otros productos que contengan ácido fólico, ácido folínico o sus derivados pueden disminuir la eficacia del metotrexato (ver las secciones 4.2 y 4.5).
+ Fotosensibilidad
+ Se ha observado fotosensibilidad que se manifiesta por una reacción exagerada a las quemaduras solares en algunas personas que reciben metotrexato (ver sección 4.8). Debe evitarse la exposición a la luz solar intensa o a los rayos UV, salvo por indicación médica. Los pacientes deben utilizar una protección solar adecuada para protegerse de la luz solar intensa.
+ La dermatitis inducida por radiación y las quemaduras solares pueden reaparecer durante el tratamiento con metotrexato (reacciones de recuerdo). Las lesiones psoriásicas pueden empeorar durante la radiación UV y la administración simultánea de metotrexato.
+ Toxicidad cutánea
+ Se han descrito reacciones dermatológicas graves, en ocasiones mortales, como necrólisis epidérmica tóxica (síndrome de Lyell) o síndrome de Stevens-Johnson, tras la administración de dosis únicas o repetidas de metotrexato.
+ Se han notificado casos de necrosis epidérmica, mayormente acompañada de leucopenia, trombocitopenia y lesiones en mucosas, con el tratamiento con metotrexato (ver sección 4.8). Esta reacción cutánea puede parecerse clínicamente al síndrome de Stevens-Johnson (SJS) o la necrólisis epidérmica tóxica (NET). Se debe informar a los pacientes de los signos y síntomas de las reacciones cutáneas adversas graves y de la necesidad de que acudan de inmediato a su médico si observan cualquier signo o síntoma indicativo. Si aparecen signos y síntomas que sugieran estas reacciones, se deberá suspender de inmediato el metotrexato e iniciar el tratamiento apropiado. Se ha descrito la administración de ácido folínico para la necrosis epidérmica. No se deberá reintroducir el metotrexato salvo que se haya descartado la presencia de SJS y NET.
+ Encefalopatía/leucoencefalopatía
+ Se ha notificado casos de encefalopatía/leucoencefalopatía en pacientes oncológicos tratados con metotrexato y no se puede descartar esta posibilidad tampoco para los pacientes con indicaciones no oncológicas.
+ Leucoencefalopatía multifocal progresiva (LMP)
+ Se han notificado casos de leucoencefalopatía multifocal progresiva (LMP) en pacientes tratados con metotrexato, principalmente en combinación con otros medicamentos inmunosupresores. La LMP puede ser mortal y debe tenerse en cuenta en el diagnóstico diferencial en pacientes inmunodeprimidos con aparición o empeoramiento de síntomas neurológicos.
+ Advertencias sobre los excipientes
+ Este medicamento contiene menos de 1mmol de sodio (23 mg) por mililitro (ml); esto es, esencialmente “exento de sodio”. 
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Se debe tener en cuenta el riesgo de interacción entre los AINE y metotrexato en pacientes tratados con dosis bajas de metotrexato, especialmente si presentan insuficiencia renal. Si se precisa un tratamiento combinado, se debe vigilar el hemograma y la función renal. Se recomienda precaución si se administran AINE y metotrexato en un plazo de 24 horas, ya que en este caso pueden aumentar las concentraciones plasmáticas de metotrexato y como resultado aumentar su toxicidad. En experimentos realizados en animales se demostró que la administración de AINE, incluido el ácido salicílico, reducía la secreción de metotrexato tubular y, por consiguiente, potenciaba sus efectos tóxicos. Sin embargo, en los estudios clínicos en los que se administraron AINE y ácido salicílico como medicamentos concomitantes a pacientes con artritis reumatoide, no se observó un aumento de las reacciones adversas. El tratamiento de la artritis reumatoide con estos medicamentos puede continuar durante el tratamiento con dosis bajas de metotrexato, pero solo bajo una estricta supervisión médica.
+ Los pacientes que toman medicamentos potencialmente hepatotóxicos durante el tratamiento con metotrexato (por ejemplo, leflunomida, azatioprina, sulfasalazina y retinoides) se deben supervisar de cerca para detectar un posible aumento de la hepatotoxicidad. Se debe evitar el consumo de alcohol durante el tratamiento con metotrexato (ver sección 4.4). El consumo habitual de alcohol y la administración de medicamentos hepatotóxicos adicionales aumentan la probabilidad de reacciones adversas hepatotóxicas al metotrexato.
+ La administración de medicamentos hematotóxicos adicionales aumenta la probabilidad de reacciones adversas hematotóxicas graves del metotrexato. La administración concomitante de metamizol y metotrexato puede aumentar el efecto hematotóxico del metotrexato, especialmente en pacientes de edad avanzada. Por tanto, debe evitarse la administración conjunta.
+ Se deben tener en cuenta las interacciones farmacocinéticas entre el metotrexato, los medicamentos antiepilépticos (disminución de los niveles séricos de metotrexato) y 5-fluorouracilo (aumento de la semivida de 5-fluorouracilo).
+ Los salicilatos, la fenilbutazona, la difenilhidantoína (fenitoína), los barbitúricos, los tranquilizantes, los anticonceptivos orales, las tetraciclinas, los derivados de la amidopirina, las sulfamidas, los diuréticos tiazídicos, los hipoglucemiantes orales, la doxorubicina y el ácido p-aminobenzoico desplazan al metotrexato en la unión de la albúmina sérica, por lo que aumenta la biodisponibilidad y, en consecuencia, su toxicidad (aumento indirecto de la dosis).
+ El probenecid y los ácidos orgánicos débiles también pueden reducir la secreción tubular de metotrexato, y causar así elevaciones indirectas de la dosis.
+ Los antibióticos como las penicilinas, los glucopéptidos, las sulfonamidas, el ciprofloxacino y la cefalotina pueden, en casos individuales, reducir el aclaramiento renal de metotrexato, por lo que se podrían generar mayores concentraciones séricas de metotrexato con toxicidad hematológica y gastrointestinal simultáneas.
+ Los antibióticos orales como las tetraciclinas, el cloranfenicol y los antibióticos de amplio espectro no absorbibles pueden reducir la absorción intestinal de metotrexato o interferir en la circulación enterohepática, debido a la inhibición de la flora intestinal o la supresión del metabolismo bacteriano.
+ En la fase de (pre)tratamiento con medicamentos que pueden tener efectos adversos en la médula ósea (por ejemplo, sulfonamidas, trimetoprima-sulfametoxazol, cloranfenicol, pirimetamina), se debe considerar la posibilidad de trastornos hematopoyéticos.
+ La administración conjunta de medicamentos que causan deficiencia de folatos (por ejemplo, sulfonamidas, trimetoprima/sulfametoxazol) puede aumentar la toxicidad del metotrexato. Por ello, también se deben tomar precauciones especiales en pacientes con una deficiencia de ácido fólico ya existente.
+ Por otra parte, la administración concomitante de medicamentos que contengan ácido folínico o preparados vitamínicos con ácido fólico o derivados puede afectar a la eficacia del metotrexato.
+ La combinación de metotrexato y sulfasalazina puede potenciar el efecto del metotrexato, puesto que la sulfasalazina inhibe la síntesis del ácido fólico y puede aumentar con ello el riesgo de reacciones adversas, si bien en algunos estudios esto se observó solo en algunos pacientes.
+ La ciclosporina puede potenciar la eficacia y la toxicidad del metotrexato. Existe riesgo de una excesiva inmunodepresión con riesgo de linfoproliferación cuando se utiliza la combinación.
+ El uso de óxido nitroso potencia el efecto del metotrexato sobre el metabolismo del folato, lo que aumenta la toxicidad en forma de mielosupresión grave e impredecible y estomatitis y, en caso de administración intratecal, aumenta la neurotoxicidad grave e impredecible. Aunque este efecto puede reducirse con la administración de folinato cálcico, se debe evitar el uso concomitante de óxido nitroso y metotrexato.
+ La administración conjunta de inhibidores de la bomba de protones, como omeprazol o pantoprazol, puede dar lugar a interacciones: la administración concomitante de metotrexato y omeprazol se ha asociado a una eliminación renal más lenta del metotrexato. En un caso en el que se combinó metotrexato con pantoprazol, se inhibió la eliminación renal del metabolito 7-hidroximetotrexato y aparecieron mialgia y temblores.
+ El uso de procarbazina durante el tratamiento con altas dosis de metotrexato aumenta el riesgo de deterioro de la función renal.
+ Se debe evitar el consumo excesivo de bebidas que contengan cafeína o teofilina (café, refrescos que contengan cafeína, té negro) durante el tratamiento con metotrexato, puesto que la eficacia del metotrexato puede verse reducida debido a una posible interacción entre el metotrexato y las metilxantinas en los receptores de adenosina.
+ El uso combinado de metotrexato y leflunomida puede aumentar el riesgo de pancitopenia.
+ Particularmente en el caso de la cirugía ortopédica, en la que la propensión a contraer infecciones es elevada, la combinación de metotrexato con medicamentos inmunomoduladores debe utilizarse con precaución.
+ La colestiramina puede aumentar la eliminación no renal del metotrexato al interferir con la circulación enterohepática.
+ Se debe considerar la posibilidad de un aclaramiento retardado del metotrexato en combinación con otros medicamentos citostáticos.
+ La radioterapia durante el uso de metotrexato puede aumentar el riesgo de necrosis de huesos o tejidos blandos.
+ El metotrexato puede reducir el aclaramiento de la teofilina. Por consiguiente, durante el tratamiento concomitante con metotrexato se deben controlar los niveles sanguíneos de teofilina.
+ La administración conjunta de mercaptopurina y metotrexato puede aumentar la biodisponibilidad de la mercaptopurina, posiblemente como resultado de la inhibición del metabolismo de la mercaptopurina.
+ Debido a su posible efecto sobre el sistema inmunitario, el metotrexato puede falsear los resultados de las vacunas y de las pruebas (procedimientos inmunológicos para evaluar la reacción inmunitaria).
+ Durante el tratamiento con metotrexato no se podrá efectuar la vacunación concomitante de microorganismos vivos atenuados (ver las secciones 4.3 y 4.4).
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil/anticoncepción femenina
+ Las mujeres no se deben quedar embarazadas durante el tratamiento con metotrexato y deben utilizar métodos anticonceptivos efectivos durante el tratamiento con metotrexato y durante al menos 6 meses después (ver sección 4.4). Antes de iniciar el tratamiento, se debe informar a las mujeres en edad fértil del riesgo de malformaciones asociadas al metotrexato y se debe descartar, con certeza, la existencia de un embarazo tomando las medidas adecuadas, por ejemplo, una prueba de embarazo. Durante el tratamiento se repetirán las pruebas de embarazo cuando este clínicamente indicado (p. ej., tras cualquier posible interrupción de la anticoncepción). Se debe asesorar a las mujeres en edad fértil sobre la prevención y la planificación del embarazo.
+ Anticoncepción masculina
+ Se desconoce si metotrexato pasa al semen. En estudios en animales se ha demostrado que el metotrexato es genotóxico, de manera que no se puede descartar por completo el riesgo de efectos genotóxicos en los espermatozoides. Los datos clínicos limitados no indican un riesgo aumentado de malformaciones o abortos tras la exposición paterna metotrexato a dosis bajas (menos de 30 mg/semana). A dosis más altas, los datos existentes son insuficientes para estimar los riesgos de malformaciones o abortos tras la exposición paterna.
+ Como medida de precaución, se recomienda que los hombres sexualmente activos o sus parejas femeninas utilicen métodos anticonceptivos fiables durante el tratamiento del paciente masculino y durante al menos 3 meses después de la suspensión del metotrexato. Los hombres no donarán semen durante el tratamiento ni durante los 3 meses siguientes a la suspensión del metotrexato.
+ Embarazo
+ El metotrexato está contraindicado durante el embarazo en indicaciones no oncológicas (ver sección 4.3). Si se produce un embarazo durante el tratamiento con metotrexato o durante los seis meses siguientes, se debe prestar asesoramiento médico en relación al riesgo de efectos perjudiciales para el niño asociados con el tratamiento y se deben realizar exploraciones ecográficas para confirmar que el desarrollo del feto es normal. En estudios realizados en animales, metotrexato ha mostrado toxicidad para la reproducción, en especial durante el primer trimestre (ver sección 5.3). El metotrexato ha demostrado un efecto teratógeno en humanos; se ha notificado que causa muerte fetal, abortos y/o anomalías congénitas (p. ej., craneofaciales, cardiovasculares, del sistema nervioso central y relacionadas con las extremidades).
+ El metotrexato es un potente teratógeno para el ser humano, con mayor riesgo de abortos espontáneos, restricción del crecimiento intrauterino y malformaciones congénitas en caso de exposición durante el embarazo.
+ • Se han notificado abortos espontáneos en el 42,5 % de las mujeres embarazadas expuestas al tratamiento con metotrexato a dosis bajas (menos de 30 mg/semana), comparado con una tasa comunicada del 22,5 % en pacientes con la misma enfermedad tratadas con fármacos distintos del metotrexato.
+ • Se observaron malformaciones congénitas importantes en el 6,6 % de los nacidos vivos de mujeres expuestas al tratamiento con metotrexato a dosis bajas (menos de 30 mg/semana) durante el embarazo, comparado con, aproximadamente, el 4 % de los nacidos vivos de pacientes con la misma enfermedad tratadas con fármacos distintos a metotrexato.
+ No se dispone de datos suficientes sobre la exposición al metotrexato a dosis de más de 30 mg/semana durante el embarazo, pero caben esperar tasas más altas de abortos espontáneos y malformaciones congénitas, sobre todo con las dosis utilizadas habitualmente en indicaciones oncológicas.
+ En los casos en los que se interrumpió el tratamiento con metotrexato antes de la concepción, se han notificado embarazos normales.
+ Cuando se utiliza en indicaciones oncológicas, metotrexato no debe administrarse durante el embarazo, en especial durante el primer trimestre de gestación. Se debe sopesar el beneficio del tratamiento frente al posible riesgo para el feto en cada caso. Si se utiliza el fármaco durante el embarazo o si la paciente se queda embarazada mientras toma metotrexato, se debe informar a la paciente del posible riesgo para el feto.
+ Lactancia
+ El metotrexato se excreta en la leche materna y puede producir toxicidad en niños en período de lactancia, por lo que el tratamiento está contraindicado durante la lactancia (ver sección 4.3). Si el uso de metotrexato fuera necesario durante el período de lactancia, la lactancia se debe suspender antes del tratamiento.
+ Fertilidad
+ El metotrexato afecta a la espermatogénesis y la ovogénesis y puede disminuir la fertilidad. Se ha notificado que metotrexato causa oligospermia, alteración de la mestruación menstrual y amenorrea en humanos. Estos efectos parecen ser reversibles tras la interrupción del tratamiento en la mayoría de los casos. En indicaciones oncológicas, se aconseja a las mujeres que deseen quedarse embarazadas que acudan a un centro de asesoramiento genético, si es posible, antes del tratamiento; los hombres deben consultar la posibilidad de conservar el semen antes de empezar el tratamiento, ya que el metotrexato puede ser genotóxico a dosis altas (ver sección 4.4). 
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia del metotrexato sobre la capacidad para conducir y utilizar máquinas es moderada, ya que durante el tratamiento pueden aparecer trastornos del sistema nervioso central, como cansancio, mareo o somnolencia. 
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ En general, la incidencia y la intensidad de las reacciones adversas se consideran relacionadas con la dosis.
+ En el tratamiento antineoplásico, la mielosupresión y la mucositis son los efectos tóxicos limitantes de la dosis que predominan con metotrexato. La intensidad de estas reacciones depende de la dosis, la forma y la duración de la administración de metotrexato. La mucositis generalmente aparece entre 3 y 7 días después de la administración de metotrexato, seguida unos días después por leucopenia y trombocitopenia. En pacientes con mecanismos de eliminación intactos, la mielosupresión y la mucositis son generalmente reversibles en un plazo de 14 a 28 días.
+ Las reacciones adversas más graves del metotrexato son supresión de la médula ósea, toxicidad pulmonar, hepatotoxicidad, toxicidad renal, neurotoxicidad, acontecimientos tromboembólicos, choque anafiláctico y síndrome de Stevens-Johnson.
+ Las reacciones adversas del metotrexato observadas con mayor frecuencia (muy frecuentes) son trastornos gastrointestinales (por ejemplo, estomatitis, dispepsia, dolor abdominal, náuseas, pérdida del apetito) y anomalías en las pruebas de la función hepática (por ejemplo, aumento de alanina aminotransferasa (ALAT), aspartato aminotransferasa (ASAT), bilirrubina, fosfatasa alcalina). Otras reacciones adversas que se producen con frecuencia (frecuentes) son leucopenia, anemia, trombocitopenia, cefalea, cansancio, somnolencia, neumonía, alveolitis/neumonitis intersticial asociadas con frecuencia a eosinofilia, úlceras bucales, diarrea, exantema, eritema y prurito.
+ La aparición y el grado de intensidad de las reacciones adversas dependen del nivel de dosis y la frecuencia de administración de metotrexato. Sin embargo, puesto que se pueden producir efectos adversos graves incluso a dosis bajas, es imprescindible que el médico vigile estrechamente a los pacientes (ver sección 4.4).
+ La mayoría de las reacciones adversas son reversibles si se detectan pronto. Si se producen estas reacciones adversas, se debe reducir la dosis o suspender el tratamiento y adoptar las medidas oportunas para contrarrestarlas (ver sección 4.9). El tratamiento con metotrexato se debe reanudar con especial precaución, después de considerar con cuidado la necesidad de tratamiento y con una mayor vigilancia por la posible reaparición de toxicidad.
+ Tabla de reacciones adversas
+ Las frecuencias en la tabla se definen a partir de la convención MedDRA:
+ Muy frecuentes (≥1/10)
+ Frecuentes (≥ 1/100 a <1/10)
+ Poco frecuentes (≥1/1,000 a < 1/100)
+ Raras (≥1/10,000 a <1/1,000)
+ Muy raras (<1/10,000)
+ Frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Dentro de cada grupo de frecuencias, las reacciones adversas se presentan por orden de gravedad descendente.
+ Clasificación por grupos y sistemas
+ | 
+ Muy
+ frecuentes
+ | 
+ Frecuentes
+ | 
+ Poco frecuentes
+ | 
+ Raras
+ | 
+ Muy raras
+ | 
+ Frecuencia no
+ conocida
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ | 
+ Infecciones
+ | 
+ Infecciones
+ oportunistas (en ocasiones,
+ mortales)
+ | 
+ Herpes zóster
+ | 
+ Septicemia
+ Infecciones inducidas por citomegalovirus
+ | 
+ Nocardiosis,
+ histoplasmosis
+ y micosis por
+ Cryptococcus,
+ herpes simple
+ diseminado
+ | 
+ Neoplasias
+ benignas,
+ malignas y no
+ especificadas
+ (incl quistes y
+ pólipos)
+ | 
+ | 
+ | 
+ Linfoma1
+ | 
+ | 
+ | 
+ | 
+ Trastornos de la sangre y del
+ sistema linfático
+ | 
+ | 
+ Leucopenia,
+ trombocitopenia,
+ anemia
+ | 
+ Pancitopenia,
+ agranulocitosis,
+ trastornos
+ hematopoyéticos
+ | 
+ Anemia
+ megaloblástica
+ | 
+ Mielosupresión
+ (evolución grave),
+ anemia aplásica;
+ trastorno
+ linfoproliferativo2,
+ eosinofilia,
+ neutropenia,
+ linfadenopatía
+ | 
+ Hemorragias
+ | 
+ Trastornos del sistema
+ inmunológico
+ | 
+ | 
+ | 
+ Reacciones
+ alérgicas,
+ choque anafiláctico,
+ fiebre,
+ escalofríos
+ | 
+ | 
+ Inmunodepresión;
+ vasculitis alérgica
+ (síntoma tóxico
+ grave),
+ hipogamma-globulinemia
+ | 
+ | 
+ Trastornos del metabolismo y de la nutrición
+ | 
+ | 
+ | 
+ Diabetes
+ mellitus
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ psiquiátricos
+ | 
+ | 
+ | 
+ Depresión
+ | 
+ Alteraciones
+ del estado de
+ ánimo
+ | 
+ Insomnio
+ | 
+ | 
+ Trastornos del sistema
+ nervioso
+ | 
+ | 
+ Cefalea,
+ cansancio,
+ somnolencia
+ | 
+ Convulsiones,
+ vértigo,
+ confusión
+ | 
+ Hemiparesia,
+ paresia
+ | 
+ Edema cerebral,
+ meningitis aséptica
+ aguda con
+ meningismo
+ (parálisis, vómitos),
+ letargo,
+ disfunción cognitiva
+ leve transitoria,
+ psicosis,
+ afasia,
+ dolor,
+ astenia muscular o
+ parestesia/hipoestesia,
+ cambios en el sentido
+ del gusto (sabor
+ metálico),
+ irritación,
+ disartria,
+ sensaciones craneales
+ inusuales, acúfenos
+ | 
+ Encefalopatía/
+ leucoencefa-lopatía
+ | 
+ Trastornos
+ oculares
+ | 
+ | 
+ | 
+ | 
+ Alteraciones
+ visuales
+ graves
+ | 
+ Retinopatía,
+ conjuntivitis
+ | 
+ | 
+ Trastornos
+ cardiacos
+ | 
+ | 
+ | 
+ | 
+ Pericarditis,
+ derrame
+ pericárdico,
+ taponamiento
+ pericárdico
+ | 
+ | 
+ | 
+ Trastornos
+ vasculares
+ | 
+ | 
+ | 
+ | 
+ Reacciones
+ tromboembólicas
+ (incluye
+ trombosis
+ arterial y
+ cerebral,
+ tromboflebitis
+ , trombosis
+ venosa
+ profunda en
+ las piernas,
+ trombosis
+ venosa
+ retiniana,
+ embolia
+ pulmonar),
+ hipotensión
+ | 
+ | 
+ | 
+ Trastornos
+ respiratorios,
+ torácicos y
+ mediastínicos
+ | 
+ | 
+ Alveolitis/
+ neumonía
+ intersticial (puede
+ ser mortal)
+ | 
+ Fibrosis
+ pulmonar
+ | 
+ Parálisis
+ respiratoria,
+ reacciones de
+ tipo asma
+ bronquial,
+ como tos,
+ disnea y
+ cambios
+ patológicos
+ en las pruebas
+ de la función
+ pulmonar,
+ faringitis
+ | 
+ Neumonía por
+ Pneumocystis jiroveci
+ y otras infecciones
+ pulmonares,
+ enfermedad pulmonar
+ obstructiva crónica,
+ derrame pleural
+ | 
+ Hemorragia
+ alveolar
+ pulmonar3
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ Pérdida del
+ apetito,
+ náuseas,
+ vómitos,
+ dolor
+ abdominal,
+ inflamación y ulceración
+ de la mucosa
+ de la boca y la garganta,
+ estomatitis,
+ dispepsia
+ | 
+ Diarrea
+ | 
+ Úlceras y
+ hemorragias
+ gastrointestinales
+ | 
+ Pancreatitis,
+ enteritis,
+ malabsorción,
+ melena,
+ gingivitis
+ | 
+ Megacolon tóxico,
+ hematemesis
+ | 
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ Aumento de las enzimas
+ hepáticas
+ (ALAT
+ [GPT],
+ ASAT
+ [GOT],
+ fostafasa
+ alcalina y
+ bilirrubina)
+ | 
+ | 
+ Esteatosis
+ hepática,
+ fibrosis y
+ cirrosis,
+ disminución de
+ la albúmina
+ sérica
+ | 
+ Hepatitis
+ aguda y
+ hepatotoxicidad
+ | 
+ Degeneración
+ hepática aguda,
+ insuficiencia hepática,
+ reactivación de una
+ hepatitis crónica,
+ | 
+ Hepatitis e
+ insuficiencia
+ hepática4
+ | 
+ Trastornos de la piel y del tejido
+ subcutáneo
+ | 
+ | 
+ Eritema, exantema,
+ prurito
+ | 
+ Manifestaciones
+ tóxicas intensas:
+ vasculitis,
+ erupciones
+ herpetiformes de la piel, síndrome
+ de Stevens-Johnson
+ , necrólisis epidérmica
+ tóxica (síndrome
+ de Lyell),
+ aumento de los
+ nódulos
+ reumatoides,
+ erosiones
+ dolorosas de
+ placas
+ psoriásicas,
+ aumento de la
+ pigmentación,
+ caída del
+ cabello,
+ problemas de
+ cicatrización,
+ urticaria, reacciones de fotosensibilidad
+ | 
+ Aumento de
+ los cambios
+ pigmentarios
+ de las uñas,
+ onicólisis,
+ acné,
+ petequias,
+ hematomas,
+ eritema multiforme,
+ erupciones
+ eritematosas
+ cutáneas,
+ posible
+ empeoramien
+ to de las
+ lesiones
+ psoriásicas
+ con tratamiento
+ UV concomitante,
+ posible
+ «recuerdo»
+ de dermatitis
+ por radiación
+ y quemaduras
+ solares
+ | 
+ Paroniquia aguda,
+ furunculosis,
+ telangiectasia,
+ hidradenitis
+ | 
+ Exfoliación de la piel/dermatitis exfoliativa, necrosis epidérmica
+ | 
+ Trastornos
+ musculoesqueléticos y del tejido
+ conjuntivo
+ | 
+ | 
+ | 
+ Osteoporosis,
+ artralgia,
+ mialgia
+ | 
+ Fractura por
+ sobrecarga
+ | 
+ | 
+ Osteonecrosis
+ mandibular
+ (secundaria a
+ trastornos
+ linfoproliferativos)
+ | 
+ Trastornos
+ renales y
+ urinarios
+ | 
+ | 
+ | 
+ Nefropatía,
+ inflamación y
+ ulceración de la
+ vejiga
+ (posiblemente
+ con hematuria),
+ disuria
+ | 
+ Insuficiencia
+ renal,
+ oliguria,
+ anuria,
+ azoemia
+ | 
+ Proteinuria
+ | 
+ | 
+ Trastornos del
+ aparato
+ reproductor y
+ de la mama
+ | 
+ | 
+ | 
+ Inflamación y
+ ulceración de la
+ vagina
+ | 
+ Oligospermia
+ , alteraciones
+ de la
+ menstruación
+ | 
+ Infertilidad,
+ pérdida de la libido,
+ impotencia,
+ secreción vaginal,
+ ginecomastia
+ | 
+ | 
+ Trastornos
+ generales y
+ alteraciones en
+ el lugar de
+ administración
+ | 
+ | 
+ | 
+ | 
+ | 
+ Fiebre
+ | 
+ Edema, reacción en el lugar de la inyección, necrosis en el lugar de la inyección
+ | 
+ 1 Puede ser reversible - ver 4.4.
+ 2 Linfoma/trastornos linfoproliferativos; ha habido notificaciones de casos individuales de linfoma y otros trastornos linfoproliferativos que cedieron en muchos casos una vez que se interrumpió el tratamiento con metotrexato.
+ 3 Se ha notificado con metotrexato cuando se utiliza en indicaciones reumatológicas y relacionadas
+ 4 Ver comentarios sobre la biopsia de hígado en la sección 4.4.
+ Población pediátrica
+ La frecuencia, el tipo y la intensidad de las reacciones adversas en niños y adolescentes son semejantes a los observados en adultos.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaram.es. 
+ 4.9. Sobredosis
+ Síntomas de sobredosis
+ Los síntomas después de una sobredosis oral afectan principalmente al sistema hematopoyético y gastrointestinal.
+ Los síntomas incluyen leucocitopenia, trombocitopenia, anemia, pancitopenia, neutropenia, mielosupresión, mucositis, estomatitis, úlceras bucales, náuseas, vómitos, úlceras y hemorragias gastrointestinales.
+ Se han notificado casos de sobredosis, en ocasiones mortales, debido a un error en la toma de metotrexato, diaria en lugar de semanal. En estos casos, los síntomas que se han descrito con frecuencia son reacciones hematológicas y gastrointestinales.
+ Se han notificado muertes debido a septicemia, choque séptico, insuficiencia renal y anemia aplásica.
+ Tratamiento de sobredosis
+ El folinato cálcico es un antídoto específico para neutralizar los efectos adversos tóxicos del metotrexato. En caso de sobredosis accidental, se debe administrar una dosis de folinato cálcico igual o superior a la dosis nociva de metotrexato por vía intravenosa o intramuscular en el plazo de 1 hora y se debe continuar la administración hasta que el nivel sérico de metotrexato sea inferior a 10-7 mol/l.
+ En el caso de una sobredosis masiva, pueden ser requeridos hidratación y alcalinización urinaria para evitar la precipitación del metotrexato y/o sus metabolitos en los túbulos renales. No se ha demostrado que la hemodiálisis ni la diálisis peritoneal mejoren la eliminación de metotrexato. Se ha notificado un aclaramiento eficaz del metotrexato con la hemodiálisis intermitente aguda con el uso de un dializador de alto flujo.
+ En pacientes con artritis reumatoide, artritis idiopática juvenil poliarticular, artritis psoriásica o psoriasis, la administración de ácido fólico o folínico puede reducir la toxicidad del metotrexato (síntomas gastrointestinales, inflamación de la mucosa oral, pérdida de cabello y aumento de las enzimas hepáticas) (ver sección 4.5). Antes de usar medicamentos de ácido fólico, se recomienda controlar los niveles de vitamina B12, puesto que el ácido fólico puede enmascarar una deficiencia de vitamina B12 existente, particularmente en adultos mayores de 50 años. 
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Compatibilidad de mezcla: solución B de Elliott, inyección de NaCl al 0,9%, inyección de dextrosa al 5% e inyección de Ringer con lactato.
+ Metotrexato no debe mezclarse con ranitidina, droperidol o metoclopramida, ya que se produce precipitación. También se ha comunicado que es incompatible con fluorouracilo y prednisolona. 
+ 6.3. Periodo de validez
+ 2 años. 
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC.
+ Conservar el vial en el embalaje exterior para protegerlo de la luz. 
+ 6.5. Naturaleza y contenido del envase
+ Metotrexato Pfizer se presenta en viales de polipropileno con tapones fabricados con caucho butílico halogenado, con una cápsula de aluminio y tapón de plástico "flip-off”, conteniendo 2 y 20 ml. 
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ El metotrexato no debe mezclarse con otros medicamentos en la misma botella de goteo cuando se administre por vía intravenosa.
+ Metotrexato Pfizer no contiene ningún agente conservante. Los viales por ello son de un único uso y la porción no utilizada debe desecharse después de su uso.
+ Cuando metotrexato se utiliza en elevadas dosis o para la administración por vía intratecal, está contraindicado el uso de formulaciones o disolventes que contengan algún conservante.
+ Como con otros fármacos citotóxicos:
+ La preparación de metotrexato debe ser realizada por parte de personal sanitario entrenado.
+ Las mujeres embarazadas no deben manipular el metotrexato.
+ La preparación debe realizarse en un área designada para ello (preferiblemente en cabina de flujo laminar citotóxica). La superficie de trabajo deberá protegerse mediante un papel absorbente, plastificado y desechable.
+ Mientras se manipula metotrexato, debe utilizarse ropa de protección: gafas protectoras, bata, guantes y mascarillas desechables.
+ Si la solución contacta accidentalmente con la piel o las mucosas, el área afectada debe lavarse inmediatamente con agua o con una solución de bicarbonato sódico. Debe solicitarse atención médica.
+ Se recomiendan jeringas Luer-Lock. También se recomiendan agujas de diámetro grande para minimizar la presión y la posible formación de aerosoles. Los aerosoles pueden reducirse también utilizando una aguja de ventilación durante la preparación.
+ Los utensilios utilizados para diluir metotrexato o los artículos de desecho corporales, deben meterse en una bolsa de polietileno e incinerarse a 1100ºC.
+ Procedimiento de vertidos
+ Si se producen vertidos, debe restringirse el acceso al área afectada. Se recomienda el uso de guantes de látex, mascarilla, bata protectora y gafas de seguridad. Limitar la expansión del vertido cubriéndolo con material absorbente, como papel, etc. Los vertidos pueden tratarse con hipoclorito de sodio al 5%. Recoger todo el material absorbente u otro utilizado en la retirada del vertido, meterlo en una bolsa de plástico e identificarla correctamente. Los residuos citotóxicos deben etiquetarse claramente con la leyenda "Residuo citotóxico para incineración a 1100ºC". El material debe incinerarse a 1100ºC durante al menos un segundo. Limpiar el área con abundante agua.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local. 

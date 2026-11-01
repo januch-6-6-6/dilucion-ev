@@ -1,0 +1,37 @@
+[
+ {
+  "Producto": "F-25555/25",
+  "Nombre": "APROKAM POLVO PARA SOLUCIÓN INYECTABLE 50 mg (CEFUROXIMA)",
+  "FechaRegistro": "2020-07-08",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "CEFUROXIMA"
+ },
+ {
+  "Producto": "F-21410/24",
+  "Nombre": "CEFUROXIMA COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "2014-09-22",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "CEFUROXIMA"
+ },
+ {
+  "Producto": "F-4105/25",
+  "Nombre": "CUROCEF COMPRIMIDOS RECUBIERTOS 250 mg",
+  "FechaRegistro": "1989-06-07",
+  "Titular": "SANDOZ CHILE S.p.A.",
+  "PA": "CEFUROXIMA"
+ },
+ {
+  "Producto": "F-4106/25",
+  "Nombre": "CUROCEF COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "1989-06-07",
+  "Titular": "SANDOZ CHILE S.p.A.",
+  "PA": "CEFUROXIMA"
+ },
+ {
+  "Producto": "F-10652/26",
+  "Nombre": "CUROCEF GRÁNULOS PARA SUSPENSIÓN ORAL 250 mg/5 mL",
+  "FechaRegistro": "1993-03-18",
+  "Titular": "SANDOZ CHILE S.p.A.",
+  "PA": "CEFUROXIMA"
+ }
+]

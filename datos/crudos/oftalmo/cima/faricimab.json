@@ -1,0 +1,22 @@
+{
+ "id": "faricimab",
+ "familia": "intravitreo",
+ "resultados": 5,
+ "tipo": "ocular",
+ "sel": [
+  {
+   "nregistro": "1221683001",
+   "nombre": "VABYSMO 120 MG/ML SOLUCION INYECTABLE",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/1221683001/FT_1221683001.html",
+   "tipo": "ocular"
+  },
+  {
+   "nregistro": "1221683002",
+   "nombre": "VABYSMO 120 MG/ML SOLUCION PARA INYECCION EN JERINGA PRECARGADA",
+   "vias": "VIA INTRAVITREA SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/1221683002/FT_1221683002.html",
+   "tipo": "ocular"
+  }
+ ]
+}

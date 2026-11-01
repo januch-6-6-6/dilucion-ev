@@ -1,0 +1,90 @@
+                   AFLIBERCEPT 2 MG/0,05ML INYECCIÓN INTRAVÍTREA
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN
+50 µl
+
+COMPOSICIÓN:
+AFLIBERCEPT                                   2mg
+
+MATERIAL Y EQUIPO:
+CFL, jeringa 1 ml, jeringa 0,5 ml con aguja incorporada y sin espacio muerto*, aguja con filtro
+5 µm, bolsa estéril. * El volumen de la jeringa y el tipo de aguja incorporada se consensuará
+con el Servicio de Oftalmología.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECIFICO:
+1. Dejar reposar unos segundos el vial de aflibercept (Eylea) en posición vertical sobre la
+superficie de la cabina para favorecer que todo el medicamento resbale por las paredes hasta
+el fondo del vial.
+2. Desprecintar el vial, limpiar el elastómero con alcohol de 70º y dejar secar.
+3. Cargar todo el contenido del vial de aflibercept en una jeringa de 1 mL a través de una
+aguja con filtro 5 µm.
+4. Cargar alícuotas de 0,065 ml en jeringas de 0,5 ml sin espacio muerto y con aguja
+incorporada desde la jeringa con el medicamento filtrado
+5. Acondicionar individualmente en las bolsas estériles dentro de la CFL y etiquetar.
+6. Proteger de la luz.
+
+ENTORNO:
+Trabajar en CFL con técnica aséptica.
+
+ENVASADO:
+Jeringa estéril 0,5 mL.
+
+CONSERVACIÓN:
+Conservar refrigerado (2-8ºC). Aplicando la matriz de riesgo de la GBPP tendría una
+estabilidad máxima de 9 días refrigerado. Hay estudios (1) que le dan una estabilidad química
+de 4 semanas conservado en nevera; para dicha estabilidad o cuando se realice la preparación
+de un lote mayor de 25 unidades habrá que realizar el control de esterilidad.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Liquido límpido, transparente e incoloro. No presenta turbidez ni partículas en suspensión.
+CONTROLES A REALIZAR - Características organolépticas (color, aspecto) - Ausencia de
+turbidez - Ausencia de cristalización
+
+PLAZO DE VALIDEZ:
+9 dias
+INDICACIONES Y POSOLOGÍA:
+INDICACIONES
+- Degeneración macular asociada a la edad (DMAE) neovascular (exudativa).
+- Alteración visual debida al edema macular secundario a la oclusión de la vena retiniana
+(oclusión de la rama venosa retiniana (ORVR) u oclusión de la vena central retiniana (OVCR).
+- Alteración visual debida al edema macular diabético (EMD).
+- Alteración visual debida a la neovascularización coroidea miópica (NVC miópica).
+
+POSOLOGÍA
+La dosis recomendada es 2 mg de aflibercept, equivalente a 50 µL.
+
+OBSERVACIONES:
+- Es importante no agitar los viales de los anticuerpos monoclonales y que el traspaso del
+medicamento a la jeringa sea cuidadoso para evitar la agregación de las proteínas.
+- Se debe observar que no hay turbidez lo cual indicaría la formación de agregados.
+- Se debe evitar la formación de burbujas e introducción de aire en las jeringas ya que esto
+puede promover la inestabilidad de las proteínas.
+- Contiene como excipientes: polisorbato 20, dihidrógeno fosfato de sodio monohidrato,
+hidrogenofosfato de disodio heptahidrato, cloruro sódico, sacarosa, agua para preparaciones
+inyectables.
+
+BIBLIOGRAFÍA
+(1) Cao S, Cui J, Matsubara J, Forooghian F.Long-term in vitro functional stability of
+compounded ranibizumab and aflibercept.Can J Ophthalmol. 2017 Jun;52(3):273-276.
+(2) Ficha técnica Eylea® consultada 12/05/2016.
+(http://www.ema.europa.eu/docs/es_ES/document_library/EPAR_-
+_Product_Information/human/002392/WC500135815.pdf
+(3) Astier A. Practical stability studies of therapeutic proteins in oncology. Hospital Pharmacy
+Europe Issue 63 July/August 2012.
+(4) Pic/s guide to good practices for the preparation of medicinal products in healthcare
+establishments PE 010-3, 1 October 2008.
+(5) Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia
+hospitalaria. Junio 2014
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+FECHA ÚLTIMA REVISIÓN:
+17/09/2017
+

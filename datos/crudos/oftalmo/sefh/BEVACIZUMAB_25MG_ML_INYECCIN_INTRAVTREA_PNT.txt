@@ -1,0 +1,113 @@
+                    BEVACIZUMAB 25 MG/ML INYECCIÓN INTRAVÍTREA
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN
+0.15 ml
+
+COMPOSICIÓN:
+BEVACIZUMAB                                   0.15ml
+
+MATERIAL Y EQUIPO:
+CFL, Jeringa 1 ml, aguja, tapones jeringa, bolsa estéril. El volumen de la jeringa y el tipo de
+aguja incorporada se consensuará con el Servicio de Oftalmología.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECIFICO:
+1. Desprecintar el vial de Avastin(R), limpiar el elastómero con alcohol 70º y dejar secar.
+2. Cargar 0,15 mL con jeringa de tuberculina (0,08 mL corresponden al espacio muerto de la
+aguja).
+3. Quitar la aguja de la jeringa y cerrarla con tapón rojo estéril.
+4. Acondicionar individualmente en las bolsas estériles y etiquetar.
+5. Proteger de la luz.
+
+ENTORNO:
+Trabajar en campana de flujo laminar horizontal con técnica aséptica.
+
+ENVASADO:
+Jeringas 1 mL.
+
+CONSERVACIÓN:
+Conservar refrigerado (2-8ºC). Aplicando la matriz de riesgo de la GBPP tendría una
+estabilidad máxima de 9 días refrigerado (2-8ºC). Existen datos de estabilidad durante 3
+meses en frigorífico protegido de la luz (4); para dicha estabilidad o cuando se realice la
+preparación de un lote mayor de 25 unidades habrá que realizar control de esterilidad.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Liquido límpido, transparente e incoloro. No presenta turbidez ni partículas en suspensión.
+CONTROLES A REALIZAR - Características organolépticas (color, aspecto) - Ausencia de
+turbidez - Ausencia de cristalización
+
+PLAZO DE VALIDEZ:
+9 dias
+INDICACIONES Y POSOLOGÍA:
+INDICACIONES
+El bevacizumab ha sido diseñado para bloquear una sustancia denominada factor de
+crecimiento endotelial vascular A (VEGF-A), proteína que hace que crezcan los vasos
+sanguíneos. Al bloquear este factor, reduce el crecimiento de los vasos sanguíneos.
+Se utiliza para el tratamiento de la degeneración macular asociada a la edad húmeda o
+exudativa (off-label).
+
+POSOLOGÍA
+La posología habitual es de una inyección intravítrea (1,25 mg/0.05 ml) a intervalos regulares
+(cada 4 o 6 semanas) o según evolución.
+
+OBSERVACIONES:
+- Es importante no agitar los viales de los anticuerpos monoclonales y que el traspaso del
+medicamento a la jeringa sea cuidadoso para evitar la agregación de las proteínas.
+- Se debe observar que no hay turbidez lo cual indicaría la formación de agregados.
+- Se debe evitar la formación de burbujas e introducción de aire en las jeringas ya que esto
+puede promover la inestabilidad de las proteínas.
+- Este medicamento contiene como excipientes trehalosa dihidrato, fosfato sódico, polisorbato
+20 y agua para preparaciones inyectables.
+
+BIBLIOGRAFÍA
+(1) Sugimoto MAA, Toledo VPCP, Cunha MRR, Carregal VM, Jorge R, Leão P4, Fialho SL,
+Silva-Cunha A. Quality of bevacizumab (Avastin®) repacked in single-use glass vials for
+intravitrealadministration. Arq Bras Oftalmol. 2017 Mar-Apr;80(2):108-113.
+(2) Khalili H, Sharma G, Froome A, Khaw P.T, Brocchini S. Storage stability of bevacizumab in
+polycarbonate and polypropylene syringes. Eye 2015 ; 29, 6: 820-827.
+(3) Bakri, S. J., M. R. Snyder, J. S. Pulido, C. A. McCannel, W. T. Weiss and R. J. Singh. "Six-
+Month Stability of Bevacizumab (Avastin) Binding to Vascular Endothelial Growth Factor after
+Withdrawal into a Syringe and Refrigeration or Freezing." Retina 26, no. 5 (2006): 519-22.
+(4) Vieillard V, Cauvin A, Roumi E, Despiau MC, Laurent M, Voytenko S, Astier A, Paul M.
+Stabilité physico-chimique du bévacizumab à 25 mg/mL conservée à 4°C en seringue
+polypropylène.SFPO Congress, France 2011.
+(5) Paul, M., V. Vieillard, E. Roumi, A. Cauvin, M. C. Despiau, M. Laurent and A. Astier. "Long-
+Term Stability of Bevacizumab Repackaged in 1ml Polypropylene Syringes for Intravitreal
+Administration." Ann Pharm Fr 70, no. 3 (2012): 139-54.
+(6) Campbell RJ, Gill SS, Bronskill SE, Paterson JM, Whitehead M, Bell CM. Adverse events
+with intravitreal injection of vascular endothelial growth factor inhibitors: nested case-control
+study. BMJ. 2012; 345 e4203. doi: 10.1136/bmj.e4203.
+(7) Martin D.F., Maguire M.G., Fine S.L., Ying G.-S., Jaffe G.J., Grunwald J.E., Toth C.,
+Redford M., Ferris F.L., Comparison of Age-related Macular Degeneration Treatments Trials
+(CATT) Research Group. Ranibizumab and Bevacizumab for Treatment of Neovascular Age-
+Related Macular Degeneration:Two-Year Results. Ophthalmology 2012; 119(7):1388-98.
+(8) Salim S. Current variation of glaucoma filtration surgery. Curr Opin Ophthalmol. 2012;
+23(2):89-95.
+(9) Nilforushan N, Yadgari M, Kish SK, Nassiri N. Subconjunctival bevacizumab versus
+mitomycin C adjunctive to trabeculectomy. Am J Ophthalmol. 2012; 153(2):352-357.
+(10) Soheilian M, Garfami KH, Ramezani A, Yaseri M, Peyman GA. Two-year results of a
+randomized trial of intravitreal bevacizumab alone or combined with triamcinolone versus laser
+in diabetic macular edema. Retina. 2012;32(2):314-21
+(11) Ficha técnica Avastin® 25 mg/ml. AEMPS. Acceso Sept. 2015.
+(12) Signorello et al. Quantification, microbial contamination, physico-chemical stability of
+repackaged bevacizumab stored under different conditions. Current pharmaceutical
+biotechnology. 2014;15(2):113-9.
+(13) Paul M et al. Long-term stability of bevacizumab repackaged in 1mL polypropylene
+syringes for intravitreal administration. Annales pharmaceutiques francaises. 2012;70(3):139-
+54.
+(14) Vieillard V et al. Stabilité physico-chimique du bévacizumab à 25 mg/mL conservée à 4°C
+en seringue polypropylène. SFPO Congress, France 2011.
+(15) Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia
+hospitalaria. Junio 2014
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+FECHA ÚLTIMA REVISIÓN:
+13/10/2017
+

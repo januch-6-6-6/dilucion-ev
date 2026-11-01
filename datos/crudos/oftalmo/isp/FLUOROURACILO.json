@@ -1,0 +1,72 @@
+[
+ {
+  "Producto": "F-22776/26",
+  "Nombre": "FLUOROURACILO SOLUCIÓN CONCENTRADA PARA PERFUSIÓN 1000 mg/ 20 mL",
+  "FechaRegistro": "2016-06-14",
+  "Titular": "SANDOZ CHILE SpA",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-24548/24",
+  "Nombre": "FLUOROURACILO SOLUCION CONCENTRADA PARA PERFUSION 5000 mg/100 mL",
+  "FechaRegistro": "2019-01-14",
+  "Titular": "SANDOZ CHILE S.p.A.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-24513/24",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 1000 mg/ 20 mL",
+  "FechaRegistro": "2019-01-03",
+  "Titular": "FARMACÉUTICA XENIUS  SPA",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-23168/21",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 1000 mg/20 mL",
+  "FechaRegistro": "2016-11-14",
+  "Titular": "FRESENIUS KABI CHILE LTDA.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-27358/23",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 1000 mg/20 mL",
+  "FechaRegistro": "2023-02-28",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-23173/21",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 2500 mg/50 mL",
+  "FechaRegistro": "2016-11-14",
+  "Titular": "FRESENIUS KABI CHILE LTDA.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-27364/23",
+  "Nombre": "FLUOROURACILO SOLUCION INYECTABLE 500 mg/10 mL",
+  "FechaRegistro": "2023-03-06",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-27847/23",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 500 mg/10 mL",
+  "FechaRegistro": "2023-09-26",
+  "Titular": "DIFEM LABORATORIOS S.A.",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-24512/24",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 5000 mg/100 mL",
+  "FechaRegistro": "2019-01-03",
+  "Titular": "FARMACÉUTICA XENIUS  SPA",
+  "PA": "FLUOROURACILO"
+ },
+ {
+  "Producto": "F-23091/26",
+  "Nombre": "FLUOROURACILO SOLUCIÓN INYECTABLE 5000 mg/100 mL",
+  "FechaRegistro": "2016-09-27",
+  "Titular": "FRESENIUS KABI CHILE LTDA.",
+  "PA": "FLUOROURACILO"
+ }
+]

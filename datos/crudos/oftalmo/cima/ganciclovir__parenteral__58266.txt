@@ -1,0 +1,518 @@
+CYMEVENE 500 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION | VIA INTRAVENOSA POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/58266/FT_58266.html
+
+ 4.1. Indicaciones terapéuticas
+ Cymevene está indicado en adultos y adolescentes ≥ 12 años de edad para el:
+ - tratamiento de la enfermedad por citomegalo­virus (CMV) en pacientes inmunodeprimidos;
+ - prevención de la enfermedad por CMV utilizando tratamiento preventivo en pacientes con inmunosupresión iatrogénica (por ejemplo, después de un trasplante de órgano o de una quimioterapia antineoplásica).
+ Cymevene también está indicado desde el nacimiento para la:
+ - prevención de la enfermedad por CMV utilizando profilaxis universal en pacientes con inmunosupresión iatrogénica (por ejemplo, después de un transplante de órgano o de una quimioterapia antineoplásica).
+ Se deben considerar las guías oficiales sobre el uso adecuado de agentes antivirales.
+ 4.2. Posología y forma de administración
+ Posología
+ Tratamiento de la enfermedad por CMV
+ Adultos y población pediátrica ≥ 12 años de edad con función renal normal:
+ Tratamiento de inducción: 5 mg/kg administrados mediante perfusión intravenosa durante una hora, cada 12 horas durante 14 a 21 días.
+ Tratamiento de mantenimiento: En pacientes inmunodeficientes con riesgo de sufrir una recidiva se puede administrar la terapia de mantenimiento de 5 mg/kg administrada mediante perfusión intravenosa durante una hora, una vez al día durante los 7 días de la semana o 6 mg/kg una vez al día durante 5 días a la semana. La duración del tratamiento de mantenimiento se debe determinar individualmente, se deben consultar las guías de tratamiento locales.
+ Tratamiento de la progresión de la enfermedad: En cualquier paciente en el cual la enfermedad por CMV progrese, tanto durante el tratamiento de mantenimiento o si el tratamiento con ganciclovir se ha retirado, puede ser tratado de nuevo utilizando la posología del tratamiento de inducción.
+ Población pediátrica desde el nacimiento a < 12 años de edad:
+ Los datos en pediatría disponibles actualmente se describen en las secciones 5.1 y 5.2, pero no se puede hacer una recomendación posológica
+ Prevención de la enfermedad por CMV utilizando tratamiento preventivo
+ Adultos y población pediátrica ≥ 12 años de edad con función renal normal:
+ Tratamiento de inducción: 5 mg/kg administrados mediante perfusión intravenosa durante una hora, cada 12 horas durante 7 a 14 días.
+ Tratamiento de mantenimiento: 5 mg/kg administrados mediante perfusión intravenosa durante una hora, una vez al día durante los 7 días de la semana o 6 mg/kg una vez al día durante 5 días a la semana. La duración del tratamiento de mantenimiento se basa en el riesgo de enfermedad por CMV, se deben consultar las guías de tratamiento locales.
+ Población pediátrica desde el nacimiento a < 12 años de edad:
+ Los datos disponibles actualmente se describen en las secciones 5.1 y 5.2, pero no se puede hacer una recomendación posológica.
+ Prevención de enfermedad por CMV utilizando profilaxis universal
+ Adultos y población pediátrica >16 años de edad:
+ 5 mg/kg administrados mediante perfusión intravenosa durante una hora, una vez al día durante los 7 días de la semana o 6 mg/kg una vez al día durante 5 días a la semana. La duración se basa en el riesgo de enfermedad por CMV, se deben consultar las guías de tratamiento locales.
+ Población pediátrica desde el nacimiento a ≤ 16 años de edad:
+ La dosis una vez al día recomendada de ganciclovir administrada mediante perfusión intravenosa durante una hora, está basada en el área de superficie corporal (ASC), obtenida mediante la fórmula de Mosteller para el cálculo de ASC, y el aclaramiento de creatinina obtenido mediante la fórmula de Schwartz (CLSCr), y se calcula mediante las siguientes ecuaciones. La duración del tratamiento con profilaxis universal se basa en el riesgo de enfermedad por CMV y se debe determinar individualmente.
+ Dosis pediátrica (mg) = 3 x ASC x CLSCr (ver la fórmula de Mosteller para el cálculo de ASC y la fórmula de Schwartz para el cálculo del aclaramiento de creatinina a continuación).
+ Si el aclaramiento de creatinina de Schwartz calculado excede los 150 ml/min/1,73 m2, se debe utilizar en la ecuación el valor máximo de 150 ml/min/1,73 m2.
+ ASC Mosteller (m2) = 
+ Aclaramiento de creatinina Schwartz (ml/min/1,73 m2) = 
+ donde k = 0,33 para pacientes de edad <1 año con bajo peso en el nacimiento, 0,45 para pacientes de edad < 2 años, 0,55 para niños de edad de 2 a <13 años y niñas de edad de 2 a 16 años de edad, y 0,7 para niños de edad de 13 a 16 años. Consulte la dosis para adultos para pacientes mayores de 16 años de edad.
+ Los valores de k que se presentan se basan en el método de Jaffe para medir la creatinina sérica, y posiblemente sea necesario corregirlos cuando se utilicen métodos enzimáticos.
+ Se recomienda revisar los niveles séricos de creatinina, la altura y el peso periódicamente y adaptar la dosis convenientemente.
+ Poblaciones especiales
+ Insuficiencia renal
+ Los pacientes pediátricos (desde el nacimiento hasta ≤ 16 años de edad) con insuficiencia renal que reciben una dosis profiláctica de ganciclovir calculada con el algoritmo de dosificación 3 x ASC x CLSCr no requieren una modificación de dosis adicional, porque esta dosis ya está ajustada para el aclaramiento de creatinina.
+ Para pacientes de 12 años y mayores con insuficiencia renal, tratados con una dosis ajustada al peso corporal (mg/kg) tanto en tratamiento preventivo como en tratamiento de la enfermedad por CMV, la dosis (mg/kg) de ganciclovir se debe ajustar según el aclaramiento de creatinina, tal como se indica en la siguiente tabla (ver secciones 4.4 y 5.2).
+ Ajuste de dosis en pacientes con insuficiencia renal que recibieron una dosis ajustada al peso corporal (mg/kg):
+ CrCl
+ | 
+ Dosis de inducción
+ | 
+ Dosis de mantenimiento
+ | 
+ >70 ml/min
+ | 
+ 5,0 mg/kg cada12h
+ | 
+ 5,0 mg/kg/día
+ | 
+ 50 a 69 ml/min
+ | 
+ 2,5 mg/kg cada 12h
+ | 
+ 2,5 mg/kg/día
+ | 
+ 25 a 49 ml/min
+ | 
+ 2,5 mg/kg/día
+ | 
+ 1,25 mg/kg/día
+ | 
+ 10 a 24 ml/min
+ | 
+ 1,25 mg/kg/día
+ | 
+ 0,625 mg/kg/día
+ | 
+ <10 ml/min
+ | 
+ 1,25 mg/kg 3 veces por semana tras hemodiálisis
+ | 
+ 0,625 mg/kg 3 veces por semana tras hemodiálisis
+ | 
+ El aclaramiento estimado de creatinina se puede calcular según la creatinina sérica mediante las siguientes fórmulas:
+ (140 – edad [años]) x (peso corporal [kg])
+ Para los varones = 
+ (72) x (0,011 x creatinina sérica [micromol/l])
+ Para las mujeres: = 0,85 x valor de los varones
+ Puesto que se recomienda el ajuste de dosis en pacientes con insuficiencia renal, se deben monitorizar los niveles séricos de creatinina o el aclaramiento estimado de creatinina.
+ Insuficiencia hepática
+ No se ha estudiado la seguridad y la eficacia de Cymevene en pacientes con insuficiencia hepática (ver sección 5.2)
+ Leucopenia, neutropenia, anemia, trombocitopenia y pancitopenia graves
+ Antes de comenzar el tratamiento, ver sección 4.4.
+ Si se reduce significativamente el recuento de células sanguíneas durante el tratamiento con ganciclovir, se debe considerar el tratamiento con factores de crecimiento hematopoyéticos y/o una interrupción del tratamiento con ganciclovir (ver secciones 4.4 y 4.8).
+ Pacientes de edad avanzada
+ No se han realizado estudios de eficacia o seguridad de ganciclovir en pacientes de edad avanzada. Dado que la función renal se deteriora con la edad, ganciclovir se debe administrar con especial precaución a los pacientes de edad avanzada teniendo en cuenta el estado de su función renal (ver sección 5.2).
+ Forma de administración
+ Precauciones que se deben tomar antes de manipular o administrar el medicamento:
+ Puesto que ganciclovir se considera potencialmente teratogénico y carcinogénico en humanos, se debe tener precaución en su manipulación (ver sección 6.6).
+ Advertencia:
+ Ganciclovir se debe administrar mediante perfusión intravenosa durante 1 hora, con una concentración que no debe sobrepasar 10 mg/ml. No se debe administrar en bolus o inyección intravenosa rápida porque puede aumentar la toxicidad de ganciclovir como resultado de unos niveles plasmáticos excesivos.
+ No administrar mediante inyección intramuscular o subcutánea ya que puede producir una intensa irritación tisular debido al elevado pH (~ 11) de la solución de ganciclovir (ver sección 4.8).
+ No se deben sobrepasar las dosis, la frecuencia y la velocidad de perfusión recomendadas.
+ Cymevene es un polvo para solución para perfusión. Después de la reconstitución Cymevene es una solución incolora a ligeramente amarillenta, prácticamente exenta de partículas visibles.
+ La perfusión debe realizarse en venas con un flujo sanguíneo adecuado, preferiblemente a través de una cánula de plástico.
+ Para consultar las instrucciones de reconstitución del medicamento antes de la administración, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensiblidad al principio activo o valganciclovir o a alguno de los excipientes incluidos en la sección 6.1.
+ Lactancia (ver sección 4.6).
+ 4.4. Advertencias y precauciones especiales de empleo
+ Hipersensibilidad cruzada
+ Debido a la semejanza en la estructura química de ganciclovir y de aciclovir y penciclovir, es posible que se produzca una reacción de hipersensibilidad cruzada entre estos medicamentos. Por lo tanto, se debe tener precaución cuando se prescriba Cymevene en pacientes con hipersensibilidad conocida a aciclovir o penciclovir (o a sus pro-fármacos valaciclovir o famciclovir respectivamente).
+ Mutagenicidad, teratogenicidad, carcinogenicidad, fertilidad, y anticoncepción
+ Antes de iniciar el tratamiento con ganciclovir, se debe advertir a los pacientes del riesgo potencial para el feto. En estudios con animales, se ha observado que ganciclovir es mutagénico, teratogénico, carcinogénico y perjudicial para la fertilidad. Basado en estudios clínicos y no clínicos se considera probable que ganciclovir inhiba la espermatogénesis de forma transitoria o permanente (ver secciones 4.6, 4.8 y 5.3).
+ Por lo tanto, ganciclovir se debe considerar potencialmente teratógeno y carcinógeno para el ser humano, con potencial para ocasionar malformaciones congénitas y cáncer. Por lo tanto, se debe advertir a las mujeres en edad fértil que empleen medidas anticonceptivas eficaces durante el tratamiento y hasta al menos 30 días después de finalizar el mismo. Se debe advertir a los hombres que utilicen anticonceptivos de barrera durante el tratamiento y hasta al menos 90 días después de finalizar el tratamiento con ganciclovir, a menos que exista la seguridad que la pareja femenina no corre el riesgo de quedarse embarazada (ver secciones 4.6, 4.8 y 5.3).
+ El uso de ganciclovir requiere precaución extrema, especialmente en la población pediátrica debido al potencial carcinogénico a largo plazo y a la toxicidad reproductiva. Se deben considerar cuidadosamente los beneficios del tratamiento en cada caso y estos deben ser claramente superiores a los riesgos (ver sección 4.2). Consultar guías de tratamiento.
+ Mielosupresión
+ Cymevene debe emplearse con precaución en pacientes con citopenia hematológica pre-existente o con antecedentes de citopenia hematológica relacionada con medicamentos y en pacientes que estén recibiendo radioterapia.
+ Se han observado casos graves de leucopenia, neutropenia, anemia, trombocitopenia, pancitopenia y fallo de la médula ósea en pacientes tratados con ganciclovir. No debe iniciarse este tratamiento si el recuento absoluto de neutrófilos es menor de 500 células/µl, o el recuento de plaquetas es menor de 25 000 células/ µl o el nivel de hemoglobina es menor de 8 g/dl (ver secciones 4.2 y 4.8).
+ Se recomienda monitorizar el hemograma completo, incluido el recuento de plaquetas durante el tratamiento. En pacientes con insuficiencia renal y en neonatos y lactantes (ver sección 4.8), se debe garantizar un aumento de la monitorización hematológica. Durante los primeros 14 días de administración se recomienda hacer un recuento de glóbulos blancos (preferiblemente como prueba diferencial) cada dos días; esta monitorización debe hacerse diariamente en pacientes con niveles basales de neutrófilos bajos (< 1 000 neutrófilos/µl), en aquellos pacientes que hayan desarrollado leucopenia durante tratamientos previos con otras sustancias mielotóxicas, y en aquellos con insuficiencia renal.
+ En pacientes con leucopenia, neutropenia, anemia y/o trombocitopenia grave, se recomienda considerar el tratamiento con factores de crecimiento hematopoyéticos y/o una suspensión del tratamiento con ganciclovir (ver secciones 4.2 y 4.8).
+ Insuficiencia renal
+ Los pacientes con insuficiencia renal tienen más riesgo de toxicidad (especialmente toxicidad hematológica). Es necesaria una reducción de la dosis (ver secciones 4.2 y 5.2).
+ Uso con otros medicamentos
+ Se han notificado convulsiones en pacientes tratados con imipenem-cilastatina y ganciclovir. Ganciclovir no se debe administrar al mismo tiempo que imipenem-cilastatina, a menos que los beneficios potenciales sobrepasen los riesgos potenciales (ver sección 4.5).
+ Los pacientes tratados con ganciclovir y didanosina, medicamentos con efecto mielosupresor conocido, o medicamentos que afecten a la función renal, deben vigilarse estrechamente por si aparecen signos añadidos de toxicidad (ver sección 4.5).
+ Excipientes
+ Este medicamento contiene 43 mg de sodio por vial de 500 mg equivalente al 2% de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Interacciones farmacocinéticas
+ Probenecid
+ El probenecid, administrado junto con el ganciclovir por vía oral, disminuye estadísticamente el aclaramiento renal del ganciclovir, esto da lugar a un aumento clínicamente significativo de la exposición a este medicamento. Este efecto también se prevé durante la administración concomitante de ganciclovir intravenoso y probenecid. Por lo tanto, se debe monitorizar estrechamente la toxicidad de ganciclovir en pacientes tratados con probenecid y Cymevene.
+ Didanosina
+ Se ha observado que las concentraciones plasmáticas de didanosina aumentan de forma consistente cuando se administra con ganciclovir. En dosis intravenosas de 5 y 10 mg/kg/día, se observa un incremento del AUC de didanosina que varía entre 38% y 67%. No se ha observado ningún efecto clínicamente significativo en las concentraciones de ganciclovir. Hay que monitorizar cuidadosamente la posible toxicidad de la didanosina para estos pacientes (ver sección 4.4).
+ Otros antirretrovirales
+ Las isoenzimas del citocromo P450 no están implicadas en la farmacocinética de ganciclovir. Como consecuencia, no se prevén interacciones farmacocinéticas con los inhibidores de la proteasa o inhibidores de la transcriptasa inversa no nucleosídicos.
+ Interacciones farmacodinámicas
+ Imipenem?cilastatina
+ Se han notificado convulsiones en pacientes tratados concomitantemente con ganciclovir e imipenem-cilastatina. Estos medicamentos no deben administrarse a la vez, a menos que los posibles beneficios superen los riesgos potenciales (ver sección 4.4).
+ Zidovudina
+ Tanto la zidovudina como el ganciclovir son capaces de causar neutropenia y anemia. Puede darse una interacción farmacodinámica cuando se administran estos medicamentos de forma concomitante. Algunos pacientes no toleran el tratamiento conjunto a dosis completas (ver sección 4.4).
+ Otras interacciones farmacológicas potenciales
+ La toxicidad puede verse aumentada cuando ganciclovir se administra junto con otros medicamentos con efecto mielosupresor conocido o que se asocien a insuficiencia renal. Esto incluye agentes antiinfecciosos (como dapsona, pentamidina, flucitosina, anfotericina B, trimetoprim/sulfametoxazol), inmunosupresores (ej. ciclosporina, tacrolimus, micofenolato mofetilo), agentes antineoplásicos (ej. vincristina, vinblastina, doxorrubicina e hidroxiurea) así como nucleósidos (incluidas la zidovudina, estavudina y didanosina) y análogos de nucleótidos (incluidos tenofovir, adefovir). Por lo tanto, se debe considerar el uso concomitante de todos estos medicamentos con ganciclovir sólo si los posibles beneficios superan a los riesgos potenciales (ver sección 4.4).
+ Población pediátrica
+ Los estudios de interacción se han realizado solo en adultos.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se ha establecido la seguridad del uso de ganciclovir en mujeres embarazadas. Sin embargo, ganciclovir atraviesa fácilmente la placenta humana. En estudios animales el ganciclovir ha sido asociado con toxicidad reproductiva y teratogenicidad (ver secciones 4.4 y 5.3). Por lo tanto, ganciclovir no se debe administrar en mujeres embarazadas a menos que la necesidad clínica de tratamiento de la mujer supere el riesgo potencial de teratogénesis para el feto.
+ Lactancia
+ Se desconoce si el ganciclovir se excreta en la leche materna pero no se puede descartar la posibilidad de que ganciclovir se excrete en la leche materna y provoque reacciones adversas graves en el bebé lactante. Los datos en animales indican que ganciclovir es excretado en la leche de ratas lactantes. Por lo tanto, la lactancia se debe interrumpir durante el tratamiento con ganciclovir (ver sección 4.3).
+ Fertilidad
+ Un pequeño estudio clínico en pacientes con trasplante renal que recibieron Valcyte para la profilaxis del CMV durante hasta 200 días demostró un impacto de valganciclovir/ganciclovir en la espermatogénesis, con una disminución de la densidad y la motilidad de los espermatozoides que fueron medidas después de finalizar el tratamiento. Este efecto parece ser reversible en aproximadamente seis meses después de la interrupción de Valcyte, ya que la densidad media de los espermatozoides y la motilidad se recuperaron a niveles comparables a los observados en los controles no tratados. En estudios con animales, ganciclovir alteró la fertilidad en ratones machos y hembras y ha demostrado inhibir la espermatogénesis e inducir atrofia testicular en ratones, ratas y perros a dosis consideradas clínicamente relevantes.
+ Basado en estudios clínicos y no clínicos se considera probable que ganciclovir pueda producir una inhibición temporal o permanente de la espermatogénesis en humanos (ver secciones 4.4 y 5.3).
+ Anticoncepción en hombres y mujeres
+ Como resultado de la potencial toxicidad reproductiva y teratogenicidad, se debe recomendar a las mujeres en edad fértil que deben utilizar métodos anticonceptivos eficaces durante el tratamiento y hasta al menos 30 días después de finalizar el mismo. Se debe aconsejar a los pacientes varones que utilicen medidas anticonceptivas de barrera durante el tratamiento y hasta al menos 90 días después de finalizar el tratamiento con ganciclovir, a menos que exista la seguridad de que la pareja femenina no corra riesgo de quedarse embarazada (ver secciones 4.4 y 5.3).).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de ganciclovir sobre la capacidad para conducir y utilizar máquinas es importante (ver sección 4.8).
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ El valganciclovir es un profármaco de ganciclovir, y puede esperarse que las reacciones adversas asociadas a valganciclovir, ocurran con ganciclovir. El ganciclovir oral ya no está disponible pero las reacciones adversas notificadas con su uso también pueden esperarse en pacientes en tratamiento con ganciclovir intravenoso. Por lo tanto, en la tabla de reacciones adversas se incluyen las reacciones adversas al medicamento notificadas con ganciclovir intravenoso u oral o con valganciclovir.
+ Las reacciones adversas más graves y frecuentes en pacientes tratados con ganciclovir/valganciclovir son las reacciones hematológicas que incluyen neutropenia, anemia y trombocitopenia (ver sección 4.4). Otras reacciones adversas al medicamento se presentan en la siguiente tabla.
+ Las frecuencias presentadas en la tabla de reacciones adversas derivan de una población de pacientes infectada por VIH (n = 1 704) que han recibido una terapia de mantenimiento con ganciclovir o valganciclovir. Se ha hecho una excepción para las reacciones de agranulocitosis, granulocitopenia y reacciones anafilácticas, en las que la frecuencia proviene de la experiencia post-comercialización. Las reacciones adversas se nombran según la clasificación de órganos del sistema MedDRA. Las frecuencias se definen de la siguiente manera: muy frecuentes (≥ 1/10), frecuentes (≥ 1/100 a < 1/10), poco frecuentes (≥ 1/1 000 a < 1/100), raras (≥ 1/10 000 a < 1/1 000), muy raras (< 1/10 000), frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ El perfil general de seguridad de ganciclovir/valganciclovir es coherente en poblaciones con VIH y transplantados salvo para el desprendimiento de retina, notificado unicamente en pacientes con VIH con retinitis por CMV. Sin embargo, existen algunas diferencias en la frecuencia de determinadas reacciones. Ganciclovir intravenoso se asocia con un menor riesgo de diarrea comparado con valganciclovir oral. En pacientes con VIH, se ha notificado más frecuentemente pirexia, infecciones por candida, depresión, neutropenia grave (ANC < 500/ μl) y reacciones de la piel. En receptores de transplante de órganos se han notificado más frecuentemente disfunciones renales y hepáticas.
+ Tabla de reacciones adversas
+ RAM
+ (MedDRA)
+ Sistema de clasificación por órganos
+ | 
+ Categoría según frecuencia
+ | 
+ Infecciones e infestaciones:
+ | 
+ Infecciones por Candida incluida la candidiasis oral
+ | 
+ Muy frecuentes
+ | 
+ Infecciones del tracto respiratorio superior
+ | 
+ Sepsis
+ | 
+ Frecuentes
+ | 
+ Gripe
+ | 
+ Infección del tracto urinario
+ | 
+ Celulitis
+ | 
+ Trastornos de la sangre y del sistema linfático:
+ | 
+ Neutropenia
+ | 
+ Muy frecuentes
+ | 
+ Anemia
+ | 
+ Trombocitopenia
+ | 
+ Frecuentes
+ | 
+ Leucopenia
+ | 
+ Pancitopenia
+ | 
+ Fallo de la médula ósea
+ | 
+ Poco frecuentes
+ | 
+ Anemia aplásica
+ | 
+ Raras
+ | 
+ Agranulocitosis*
+ | 
+ Granulocitopenia*
+ | 
+ Trastornos del sistema inmunológico:
+ | 
+ Hipersensibilidad
+ | 
+ Frecuentes
+ | 
+ Reacciones anafilácticas*
+ | 
+ Raras
+ | 
+ Trastornos del metabolismo y de la nutrición:
+ | 
+ Disminución del apetito
+ | 
+ Muy Frecuentes
+ | 
+ Pérdida de peso
+ | 
+ Frecuentes
+ | 
+ Trastornos psiquiátricos:
+ | 
+ Depresión
+ | 
+ Frecuentes
+ | 
+ Confusión
+ | 
+ Ansiedad
+ | 
+ Agitación
+ | 
+ Poco frecuentes
+ | 
+ Trastorno psicótico
+ | 
+ Pensamientos perturbados
+ | 
+ Alucinaciones
+ | 
+ Trastornos del sistema nervioso:
+ | 
+ Dolor de cabeza
+ | 
+ Muy frecuentes
+ | 
+ Insomnio
+ | 
+ Frecuentes
+ | 
+ Neuropatía periférica
+ | 
+ Mareos
+ | 
+ Parestesia
+ | 
+ Hipoestesia
+ | 
+ Convulsión
+ | 
+ Disgeusia (trastorno del gusto)
+ | 
+ Temblor
+ | 
+ Poco frecuentes
+ | 
+ Trastornos oculares:
+ | 
+ Problemas visuales
+ | 
+ Frecuentes
+ | 
+ Desprendimiento de retina
+ | 
+ Moscas flotantes
+ | 
+ Dolor ocular
+ | 
+ Conjuntivitis
+ | 
+ Edema macular
+ | 
+ Trastornos del oído y del laberinto:
+ | 
+ Dolor de oídos
+ | 
+ Frecuentes
+ | 
+ Sordera
+ | 
+ Poco frecuentes
+ | 
+ Trastornos cardiacos:
+ | 
+ Arritmias
+ | 
+ Poco frecuentes
+ | 
+ Trastornos vasculares:
+ | 
+ | 
+ Hipotensión
+ | 
+ Frecuentes
+ | 
+ Trastornos respiratorios, torácicos y mediastínicos:
+ | 
+ Tos
+ | 
+ Muy frecuentes
+ | 
+ Disnea
+ | 
+ Trastornos gastrointestinales:
+ | 
+ Diarrea
+ | 
+ Muy frecuentes
+ | 
+ Náuseas
+ | 
+ Vómitos
+ | 
+ Dolor abdominal
+ | 
+ Dispepsia
+ | 
+ Frecuentes
+ | 
+ Flatulencia
+ | 
+ Dolor abdominal superior
+ | 
+ Estreñimiento
+ | 
+ Ulceración de la boca
+ | 
+ Disfagia
+ | 
+ Distensión abdominal
+ | 
+ Pancreatitis
+ | 
+ Trastornos hepatobiliares:
+ | 
+ Aumento de la fosfatasa alcalina en sangre
+ | 
+ Frecuentes
+ | 
+ Función hepática anormal
+ | 
+ Aumento de aspartato aminotransferasa
+ | 
+ Aumento de alanino aminotransferasa
+ | 
+ Trastornos de la piel y del tejido subcutáneo:
+ | 
+ Dermatitis
+ | 
+ Muy frecuentes
+ | 
+ Sudoración nocturna
+ | 
+ Frecuentes
+ | 
+ Prurito
+ | 
+ Erupción
+ | 
+ Alopecia
+ | 
+ Sequedad de la piel
+ | 
+ Poco frecuentes
+ | 
+ Urticaria
+ | 
+ Trastornos musculoesqueléticos y del tejido conjuntivo:
+ | 
+ Dolor de espalda
+ | 
+ Frecuentes
+ | 
+ Mialgia
+ | 
+ Artralgia
+ | 
+ Espasmos musculares
+ | 
+ Trastornos renales y urinarios:
+ | 
+ Disfunción renal
+ | 
+ Frecuentes
+ | 
+ Disminución del aclaramiento de creatinina renal
+ | 
+ Incremento de creatinina en sangre
+ | 
+ Insuficiencia renal
+ | 
+ Poco frecuentes
+ | 
+ Hematuria
+ | 
+ Trastornos del aparato reproductor y de la mama:
+ | 
+ Infertilidad masculina
+ | 
+ Poco frecuentes
+ | 
+ Trastornos generales y alteraciones en el lugar de administración:
+ | 
+ Pirexia
+ | 
+ Muy frecuentes
+ | 
+ Fatiga
+ | 
+ Reacción en el lugar de la inyección
+ | 
+ Frecuentes
+ | 
+ Dolor
+ | 
+ Escalofríos
+ | 
+ Malestar
+ | 
+ Astenia
+ | 
+ Dolor torácico
+ | 
+ Poco frecuentes
+ | 
+ | 
+ | 
+ * Las frecuencias de estas reacciones adversas se derivan de la experiencia post comercialización, las demás categorías de frecuencia se basan en frecuencias registradas en ensayos clínicos.
+ Descripción de determinadas reacciones adversas
+ Neutropenia
+ El riesgo de neutropenia no se puede predecir en base al número de neutrófilos antes del tratamiento. La neutropenia normalmente ocurre durante la primera o la segunda semana del tratamiento de inducción y después de una dosis acumulada de ≤ 200 mg/kg. El recuento celular habitualmente se normaliza dentro de los 2 a 5 días después de la interrupción de ganciclovir o de una reducción de la dosis (ver sección 4.4).
+ Neutropenia grave
+ La neutropenia grave fue notificada más frecuentemente en pacientes infectados por VIH (14%) que habían recibido terapia de mantenimiento con valganciclovir, ganciclovir oral o intravenoso (n=1 704), que en pacientes receptores de un transplante de órgano tratados con valganciclovir o ganciclovir oral. En los pacientes que recibieron valganciclovir o ganciclovir oral hasta el día 100 post-transplante, la incidencia de neutropenia grave fue de 5% y 3% respectivamente, mientras que en pacientes que recibieron valganciclovir hasta el día 200 post-transplante la incidencia de neutropenia grave fue del 10%.
+ Trombocitopenia
+ Pacientes con un recuento de plaquetas inicial bajo (< 100 000/µl) tienen un mayor riesgo de desarrollar trombocitopenia. Pacientes con inmunosupresión iatrogénica debida al tratamiento con inmunosupresores tienen mayor riesgo de trombocitopenia que los pacientes con SIDA (ver sección 4.4). La trombocitopenia grave puede estar asociada con hemorragias potencialmente amenazantes para la vida.
+ Convulsiones
+ Se han notificado convulsiones en pacientes tratados con imipenem-cilastatina y ganciclovir (ver secciones 4.4 y 4.5).
+ Desprendimiento de retina
+ Esta reacción adversa sólo se ha notificado en estudios de pacientes con VIH tratados con Cymevene para retinitis por CMV.
+ Reacción en el lugar de administración
+ La reacción en el lugar de administración ocurre con frecuencia en pacientes que reciben ganciclovir. Cymevene se debe administrar tal como se recomienda en la sección 4.2 para reducir el riesgo de la irritación tisular local.
+ Población pediátrica
+ No se han realizado estudios de seguridad formales con ganciclovir en niños< 12 años, pero en base a la experiencia con valganciclovir, un pro-fármaco de ganciclovir, el perfil de seguridad general del principio activo es similar en pacientes pediátricos y pacientes adultos. La neutropenia ocurre más a menudo en pacientes pediátricos, pero no hay correlación entre la neutropenia y las reacciones adversas infecciosas en la población pediátrica. Un mayor riesgo de citopenias en neonatos y lactantes justifica el control cuidadoso del recuento sanguíneo en estos grupos de edad (ver sección 4.4).
+ Los datos disponibles en recién nacidos o lactantes con VIH/SIDA o con infección sintomática congénita por CMV, tratados con valganciclovir o ganciclovir, son limitados, sin embargo el perfil de seguridad parece ser coherente con el perfil de seguridad de valganciclovir/ganciclovir conocido.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es..
+ 4.9. Sobredosis
+ Sintomas
+ En los ensayos clínicos y durante la experiencia post comercialización se han recibido notificaciones de sobredosis de ganciclovir por vía intravenosa, algunas con resultado de muerte. En la mayoría de las notificaciones no se asoció a ningún tipo de reacción adversa, o experimentaron uno o más de las siguientes reacciones adversas:
+ Toxicidad hematológica: mielosupresión incluyendo pancitopenia, insuficiencia de médula ósea, leucopenia, neutropenia, granulocitopenia
+ Toxicidad hepática: hepatitis, alteración de la función hepática
+ Toxicidad renal: empeoramiento de la hematuria en un paciente con insuficiencia renal pre-existente, lesión renal aguda, elevación de la creatinina
+ Toxicidad gastrointestinal: dolor abdominal, diarrea, vómitos
+ Neurotoxicidad: temblor generalizado, convulsiones
+ Tratamiento
+ Ganciclovir se elimina por hemodiálisis, por lo tanto la hemodiálisis puede resultar beneficiosa para reducir la exposición al medicamento de los pacientes que han recibido una sobredosis de ganciclovir (ver sección 5.2).
+ Información adicional en poblaciones especiales
+ Insuficiencia renal: Se espera que una sobredosis de ganciclovir podría conducir a un aumento de la toxicidad renal en pacientes con insuficiencia renal (ver sección 4.4).
+ Población pediátrica
+ No hay información específica disponible.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no se debe mezclar con otros medicamentos, excepto con aquellos mencionados en la sección 6.6. No emplear agua bacteriostática para inyecciones que contenga parabenos (para-hydroxybenzoatos), ya que éstos son incompatibles con Cymevene y pueden producir precipitación.
+ 6.3. Periodo de validez
+ 5 años
+ Después de la reconstitución:
+ La estabilidad química y física durante el manejo ha sido demostrada para el producto reconstituido durante 12 horas a 25 ºC tras su disolución con agua para inyectables. No refrigerar ni congelar.
+ Desde un punto de vista microbiológico, la solución reconstituida se debe usar inmediatamente. Si no se usa inmediatamente, el tiempo y las condiciones de almacenamiento antes de su uso son responsabilidad del usuario.
+ Tras la dilución:
+ La estabilidad química y física durante el uso ha sido demostrada durante 24 horas a entre 2 ºC y 8 ºC (no congelar).
+ Desde un punto de vista microbiológico, la solución para perfusión de Cymevene se debe usar inmediatamente. Si no se usa inmediatamente el tiempo y las condiciones de almacenamiento antes de su uso son responsabilidad del usuario y no debe ser superior a 24 horas de 2 ºC a 8 ºC, a menos que la reconstitución y la dilución se hagan en un sitio controlado y en condiciones asépticas validadas.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no requiere ninguna condición especial de conservación.
+ Para las condiciones de conservación tras la reconstitución y tras la dilución del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Viales de vidrio monodosis de 10 ml con tapón de goma fluororesina laminada/ siliconada y cierre de aluminio precintado.
+ Disponible en envases de 1 vial o de 5 viales.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Se debe tener precaución en la manipulación de Cymevene
+ Puesto que Cymevene se considera un agente potencialmente teratogénico y carcinogénico en humanos, se debe tener precaución en su manipulación. Evitar la inhalación o contacto directo con el polvo que contienen los viales o el contacto directo con la solución reconstituida con la piel o membranas mucosas. Las soluciones de Cymevene son alcalinas (pH ~ 11). Si esto ocurre, lave cuidadosamente y a fondo la zona con agua y jabón y enjuague completamente los ojos con abundante agua.
+ Forma de preparación del concentrado reconstituido
+ Se debe usar una técnica aséptica durante toda la reconstitución de Cymevene liofiolizado
+ Se debe retirar el cierre de aluminio precintado para exponer la parte central del tapón de goma. Extraer 10 ml de agua para inyectables con una jeringa, después inyectarla lentamente a través del centro del tapón de goma dentro del vial con la aguja en dirección a la pared del vial. No usar agua bacteriostática para inyección que contenga parabenos (para-hydroxybenzoatos), ya que éstos son incompatibles con Cymevene.
+ Girar ligeramente el vial para asegurar la humectación completa del producto.
+ Se debe girar/rotar ligeramente el vial durante algunos minutos hasta obtener una solución reconstituida clara.
+ La solución reconstituida se debe comprobar cuidadosamente para asegurar la disolución del producto y que esté prácticamente libre de partículas visibles antes de proceder a la dilución con un disolvente compatible. El color de la solución reconstituida de Cymevene va de incoloro a amarillo claro.
+ Para las condiciones de conservación del concentrado reconstituido, ver sección 6.3.
+ Preparación de la solución diluida final para perfusión
+ En función del peso corporal del paciente extraer del vial el volumen necesario con una jeringa y a continuación diluirlo en un líquido de perfusión adecuado. Añadir un volumen de 100 ml del disolvente a la solución reconstituida. No son recomendables concentraciones de perfusión superiores a 10 mg/ml.
+ Soluciones de cloruro sódico, dextrosa al 5%, Ringer para inyección y Ringer con lactato para inyección, han demostrado ser compatibles químicamente o físicamente con Cymevene.
+ Cymevene no se debe mezclar con otros productos intravenosos.
+ La solución diluida se debe administrar por perfusión intravenosa durante 1 hora tal como se indica en la sección 4.2. No administrar por inyección intramuscular o subcutánea, ya que puede producir una intensa irritación tisular debido al elevado pH (~11) de la solución de ganciclovir.
+ Para las condiciones de conservación de la solución diluida para perfusión, ver sección 6.3
+ Eliminación
+ Es para un solo uso. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

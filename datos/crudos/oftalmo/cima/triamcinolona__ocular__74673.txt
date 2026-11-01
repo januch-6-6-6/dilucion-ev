@@ -1,0 +1,99 @@
+TRIESENCE 40 mg/ml SUSPENSION INYECTABLE | VIA INTRAVITREA SUSPENSION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/74673/FT_74673.html
+
+ 4.1. Indicaciones terapéuticas
+ Este medicamento es únicamente para uso diagnóstico.
+ TRIESENCE 40 mg/ml suspensión inyectable está indicado para la visualización durante la vitrectomía.
+ 4.2. Posología y forma de administración
+ 4.2.1. Posología
+ Adultos, incluidos pacientes de edad avanzada:
+ La dosis recomendada de TRIESENCE 40 mg/ml suspensión inyectable es de entre 1 y 4 mg (de 25 a 100 microlitros de suspensión de 40 mg/ml) administrada por vía intravítrea.
+ Población pediátrica:
+ No se ha establecido la seguridad y eficacia de TRIESENCE 40 mg/ml suspensión inyectable en pacientes menores de 18 años. No hay datos disponibles.
+ Insuficiencia renal y hepática
+ No es necesario ajustar la dosis en pacientes con insuficiencia renal (tasa de filtración glomerular inferior a 20 ml/min) o hepática. TRIESENCE 40 mg/ml suspensión inyectable se elimina del ojo después de la cirugía.
+ 4.2.2. Forma de administración
+ Vía intravítrea.
+ ES OBLIGATORIO USAR UNA TÉCNICA ESTRICTAMENTE ASÉPTICA. Triesence debe ser administrado por un oftalmólogo cualificado con experiencia en inyecciones intravítreas en condiciones asépticas.
+ Se debe acoplar una aguja de calibre 27 o 30 G de 1,27 cm al adaptador Luer para permitir la administración del producto. 
+ Hay que agitar enérgicamente el vial durante 10 segundos antes de su uso para garantizar una suspensión uniforme. Antes de su extracción, debe inspeccionarse la suspensión para comprobar que no presenta un aspecto grumoso o granular (aglomeración). Una exposición a temperaturas de congelación puede provocar aglomeración del medicamento, en cuyo caso no debe utilizarse. Después de su extracción, hay que inyectar TRIESENCE 40 mg/ml suspensión en el vítreo cuanto antes para evitar que se deposite en la jeringuilla. Es necesario usar una técnica cuidadosa para evitar la posibilidad de penetrar en un vaso sanguíneo o introducir microorganismos que puedan causar infección.
+ Se debe llevar a cabo un procedimiento de inyección estándar en condiciones quirúrgicas asépticas durante la vitrectomía, que incluyen el uso de guantes estériles, una gasa estéril y un blefaróstato estéril (o equivalente). Se debe administrar anestesia suficiente y un microbicida de amplio espectro antes de la inyección.
+ Antes de la finalización de la cirugía, se elimina el TRIESENCE 40 mg/ml suspensión inyectable restante del ojo en la medida de lo posible mediante aspiración continua o irrigación.
+ Después de la vitrectomía, se debe realizar un seguimiento a los pacientes para detectar endoftalmitis (ver sección 4.4). Se deben proporcionar cuidados y un seguimiento postoperatorios estándar de acuerdo con la etiología subyacente que fue la base de la vitrectomía. Se debe instruir a los pacientes para que notifiquen cualquier síntoma indicativo de endoftalmitis sin demora.
+ Cada vial se debe utilizar solamente para el tratamiento de un único ojo durante una única vitrectomía.
+ No es necesaria ninguna modificación especial de la dosis para ninguna de las poblaciones que se han estudiado (p. ej., sexo, personas de edad avanzada).
+ TRIESENCE 40 mg/ml suspensión se puede diluir con una solución salina equilibrada (un ml de solución salina equilibrada contiene lo siguiente: cloruro de sodio 6,4 mg; cloruro de potasio 0,75 mg; cloruro de calcio 0,48 mg; cloruro de magnesio 0,3 mg; acetato de sodio 3,9 mg; citrato de sodio 1,7 mg; hidróxido de sodio y/o ácido clorhídrico, de 6,5 a 8,5 hasta lograr un pH de 7,5; agua para preparaciones inyectables) antes de su uso durante la vitrectomía. En función de las preferencias del cirujano, el intervalo de dilución con una solución salina equilibrada suele ser de 1 por 10 o de 1 por 20. En un estudio clínico, TRIESENCE 40 mg/ml suspensión se administró en forma de suspensión a 2 mg/ml diluyendo 0,05 ml de TRIESENCE 40 mg/ml suspensión en una solución para irrigación estéril de 0,95 ml. Después de esta dilución, se inyectó un volumen de 100 microlitros en el vítreo.
+ Nota importante: Los cristales de acetónido de triamcinolona se empiezan a depositar inmediatamente. Como tal, la solución se debe mezclar inmediatamente antes de la instilación. Para mezclarla, se crea una pequeña burbuja de aire estéril en la jeringuilla (menor que el diámetro de la jeringuilla) y se sacuden los extremos de la jeringuilla con el fin de guiar a la burbuja de aire para que distribuya los cristales de forma uniforme. A continuación, se elimina la burbuja de aire y la solución preparada se utiliza inmediatamente.
+ Para consultar más instrucciones de la administración/el uso correcto de este producto, ver las secciones 6.2 y 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ TRIESENCE 40 mg/ml suspensión inyectable no se debe utilizar en caso de herpes simple ocular activo.
+ 4.4. Advertencias y precauciones especiales de empleo
+ TRIESENCE solo se ha utilizado como una única inyección intravítrea para fines diagnósticos; no se dispone de datos sobre su uso terapéutico y no se ha estudiado su uso repetido o a largo plazo. En consecuencia, TRIESENCE 40 mg/ml suspensión inyectable no se debe utilizar en situaciones terapéuticas.
+ TRIESENCE 40 mg/ml suspensión inyectable es por vía intravítrea únicamente. No se debe administrar por vía intravenosa. Es obligatorio usar una técnica estrictamente aséptica (ver sección 4.2 Forma de administración).
+ El acetónido de triamcinolona es un glucocorticoesteroide. Los corticoesteroides pueden enmascarar algunos signos de infección y es posible que aparezcan infecciones nuevas o latentes durante su uso. Cuando se utilizan corticoesteroides, puede que haya una menor resistencia a la infección y que sea imposible localizarla. Los corticoesteroides pueden potenciar el establecimiento de infecciones oculares secundarias debidas a hongos, bacterias o virus (p. ej., infección por el virus vaccinia, varicela). Los médicos deben preguntar a los pacientes si han sufrido infecciones recientes o actuales. Si se produce una infección durante el tratamiento con corticoesteroides, esta se debe controlar con rapidez con un tratamiento antimicrobiano adecuado. El uso de corticoesteroides puede aumentar la tasa de aparición de complicaciones infecciosas.
+ Los corticoesteroides se deben utilizar con precaución en pacientes con herpes simple ocular, especialmente en quienes presentan un trastorno autoinmune, debido al riesgo de perforación corneal. Los corticoesteroides no se deben utilizar en caso de herpes simple ocular activo (ver sección 4.3).
+ Alteraciones visuales
+ Se pueden producir alteraciones visuales con el uso sistémico y tópico de corticosteroides. Si un paciente presenta síntomas como visión borrosa u otras alteraciones visuales, se debe consultar con un oftalmólogo para que evalúe las posibles causas, que pueden ser cataratas, glaucoma o enfermedades raras como coriorretinopatía serosa central (CRSC), que se ha notificado tras el uso de corticosteroides sistémicos y tópicos.
+ Como es de esperar con las inyecciones intravítreas, se pueden observar aumentos transitorios de la presión intraocular. Por tanto, es necesario verificar la perfusión de la cabeza del nervio óptico y controlar la elevación de la presión intraocular adecuadamente después de la inyección. El riesgo de aumento de la PIO inducido por corticoesteroides es mayor en pacientes predispuestos (p. ej. diabetes). Se han observado aumentos de la presión intraocular asociados a una inyección de acetónido de triamcinolona en el 20-60% de los pacientes cuando estos han recibido tratamiento para indicaciones terapéuticas, lo que puede provocar glaucoma con posibles daños del nervio óptico. Los efectos de la presión intraocular pueden perdurar hasta 6 meses después de la inyección y normalmente se abordan con un tratamiento tópico para el glaucoma. Un pequeño porcentaje de los pacientes puede necesitar un tratamiento no tópico agresivo. La presión intraocular, así como la perfusión de la cabeza del nervio óptico, deben controlarse y tratarse adecuadamente. Esto es especialmente importante en pacientes pediátricos, debido a que el riesgo de hipertensión ocular inducido por corticosteroides puede ser mayor en niños y puede ocurrir antes que en los adultos. No está aprobado el uso de TRIESENCE en pacientes pediátricos.
+ No hay datos acerca del uso de TRIESENCE 40 mg/ml suspensión inyectable en pacientes con hipertensión ocular o glaucoma ni en pacientes con antecedentes de inflamación ocular crónica o recurrente. El cirujano debe evaluar atentamente los riesgos y los beneficios para determinar la idoneidad del uso de TRIESENCE en estos pacientes.
+ La tasa de endoftalmitis con cultivo positivo se sitúa en el 0,5% cuando se emplea para indicaciones de tratamiento terapéutico. Se deben emplear siempre técnicas asépticas adecuadas cuando se administra acetónido de triamcinolona durante las vitrectomías, para prevenir el riesgo de endoftalmitis. Además, es necesario controlar a los pacientes durante la inyección para poder efectuar un tratamiento temprano en caso de infección.
+ El uso prolongado de corticoesteroides tópicos e intravítreos puede producir cataratas, en especial cataratas subcapsulares posteriores (ver sección 4.8). Este riesgo es mayor en pacientes predispuestos (p. ej. diabetes).
+ Contenido de sodio
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.
+ Contenido de potasio
+ Este medicamento contiene potasio, menos de 1 mmol (39 mg/) por dosis; esto es, esencialmente “exento de potasio”.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones. No se han descrito interacciones clínicas relevantes con TRIESENCE.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ No hay datos o éstos son limitados relativos al uso de TRIESENCE 40 mg/ml suspensión inyectable en mujeres embarazadas. Los estudios realizados en animales han mostrado toxicidad para la reproducción (ver sección 5.3). No se recomienda utilizar TRIESENCE 40 mg/ml suspensión inyectable durante el embarazo.
+ 4.6.2. Lactancia
+ Se desconoce si TRIESENCE 40 mg/ml suspensión inyectable se excreta en la leche materna. Se debe decidir si es necesario interrumpir la lactancia o interrumpir TRIESENCE 40 mg/ml suspensión inyectable tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ 4.6.3. Fertilidad
+ No se han realizado estudios para evaluar el efecto de una inyección ocular de TRIESENCE 40 mg/ml sobre la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ TRIESENCE 40 mg/ml suspensión inyectable se utilizará como parte de una intervención quirúrgica. El efecto sobre la visión del paciente debido a la intervención puede tener una influencia importante en la capacidad para conducir y utilizar máquinas. El paciente debe ser consciente de que, tras la intervención y hasta que la agudeza visual vuelva a la normalidad, está prohibido conducir un vehículo o manejar maquinaria peligrosa.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ En dos ensayos clínicos multicéntricos, 92 pacientes se expusieron a una sola inyección intravítrea de aproximadamente entre 1 y 4 mg de acetónido de triamcinolona para visualización durante cirugía vitreorretiniana. Las reacciones adversas notificadas con acetónido de triamcinolona en estos dos ensayos fueron informes únicos de presión intraocular aumentada.
+ Tabla resumen de las reacciones adversas
+ Las reacciones adversas siguientes se clasifican de acuerdo con esta convención: muy frecuentes (≥1/10), frecuentes (≥1/100 a <1/10), poco frecuentes (≥1/1 000 a <1/100), raras (≥1/10 000 a <1/1 000), muy raras (<1/10 000) o de frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Dentro de cada grupo de frecuencias, los efectos adversos se presentan en forma de gravedad descendente. Las reacciones adversas provienen de dos ensayos clínicos y de informes espontáneos de postcomercialización.
+ Clasificación por órganos y sistemas
+ | 
+ Frecuencia
+ | 
+ Reacciones adversas
+ | 
+ Trastornos oculares
+ | 
+ Poco frecuentes:
+ Frecuencia no conocida:
+ | 
+ Presión intraocular aumentada
+ Endoftalmitis, endoftalmitis no infecciosa, hipopión, agudeza visual disminuida, visión borrosa (ver también sección 4.4)
+ | 
+ Descripción de determinados acontecimientos adversos
+ Datos de la bibliografía médica publicada: Se analizaron cuarenta y cuatro (44) artículos publicados que evaluaron el uso de acetónido de triamcinolona en vitrectomias para obtener los datos de la seguridad. La presión intraocular elevada fue el acontecimiento adverso experimentado por los pacientes en estos artículos que se notificó con mayor frecuencia. La presión intraocular elevada que aparecía durante el período postoperatorio inmediato era transitoria. La presión intraocular elevada es una complicación postquirúrgica frecuente de la vitrectomía y, en algunos de estos artículos, se consideró específicamente que no estaba asociada al acetónido de triamcinolona.
+ En la bibliografía, los acontecimientos notificados con el uso de acetónido de triamcinolona para visualización durante la vitrectomía se enumeran a continuación. La mayoría de ellos se debieron probablemente a la intervención quirúrgica, pero no puede descartarse una posible relación causal. Estos acontecimientos fueron: formación o progresión de cataratas, defectos de la córnea (defecto epitelial, lesiones u opacidad persistentes de la córnea), edema (cistoide, macular o de la córnea), aparición de membranas fibrosas (neovasculares subretinianas o prerretinianas), hemorragia (vítrea, subretiniana o intrarretiniana), desplazamiento de la lente intraocular, sangrado intraoperatorio, sinequia del iris, fruncimiento macular, inflamación ocular, opacidad del estroma de la córnea, rotura capsular posterior, vitreorretinopatía proliferativa (VRP), desprendimiento de retina, rotura retiniana y desgarro retiniano. En la mayoría de los casos, el acetónido de triamcinolona residual desapareció sin intervención alguna y no se asoció a complicaciones.
+ Se ha observado que la presión intraocular elevada, la endoftalmitis y la formación/progresión de cataratas tienen una mayor incidencia cuando se ha utilizado acetónido de triamcinolona u otros corticoesteroides para indicaciones terapéuticas, en comparación con su uso para visualización (ver sección 4.4).
+ 4.8.1. Población pediátrica
+ No debe utilizarse TRIESENCE 40 mg/ml suspensión inyectable en pacientes menores de 18 años, ya que no se ha determinado la eficacia y seguridad en este grupo.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaRAM.es.
+ 4.9. Sobredosis
+ No se han notificado casos de sobredosis. Dado que este producto es administrado por un médico en circunstancias controladas, el riesgo de sobredosis accidental del paciente es pequeño o insignificante.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros.
+ 6.3. Periodo de validez
+ 3 años
+ Una vez abierto el vial, la suspensión debe utilizarse de manera inmediata.
+ 6.4. Precauciones especiales de conservación
+ No congelar. Conservar el vial en el embalaje exterior para protegerlo de la luz.
+ Para las condiciones de conservación tras la primera apertura del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Vial de vidrio de un único uso de tipo 1 con tapón de clorobutilo y cápsula de aluminio. Cada vial contiene 1 ml de suspensión. Cada vial etiquetado está precintado con un blister de policarbonato con un material posterior que ofrece garantía de inviolabilidad y está guardado en una caja.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Para un solo uso únicamente. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local. No utilice TRIESENCE 40 mg/ml suspensión inyectable si el vial está roto o tiene algún tipo de daño.

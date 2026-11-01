@@ -1,0 +1,111 @@
+                     CEFTAZIDIMA 2MG/0,1ML INYECCIÓN INTRAVÍTREA
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN
+0.5 ml
+
+COMPOSICIÓN:
+CEFTAZIDIMA PENTAHIDRATO                         10mg
+AGUA PARA INYECTABLES                            0.1ml
+SODIO CLORURO 0,9% c.s.p.                        0.5ml
+
+MATERIAL Y EQUIPO:
+Jeringa 10 ml, aguja, filtro 5 µm, tapón de jeringa estéril, bolsa estéril.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECIFICO:
+1. Desprecintar el vial, limpiar el elastómero con alcohol de 70º y dejar secar.
+2. Reconstituir el vial de Ceftazidima 1g con 9,4 ml* de agua para inyección (concentración
+obtenida 100 mg/mL). Agitar, manteniendo la aguja clavada en el vial para ventilarlo y evitar
+la sobrepresión del dióxido de carbono que se forma durante la reconstitución, hasta completa
+disolución.
+3. Con una jeringa de 10 mL cargar 2 mL del vial reconstituido.
+4. Enrasar con cloruro sódico 0,9% hasta 10 mL. Homogeneizar la mezcla en la misma jeringa
+(concentración obtenida 20 mg/mL).
+5. Filtrar (con filtro de 0,22µm) 0,5 mL de esta solución en una jeringa de insulina de 1mL. (Se
+acoplan agujas de 30 G).
+6. Tapar con tapón estéril, envasar y etiquetar.
+7. Proteger de la luz.
+
+*El sobre-volumen que se produce tras la reconstitución es específico de cada producto.
+Consultar la ficha técnica para preparar la concentración adecuada.
+
+ENTORNO:
+Trabar en cabina de flujo laminar horizontal con técnica aséptica.
+
+ENVASADO:
+Jeringa estéril 1 mL.
+
+CONSERVACIÓN:
+Conservar refrigerado (2-8ºC) protegido de la luz o congelado (-20ºC). La validez
+microbiológica es de 9 días refrigerado (2-8ºC) y 45 días congelado (-20?C). Existe bibliografía
+que demuestra la estabilidad durante 6 meses conservada en congelador (-20?C), para dicha
+estabilidad o cuando se realice la preparación de un lote mayor de 25 unidades habrá que
+realizar control de esterilidad.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Liquido límpido, transparente e incoloro. No presenta turbidez ni partículas en suspensión.
+CONTROLES A REALIZAR - Características organolépticas (color, aspecto) - Ausencia de
+turbidez - Ausencia de cristalización
+
+PLAZO DE VALIDEZ:
+9 dias
+INDICACIONES Y POSOLOGÍA:
+INDICACIONES
+Antibiótico beta-lactámico, del grupo de las cefalosporinas de tercera generación, con efecto
+bactericida. Presenta un amplio espectro antibacteriano, con acción más marcada sobre
+bacterias Gram-negativas. Ejerce un potente efecto frente a Pseudomonas aeruginosa. Es
+una buena alternativa a lo aminoglucósidos para el tratamiento de endoftalmitis bacterianas por
+presentar una escasa toxicidad retiniana.
+Tratamiento de la endoftalmitis bacteriana (FFT).
+
+POSOLOGÍA
+En general, dosis única. Sólo un 7% de pacientes necesitan una segunda inyección a las 40-72
+horas (las inyecciones repetidas aumentan la toxicidad retiniana).
+Es necesaria la reducción de dosis de los antibióticos intravítreos si se ha empleado gas o aceite
+de silicona.
+
+OBSERVACIONES:
+- 1,16 g de Ceftazidima pentahidrato equivalen a 1 g de Ceftazidima anhidra. En las
+presentaciones comerciales viene expresada la dosis como ceftazidima anhidra aunque la
+forma sea pentahidrato.
+- Desechar si se observa precipitado. En caso de preparar lotes se debe realizar el test de
+esterilidad.
+- En el caso de sustancias con alto riesgo de contaminación o de determinadas vías de
+administración (como intravítrea) se debe realizar una doble filtración esterilizante antes del
+llenado en el envase final. Será necesario comprobar antes de su utilización, la integridad del
+filtro esterilizado, y deberá confirmarse inmediatamente después de su utilización por un
+método adecuado, como la prueba de punto de burbuja.
+- El volumen administrado por vía intravítrea es habitualmente de 0,1 mL. Se debe tener en
+cuenta para la preparación el volumen muerto de la jeringa y de la aguja (0,4 mL
+aproximadamente), por lo que normalmente se preparan 0,5 mL.
+- Al reconstituir la ceftazidima se produce un sobrevolumen (0,6 ml/g de antibiótico
+aproximadamente).
+- También se ha descrito la formulación con BSS.
+
+BIBLIOGRAFÍA
+(1) Alonso Herreros, José Mª. Preparación De Medicamentos Y Formulación Magistral En
+Oftalmología, 2003.
+(2) Armstrong, Brian K., Sachin Mehta and Stephen J. Kim. "Correspondence." RETINA
+Publish Ahead of Print, (2011): 10.1097/IAE.0b013e318234cc8f.
+Dobrinas, M., S. Fleury-Souverain, P. Bonnabry and F. Sadeghipour. "Off-Label Antibiotic
+Preparation." Ophthalmology 114, no. 11 (2007): 2095.
+(3) McElhiney, Linda F. Compounding Guide for Ophthalmic Preparations, Edited by American
+Pharmacist Association. 259, 2013.
+(4) Mehta, S., B. K. Armstrong, S. J. Kim, H. Toma, J. N. West, H. Yin, P. Lu, L. L. Wayman,
+F. M. Recchia and P. Sternberg, Jr. "Long-Term Potency, Sterility, and Stability of
+Vancomycin, Ceftazidime, and Moxifloxacin for Treatment of Bacterial Endophthalmitis."
+Retina 31, no. 7 (2011): 1316-22.
+(5) Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia
+hospitalaria. Junio 2014
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+FECHA ÚLTIMA REVISIÓN:
+13/10/2017
+

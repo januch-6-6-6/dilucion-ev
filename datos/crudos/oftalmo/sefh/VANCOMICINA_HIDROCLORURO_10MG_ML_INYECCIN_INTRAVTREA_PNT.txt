@@ -1,0 +1,98 @@
+           VANCOMICINA HIDROCLORURO 10 MG/ML INYECCIÓN INTRAVÍTREA
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN
+0.5 ml
+
+COMPOSICIÓN:
+VANCOMICINA HIDROCLORURO                      5mg
+AGUA PARA INYECTABLES                         0.1ml
+SODIO CLORURO 0,9% c.s.p.                     0.5ml
+
+MATERIAL Y EQUIPO:
+CFL, jeringa 10 ml, aguja, filtro 0,22 µm, tapón de jeringa estéril, bolsa estéril.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECIFICO:
+1. Reconstituir un vial de vancomicina 500 mg con 10 mL de agua para inyección (API). Agitar
+hasta total disolución. Concentración resultante: 50 mg/mL.
+2. Con una jeringa de 10 mL cargar 2 mL del vial reconstituido.
+3. Enrasar con cloruro sódico 0,9% hasta 10 mL. Homogeneizar la mezcla en la misma jeringa.
+Concentración resultante: 10 mg/mL.
+4. Filtrar (con filtro de 0,22 µm) 0,5 mL de esta solución sobre una jeringa de insulina de 1 mL.
+Posteriormente, y si así se acuerda con el Servicio de Oftalmología, se pueden acoplar en
+cada jeringa cargada una aguja de 30 G o del calibre deseado para la inyección intravitrea.
+5. Tapar con tapón estéril, envasar en bolsas y etiquetar.
+6. Envasar en bolsas estériles de autocierre o de posterior sellado.
+7. Etiquetar.
+
+ENTORNO:
+Trabajar en campana de flujo laminar horizontal con técnica aséptica.
+
+ENVASADO:
+Jeringa estéril 1 ml.
+
+CONSERVACIÓN:
+Conservar refrigerado (2-8ºC) protegido de la luz o congelado (-20ºC). La validez
+microbiológica es de 30 horas a temperatura ambiente o 9 días refrigerado (2-8ºC). Existe
+bibliografía en la que se demuestra la estabilidad fisicoquímica y microbiológica de la preparación
+durante 6 meses en congelador (temperatura inferior a -20ºC o a -80ºC), para lo cual se
+deberán hacer los ensayos de esterilidad correspondientes.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Liquido límpido, transparente e incoloro. No presenta turbidez ni partículas en suspensión.
+Desechar en caso de que aparezca precipitado. El pH descrito en la literatura va de 3 a 6,5.
+En la literatura se fija la osmolaridad de este preparado en torno a 316-325 mOsm/kg de una
+disolución en cloruro de sodio 0.9% con una concentración de vancomicina 5 mg/ml.
+CONTROLES A REALIZAR - Características organolépticas (color, aspecto) - Ausencia de
+turbidez - Ausencia de cristalización - pH - Osmolaridad
+
+PLAZO DE VALIDEZ:
+9 dias
+INDICACIONES Y POSOLOGÍA:
+INDICACIONES
+Antibiótico glucopeptídico con acción bactericida. Actúa fundamentalmente sobre cocos Gram
+positivos, tanto aeróbios como anaeróbios.
+Tratamiento de la endoftalmitis bacteriana (FFT).
+
+POSOLOGÍA
+En general, dosis única. Sólo un 7% de pacientes necesitan una segunda inyección a las 40-72
+horas (las inyecciones repetidas aumentan la toxicidad retiniana).
+Es necesaria la reducción de dosis (1/4 o 1/10) de los antibióticos intravítreos si se ha empleado
+gas o aceite de silicona. En caso de realizar vitrectomía la dosis debe reducirse al 50%.
+
+OBSERVACIONES:
+- Si se parte de principio activo no estéril se debe realizar doble filtración esterilizante (filtro
+0,22 µm).
+- El volumen administrado por vía intravítrea es habitualmente de 0,1 ml. Se debe tener en
+cuenta para la preparación el volumen muerto de la jeringa y de la aguja (0,4 ml aprox), por lo
+que normalmente se preparan 0,5 ml.
+- Esta fórmula contiene cloruro sódico 0,9% y agua para inyectables como excipientes.
+
+BIBLIOGRAFÍA
+(1) Alonso Herreros, José Mª. Preparación De Medicamentos Y Formulación Magistral En
+Oftalmología, 2003.
+(2) Armstrong, Brian K., Sachin Mehta and Stephen J. Kim. "Correspondence." RETINA
+Publish Ahead of Print, (2011): 10.1097/IAE.0b013e318234cc8f.
+(3) McElhiney, Linda F. Compounding Guide for Ophthalmic Preparations, Edited by American
+Pharmacist Association. 259, 2013.
+(4) Mehta, S., B. K. Armstrong, S. J. Kim, H. Toma, J. N. West, H. Yin, P. Lu, L. L. Wayman,
+F. M. Recchia and P. Sternberg, Jr. "Long-Term Potency, Sterility, and Stability of
+Vancomycin, Ceftazidime, and Moxifloxacin for Treatment of Bacterial Endophthalmitis."
+Retina 31, no. 7 (2011): 1316-22.
+(5) Barry P., Cordovés L., Gardner S. Guía de la ESCRS para la prevención y el tratamiento de
+la endoftalmitis después de la cirugía de cataratas: datos, dilemas y concluisones. 2013
+no. 8 (1995): 753-5.
+(6) Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia
+hospitalaria. Junio 2014
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+FECHA ÚLTIMA REVISIÓN:
+17/09/2017
+

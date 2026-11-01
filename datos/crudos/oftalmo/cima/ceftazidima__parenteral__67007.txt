@@ -1,0 +1,726 @@
+CEFTAZIDIMA NORMON 1 g POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG | VIA INTRAMUSCULAR VIA INTRAVENOSA POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/67007/FT_67007.html
+
+ 4.1. Indicaciones terapéuticas
+ Ceftazidima Normon está indicado para el tratamiento de las infecciones que se enumeran a continuación en adultos y niños incluyendo recién nacidos (desde el nacimiento).
+ Neumonía nosocomial
+ Infecciones bronco-pulmonares en fibrosis quística
+ Meningitis bacteriana
+ Otitis media supurativa crónica
+ Otitis externa maligna
+ Infecciones de tracto urinario complicadas
+ Infecciones de la piel y tejidos blandos complicadas
+ Infecciones intraabdominales complicadas
+ Infecciones de los huesos y de las articulaciones
+ Peritonitis asociada a diálisis en pacientes con DPAC (Diálisis Peritoneal Ambulatoria Continua).
+ Tratamiento de pacientes con bacteriemia que ocurre en asociación con, o se sospecha que está asociada con, cualquiera de las infecciones mencionadas anteriormente.
+ Ceftazidima puede usarse en el tratamiento de pacientes neutropénicos con fiebre que se cree que es debida a una infección bacteriana.
+ Ceftazidima puede usarse en la profilaxis perioperatoria de infecciones del tracto urinario en pacientes sometidos a resección transuretral de la próstata (RTUP).
+ La selección de ceftazidima debe tener en cuenta su espectro antibacteriano, que está principalmente restringido a bacterias aerobias Gram negativas (ver secciones 4.4 y 5.1).
+ Ceftazidima debe ser co-administrado con otros agentes antibacterianos cuando el posible espectro de acción de la bacteria causante, no entre dentro de su rango de actividad.
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ Tabla 1: Adultos y niños ≥40 kg
+ Administración intermitente
+ | 
+ Infección
+ | 
+ Dosis a administrar
+ | 
+ Infecciones bronco-pulmonares en fibrosis quística
+ | 
+ 100 a 150 mg/kg/día cada 8 h, máximo 9 g al día1
+ | 
+ Neutropenia febril
+ | 
+ 2 g cada 8 h
+ | 
+ Neumonía nosocomial
+ | 
+ Meningitis bacteriana
+ | 
+ Bacteriemia*
+ | 
+ Infecciones de los huesos y de las articulaciones
+ | 
+ 1-2 g cada 8 h
+ | 
+ Infecciones de la piel y tejidos blandos complicadas
+ | 
+ Infecciones intra-abdominales complicadas
+ | 
+ Peritonitis asociada a diálisis en pacientes con DPAC
+ | 
+ Infecciones del tracto urinario complicadas
+ | 
+ 1-2 g cada 8 h ó 12 h
+ | 
+ Profilaxis perioperatoria para resección transuretral de próstata (RTUP)
+ | 
+ 1 g en la inducción a la anestesia, y una segunda dosis al retirar el catéter
+ | 
+ Otitis media supurativa crónica
+ | 
+ 1 g a 2 g cada 8 h
+ | 
+ Otitis externa maligna
+ | 
+ 1 En adultos con función renal normal se han usado 9 g/día sin reacciones adversas.
+ * Cuando se asocia con, o se sospecha que está asociada con, cualquiera de las infecciones enumeradas en el punto 4.1.
+ | 
+ | 
+ | 
+ Tabla 2: Niños <40 kg
+ Lactantes > 2 meses y niños
+ < 40 kg
+ | 
+ Infección
+ | 
+ Dosis normal
+ | 
+ Administración intermitente
+ | 
+ | 
+ Infecciones del tracto urinario
+ complicadas
+ | 
+ 100-150 mg/kg/día divididos en tres dosis, máximo 6 g/día
+ | 
+ Otitis media supurativa crónica
+ | 
+ Otitis externa maligna
+ | 
+ Niños neutropénicos
+ | 
+ 150 mg/kg/día divididos en tres dosis, máximo 6 g/día
+ | 
+ Infecciones bronco-pulmonares en fibrosis quística
+ | 
+ Meningitis bacteriana
+ | 
+ Bacteriemia*
+ | 
+ Infecciones de los huesos y de las articulaciones
+ | 
+ 100-150 mg/kg/día divididos
+ en tres dosis, máximo 6 g/día
+ | 
+ Infecciones de la piel y tejidos blandos complicadas
+ | 
+ Infecciones intrabdominales complicadas
+ | 
+ Peritonitis asociada a diálisis en pacientes con DPAC
+ | 
+ | 
+ | 
+ | 
+ Neonatos y lactantes ≤ 2 meses
+ | 
+ Infección
+ | 
+ Dosis normal
+ | 
+ Administración intermitente
+ | 
+ | 
+ Mayoría de infecciones
+ | 
+ 25-60 mg/kg/día divididos en dos dosis1
+ | 
+ 1En neonatos y lactantes ≤ de 2 meses, la semivida sérica de ceftazidima puede ser de tres a cuatro veces la de adultos.
+ * Cuando se asocia con, o se sospecha que está asociada con, cualquiera de las infecciones enumeradas en el punto 4.1.
+ | 
+ | 
+ | 
+ | 
+ Pacientes de edad avanzada
+ A la vista de la reducción del aclaramiento de ceftazidima en relación con la edad, en pacientes de edad avanzada, la dosis diaria normalmente no debe exceder de 3 g en los mayores de 80 años de edad.
+ Insuficiencia hepática
+ Los datos disponibles no indican la necesidad de ajustar la dosis en caso de una alteración de la función hepática leve o moderada. No hay datos del estudio en pacientes con insuficiencia hepática grave (ver también la sección 5.2). Se recomienda una estrecha monitorización clínica de seguridad y eficacia.
+ Insuficiencia renal
+ Ceftazidima se excreta inalterada por vía renal. Por tanto, se debe reducir la dosis en pacientes con insuficiencia renal (ver la sección 4.4).
+ Se debe administrar una dosis de carga inicial de 1 g. Las dosis de mantenimiento se deben basar en el aclaramiento de creatinina:
+ Tabla 3: Dosis de mantenimiento recomendadas de ceftazidima en insuficiencia renal – administración intermitente
+ Adultos y niños ≥40 kg
+ Aclaramiento de
+ creatinina
+ (ml/min)
+ | 
+ Creatinina sérica
+ aprox.
+ μmol/l (mg/dl)
+ | 
+ Dosis unitaria
+ recomendada de
+ ceftazidima (g)
+ | 
+ Frecuencia de dosis
+ (horas)
+ | 
+ 50-31
+ | 
+ 150-200
+ (1,7-2,3)
+ | 
+ 1
+ | 
+ 12
+ | 
+ 30-16
+ | 
+ 200-350
+ (2,3-4,0)
+ | 
+ 1
+ | 
+ 24
+ | 
+ 15-6
+ | 
+ 350-500
+ (4,0-5,6)
+ | 
+ 0,5
+ | 
+ 24
+ | 
+ <5
+ | 
+ >500
+ (>5,6)
+ | 
+ 0,5
+ | 
+ 48
+ | 
+ En pacientes con infecciones graves la dosis unitaria se debe aumentar un 50% o aumentar la frecuencia de dosis.
+ En niños el aclaramiento de creatinina se debe ajustar por área de superficie corporal o por masa corporal magra.
+ Niños <40 kg
+ Aclaramiento de
+ creatinina
+ (ml/min)**
+ | 
+ Creatinina sérica
+ aprox. *
+ μmol/l (mg/dl)
+ | 
+ Dosis individual
+ recomendada mg/kg
+ peso corporal
+ | 
+ Frecuencia de dosis
+ (horas)
+ | 
+ 50-31
+ | 
+ 150-200
+ (1,7-2,3)
+ | 
+ 25
+ | 
+ 12
+ | 
+ 30-16
+ | 
+ 200-350
+ (2,3-4,0)
+ | 
+ 25
+ | 
+ 24
+ | 
+ 15-6
+ | 
+ 350-500
+ (4,0-5,6)
+ | 
+ 12,5
+ | 
+ 24
+ | 
+ <5
+ | 
+ >500
+ (>5,6)
+ | 
+ 12,5
+ | 
+ 48
+ | 
+ * Los valores de creatinina sérica son valores orientativos que pueden no indicar exactamente el mismo grado de reducción para todos los pacientes con la función renal alterada.
+ ** Estimada en base a la superficie corporal o medida.
+ | 
+ | 
+ | 
+ | 
+ | 
+ Se recomienda una estrecha monitorización clínica de seguridad y eficacia.
+ Hemodiálisis
+ La semivida sérica durante la hemodiálisis tiene un rango de 3 a 5 h.
+ Tras cada periodo de hemodiálisis, la dosis de mantenimiento de ceftazidima recomendada en la tabla 4 y 5 debe repetirse.
+ Diálisis peritoneal
+ Ceftazidima se puede usar en diálisis peritoneal y diálisis peritoneal ambulatoria continua (DPAC).
+ Además del uso intravenoso, ceftazidima se puede incorporar al fluido de diálisis (normalmente de 125 mg a 250 mg por cada 2 litros de solución de diálisis).
+ En pacientes con insuficiencia renal con hemodiálisis arterio-venosa continua o hemofiltración de alto flujo en unidades de cuidados intensivos: 1 g diario como dosis única o en dosis divididas. Para hemofiltración de bajo flujo, seguir la recomendación de dosis para insuficiencia renal.
+ Para pacientes con hemofiltración veno-venosa y hemodiálisis veno-venosa, seguir las recomendaciones de dosis de las tablas 4 y 5.
+ Tabla 4: Guías de dosis para hemofiltración veno-venosa continua
+ Función renal residual (aclaramiento de creatinina ml/min)
+ | 
+ Dosis de mantenimiento (mg) para una tasa de ultrafiltración de (ml/min)1:
+ | 
+ 5
+ | 
+ 16,7
+ | 
+ 33,3
+ | 
+ 50
+ | 
+ 0
+ | 
+ 250
+ | 
+ 250
+ | 
+ 500
+ | 
+ 500
+ | 
+ 5
+ | 
+ 250
+ | 
+ 250
+ | 
+ 500
+ | 
+ 500
+ | 
+ 10
+ | 
+ 250
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 15
+ | 
+ 250
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 20
+ | 
+ 500
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 1Dosis de mantenimiento a administrar cada 12 h.
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Tabla 5: Guías de dosis para hemodiálisis veno-venosa continua
+ Función renal residual (aclaramiento de creatinina en ml/min)
+ | 
+ Dosis de mantenimiento (mg) para un dializado en una tasa de flujo de1:
+ | 
+ 1,0 litros/h
+ | 
+ 2,0 litros/h
+ | 
+ Tasa de ultrafiltración (litros/h)
+ | 
+ Tasa de ultrafiltración (litros/h)
+ | 
+ 0,5
+ | 
+ 1,0
+ | 
+ 2,0
+ | 
+ 0,5
+ | 
+ 1,0
+ | 
+ 2,0
+ | 
+ 0
+ | 
+ 500
+ | 
+ 500
+ | 
+ 500
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 5
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 10
+ | 
+ 500
+ | 
+ 500
+ | 
+ 750
+ | 
+ 500
+ | 
+ 750
+ | 
+ 1.000
+ | 
+ 15
+ | 
+ 500
+ | 
+ 750
+ | 
+ 750
+ | 
+ 750
+ | 
+ 750
+ | 
+ 1.000
+ | 
+ 20
+ | 
+ 750
+ | 
+ 750
+ | 
+ 1.000
+ | 
+ 750
+ | 
+ 750
+ | 
+ 1.000
+ | 
+ 1Dosis de mantenimiento a administrar cada 12 h.
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Forma de administración
+ La dosis depende de la gravedad, sensibilidad, lugar y tipo de infección y de la edad y función renal del paciente.
+ Ceftazidima se debe administrar por inyección intravenosa o intramuscular profunda. Los lugares recomendados para la inyección intramuscular son el cuadrante externo superior del gluteus maximus o la parte lateral del muslo. Las soluciones de ceftazidima se pueden administrar directamente en una vena.
+ La vía de administración estándar recomendada es la inyección intravenosa intermitente. La administración intramuscular sólo se debe considerar cuando no sea posible la vía intravenosa o sea menos apropiada para el paciente.
+ Para consultar las instrucciones de reconstitución del medicamento antes de la administración, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad a ceftazidima, a cualquier otra cefalosporina o a alguno de los excipientes incluidos en la sección 6.1.
+ Antecedentes de hipersensibilidad grave (ej. reacción anafiláctica) a cualquier otro tipo de antibiótico beta-lactámico (penicilinas, monobactamas y carbapenemas).
+ 4.4. Advertencias y precauciones especiales de empleo
+ Hipersensibilidad
+ Como con todos los agentes antibacterianos beta-lactámicos, se han notificado reacciones de hipersensibilidad grave y algunas veces fatales. En caso de reacciones de hipersensibilidad graves, se debe interrumpir el tratamiento con ceftazidima inmediatamente e instaurar las medidas de emergencia adecuadas.
+ Antes del comienzo del tratamiento, se debe establecer si el paciente tiene antecedentes de reacciones de hipersensibilidad grave a ceftazidima, a otras cefalosporinas o a cualquier otro tipo de agente beta-lactámico. Se debe tener precaución si se administra ceftazidima a pacientes con antecedentes de hipersensibilidad no grave a otros agentes beta-lactámicos.
+ Espectro de actividad
+ Ceftazidima posee un espectro de actividad antibacteriana limitado. No es adecuado para su uso como agente único para el tratamiento de algunos tipos de infecciones, a no ser que esté documentado que el patógeno es sensible o hay altas sospechas de que los patógenos más probables se puedan tratar con ceftazidima. Esto aplica en concreto cuando se valora el tratamiento de pacientes con bacteriemia y en el tratamiento de la meningitis bacteriana, infecciones de la piel y tejidos blandos e infecciones de huesos y articulaciones. Además, ceftazidima es susceptible a la hidrólisis por varias de las beta-lactamasas de espectro extendido (BLEEs). Por lo tanto, se debe tener en cuenta la información sobre la prevalencia de organismos productores de BLEEs al seleccionar ceftazidima para el tratamiento.
+ Colitis pseudo-membranosa
+ Con casi todos los agentes antibacterianos, incluyendo ceftazidima, se ha notificado colitis y colitis pseudo-membranosa, y su gravedad puede ir de moderada a suponer una amenaza para la vida. Por tanto, es importante considerar el diagnóstico en pacientes que presenten diarrea durante o como consecuencia de la administración de ceftazidima (ver sección 4.8). Se debe considerar la interrupción del tratamiento con ceftazidima y la administración de un tratamiento específico para Clostridium difficile. No se deben administrar medicamentos que inhiban el peristaltismo.
+ Función renal
+ El tratamiento concomitante con altas dosis de cefalosporinas y medicamentos nefrotóxicos como aminoglucósidos o diuréticos potentes (ej. furosemida) pueden perjudicar la función renal.
+ Ceftazidima se elimina por vía renal, por tanto la dosis se debe reducir en base al grado de insuficiencia renal. Los pacientes con insuficiencia renal deben ser estrechamente monitorizados en relación a la seguridad y eficacia. Se han notificado secuelas neurológicas de forma ocasional cuando la dosis no ha sido reducida en pacientes con insuficiencia renal (ver secciones 4.2 y 4.8).
+ Sobrecrecimiento de microorganismos no sensibles
+ El uso prolongado puede causar un sobrecrecimiento de microorganismos no sensibles (ej. enterococos, hongos) lo que puede requerir interrupción del tratamiento u otras medidas adecuadas. Es esencial la evaluación periódica de la situación del paciente.
+ Interacciones analíticas
+ Ceftazidima no interfiere con los tests enzimáticos para medir la glucosa en orina, pero pueden aparecer ligeras interferencias (falsos-positivos) con métodos reductores de cobre (Benedicts, Fehlings, Clinitest).
+ Ceftazidima no interfiere en el ensayo de picrato alcalino para creatinina.
+ El desarrollo de un test de Coombs positivo asociado al uso de ceftazidima en un 5% de los pacientes puede interferir con las pruebas de compatibilidad sanguínea.
+ Se han notificado reacciones cutáneas adversas graves (RACG), incluidas síndrome de Stevens-Johnson (SSJ), necrólisis epidérmica tóxica (NET), reacción a fármaco con eosinofilia y síntomas sistémicos (RFESS) y pustulosis exantemática generalizada aguda (PEGA), que pueden poner en peligro la vida o resultar mortales, en relación con el tratamiento con ceftazidima con una frecuencia no conocida.
+ Debe advertirse a los pacientes de los signos y síntomas de las reacciones cutáneas, y se les debe supervisar estrechamente.
+ Si aparecen signos o síntomas de estas reacciones, debe interrumpirse el tratamiento con ceftazidima inmediatamente y se debe considerar un tratamiento alternativo.
+ Si el paciente ha desarrollado una reacción grave como SSJ, NET, RFESS o PEGA con ceftazidima, no debe reiniciarse el tratamiento con ceftazidima de este paciente en ningún momento.
+ Información importante sobre uno de los componentes de Ceftazidima Normon:
+ Este medicamento contiene 52,08 mg (2,26 mmol) de sodio por vial, equivalente a 2,65 % de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Sólo se han llevado a cabo estudios de interacción con probenecid y furosemida.
+ El uso concomitante de altas dosis con medicamentos nefrotóxicos puede perjudicar la función renal (ver sección 4.4).
+ Cloranfenicol es antagonista in vitro de ceftazidima y otras cefalosporinas. Se desconoce la relevancia clínica de este hecho, pero si se propone la administración de ceftazidima con cloranfenicol, se debe tener en cuenta la posibilidad de antagonismo.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Hay datos limitados sobre el uso de ceftazidima en mujeres embarazadas. Los estudios en animales no han demostrado efectos perjudiciales directos o indirectos con respecto al embarazo, desarrollo embrionario/fetal, parto o desarrollo postnatal (ver sección 5.3).
+ Ceftazidima NORMON sólo se debe utilizar en mujeres embarazadas cuando el beneficio supere los riesgos.
+ Lactancia
+ Ceftazidima se excreta en la leche materna en pequeñas cantidades pero a dosis terapéuticas de ceftazidima no se prevén efectos en el lactante. Ceftazidima se puede utilizar durante la lactancia.
+ Fertilidad
+ No hay datos disponibles.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios de los efectos sobre la capacidad para conducir y utilizar máquinas. Sin embargo, se pueden producir efectos adversos (por ejemplo mareos) que pueden afectar a la capacidad para conducir y utilizar máquinas (ver sección 4.8).
+ 4.8. Reacciones adversas
+ Las reacciones adversas más frecuentes son la eosinofilia, trombocitosis, flebitis o tromboflebitis con la administración intravenosa, diarrea, aumento transitorio de las enzimas hepáticas, erupción maculopapular o urticarcial, dolor y/o inflamación después de la inyección intramuscular y Test de Coombs positivo.
+ Para determinar la frecuencia de las reacciones adversas frecuentes y poco frecuentes se han utilizado datos de ensayos clínicos patrocinados y no patrocinados. Las frecuencias asignadas a todas las demás reacciones adversas se determinaron principalmente utilizando datos postcomercialización y refiriéndose más a una tasa de notificación que a una frecuencia real. Dentro de cada grupo de frecuencias, las reacciones adversas se presentan en orden decreciente de gravedad. Para clasificar la frecuencia se ha utilizado la siguiente convención:
+ Muy frecuentes (≥1/10)
+ Frecuentes (≥1/100 a <1/10)
+ Poco frecuentes (≥1/1.000 a <1/100)
+ Raras (≥1/10.000 a <1/1.000)
+ Muy raras (<1/10.000)
+ Frecuencia no conocida (no se puede estimar a partir de los datos disponibles)
+ Sistema de
+ clasificación de
+ órganos
+ | 
+ Frecuentes
+ | 
+ Poco frecuentes
+ | 
+ Muy raras
+ | 
+ Frecuencia
+ desconocida
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ | 
+ Candidiasis
+ (incluyendo
+ vaginitis y
+ candidiasis oral)
+ | 
+ | 
+ | 
+ Trastornos de la
+ sangre y sistema
+ linfático
+ | 
+ Eosinofilia
+ Trombocitosis
+ | 
+ Neutropenia
+ Leucopenia
+ Trombocitopenia
+ | 
+ | 
+ Agranulocitosis
+ Anemia
+ hemolítica
+ Linfocitosis
+ | 
+ Trastornos del
+ sistema
+ inmunológico
+ | 
+ | 
+ | 
+ | 
+ Anafilaxis
+ (incluyendo
+ broncoespasmo
+ y/o hipotensión)
+ (ver sección 4.4)
+ | 
+ Trastornos del
+ sistema nervioso
+ | 
+ | 
+ Cefalea
+ Mareos
+ | 
+ | 
+ Secuelas
+ neurológicas1
+ Parestesia
+ | 
+ Trastornos
+ vasculares
+ | 
+ Flebitis o
+ tromboflebitis
+ con
+ administración
+ intravenosa
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ Diarrea
+ | 
+ Colitis y diarrea
+ asociada a
+ antibióticos2 (ver
+ sección 4.4)
+ Dolor abdominal
+ Náuseas
+ Vómitos
+ | 
+ | 
+ Mal sabor de
+ boca
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ Elevaciones
+ transitorias en
+ una o más
+ enzimas
+ hepáticas3
+ | 
+ | 
+ | 
+ Ictericia
+ | 
+ Trastornos de la
+ piel y tejido
+ subcutáneo
+ | 
+ Erupción
+ urticarial o
+ máculopapular
+ | 
+ Prurito
+ | 
+ | 
+ Necrólisis
+ epidérmica tóxica
+ Síndrome de
+ Stevens-Johnson
+ Eritema
+ multiforme
+ Angioedema
+ Reacción a fármacos con eosinofilia y síntomas sistémicos (Síndrome DRESS) 4 pustulosis exantemática generalizada aguda (PEGA)
+ | 
+ Trastornos
+ renales y
+ urinarios
+ | 
+ | 
+ Aumentos
+ transitorios de la
+ urea en sangre,
+ nitrógeno ureico
+ sanguíneo y/o
+ creatinina sérica
+ | 
+ Nefritis
+ intersticial
+ Fallo renal
+ agudo
+ | 
+ | 
+ Trastornos
+ generales y
+ alteraciones en el
+ lugar de
+ administración
+ | 
+ Dolor y/o
+ inflamación tras
+ la inyección
+ intramuscular
+ | 
+ Fiebre
+ | 
+ | 
+ | 
+ Exploraciones
+ complementarias
+ | 
+ Test de Coombs
+ Positivo5
+ | 
+ | 
+ | 
+ | 
+ 1 Se han notificado casos de secuelas neurológicas, incluyendo temblor, mioclonía, convulsiones, encefalopatía y coma en pacientes con insuficiencia renal en los que la dosis de ceftazidimano se ha reducido de forma adecuada.
+ 2 La diarrea y la colitis pueden estar asociadas a Clostridium difficile y puede presentarse como colitis pseudomembranosa.
+ 3ALT (SGPT), AST (SOGT), LHD, GGT, fosfatasa alcalina.
+ 4Se han notificado casos raros en los que se ha asociado este Síndrome de DRESS con ceftazidima.
+ 5 Se desarrolla un test de Coombs positivo en un 5% de los pacientes y puede interferir con las pruebas de compatibilidad sanguínea.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano:https://www.notificaram.es.
+ 4.9. Sobredosis
+ La sobredosis puede producir secuelas neurológicas, incluyendo encefalopatía, convulsiones y coma.
+ Los síntomas de sobredosis pueden aparecer si no se reduce adecuadamente la dosis en pacientes con insuficiencia renal (ver secciones 4.2 y 4.4).
+ Los niveles séricos de ceftazidima se pueden reducir por hemodiálisis o diálisis peritoneal.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Ceftazidima es menos estable en solución inyectable de bicarbonato de sodio que en otros fluidos intravenosos. No se recomienda como disolvente.
+ Ceftazidima y los antibióticos aminoglucósidos no se deben mezclar en la misma jeringa.
+ Se ha observado precipitación al añadir vancomicina a ceftazidima en disolución. Por ello, se recomienda limpiar los sistemas de los equipos de administración y las conducciones intravenosas entre la administración de esos dos agentes.
+ 6.3. Periodo de validez
+ 2 años.
+ 6.4. Precauciones especiales de conservación
+ Los viales de Ceftazidima Normon se suministran a presión reducida; se produce una presión positiva al reconstituir debido a la liberación de dióxido de carbono (ver sección 6.6).
+ Conservar por debajo de 25ºC. Conservar en el embalaje original para protegerlo de la luz.
+ El almacenamiento ocasional a temperaturas por debajo de 30ºC durante un máximo de 2 meses no es perjudicial para el producto.
+ Las soluciones de ceftazidima en agua para inyección o en fluidos compatibles mantienen satisfactoriamente su actividad durante 8 horas a temperatura de 25ºC o durante 24 horas a una temperatura entre 2ºC-8ºC.
+ 6.5. Naturaleza y contenido del envase
+ Ceftazidima Normon 1 g polvo y disolvente para solución inyectable se presenta en vial de vidrio tipo II de 17 ml de capacidad, cerrado con un tapón y sellado con una cápsula de aluminio. La ampolla de disolvente es de vidrio tipo I. El envase normal contiene 1 vial y 1 ampolla y el envase clínico 50 viales y 50 ampollas.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Todos los tamaños de viales de Ceftazidima Normon se suministran a presión reducida. A medida que el producto se disuelve, se libera dióxido de carbono y se desarrolla presión positiva. Se deben ignorar las pequeñas burbujas de dióxido de carbono en la solución reconstituida.
+ Instrucciones para la reconstitución
+ Ver la tabla para los volúmenes de adición y concentraciones de solución que pueden ser útiles cuando se necesitan dosis fraccionadas.
+ Tamaño del vial
+ | 
+ Cantidad de disolvente
+ a añadir (ml)
+ | 
+ Concentración
+ aproximada (mg/ml)
+ | 
+ 1 g polvo y disolvente para solución inyectable
+ | 
+ | 
+ Intramuscular
+ Bolus intravenoso
+ | 
+ 3 ml
+ 10 ml
+ | 
+ 260
+ 90
+ | 
+ | 
+ | 
+ | 
+ | 
+ Las soluciones varían de color de amarillo pálido a ámbar, dependiendo de la concentración, disolvente y de las condiciones de almacenamiento. Dentro de las recomendaciones establecidas, la potencia del producto no se ve afectada por dichas variaciones de color.
+ Ceftazidima se puede reconstituir para uso intramuscular con solución inyectable de hidrocloruro de lidocaína al 0,5% ó al 1%.
+ Preparación de soluciones para inyección por bolus
+ Insertar la aguja de la jeringa a través del tapón del vial e inyectar el volumen recomendado de disolvente. El vacío puede ayudar a la entrada del disolvente. Quite la aguja con la jeringa.
+ Agitar hasta disolver: se libera dióxido de carbono y se obtendrá una solución transparente en 1 ó 2 minutos.
+ Invertir el vial. Con el émbolo de la jeringa totalmente comprimido, insertar la aguja a través del tapón del vial y extraer el volumen total de la solución (la presión creada en el vial ayuda a la extracción del volumen). Asegurarse de que la aguja quede dentro de la disolución, no en la cámara de aire. La solución extraída puede contener pequeñas burbujas de dióxido de carbono que pueden ignorarse.
+ Estas soluciones se pueden administrar directamente en una vena.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

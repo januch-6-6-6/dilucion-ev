@@ -1,0 +1,96 @@
+XIMARACT 50 MG POLVO PARA SOLUCION INYECTABLE | USO INTRACAMERAL POLVO PARA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/81381/FT_81381.html
+
+ 4.1. Indicaciones terapéuticas
+ Profilaxis antibiótica de la endoftalmitis postoperatoria tras la cirugía de catarata (ver sección 5.1).
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos, incluyendo las guías sobre la profilaxis antibiótica en la cirugía ocular.
+ 4.2. Posología y forma de administración
+ Uso intracameral. Un vial para un solo uso.
+ 4.2.1. Posología
+ Adultos:
+ La dosis recomendada es de 0,1 ml de solución reconstituida (ver sección 6.6), es decir, 1 mg de cefuroxima.
+ NO INYECTAR MÁS DE LA DOSIS RECOMENDADA (ver sección 4.9).
+ Población pediátrica:
+ En la población pediátrica, no se ha establecido ni la dosis óptima, ni la seguridad de Ximaract.
+ Pacientes en edad avanzada:
+ No es necesario ajustar la dosis.
+ Pacientes con insuficiencia renal y hepática:
+ Teniendo en cuenta la baja dosis y la despreciable exposición sistémica esperada de cefuroxima utilizando Ximaract, no es necesario el ajuste de la dosis.
+ 4.2.2. Forma de administración
+ Tras la reconstitución, Ximaract debe administrarse mediante inyección intraocular en la cámara anterior del ojo (uso intracameral) por un cirujano oftalmólogo, en las condiciones asépticas recomendadas de la cirugía de catarata. Para reconstituir Ximaract (ver sección 6.6), solo debe utilizarse una solución inyectable de cloruro de sodio 9 mg/ml (0,9 %)
+ Tras la reconstitución, Ximaract debe ser inspeccionado visualmente para comprobar la ausencia de partículas y coloración previamente a su administración.
+ Al final de la cirugía de catarata, inyectar lentamente 0,1 ml de la solución reconstituida en la cámara anterior del ojo.
+ Cada vial debe utilizarse solamente para el tratamiento de un ojo.
+ Un vial contiene más de 1 mg, la dosis recomendada (equivalente a 0,1 ml). El volumen reconstituido extraíble (5 ml) no es para utilizar por completo.
+ Inyectar el contenido completo del vial supondrá una sobredosis.
+ Debe desecharse cualquier producto no usado tras la inyección.
+ Para consultar las instrucciones de reconstitución del medicamento antes de la administración, ver la sección 6.6
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a los antibióticos del grupo de las cefalosporinas.
+ 4.4. Advertencias y precauciones especiales de empleo
+ El tratamiento con Ximaract es solamente para uso intracameral.
+ Se debe tener un especial cuidado con los pacientes que hayan experimentado una reacción alérgica a las penicilinas o a cualquier otro antibiótico betalactámico, dado que pueden ocurrir reacciones cruzadas.
+ Se deberá considerar un antibiótico profiláctico alternativo en los pacientes que tengan riesgo de infecciones con cepas resistentes, p.ej. aquellos con una infección anterior conocida o colonización por MRSA (Staphylococcus aureus resistentes a meticilina).
+ Dada la ausencia de datos para grupos especiales de pacientes (pacientes con grave riesgo de infección, pacientes con cataratas complicadas, pacientes sometidos a operaciones combinadas con cirugía de catarata, pacientes con grave enfermedad de la tiroides, pacientes con menos de 2.000 células endoteliales corneales), solamente deberá utilizase Ximaract tras una cuidadosa evaluación de la relación riesgo/beneficio.
+ El uso de cefuroxima no se debe tener como una acción única, dado que otras medidas como el tratamiento antiséptico profiláctico, son también importantes.
+ No ha sido reportada toxicidad en el endotelio corneal a la concentración recomendada de cefuroxima, sin embargo, el riesgo no puede excluirse y en la vigilancia postquirúrgica, los médicos deben tener en cuenta este riesgo potencial.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones.
+ Es improbable una interacción sistémica, debido a que es poco probable la exposición sistémica prevista.
+ En la bibliografía no se ha informado de incompatibilidades con los productos más comúnmente utilizados en la cirugía de catarata.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ Los datos sobre el uso de la cefuroxima en las mujeres embarazadas son limitados. Los estudios con animales no han mostrado ningún efecto perjudicial sobre el desarrollo embrionario y fetal. Cefuroxima alcanza al embrión/feto a través de la placenta. No se esperan efectos durante el embarazo, dado que es despreciable la exposición sistémica a la cefuroxima utilizando Ximaract. Puede utilizarse Ximaract durante el embarazo.
+ 4.6.2. Lactancia
+ Es de esperar que la cefuroxima se elimine en la leche humana en muy pequeñas cantidades. No se esperan reacciones adversas tras el uso de Ximaract a las dosis terapéuticas. Puede utilizarse cefuroxima durante la lactancia.
+ 4.6.3. Fertilidad
+ No hay datos sobre los efectos de la cefuroxima sódica sobre la fertilidad en los humanos. Los estudios de reproducción en animales no han mostrado efectos sobre la fertilidad.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No procede.
+ 4.8. Reacciones adversas
+ No hay informes publicados de reacciones adversas cuando cefuroxima se administra mediante inyección intraocular, excepto la siguiente:
+ Trastornos del sistema inmunológico
+ Muy raras (<1/10.000): reacción anafiláctica.
+ Trastornos oculares
+ Frecuencia no conocidos (la frecuencia no puede estimarse a partir de los datos disponibles): edema macular.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https//: www.notificaram.es
+ 4.9. Sobredosis
+ Los casos notificados de sobredosis son aquellos descritos en la literatura después de una dilución incorrecta y un uso no autorizado de la cefuroxima destinada al uso sistémico.
+ Por error, se administró intracameralmente una alta dosis de cefuroxima (3 veces la dosis recomendada) a 6 pacientes tras una dilución incorrecta debida a un protocolo interno de dilución de cefuroxima. Estas inyecciones no causaron ninguna reacción adversa detectable en ningún paciente incluso ni en los tejidos oculares.
+ Debido a un error de dilución, se obtuvieron datos de toxicidad tras una inyección intracameral durante una cirugía de catarata de 40 a 50 veces la dosis recomendada de cefuroxima en 6 pacientes. La agudeza visual media fue 20/200. Se observó una grave inflamación del segmento anterior y la tomografía de coherencia óptica de la retina mostró un edema macular extenso. A las seis semanas después de la cirugía, la agudeza visual media alcanzó 20/25. El perfil de la tomografía de coherencia óptica macular volvió a la normalidad. Sin embargo, se observó en todos los pacientes una disminución del 30% del electrorretinograma escotópico.
+ La administración de cefuroxima diluida incorrectamente (10-100 mg por ojo) a 16 pacientes provocó una toxicidad ocular incluyendo edema corneal que se resolvió en semanas, aumento transitorio de la presión intraocular, pérdida de células endoteliales y cambios en la electrorretinografía. Algunos de estos pacientes tuvieron pérdida de visión permanente y grave.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Este medicamento no debe mezclarse con otros, excepto con los mencionados en la sección 6.6.
+ 6.3. Periodo de validez
+ 3 años.
+ Después de la reconstitución: el producto debe utilizarse inmediatamente.
+ Desde un punto de vista microbiológico, a no ser que se utilice un método de apertura/reconstitución/dilución para impedir el riesgo de contaminación microbiológica, el producto debe utilizarse inmediatamente. Son responsabilidad del usuario, los tiempos y las condiciones de almacenamiento, si no se utiliza inmediatamente.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25 ºC. Mantener el vial en el embalaje exterior para protegerlo de la luz.
+ "Para las condiciones de almacenamiento después de la reconstitución, véase la sección 6.3"
+ 6.5. Naturaleza y contenido del envase
+ Vial de vidrio trasparente (Tipo III o I), cerrado con un tapón de bromobutilo y sellado con una cápsula de aluminio del tipo flip-off.
+ Cajas de 1 vial, 10 viales, 25 viales o 1 vial junto con 1 aguja con filtro estéril, 10 viales junto con 10 agujas con filtro estéril, 25 viales junto con 25 agujas con filtro estéril.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ Para preparar el producto para la administración intracameral, se debe usar una aguja estéril (18G x 11/2, 1.2 mm x 40 mm) con filtro de 5 micras (membrana de copolímero acrílica).
+ Para más detalles sobre el producto sanitario requerido y el disolvente, por favor ver sección 6.6.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Ximaract debe administrarse mediante inyección intracameral, por parte de un cirujano oftalmólogo en las condiciones asépticas recomendadas de la cirugía de catarata.
+ EL VIAL ES PARA UN SOLO USO.
+ Cada vial debe utilizarse para el tratamiento de un único ojo. Pegar la etiqueta desprendible del vial en la documentación del paciente, si procede.
+ Debe inspeccionarse visualmente la solución reconstituida, utilizándose solamente si es una solución transparente, incolora o ligeramente amarillenta y sin partículas visibles. Se debe desechar el medicamento si hay partículas visibles en la solución.
+ Para preparar el producto para la administración intracameral, seguir las siguientes instrucciones:
+ Se debe revisar la integridad de la cápsula flip-off antes de retirarla.
+ Antes de introducir una aguja estéril, debe desinfectarse la parte exterior del tapón de goma del vial.
+ Presionar la aguja verticalmente en el centro del tapón del vial, manteniendo el vial en posición vertical. Después, inyectar en el vial 5 ml de solución para inyección de cloruro de sodio 9 mg/ml (0,9%) utilizando una técnica aséptica.
+ Agitar suavemente hasta que la solución esté libre de partículas visibles y con un ligero color amarillo.
+ Acoplar una aguja estéril (18G x 1 ½, 1,2 mm x 40 mm) con un filtro de 5 micras (membrana de copolímero acrílico) a una jeringa estéril de 1 ml. Introducir la aguja de esta jeringa estéril verticalmente en el centro del tapón del vial, manteniendo el vial en posición vertical.
+ Asépticamente, aspirar por lo menos 0,1 ml de la solución. La solución reconstituida remanente del vial (4,9 ml) debe ser desechada.
+ Desacoplar la aguja con el filtro de 5 micras de la jeringa y conectar ésta con una cánula de cámara anterior adecuada.
+ Extraer cuidadosamente el aire, y el exceso de medicamento, de la jeringa y ajustar la dosis a la marca de 0,1 ml que figura ella. La jeringa está preparada para la inyección.
+ Después de su uso, desechar la solución reconstituida sobrante. No guardar para un posterior uso.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.
+ Desechar las agujas usadas en un contenedor para objetos punzantes.

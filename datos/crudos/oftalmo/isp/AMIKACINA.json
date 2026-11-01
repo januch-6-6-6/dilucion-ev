@@ -1,0 +1,30 @@
+[
+ {
+  "Producto": "F-7616/26",
+  "Nombre": "AMIKACINA SOLUCIÓN INYECTABLE 100 mg/2 mL",
+  "FechaRegistro": "1993-02-25",
+  "Titular": "LABORATORIO BIOSANO S.A.",
+  "PA": "AMIKACINA"
+ },
+ {
+  "Producto": "F-7617/21",
+  "Nombre": "AMIKACINA SOLUCIÓN INYECTABLE 500 mg/2 mL",
+  "FechaRegistro": "1992-12-15",
+  "Titular": "LABORATORIO BIOSANO S.A.",
+  "PA": "AMIKACINA"
+ },
+ {
+  "Producto": "F-13486/24",
+  "Nombre": "AMIKACINA SOLUCIÓN INYECTABLE 500 mg/2 mL",
+  "FechaRegistro": "2004-01-30",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "AMIKACINA"
+ },
+ {
+  "Producto": "F-10848/26",
+  "Nombre": "AMIKACINA SOLUCIÓN INYECTABLE 500 mg/2 mL",
+  "FechaRegistro": "1995-04-27",
+  "Titular": "LABORATORIO SANDERSON SpA",
+  "PA": "AMIKACINA"
+ }
+]
