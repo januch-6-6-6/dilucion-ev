@@ -1,0 +1,100 @@
+id: triamcinolona
+nombre: Triamcinolona intravítrea (Triesence)
+comerciales: []
+grupo: corticoide
+familias:
+- intracameral
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: triesence-40
+  forma: suspension
+  cantidad:
+    valor: 40
+    unidad: mg
+  volumenMl: 1
+  registrosIsp: []
+  usoDirecto: true
+  nota: Triesence 40 mg/ml. No está registrado en el ISP.
+  fuente:
+    ref: DAILYMED-OFT-TRIAMCINOLONA
+    detalle: 'How supplied: vial de un solo uso de 1 mL con 40 mg/mL de acetónido de triamcinolona'
+- id: triamcinolona-40-chile
+  forma: suspension
+  cantidad:
+    valor: 40
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-20727/23
+  - F-28605/24
+  - F-29905/26
+  - F-28322/24
+  usoDirecto: true
+  nota: Registrada en Chile (40 mg/ml). El uso intravítreo es off-label y la preparación inyectable corriente contiene alcohol
+    bencílico (Pediamécum).
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: 'F-20727/23, F-28605/24, F-29905/26 y F-28322/24: triamcinolona acetónido 40 mg/1 mL'
+dosis:
+- indicacion: Visualización durante la vitrectomía
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 40
+      unidad: mg
+    volumenMl: 1
+  texto: 1 a 4 mg (25 a 100 µl de la suspensión de 40 mg/ml) por vía intravítrea. Agitar el vial con fuerza 10 segundos y
+    revisar que no esté aglomerada. Se puede diluir con BSS, comúnmente 1:10 o 1:20 según el cirujano.
+  estatus: autorizada
+  condicion: Autorizada con Triesence (AEMPS y FDA). No está registrada en Chile; con el frasco chileno es off-label. Cada
+    vial es para un solo ojo.
+  fuente:
+    ref: CIMA-OFT-TRIAMCINOLONA-74673
+    detalle: '4.2.1 Posología: entre 1 y 4 mg (25 a 100 µl de suspensión de 40 mg/ml) por vía intravítrea'
+  tambien:
+  - ref: DAILYMED-OFT-TRIAMCINOLONA
+    detalle: 'Dosage for visualization: 1 a 4 mg (25 a 100 microliters of 40 mg/mL) intravitreally'
+- indicacion: Uveítis y otras inflamaciones oculares que no responden a corticoides tópicos
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 40
+      unidad: mg
+    volumenMl: 1
+  texto: Dosis inicial de 4 mg (100 µl de la suspensión de 40 mg/ml), con dosis posteriores según la necesidad.
+  estatus: autorizada
+  condicion: Indicación de la etiqueta FDA de Triesence (oftalmia simpática, arteritis temporal, uveítis). No figura en la
+    ficha técnica europea ni está registrada en Chile.
+  fuente:
+    ref: DAILYMED-OFT-TRIAMCINOLONA
+    detalle: 'Dosage: initial recommended dose for all indications except visualization: 4 mg (100 microliters of 40 mg/mL)'
+  tambien:
+  - ref: PEDIAMECUM-OFT-TRIAMCINOLONA
+    detalle: 'Vía intralesional e intraocular (acetónido): uveítis refractaria, off-label; sin dosis ocular'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La ficha técnica no establece la seguridad ni la eficacia en menores de 18 años (CIMA).
+conservacion:
+- texto: Una vez abierto el vial, usar la suspensión de inmediato. No congelar y proteger de la luz.
+  fuente:
+    ref: CIMA-OFT-TRIAMCINOLONA-74673
+    detalle: 6.3 y 6.4
+contraindicaciones: []
+alertas:
+- Control de la presión intraocular tras la inyección; el riesgo de alza es mayor en pacientes predispuestos, como los diabéticos
+  (CIMA 4.4).
+- La presión intraocular elevada, la endoftalmitis y las cataratas son más frecuentes cuando se usa con fines terapéuticos
+  que para visualizar (CIMA 4.8).
+- Inyectar en el vítreo cuanto antes tras extraerla para que no se deposite en la jeringa; una congelación puede aglomerarla
+  y entonces no debe usarse (CIMA 4.2).
+- La preparación inyectable corriente lleva alcohol bencílico y no debe usarse en recién nacidos ni prematuros (Pediamécum).
+discrepancias: []
+meta: {}

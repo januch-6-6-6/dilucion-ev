@@ -1,0 +1,57 @@
+id: carbacol
+nombre: Carbacol intracameral (Miostat)
+comerciales: []
+grupo: miotico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: miostat-1-5ml
+  forma: solucion
+  cantidad:
+    valor: 150
+    unidad: mcg
+  volumenMl: 1.5
+  registrosIsp: []
+  usoDirecto: true
+  nota: Carbacol 0,01 % (0,1 mg/ml), listo para usar. Sin registro en el ISP.
+  fuente:
+    ref: DAILYMED-OFT-CARBACOL
+    detalle: 'How supplied: vial de 2,0 mL con 1,5 mL de llenado; carbacol 0,01 %'
+dosis:
+- indicacion: Miosis durante la cirugía (y menor alza de la presión intraocular en las primeras 24 h tras catarata)
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 50
+      unidad: mcg
+    volumenMl: 0.5
+  texto: Instilar suavemente en la cámara anterior no más de 0,5 ml (50 µg), antes o después de asegurar las suturas. La miosis
+    es máxima a los 2 a 5 minutos.
+  estatus: autorizada
+  condicion: Autorizada por la FDA (etiqueta de DailyMed). No está registrada en Chile.
+  fuente:
+    ref: DAILYMED-OFT-CARBACOL
+    detalle: 'Dosage and administration: no más de medio mililitro; usual dosage 0,5 mL'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: La etiqueta consultada no trae una pauta pediátrica.
+conservacion:
+- texto: 'Guardar a 15–30 °C. Dosis única: desechar lo que sobre.'
+  fuente:
+    ref: DAILYMED-OFT-CARBACOL
+    detalle: 'Storage: 15° a 30 °C; single-dose'
+contraindicaciones:
+- Hipersensibilidad a cualquier componente (FDA).
+alertas:
+- Retirar el contenido con una jeringa seca y reemplazar la aguja por una cánula atraumática antes de instilar (FDA).
+- Precaución en insuficiencia cardíaca aguda, asma bronquial, úlcera péptica, hipertiroidismo, espasmo gastrointestinal, obstrucción
+  urinaria y enfermedad de Parkinson (FDA).
+discrepancias: []
+meta: {}

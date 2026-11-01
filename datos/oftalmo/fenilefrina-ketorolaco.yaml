@@ -1,0 +1,89 @@
+id: fenilefrina-ketorolaco
+nombre: Fenilefrina + ketorolaco intraocular (Omidria)
+comerciales: []
+grupo: midriatico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: omidria-4ml
+  forma: solucion
+  cantidad:
+    valor: 40.64
+    unidad: mg
+  volumenMl: 4
+  registrosIsp: []
+  usoDirecto: false
+  nota: Concentrado de 4 ml. La cantidad corresponde a la fenilefrina (10,16 mg/ml); lleva además ketorolaco 2,88 mg/ml. Sin
+    registro en el ISP.
+  fuente:
+    ref: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+    detalle: 'How supplied: vial de 5 mL con 4 mL; fenilefrina 10,16 mg/mL y ketorolaco 2,88 mg/mL'
+dosis:
+- indicacion: Mantener la midriasis y reducir el dolor posoperatorio en cirugía de catarata o cambio de lente
+  via: topica_intraoperatoria
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 40.64
+      unidad: mg
+    volumenMl: 500
+  texto: 'Se agrega a la solución de irrigación ocular: 4 ml de Omidria en 500 ml de solución de irrigación, que se usa según
+    se necesite en la cirugía (fenilefrina 0,081 mg/ml y ketorolaco 0,023 mg/ml).'
+  estatus: autorizada
+  condicion: Autorizada por la FDA. No está registrada en Chile. La cantidad es la de fenilefrina.
+  fuente:
+    ref: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+    detalle: 'Dosage and administration: 4 mL de Omidria diluidos en 500 mL de solución de irrigación'
+- indicacion: Mantener la midriasis y reducir el dolor posoperatorio en cirugía de catarata o cambio de lente
+  via: topica_intraoperatoria
+  poblacion: pediatrico
+  final:
+    cantidad:
+      valor: 40.64
+      unidad: mg
+    volumenMl: 500
+  texto: Misma dilución que en adultos (4 ml en 500 ml); la etiqueta no da otra pauta pediátrica.
+  estatus: autorizada
+  condicion: La etiqueta no distingue una dosis pediátrica distinta.
+  fuente:
+    ref: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+    detalle: 'Pediatric use 8.4: seguridad y eficacia establecidas desde neonatos hasta adolescentes'
+protocolos:
+- id: omidria-4-en-500
+  dosis: 0
+  titulo: Diluir un vial en 500 ml de irrigación
+  partida: omidria-4ml
+  pasos:
+  - tipo: diluir
+    tomarMl: 4
+    llevarAMl: 500
+    diluyente: solución de irrigación ocular
+  - tipo: texto
+    texto: Un vial por paciente; no sobrar para otro paciente.
+  resultado:
+    valor: 40.64
+    unidad: mg
+    volumenMl: 500
+  fuente:
+    ref: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+    detalle: 'Dosage and administration 2.1: dilute 4 mL of OMIDRIA in 500 mL'
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La FDA establece seguridad y eficacia desde neonatos hasta adolescentes.
+conservacion:
+- texto: El producto diluido dura como máximo 4 horas a temperatura ambiente o 24 horas refrigerado.
+  horas: 4
+  fuente:
+    ref: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+    detalle: 'Dosage and administration: storage of diluted product'
+contraindicaciones:
+- Hipersensibilidad a cualquiera de sus componentes (FDA).
+alertas:
+- Debe diluirse antes de usarlo en el ojo; no se inyecta puro (FDA).
+discrepancias: []
+meta: {}

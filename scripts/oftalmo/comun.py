@@ -128,10 +128,10 @@ def consenso(detalle):
     return fu(ref, detalle)
 
 
-def web(archivo, clave, institucion, detalle):
+def web(archivo, clave, institucion, detalle, anio=None):
     """Cita un bloque de `web/<archivo>.txt` (bloques separados por «---»: URL en la línea 1, referencia en la 2).
 
-    `clave` es un trozo único de la URL del bloque (p. ej. «PMC12577578»).
+    `clave` es un trozo único de la URL del bloque (p. ej. «PMC12577578»). `anio` solo si la referencia no trae «AAAA;».
     """
     ruta = CRUDOS / 'web' / f'{archivo}.txt'
     bloques = [b.strip().split('\n') for b in ruta.read_text(encoding='utf-8').split('\n---\n')]
@@ -140,10 +140,10 @@ def web(archivo, clave, institucion, detalle):
         raise SystemExit(f'web/{archivo}: la clave {clave} encontró {len(hallados)} bloques')
     url, cita = hallados[0][0].strip(), hallados[0][1].strip()
     m = re.search(r'\.\s*((?:19|20)\d\d);', cita)
-    if not m:
-        raise SystemExit(f'web/{archivo} {clave}: no se pudo leer el año de la referencia')
+    if not m and anio is None:
+        raise SystemExit(f'web/{archivo} {clave}: no se pudo leer el año de la referencia; pásalo con anio=')
     ref = f'WEB-OFT-{archivo.upper()}-{clave.upper()}'
-    _agregar(ref, re.split(r' \((?:Solo|Resumen|Texto)', cita)[0][:240], institucion, url, int(m.group(1)))
+    _agregar(ref, re.split(r' \((?:Solo|Resumen|Texto)', cita)[0][:240], institucion, url, anio or int(m.group(1)))
     return fu(ref, detalle)
 
 

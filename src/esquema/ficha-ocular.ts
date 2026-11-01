@@ -18,6 +18,7 @@ export const ViaOcular = z.enum([
   'intravitrea',
   'subconjuntival',
   'subtenoniana',
+  'subretiniana',
   'retrobulbar',
   'peribulbar',
   'intralesional',

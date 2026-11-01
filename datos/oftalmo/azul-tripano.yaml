@@ -1,0 +1,67 @@
+id: azul-tripano
+nombre: Azul tripano (VisionBlue)
+comerciales: []
+grupo: colorante
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: visionblue-0-5ml
+  forma: jeringa_precargada
+  cantidad:
+    valor: 0.3
+    unidad: mg
+  volumenMl: 0.5
+  registrosIsp: []
+  usoDirecto: true
+  nota: Azul tripano 0,06 % (0,6 mg/ml), jeringa de un solo paciente. Sin registro en el ISP (los colorantes pueden entrar
+    como dispositivo).
+  fuente:
+    ref: DAILYMED-OFT-AZUL-TRIPANO
+    detalle: 'How supplied: jeringa de 2,25 mL llenada a 0,5 mL; azul tripano 0,06 %'
+dosis:
+- indicacion: Teñir la cápsula anterior del cristalino en cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.3
+      unidad: mg
+    volumenMl: 0.5
+  texto: Inyectar una burbuja de aire en la cámara anterior para que el humor acuoso no diluya el colorante; aplicar el colorante
+    sobre la cápsula con una cánula roma; la tinción es suficiente apenas el colorante toca la cápsula. Luego irrigar la cámara
+    con BSS para sacar todo el exceso.
+  estatus: autorizada
+  condicion: Autorizada por la FDA. No está registrada en Chile. La cantidad es el contenido de la jeringa.
+  fuente:
+    ref: DAILYMED-OFT-AZUL-TRIPANO
+    detalle: 'Dosage and administration: jeringa de 0,5 mL; aire, aplicar sobre la cápsula, irrigar con BSS'
+- indicacion: Teñir la cápsula anterior del cristalino en cirugía de catarata
+  via: intracameral
+  poblacion: pediatrico
+  final:
+    cantidad:
+      valor: 0.3
+      unidad: mg
+    volumenMl: 0.5
+  texto: 'La etiqueta no distingue una dosis pediátrica: misma jeringa y técnica.'
+  estatus: autorizada
+  fuente:
+    ref: DAILYMED-OFT-AZUL-TRIPANO
+    detalle: 'Pediatric use: seguridad y eficacia establecidas en pacientes pediátricos'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: La etiqueta indica que la seguridad y eficacia están establecidas; no da otra dosis.
+conservacion: []
+contraindicaciones:
+- 'No usar si se va a implantar un lente acrílico hidrofílico no hidratado (seco): el colorante puede teñir el lente (FDA).'
+alertas:
+- Retirar de inmediato todo el exceso con irrigación profusa de la cámara anterior (FDA).
+- Puede teñir sin querer la cápsula posterior y la cara del vítreo; suele ceder en una semana (FDA).
+discrepancias: []
+meta: {}

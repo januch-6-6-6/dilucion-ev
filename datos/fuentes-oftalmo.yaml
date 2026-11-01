@@ -1,7 +1,25 @@
+- id: CIMA-OFT-ACETILCOLINA-58154
+  titulo: 'Ficha técnica: ACETILCOLINA 10 MG/ML CUSÍ POLVO Y DISOLVENTE PARA SOLUCIÓN PARA INSTILACIÓN POR VÍA INTRAOCULAR'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/58154/FT_58154.html
+  anio: 2026
+  consultado: '2026-10-31'
 - id: CIMA-OFT-CEFUROXIMA-76098
   titulo: 'Ficha técnica: PROKAM 50 MG POLVO PARA SOLUCION INYECTABLE'
   institucion: AEMPS — CIMA (España)
   url: https://cima.aemps.es/cima/dochtml/ft/76098/FT_76098.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-FENILEFRINA-TROPICAMIDA-LIDOCAINA-80177
+  titulo: 'Ficha técnica: FYDRANE 0,2 MG/ML + 3,1 MG/ML + 10 MG/ML SOLUCION INYECTABLE'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/80177/FT_80177.html
+  anio: 2026
+  consultado: '2026-10-31'
+- id: CIMA-OFT-TRIAMCINOLONA-74673
+  titulo: 'Ficha técnica: TRIESENCE 40 mg/ml SUSPENSION INYECTABLE'
+  institucion: AEMPS — CIMA (España)
+  url: https://cima.aemps.es/cima/dochtml/ft/74673/FT_74673.html
   anio: 2026
   consultado: '2026-10-31'
 - id: CONSENSO-SEFH-SEO-SERV-2025
@@ -10,10 +28,55 @@
   url: https://doi.org/10.1016/j.farma.2024.11.010
   anio: 2025
   consultado: '2026-10-31'
+- id: DAILYMED-OFT-ACETILCOLINA
+  titulo: 'Etiqueta FDA (DailyMed): MIOCHOL E (ACETYLCHOLINE CHLORIDE) KIT [BAUSCH & LOMB INCORPORATED]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e701ef07-9499-4b56-931f-f4eb3eedbe24
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-AZUL-BRILLANTE
+  titulo: 'Etiqueta FDA (DailyMed): TISSUEBLUE (BRILLIANT BLUE G) INJECTION, SOLUTION [D.O.R.C. DUTCH OPHTHALMIC RESEARCH
+    CENTER (INTERNATIONAL) B.V.]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9d4b28b4-c582-4e2c-abd9-f7e203378e2d
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-AZUL-TRIPANO
+  titulo: 'Etiqueta FDA (DailyMed): VISIONBLUE (TRYPAN BLUE) INJECTION, SOLUTION [D.O.R.C. DUTCH OPHTHALMIC RESEARCH CENTER
+    (INTERNATIONAL) B.V.]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a44bc2ef-3d7f-4125-a7f7-c5969b1b4142
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-CARBACOL
+  titulo: 'Etiqueta FDA (DailyMed): MIOSTAT (CARBACHOL) SOLUTION [ALCON LABORATORIES, INC.]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f28d7a56-e079-4a8b-ad81-9a97c780de67
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-FENILEFRINA-KETOROLACO
+  titulo: 'Etiqueta FDA (DailyMed): OMIDRIA (PHENYLEPHRINE AND KETOROLAC) INJECTION, SOLUTION, CONCENTRATE [OMEROS CORPORATION]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=21470688-4e81-4ea5-ac38-f72e10552e7e
+  anio: 2026
+  consultado: '2026-10-31'
+- id: DAILYMED-OFT-TRIAMCINOLONA
+  titulo: 'Etiqueta FDA (DailyMed): TRIESENCE (TRIAMCINOLONE ACETONIDE) INJECTION, SUSPENSION [HARROW EYE, LLC]'
+  institucion: U.S. National Library of Medicine — DailyMed (FDA)
+  url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2267978c-72ad-9229-e063-6394a90a09d0
+  anio: 2026
+  consultado: '2026-10-31'
 - id: ISP-REGISTRO-OFTALMO
   titulo: Registro sanitario de productos farmacéuticos (búsqueda por principio activo y por nombre)
   institucion: Instituto de Salud Pública de Chile
   url: https://registrosanitario.ispch.gob.cl/
+  anio: 2026
+  consultado: '2026-10-31'
+- id: PEDIAMECUM-OFT-TRIAMCINOLONA
+  titulo: 'Pediamécum: Detalle de medicamento: Triamcinolona - Pediamécum | Asociación Española de PediatríaDesplaza la página
+    hacia arribaicono arrowTriamcinolona (Dosis y pautas de administración)'
+  institucion: Asociación Española de Pediatría
+  url: https://www.aeped.es/comites/cm/pediamecum/principios-activos/triamcinolona
   anio: 2026
   consultado: '2026-10-31'
 - id: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
@@ -21,6 +84,93 @@
   institucion: Sociedad Española de Farmacia Hospitalaria (SEFH)
   url: https://gruposdetrabajo.sefh.es/farmacotecnia/images/stories/PN_Formulas/C/PN_CEFUROXIMA_INTRACAMERULAR.pdf
   anio: 2014
+  consultado: '2026-10-31'
+- id: WEB-OFT-ADRENALINA-IC-19185242
+  titulo: 'Myers WG, Shugar JK. Optimizing the intracameral dilation regimen for cataract surgery: prospective randomized
+    comparison of 2 solutions. J Cataract Refract Surg. 2009;35(2):273-276. doi:10.1016/j.jcrs.2008.11.002.'
+  institucion: J Cataract Refract Surg (ASCRS)
+  url: https://pubmed.ncbi.nlm.nih.gov/19185242/
+  anio: 2009
+  consultado: '2026-10-31'
+- id: WEB-OFT-ADRENALINA-IC-CRSTODAY.COM
+  titulo: 'Shugar JK. Intracameral Epinephrine for IFIS Prophylaxis. Cataract & Refractive Surgery Today, septiembre 2006.
+    (OJO: revista profesional, NO revisada por pares; la versión revisada por pares es Shugar JK. Use of epinephrine for IFIS
+    prophy'
+  institucion: Cataract & Refractive Surgery Today (no revisada por pares)
+  url: https://crstoday.com/articles/2006-sep/crst0906_14-html
+  anio: 2006
+  consultado: '2026-10-31'
+- id: WEB-OFT-ADRENALINA-IC-PMC4745390
+  titulo: Yu AY, Guo H, Wang QM, Bao FJ, Huang JH. Pupil Dilation with Intracameral Epinephrine Hydrochloride during Phacoemulsification
+    and Intraocular Lens Implantation. J Ophthalmol. 2016;2016:4917659. doi:10.1155/2016/4917659.
+  institucion: Journal of Ophthalmology (Hindawi)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4745390/
+  anio: 2016
+  consultado: '2026-10-31'
+- id: WEB-OFT-ADRENALINA-IC-PMC5897993
+  titulo: 'Nuzzi R, Arnoffi P, Tridico F. Best Prophylactic Strategy in Groups at Risk of Intraoperative Floppy Iris Syndrome
+    Development: Comparison Between Atropine Instillation and Adrenaline Intracameral Injection. Open Ophthalmol J. 2018;12:34-40'
+  institucion: Open Ophthalmology Journal
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5897993/
+  anio: 2018
+  consultado: '2026-10-31'
+- id: WEB-OFT-ADRENALINA-IC-PMC6081127
+  titulo: Jun JH, Bang SP, Yoo YS, Joo CK. Efficacy of 0.015% intracameral epinephrine for significant miosis induced by photodisruption
+    during femtosecond laser-assisted cataract surgery. Medicine (Baltimore). 2018;97(31):e11693. doi:10.1097/MD.0000
+  institucion: Medicine (Baltimore)
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6081127/
+  anio: 2018
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
+  titulo: 'EyeWiki (AAO). Ocular Anesthesia. Lee AG, Queen JH, Bhuta N, Bhat N, Bindiganavile SH, Chahande SS, Wiley Z, Pandit
+    R. Editora: Sonali Singh. Última edición 13-oct-2026.'
+  institucion: American Academy of Ophthalmology (EyeWiki)
+  url: https://eyewiki.org/Ocular_Anesthesia
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+  titulo: EyeWiki (American Academy of Ophthalmology). Retrobulbar Anesthesia. Iniciado por Manuel Alejandro de Alba, MD;
+    colaboradores incl. Tom Eke, Koushik Tripathy, et al. Última edición 5-ago-2026. Consultado 31-oct-2026. (EyeWiki prohíbe
+    reprod
+  institucion: American Academy of Ophthalmology (EyeWiki)
+  url: https://eyewiki.org/Retrobulbar_Anesthesia
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/SUB-TENON
+  titulo: EyeWiki (AAO). Sub-Tenon Anaesthesia. Iniciado por Erving Mario Venegas Garcia, MD; colaboradores incl. Tom Eke,
+    Angela Verkade. Última edición 21-jul-2026.
+  institucion: American Academy of Ophthalmology (EyeWiki)
+  url: https://eyewiki.org/Sub-Tenon_Anaesthesia
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-BLOQUEOS-PMC10614322
+  titulo: 'Lohmann T, Baumgarten S, Prinz J, Walter P, Koutsonas A. Safety and feasibility of sutureless pars-plana vitrectomy
+    in sub-Tenon anesthesia (SAFE-VISA): a prospective study. Eur J Med Res. 2023;28(1):472. doi:10.1186/s40001-023-01447-2.'
+  institucion: European Journal of Medical Research
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10614322/
+  anio: 2023
+  consultado: '2026-10-31'
+- id: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+  titulo: 'EyeWiki (American Academy of Ophthalmology) — Tissue Plasminogen Activator. Autores: Hashem Abu Serhan (iniciador),
+    Yara Abukhaled, Kishan Avaiya, Rishika Geda, Mohd Salim Harun Gigani. Última edición: 11-may-2026. Consultado 31-oct-2026
+    ví'
+  institucion: American Academy of Ophthalmology (EyeWiki)
+  url: https://eyewiki.org/Tissue_Plasminogen_Activator
+  anio: 2026
+  consultado: '2026-10-31'
+- id: WEB-OFT-LIDOCAINA-IC-14709298
+  titulo: Lundberg B, Behndig A. Intracameral mydriatics in phacoemulsification cataract surgery. J Cataract Refract Surg.
+    2003;29(12):2366-2371. doi:10.1016/s0886-3350(03)00522-4.
+  institucion: J Cataract Refract Surg (ASCRS)
+  url: https://pubmed.ncbi.nlm.nih.gov/14709298/
+  anio: 2003
+  consultado: '2026-10-31'
+- id: WEB-OFT-LIDOCAINA-IC-PMC6034170
+  titulo: Mohammadpour M, Riazi-Esfahani H. Transient complete visual loss and subsequent cystoid macular edema after intracameral
+    lidocaine injection following uneventful cataract surgery. J Curr Ophthalmol. 2018;30(2):174-176. doi:10.1016/j.joco.20
+  institucion: Journal of Current Ophthalmology
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6034170/
+  anio: 2018
   consultado: '2026-10-31'
 - id: WEB-OFT-MOXIFLOXACINO-IC-28007104
   titulo: Arshinoff SA, Modabber M. Dose and administration of intracameral moxifloxacin for prophylaxis of postoperative

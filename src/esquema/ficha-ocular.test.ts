@@ -94,4 +94,9 @@ describe('FichaOcular', () => {
     f.pediatria = { estado: 'con_dosis', motivo: 'x' }
     expect(errores(f)).toContain('con_dosis exige al menos una dosis pediátrica')
   })
+  it('acepta la vía subretiniana (alteplasa en hemorragia submacular)', () => {
+    const f = fichaOcularValida()
+    f.dosis[0].via = 'subretiniana'
+    expect(errores(f)).toEqual([])
+  })
 })
