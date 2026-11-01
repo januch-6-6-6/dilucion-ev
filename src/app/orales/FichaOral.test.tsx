@@ -58,6 +58,22 @@ beforeEach(() => {
 })
 
 describe('FichaOral', () => {
+  it('una dosis oftálmica lleva la etiqueta «Oftalmología» y las demás no', () => {
+    crear('oft', {
+      usos: ['oftalmologia'],
+      dosis: [
+        { indicacion: 'Infección general', poblacion: 'adulto', regimen: 'fija', base: 'toma', unidad: 'mg', max: 100, tomasPorDia: 3, estatus: 'autorizada', fuente: f },
+        { indicacion: 'Queratitis herpética', poblacion: 'adulto', regimen: 'fija', base: 'toma', unidad: 'mg', max: 400, tomasPorDia: 2, estatus: 'off_label', oftalmica: true, fuente: f },
+      ],
+      pediatria: { estado: 'solo_adulto', motivo: 'No hay dosis pediátrica en la fuente' },
+    })
+    montar('oft')
+    expect(screen.getAllByText('Oftalmología')).toHaveLength(1)
+    const dato = screen.getByText('Queratitis herpética').closest('.dato') as HTMLElement
+    expect(within(dato).getByText('Oftalmología')).toBeInTheDocument()
+    expect(within(screen.getByText('Infección general').closest('.dato') as HTMLElement).queryByText('Oftalmología')).not.toBeInTheDocument()
+  })
+
   it('una ficha de fuente única muestra el aviso arriba de las pestañas', () => {
     montar('unica')
     const nota = screen.getByRole('note')

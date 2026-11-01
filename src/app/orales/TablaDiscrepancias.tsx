@@ -18,8 +18,8 @@ export default function TablaDiscrepancias({ discrepancias }: { discrepancias: F
             <td>{d.campo}</td>
             <td>
               <ul>
-                {d.valores.map((v) => (
-                  <li key={v.fuente}>
+                {d.valores.map((v, i) => (
+                  <li key={`${v.fuente}-${i}`}>
                     {v.valor} <cite className="fuente">[{v.fuente}]</cite>
                   </li>
                 ))}
