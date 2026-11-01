@@ -14,13 +14,14 @@
 
 ### 1. Toxina botulínica (`toxina-botulinica`) — fuente única
 - La ficha usa la etiqueta FDA (vial de 100 U; diluciones con 8, 4 y 2 ml) y muestra **rangos de dosis en U por 0,1 ml**.
-- **Duda:** «1,25–2,5 U por 0,1 ml» puede estar leyendo como rango de *concentración* lo que la etiqueta da como rango de *dosis por sitio/músculo* (0,05–0,15 ml por músculo). ¿Se entiende bien así en pabellón, o conviene mostrar solo la dosis por sitio?
+- El verificador compara **solo con las diluciones exactas de la etiqueta** (vial de 100 U con 8, 4 o 2 ml = 1,25, 2,5 o 5 U por 0,1 ml). Las dosis en U por sitio y el volumen por músculo quedan como texto, sin verificar.
+- **Duda:** ¿esas tres diluciones son las que se usan en tu pabellón? ¿Falta alguna (p. ej. 10 U por 0,1 ml, con 1 ml)?
 - ¿Se usa en tu pabellón con otra marca u otra dilución?
 
 ### 2. Moxifloxacino intracameral — sin dosis única aceptada
 - Se muestran **dos protocolos**: ASCRS 2023 (0,5 mg = 0,1 ml al 0,5 % sin diluir, o 0,5 ml al 0,1 %) y Arshinoff (3 ml → 10 ml, 150 µg/0,1 ml; se inyectan 0,3–0,4 ml). Rango publicado: 150–500 µg.
 - **Duda 1:** ¿cuál usa tu pabellón? ¿Se muestran bien los dos?
-- **Duda 2 (conocida):** la alternativa «0,5 ml al 0,1 %» del ASCRS hoy sale **en rojo** en el verificador aunque es válida (queda pendiente de arreglar).
+- La alternativa ASCRS de 0,5 ml al 0,1 % ya se acepta como dosis válida (diluir 1 ml de la solución al 0,5 % a 5 ml).
 - La presentación modelada (Megrelan 0,5 %, 15 mg/3 ml) es un supuesto: el ISP no informa el contenido del envase. ¿Es el envase real?
 
 ### 3. Antifibróticos: mitomicina C y 5-FU — alto riesgo, «según el protocolo del cirujano»
@@ -52,4 +53,4 @@ Marcar cada punto con **OK / corregir (qué) / sacar**. Con eso se corrige y rec
 ## Para Héctor (no es para la enfermera)
 - Antes de publicar: borrar la rama de respaldo `oftalmologia-v1-respaldo` (guarda los crudos con copyright) y decidir merge a main.
 - Pendientes de verificar antes de citar: estudio ZEDS (valaciclovir en herpes zóster oftálmico, «withdrawn»), autores de la PPP de cierre angular de la AAO y la conversión de metilprednisolona del ONTT. Hoy **no se citan** en la app.
-- Minors diferidos M1–M7 (verificador y accesibilidad) están en el resumen de la sesión del 1-nov.
+- Los minors M1–M7 ya están arreglados (commit 792c2df).
