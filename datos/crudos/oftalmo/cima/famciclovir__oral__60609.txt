@@ -1,0 +1,383 @@
+FAMVIR 250 mg COMPRIMIDOS RECUBIERTOS CON PELICULA | VIA ORAL COMPRIMIDO RECUBIERTO CON PELICULA
+https://cima.aemps.es/cima/dochtml/ft/60609/FT_60609.html
+
+ 4.1. Indicaciones terapéuticas
+ Infecciones por el virus de la varicela-zoster (VVZ) – herpes zoster
+ Famvir está indicado para
+ el tratamiento de herpes zoster y zoster oftálmico en adultos inmunocompetentes (ver sección 4.4.)
+ el tratamiento de herpes zoster en adultos inmunocomprometidos (ver sección 4.4.)
+ Infecciones por el virus de herpes simple (VHS) – herpes genital
+ Famvir está indicado para
+ el tratamiento del primer episodio y episodios recurrentes del herpes genital en adultos inmunocompetentes
+ el tratamiento de episodios recurrentes del herpes genital en adultos inmunocomprometidos
+ el tratamiento supresor del herpes genital recurrente en adultos inmunocompetentes e inmunocomprometidos
+ No se han realizado estudios clínicos de herpes simple en pacientes inmunocomprometidos que no fueran pacientes infectados por VIH (ver sección 5.1).
+ 4.2. Posología y forma de administración
+ Herpes zoster y zoster oftálmico en adultos inmunocompetentes
+ 500 mg tres veces al día durante siete días.
+ Debe iniciarse el tratamiento tan pronto como se haya diagnosticado herpes zoster o zoster oftálmico.
+ Herpes zoster en adultos inmunocomprometidos
+ 500 mg tres veces al día durante diez días.
+ Debe iniciarse el tratamiento tan pronto como se haya diagnosticado herpes zoster.
+ Herpes genital en adultos inmunocompetentes
+ Primer episodio del herpes genital: 250 mg tres veces al día durante cinco días. Se recomienda iniciar el tratamiento tan pronto como sea posible tras el diagnóstico del primer episodio de herpes genital.
+ Tratamiento de episodios recurrentes del herpes genital: 125 mg dos veces al día durante cinco días. Se recomienda el inicio del tratamiento tan pronto como sea posible tras la aparición de los síntomas prodrómicos (hormigueo, picor, quemazón, dolor) o las lesiones.
+ Herpes genital recurrente en adultos inmunocomprometidos
+ Tratamiento de los episodios recurrentes de herpes genital: 500 mg dos veces al día durante siete días. Se recomienda iniciar el tratamiento tan pronto como sea posible tras la aparición de los síntomas prodrómicos (hormigueo, picor, quemazón, dolor) o las lesiones.
+ Supresión del herpes genital recurrente en adultos inmunocompetentes
+ 250 mg dos veces al día. El tratamiento supresor debe suspenderse a los 12 meses como máximo de tratamiento antiviral continuado, para re-evaluar la frecuencia y gravedad de la recurrencia. El periodo mínimo para la revaloración ha de incluir dos recurrencias. Aquellos pacientes que continúan teniendo una enfermedad significativa han de reiniciar el tratamiento de supresión.
+ Supresión del herpes genital recurrente en adultos inmunocomprometidos
+ 500 mg dos veces al día.
+ Pacientes con insuficiencia renal
+ Se debe prestar especial atención a la posología en pacientes con insuficiencia renal dado que una función renal reducida ocasiona una disminución del aclaramiento de penciclovir, determinado por el aclaramiento de creatinina. En la Tabla 1 se indican las dosis recomendadas para pacientes adultos con insuficiencia renal.
+ Tabla 1 Dosis recomendadas para pacientes adultos con insuficiencia renal
+ Indicación y régimen de dosis nominal
+ | 
+ Aclaramiento de creatinina
+ [ml/min]
+ | 
+ Ajuste del régimen de dosis
+ | 
+ Herpes zoster en adultos inmunocompetentes
+ | 
+ | 
+ | 
+ 500 mg tres veces al día durante 7 días
+ | 
+ ? 60
+ | 
+ 500 mg tres veces al día durante 7 días
+ | 
+ | 
+ 40 a 59
+ | 
+ 500 mg dos veces al día durante 7 días
+ | 
+ | 
+ 20 a 39
+ | 
+ 500 mg una vez al día durante 7 días
+ | 
+ | 
+ < 20
+ | 
+ 250 mg una vez al día durante 7 días
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 250 mg tras cada diálisis durante 7 días
+ | 
+ Herpes zoster en adultos inmunocomprometidos
+ | 
+ | 
+ | 
+ 500 mg tres veces al día durante 10 días
+ | 
+ ? 60
+ | 
+ 500 mg tres veces al día durante 10 días
+ | 
+ | 
+ 40 a 59
+ | 
+ 500 mg dos veces al día durante 10 días
+ | 
+ | 
+ 20 a 39
+ | 
+ 500 mg una vez al día durante 10 días
+ | 
+ | 
+ < 20
+ | 
+ 250 mg una vez al día durante 10 días
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 250 mg tras cada diálisis durante 10 días
+ | 
+ Herpes genital en adultos inmunocompetentes – primer episodio del herpes genital
+ | 
+ | 
+ | 
+ 250 mg tres veces al día durante 5 días
+ | 
+ ? 40
+ | 
+ 250 mg tres veces al día durante 5 días
+ | 
+ | 
+ 20 a 39
+ | 
+ 250 mg dos veces al día durante 5 días
+ | 
+ | 
+ < 20
+ | 
+ 250 mg una vez al día durante 5 días
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 250 mg tras cada diálisis durante 5 días
+ | 
+ Herpes genital en adultos inmunocompetentes – tratamiento de episodios recurrentes del herpes genital
+ | 
+ | 
+ | 
+ 125 mg dos veces al día durante 5 días
+ | 
+ ? 20
+ | 
+ 125 mg dos veces al día durante 5 días
+ | 
+ | 
+ < 20
+ | 
+ 125 mg una vez al día durante 5 días
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 125 mg tras cada diálisis durante 5 días
+ | 
+ Herpes genital en adultos inmunocomprometidos – tratamiento de episodios recurrentes del herpes genital
+ | 
+ | 
+ | 
+ 500 mg dos veces al día durante 7 días
+ | 
+ ? 40
+ | 
+ 500 mg dos veces al día durante 7 días
+ | 
+ | 
+ 20 a 39
+ | 
+ 500 mg una vez al día durante 7 días
+ | 
+ | 
+ < 20
+ | 
+ 250 mg una vez al día durante 7 días
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 250 mg tras cada diálisis durante 7 días
+ | 
+ Supresión del herpes genital recurrente en adultos inmunocompetentes
+ | 
+ | 
+ | 
+ 250 mg dos veces al día
+ | 
+ ? 40
+ | 
+ 250 mg dos veces al día
+ | 
+ | 
+ 20 a 39
+ | 
+ 125 mg dos veces al día
+ | 
+ | 
+ < 20
+ | 
+ 125 mg una vez al día
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 125 mg tras cada diálisis
+ | 
+ Supresión del herpes genital en pacientes adultos inmunocomprometidos
+ | 
+ | 
+ | 
+ 500 mg dos veces al día
+ | 
+ ? 40
+ | 
+ 500 mg dos veces al día
+ | 
+ | 
+ 20 a 39
+ | 
+ 500 mg una vez al día
+ | 
+ | 
+ < 20
+ | 
+ 250 mg una vez al día
+ | 
+ | 
+ Pacientes hemodializados
+ | 
+ 250 mg tras cada diálisis
+ | 
+ Pacientes con insuficiencia renal sometidos a hemodiálisis
+ Dado que una hemodiálisis de 4 h supone una reducción en las concentraciones plasmáticas de penciclovir de hasta el 75%, se debe administrar famciclovir inmediatamente después de la diálisis. El régimen de dosis recomendado en pacientes hemodializados se incluye en la Tabla 1.
+ Pacientes con insuficiencia hepática
+ No se requiere modificación de la posología en pacientes con insuficiencia hepática leve o moderada. No se dispone de datos en pacientes con insuficiencia hepática grave (ver secciones 4.4 y 5.2).
+ Pacientes de edad avanzada (≥ 65 años)
+ No se requiere modificación de la posología a no ser que haya alteración de la función renal.
+ Población pediátrica
+ No se ha establecido la seguridad y la eficacia de famciclovir en niños y adolescentes menores de 18 años de edad. Los datos disponibles se incluyen en las secciones 5.1. y 5.2.
+ Forma de administración
+ Famvir puede administrarse con independencia de las comidas (ver sección 5.2).
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Hipersensibilidad a penciclovir.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Uso en pacientes con insuficiencia renal
+ En pacientes con insuficiencia renal es necesario un ajuste de la dosis (ver secciones 4.2 y 4.9).
+ Uso en pacientes con insuficiencia hepática
+ No se ha estudiado famciclovir en pacientes con insuficiencia hepática grave.
+ La conversión de famciclovir a su metabolito activo penciclovir puede verse afectada en estos pacientes produciendo concentraciones plasmáticas de penciclovir más bajas, con lo que podría disminuir la eficacia de famciclovir.
+ Uso en el tratamiento de herpes zoster
+ La respuesta clínica en concreto, de los pacientes inmunocomprometidos debe ser monitorizada. Ha de considerarse el tratamiento antiviral intravenoso cuando la respuesta al tratamiento por vía oral se considere insuficiente.
+ Pacientes con complicaciones en el herpes zoster, es decir aquellos con implicación de vísceras, zoster diseminado, neuropatías motoras, encefalitis y complicaciones cerebrovasculares, deben tratarse con el tratamiento antiviral intravenoso.
+ Además, los pacientes inmunocomprometidos con zoster oftálmico o aquellos con un alto riesgo de diseminación de la enfermedad e implicación de las vísceras, deben tratarse con antiviral intravenoso.
+ Transmisión del herpes genital
+ Se debe advertir a los pacientes que eviten las relaciones sexuales cuando los síntomas están presentes incluso si se ha iniciado el tratamiento con un antiviral. Durante el tratamiento supresor con agentes antivirales, la frecuencia de la eliminación viral se reduce significativamente. Sin embargo, la transmisión todavía es posible. Por tanto, y además del tratamiento con famciclovir, se recomienda que los pacientes utilicen prácticas de sexo más seguras.
+ Otros
+ Famvir 125 mg y Famvir 250 mg comprimidos recubiertos con película contienen lactosa. Los pacientes con intolerancia hereditaria a la galactosa, insuficiencia de lactasa de Lapp (insuficiencia observada en ciertas poblaciones de Laponia) o malabsorción de glucosa o galactosa no deben tomar este medicamento.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Efectos de otros medicamentos sobre famciclovir
+ No se han identificado interacciones clínicamente significativas.
+ El uso concomitante con probenecid puede aumentar las concentraciones plasmáticas de penciclovir, metabolito activo de famciclovir, por competición en la eliminación.
+ Por ello, en pacientes que reciben 500 mg de famciclovir tres veces al día y a la vez están en tratamiento con probenecid, ha de controlarse la toxicidad. Si los pacientes sienten mareos graves, somnolencia, confusión u otras alteraciones del sistema nervioso central, puede considerarse una reducción de la dosis de famciclovir a 250 mg tres veces al día.
+ Famciclovir necesita de la aldehído oxidasa para convertirse en penciclovir, su metabolito activo. Raloxifeno ha mostrado ser un potente inhibidor de esta enzima in vitro. La coadministración con raloxifeno podría afectar a la formación de penciclovir y con ello, la eficacia de famciclovir. Cuando se administre concomitantemente raloxifeno con famciclovir, debe vigilarse la eficacia clínica del tratamiento antiviral.
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ No hay datos para avalar recomendaciones especiales en mujeres en edad fértil.
+ Se debe advertir a los pacientes con herpes genital que eviten las relaciones sexuales cuando los síntomas están presentes incluso si se ha iniciado el tratamiento. Se recomienda que los pacientes utilicen prácticas de sexo más seguras (ver sección 4.4).
+ 4.6.1. Embarazo
+ Existen datos limitados (menos de 300 resultados de embarazo) del uso de famciclovir en mujeres embarazadas. En base a esta información limitada, el análisis acumulativo de casos de embarazos tanto prospectivos como retrospectivos no proporcionó evidencia de que el producto cause algún defecto específico en el feto o anomalía congénita. Los estudios en animales no han mostrado efectos embriotóxicos o teratogénicos con famciclovir o penciclovir (el metabolito activo de famciclovir). Famciclovir solo se debe utilizar durante el embarazo cuando los beneficios potenciales del tratamiento superen a los riesgos potenciales.
+ 4.6.2. Lactancia
+ Se desconoce si famciclovir se excreta en la leche materna humana. Estudios en animales han mostrado que penciclovir se excreta en la leche materna. Si las condiciones de la madre obligan a tratarla con famciclovir, ha de considerarse la interrupción de la lactancia.
+ 4.6.3. Fertilidad
+ Los datos clínicos no indican ningún impacto de famciclovir en la fertilidad masculina tras el tratamiento a largo plazo de una dosis oral de 250 mg dos veces al día (ver sección 5.3).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios sobre la capacidad de conducir y utilizar maquinas. No obstante, los pacientes que experimenten mareos, somnolencia, confusión u otras alteraciones del sistema nervioso central mientras tomen Famvir, deben abstenerse de conducir o utilizar máquinas.
+ 4.8. Reacciones adversas
+ Se han comunicado cefaleas y náuseas en los estudios clínicos. Estos efectos adversos fueron generalmente de naturaleza leve o moderada y ocurrieron con una incidencia similar en pacientes que recibieron tratamiento con placebo. Todas las demás reacciones adversas han sido añadidas posteriormente a la comercialización.
+ La clasificación por frecuencias de todas las reacciones adversas que se describen a continuación se ha realizado revisando retrospectivamente todos los ensayos clínicos controlados con placebo o con tratamiento activo (n=2326 con Famvir).
+ En la siguiente tabla se incluyen las frecuencias estimadas de las reacciones adversas en base a todos los informes espontáneos y a los casos bibliográficos que se han notificado desde que se comercializó Famvir. Las reacciones adversas (Tabla 2) se enumeran clasificadas por intervalos de frecuencias, usando el siguiente criterio: muy frecuentes (≥ 1/10); frecuentes (≥ 1/100 a < 1/10); poco frecuentes (≥ 1/1.000 a < 1/100); raras (≥ 1/10.000 a < 1/1.000); muy raras (< 1/10.000), frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Tabla 2 Reacciones adversas de los ensayos clínicos y notificaciones espontáneas post-comercialización
+ Trastornos de la sangre y del sistema linfático
+ | 
+ | 
+ Raras:
+ | 
+ Trombocitopenia.
+ | 
+ Trastornos psiquiátricos
+ | 
+ | 
+ Poco frecuentes:
+ | 
+ Estado de confusión (predominantemente en pacientes de edad avanzada).
+ | 
+ | 
+ Raras:
+ | 
+ Alucinaciones.
+ | 
+ Trastornos del sistema nervioso
+ | 
+ | 
+ Muy frecuentes:
+ | 
+ Cefalea.
+ | 
+ | 
+ Frecuentes:
+ | 
+ Mareos.
+ | 
+ | 
+ Poco frecuentes:
+ | 
+ Somnolencia (predominantemente en pacientes de edad avanzada).
+ | 
+ | 
+ Frecuencia no conocida:
+ | 
+ Convulsión*.
+ | 
+ Trastornos cardiacos
+ | 
+ | 
+ Raras:
+ | 
+ Palpitaciones.
+ | 
+ Trastornos gastrointestinales
+ | 
+ | 
+ Frecuentes:
+ | 
+ Náuseas, vómitos, dolor abdominal, diarrea.
+ | 
+ Trastornos hepatobiliares
+ | 
+ | 
+ Frecuentes:
+ | 
+ Alteración de los análisis de la función hepática.
+ | 
+ | 
+ Raras:
+ | 
+ Ictericia colestática.
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ | 
+ Frecuencia no conocida:
+ | 
+ Choque anafiláctico*, reacción anafiláctica*.
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ | 
+ Frecuentes:
+ | 
+ Erupción cutánea, prurito.
+ | 
+ | 
+ Poco frecuentes:
+ | 
+ Angioedema (por ejemplo edema facial, edema palpebral, edema periorbital, edema faríngeo), urticaria.
+ | 
+ | 
+ Frecuencia no conocida:
+ | 
+ Reacciones cutáneas graves* (por ejemplo eritema multiforme, Síndrome de Stevens-Johnson, Necrólisis Epidérmica Tóxica), vasculitis hipersensible.
+ | 
+ | 
+ | 
+ | 
+ * Reacciones adversas al medicamento notificadas durante la experiencia poscomercialización con Famvir a partir de informes de casos espontáneos y datos bibliográficos que no han sido notificados en ensayos clínicos. Debido a que estas reacciones adversas al medicamento se notifican de forma voluntaria a partir de una población de tamaño incierto, no es posible estimar su frecuencia de forma fidedigna, por lo que se categoriza como "frecuencia no conocida".
+ En resumen, las reacciones adversas notificadas de los ensayos clínicos con pacientes inmunocomprometidos fueron similares a los notificados en la población inmunocompetente. Náuseas, vómitos y alteración de los análisis de la función hepática fueron notificadas con una mayor frecuencia, especialmente a dosis elevadas.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: www.notificaRAM.es.
+ 4.9. Sobredosis
+ La experiencia de sobredosis con famciclovir es limitada. En el caso de una sobredosis, se debe administrar tratamiento sintomático y de soporte según corresponda. En raras ocasiones se ha notificado fallo renal agudo en pacientes con enfermedad renal subyacente en los que la dosis de famciclovir no había sido adecuadamente reducida de acuerdo con el grado de disfunción renal. Penciclovir es dializable; las concentraciones plasmáticas se reducen en aproximadamente el 75% tras 4 h de hemodiálisis.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No procede.
+ 6.3. Periodo de validez
+ 3 años.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC. Conservar en el embalaje original para protegerlo de la humedad.
+ 6.5. Naturaleza y contenido del envase
+ Envase tipo blister de PVC/PCTFE (policlorotrifluoroetileno) y lámina de aluminio.
+ Envases de 10 x 125 mg, 21 x 250 mg y 21 x 500 mg.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.

@@ -1,0 +1,65 @@
+id: fenilefrina-tropicamida-lidocaina
+nombre: Tropicamida + fenilefrina + lidocaína intracameral (Mydrane)
+comerciales: []
+grupo: midriatico
+familias:
+- intracameral
+modo: intraocular
+componentes:
+- Tropicamida
+- Fenilefrina
+- Lidocaína
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: mydrane-0-6ml
+  forma: solucion
+  cantidad:
+    valor: 6
+    unidad: mg
+  volumenMl: 0.6
+  registrosIsp:
+  - F-25730/25
+  usoDirecto: true
+  nota: Ampolla de 0,6 ml con tropicamida 0,2 mg/ml, fenilefrina 3,1 mg/ml y lidocaína 10 mg/ml. La cantidad corresponde a
+    la lidocaína. La ficha técnica de referencia es la de Fydrane (CIMA), el mismo medicamento en España.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-25730/25 Mydrane solución inyectable
+dosis:
+- indicacion: Midriasis intraoperatoria y anestesia en cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenMl: 0.2
+  texto: Inyectar lentamente 0,2 ml en una sola inyección intracameral al inicio de la cirugía, por el puerto lateral o el
+    principal. No inyectar dosis adicionales.
+  estatus: autorizada
+  condicion: Autorizada. La cantidad es la de lidocaína (2 mg en 0,2 ml); además lleva 0,04 mg de tropicamida y 0,62 mg de
+    fenilefrina.
+  fuente:
+    ref: CIMA-OFT-FENILEFRINA-TROPICAMIDA-LIDOCAINA-80177
+    detalle: '4.2.1 Posología: 0,2 ml en una única inyección al inicio del procedimiento'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No se ha establecido la seguridad ni la eficacia en niños de 0 a 18 años (CIMA).
+conservacion:
+- texto: No requiere condiciones especiales de conservación.
+  fuente:
+    ref: CIMA-OFT-FENILEFRINA-TROPICAMIDA-LIDOCAINA-80177
+    detalle: 6.4 Precauciones especiales de conservación
+contraindicaciones:
+- Véase la sección 4.3 de la ficha técnica (hipersensibilidad a los principios activos o excipientes).
+alertas:
+- 'No inyectar dosis adicionales a los 0,2 ml: no hay efecto acumulativo significativo y aumenta la pérdida de células endoteliales
+  (CIMA 4.4 y 4.9).'
+- 'No se recomienda con cámara anterior poco profunda ni antecedente de glaucoma agudo de ángulo cerrado: aumenta el riesgo
+  de iridocele y de síndrome del iris flácido (CIMA 4.4).'
+- Usar la aguja con filtro de 5 µm que viene con la ampolla y expulsar el aire de la jeringa hasta ajustar 0,2 ml (CIMA 6.6).
+discrepancias: []
+meta: {}

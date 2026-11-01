@@ -1,0 +1,38 @@
+id: verde-indocianina
+nombre: Verde de indocianina
+comerciales: []
+grupo: colorante
+familias:
+- intracameral
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: icg-25
+  forma: polvo
+  cantidad:
+    valor: 25
+    unidad: mg
+  registrosIsp:
+  - F-22619/26
+  usoDirecto: false
+  nota: Registrado en Chile como inyectable; el uso para teñir la membrana limitante interna es off-label.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-22619/26 Verde de indocianina liofilizado para solución inyectable 25 mg
+dosis: []
+protocolos: []
+sinPauta:
+  motivo: La única etiqueta consultada (DailyMed) es de uso intravenoso e intersticial. Ninguna fuente consultada trae la
+    concentración ni los pasos para teñir la membrana limitante interna.
+pediatria:
+  estado: sin_datos
+  motivo: Sin fuente para el uso ocular.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Uso ocular off-label sin una fuente publicada en este material: usa el protocolo de tu pabellón.'
+discrepancias: []
+meta: {}

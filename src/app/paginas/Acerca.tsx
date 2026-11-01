@@ -67,6 +67,21 @@ export default function Acerca() {
         La calculadora «¿Cuánto dura el frasco?» usa como supuesto 20 gotas por ml, que puedes editar, y nunca supera la validez del envase
         una vez abierto. No calcula ungüentos ni unidosis.
       </p>
+      <h3>Oftalmología (pabellón y orales)</h3>
+      <p>
+        La sección de Oftalmología reúne 41 preparaciones de uso intraocular y periocular (intracamerales, intravítreas, bloqueos, perioculares y
+        antifibróticos) y los 11 medicamentos orales con indicación oftalmológica. Es material de formación, no de prescripción: verifica el
+        protocolo de tu pabellón. Las fuentes (CIMA, DailyMed, SEFH, consenso SEFH-SEO-SERV, guías y artículos) tampoco son <strong>fuentes chilenas</strong>, y 9
+        productos no están registrados en Chile: se muestran con ese aviso.
+      </p>
+      <p>
+        Solo se muestran pasos de preparación que una fuente publica. Cuando no los hay, la ficha lo dice y deja la preparación al protocolo del
+        pabellón. Los antifibróticos y la toxina botulínica son de alto riesgo: su dosis y el tiempo de aplicación los define el cirujano.
+      </p>
+      <p>
+        El verificador solo compara lo que preparaste con la dosis de la fuente; no propone cómo preparar. Supone que el volumen tras reconstituir
+        es igual al diluyente agregado, admite hasta 4 pasos y no cubre mezclas de varias ampollas ni presentaciones listas para usar.
+      </p>
       <p>Proyecto de formación y portafolio de Héctor Salvo Agüero (TENS e Ingeniero en Informática).</p>
       <p>
         Privacidad: la app cuenta visitas de forma anónima con{' '}

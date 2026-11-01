@@ -1,0 +1,128 @@
+[
+ {
+  "Producto": "F-12739/22",
+  "Nombre": "DEPO - MEDROL CON LIDOCAÍNA SUSPENSIÓN INYECTABLE",
+  "FechaRegistro": "2002-12-30",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "LIDOCAINA//METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-20529/23",
+  "Nombre": "DEPO - MEDROL SUSPENSIÓN INYECTABLE 40 mg/1 mL",
+  "FechaRegistro": "2013-11-15",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-1275/23",
+  "Nombre": "DEPO - MEDROL SUSPENSIÓN INYECTABLE 40 mg/1 mL",
+  "FechaRegistro": "1960-09-29",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-1276/23",
+  "Nombre": "DEPO - MEDROL SUSPENSIÓN INYECTABLE 80 mg/1 mL",
+  "FechaRegistro": "1960-09-29",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-17523/24",
+  "Nombre": "MEDROL COMPRIMIDOS 16 mg",
+  "FechaRegistro": "2009-05-08",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-17522/24",
+  "Nombre": "MEDROL COMPRIMIDOS 4 mg",
+  "FechaRegistro": "2009-05-08",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-29567/26",
+  "Nombre": "METILPREDNISOLONA LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg",
+  "FechaRegistro": "2026-03-16",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-19112/21",
+  "Nombre": "METILPREDNISOLONA LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg",
+  "FechaRegistro": "2011-11-25",
+  "Titular": "LABVITALIS S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-27207/22",
+  "Nombre": "METILPREDNISOLONA LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg, CON SOLVENTE",
+  "FechaRegistro": "2022-12-06",
+  "Titular": "PISA FARMACÉUTICA DE CHILE S.p.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-28797/25",
+  "Nombre": "METILPREDNISOLONA POLVO PARA SOLUCIÓN INYECTABLE 1 g",
+  "FechaRegistro": "2025-04-14",
+  "Titular": "BPH SpA",
+  "PA": "METILPREDNISOLONA SUCCINATO SÓDICO"
+ },
+ {
+  "Producto": "F-25608/25",
+  "Nombre": "METILPREDNISOLONA POLVO PARA SOLUCIÓN INYECTABLE 125 mg, CON SOLVENTE",
+  "FechaRegistro": "2020-08-03",
+  "Titular": "BLAU FARMACEUTICA CHILE S.p.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-23536/22",
+  "Nombre": "METILPREDNISOLONA POLVO PARA SOLUCIÓN INYECTABLE 40 mg",
+  "FechaRegistro": "2017-08-08",
+  "Titular": "BPH SpA",
+  "PA": "Metilprednisolona"
+ },
+ {
+  "Producto": "F-25609/25",
+  "Nombre": "METILPREDNISOLONA POLVO PARA SOLUCIÓN INYECTABLE 500 mg, CON SOLVENTE",
+  "FechaRegistro": "2020-08-03",
+  "Titular": "BLAU FARMACEUTICA CHILE S.p.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-29620/26",
+  "Nombre": "METIPRES  SUSPENSIÓN INYECTABLE 40 mg/1 mL (METILPREDNISOLONA ACETATO)",
+  "FechaRegistro": "2026-04-16",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "METILPREDNISOLONA ACETATO"
+ },
+ {
+  "Producto": "F-29621/26",
+  "Nombre": "METIPRES  SUSPENSIÓN INYECTABLE 80 mg/1 mL (METILPREDNISOLONA ACETATO)",
+  "FechaRegistro": "2026-04-16",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "METILPREDNISOLONA ACETATO"
+ },
+ {
+  "Producto": "F-2817/24",
+  "Nombre": "SOLU-MEDROL  LIOFILIZADO PARA SOLUCIÓN INYECTABLE 125 mg, CON SOLVENTE (METILPREDNISOLONA HEMISUCCINATO)",
+  "FechaRegistro": "1974-05-30",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-2816/24",
+  "Nombre": "SOLU-MEDROL LIOFILIZADO PARA SOLUCIÓN INYECTABLE 1 g, CON SOLVENTE (METILPREDNISOLONA HEMISUCCINATO)",
+  "FechaRegistro": "1977-11-27",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ },
+ {
+  "Producto": "F-2819/24",
+  "Nombre": "SOLU-MEDROL POLVO LIOFILIZADO PARA SOLUCIÓN INYECTABLE 500 mg, CON SOLVENTE (METILPREDNISOLONA HEMISUCCINATO)",
+  "FechaRegistro": "1977-11-27",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "METILPREDNISOLONA"
+ }
+]

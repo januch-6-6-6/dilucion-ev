@@ -1,0 +1,196 @@
+CLINDAMICINA NORMON 300 mg/2 ml SOLUCION INYECTABLE EFG | VIA INTRAMUSCULAR VIA INTRAVENOSA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/63667/FT_63667.html
+
+ 4.1. Indicaciones terapéuticas
+ Clindamicina está indicada en el tratamiento de las siguientes infecciones graves causadas por microorganismos sensibles (ver secciones 4.4 y 5.1)
+ Infecciones del tracto respiratorio inferior, tales como empiema, neumonía y absceso pulmonar. 
+ Infecciones de la piel y tejidos blandos.
+ Infecciones intraabdominales, tales como peritonitis y abscesos intraabdominales.
+ Infecciones óseas y articulares, tales como osteomielitis y artritis séptica.
+ Sepsis
+ Infecciones del tracto genital femenino, tales como endometritis, infecciones vaginales postquirúrgicas, abscesos tubo-ováricos no gonocócicos, celulitis pélvica, salpingitis y enfermedad inflamatoria pélvica aguda, siempre y cuando se administre simultáneamente un antibiótico de adecuado espectro frente a bacterias Gram-negativas aerobias.
+ Clindamicina, en combinación con otros fármacos antiprotozoarios, es efectiva en el tratamiento de las siguientes infecciones:
+ Encefalitis toxoplásmica en pacientes con infección por VIH. La asociación de clindamicina con pirimetamina ha demostrado ser eficaz en aquellos pacientes que presentan intolerancia al tratamiento convencional.
+ Pneumonía por Pneumocystis carinii en pacientes con infección por VIH. Clindamicina puede utilizarse en combinación con primaquina en aquellos pacientes que no toleran o no responden adecuadamente al tratamiento convencional
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ La dosis y vía de administración deben determinarse en función de la gravedad de la infección, el estado del paciente y la susceptibilidad de los microorganismos causantes.
+ Adultos
+ En infecciones moderadamente graves la dosis recomendada en adultos es de 1,2 a 1,8 g/día, fraccionada en 3 ó 4 dosis iguales por vía intravenosa o intramuscular.
+ En infecciones graves la dosis recomendada en adultos es de 2,4 a 2,7 g/día, fraccionada en 2, 3 ó 4 dosis iguales por vía intravenosa o intramuscular.
+ En el caso de infecciones muy graves estas dosis pueden ser aumentadas. En situaciones de riesgo vital se han administrado dosis de hasta 4,8 g/día por vía intravenosa, aunque la dosis máxima recomendada es de 2,7 g/día.
+ - Enfermedad inflamatoria pélvica aguda, pacientes hospitalizados: El tratamiento con clindamicina debe iniciarse con 900 mg cada 8 horas por vía intravenosa, además de un antibiótico de apropiado espectro frente a bacterias Gram-negativas aerobias administrado igualmente por vía intravenosa. La administración intravenosa debe continuarse al menos durante 4 días y como mínimo durante 48 horas después de producirse la mejoría clínica del paciente. Seguidamente se administrará clindamicina (hidrocloruro) por vía oral hasta completar un total de 10 a 14 días de tratamiento.
+ - Encefalitis toxoplásmica en pacientes con infección por VIH: El tratamiento debe iniciarse con 600 a 1200 mg de clindamicina cada 6 horas por vía intravenosa o intramuscular durante 2 semanas y continuar posteriormente por vía oral durante otras 6 a 8 semanas.
+ - Pneumonía por Pneumocystis carinii en pacientes con infección por VIH: Deben administrarse dosis entre 600 y 900 mg de clindamicina cada 6 horas ó 900 mg cada 8 horas por vía intravenosa o intramuscular durante 21 días.
+ Duración del tratamiento
+ En general, dependerá del tipo y gravedad de la infección. Así, por ejemplo, infecciones graves como la osteomielitis, pueden requerir al menos 6 semanas de tratamiento.
+ En infecciones causadas por estreptococos beta-hemolíticos del grupo A en pacientes alérgicos a penicilinas se recomienda mantener el tratamiento durante al menos 10 días.
+ Pacientes con insuficiencia renal
+ En general no se requiere ajuste de dosis excepto en casos de deterioro grave de la función renal (ver sección 4.4).
+ Pacientes con insuficiencia hepática:
+ En general no se requiere ajuste de dosis excepto en casos de deterioro grave de la función hepática (ver sección 4.4).
+ Población pediátrica (ver sección 4.4)
+ Para recién nacidos la dosis recomendada es de 15 a 20 mg/Kg/día, fraccionada en 3 ó 4 dosis iguales por vía intravenosa o intramuscular.
+ Para niños prematuros de poco peso pueden ser suficientes dosis más bajas (15 mg/Kg/día).
+ Para lactantes y niños mayores, la dosis recomendada es de 20 a 40 mg/Kg/día, fraccionada en 3 ó 4 dosis iguales por vía intravenosa o intramuscular
+ Forma de administración
+ Vía intravenosa o intramuscular.
+ Administración intravenosa mediante perfusión intravenosa previa dilución. Para consultar las instrucciones de dilución y perfusión del medicamento antes de la administración, ver sección 6.6. No administrar en bolo.
+ Administración intramuscular:
+ No se recomienda la administración de más de 600 mg en inyección única por esta vía, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Clindamicina está contraindicada en pacientes con antecedentes de hipersensibilidad al principio activo y a lincomicina o a alguno de los excipientes incluidos en la sección 6.1.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Antes de iniciar el tratamiento con clindamicina, debe determinarse si el paciente ha sufrido con anterioridad reacciones de hipersensibilidad a fármacos. Si durante el tratamiento con clindamicina ocurriese una reacción de hipersensibilidad, la administración del fármaco se interrumpirá y se adoptará el tratamiento sintomático necesario.
+ Clindamicina debe ser administrada con precaución a pacientes con antecedentes de enfermedad gastrointestinal, especialmente diarrea, colitis ulcerosa, enteritis regional o colitis asociada a antibióticos, puesto que se han producido algunos casos de diarrea persistente e intensa durante o después del tratamiento con clindamicina. Esta diarrea puede ir en ocasiones asociada con sangre o moco en las heces y puede evolucionar a una colitis aguda. Si se produce diarrea persistente e intensa durante el tratamiento, éste debe suspenderse y, si fuera necesario, continuarlo estrictamente bajo vigilancia médica.
+ El uso de antibióticos, entre ellos clindamicina, puede producir alteración en la flora normal del colon con sobrecrecimiento de Clostridium difficile, cuya toxina puede desencadenar un cuadro de colitis pseudomembranosa que cursa con fiebre, dolor abdominal y diarrea que puede ser sanguinolenta. Su aparición puede ocurrir durante el tratamiento o semanas después de finalizado el mismo. Los anticolinérgicos y antiperistálticos pueden agravar el estado del paciente. Los casos leves responden normalmente a la supresión del tratamiento con clindamicina, pero los casos moderados a graves precisan además de tratamiento con soluciones de electrolitos, proteinoterapia y un antibiótico efectivo frente a C. difficile.
+ Los pacientes debilitados y los de edad avanzada pueden ser más propensos a experimentar diarrea severa o colitis pseudomembranosa. En cualquier caso se debe evitar el uso de este medicamento en caso de éstasis intestinal.
+ Como ocurre con otros antibióticos, el uso de clindamicina fosfato puede resultar en un crecimiento exagerado de organismos no susceptibles, especialmente levaduras. Por ello, es esencial una evaluación continuada del estado del paciente y, si se produce una superinfección durante la terapia, deberán tomarse las medidas apropiadas.
+ Los pacientes con disfunción renal no suelen necesitar una reducción de la dosis a menos que la disfunción sea grave. Sin embargo, en pacientes con disfunción renal y/o hepática muy grave acompañada de anomalías metabólicas puede ser necesario reducir la dosis de clindamicina.
+ Se recomienda realizar estudios periódicos de la función hepática y renal, así como recuentos sanguíneos, en pacientes que están recibiendo una terapia prolongada y en niños.
+ Se han notificado de forma ocasional lesiones renales agudas, como insuficiencia renal aguda. En pacientes que padezcan disfunción renal preexistente o estén en tratamiento con medicamentos nefrotóxicos concomitantes se debe considerar realizar un seguimiento de la función renal (ver sección 4.8).
+ En pacientes de edad avanzada no son necesarios ajustes posológicos en condiciones normales, aunque es conveniente tener en cuenta el grado de funcionalismo hepático y renal.
+ Finalmente, clindamicina no debe ser utilizada en el tratamiento de infecciones del Sistema Nervioso Central (por ejemplo, meningitis) dada su escasa penetración en el LCR.
+ Clindamicina puede considerarse una alternativa para el tratamiento y la profilaxis de infecciones graves causadas por cepas sensibles de cocos gram-positivos aerobios. Sin embargo, no se considera como tratamiento de primera elección en estas infecciones a menos que se trate de pacientes alérgicos a penicilinas o en los que otros antibióticos menos tóxicos estén contraindicados.
+ Población pediátrica
+ Salvo estricto criterio médico, no debe usarse este medicamento en recién nacidos, especialmente en prematuros. Cuando se administra a lactantes, se recomienda un adecuado control de las funciones orgánicas.
+ Información sobre excipientes:
+ Este medicamento contiene alcohol bencílico.
+ Clindamicina Normon 300 mg/2ml contiene alcohol bencílico y sodio
+ Este medicamento contine 18 mg de alcohol bencílico por vial.
+ El alcohol bencílico puede provocar reacciones alérgicas. Pueden acumularse grandes cantidades de alcohol bencílico en el organismo y provocar efectos adversos (acidosis metabólica), especialmente en mujeres embarazadas o en periodo de lactancia.
+ Pueden acumularse en el organismo grandes cantidades de alcohol bencílico y provocar efectos adversos (acidosis metabólica), especialmente en pacientes con insuficiencia hepática o renal.
+ El alcohol bencílico se ha relacionado con el riesgo de efctos adversos graves que incluyen problemas respiratorios (“síndrome de jadeo”) en niños.
+ No se debe adminsitrar este medicamento a recien nacidos (hasta 4 semanas de edad).
+ Este medicamento no se debe utilizar durante más de una semana en niños menores de 3 años de edad.
+ Este medicamento contiene 17,2 mg de sodio por vial equivalente a 0,86 % de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ Clindamicina Normon 600 mg/4ml alcohol bencílico y sodio
+ Este medicamento contiene 36 mg de alcohol bencílico por vial.
+ El alcohol bencílico puede provocar reacciones alérgicas. Pueden acumularse grandes cantidades de alcohol bencílico en el organismo y provocar efectos adversos (acidosis metabólica), especialmente en mujeres embarazadas o en periodo de lactancia.
+ Pueden acumularse en el organismo grandes cantidades de alcohol bencílico y provocar efectos adversos (acidosis metabólica), especialmente en pacientes con insuficiencia hepática o renal.
+ El alcohol bencílico se ha relacionado con el riesgo de efctos adversos graves que incluyen problemas respiratorios (“síndrome de jadeo”) en niños.
+ No se debe adminsitrar este medicamento a recien nacidos (hasta 4 semanas de edad).
+ Este medicamento no se debe utilizar durante más de una semana en niños menores de 3 años de edad.
+ Este medicamento contiene 34,6 mg de sodio por vial equivalente a 1,73 % de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Clindamicina posee propiedades bloqueantes neuromusculares y puede potenciar la acción de relajantes musculares no despolarizantes, como los agentes curarizantes (pancuronio, tubocurarina, suxametonio) o los hidrocarburos anestésicos por inhalación (halotano, enflurano, isoflurano, dietiléter). En caso de administración simultánea se debe vigilar estrechamente a los pacientes debido a la posible prolongación del bloqueo neuromuscular.
+ Se ha demostrado antagonismo in vitro entre clindamicina y eritromicina, motivo por el que habitualmente no se administran ambos antibióticos simultáneamente. Así mismo, existen datos que sugieren que clindamicina podría inhibir la actividad bactericida ejercida por los aminoglucósidos. No obstante, ambos antibióticos han sido utilizados simultáneamente en clínica sin que se haya observado una aparente disminución en su actividad.
+ Antagonistas de la vitamina K
+ Se han notificado casos de incremento en los valores de las pruebas de coagulación (TP/INR) y/o sangrado, en pacientes que estaban siendo tratados concomitantemente con clindamicina y un antagonista de la vitamina K (ej. Warfarina, acenocumarol, fluindiona). Por tanto, a los pacientes a los que se les esté administrando algún antagonista de la vitamina K deberán realizársele frecuentemente pruebas de coagulación.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se han realizado estudios adecuados y bien controlados en mujeres embarazadas, por lo que clindamicina no debe ser utilizada durante el embarazo a menos que sea claramente necesario.
+ Lactancia:
+ Clindamicina se excreta en la leche materna con el consiguiente riesgo para el lactante. La decisión de suspender o no el tratamiento durante la lactancia se tomará en función de la importancia del medicamento para la madre.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No existe evidencia de efectos negativos sobre la capacidad para conducir y utilizar máquinas.
+ 4.8. Reacciones adversas
+ La tabla que figura a continuación recoge las reacciones adversas ordenadas de acuerdo a la clasificación por órganos de la convención MedDRA. Las frecuencias se han definido como: muy frecuentes (≥ 1/10), frecuentes (≥ 1/100, <1/10), poco frecuentes (≥ 1/1.000, <1/100), raras (≥ 1/10.000, <1/1.000), muy raras (<1/10.000) y frecuencia no conocida (no puede ser estimada a partir de los datos disponibles). 
+ Clasificación de órganos del sistema MedDRA
+ | 
+ Muy frecuentes
+ (>1/10)
+ | 
+ Frecuencia no conocida (no puede ser estimada a partir de los datos disponibles)
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ | 
+ Neutropenia (leucopenia) transitioria1
+ Eosinofilia 1
+ Agranulocitosis 1
+ Trombocitopenia 1
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ | 
+ Rash cutáneo morbiliforme generalizado
+ Erupciones maculopapulares
+ Urticaria
+ Prurito
+ Eritema multiforme
+ Reacciones tipo Síndrome Steven-Johnson
+ Reacciones anafilactoides
+ | 
+ Trastornos gastrointestinales
+ | 
+ Diarrea
+ | 
+ Colitis pseudomembranosa
+ Nauseas
+ Vómitos
+ Dolor abdominal
+ Flatulencia
+ Gusto metálico desagradable tras la administración intravenosa de dosis altas
+ | 
+ Trastornos hepatobiliares
+ | 
+ | 
+ Ictericia
+ Anormalidades en pruebas de función hepática
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ | 
+ Prurito
+ Vaginitis
+ Dermatitis exfoliativa
+ | 
+ Trastornos renales y urinarios
+ | 
+ | 
+ Azotemia 2
+ Oliguria 2
+ Proteinuria 2
+ Lesión renal aguda 5
+ | 
+ Trastornos cardiacos
+ | 
+ | 
+ Parada cardiopulmonar3
+ Hipotensión 3
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ | 
+ Dolor 4
+ Induración 4
+ Absceso estéril después de inyección intramuscular 4
+ Tromboflebitis tras infusión intravenosa4
+ | 
+ 1 No obstante, la relación entre el tratamiento con clindamicina y las alteraciones hematológicas previas no se ha podido establecer con claridad.
+ 2 Aunque no se ha establecido una relación directa con clindamicina, se han observado algunos casos de azotemia, oliguria y/o proteinuria que evidencian una disfunción renal.
+ 3 Raramente se ha dado algún caso de parada cardiopulmonar e hipotensión tras una administración intravenosa demasiado rápida.
+ 4 Estas reacciones pueden ser minimizadas o evitadas realizando una inyección intramuscular profunda y evitando el uso prolongado de catéteres intravenosos.
+ 5 Véase la sección 4.4
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar las sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaram.es.
+ 4.9. Sobredosis
+ En caso de sobredosis, se deberán realizar pruebas de función hepática, renal y recuentos sanguíneos, instaurándose tratamiento sintomático y suspendiendo la administración del fármaco. La diálisis peritoneal o la hemodiálisis no son efectivas para eliminar el medicamento
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ El fosfato de clindamicina es físicamente incompatible con ampicilina, fenitoína sódica, barbitúricos, aminofilina, gluconato cálcico y sulfato magnésico.
+ 6.3. Periodo de validez
+ Vial sin abrir: El período de validez es de 18 meses.
+ El período de validez una vez que el vial ha sido diluido es de 24 horas a temperatura ambiente (25ºC).
+ 6.4. Precauciones especiales de conservación
+ Antes de abrir: Conservar a temperatura inferior a 25ºC.
+ Se recomienda no mantener a bajas temperaturas, pues, pueden aparecer cristales, los cuales se disuelven al calentar con las manos y agitar suavemente.
+ Después de la dilución: Para las condiciones de conservación tras la dilución del medicamento, ver sección 6.3.
+ Para las condiciones de conservación tras la diluida del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Envase que contine 1 vial o envase clínico con 100 viales de vidrio tipo I, con 300 mg de clindamicina (fosfato) por vial o 600 mg de clindamicina (como fosfato) por vial.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ Información importante para la administración
+ -Administración intravenosa
+ Antes de su administración intravenosa las viales de clindamicina deben ser diluidas en una solución intravenosa compatible (glucosa al 5%, cloruro de sodio 0,9% o solución Ringer lactato) a una concentración de clindamicina que no sobrepase los 12 mg/ml. NO administrar en bolo.
+ Perfusión intermitente
+ La perfusión intravenosa intermitente debe ser realizada en al menos 10 a 60 minutos. La concentración de clindamicina en el diluyente no debe sobrepasar los 12 mg/ml y el porcentaje de perfusión no debe exceder de 30 mg/minuto. Los porcentajes usuales de perfusión son los siguientes: 300 mg de clindamicina en 50 ml de diluyente durante 10 minutos; 600, 900 y 1.200 mg de clindamicina en 100 ml durante 20, 30 y 45 minutos, respectivamente. No se recomienda administrar más de 1.200 mg en una sola infusión de 1 hora.
+ Clindamicina no debe administrarse en bolo.
+ Perfusión inicial y única rápida seguida de perfusión de mantenimiento
+ Alternativamente, la primera dosis de clindamicina puede administrarse en forma de perfusión única rápida (10 minutos o más), seguida de perfusión intravenosa continua de la siguiente forma: para mantener los niveles séricos de clindamicina por encima de 4 ?g/ml, infusión rápida de 10 mg/minuto en 30 minutos y perfusión de mantenimiento de 0,75 mg/minuto; para mantener los niveles séricos de clindamicina por encima de 5 ?g/ml, perfusión rápida de 15 mg/minuto en 30 minutos y perfusión de mantenimiento de 1 mg/minuto; para mantener los niveles séricos de clindamicina por encima de 6 ?g/ml, perfusión rápida de 20 mg/minuto en 30 minutos e infusión de mantenimiento de 1,25 mg/minuto.
+ -Administración intramuscular
+ No se recomienda la administración de más de 600 mg en inyección única por esta vía.

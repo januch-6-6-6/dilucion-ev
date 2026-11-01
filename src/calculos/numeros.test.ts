@@ -10,5 +10,6 @@ describe('parsearNumero', () => {
   it('punto como separador de miles (1.000)', () => expect(parsearNumero('1.000')).toBe(1000))
   it('miles y decimales a la chilena (1.000,5)', () => expect(parsearNumero('1.000,5')).toBe(1000.5))
   it('punto decimal simple sigue funcionando (1.5)', () => expect(parsearNumero('1.5')).toBe(1.5))
+  it('0.100 es un decimal (0,1), no 100: un grupo de miles no empieza con 0', () => expect(parsearNumero('0.100')).toBe(0.1))
   it('negativo es null', () => expect(parsearNumero('-3')).toBeNull())
 })

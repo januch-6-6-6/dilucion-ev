@@ -1,0 +1,141 @@
+id: moxifloxacino
+nombre: Moxifloxacino intracameral
+comerciales: []
+grupo: antibiotico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: oftalmica-0-5
+  forma: solucion
+  cantidad:
+    valor: 15
+    unidad: mg
+  volumenMl: 3
+  registrosIsp:
+  - F-21130/24
+  usoDirecto: false
+  nota: 'Solución oftálmica al 0,5 % (5 mg/ml), registrada en Chile para uso tópico: el uso intracameral es off-label. Cantidad
+    y volumen corresponden a los 3 ml que usa el protocolo de Arshinoff; el ISP no informa el contenido del envase.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-21130/24 Megrelan solución oftálmica 0,5 %
+dosis:
+- indicacion: Profilaxis de endoftalmitis tras cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.5
+      unidad: mg
+    volumenMl: 0.1
+  texto: 'ASCRS 2023: 0,5 mg en total, que se logra con 0,1 ml de la solución al 0,5 % sin diluir (o con 0,5 ml de una al
+    0,1 %).'
+  estatus: off_label
+  condicion: 'La recomendación de la ASCRS se leyó de forma secundaria: su texto completo es solo para socios.'
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12577578
+    detalle: 'Dosis ASCRS: 0,5 mg con 0,1 ml de solución al 0,5 % o 0,5 ml de una al 0,1 %'
+  tambien:
+  - ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12823917
+    detalle: 'Tabla del ECA de Egipto 2022: 0,1 ml (0,5 mg) de moxifloxacino al 0,5 % sin diluir'
+- indicacion: Profilaxis de endoftalmitis tras cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.5
+      unidad: mg
+    volumenMl: 0.5
+  texto: 'ASCRS 2023, alternativa: 0,5 ml de una solución al 0,1 % (1 mg/ml), que también da 0,5 mg en total. Se obtiene,
+    por ejemplo, diluyendo la solución al 0,5 % de 1 ml a 5 ml.'
+  estatus: off_label
+  condicion: Misma recomendación ASCRS leída de forma secundaria. Solo cambia la concentración y el volumen; la dosis total
+    es la misma.
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12577578
+    detalle: 'Dosis ASCRS: 0,5 mg con 0,1 ml de solución al 0,5 % o 0,5 ml de una al 0,1 %'
+- indicacion: Profilaxis de endoftalmitis tras cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 150
+      unidad: mcg
+    volumenMl: 0.1
+  texto: 'Arshinoff 2016: 3 ml de moxifloxacino al 0,5 % + 7 ml de BSS (1,5 mg/ml = 150 µg/0,1 ml). Se inyectan 0,3 a 0,4
+    ml (450 a 600 µg) por el puerto lateral al final de la cirugía, con la incisión principal sellada e hidratada.'
+  estatus: off_label
+  condicion: Los 150 µg/0,1 ml son la concentración de la mezcla; la dosis que se inyecta es de 450 a 600 µg.
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-28007104
+    detalle: 'Resumen: dilución de 3 cc de Vigamox 0,5 % con 7 cc de BSS y 0,3 a 0,4 cc (450 a 600 mcg)'
+protocolos:
+- id: ascrs-sin-diluir
+  dosis: 0
+  titulo: 'ASCRS: solución al 0,5 % sin diluir'
+  partida: oftalmica-0-5
+  pasos:
+  - tipo: texto
+    texto: Usar la solución al 0,5 % tal como viene, sin diluir.
+  - tipo: cargar
+    volumenMl: 0.1
+  resultado:
+    valor: 0.5
+    unidad: mg
+    volumenMl: 0.1
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-PMC12823917
+    detalle: 'Tabla del ECA de Egipto 2022: 0,1 ml (0,5 mg) de moxifloxacino al 0,5 % sin diluir'
+- id: arshinoff-3-7
+  dosis: 2
+  titulo: 'Arshinoff: 3 ml de moxifloxacino 0,5 % + 7 ml de BSS'
+  partida: oftalmica-0-5
+  pasos:
+  - tipo: diluir
+    tomarMl: 3
+    llevarAMl: 10
+    diluyente: solución salina balanceada (BSS)
+  - tipo: texto
+    texto: Inyectar 0,3 a 0,4 ml (450 a 600 µg) por el puerto lateral como último paso de la cirugía.
+  resultado:
+    valor: 150
+    unidad: mcg
+    volumenMl: 0.1
+  fuente:
+    ref: WEB-OFT-MOXIFLOXACINO-IC-28007104
+    detalle: 'Resumen: dilución de 3 cc de Vigamox 0,5 % con 7 cc de BSS'
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'La concentración y el volumen van juntos: 0,1 ml si es al 0,5 % y 0,5 ml si es al 0,1 %. Un error de dosis aumenta el riesgo
+  de síndrome tóxico del segmento anterior (TASS) o de endoftalmitis (ASCRS 2023).'
+- La FDA publicó una alerta sobre eventos adversos del moxifloxacino intraocular preparado fuera de la industria (ASCRS 2023).
+- Preparar la mezcla en el pabellón preocupa por contaminación bacteriana, errores de dilución y TASS (Surawatsatien 2025).
+- Los 160 µg/0,1 ml de la tabla 4 del consenso SEFH-SEO-SERV 2025 (y de Fenniri 2026) son una dosis INTRAVÍTREA, no intracameral.
+- Con 100 µg/0,1 ml hubo una infección por un estafilococo resistente en 3.430 casos; por eso Arshinoff subió la dosis (Arshinoff
+  2016).
+discrepancias:
+- campo: Dosis intracameral por inyección
+  valores:
+  - fuente: WEB-OFT-MOXIFLOXACINO-IC-PMC12577578
+    valor: 0,5 mg en total (ASCRS 2023, leída de forma secundaria)
+  - fuente: WEB-OFT-MOXIFLOXACINO-IC-28007104
+    valor: 450 a 600 µg (0,3 a 0,4 ml de una mezcla de 1,5 mg/ml)
+  - fuente: WEB-OFT-MOXIFLOXACINO-IC-PMC12823917
+    valor: Rango publicado de 150 a 500 µg por inyección
+  - fuente: CONSENSO-SEFH-SEO-SERV-2025
+    valor: '160 µg/0,1 ml: preparación intravítrea, no intracameral'
+  - fuente: WEB-OFT-MOXIFLOXACINO-IC-PMC13405202
+    valor: '160 µg/0,1 ml: dosis intravítrea, no intracameral'
+  mostrado: Los dos protocolos citados (ASCRS y Arshinoff)
+  motivo: 'No hay una dosis única aceptada: el rango publicado va de 150 a 500 µg. Se muestran los dos protocolos con su fuente
+    y el verificador acepta cualquiera de los dos. Verifica el protocolo de tu pabellón.'
+meta: {}

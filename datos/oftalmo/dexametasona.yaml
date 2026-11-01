@@ -1,0 +1,48 @@
+id: dexametasona
+nombre: Dexametasona subconjuntival
+comerciales: []
+grupo: corticoide
+familias:
+- periocular
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: amp-4
+  forma: solucion
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-27214/22
+  usoDirecto: false
+  nota: Dexametasona fosfato 4 mg/ml, de uso intravenoso e intramuscular.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-27214/22 Dexametasona fosfato solución inyectable 4 mg/1 mL
+dosis:
+- indicacion: Corticoide tras cirugía de catarata
+  via: subconjuntival
+  poblacion: adulto
+  texto: 2 mg (0,5 ml de la ampolla de 4 mg/ml) bajo la conjuntiva, junto con gentamicina 20 mg, al final de la cirugía.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía.
+  presentaciones:
+  - amp-4
+  fuente:
+    ref: WEB-OFT-SUBCONJUNTIVALES-PMC13417846
+    detalle: Gentamicina subconjuntival 40 mg/ml, 0,5 ml (20 mg) y dexametasona 4 mg/ml, 0,5 ml (2 mg)
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- Una sola serie respalda esta dosis (cirugía de catarata manual en una misión humanitaria). Verifica el protocolo de tu pabellón.
+- No confundir con el implante intravítreo de dexametasona (Ozurdex), que es otra ficha.
+discrepancias: []
+meta: {}

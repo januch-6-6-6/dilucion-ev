@@ -1,0 +1,61 @@
+id: ocriplasmina
+nombre: Ocriplasmina intravítrea (Jetrea)
+comerciales: []
+grupo: enzima
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: jetrea-0-375
+  forma: solucion
+  cantidad:
+    valor: 0.375
+    unidad: mg
+  volumenMl: 0.3
+  registrosIsp: []
+  usoDirecto: true
+  nota: Formulación lista para inyectar, que no requiere dilución. No aparece en el ISP (31-oct-2026).
+  fuente:
+    ref: CIMA-OFT-OCRIPLASMINA-113819002
+    detalle: '6.5 Jetrea 0,375 mg/0,3 ml: formulación lista para inyectar'
+dosis:
+- indicacion: Tracción vitreomacular, incluso con agujero macular de diámetro menor o igual a 400 micrones
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.125
+      unidad: mg
+    volumenMl: 0.1
+  texto: 0,125 mg en 0,1 ml en inyección intravítrea única. Solo se inyectan 0,1 ml de los 0,3 ml del vial; el resto se descarta.
+  estatus: autorizada
+  condicion: Autorizada en España (CIMA). No figura en el registro del ISP.
+  presentaciones:
+  - jetrea-0-375
+  fuente:
+    ref: CIMA-OFT-OCRIPLASMINA-113819002
+    detalle: '4.2 Posología: 0,125 mg en 0,1 ml de la solución administrados mediante inyección intravítrea'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No hay recomendación de uso específica en menores de 18 años para la tracción vitreomacular (CIMA 4.2).
+conservacion:
+- texto: 'Se conserva congelado (−20 °C) hasta 3 años. Ya descongelado: en nevera (2–8 °C) hasta 1 semana, o por debajo de
+    25 °C hasta 8 horas. No volver a congelar.'
+  horas: 8
+  fuente:
+    ref: CIMA-OFT-OCRIPLASMINA-113819002
+    detalle: 6.3 Periodo de validez
+contraindicaciones:
+- Hipersensibilidad al principio activo o a algún excipiente; infecciones oculares o perioculares activas o sospechadas (CIMA
+  4.3).
+alertas:
+- 'Solo se inyectan 0,1 ml del total de 0,3 ml del vial: descarta el resto antes de inyectar (CIMA 4.2).'
+- Se notificó un caso de subluxación o facodonesis del cristalino en ensayos clínicos en adultos, posiblemente relacionado
+  con el tratamiento (CIMA 4.4).
+discrepancias: []
+meta: {}

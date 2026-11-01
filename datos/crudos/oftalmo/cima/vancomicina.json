@@ -1,0 +1,15 @@
+{
+ "id": "vancomicina",
+ "familia": "intravitreo",
+ "resultados": 12,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "67282",
+   "nombre": "VANCOMICINA SALA 500 MG POLVO PARA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN EFG",
+   "vias": "VIA INTRAVENOSA POLVO PARA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/67282/FT_67282.html",
+   "tipo": "parenteral"
+  }
+ ]
+}

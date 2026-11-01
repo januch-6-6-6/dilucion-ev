@@ -1,0 +1,417 @@
+INTRAZOLINA 1000 mg POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION | VIA INTRAMUSCULAR VIA INTRAVENOSA POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE Y PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/53914/FT_53914.html
+
+ 4.1. Indicaciones terapéuticas
+ Intrazolina está indicada en el tratamiento de las siguientes infecciones en adultos, niños mayores de 1 año y lactantes mayores de 1 mes (ver sección 5.1)
+ Infecciones del aparato respiratorio inferior: exacerbación bacteriana de la bronquitis crónica y neumonía;
+ Infecciones del tracto urinario: pielonefritis;
+ Infecciones de la piel y de tejidos blandos;
+ Infecciones del tracto biliar;
+ Infecciones osteoarticulares;
+ Septicemia;
+ Endocarditis;
+ Profilaxis perioperatoria: La administración perioperatoria de la cefazolina reduce la incidencia de infecciones postoperatorias en pacientes sometidos a cirugía contaminada o potencialmente contaminada, y en aquellos procedimientos en los que la infección de la herida quirúrgica puede representar un riesgo importante para el paciente.
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ La pauta posológica debe establecerse en función de la infección, el estado del paciente y la sensibilidad del microorganismo a la cefazolina.
+ Adultos y adolescentes (de 12 a 18 años): las dosis habituales se recogen en la siguiente tabla (Tabla 1).
+ Tabla 1 Dosis habituales en adultos y adolescentes (de 12 a 18 años)
+ Tipo de infección
+ | 
+ Dosis
+ | 
+ Frecuencia
+ | 
+ Infecciones leves causadas por cocos gram-positivos susceptibles
+ | 
+ 500 mg
+ | 
+ cada 8 horas
+ | 
+ Infecciones del tracto urinario no complicadas
+ | 
+ 1 g
+ | 
+ cada 12 horas
+ | 
+ Infecciones moderadas a graves causadas por gram-negativos
+ | 
+ 500 mg a 1 g
+ | 
+ cada 6 a 8 horas
+ | 
+ Infecciones graves que pongan en riesgo la vida del paciente (p. ej. Endocarditis, septicemia)*
+ | 
+ 1 g a 1,5 g
+ | 
+ cada 6 horas
+ | 
+ * En raras ocasiones se han utilizado dosis de hasta 12 g de cefazolina diarios.
+ Pacientes adultos con insuficiencia renal: la cefazolina no se excreta completamente. Después de administrar la dosis adecuada según la severidad de la infección, se deben seguir las siguientes recomendaciones. La tabla siguiente (tabla 2) puede usarse como guía:
+ Tabla 2 Dosis en adultos con la función renal disminuida
+ Aclaramiento de creatinina
+ (ml/min)
+ | 
+ Creatinina sérica
+ (mg%)
+ | 
+ Dosis
+ | 
+ >55
+ | 
+ <1,5
+ | 
+ Estándar
+ | 
+ 35-54
+ | 
+ 1,6 a 3,0
+ | 
+ Estándar cada 8 horas
+ | 
+ 11-34
+ | 
+ 3,1-4,5
+ | 
+ 50% de la dosis estándar cada 12 horas
+ | 
+ <10
+ | 
+ >4,6
+ | 
+ 50% de la dosis estándar cada 18-24 horas
+ | 
+ Todas las recomendaciones de reducción de la dosis se aplican después de una dosis de carga inicial apropiada a la gravedad de la infección.
+ Población de edad avanzada: No es preciso realizar ajuste de dosis en la población de edad avanzada con función renal normal.
+ Población pediátrica (menores de 12 años y mayores de 1 año): En niños mayores de 1 año, una dosis total diaria de 25 a 50 mg por kg de peso, dividida en tres o cuatro dosis iguales, es eficaz en la mayoría de las infecciones leves a moderadas. La dosis total diaria no debe exceder de 100 mg/kg ni siquiera en casos de infecciones graves (ver tabla 3).
+ Tabla 3 Dosis en niños mayores de un año y menores de 12 años
+ | 
+ 25mg/kg/día
+ | 
+ 50mg/kg/día
+ | 
+ Peso (Kg)
+ | 
+ Tres dosis/día
+ Una dosis cada 8h de:
+ | 
+ Cuatro dosis/día
+ Una dosis cada 6h de:
+ | 
+ Tres dosis/día
+ Una dosis cada 8h de:
+ | 
+ Cuatro dosis/día
+ Una dosis cada 6h
+ de:
+ | 
+ 13,5
+ | 
+ 115 mg
+ | 
+ 85 mg
+ | 
+ 225 mg
+ | 
+ 170 mg
+ | 
+ 18,0
+ | 
+ 150 mg
+ | 
+ 115 mg
+ | 
+ 300 mg
+ | 
+ 225 mg
+ | 
+ 22,5
+ | 
+ 190 mg
+ | 
+ 140 mg
+ | 
+ 375 mg
+ | 
+ 285 mg
+ | 
+ 27,0
+ | 
+ 225 mg
+ | 
+ 170 mg
+ | 
+ 450 mg
+ | 
+ 340 mg
+ | 
+ 31,5
+ | 
+ 265 mg
+ | 
+ 200 mg
+ | 
+ 525 mg
+ | 
+ 400 mg
+ | 
+ 35,0
+ | 
+ 300 mg
+ | 
+ 225 mg
+ | 
+ 600 mg
+ | 
+ 455 mg
+ | 
+ 39,5
+ | 
+ 340 mg
+ | 
+ 255 mg
+ | 
+ 675 mg
+ | 
+ 515 mg
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Lactantes (mayores de un mes y menores de 12 meses): En lactantes mayores de 1 mes, una dosis total diaria de 25 a 50 mg por kg de peso, dividida en tres o cuatro dosis iguales, es eficaz en la mayoría de las infecciones leves a moderadas. La dosis total diaria no debe exceder de 100 mg/kg ni siquiera en casos de infecciones graves (ver tabla 4)
+ Tabla 4 Dosis en lactantes mayores de un mes y menores de 12 meses
+ | 
+ 25mg/kg/día
+ | 
+ 50mg/kg/día
+ | 
+ Peso (Kg)
+ | 
+ Tres dosis/día
+ Una dosis cada 8h de:
+ | 
+ Cuatro dosis/día
+ Una dosis cada 6h de:
+ | 
+ Tres dosis/día
+ Una dosis cada 8h de:
+ | 
+ Cuatro dosis/día
+ Una dosis cada 6h
+ de:
+ | 
+ 4,5
+ | 
+ 40 mg
+ | 
+ 30 mg
+ | 
+ 75 mg
+ | 
+ 55 mg
+ | 
+ 5,5
+ | 
+ 45 mg
+ | 
+ 35 mg
+ | 
+ 90 mg
+ | 
+ 70 mg
+ | 
+ 6,5
+ | 
+ 55 mg
+ | 
+ 40 mg
+ | 
+ 110 mg
+ | 
+ 80 mg
+ | 
+ 7,5
+ | 
+ 65 mg
+ | 
+ 45 mg
+ | 
+ 125 mg
+ | 
+ 95 mg
+ | 
+ 8,5
+ | 
+ 70 mg
+ | 
+ 55 mg
+ | 
+ 140 mg
+ | 
+ 105 mg
+ | 
+ 9,5
+ | 
+ 80 mg
+ | 
+ 60 mg
+ | 
+ 160 mg
+ | 
+ 120 mg
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ La dosis total de cefazolina no debe sobrepasar los 100 mg/kg en niños con un peso menor de 60 kg, y los 6 g al día en niños con más de 60 kg (ver sección 4.4 Advertencias y precauciones especiales de empleo).
+ Niños y lactantes (mayores de un mes) con insuficiencia renal: En niños y lactantes con insuficiencia renal de leve a moderada (aclaramiento de creatinina de 40 a 70 ml/minuto) puede ser suficiente el 60% de la dosis normal diaria dividida cada 12 horas. En niños y lactantes con insuficiencia renal moderada (aclaramiento de creatinina de 20 a 40 ml/minuto) puede ser suficiente el 25% de la dosis normal diaria, dividida en dosis cada 12 horas. En niños y lactantes con insuficiencia renal grave (aclaramiento de creatinina 5 a 20 ml/minuto) deberá ser suficiente el 10% de la dosis normal diaria cada 24 horas. Todas estas recomendaciones posológicas son aplicables después de la dosis inicial.
+ Tabla 5 Dosis en niños (mayores de un año y menores de 12 años) y lactantes (mayores de un mes y menores de 12 meses), con la función renal disminuida
+ Aclaramiento de creatinina
+ (ml/min)
+ | 
+ Dosis
+ | 
+ 40-70
+ | 
+ 60 % de la dosis estándar cada 12 horas
+ | 
+ 20-40
+ | 
+ 25% de la dosis estándar cada 12 horas
+ | 
+ 5-20
+ | 
+ 10% de la dosis estándar cada 24 horas
+ | 
+ La cefazolina no se recomienda en prematuros y lactantes menores de un mes, ya que no se ha establecido la seguridad en este uso.
+ Duración del tratamiento: la duración del tratamiento dependerá de la evolución de la enfermedad. En general, se recomienda mantener el tratamiento antibiótico al menos 2 ó 3 días después de que la fiebre haya desaparecido o se tenga prueba de que se ha erradicado el microorganismo causante de la infección.
+ Uso Perioperatorio:
+ Para el uso perioperatorio se recomiendan las siguientes dosis:
+ a) 1-2 g por vía intravenosa o intramuscular administrado de media a una hora antes de iniciar la cirugía.
+ b) Para procedimientos quirúrgicos prolongados (p. ej. dos horas o más) de 0,5 g a 1 g por vía intravenosa o intramuscular durante la cirugía (la administración se modificará dependiendo de la duración de la intervención).
+ c) 0,5 g a 1 g por vía intravenosa o intramuscular cada seis a ocho horas durante 24 horas postoperatorias.
+ Es importante que la dosis preoperatoria se administre entre media hora y una hora antes de iniciar la intervención para conseguir adecuados niveles séricos y tisulares una vez se inicie ésta, y si fuera necesario, administrarla a intervalos apropiados durante la intervención para proveer niveles suficientes de antibiótico en los momentos de mayor exposición a los microorganismos infectantes. La administración profiláctica de cefazolina debe generalmente suspenderse dentro de un período de 24 horas después de la intervención. Si hay signos de infección deben obtenerse muestras para cultivo, para poder identificar el microorganismo causal, a fin de que se instaure el tratamiento apropiado. En cirugías en las que la presencia de infección puede ser especialmente devastadora (p. ej. cirugía cardiovascular y artroplastias protésicas) la administración profiláctica de cefazolina puede continuarse durante 3-5 días tras la cirugía.
+ Forma de administración
+ La cefazolina en polvo debe ser reconstituida antes de su uso. La solución reconstituida es límpida y amarilla o ligeramente amarillenta.
+ Intrazolina 500 mg polvo y disolvente para solución inyectable y para perfusión e Intrazolina 1.000 mg polvo y disolvente para solución inyectable y para perfusión se administrarán por vía intravenosa lenta de 3 a 5 minutos (ver sección 6.6).
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes o a las cefalosporinas.
+ 4.4. Advertencias y precauciones especiales de empleo
+ La dosis total de cefazolina no debe sobrepasar los 100 mg/kg en niños con un peso menor de 60 kg, y los 6 g al día en niños con más de 60 kg
+ Antes de iniciar el tratamiento con cefazolina, se debe investigar cuidadosamente sobre reacciones previas de hipersensibilidad del paciente a la cefazolina o a otros beta-lactámicos.
+ Hay alguna evidencia de alergia cruzada parcial entre las penicilinas y las cefalosporinas. Hay pacientes que han presentado reacciones graves (incluyendo anafilaxis) a ambos fármacos.
+ En caso de reacción de hipersensibilidad aguda se debe interrumpir el tratamiento inmediatamente y se instaurará el tratamiento adecuado.
+ Las cefalosporinas pueden ser adsorbidas en la superficie de las membranas de los glóbulos rojos haciendo que los anticuerpos de estas células reaccionen frente a ellas. Esto puede producir que el test de Coombs sea positivo y en raras ocasiones puede producirse anemia hemolítica. Debido a esta reacción puede producirse reactividad cruzada con penicilinas.
+ Se han notificado casos de síndrome de Kounis en pacientes tratados con cefazolina. El síndrome de Kounis consiste en síntomas cardiovasculares secundarios a una reacción alérgica o de hipersensibilidad; se asocia a la constricción de las arterias coronarias y puede provocar un infarto de miocardio.
+ Si aparece diarrea, especialmente si es grave, persistente y/o con sangre, durante el tratamiento con cefazolina puede ser un síntoma de diarrea asociada a Clostridium difficile (DACD). La DACD puede ir desde leve hasta grave con riesgo para la vida, la forma más grave es la colitis pseudomembranosa. Es importante considerar el diagnóstico de colitis pseudomembranosa en pacientes con una diarrea grave y durante o después del tratamiento con cefazolina. Si se confirma el diagnóstico de DACD el tratamiento con cefazolina debe suspenderse inmediatamente e iniciar el tratamiento adecuado lo antes posible. Los medicamentos antiperistálticos están contraindicados.
+ El uso prolongado de cefazolina puede producir sobrecrecimiento de microorganismos como Candida spp.
+ Cuando se administra cefazolina a pacientes con insuficiencia renal, se debe reducir la dosis diaria para evitar toxicidad (ver sección 4.2).
+ La cefazolina no se debe administrar por vía intratecal. Existen informes de toxicidad severa del SNC, incluidas convulsiones, cuando se administra cefazolina por esta vía.
+ La cefazolina no se debe administrar a prematuros ni a niños menores de 1 mes ya que no se dispone de datos de seguridad.
+ Precauciones especiales de empleo
+ Velocidad de inyección intravenosa:
+ La solución resultante debe inyectarse lentamente durante 3 a 5 minutos (no se debe administrar en menos de 3 minutos).
+ Interferencias con pruebas de laboratorio:
+ Las soluciones de Benedict, de Fehling o las tabletas de Clinitest® pueden producir una reacción positiva falsa de glucosuria, pero esto no sucede con las tiras enzimáticas. Se han presentado tests antiglobulina (Coombs) directos e indirectos positivos; esto puede también ocurrir en neonatos cuyas madres hayan recibido cefalosporinas antes del parto.
+ Intrazolina 500 mg contiene 1,11 mmol (25,5 mg) de sodio por dosis, lo que deberá tenerse en cuenta en el tratamiento de pacientes con dietas pobres en sodio.
+ Intrazolina 1.000 mg contiene 2,22 mmol (51 mg) de sodio por dosis, lo que deberá tenerse en cuenta en el tratamiento de pacientes con dietas pobres en sodio.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ La cefazolina no debe administrarse junto a otros antibióticos que tengan un mecanismo de acción bacteriostático (por ejemplo, tetraciclinas, sulfonamidas, eritromicina, cloranfenicol) ya que se han observado efectos antagonistas en pruebas in vitro.
+ El probenecid puede disminuir la secreción tubular renal de las cefalosporinas cuando se administran simultáneamente, lo que da lugar a unos niveles sanguíneos más elevados y más prolongados.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No hay estudios adecuados y controlados en mujeres embarazadas. Este fármaco deberá utilizarse solamente en el embarazo cuando sea claramente necesario. La cefazolina atraviesa fácilmente la barrera placentaria pasando a la sangre del cordón umbilical y al líquido amniótico.
+ Uso en el parto: cuando se ha administrado cefazolina antes de una cesárea, los niveles en la sangre del cordón han sido aproximadamente de un cuarto a un tercio los niveles maternos. El fármaco no ha demostrado efectos adversos en el feto.
+ Lactancia
+ La cefazolina está presente en muy bajas concentraciones en la leche materna. Se debe tener precaución cuando se administra cefazolina a mujeres durante la lactancia.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se ha observado que la cefazolina tenga algún efecto sobre la capacidad para conducir vehículos ó utilizar maquinaria.
+ 4.8. Reacciones adversas
+ Muy frecuentes (≥1/10);
+ Frecuentes (≥1/100 a <1/10);
+ Poco frecuentes (≥1/1.000, <1/100):
+ Raras (≥1/10.000, <1/1.000);
+ Muy raras (<1/10.000);
+ Frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Infecciones e infestaciones:
+ Vaginitis y moniliasis genital.
+ Trastornos de la sangre y del sistema linfático:
+ Neutropenia, leucopenia, trombocitopenia y pruebas de Coombs directa e indirecta positivas.
+ Trastornos del sistema inmunológico:
+ Fiebre medicamentosa, erupción cutánea, prurito vulvar, eosinofilia. En casos raros se han descrito reacciones dérmicas graves (Síndrome de Stevens-Johnson) relacionadas con la administración de cefazolina. También pueden producirse reacciones alérgicas graves (shock anafiláctico).
+ Trastornos del sistema nervioso:
+ Ocasionalmente se ha comunicado mareo, malestar, fatiga, insomnio, pesadillas, debilidad y crisis convulsivas, especialmente después de la administración de altas dosis a pacientes con insuficiencia renal grave.
+ Trastornos cardiacos:
+ Síndrome de Kounis (frecuencia no conocida).
+ Trastornos gastrointestinales:
+ Náuseas, anorexia, vómitos, diarrea, aftas bucales (candidiasis) y prurito anal en algunos casos. En la mayoría de los casos se trata de reacciones leves y transitorias. Durante el tratamiento o después pueden aparecer síntomas de colitis pseudomembranosa.
+ Trastornos hepatobiliares:
+ Elevación transitoria de los niveles séricos de SGOT, SGPT, bilirrubina, γ-GT y fosfatasa alcalina. Como en el caso de algunas penicilinas y otras cefalosporinas, se han citado raramente hepatitis e ictericia colestática reversibles.
+ Trastornos de la piel y del tejido subcutáneo:
+ Prurito genital
+ Trastornos renales y urinarios:
+ Elevación transitoria de los niveles de BUN y creatinina sérica e insuficiencia renal. Raramente, nefritis intersticial y otros problemas renales.
+ Trastornos generales y alteraciones en el lugar de la administración:
+ Se ha comunicado dolor en la zona de inyección intramuscular a veces con induración, así como flebitis en el lugar de la inyección.
+ 4.9. Sobredosis
+ Síntomas y signos:
+ Pueden incluir dolor, inflamación y flebitis en el lugar de la inyección. La administración de dosis muy altas de cefalosporinas por vía intravenosa o intramuscular, puede causar mareo, parestesia y dolor de cabeza. Con algunas cefalosporinas pueden aparecer crisis convulsivas, particularmente en pacientes con insuficiencia renal en los que puede ocurrir una acumulación de fármaco (ver sección 4.2). Las anormalidades en los análisis del laboratorio pueden ser una elevación de la creatinina, BUN, enzimas hepáticos y bilirrubina, así como test de Coombs positivo, trombocitosis, trombocitopenia, eosinofilia, leucopenia y prolongación en el tiempo de protrombina.
+ Tratamiento:
+ Se recomienda un tratamiento de soporte, con monitorización hematológica, de la función renal y de función hepática así como de la coagulación hasta que el paciente se mantenga estable. Si se producen convulsiones, se debe suspender la administración del medicamento inmediatamente; puede administrarse tratamiento anticonvulsivante si está clínicamente indicado. En casos de sobredosis grave, especialmente en pacientes con insuficiencia renal, se debe considerar combinar hemodiálisis y hemoperfusión, aunque no hay datos que apoyen claramente estas medidas. La diálisis peritoneal es ineficaz.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No se recomiendan mezclas extemporáneas con otros antibióticos (incluidos aminoglucósidos).
+ 6.3. Periodo de validez
+ Periodo de validez sin reconstituir: 2 años.
+ Periodo de validez una vez reconstituido (ver sección 6.6)
+ Intrazolina 500 mg polvo y disolvente para solución inyectable y para perfusión:
+ El periodo de validez máximo una vez reconstituido el inyectable es de 8 h si se mantiene a 25ºC y de 24 h si se mantiene en nevera a 2-8º C.
+ Intrazolina 1.000 mg polvo y disolvente para solución inyectable y para perfusión:
+ El periodo de validez máximo una vez reconstituido el inyectable es de 8 h si se mantiene a 25ºC y de 24 h si se mantiene en nevera a 2-8º C.
+ 6.4. Precauciones especiales de conservación
+ Polvo (antes de su reconstitución):
+ No conservar a temperatura superior a 25 ºC.
+ Conservar en el embalaje original para protegerlo de la luz.
+ Para las condiciones de conservación del medicamento reconstituido, ver sección 6.3.
+ La coloración ligeramente amarilla de la solución no indica alteración de la eficacia del antibiótico. No deberán ser administradas las soluciones de color amarillo pardo o marrón.
+ 6.5. Naturaleza y contenido del envase
+ INTRAZOLINA 500 mg polvo y disolvente para solución inyectable y para perfusión
+ Vial de vidrio tipo II con 500 mg de cefazolina (como cefazolina sódica) y ampolla de vidrio de tipo I conteniendo 2 ml de agua para preparaciones inyectables. Cada envase contiene 1 vial y 1 ampolla ó 100 viales y 100 ampollas.
+ INTRAZOLINA 1.000 mg polvo y disolvente para solución inyectable y para perfusión
+ Vial de vidrio tipo II con 1.000 mg de cefazolina (como cefazolina sódica) y 1 ampolla de vidrio de tipo I conteniendo 4 ml de agua para preparaciones inyectables. Cada envase contiene 1 vial y 1 ampolla ó 100 viales y 100 ampollas.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Intrazolina 500 mg polvo y disolvente para solución inyectable y para perfusión e Intrazolina 1.000 mg polvo y disolvente para solución inyectable y para perfusión deben ser reconstituidas antes de su uso.
+ Soluciones compatibles para la reconstitución
+ La estabilidad de la solución de intrazolina a una concentración de 1 g/250 ml es satisfactoria en los siguientes líquidos de perfusión:
+ • Cloruro de sodio al 0,9%
+ • Glucosa 5% o 10%
+ • Glucosa 5% en Ringer lactato
+ • Cloruro 0,9% y Glucosa 5%
+ • Cloruro 0,45% y Glucosa 5%
+ • Solución de Ringer lactato
+ • Fructosa 5% o 10% en agua para inyección
+ Para un solo uso, desechar solución sobrante. Debe examinarse la solución antes de inyectarla por si presentase partículas o turbidez. Si se observan partículas extrañas se desechará la solución.
+ La solución no debe mezclarse con otras soluciones diferentes de las arriba señaladas.
+ Administración Intramuscular:
+ Se reconstituye con el disolvente de la ampolla. Agitar bien hasta que se disuelva. La cefazolina debe ser inyectada en una zona de gran masa muscular.
+ La cefazolina intramuscular provoca dolor en el lugar de administración.
+ Administración intravenosa:
+ La cefazolina puede ser administrada por inyección intravenosa directa o por perfusión continua o intermitente.
+ a) Perfusión intravenosa continua o intermitente: la cefazolina puede administrarse a través de los principales sistemas de perfusión de líquidos, controlando la velocidad de perfusión, o en un segundo frasco de perfusión intravenosa. La reconstitución de 500 mg o 1.000 mg de cefazolina se puede realizar en su disolvente y después diluirse en 50 a 100 ml de una de las soluciones intravenosas siguientes:
+ Cloruro de sodio al 0,9%
+ Glucosa al 5% o 10%
+ Glucosa al 5% en Ringer lactato
+ Cloruro de sodio al 0,9% y Glucosa al 5%
+ Cloruro de sodio al 0,45% y Glucosa al 5%
+ Ringer lactato
+ Fructosa al 5% ó 10% en agua para inyección
+ b) Inyección intravenosa directa (bolo): 500 mg o 1.000 mg reconstituidos: se diluyen en un mínimo de 10 ml de agua para preparaciones inyectables.
+ La solución resultante se inyecta lentamente durante 3 a 5 minutos (no se debe administrar en menos de tres minutos).
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.

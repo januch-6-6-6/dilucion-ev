@@ -1,0 +1,100 @@
+id: fluorouracilo
+nombre: 5-fluorouracilo subconjuntival (antifibrótico)
+comerciales: []
+grupo: antimetabolito
+familias:
+- antifibrotico
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: fu-500
+  forma: solucion
+  cantidad:
+    valor: 500
+    unidad: mg
+  volumenMl: 10
+  registrosIsp:
+  - F-27364/23
+  usoDirecto: false
+  nota: Vial de uso intravenoso (50 mg/ml); el uso subconjuntival es off-label. Medicamento peligroso.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-27364/23 Fluorouracilo solución inyectable 500 mg/10 mL
+dosis:
+- indicacion: Antifibrótico tras cirugía de glaucoma (inyección subconjuntival)
+  via: subconjuntival
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 5
+      unidad: mg
+    volumenMl: 0.1
+  texto: '5 mg en total: 0,1 ml del vial de 50 mg/ml, o 0,5 ml de una solución de 10 mg/ml recién preparada. Un experto describe
+    0,1 ml de 50 mg/ml cada 2 días según necesidad.'
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
+    los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - fu-500
+  fuente: &id001
+    ref: WEB-OFT-ANTIFIBROTICOS-PMC12013292
+    detalle: '5-FU recién preparado: 0,5 ml de 10 mg/ml o 0,1 ml de 50 mg/ml; dosis total 5 mg'
+  tambien:
+  - ref: WEB-OFT-ANTIFIBROTICOS-PMC13627763
+    detalle: '5-FU postoperatorio: 0,1 ml de 50 mg/ml cada 2 días según necesidad'
+- indicacion: Antifibrótico tras cirugía de glaucoma (solución de 10 mg/ml)
+  via: subconjuntival
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 5
+      unidad: mg
+    volumenMl: 0.5
+  texto: 0,5 ml de una solución de 10 mg/ml recién preparada (5 mg en total). La fuente no describe cómo se diluye el vial.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía. La dosis y el tiempo de aplicación
+    los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+  presentaciones:
+  - fu-500
+  fuente: *id001
+protocolos:
+- id: vial-sin-diluir
+  dosis: 0
+  titulo: Vial de 50 mg/ml sin diluir
+  partida: fu-500
+  pasos:
+  - tipo: texto
+    texto: Usar el vial tal como viene, sin diluir.
+  - tipo: cargar
+    volumenMl: 0.1
+  resultado:
+    valor: 5
+    unidad: mg
+    volumenMl: 0.1
+  fuente: *id001
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion:
+- texto: Preparar recién antes de usar (Singh 2025).
+  fuente: *id001
+contraindicaciones: []
+alertas:
+- La dosis y el tiempo de aplicación los define el cirujano; esta ficha solo muestra lo que publican las fuentes.
+- 'ALTO RIESGO: con 5-FU hay una alta incidencia de toxicidad corneal (EyeWiki).'
+- Una dosis total baja se define como menos de 19 mg; las demás complicaciones son más frecuentes tras las inyecciones de
+  5-FU, sin aumento de las que amenazan la visión (Cochrane 2014).
+- Hoy se usa de forma ad hoc y casi no como esquema rutinario posoperatorio (Cochrane 2014).
+discrepancias:
+- campo: Concentración de la inyección de 5-FU
+  valores:
+  - fuente: WEB-OFT-ANTIFIBROTICOS-PMC12013292
+    valor: 0,5 ml de 10 mg/ml o 0,1 ml de 50 mg/ml (5 mg)
+  - fuente: WEB-OFT-ANTIFIBROTICOS-PMC13627763
+    valor: 0,1 ml de 50 mg/ml cada 2 días según necesidad
+  mostrado: 5 mg por inyección
+  motivo: Las dos concentraciones dan la misma dosis total de 5 mg; la frecuencia la decide el cirujano.
+meta: {}

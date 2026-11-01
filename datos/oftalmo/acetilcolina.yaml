@@ -1,0 +1,83 @@
+id: acetilcolina
+nombre: Acetilcolina intracameral (Miochol-E)
+comerciales: []
+grupo: miotico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: miochol-20
+  forma: polvo
+  cantidad:
+    valor: 20
+    unidad: mg
+  registrosIsp: []
+  usoDirecto: false
+  nota: Kit con vial de polvo, ampolla de diluyente y filtro de 0,2 µm. Sin registro en el ISP.
+  fuente:
+    ref: DAILYMED-OFT-ACETILCOLINA
+    detalle: 'Kit: vial de 20 mg de acetilcolina + ampolla de diluyente; 20 mg/2 mL (10 mg/mL)'
+dosis:
+- indicacion: Miosis rápida tras sacar el cristalino, en queratoplastia penetrante, iridectomía y otra cirugía del segmento
+    anterior
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenMl: 1
+  texto: Instilar suavemente en la cámara anterior, paralelo a la cara del iris y tangencial al borde pupilar. En la mayoría
+    de los casos bastan 0,5 a 2 ml de la solución de 10 mg/ml. La miosis dura 10 a 20 minutos y la aplicación puede repetirse.
+  estatus: autorizada
+  condicion: Autorizada por la FDA y por la AEMPS (Acetilcolina 10 mg/ml Cusí). No está registrada en Chile.
+  fuente:
+    ref: DAILYMED-OFT-ACETILCOLINA
+    detalle: 'Dosage and administration: 0,5 a 2 mL producen miosis satisfactoria'
+  tambien:
+  - ref: CIMA-OFT-ACETILCOLINA-58154
+    detalle: '4.2.1 Posología: 0,5 a 2 ml; el efecto se mantiene 10-20 minutos'
+protocolos:
+- id: miochol-kit
+  dosis: 0
+  titulo: 'Miochol-E: disolver el vial con el diluyente del kit'
+  partida: miochol-20
+  pasos:
+  - tipo: reconstituir
+    diluyente: diluyente del kit (2 ml)
+    volumenMl: 2
+  - tipo: texto
+    texto: Agitar suavemente hasta disolver, aspirar la solución, retirar la aguja y acoplar el filtro de 0,2 µm y luego una
+      cánula roma.
+  - tipo: texto
+    texto: No aspirar e inyectar por el mismo filtro y no reutilizarlo.
+  resultado:
+    valor: 10
+    unidad: mg
+    volumenMl: 1
+  fuente:
+    ref: DAILYMED-OFT-ACETILCOLINA
+    detalle: Directions for preparing Miochol-E, pasos 1 a 9 (20 mg/2 mL = 10 mg/mL)
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La seguridad y eficacia en pacientes pediátricos no se han establecido (FDA y CIMA).
+conservacion:
+- texto: 'Las soluciones acuosas de acetilcolina son inestables: preparar justo antes de usar y desechar lo que sobre. Guardar
+    el kit a 4–25 °C.'
+  fuente:
+    ref: DAILYMED-OFT-ACETILCOLINA
+    detalle: 'Warnings y Storage: 4 °C a 25 °C'
+contraindicaciones:
+- Hipersensibilidad a cualquier componente (FDA y CIMA).
+alertas:
+- No usar la solución si no está clara e incolora (FDA).
+- En cirugía de catarata, usarla solo después de sacar el cristalino; antes hay que liberar las sinequias que impidan la miosis
+  (FDA).
+- El filtro del kit tiene un volumen muerto de unos 0,6 ml (FDA).
+- 'Una sobredosis se parece a la absorción sistémica: bradicardia, hipotensión, rubor, disnea e hiperhidrosis (CIMA 4.9).'
+discrepancias: []
+meta: {}

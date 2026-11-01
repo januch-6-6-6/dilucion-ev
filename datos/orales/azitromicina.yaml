@@ -6,6 +6,8 @@ comerciales:
 grupo: antibiotico
 ambitos:
 - aps
+usos:
+- oftalmologia
 altoRiesgo: false
 presentaciones:
 - id: comprimido-500-mg
@@ -116,6 +118,57 @@ dosis:
     ref: PEDIAMECUM-AZITROMICINA
     detalle: '"La pauta posológica en función del peso es la siguiente: <15 kg: 10 mg/kg/día ... 15-25 kg: 200 mg/día ...
       26-35 kg: 300 mg/día ... 36-45 kg: 400 mg/día ... 45 kg: la misma dosis que para adultos"'
+- indicacion: Blefaritis y disfunción de glándulas de Meibomio (adultos), pulsos de 3 días
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: 500 mg/día durante 3 días; tres ciclos con 7 días de descanso entre ciclos (serie abierta de 13 pacientes)
+  presentaciones:
+  - comprimido-500-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-BLEPHARITIS-PPP
+    detalle: '"oral azithromycin 500 mg per day for 3 days in three cycles with 7-day intervals yielded good clinical improvement
+      in 13 patients"'
+- indicacion: Blefaritis y disfunción de glándulas de Meibomio (adultos), pulso semanal
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 1000
+  max: 1000
+  tomasPorDia: 1
+  intervaloH: 168
+  estatus: off_label
+  condicion: 1 g por semana durante 3 semanas
+  presentaciones:
+  - comprimido-500-mg
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-BLEPHARITIS-PPP
+    detalle: '"Another acceptable dosing regimen for pulsed oral azithromycin in adults is 1 g per week for 3 weeks."'
+- indicacion: Blefaritis (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 5
+  max: 5
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: 2 meses; ayudó en una serie pequeña de casos
+  presentaciones:
+  - suspension-40-mg-ml
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-BLEFARITIS-BLEPHARITIS-PPP
+    detalle: '"A pediatric dosing regimen for azithromycin of 5 mg/kg daily for 2 months was shown to be helpful for clinical
+      improvement in a small case series."'
 pediatria:
   estado: con_dosis
 discrepancias: []
@@ -142,4 +195,8 @@ alertas:
 - 'Uretritis/cervicitis por Chlamydia y chancroide: 1000 mg en dosis única (adultos, CIMA). No se carga.'
 - 'Riesgo de prolongación del QT y torsade de pointes: precaución con QT largo, alteraciones electrolíticas, bradicardia y
   otros fármacos que prolongan el QT (CIMA, 4.4).'
+- 'Uso oftalmológico (blefaritis, no está en la ficha técnica): por vía oral puede producir arritmias cardíacas en pacientes
+  con problemas cardiovasculares; en una cohorte de Medicaid (Tennessee) hubo un pequeño aumento absoluto de muertes cardiovasculares,
+  mayor en quienes ya tenían alto riesgo cardiovascular (AAO PPP 2024; alerta FDA 2013).'
+- Es la alternativa a las tetraciclinas en niños y en mujeres en edad fértil (AAO PPP 2024).
 meta: {}

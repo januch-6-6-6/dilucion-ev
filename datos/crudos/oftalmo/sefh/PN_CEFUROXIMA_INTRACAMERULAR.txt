@@ -1,0 +1,84 @@
+       CEFUROXIMA 1 MG/0,1 ML INYECCIÓN INTRACEMERULAR
+
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN:
+0,2 ml
+
+COMPOSICIÓN:
+CEFUROXIMA SODICA                                     2 mg
+AGUA PARA INYECCIÓN                                   0,01 ml
+SODIO, CLORURO 0,9%                                   csp 0,2 ml
+
+MATERIAL Y EQUIPO:
+Jeringa 10 ml, aguja, filtro 5 µm, tapón de jeringa estéril, bolsa estéril.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECÍFICO:
+  1. Reconstituir un vial de Cefuroxima 750 mg con 7,5 ml de agua para
+     inyección (API). Agitar hasta total disolución. Concentración resultante:
+     100 mg/ml.
+  2. Con una jeringa de 10 ml cargar 1 ml del vial reconstituido.
+  3. Enrasar con cloruro sódico 0,9% hasta 10 ml. Homogeneizar la mezcla
+     en la misma jeringa. Concentración resultante: 10 mg/ml.
+  4. Filtrar (5 µm) 0,2 mL de esta solución sobre una jeringa de insulina de 1
+     mL. (Se acoplan agujas de 30 G).
+  5. Tapar con tapón estéril, envasar y etiquetar.
+  6. Envasar cada jeringa en una bolsa estéril y etiquetar.
+  7. Tomar la última jeringa y mandar al laboratorio de microbiología para
+     control microbiológico.
+
+ENTORNO:
+Trabajar en campana de flujo laminar horizontal con técnica aséptica.
+
+ENVASADO:
+Jeringa estéril 1 ml o vial estéril.
+
+CONSERVACIÓN:
+Conservar en nevera protegido de la luz o congelado.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Solución transparente, color ligeramente amarillo.
+
+PLAZO DE VALIDEZ:
+Preparación de riesgo medio según guía de Buenas Prácticas de Preparación.
+
+                                                                              1
+7 días / frigorífico (2 ˚C – 8 ˚C)
+4 meses congelado (-21ºC)1,2
+
+INDICACIONES Y POSOLOGÍA:
+Profilaxis de endoftalmitis en cirugías de cataratas. Posología: 1 mg (0,1 ml)
+intracamerular al final de la cirugía.
+
+OBSERVACIONES:
+Actualmente existe comercializada una presentación de Cefuroxima 50 mg
+(Prokam®) para esta indicación.
+
+Si se parte de principio activo no estéril se debe realizar filtración esterilizante
+(filtro 0,22 µm). En caso de preparar lotes se debe realizar el test de esterilidad.
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+BIBLIOGRAFÍA:(1, 2)
+1.     Fleury-Souverain S, Sadeghipour F, Bonnabry P. Development of ready-
+to-use cefuroxime syringes for use in ophthalmology. European Journal of
+Hospital Pharmacy: Science and Practice. 2014;21(1):34-8.
+2.     Endophthalmitis Study Group ESoC, Refractive S. Prophylaxis of
+postoperative endophthalmitis following cataract surgery: results of the ESCRS
+multicenter study and identification of risk factors. J Cataract Refract Surg.
+2007;33(6):978-88.
+
+FECHA ÚLTIMA REVISIÓN:
+Agosto 2014
+
+
+
+
+                                                                                   2
+

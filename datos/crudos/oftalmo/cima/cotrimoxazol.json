@@ -1,0 +1,16 @@
+{
+ "id": "cotrimoxazol",
+ "familia": "oral",
+ "resultados": 8,
+ "tipo": "oral",
+ "sel": [
+  {
+   "nregistro": "48669",
+   "nombre": "SEPTRIN PEDIATRICO 20 mg/100 mg COMPRIMIDOS",
+   "vias": "VIA ORAL COMPRIMIDO",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/48669/FT_48669.html",
+   "tipo": "oral"
+  }
+ ],
+ "corregido": true
+}

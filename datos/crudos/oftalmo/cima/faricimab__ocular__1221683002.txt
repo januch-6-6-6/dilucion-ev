@@ -1,0 +1,355 @@
+VABYSMO 120 MG/ML SOLUCION PARA INYECCION EN JERINGA PRECARGADA | VIA INTRAVITREA SOLUCION INYECTABLE EN JERINGA PRECARGADA
+https://cima.aemps.es/cima/dochtml/ft/1221683002/FT_1221683002.html
+
+ 4.1. Indicaciones terapéuticas
+ Vabysmo está indicado para el tratamiento de pacientes adultos con:
+ degeneración macular asociada a la edad neovascular (exudativa) (DMAEn),
+ alteración visual debida a edema macular diabético (EMD)
+ alteración visual debida al edema macular secundario a la oclusión de la vena retiniana (oclusión de la rama venosa retiniana (ORVR) u oclusión de la vena central retiniana (OVCR)).
+ 4.2. Posología y forma de administración
+ Este medicamento debe ser administrado por un médico cualificado con experiencia en inyecciones intravítreas.
+ Posología
+ Degeneración macular asociada a la edad neovascular (exudativa) (DMAEn)
+ La dosis recomendada es de 6 mg (0,05 ml de solución) administrada mediante inyección intravítrea cada 4 semanas (mensualmente) durante las 3 primeras dosis.
+ Posteriormente, se recomienda una evaluación de la actividad de la enfermedad basada en resultados anatómicos y/o visuales tras 16 y/o 20 semanas del inicio de tratamiento para que el tratamiento pueda ser personalizado. En pacientes sin actividad de la enfermedad, se debe considerar la administración de faricimab cada 16 semanas (4 meses). En pacientes con actividad de la enfermedad, se debe considerar el tratamiento cada 8 semanas (2 meses) o 12 semanas (3 meses). Si los resultados anatómicos y/o visuales cambian, el intervalo de tratamiento se debe ajustar en consecuencia y se debe implementar una reducción del intervalo si los resultados anatómicos y/o visuales se deterioran (ver sección 5.1). Los datos de seguridad para intervalos de tratamiento iguales o inferiores a 8 semanas entre inyecciones son limitados (ver sección 4.4). Se deben programar visitas de monitorización entre las administraciones, basadas en el estado del paciente y el criterio del médico, pero no hay requerimiento de seguimiento mensual entre inyecciones.
+ Alteración visual debida a edema macular diabético (EMD) y edema macular secundario a oclusión de la vena retiniana (OVR)
+ La dosis recomendada es de 6 mg (0,05 ml de solución) administrada mediante inyección intravítrea cada 4 semanas (mensualmente); se pueden necesitar 3 ó más inyecciones mensuales consecutivas.
+ Posteriormente, el tratamiento es individualizado utilizando un enfoque de tratar&extender. En base al criterio del médico sobre los resultados anatómicos y/o visuales del paciente, el intervalo de administración se puede extender en incrementos de hasta 4 semanas. Si los resultados anatómicos y/o visuales cambian, el intervalo de tratamiento se debe ajustar en consecuencia y se debe implementar una reducción del intervalo si los resultados anatómicos y/o visuales se deterioran (ver sección 5.1). No se han estudiado intervalos de tratamiento inferiores a 4 semanas ni superiores a 4 meses entre inyecciones. Se deben agendar visitas de monitorización entre las administraciones, basadas en el estado del paciente y el criterio del médico, pero no hay requerimiento de seguimiento mensual entre inyecciones.
+ Cambio de tratamientos anti-VEGF a Vabysmo
+ Para los pacientes que han recibido tratamiento previo con medicamentos anti-VEGF y van a cambiar a Vabysmo, el régimen de tratamiento puede diferir del utilizado para los pacientes sin tratamiento previo. Los intervalos de tratamiento se determinarán en base al criterio del médico sobre los resultados visuales y/o anatómicos del paciente (ver sección 5.1).
+ En pacientes con resultados visuales y anatómicos estables, los intervalos de tratamiento previos se pueden mantener o prolongar después de la primera inyección de Vabysmo, como con un régimen de administración de tratar&extender. Se dispone de datos limitados sobre el cambio a intervalos de tratar&extender superiores a cada 12 semanas en el momento de cambio inicial.
+ En pacientes con resultados visuales y/o anatómicos subóptimos, el tratamiento con Vabysmo puede comenzar con una inyección cada 4 semanas (mensualmente) durante un máximo de 3 dosis consecutivas, seguidas de un ajuste de los intervalos de inyección, como con un régimen de administración de tratar&extender.
+ En caso de deterioro de los resultados visuales y/o anatómicos, debe acortarse el intervalo de tratamiento en consecuencia y en función del criterio del médico. El intervalo entre 2 inyecciones no debe ser inferior a 1 mes.
+ Duración del tratamiento
+ Este medicamento está destinado para tratamiento a largo plazo. Si los resultados visuales y/o anatómicos indican que el paciente no se está beneficiando del tratamiento continuado, se debe suspender el tratamiento.
+ Dosis retrasadas u omitidas
+ Si una dosis se retrasa o se omite, el paciente debe volver a ser evaluado por el médico en la siguiente visita disponible y continuar recibiendo la dosis bajo el criterio del médico
+ Poblaciones especiales
+ Pacientes de edad avanzada
+ No se requiere ajuste de dosis en pacientes de 65 años de edad o mayores (ver sección 5.2). Los datos de seguridad en pacientes con DMAEn y OVR ≥ 85 años son limitados (ver sección 4.4).
+ Insuficiencia renal
+ No se requiere ajuste de dosis en pacientes con insuficiencia renal (ver sección 5.2).
+ Insuficiencia hepática
+ No se requiere ajuste de dosis en pacientes con insuficiencia hepática (ver sección 5.2).
+ Población pediátrica
+ No existe un uso relevante de este medicamento en la población pediátrica para las indicaciones de DMAEn, EMD y OVR.
+ Forma de administración
+ Únicamente para uso intravítreo. Cada jeringa precargada o vial se debe usar solamente para el tratamiento de un único ojo.
+ Se debe inspeccionar Vabysmo visualmente para descartar partículas y decoloración antes de su administración, y en el caso de estar presentes, no se debe usar la jeringa precargada o el vial.
+ El procedimiento de inyección intravítrea se debe realizar bajo condiciones asépticas, que incluyen el uso de desinfección quirúrgica de manos, un campo estéril y un blefarostato estéril para los párpados (o equivalente). Se debe evaluar cuidadosamente el historial médico del paciente sobre reacciones de hipersensibilidad antes de realizar el procedimiento intravítreo (ver sección 4.8). Antes de la inyección, se debe administrar anestesia adecuada y un microbicida tópico de amplio espectro para desinfectar la piel periocular, el párpado y la superficie ocular.
+ Jeringa precargada
+ La jeringa precargada contiene un exceso de volumen. El exceso de volumen se debe eliminar antes de inyectar la dosis recomendada. Inyectar todo el volumen de la jeringa precargada puede resultar en una sobredosis.
+ Para eliminar las burbujas de aire y el exceso de medicamento, deslice lentamente el vástago del émbolo hasta que el borde inferior de la cúpula del tapón de goma esté alineado con la marca de dosis 0,05 ml (ver sección 4.9 y 6.6).
+ La aguja de inyección con filtro (incluída en el envase) se debe insertar 3,5 a 4,0 mm por detrás del limbo en la cavidad vítrea, evitando el meridiano horizontal y en dirección al centro del globo. A continuación, el volumen de 0,05 ml se libera lentamente; las inyecciones consecutivas se deben administrar en un sitio diferente de la esclera.
+ Vial
+ La aguja de inyección (calibre 30 x ½ pulgada, no incluída en el envase) se debe insertar 3,5 a 4,0 mm por detrás del limbo en la cavidad vítrea, evitando el meridiano horizontal y en dirección al centro del globo. A continuación, el volumen de inyección de 0,05 ml se libera lentamente; las inyecciones consecutivas se deben administrar en un sitio diferente de la esclera.
+ Seguimiento tras inyección
+ Después de la inyección, la eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ Inmediatamente después de la inyección intravítrea, los pacientes deben ser monitorizados para poder detectar un posible aumento de la presión intraocular. La adecuada monitorización consiste en una comprobación de la perfusión de la cabeza del nervio óptico o una tonometría. Si fuera necesario, debe estar disponible un equipo de paracentesis estéril.
+ Después de la inyección intravítrea, se debe instruir a los pacientes para notificar inmediatamente cualquier síntoma que sugiera endoftalmitis (p. ej. pérdida de visión, dolor ocular, enrojecimiento del ojo, fotofobia, visión borrosa).
+ Para consultar las instrucciones de manejo del medicamento antes de la administración, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Infecciones activas o sospecha de infecciones oculares o perioculares.
+ Inflamación intraocular activa.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Trazabilidad
+ Con objeto de mejorar la trazabilidad de los medicamentos biológicos, el nombre y el número de lote del medicamento administrado deben estar claramente registrados.
+ Reacciones relacionadas con la inyección intravítrea
+ Las inyecciones intravítreas, incluyendo aquellas con faricimab, se han asociado con endoftalmitis, inflamación intraocular, desprendimiento de la retina regmatógeno, desgarro retiniano y catarata traumática iatrogénica (ver sección 4.8). Siempre se deben emplear técnicas asépticas de inyección cuando se administre Vabysmo. Se debe instruir a los pacientes para notificar inmediatamente cualquier síntoma, como dolor, pérdida de visión, fotofobia, visión borrosa, partículas flotantes o enrojecimiento, que sugiera endoftalmitis, o de cualquiera de las reacciones adversas mencionadas anteriormente, para permitir un manejo temprano y adecuado. Los pacientes con una mayor frecuencia de inyecciones pueden tener un mayor riesgo de complicaciones del procedimiento.
+ Aumento de la presión intraocular
+ Se han observado incrementos transitorios de la presión intraocular (PIO) en los 60 minutos desde la inyección intravítrea, incluyendo aquellas con faricimab (ver sección 4.8). Se necesita especial precaución en los pacientes con glaucoma mal controlado (no inyecte Vabysmo mientras la PIO es ≥ 30 mmHg). En todos los casos, tanto la PIO como la perfusión de la cabeza del nervio óptico se deben monitorizar y manejar adecuadamente.
+ Efectos sistémicos
+ Se han notificado acontecimientos adversos sistémicos incluyendo eventos tromboembólicos arteriales después de inyecciones intravítreas de inhibidores de factor de crecimiento endotelial vascular (VEGF) y existe el riesgo teórico de que éstos puedan estar relacionados con la inhibición del VEGF. Se observó una tasa de incidencia baja de acontecimientos tromboembólicos arteriales en los ensayos clínicos de faricimab en pacientes con DMAEn, EMD y OVR. Esta incidencia es similar a la notificada en pacientes en otros ensayos clínicos con inhibidores anti-VEGF. Los datos sobre la seguridad del tratamiento con faricimab en pacientes con EMD con presión arterial sanguínea alta (≥ 140/90 mmHg) y enfermedad vascular, y en pacientes con DMAEn y OVR ≥ 85 años son limitados.
+ Inmunogenicidad
+ Dado que se trata de una proteína terapéutica, existe un potencial de inmunogenicidad con faricimab (ver sección 4.8). Se debe instruir a los pacientes para informar a su médico de cualquier signo o síntoma de inflamación intraocular como pérdida de visión, dolor ocular, aumento de la sensibilidad a la luz, partículas flotantes o empeoramiento del enrojecimiento ocular, que podrían ser un signo clínico atribuible a hipersensibilidad frente a faricimab (ver sección 4.8).
+ Tratamiento bilateral
+ No se ha estudiado la seguridad y eficacia de faricimab administrado en ambos ojos simultáneamente. El tratamiento bilateral podría causar reacciones adversas en ambos ojos y/o podría llevar potencialmente a un incremento en la exposición sistémica, lo que puede aumentar el riesgo de reacciones adversas sistémicas. Hasta que estén disponibles datos para el uso bilateral, éste es un riesgo teórico para faricimab.
+ Uso concomitante con otros anti-VEGF
+ No existen datos disponibles sobre el uso concomitante de faricimab con medicamentos anti-VEGF en el mismo ojo. Faricimab no se debe administrar simultáneamente con otros medicamentos anti-VEGF (sistémicos u oculares).
+ Uso de otras agujas de inyección con la jeringa precargada
+ Utilizar solo la jeringa precargada con la aguja de inyección con filtro incluida en el envase. No hay datos clínicos disponibles sobre el uso de otras agujas de inyección con la jeringa precargada.
+ Aplazamiento del tratamiento
+ El tratamiento se debe aplazar en los pacientes que tengan:
+ Desprendimiento de la retina regmatógeno, agujeros maculares de grado 3 o 4, rotura retiniana; el tratamiento no se debe reiniciar hasta que se haya realizado una adecuada reparación.
+ Disminución en la Mejor Agudeza Visual Corregida (MAVC) de ≥ 30 letras relacionada con el tratamiento, comparada con la última evaluación de agudeza visual; el tratamiento no se debe reanudar antes del siguiente tratamiento programado.
+ Presión intraocular de ≥ 30 mmHg.
+ Hemorragia subretiniana que involucra el centro de la fóvea o si el tamaño de la hemorragia es ≥ 50%, del total del área de la lesión.
+ Cirugía intraocular realizada o planeada durante los previos o los próximos 28 días; el tratamiento no se debe reanudar antes del siguiente tratamiento programado.
+ Desgarro del epitelio pigmentario de la retina
+ El desgarro del epitelio pigmentario de la retina (EPR) es una complicación del desprendimiento del epitelio pigmentario (DEP) en pacientes con DMAEn. Los factores de riesgo asociados con el desarrollo de desgarro del epitelio pigmentario de la retina después de terapia anti-VEGF para la DMAEn incluyen un desprendimiento del epitelio pigmentario extenso y/o elevado. Cuando se inicie terapia con faricimab, se debe tener precaución en los pacientes con factores de riesgo de desgarro del epitelio pigmentario de la retina. El desgarro del EPR es frecuente en pacientes con DMAEn con DEP tratados con agentes anti-VEGF intravítreos (IVT) incluido faricimab. Hubo una tasa superior de desgarro del EPR en el grupo de faricimab (2,9%) comparado con el grupo de aflibercept (1,5%). La mayoría de los acontecimientos ocurrieron durante la fase de carga y fueron de leves a moderados, sin impacto en la visión.
+ Poblaciones con datos limitados
+ La experiencia es limitada en el tratamiento de pacientes con DMAEn y OVR ≥ 85 años y con EMD con diabetes tipo I, pacientes con una hemoglobina glicosilada (en inglés, HbA1c) de más del 10%, pacientes con alto riesgo de retinopatía diabética proliferativa (RD), alta presión sanguínea (≥ 140/90 mmHg) y enfermedad vascular, intervalos de administración mantenidos inferiores a cada 8 semanas, o pacientes con DMAEn, EMD y OVR con infecciones sistémicas activas. Hay información de seguridad limitada sobre intervalos de administración mantenidos iguales o inferiores a cada 8 semanas y éstos podrían estar asociados con un mayor riesgo de reacciones adversas sistémicas y oculares, incluyendo reacciones adversas graves. Tampoco hay experiencia de tratamiento con faricimab en pacientes diabéticos o pacientes con OVR con hipertensión no controlada y pacientes con OVR que han fallado a terapia previa. El médico debe tener en cuenta esta falta de información a la hora de tratar dichos pacientes.
+ Contenido en sodio
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por dosis, esto es, esencialmente “exento de sodio”.
+ Contenido en polisorbato
+ Este medicamento contiene 0,02 mg de polisorbato por dosis de 0,05 ml. A los pacientes con hipersensibilidad al polisorbato no se les debe administrar este medicamento.
+ Materiales educativos
+ Los médicos prescriptores deben estar familiarizados con la guía para el paciente preparada para garantizar que los pacientes conocen los signos y síntomas de inflamación intraocular y endoftalmitis, y deben entregársela al paciente/cuidador explicando estos acontecimientos.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones. Según la biotransformación y eliminación de faricimab (ver sección 5.2) no se esperan interacciones. Sin embargo, faricimab no se debe administrar concomitantemente con otros medicamentos anti-VEGF sistémicos u oculares (ver sección 4.4).
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ Las mujeres en edad fértil deben usar métodos anticonceptivos eficaces durante el tratamiento y al menos durante 3 meses después de la última inyección intravítrea de faricimab.
+ Embarazo
+ No existen o existen datos limitados del uso de faricimab en mujeres embarazadas. La exposición sistémica a faricimab es baja tras la administración ocular, pero debido a su mecanismo de acción (inhibición VEGF), faricimab se debe tratar como potencialmente teratogénico y embrio-fetotóxico (ver sección 5.3).
+ Faricimab no debe utilizarse durante el embarazo a no ser que el beneficio potencial supere el riesgo potencial para el feto.
+ Lactancia
+ Se desconoce si faricimab se excreta en la leche materna. No se puede excluir el riesgo de la lactancia en el recién nacido/niño. Vabysmo no se debe utilizar durante la lactancia. Se debe decidir si interrumpir la lactancia o si interrumpir/abstenerse de recibir tratamiento con faricimab teniendo en cuenta el beneficio de la lactancia para el niño y el beneficio de la terapia para la madre.
+ Fertilidad
+ No se observaron efectos en los órganos reproductores ni en la fertilidad en un estudio de 6 meses en monos cinomolgos con faricimab (ver sección 5.3).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de Vabysmo sobre la capacidad para conducir y utilizar máquinas es pequeña. Pueden ocurrir alteraciones visuales transitorias después de la inyección intravítrea y de la exploración ocular asociada. Los pacientes no deben conducir ni utilizar máquinas hasta que la función visual se haya recuperado suficientemente.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ Las reacciones adversas más frecuentemente notificadas fueron cataratas (10%), hemorragia conjuntival (7%), desprendimiento de vítreo (4%), aumento de la PIO (4%), partículas flotantes en el vítreo (4%), dolor ocular (3%) y desgarro del epitelio pigmentario de la retina (sólo en DMAEn) (3%).
+ Las reacciones adversas más graves fueron uveítis (0,5%), endoftalmitis (0,4%), vitritis (0,4%), desgarro retiniano (0,2%), desprendimiento de la retina regmatógeno (0,1%) y catarata traumática (< 0,1%) (ver sección 4.4).
+ Tabla de reacciones adversas
+ Las reacciones adversas notificadas en ensayos clínicos o durante la vigilancia poscomercialziación se listan de acuerdo al sistema de clasificación por órganos y sistemas de MedDRA y se enumeran por frecuencia usando el siguiente criterio: muy frecuentes (≥ 1/10), frecuentes (≥ 1/100 a < 1/10), poco frecuentes (≥ 1/1.000 a < 1/100), raras (≥ 1/10.000 a < 1/1.000) o frecuencia no conocida (no puede estimarse a partir de los datos disponibles). Dentro de cada grupo de frecuencia, las reacciones adversas al medicamento se presentan en orden decreciente de gravedad.
+ Tabla 1: Frecuencia de reacciones adversas
+ Clasificación por órganos y sistemas de MedDRA
+ | 
+ Categoría de frecuencia
+ | 
+ Trastornos oculares
+ | 
+ | 
+ Cataratas
+ | 
+ Frecuente
+ | 
+ Hemorragia conjuntival
+ | 
+ Frecuente
+ | 
+ Desprendimiento de vítreo
+ | 
+ Frecuente
+ | 
+ Aumento de la presión intraocular
+ | 
+ Frecuente
+ | 
+ Partículas flotantes en el vítreo
+ | 
+ Frecuente
+ | 
+ Desgarro del epitelio pigmentario de la retina (solo en DMAEn)
+ | 
+ Frecuente
+ | 
+ Dolor ocular
+ | 
+ Frecuente
+ | 
+ Abrasión corneal
+ | 
+ Poco frecuente
+ | 
+ Irritación ocular
+ | 
+ Poco frecuente
+ | 
+ Aumento del lagrimeo
+ | 
+ Poco frecuente
+ | 
+ Visión borrosa
+ | 
+ Poco frecuente
+ | 
+ Prurito ocular
+ | 
+ Poco frecuente
+ | 
+ Malestar ocular
+ | 
+ Poco frecuente
+ | 
+ Hiperemia ocular
+ | 
+ Poco frecuente
+ | 
+ Iritis
+ | 
+ Poco frecuente
+ | 
+ Agudeza visual reducida
+ | 
+ Poco frecuente
+ | 
+ Uveítis
+ | 
+ Poco frecuente
+ | 
+ Endoftalmitis
+ | 
+ Poco frecuente
+ | 
+ Sensación de cuerpo extraño
+ | 
+ Poco frecuente
+ | 
+ Hemorragia vítrea
+ | 
+ Poco frecuente
+ | 
+ Vitritis
+ | 
+ Poco frecuente
+ | 
+ Iridociclitis
+ | 
+ Poco frecuente
+ | 
+ Hiperemia conjuntival
+ | 
+ Poco frecuente
+ | 
+ Dolor procedimental
+ | 
+ Poco frecuente
+ | 
+ Desgarro retiniano
+ | 
+ Poco frecuente
+ | 
+ Desprendimiento de la retina regmatógeno
+ | 
+ Poco frecuente
+ | 
+ Agudeza visual reducida transitoriamente
+ | 
+ Raro
+ | 
+ Catarata traumática
+ | 
+ Raro
+ | 
+ Vasculitis retiniana*
+ | 
+ Frecuencia no conocida
+ | 
+ Vasculitis oclusiva retiniana*
+ | 
+ Frecuencia no conocida
+ | 
+ Los términos marcados con asterisco (*) son reacciones adversas que se han identificado en base a notificaciones espontáneas poscomercialización. Debido a que estas reacciones son notificadas voluntariamente por una población de tamaño incierto, no siempre es posible estimar la frecuencia de manera fiable.
+ Descripción de reacciones adversas seleccionadas
+ Vasculitis retiniana o vasculitis oclusiva retiniana
+ Se han notificado espontáneamente casos raros de vasculitis retiniana y/o vasculitis oclusiva retiniana en entorno poscomercialización (ver sección 4.4). También se ha notificado vasculitis retiniana y vasculitis oclusiva retiniana en pacientes tratados con tratamientos intravítreos.
+ Reacciones adversas relacionadas con la clase de producto
+ Tras el uso intravítreo de inhibidores VEGF existe un riesgo teórico de acontecimientos tromboembólicos arteriales, incluyendo ictus e infarto de miocardio. Se observó una tasa de incidencia baja de acontecimientos tromboembólicos arteriales en los ensayos clínicos de faricimab en pacientes con DMAEn, EMD y OVR (ver sección 4.4). En ambas indicaciones, no se observaron diferencias notables entre los grupos tratados con faricimab y el comparador.
+ Inmunogenicidad
+ Existe la posibilidad de una respuesta inmunitaria en pacientes tratados con faricimab (ver sección 4.4). Tras administrar faricimab hasta 112 semanas (DMAEn), 100 semanas (EMD) y 72 semanas (OVR), se detectaron anticuerpos emergentes anti-faricimab en aproximadamente el 13,8%, el 9,6% y el 14,4% de los pacientes con DMAEn, EMD y OVR aleatorizados a faricimab, respectivamente. La importancia clínica de los anticuerpos anti-faricimab en la seguridad no está clara en este momento. La incidencia de inflamación intraocular en los pacientes positivos para anticuerpos anti-faricimab fue 12/98 (12,2%; DMAEn), 15/128 (11,7%; EMD) y 9/95 (9,5%; OVR), y en pacientes negativos para anticuerpos anti-faricimab fue 8/562 (1,4%; DMAEn), 5/1.124 (0,4%; EMD) y 10/543 (1,8%; OVR). La incidencia de reacciones adversas oculares graves en pacientes positivos para anticuerpos anti-faricimab fue 6/98 (6,1%; DMAEn), 14/128 (10,9%; EMD) y 7/95 (7,4%; OVR) y en pacientes negativos para anticuerpos anti-faricimab fue 23/562 (4,1%; DMAEn), 45/1.124 (4,0%; EMD) y 34/543 (6,3%; OVR). Los anticuerpos anti-faricimab no se asociaron con un impacto en la eficacia clínica o farmacocinética sistémica.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ La sobredosis con un volumen de inyección mayor al recomendado puede incrementar la presión intraocular. En el caso de sobredosis, se debe monitorizar la PIO y, si se considera necesario por parte del médico que trata, se debe iniciar tratamiento adecuado.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros.
+ 6.3. Periodo de validez
+ Jeringa precargada: 2 años
+ Vial: 30 meses
+ 6.4. Precauciones especiales de conservación
+ Conservar en nevera (2º C - 8º C).
+ No congelar.
+ Mantener el vial en el embalaje original para protegerlo de la luz.
+ Mantener la jeringa precargada en la bandeja sellada en el embalaje original para protegerla de la luz.
+ Antes de su uso, la jeringa precargada o el vial sin abrir puede ser conservado a temperatura ambiente, de 20°C a 25°C, en el embalaje original, hasta 24 horas.
+ Asegurar que la inyección se administra inmediatamente después de la preparación de la dosis.
+ 6.5. Naturaleza y contenido del envase
+ Jeringa precargada
+ Solución para inyección en una jeringa precargada compuesta por un cilindro de vidrio (tipo I) con una marca de dosis, un tapón de goma butílica y un tapón con precinto de seguridad (que incluye un capuchón rígido, un capuchón de goma butilica y un adaptador luer lock). La jeringa precargada se une con un vástago del émbolo y una zona extendida de sujeción para los dedos. Cada jeringa precargada contiene 21 mg de faricimab en 0,175 ml de solución estéril.
+ Tamaño del envase: una aguja de inyección con filtro estéril de pared extrafina (calibre 30 × ½ pulgada, 0,30 mm x 12,7 mm, 5 µm), acondicionada junto con una jeringa precargada.
+ El capuchón de goma, el tapón de goma, el cilindro de vidrio y la aguja de inyección con filtro entran en contacto con el medicamento.
+ Vial
+ 0,24 ml de solución estéril, en un vial de vidrio con un tapón recubierto de caucho sellado con una tapa de aluminio con un disco de plástico amarillo abatible.
+ El envase contiene un vial y una aguja roma de transferencia con filtro (calibre 18 x 1½ pulgadas, 1,2 mm x 40 mm, 5 µm).
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ No agitar.
+ Vabysmo se debe inspecccionar visualmente al sacarlo de la nevera y antes de la administración. Si se ven partículas visibles o turbidez, Vabysmo no debe utilizarse.
+ Jeringa precargada
+ La jeringa precargada es para un solo uso en un solo ojo. Abrir la jeringa precargada sólo bajo condiciones asépticas. La solución se debe inspeccionar visualmente antes de la administración. Si se observan partículas o turbidez, no debe utilizarse la jeringa precargada.
+ La jeringa precargada contiene más de la dosis recomendada de 6 mg de faricimab (equivalente a 0,05 ml). Cada jeringa precargada contiene 21 mg de faricimab en 0,175 ml de solución. El exceso de volumen se debe eliminar antes de la inyección.
+ No utilizar si el embalaje, la jeringa precargada y/o la aguja de inyección con filtro están dañados o caducados. En el prospecto se proporcionan instrucciones de uso detalladas.
+ Vial
+ El vial contiene más de la dosis recomendada de 6 mg. El volumen del vial (0,24 ml) no se usa en su totalidad. El exceso de volumen debe ser retirado antes de la inyección. Inyectar el volumen total del vial resulta en sobredosis. La dosis de inyección debe ser ajustada a la marca de 0,05 ml, es decir, 6 mg de faricimab.
+ El contenido del vial y de la aguja de transferencia con filtro son estériles y de un solo uso. No lo use si el envase, el vial y/o la aguja de transferencia con filtro están dañados o caducados. En el prospecto se proporcionan instrucciones detalladas para su uso.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ Instrucciones para el uso de jeringa precargada
+ Saque la jeringa de la bandeja para la jeringa (paso 1). Todos los pasos siguientes deben realizarse utilizando técnicas asépticas.
+ | 
+ Nota: la dosis se debe ajustar a la marca de dosis de 0,05 ml.
+ | 
+ Abra la bandeja y retire el capuchón de la jeringa
+ | 
+ 1
+ | 
+ Retire la tapa de la bandeja de la jeringa y extraiga la jeringa precargada en condiciones asépticas.
+ | 
+ 2
+ | 
+ Sostenga la jeringa por el anillo blanco, rompa el capuchón de la jeringa (ver Figura C).
+ | 
+ | 
+ No gire el capuchón.
+ | 
+ | 
+ | 
+ Unir la aguja de inyección con filtro
+ | 
+ 3
+ | 
+ Saque asépticamente la aguja de inyección con filtro de su embalaje.
+ | 
+ 4
+ | 
+ De forma aséptica y firme coloque la aguja de inyección con filtro en la jeringa Luer lock (ver Figura D).
+ | 
+ | 
+ | 
+ 5
+ | 
+ Retire con cuidado el capuchón de la aguja tirando de él en línea recta.
+ | 
+ Eliminar las burbujas de aire
+ | 
+ 6
+ | 
+ Mantenga la jeringa con la aguja de inyección con filtro apuntando hacia arriba. Compruebe la jeringa para asegurar que no hay burbujas de aire.
+ | 
+ 7
+ | 
+ Si hay burbujas de aire, golpee suavemente la jeringa con su dedo hasta que las burbujas asciendan hasta la parte superior (ver Figura E).
+ | 
+ | 
+ | 
+ | 
+ Ajustar la dosis del medicamento y eliminar el aire
+ | 
+ | 
+ 8
+ | 
+ Mantenga la jeringa a la altura del ojo y lentamente empuje el vástago del émbolo hasta que el borde inferior de la cúpula del tapón de goma quede alineado con la marca de dosis de 0,05 ml. (ver Figura F). Esto eliminará el aire y el exceso de solución y ajustará la dosis a 0,05 ml.
+ | 
+ Asegure que la inyección se administra inmediatamente tras la preparación de la dosis.
+ | 
+ Figura F
+ | 
+ | 
+ | 
+ | 
+ Procedimiento de inyección
+ | 
+ 9
+ | 
+ El procedimiento de inyección debe realizarse bajo condiciones asépticas.
+ Inyecte lentamente hasta que el tapón de goma alcance la parte inferior de la jeringa para liberar el volumen de 0,05 ml.
+ No vuelva a tapar ni separe la aguja de inyección con filtro de la jeringa.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ | 
+ | 
+ | 

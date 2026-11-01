@@ -1,0 +1,51 @@
+[
+ {
+  "Producto": "F-3588/25",
+  "Nombre": "PERVIORAL COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "2000-05-03",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-29929/26",
+  "Nombre": "PERVIORAL COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2026-08-13",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR CLORHIDRATO"
+ },
+ {
+  "Producto": "F-24877/24",
+  "Nombre": "TEGOVIR COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2019-06-13",
+  "Titular": "MEGALABS CHILE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-16908/23",
+  "Nombre": "VADIRAL COMPRIMIDOS RECUBIERTOS 1000 mg (VALACICLOVIR)",
+  "FechaRegistro": "2008-07-01",
+  "Titular": "LABORATORIOS RECALCINE S.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "FX-80/23",
+  "Nombre": "VALACICLOVIR COMPRIMIDOS RECUBIERTOS 500 mg",
+  "FechaRegistro": "2013-05-10",
+  "Titular": "LABORATORIO BAGÓ DE CHILE S.A.",
+  "PA": ""
+ },
+ {
+  "Producto": "F-22763/26",
+  "Nombre": "VALTERO COMPRIMIDOS RECUBIERTOS 500 mg.",
+  "FechaRegistro": "2016-06-07",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "VALACICLOVIR"
+ },
+ {
+  "Producto": "F-24637/24",
+  "Nombre": "VIPROVIR COMPRIMIDOS RECUBIERTOS 500 mg (VALACICLOVIR)",
+  "FechaRegistro": "2019-02-13",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "VALACICLOVIR"
+ }
+]

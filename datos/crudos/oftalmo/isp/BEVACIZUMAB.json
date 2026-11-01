@@ -1,0 +1,65 @@
+[
+ {
+  "Producto": "B-3029/24",
+  "Nombre": "ABXEDA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN 100 mg/4 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2024-05-16",
+  "Titular": "LABORATORIOS RECALCINE S.A.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-3030/24",
+  "Nombre": "ABXEDA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN 400 mg/16 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2024-05-16",
+  "Titular": "LABORATORIOS RECALCINE S.A.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-1862/25",
+  "Nombre": "AVASTIN CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN 100 mg/4 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2005-05-16",
+  "Titular": "ROCHE CHILE LTDA.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-1863/25",
+  "Nombre": "AVASTIN CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN 400 mg/16 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2005-05-16",
+  "Titular": "ROCHE CHILE LTDA.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-3174/25",
+  "Nombre": "BEMABIX CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN 100 mg/4 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2025-12-02",
+  "Titular": "EXELTIS CHILE S.p.A.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-3079/25",
+  "Nombre": "KRABEVA concentrado para solución para perfusión 100 mg/4 mL (bevacizumab)",
+  "FechaRegistro": "2025-03-19",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "bevacizumab"
+ },
+ {
+  "Producto": "B-3080/25",
+  "Nombre": "KRABEVA concentrado para solución para perfusión 400 mg/16 mL (bevacizumab)",
+  "FechaRegistro": "2025-03-19",
+  "Titular": "INSTITUTO SANITAS S.A.",
+  "PA": "bevacizumab"
+ },
+ {
+  "Producto": "B-3164/25",
+  "Nombre": "VEGZELMA CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN 100 mg/4 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2025-11-20",
+  "Titular": "CELLTRION HEALTHCARE CHILE S.p.A.",
+  "PA": "BEVACIZUMAB"
+ },
+ {
+  "Producto": "B-2953/22",
+  "Nombre": "ZIRABEV CONCENTRADO PARA SOLUCIÓN PARA PERFUSIÓN 100 mg/4 mL (BEVACIZUMAB)",
+  "FechaRegistro": "2022-09-06",
+  "Titular": "PFIZER CHILE S.A.",
+  "PA": "BEVACIZUMAB"
+ }
+]

@@ -4,6 +4,7 @@ import { parse } from 'yaml'
 import { validarDatos } from '../src/esquema/validar'
 import { validarOrales } from '../src/esquema/validar-orales'
 import { validarTopicos } from '../src/esquema/validar-topicos'
+import { validarOculares } from '../src/esquema/validar-oculares'
 
 const raiz = join(import.meta.dirname, '..', 'datos')
 const dirMed = join(raiz, 'medicamentos')
@@ -62,3 +63,21 @@ if (erroresTopicos.length) {
   process.exit(1)
 }
 console.log(`${topicos.length} fichas tópicas validadas, ${fuentesTopicos.length} fuentes tópicas.`)
+
+// Oftalmología / pabellón (datos/oftalmo/*.yaml + datos/fuentes-oftalmo.yaml); ambos opcionales.
+const dirOftalmo = join(raiz, 'oftalmo')
+const archivoFuentesOftalmo = join(raiz, 'fuentes-oftalmo.yaml')
+const archivosOftalmo = existsSync(dirOftalmo) ? readdirSync(dirOftalmo).filter((a) => a.endsWith('.yaml')).sort() : []
+const oculares = archivosOftalmo.map((a) => parse(readFileSync(join(dirOftalmo, a), 'utf8')))
+const fuentesOftalmo = existsSync(archivoFuentesOftalmo) ? (parse(readFileSync(archivoFuentesOftalmo, 'utf8')) ?? []) : []
+const erroresOftalmo = validarOculares(oculares, fuentesOftalmo)
+oculares.forEach((f, i) => {
+  const esperado = archivosOftalmo[i].replace(/\.yaml$/, '')
+  if (f?.id !== esperado) erroresOftalmo.push(`${archivosOftalmo[i]}: el id "${f?.id}" no coincide con el nombre del archivo`)
+})
+if (erroresOftalmo.length) {
+  for (const e of erroresOftalmo) console.error(`✗ ${e}`)
+  console.error(`\n${erroresOftalmo.length} errores en ${oculares.length} fichas oculares.`)
+  process.exit(1)
+}
+console.log(`${oculares.length} fichas oculares validadas, ${fuentesOftalmo.length} fuentes oculares.`)

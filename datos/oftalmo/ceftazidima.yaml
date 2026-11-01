@@ -1,0 +1,102 @@
+id: ceftazidima
+nombre: Ceftazidima intravítrea
+comerciales: []
+grupo: antibiotico
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-1g
+  forma: polvo
+  cantidad:
+    valor: 1000
+    unidad: mg
+  registrosIsp:
+  - F-11944/22
+  usoDirecto: false
+  nota: Vial de uso intravenoso; el uso intravítreo es off-label y se prepara en farmacia. Al reconstituir hay un sobrevolumen
+    de unos 0,6 ml por gramo.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-11944/22 Ceftazidima polvo para solución inyectable 1 g
+dosis:
+- indicacion: Endoftalmitis bacteriana
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenMl: 0.1
+  texto: 2 mg en 0,1 ml (20 mg/ml) en inyección intravítrea, en general dosis única (solo un 7 % necesita una segunda inyección
+    a las 40–72 h). Reducir la dosis si hay gas o aceite de silicona.
+  estatus: off_label
+  condicion: Preparación magistral del PNT; la ceftazidima no tiene indicación intravítrea en su ficha.
+  fuente:
+    ref: SEFH-PNT-CEFTAZIDIMA
+    detalle: 'Composición y posología: 10 mg de ceftazidima en 0,5 ml (20 mg/ml) = 2 mg/0,1 ml'
+  tambien:
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: ceftazidima 2 mg/0,1 ml'
+protocolos:
+- id: pnt-sefh-20-mg-ml
+  dosis: 0
+  titulo: Desde el vial de 1 g (PNT SEFH)
+  partida: vial-1g
+  pasos:
+  - tipo: reconstituir
+    diluyente: 'agua para inyección: agregar 9,4 ml (el polvo suma volumen y quedan 10 ml a 100 mg/ml)'
+    volumenMl: 10
+  - tipo: texto
+    texto: Agitar con la aguja clavada en el vial para ventilarlo y evitar la sobrepresión de dióxido de carbono, hasta disolución
+      completa.
+  - tipo: diluir
+    tomarMl: 2
+    llevarAMl: 10
+    diluyente: cloruro de sodio 0,9 %
+  - tipo: texto
+    texto: Homogeneizar la mezcla en la misma jeringa (queda a 20 mg/ml). Filtrar (0,22 µm) 0,5 ml sobre una jeringa de insulina
+      de 1 ml, tapar, envasar y etiquetar. Proteger de la luz.
+  resultado:
+    valor: 10
+    unidad: mg
+    volumenMl: 0.5
+  fuente:
+    ref: SEFH-PNT-CEFTAZIDIMA
+    detalle: Método específico, pasos 1 a 7
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: El PNT y las fuentes consultadas no traen una pauta pediátrica.
+conservacion:
+- texto: 'Jeringa preparada: 9 días refrigerada (2–8 °C) o 45 días congelada (−20 °C), protegida de la luz. Hay bibliografía
+    de 6 meses congelada con control de esterilidad.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-CEFTAZIDIMA
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad a la ceftazidima, a otras cefalosporinas o a algún excipiente; antecedente de hipersensibilidad grave
+  a otro betalactámico (ficha técnica de uso intravenoso, CIMA 4.3).
+alertas:
+- Desechar la solución si hay precipitado. Con aceite de silicona o gas hay que reducir la dosis (PNT SEFH).
+- Es una buena alternativa a los aminoglucósidos por su escasa toxicidad retiniana (PNT SEFH). Las inyecciones repetidas aumentan
+  la toxicidad retiniana.
+discrepancias:
+- campo: Dosis intravítrea de ceftazidima por 0,1 ml
+  valores:
+  - fuente: SEFH-PNT-CEFTAZIDIMA
+    valor: 2 mg/0,1 ml (PNT SEFH)
+  - fuente: CONSENSO-SEFH-SEO-SERV-2025
+    valor: 2 mg/0,1 ml (consenso SEFH-SEO-SERV 2025)
+  - fuente: WEB-OFT-AMIKACINA-IV-PMC13405202
+    valor: 2,25 mg/0,1 ml (Fenniri 2026)
+  - fuente: WEB-OFT-AMIKACINA-IV-PMC13421665
+    valor: 2,25 mg/0,1 ml (ensayo EVIAN)
+  mostrado: 2 mg/0,1 ml
+  motivo: Las fuentes españolas (PNT y consenso) dan 2 mg; las publicaciones de EE. UU. y del ensayo EVIAN dan 2,25 mg. Se
+    muestra la cifra que trae el protocolo de preparación verificable.
+meta: {}

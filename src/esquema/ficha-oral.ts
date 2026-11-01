@@ -63,6 +63,8 @@ export const DosisOral = z
     texto: z.string().min(1).optional(),
     /** Ids de `presentaciones` de la ficha a las que aplica la dosis; ausente = todas. */
     presentaciones: z.array(z.string().min(1)).min(1).optional(),
+    /** Pauta de uso oftalmológico dentro de una ficha general (la ficha debe llevar `usos: ['oftalmologia']`). */
+    oftalmica: z.literal(true).optional(),
     fuente: FuenteRef,
   })
   .superRefine((d, ctx) => {
@@ -84,6 +86,8 @@ export const FichaOral = z
     comerciales: z.array(z.string()),
     grupo: z.string().min(1),
     ambitos: z.array(z.literal('aps')),
+    /** Secciones transversales donde también aparece la ficha (sin duplicarla). */
+    usos: z.array(z.literal('oftalmologia')).optional(),
     altoRiesgo: z.boolean(),
     presentaciones: z.array(PresentacionOral).min(1),
     dosis: z.array(DosisOral).min(1),
@@ -121,6 +125,9 @@ export const FichaOral = z
       ctx.addIssue({ code: 'custom', path: ['dosis'], message: 'con_dosis exige al menos una dosis pediátrica' })
     }
     f.dosis.forEach((d, j) => {
+      if (d.oftalmica && !f.usos?.includes('oftalmologia')) {
+        ctx.addIssue({ code: 'custom', path: ['dosis', j, 'oftalmica'], message: 'oftalmica exige usos: ["oftalmologia"] en la ficha' })
+      }
       d.presentaciones?.forEach((id, k) => {
         if (!f.presentaciones.some((p) => p.id === id)) {
           ctx.addIssue({

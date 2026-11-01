@@ -1,0 +1,138 @@
+id: adrenalina
+nombre: Adrenalina intracameral (sin bisulfito)
+comerciales: []
+grupo: midriatico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: ampolla-1mg
+  forma: solucion
+  cantidad:
+    valor: 1
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-28164/24
+  usoDirecto: false
+  nota: 'Ampolla de 1 mg/ml (1:1000). El ISP no informa si lleva bisulfito: para el ojo debe ser sin bisulfito, confírmalo
+    en el rótulo.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-28164/24 Epinefrina solución inyectable 1 mg/1 mL
+dosis:
+- indicacion: Midriasis intraoperatoria y prevención del síndrome del iris flácido (IFIS)
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.25
+      unidad: mg
+    volumenMl: 1
+  texto: 'epi-Shugarcaine: adrenalina 0,025 % con lidocaína 0,75 % en BSS Plus. Se inyecta una primera dosis de cerca de 1
+    ml antes del viscoelástico.'
+  estatus: off_label
+  condicion: La fuente principal es una revista profesional, no revisada por pares.
+  fuente:
+    ref: WEB-OFT-ADRENALINA-IC-CRSTODAY.COM
+    detalle: 'Receta epi-Shugarcaine: 9 ml de BSS Plus + 3 ml de lidocaína 4 % + 4 ml de adrenalina 1:1000; inyección inicial
+      de ~1 ml'
+  tambien:
+  - ref: WEB-OFT-ADRENALINA-IC-19185242
+    detalle: 'Composición epi-Shugarcaine: adrenalina 0,025 % y lidocaína 0,75 % en BSS Plus'
+- indicacion: Miosis intraoperatoria durante cirugía de catarata con láser de femtosegundo
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 15
+      unidad: mcg
+    volumenMl: 0.1
+  texto: 'Adrenalina 0,015 %: unos 0,1 ml (15 µg) en la cámara anterior.'
+  estatus: off_label
+  condicion: Estos autores usaron adrenalina con bisulfito porque en su país no había una sin él.
+  fuente:
+    ref: WEB-OFT-ADRENALINA-IC-PMC6081127
+    detalle: 'Preparación 0,015 %: 0,3 ml de adrenalina 1:1000 en 1,7 ml de BSS; unos 0,1 ml inyectados'
+- indicacion: Dilatación pupilar en facoemulsificación
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 10
+      unidad: mcg
+    volumenMl: 1
+  texto: 'Adrenalina 0,001 % (1:100.000): 1 ml en la cámara anterior (10 µg).'
+  estatus: off_label
+  condicion: Parte de adrenalina al 0,01 %; en Chile solo figura la ampolla de 1 mg/ml, así que esta pauta no tiene protocolo.
+  fuente:
+    ref: WEB-OFT-ADRENALINA-IC-PMC4745390
+    detalle: 'Preparación 1:100.000: 0,1 ml de adrenalina 0,01 % en 0,9 ml de BSS Plus; 1 ml de 0,001 % intracameral'
+protocolos:
+- id: shugar-epi-shugarcaine
+  dosis: 0
+  titulo: epi-Shugarcaine (receta de mezcla)
+  partida: ampolla-1mg
+  pasos:
+  - tipo: texto
+    texto: Mezclar 9 ml de BSS Plus, 3 ml de lidocaína al 4 % sin conservantes y 4 ml de adrenalina 1:1000 sin bisulfito (16
+      ml en total).
+  - tipo: texto
+    texto: 'Esta receta usa 4 ml de adrenalina, es decir 4 ampollas de 1 ml: no se puede comprobar con el verificador de una
+      sola ampolla.'
+  resultado:
+    valor: 0.25
+    unidad: mg
+    volumenMl: 1
+  fuente:
+    ref: WEB-OFT-ADRENALINA-IC-CRSTODAY.COM
+    detalle: Receta epi-Shugarcaine
+- id: jun-0-015
+  dosis: 1
+  titulo: Adrenalina 0,015 % (0,3 ml en 2 ml)
+  partida: ampolla-1mg
+  pasos:
+  - tipo: diluir
+    tomarMl: 0.3
+    llevarAMl: 2
+    diluyente: BSS
+  resultado:
+    valor: 15
+    unidad: mcg
+    volumenMl: 0.1
+  fuente:
+    ref: WEB-OFT-ADRENALINA-IC-PMC6081127
+    detalle: 'Preparación 0,015 %: 0,3 ml de 1:1000 diluidos en 1,7 ml de BSS'
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica intracameral.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Las concentraciones publicadas NO son equivalentes: 0,025 % (≈1:4000, epi-Shugarcaine), 1:3000 (≈0,033 %, Nuzzi), 0,015
+  % (Jun) y 0,001 % (1:100.000, Yu). No se encontró una guía de AAO, ESCRS o RCOphth con una receta propia.'
+- 'Usar adrenalina sin bisulfito: el bisulfito es tóxico para el endotelio corneal (Jun 2018, Myers 2009).'
+- El uso de adrenalina en la irrigación es off-label (Kaur 2023).
+- La receta epi-Shugarcaine pide lidocaína al 4 % sin conservantes; en el ISP solo aparecen ampollas de lidocaína al 1 % y
+  2 %.
+- Shugar midió un pH de 3,13 para la adrenalina sola y de 6,90 para la mezcla con BSS Plus; el BSS simple sirve de diluyente
+  si no hay BSS Plus.
+discrepancias:
+- campo: Concentración de adrenalina intracameral
+  valores:
+  - fuente: WEB-OFT-ADRENALINA-IC-CRSTODAY.COM
+    valor: 0,025 % (≈1:4000)
+  - fuente: WEB-OFT-ADRENALINA-IC-PMC5897993
+    valor: 1:3000 (≈0,033 %)
+  - fuente: WEB-OFT-ADRENALINA-IC-PMC6081127
+    valor: 0,015 %
+  - fuente: WEB-OFT-ADRENALINA-IC-PMC4745390
+    valor: 0,001 % (1:100.000)
+  mostrado: Las tres pautas con volumen publicado (0,025 %, 0,015 % y 0,001 %)
+  motivo: Cada autor usa una concentración distinta y no hay una guía de sociedad que elija una. Nuzzi (1:3000) no informa
+    el volumen inyectado, por eso no se muestra como pauta. Verifica el protocolo de tu pabellón.
+meta: {}

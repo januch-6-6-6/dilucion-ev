@@ -1,0 +1,53 @@
+id: azul-brillante
+nombre: Azul brillante G (TissueBlue)
+comerciales: []
+grupo: colorante
+familias:
+- intracameral
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: tissueblue-0-5ml
+  forma: jeringa_precargada
+  cantidad:
+    valor: 0.125
+    unidad: mg
+  volumenMl: 0.5
+  registrosIsp: []
+  usoDirecto: true
+  nota: Azul brillante G 0,025 % (0,25 mg/ml), jeringa de dosis única. Sin registro en el ISP.
+  fuente:
+    ref: DAILYMED-OFT-AZUL-BRILLANTE
+    detalle: 'How supplied: jeringa de 2,25 mL llenada a 0,5 mL; azul brillante G 0,025 %'
+dosis:
+- indicacion: Teñir la membrana limitante interna (MLI) en cirugía vítrea
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 0.125
+      unidad: mg
+    volumenMl: 0.5
+  texto: Inyectar con una cánula roma dentro de la cavidad vítrea llena de BSS, sin que la cánula toque la retina y sin dejar
+    que el colorante pase bajo ella. Retirar el exceso de inmediato después de teñir.
+  estatus: autorizada
+  condicion: Autorizada por la FDA. No está registrada en Chile. La cantidad es el contenido de la jeringa.
+  fuente:
+    ref: DAILYMED-OFT-AZUL-BRILLANTE
+    detalle: 'Dosage and administration: inyectar en la cavidad vítrea llena de BSS con cánula roma'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La seguridad y eficacia en pacientes pediátricos no se han establecido (FDA).
+conservacion: []
+contraindicaciones: []
+alertas:
+- Comprobar que el émbolo se mueva con suavidad antes de inyectar; si no se mueve con suavidad, no usar el producto (FDA).
+- 'Las complicaciones notificadas suelen asociarse a la cirugía: desgarro, hemorragia y desprendimiento de retina, y cataratas
+  (FDA).'
+discrepancias: []
+meta: {}

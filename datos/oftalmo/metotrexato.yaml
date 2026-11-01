@@ -1,0 +1,60 @@
+id: metotrexato
+nombre: Metotrexato intravítreo
+comerciales: []
+grupo: antimetabolito
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: amp-50
+  forma: solucion
+  cantidad:
+    valor: 50
+    unidad: mg
+  volumenMl: 2
+  registrosIsp:
+  - F-19444/22
+  usoDirecto: false
+  nota: Ampolla de uso intravenoso (25 mg/ml). El uso intravítreo es off-label. Medicamento peligroso.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-19444/22 Metotrexato solución inyectable 50 mg/2 mL
+dosis:
+- indicacion: Linfoma vitreorretinal primario; uveítis y otras indicaciones
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 400
+      unidad: mcg
+    volumenMl: 0.1
+  texto: '400 µg en 0,1 ml (4 mg/ml) en inyección intravítrea. Los esquemas varían: 25 inyecciones en 12 meses (Frenkel) o
+    una fase inicial de 7 inyecciones; la frecuencia y la cantidad total las define el oncólogo y el oftalmólogo.'
+  estatus: off_label
+  condicion: La ficha técnica del metotrexato no incluye la vía intravítrea.
+  fuente:
+    ref: WEB-OFT-METOTREXATO-IV-18303160
+    detalle: 'Protocolo: 400 µg/0,1 ml dos veces por semana por 4 semanas, luego semanal por 8 y mensual por 9 meses'
+  tambien:
+  - ref: WEB-OFT-METOTREXATO-IV-PMC13565040
+    detalle: Metotrexato 400 µg/0,1 mL en protocolos de inducción, consolidación y mantenimiento
+  - ref: WEB-OFT-METOTREXATO-IV-PMC12997583
+    detalle: Metotrexato intravítreo habitualmente a 400 µg/0,1 mL
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Esta ficha no trae pasos de preparación: ninguna fuente aceptable los describe. La ampolla (25 mg/ml) es unas 60 veces
+  la concentración de la dosis (4 mg/ml): deja la dilución a farmacia.'
+- La queratopatía es el efecto adverso más frecuente y se relaciona con la frecuencia de las inyecciones y la dosis acumulada
+  (Cioboată 2026).
+- Dosis más altas pueden causar toxicidad ocular (Lira 2025).
+discrepancias: []
+meta: {}

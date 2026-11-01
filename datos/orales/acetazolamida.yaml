@@ -1,0 +1,164 @@
+id: acetazolamida
+nombre: Acetazolamida
+comerciales:
+- Edemox
+- Diamox
+grupo: antiglaucomatoso
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: sin_verificar
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: Edemox 250 mg comprimidos (la ficha no menciona ranura ni partición)
+dosis:
+- indicacion: Glaucoma de ángulo abierto, adyuvante (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 4
+  topeDiario:
+    valor: 1000
+    unidad: mg
+  estatus: autorizada
+  texto: 250 mg de 1 a 4 veces al día, según síntomas y presión intraocular
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: '4.2 Glaucoma: "de una a cuatro dosis diarias de 250 mg"; "Las dosis superiores a 1 g/día no suelen ocasionar
+      mayor respuesta"'
+- indicacion: Glaucoma secundario y tratamiento preoperatorio del glaucoma agudo de ángulo cerrado (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: dia
+  unidad: mg
+  min: 250
+  max: 1000
+  estatus: autorizada
+  texto: 250 a 1000 mg/día repartidos en varias tomas (la ficha cita 250 mg cada 4 horas)
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: '4.2 Glaucoma secundario y preoperatorio del agudo de ángulo cerrado: "250-1.000 mg/día repartidos en varias
+      tomas (250 mg cada cuatro horas)"'
+- indicacion: 'Cierre angular agudo, urgencia: dosis de carga'
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 1
+  estatus: off_label
+  condicion: Una sola vez; la vía IV es la preferida en las guías de urgencia; la define el equipo de oftalmología
+  texto: 500 mg una vez (VO o IV); después 250 mg cuatro veces al día
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-GLAUCOMA-AGUDO-ACUTE-ANGLE-CLOSURE-GLAUCOMA-FINAL-2022
+    detalle: Acetazolamide 500mg PO/IV (IV es la vía preferida por inicio de acción más rápido); precaución con insuficiencia
+      renal, pedir función renal basal
+- indicacion: 'Cierre angular agudo, urgencia: mantenimiento tras la carga'
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 4
+  intervaloH: 6
+  estatus: off_label
+  condicion: Después de la dosis de carga de 500 mg; la guía permite la vía oral o la IV
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-GLAUCOMA-AGUDO-ACUTE-ANGLE-CLOSURE-GLAUCOMA-GUIDELINES
+    detalle: '"Actetazolamide 500mg IV stat then 250mg orally (or IV) 4 times daily" (errata «Actetazolamide» en el original)'
+- indicacion: Glaucoma (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 8
+  max: 30
+  tomasPorDia: 4
+  topeDiario:
+    valor: 750
+    unidad: mg
+  estatus: autorizada
+  condicion: La misma ficha dice que la seguridad y eficacia no están establecidas en pacientes de 12 años y menores
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: '4.2 Población pediátrica, epilepsia y glaucoma: "de 8 a 30 mg por kilo en dosis separadas hasta una dosis máxima
+      diaria de 750 mg"'
+- indicacion: Glaucoma congénito primario (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  min: 10
+  max: 20
+  tomasPorDia: 4
+  estatus: off_label
+  texto: 10 a 20 mg/kg/día repartidos en 3 o 4 tomas
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-GLAUCOMA-AGUDO-PRIMARY_CONGENITAL_GLAUCOMA
+    detalle: '"acetazolamide (Diamox, dose 10-20 mg/kg/day divided into 3 or 4 doses)"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Tope diario pediátrico en glaucoma
+  valores:
+  - fuente: CIMA-OFT-ACETAZOLAMIDA-24408
+    valor: 750 mg/día de máximo (Edemox, CIMA; dosis de 8 a 30 mg/kg/día)
+  - fuente: PEDIAMECUM-OFT-ACETAZOLAMIDA
+    valor: 1000 mg/día de máximo (Pediamécum; dosis de 8-30 mg/kg en dosis separadas cada 6-8 h)
+  mostrado: 750 mg/día de máximo (el más bajo)
+  motivo: Se muestra el tope más conservador mientras no se aclare.
+- campo: Dosis diaria en glaucoma secundario y preoperatorio (misma ficha)
+  valores:
+  - fuente: CIMA-OFT-ACETAZOLAMIDA-24408
+    valor: 250-1.000 mg/día repartidos en varias tomas
+  - fuente: CIMA-OFT-ACETAZOLAMIDA-24408
+    valor: 250 mg cada cuatro horas (6 tomas = 1500 mg/día)
+  mostrado: Rango de 250 a 1000 mg/día
+  motivo: La ficha cita las dos cosas y 250 mg cada 4 horas supera el máximo de 1000 mg/día; se muestra el rango diario.
+administracion:
+  comida: ayunas
+  texto: Preferentemente en ayunas; si hay náuseas o vómitos se puede dar con leche o alimentos para mejorar la tolerancia
+    digestiva.
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: '4.2 Forma de administración: "preferentemente en ayunas, aunque si aparecen náuseas o vómitos se puede administrar
+      con leche o alimentos"'
+ajusteRenalHepatico:
+  renal: 'Se excreta por vía renal: con aclaramiento de creatinina < 60 ml/min puede ser necesario bajar la dosis; en insuficiencia
+    renal moderada a severa, reducir la dosis a la mitad o pasar a una toma cada 12 horas (CIMA 4.2).'
+  hepatico: Contraindicada en insuficiencia hepática grave; puede aumentar la hiperamonemia en pacientes con insuficiencia
+    hepática (CIMA 4.3 y 4.4).
+  fuente:
+    ref: CIMA-OFT-ACETAZOLAMIDA-24408
+    detalle: 4.2 Insuficiencia renal; 4.3 y 4.4 Insuficiencia hepática
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones. No carga diurético, epilepsia ni
+  mal de altura.
+- 'Es una sulfonamida: las reacciones de hipersensibilidad pueden repetirse con cualquier derivado de sulfamidas (CIMA 4.4).'
+- 'El uso prolongado está contraindicado en el glaucoma crónico de ángulo cerrado no congestivo: puede producirse cierre orgánico
+  del ángulo (CIMA 4.3).'
+- Contraindicada en insuficiencia hepática grave (CIMA 4.3).
+- Más de 1 g al día no baja más la presión intraocular (CIMA; Deitz 2023).
+- 'En niños los efectos adversos son frecuentes (más del 40 %: letargia, falta de apetito, acidosis metabólica; EyeWiki).'
+meta: {}

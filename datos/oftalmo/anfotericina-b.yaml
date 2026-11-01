@@ -1,0 +1,69 @@
+id: anfotericina-b
+nombre: Anfotericina B intravítrea
+comerciales: []
+grupo: antifungico
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: vial-50
+  forma: polvo
+  cantidad:
+    valor: 50
+    unidad: mg
+  registrosIsp: []
+  usoDirecto: false
+  nota: La etiqueta consultada es de la forma liposomal de uso intravenoso. La dosis intravítrea publicada es de anfotericina
+    B convencional diluida en dextrosa al 5 %; confirma con farmacia qué forma se usa en el pabellón. No hay registro en el
+    ISP (31-oct-2026).
+  fuente:
+    ref: DAILYMED-OFT-ANFOTERICINA-B
+    detalle: Vial con 50 mg de anfotericina B (etiqueta de la forma liposomal, uso intravenoso)
+dosis:
+- indicacion: Endoftalmitis fúngica
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 5
+      max: 10
+      unidad: mcg
+    volumenMl: 0.1
+  texto: 5 a 10 µg en 0,1 ml en inyección intravítrea, diluida en dextrosa al 5 %, en general combinada con voriconazol.
+  estatus: off_label
+  condicion: La ficha técnica no incluye la vía intravítrea.
+  fuente:
+    ref: WEB-OFT-ANFOTERICINA-IV-EYEWIKI.ORG/ENDOPHTHALMITIS
+    detalle: Anfotericina B 5–10 µg/0,1 mL
+  tambien:
+  - ref: WEB-OFT-ANFOTERICINA-IV-PMC6907248
+    detalle: Anfotericina B en dextrosa al 5 % (5 µg/0,1 ml)
+  - ref: WEB-OFT-ANFOTERICINA-IV-PMC13676249
+    detalle: 'Aspergillus: anfotericina B 10 µg/0,1 ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- La anfotericina B puede causar toxicidad retiniana (EyeWiki).
+- 'Un error de unidades es posible: 5 µg/0,1 ml no es 0,5 mg/0,1 ml (Leung 2019 cita ambas cifras). Esta ficha no trae pasos
+  de preparación: se descartaron las recetas de fuentes con errores de unidades.'
+- Con aceite de silicona no se recuperó la anfotericina B a las concentraciones intravítreas (Leung 2019, estudio in vitro).
+discrepancias:
+- campo: Dosis intravítrea de anfotericina B por 0,1 ml
+  valores:
+  - fuente: WEB-OFT-ANFOTERICINA-IV-EYEWIKI.ORG/ENDOPHTHALMITIS
+    valor: 5 a 10 µg/0,1 ml
+  - fuente: WEB-OFT-ANFOTERICINA-IV-PMC6907248
+    valor: 5 µg/0,1 ml
+  - fuente: WEB-OFT-ANFOTERICINA-IV-PMC13676249
+    valor: 10 µg/0,1 ml
+  mostrado: 5 a 10 µg/0,1 ml
+  motivo: Cada estudio usó una cifra distinta dentro del mismo rango; no hay guía que fije una sola.
+meta: {}

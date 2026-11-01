@@ -1,0 +1,145 @@
+FYDRANE 0,2 MG/ML + 3,1 MG/ML + 10 MG/ML SOLUCION INYECTABLE | USO INTRACAMERAL SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/80177/FT_80177.html
+
+ 4.1. Indicaciones terapéuticas
+ FYDRANE está indicado en la cirugía de cataratas para conseguir midriasis y anestesia intraocular durante el procedimiento quirúrgico.
+ FYDRANE está indicado sólo en adultos.
+ 4.2. Posología y forma de administración
+ Uso intracameral. Una ampolla para un solo uso en un ojo.
+ Fydrane debe ser administrado por un oftalmólogo cirujano.
+ 4.2.1. Posología
+ FYDRANE debe utilizarse únicamente en pacientes que ya han demostrado, en una evaluación preoperatoria, una dilatación pupilar satisfactoria con un midriático tópico.
+ Adultos:
+ Inyectar lentamente, por vía intracameral, 0,2 ml de FYDRANE mediante una única inyección, al inicio del procedimiento quirúrgico.
+ Población especial
+ Pacientes de edad avanzada:
+ No es necesario ajustar la dosis.
+ Población pediátrica:
+ No se ha establecido la seguridad y eficacia de FYDRANE en niños de entre 0 y 18 años.
+ Pacientes con insuficiencia renal:
+ No es necesario ajustar la dosis (ver sección 4.4) teniendo en cuenta la baja dosis y la muy baja exposición sistémica (ver sección 5.2).
+ Pacientes con insuficiencia hepática:
+ No es necesario ajustar la dosis teniendo en cuenta la baja dosis y la muy baja exposición sistémica (ver sección 5.2).
+ 4.2.2. Forma de administración
+ Uso intracameral.
+ Debe seguirse el procedimiento que se indica a continuación:
+ Cinco minutos antes de llevar a cabo el procedimiento de desinfección preoperatoria y la primera incisión, debe instilarse en el ojo una o dos gotas de colirio anestésico.
+ Al inicio de la cirugía, el cirujano oftalmólogo debe inyectar lentamente 0,2 ml de FYDRANE mediante una única inyección por vía intracameral, a través del puerto lateral o el puerto principal.
+ Para consultar las instrucciones de manipulación del medicamento antes de la administración, ver la sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad a los principios activos (tropicamida, fenilefrina hidrocloruro y lidocaína hidrocloruro monohidrato) o a alguno de los excipientes incluidos en la sección 6.1.
+ Hipersensibilidad conocida a los anestésicos de tipo amida.
+ Hipersensibilidad conocida a derivados de la atropina.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Advertencias especiales:
+ La dosis recomendada es de 0,2 ml de FYDRANE; no deben inyectarse dosis adicionales ya que no se han demostrado efectos acumulativos significativos y porque se observa un aumento en la pérdida de células endoteliales (ver también sección 4.9).
+ No se ha notificado toxicidad en el endotelio corneal con la dosis recomendada de FYDRANE; no obstante, no puede excluirse este riesgo debido a los pocos datos disponibles.
+ No hay experiencia clínica con FYDRANE en:
+ pacientes con diabetes no controlada o insulinodependientes,
+ pacientes con enfermedad corneal, especialmente aquellos con alguna alteración de las células endoteliales coexistente,
+ pacientes con antecedentes de uveítis,
+ pacientes con anomalías pupilares o que presentan un traumatismo ocular,
+ pacientes con iris muy oscuro,
+ cirugía de cataratas combinada con trasplante de córnea.
+ No hay experiencia con FYDRANE en pacientes con riesgo de síndrome de iris flácido. Para estos pacientes podría ser mejor usar una estrategia de dilatación pupilar escalonada, empezando por la administración de un colirio midriático.
+ No hay experiencia clínica con FYDRANE durante la cirugía de cataratas en pacientes tratados con midriáticos tópicos para obtener midriasis y a quienes la constricción de la pupila (incluso miosis) les ocurre durante la cirugía.
+ No se recomienda el uso de FYDRANE en la cirugía de cataratas si se combina con vitrectomía, debido a los efectos vasoconstrictores de la fenilefrina.
+ FYDRANE no está recomendado en pacientes con una cámara anterior poco profunda o antecedentes de glaucoma agudo de ángulo cerrado.
+ El uso de Fydrane en pacientes con cámara anterior poco profunda, antecedentes de glaucoma agudo de ángulo estrecho y / o dilatación pupilar insuficiente, puede aumentar el riesgo de iridocele y síndrome del iris flácido.
+ Precauciones especiales de empleo:
+ Se ha demostrado que FYDRANE produce concentraciones sistémicas muy bajas o indetectables de los principios activos (ver sección 5.2). Puesto que los efectos sistémicos de la fenilefrina y la lidocaína son dependientes de la dosis, es poco probable que estos efectos se produzcan con FYDRANE. No obstante, dado que no se puede excluir el riesgo, se recuerda que:
+ La fenilefrina tiene actividad simpaticomimética que puede afectar a los pacientes en caso de hipertensión, trastornos cardíacos, hipertiroidismo, aterosclerosis o trastornos prostáticos, y a todos los sujetos que presentan alguna contraindicación al uso sistémico de aminas vasopresoras.
+ La lidocaína debe utilizarse con precaución en pacientes con epilepsia, miastenia grave, alteraciones de la conducción cardíaca, insuficiencia cardíaca congestiva, bradicardia, shock grave, alteración de la función respiratoria o disfunción renal con un aclaramiento de creatinina por debajo de 10 ml/minuto.
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones con FYDRANE.
+ Dado que se prevé que la exposición sistémica sea muy baja (ver sección 5.2), es improbable que se produzcan interacciones sistémicas.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ No existen datos suficientes sobre el uso de fenilefrina y tropicamida en mujeres embarazadas. Los estudios en animales son insuficientes para determinar los efectos sobre el embarazo, el desarrollo embrionario/fetal, el parto y el desarrollo posnatal.
+ Si bien los estudios en animales no han revelado evidencias de daños en el feto, la lidocaína atraviesa la placenta y no debe administrarse durante el embarazo.
+ Aunque la absorción sistémica prevista es insignificante, no se puede excluir una baja exposición sistémica.
+ Por tanto, FYDRANE no debe utilizarse durante el embarazo.
+ 4.6.2. Lactancia
+ No hay datos disponibles sobre el paso de la fenilefrina o la tropicamida a la leche materna. No obstante, la fenilefrina presenta una baja absorción oral, por lo que la absorción por parte del lactante sería insignificante. Por otra parte, los lactantes pueden ser muy sensibles a los anticolinérgicos y, por tanto, a pesar de la insignificante exposición sistémica prevista, no se recomienda el uso de tropicamida durante la lactancia.
+ La lidocaína pasa en pequeñas cantidades a la leche materna, por lo que existe la posibilidad de una reacción alérgica en el lactante.
+ Por tanto, FYDRANE no debe utilizarse durante la lactancia.
+ 4.6.3. Fertilidad
+ No existen datos sobre si FYDRANE puede afectar a la fertilidad en hombres y mujeres.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de FYDRANE sobre la capacidad para conducir y utilizar máquinas es moderada debido a su efecto midriático. Por consiguiente, tras la cirugía de cataratas con una inyección de FYDRANE, debe advertirse al paciente que no conduzca ni utilice máquinas mientras persistan los trastornos visuales.
+ 4.8. Reacciones adversas
+ Se han notificado reacciones adversas con FYDRANE durante los ensayos clínicos (ver sección 5.1). La mayor parte de estas fueron oculares y de intensidad leve o moderada.
+ Resumen del perfil de seguridad:
+ La ruptura de la cápsula posterior y el edema macular cistoide son complicaciones bien conocidas durante o después de la cirugía de cataratas. Pueden ocurrir de manera poco frecuente (menos de 1 caso por cada 100 pacientes).
+ Lista tabulada de reacciones adversas:
+ Las reacciones adversas se clasifican en función de la frecuencia del modo siguiente: muy frecuentes (≥1 /10); frecuentes (≥ 1/100 a < 1/10); poco frecuentes (≥ 1/1.000 a < 1/100); raras (≥ 1/10,000 a < 1/1.000); muy raras (< 1/10 000); frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Las reacciones adversas, registradas durante los ensayos clínicos, se presentan en la tabla siguiente según la clasificación System Organ Class (clasificación por órganos y sistemas) en orden de mayor a menor gravedad dentro de cada grupo de frecuencia:
+ System Organ Class
+ | 
+ Frecuencia
+ | 
+ Reacción adversa
+ | 
+ Trastornos del sistema nervioso
+ | 
+ poco frecuentes
+ | 
+ Cefalea
+ | 
+ Trastornos oculares
+ | 
+ poco frecuentes
+ | 
+ Queratitis, edema macular cistoide,
+ aumento de la presión intraocular, ruptura de la cápsula posterior, hiperemia ocular
+ | 
+ Trastornos vasculares
+ | 
+ poco frecuentes
+ | 
+ Hipertensión
+ | 
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https//: www.notificaram.es
+ 4.9. Sobredosis
+ Efectos sistémicos
+ Debido a la administración única y al bajo paso sistémico de FYDRANE, el riesgo de efectos sistémicos por sobredosis se consideran mínimos.
+ Es probable que los síntomas de sobredosis oftálmica de fenilefrina sean efectos derivados de la absorción sistémica, como fatiga extrema, sudoración, mareos, bradicardia y coma.
+ Dado que la reacción tóxica grave a la fenilefrina es de aparición rápida y de corta duración, el tratamiento es principalmente sintomático. Se recomienda la inyección inmediata de un bloqueante alfa-adrenérgico de acción rápida como la fentolamina (dosis intravenosa de 2 a 5 mg).
+ Los síntomas de la sobredosis oftálmica de tropicamida incluyen cefalea, taquicardia, sequedad de boca y de piel, somnolencia inusual y rubor.
+ No se prevén efectos sistémicos derivados de la tropicamida. En caso de sobredosis causante de reacciones locales, como midriasis sostenida, debe aplicarse pilocarpina o fisostigmina al 0,25 % p/v.
+ En caso de absorción excesiva de lidocaína en el torrente circulatorio, los síntomas pueden incluir efectos sobre el SNC (como convulsiones, pérdida del conocimiento y posible parada respiratoria) y reacciones cardiovasculares (como hipotensión, depresión miocárdica, bradicardia y posible parada cardíaca).
+ El tratamiento de un paciente que presenta toxicidad sistémica debida a la lidocaína consiste en detener las convulsiones y garantizar una ventilación adecuada con oxígeno, con ventilación (respiración) mecánica o controlada en caso necesario.
+ Efectos locales
+ Una sobredosis puede causar pérdida de células endoteliales (ver sección 4.4 y 5.1).
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En la literatura médica y durante los ensayos clínicos no se notificó ninguna incompatibilidad entre los productos utilizados con más frecuencia en la cirugía de cataratas y los principios activos. En el caso de viscoelásticos habituales, esto también se confirmó mediante una prueba de interacción farmacéutica.
+ 6.3. Periodo de validez
+ 3 años.
+ 6.4. Precauciones especiales de conservación
+ Este medicamento no requiere condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Un blíster de papel/PVC que contiene una ampolla estéril de vidrio marrón (tipo I) de 1 ml con 0,6 ml de solución inyectable. Se proporcionan aparte agujas con filtro estéril de 5 micras envasadas en blísters individuales.
+ Caja de 1, 20 y 100 ampollas estériles con, respectivamente, 1, 20 y 100 agujas estériles con filtro de 5 micras.
+ Kit de un blíster de papel/PVC que contiene una ampolla estéril de vidrio marrón (tipo I) de 1 ml con 0,6 ml de solución inyectable y una aguja con filtro estéril de 5 micras.
+ Caja de 1, 20 y 100 kits (es decir, blíster que contiene una ampolla estéril y una aguja con filtro estéril).
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Para uso en un solo ojo.
+ Utilizar inmediatamente después de la apertura de la ampolla.
+ Sólo para la presentación en kit (es decir, blíster que contiene una ampolla y una aguja): pegar la etiqueta desprendible del blíster en la historia del paciente.
+ Advertencia: No utilizar si el blíster o la lámina desprendible están dañados o rotos. Abrir únicamente en condiciones de asepsia. La esterilidad del contenido del blíster está garantizada.
+ Inspeccionar visualmente la solución antes de su uso para verificar que es transparente, de color amarillo a ligeramente pardusco, y no contiene partículas visibles.
+ FYDRANE debe administrarse mediante inyección intracameral por parte de un cirujano oftalmólogo en las condiciones asépticas recomendadas para la cirugía de cataratas.
+ Para preparar el producto para la inyección intracameral, deben seguirse las instrucciones siguientes:
+ Inspeccionar el blíster sin abrir para asegurarse de que está intacto. Abrir el blíster desprendiendo la lámina bajo condiciones asépticas para garantizar la esterilidad del contenido.
+ Abrir la ampolla estéril que contiene el medicamento. Para abrir la ampolla OPC (One Point Cut, único punto de abertura) proceder del modo siguiente: sostener la parte inferior de la ampolla con el pulgar apuntando al punto de color. Sujetar la parte superior de la ampolla con la otra mano y, colocando el pulgar en el punto de color, ejercer presión hacia atrás para romper el vidrio por el corte existente bajo dicho punto.
+ Colocar la aguja estéril con filtro de 5 µm (suministrada) en una jeringa estéril. Retirar el capuchón protector de la aguja estéril con filtro de 5 µm y extraer al menos 0,2 ml de solución inyectable de la ampolla a la jeringa.
+ Desconectar la aguja de la jeringa y acoplar la jeringa a una cánula adecuada para la cámara anterior.
+ Con cuidado, expulsar el aire de la jeringa. Ajustar a 0,2 ml. La jeringa está lista para la inyección.
+ Inyectar lentamente el volumen de 0,2 ml de la jeringa en la cámara anterior del ojo, mediante una única inyección, a través del puerto lateral o el puerto principal.
+ Después de su uso, desechar la solución restante de forma adecuada. No debe conservarse para un uso posterior.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local. Desechar las agujas utilizadas en un contenedor para materiales punzantes.

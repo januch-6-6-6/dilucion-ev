@@ -1,0 +1,16 @@
+{
+ "id": "ganciclovir",
+ "familia": "intravitreo",
+ "resultados": 17,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "58266",
+   "nombre": "CYMEVENE 500 mg POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION",
+   "vias": "VIA INTRAVENOSA POLVO PARA CONCENTRADO PARA SOLUCION PARA PERFUSION",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/58266/FT_58266.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

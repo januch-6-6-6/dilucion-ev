@@ -1,0 +1,165 @@
+MINOCIN 100 MG CÁPSULAS DURAS | VIA ORAL CAPSULA DURA
+https://cima.aemps.es/cima/dochtml/ft/51179/FT_51179.html
+
+ 4.1. Indicaciones terapéuticas
+ Minocin está indicado en el tratamiento de las infecciones causadas por microorganismos sensibles a la minociclina, tales como:
+ uretritis no gonocócicas no complicadas
+ traqueobronquitis aguda causada por Mycoplasma pneumoniae
+ tracoma (infección ocular causada por Chlamydia trachomatis)
+ sífilis, actinomicosis o carbunco (ántrax maligno) en pacientes alérgicos a la penicilina
+ Para la utilización de minociclina debe tenerse en cuenta su espectro antibacteriano (ver sección 5.1).
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ Adultos
+ La dosis habitual de minociclina en adultos es de 200 mg el primer día de tratamiento (administrados en dosis única diaria o como 100 mg cada 12h), seguido de una dosis de mantenimiento de 100 mg/día (administrados en dosis única diaria). Para el tratamiento de infecciones graves, la dosis de mantenimiento puede incrementarse a 200 mg/día (administrados como 100 mg cada 12h).
+ El tratamiento debe continuarse hasta al menos 24 a 48 horas tras la desaparición de los síntomas y de la fiebre. En general, la duración del tratamiento se debe determinar en función del tipo de infección y de la respuesta del paciente, y deberá ser lo más corta posible.
+ Pautas posológicas específicas en adultos:
+ Indicación
+ | 
+ Pauta posológica
+ | 
+ Duración del tratamiento
+ | 
+ Uretritis no gonocócica
+ | 
+ 200 mg/día (administrados como 100 mg cada 12h).
+ | 
+ Durante 7 días.
+ | 
+ Población pediátrica
+ Niños menores de 8 años:
+ Minocin está contraindicado en niños menores de 8 años (ver sección 4.3).
+ Niños de 8 a 12 años de edad:
+ La dosis inicial de Minocin es de 4 mg/kg el primer día de tratamiento, seguido de una dosis de mantenimiento de 2 mg/kg/día (administrados en dosis única diaria).
+ Niños mayores de 12 años:
+ En niños >12 años se deben seguir las recomendaciones posológicas de adultos.
+ Pacientes de edad avanzada
+ No se dispone de datos suficientes en mayores de 65 años para evaluar si este grupo de pacientes presenta una respuesta al tratamiento diferente. Se debe tener precaución cuando se administre Minocin a pacientes de edad avanzada. El tratamiento debe iniciarse con la dosis más baja posible y debe tenerse en cuenta la presencia de insuficiencia hepática y/o renal concurrente.
+ Pacientes con insuficiencia hepática
+ Minocin debe utilizarse con precaución y bajo estricta supervisión médica en casos de deterioro de la función hepática (ver sección 4.4). Minocin está contraindicado en pacientes con insuficiencia hepática (ver sección 4.3).
+ Pacientes con insuficiencia renal
+ Minocin debe utilizarse con precaución y bajo estricta supervisión médica en casos de deterioro de la función renal (ver sección 4.4). Puede ser necesario reducir la dosis diaria o prolongar los intervalos entre dosis. La dosis total administrada en 24h no debe superar los 200 mg de minociclina.
+ Forma de administración
+ Vía oral
+ Las cápsulas deben tragarse enteras, sin masticarlas. Debe tomarse en el transcurso de una comida, acompañado de un vaso de agua (200 ml) o con leche, y dejando transcurrir al menos una hora antes de tumbarse o acostarse, para evitar una posible irritación esofágica.
+ La absorción de la minociclina no se ve prácticamente afectada por el consumo simultaneo de leche (ver sección 4.4).
+ 4.3. Contraindicaciones
+ Hipersensibilidad a la minociclina o a alguno de los excipientes incluidos en la sección 6.1.
+ Insuficiencia hepática grave.
+ Embarazo y lactancia (ver sección 4.6).
+ Insuficiencia renal grave.
+ Al igual que para todas las tetraciclinas, la minociclina no debe administrarse a niños menores de 8 años (para niños de entre 8 y 12 años, ver sección 4.4).
+ Está contraindicado el uso concomitante de tetraciclinas, incluido minociclina, con metoxiflurano, ya que se han comunicado casos de toxicidad renal con resultado mortal (ver sección 4.5).
+ 4.4. Advertencias y precauciones especiales de empleo
+ Existe hipersensibilidad cruzada y resistencia cruzada entre tetraciclinas.
+ La acción antianabólica de las tetraciclinas puede causar un aumento en el contenido de urea en sangre. Aunque esto no plantea necesariamente un problema en pacientes con función renal normal, concentraciones séricas más altas de minociclina pueden provocar azotemia, hiperfosfatemia y acidosis en pacientes con una función renal significativamente alterada. Con trastornos renales, incluso las dosis normales pueden conducir a acumulaciones sistémicas excesivas del medicamento y posiblemente a intoxicación hepática. En tales circunstancias se debe administrar una dosis total inferior a la normal y, si se continúa el tratamiento, es aconsejable determinar las concentraciones séricas del medicamento.
+ En algunos individuos en tratamiento con tetraciclinas, incluyendo minociclina, se han observado reacciones de fotosensibilidad en forma de quemadura solar. Por tanto, se debe advertir a los pacientes que eviten la exposición prolongada a la luz solar o a la radiación ultravioleta y que utilicen filtros solares con pantalla total durante el tratamiento con Minocin. Debe considerarse la suspensión del tratamiento en caso de aparición de signos de fototoxicidad (ej. aparición de eritema cutáneo, etc.).
+ El tratamiento con agentes antibacterianos puede alterar la microbiota habitual del colon, permitiendo el sobrecrecimiento de microorganismos no sensbiles. Se han notificado casos de diarrea asociada a Clostridioides difficile (DACD) con el uso de casi todos los agentes antibacterianos, incluyendo minociclina, cuya gravedad puede oscilar de diarrea moderada a colitis mortal. Su aparición puede ocurrir durante el tratamiento o semanas después de finalizado el mismo. Los casos leves responden normalmente a la supresión del tratamiento. Los casos moderados o graves pueden precisar, además, un tratamiento de reposición hidroelectrolítica y un antibiótico efectivo frente a C. difficile. Los anticolinérgicos y antiperistálticos pueden agravar el estado del paciente.
+ C. difficile produce toxinas A y B que contribuyen al desarrollo de la DACD. La hiperproducción de toxinas por algunas cepas de C. difficile, causa un incremento en la morbilidad y mortalidad, ya que estas infecciones pueden ser refractarias a la terapia antimicrobiana y puede requerir colectomía. La DACD debe considerarse en todos los pacientes que presenten diarrea tras un tratamiento antibiótico. Es necesaria una cuidadosa historia médica dado que se ha notificado casos DACD hasta dos meses después de la administración de agentes antibacterianos.
+ Se ha asociado hipertensión intracraneal benigna (pseudotumor cerebri) con el uso de tetraciclinas, incluida minociclina. La hipertensión intracraneal benigna (pseudotumor cerebri) suele ser transitoria, sin embargo, se han notificado casos de pérdida visual permanente secundaria a la hipertensión intracraneal benigna (pseudotumor cerebri) con las tetraciclinas. La aparición de alteraciones visuales durante el tratamiento, justifica la evaluación oftalmológica inmediata. Debido a que la presión intracraneal puede permanecer elevada durante semanas tras la suspensión del medicamento, se debe vigilar a los pacientes hasta que ésta se estabilice.
+ Se han observado síntomas de naturaleza vestibular durante el tratamiento con minociclina. Estos síntomas ocurren con mayor frecuencia en mujeres que en hombres y son reversibles. Cuando se produce mareo, puede ser conveniente ajustar la dosis. Se requiere precaución particularmente en pacientes que sufren del síndrome de Meniere. Cuando se presentan síntomas vestibulares y otros efectos secundarios, como alteraciones visuales, alucinaciones y escotoma, se debe interrumpir el tratamiento con minociclina.
+ Las tetraciclinas pueden ser hepatotóxicas, especialmente cuando se utilizan en altas dosis y/o de forma concomitante con otros medicamentos hepatotóxicos o cuando las insuficiencias hepáticas o renales son preexistentes. Si el tratamiento se prolonga durante más de 6 meses, pueden aparecer algunos signos y síntomas de lupus eritematoso sistémico y hepatitis, por lo que debe tenerse en cuenta. Si aparece alguno de estos síntomas, el tratamiento debe suspenderse inmediatamente.
+ Se ha observado una mayor excreción de ácido ascórbico y ácido fólico durante el tratamiento con tetraciclinas. Esto generalmente tiene poca importancia clínica. La terapia prolongada con tetraciclina puede ir acompañada de deficiencia de vitamina B como resultado de la destrucción de bacterias productoras de vitamina B.
+ Se han notificado casos de alteraciones tiroideas como tiroiditis, nódulos tiroideos, bocio y carcinoma de tiroides en pacientes que tratados con minociclina (ver seccion 4.8). Si la terapia con minociclina se administra durante un periodo de tiempo prolongado, se debe considerar la monitorización del carcinoma de tiroides.
+ La minociclina no está indicada para el tratamiento de infecciones meningocócicas.
+ Población pediátrica
+ Como otras tetraciclinas, minociclina forma un complejo cálcico estable en cualquier tejido formador de hueso. Se ha observado una disminución en la tasa de crecimiento del peroné en niños prematuros a los que se han administrado tetraciclinas orales a la dosis de 25 mg/kg cada seis horas. Esta reacción se ha visto que es reversible tras la interrupción del fármaco.
+ El uso de medicamentos del grupo de las tetraciclinas durante el desarrollo dental (segunda mitad del embarazo, lactancia y niños menores de 8 años) puede causar coloración permanente de los dientes (de gris parduzco a amarillento). Esta reacción adversa es más frecuente con el uso del medicamento durante períodos prolongados, aunque también se ha observado tras la administración de tratamientos cortos repetidos. Se ha descrito, asimismo, hipoplasia del esmalte.
+ Aunque el riesgo de decoloración permanente de los dientes es raro en niños de 8 años a menores de 12 años de edad, el uso de minociclina debe ser cuidadosamente justificado y limitarse a situaciones donde otros fármacos no están disponibles, no son efectivos o están contraindicados.
+ El tratamiento con tetraciclinas, incluyendo la minociclina, pueden interferir con las determinaciones para la detección de glucosa y catecolaminas en orina.
+ Advertencias sobre excipientes
+ Minocin contiene amarillo anaranjado S (E-110)
+ Este medicamento contiene amarillo anaranjado S (E-110), lo que puede provocar reacciones de tipo alérgico.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Las tetraciclinas forman quelatos biológicamente inactivos con iones metálicos, como los presentes en los antiácidos y las sales de hierro. Debe evitarse el tratamiento concomitante con antiácidos o preparaciones que contienen antiácidos y medicamentos que contienen hierro. La interacción causa una reducción de biodisponibilidad de tetraciclinas, así como una alteración de la absorción de hierro.
+ La administración concomitante de carbón activado o resinas de intercambio iónico tiene un efecto negativo sobre la absorción de minociclina.
+ Puesto que se ha observado que las tetraciclinas prolongan el tiempo de protrombina, puede ser necesario reducir la dosis de los anticoagulantes orales cuando se administran concomitantemente con minociclina.
+ Los antibióticos bacteriostáticos, incluido minociclina, pueden interferir con la acción bactericida de los antibióticos betalactámicos. Por tanto, debe evitarse el uso concomitante de minociclina y antibióticos betalactámicos.
+ Se ha comunicado que el uso concomitante de tetraciclinas y metoxiflurano produce toxicidad renal con resultado mortal (ver sección 4.3).
+ Las tetraciclinas se han asociado con niveles reducidos de estriol en plasma en mujeres que toman anticonceptivos orales. Esto puede provocar hemorragias irruptivas o, en casos excepcionales, embarazo.
+ La carbamazepina, por su actividad como inductor enzimático a nivel de los microsomas hepáticos puede causar niveles de minociclina disminuidos o subterapéuticos al ser administrada de manera concomitante.
+ Cuando se administran simultaneamente, los antihistamínicos H2 pueden reducir la biodisponibilidad de la minociclina.
+ La administración de isotretinoína debe evitarse antes, durante y después del tratamiento con minociclina. La administración de ambas por separado se ha asociado pseudo-tumor cerebral, por lo que el uso concomitante puede incrementar el riesgo de hipertensión intracraneal.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ Teniendo en cuenta los datos derivados de la experiencia en humanos, las tetraciclinas como minociclina producen efectos en el desarrollo de los dientes y del esqueleto del feto cuando se administran durante el embarazo.
+ Minocin está contraindicado durante el embarazo (ver sección 4.3).
+ Las mujeres en edad fértil deben utilizar métodos anticonceptivos durante el tratamiento con Minocin. Debe tenerse en cuenta la pérdida de eficacia que puede producirse con la administración concomitante de minociclina y anticonceptivos orales (ver sección 4.5).
+ Lactancia
+ Las tetraciclinas, como minociclina, se excretan en la leche materna y se han observado efectos en los dientes de recién nacidos/lactantes de madres tratadas con tetraciclinas.
+ Minocin está contraindicado durante la lactancia (ver sección 4.3).
+ Se debe decidir si es necesario interrumpir la lactancia o interrumpir el tratamiento tras considerar el beneficio de la lactancia para el niño y el beneficio del tratamiento para la madre.
+ Fertilidad
+ No existen datos clínicos de los efectos de la minociclina sobre la fertilidad. No obstante, en los estudios en animales se ha observado que la minociclina puede afectar la fertilidad de ratas macho (ver sección 5.3).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ Se ha asociado el uso de minociclina a la aparición de pseudotumor cerebral (hipertensión intracraneal benigna), cuyas manifestaciones clínicas incluyen visión borrosa transitoria (ver sección 4.8). Se debe informar a los pacientes sobre la posibilidad de que se produzcan estas reacciones adversas y recomendarles que no conduzcan ni utilicen máquinas si ocurren dichos síntomas.
+ 4.8. Reacciones adversas
+ Las siguientes reacciones adversas se han observado en pacientes que reciben tetraciclinas, incluyendo minociclina. Se han ordenado siguiendo la clasificación por órganos de la convención MedDRA. Dentro de cada frecuencia se han ordenado en orden decreciente según su importancia clínica. Las frecuencias se han definido como: muy frecuentes (≥1/10), frecuentes (≥1/100, <1/10), poco frecuentes (≥1/1.000, <1/100), raras (≥1/10.000, <1/1.000), muy raras (<1/10.000) y frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Infecciones e infestaciones
+ Frecuencia no conocida: multiplicación excesiva de microorganismos no sensibles, incluidos los hongos (ver sección 4.4)
+ Trastornos de la sangre y del sistema línfatico
+ Frecuentes: trombocitopenia, neutropenia y eosinofilia.
+ Raras: anemia hemolítica
+ Frecuencia no conocida: leucopenia, pancitopenia y agranulocitosis, reducción de la actividad de protrombina.
+ Trastornos del sistema inmunológico
+ Frecuentes: urticaria, edema angioneurótico.
+ Raras: polialtrargia, anafilaxis, púrpura anafilactoide, pericarditis, exacerbación del lupus eritrematoso sistémico, infiltrados pulmonares con eosinófilos, síndrome transitorio similar al lupus (ver sección 4.4), reacción similar a la enfermedad del suero y vasculitis.
+ Frecuencia no conocida: síndrome de hipersensibilidad a fármacos con eosinofilia y síntomas sistémicos (síndrome DRESS), miocarditis y reacciones inmunológicas pulmonares como disnea, tos, fiebre.
+ Trastornos endocrinos
+ Muy raras: coloración marrón-negra de la glándula tiroides en el uso a largo plazo, actividad glandular tiroidea anormal, incluyendo tiroiditis, nódulos tiroideos, bocio y carcinoma de tiroides (ver sección 4.4).
+ Trastornos del metabolismo y de la nutrición
+ Frecuencia no conocida: disminución de los valores de vitaina B, ácido ascórbico y ácido fólico (ver sección 4.4)
+ Desórdenes psiquiátricos
+ Frecuencia no conocida: alucinaciones.
+ Trastornos del sistema nervioso
+ Raras: fontanelas abultadas en niños e hipertensión intracraneal benigna (pseudo tumor cerebral) en adultos (ver sección 4.4), acompañado de dolor de cabeza (síntomas reversibles), parestesias, convulsiones y sedación..
+ Trastornos oculares
+ Frecuencia no conocida: alteraciones visuales, escotoma, visión doble, pigmentación de la córnea, la esclerótica y la retina.
+ Trastornos del oído y del laberinto
+ Frecuencia no conocida: alteraciones vestibulares, vértigo, problemas auditivos, tinnitus.
+ Trastornos vasculares
+ Frecuencia no conocida: poliarteritis nodosa
+ Trastornos respiratorios, torácicos y mediastínicos
+ Frecuencia no conocida tos y disnea, broncoespasmo, exacerbación de asma y eosinofilia pulmonar.
+ Trastornos gastrointestinales
+ Raras: anorexia, náuseas, vómitos, diarrea, esofagitis y ulceración esofágica (ver sección 4.2), lesiones inflamatorias (con crecimiento excesivo de Candida spp.) en el área anogenital, prurito anal, lengua negra, estomatitis, aumento de las enzimas hepáticas.
+ Muy raras: glositis, dolor epigástrico, dispepsia, disfagia, enterocolitis, incluida enteritis estafilocócica, pancreatitis, colitis pseudomembranosa (ver sección 4.4)
+ Trastornos hepatobiliares
+ Raras: aumento de enzimas hepáticas, hepatitis y trastornos hepáticos
+ Muy raras: daño hepático, ocasionalmente acompañado de pancreatitis, o disfunción hepática o renal; insuficiencia hepática en tratamientos prolongados.
+ Frecuencia no conocida: colestasis hepática, hiperbilirrubinemia e ictericia.
+ Trastornos de la piel y del tejido subcutáneo
+ Raras: alopecia, prurito, erupciones maculopapulares y eritrematosas, dermatitis exfoliativa, eritrema multiforme, síndrome de Stevens Johnson, fototoxicidad (ver sección 4.4), pigmentación de la piel, uñas y membranas mucosas (generalmente reversible).
+ Frecuencia no conocida: erupción cutánea, urticaria, eritema nodoso, vasculitis y necrodermitis tóxica.
+ Trastornos musculoesqueléticos y del tejido conjuntivo
+ Raras: decoloración no sintomática de los huesos.
+ Frecuencia no conocida: afectación negativa del desarrollo óseo y dental en niños (fragilidad ósea, decoloración), hipoplasia del esmalte, artritis e inflamación y rigidez de las articulaciones.
+ Trastornos renales y urinarios
+ Raras: aumento del contenido de urea en sangre, azotemia en pacientes con alteraciones de la función renal (ver sección 4.4).
+ Muy raras: disfunción renal aguda reversible.
+ Frecuencia no conocida: nefritis intersticial.
+ Trastornos del sistema reproductor y mamarios
+ Frecuencia no conocida: balanitis y vaginitis por C. albicans.
+ Trastornos generales y alteraciones en el lugar de administración
+ Poco frecuentes: fiebre.
+ Frecuencia no conocida: decoloración de las secreciones.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https://www.notificaram.es.
+ 4.9. Sobredosis
+ En caso de sobredosis, deberá interrumpirse la administración de Minocin, instaurar tratamiento sintomático y medidas de soporte. Se recomienda realizar lavado gástrico. Los datos disponibles indican que la diálisis peritoneal y la hemodiálisis no alteran significativamente la semivida de eliminación plasmática y por consiguiente no serían beneficiosas en el tratamiento de la sobredosis.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No procede
+ 6.3. Periodo de validez
+ 4 años.
+ 6.4. Precauciones especiales de conservación
+ No requiere condiciones especiales de conservación
+ 6.5. Naturaleza y contenido del envase
+ Blister PVC-Aluminio
+ Envase de 12 cápsulas
+ Envase clínico de 100 cápsulas
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con las normativas locales.

@@ -1,0 +1,15 @@
+{
+ "id": "bevacizumab",
+ "familia": "intravitreo",
+ "resultados": 13,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "04300001",
+   "nombre": "AVASTIN 25 MG/ML CONCENTRADO PARA SOLUCION PARA PERFUSION",
+   "vias": "VIA INTRAVENOSA CONCENTRADO PARA SOLUCION PARA PERFUSION",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/04300001/FT_04300001.html",
+   "tipo": "parenteral"
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+FOSCAVIR 24 mg/ml SOLUCION PARA PERFUSION | VIA INTRAVENOSA SOLUCION PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/59712/FT_59712.html
+
+ 4.1. Indicaciones terapéuticas
+ Foscavir está indicado en:
+ - el tratamiento de inducción y mantenimiento en la retinitis por CMV (citomegalovirus) en pacientes con infección por VIH.
+ - el tratamiento de las infecciones por CMV (citomegalovirus) asociadas a VIH del tracto gastrointestinal superior e inferior.
+ - el tratamiento de infecciones mucocutáneas por el virus del herpes simple (VHS) en pacientes inmunosuprimidos que no responden al tratamiento con aciclovir.
+ El diagnóstico de la falta de respuesta a aciclovir puede establecerse clínicamente comprobando la falta de respuesta a un tratamiento con aciclovir intravenoso (5-10 mg/kg t.i.d.) durante 10 días o mediante ensayo in vitro.
+ Foscavir también está indicado, en los pacientes que hayan sido sometidos a trasplante de células madres hematopoyéticas (TCMH), cuando el tratamiento de primera línea no se considere adecuado:
+ -en el tratamiento anticipado de la infección por CMV (citomegalovirus) en pacientes de alto riesgo
+ -en el tratamiento de la infección por CMV (citomegalovirus)
+ La infección por CMV debe ser adecuadamente documentada mediante pruebas de laboratorio de alta sensibilidad y especificidad.
+ 4.2. Posología y forma de administración
+ 4.2.1. Posología
+ Adultos
+ Retinitis por CMV en pacientes con VIH
+ Tratamiento de inducción: Foscavir se administrará durante 2-3 semanas dependiendo de la respuesta clínica en forma de perfusiones intermitentes cada 8 horas a una dosis de 60 mg/kg o cada 12 horas a una dosis de 90 mg/kg en pacientes con función renal normal. La dosis debe ajustarse individualmente según la función renal (ver Tabla de dosis a continuación). La duración de cada perfusión no debe ser inferior a 2 h para la dosis de 90 mg/kg o de 1 h para la dosis de 60 mg/kg.
+ Tratamiento de mantenimiento: En el tratamiento de mantenimiento, una vez finalizado el tratamiento de inducción de la retinitis por CMV, Foscavir se administra 7 días a la semana durante el tiempo que se considere apropiado. En los pacientes con función renal normal, la dosis se encuentra comprendida entre los 90 y 120 mg/kg, en forma de perfusión única diaria de 2 horas de duración. La posología debe ser individualizada según la función renal del paciente (ver Tabla de dosis a continuación). Se recomienda iniciar el tratamiento con 90 mg/kg. La dosis se podrá aumentar gradualmente hasta 120 mg/kg en aquellos pacientes que presenten una buena tolerancia con la dosis previa.
+ Los pacientes que presenten una progresión de la retinitis durante el tratamiento de mantenimiento podrán pasar de nuevo al tratamiento de inducción o a un tratamiento combinado de Foscavir y ganciclovir. Una vez estabilizados, deberá establecerse el tratamiento de mantenimiento con Foscavir o una combinación de Foscavir y ganciclovir.
+ Por razones de incompatibilidad física, NO debe mezclarse Foscavir y ganciclovir, ver sección 6.2.
+ Infecciones por CMV en el tracto gastrointestinal superior e inferior en pacientes con VIH
+ Para el tratamiento, se administrará Foscavir como perfusiones intermitentes cada 12 horas a una dosis de 90 mg/kg en pacientes con función renal normal. La mayoría de los pacientes experimentarán una remisión de sus síntomas al cabo de 2 a 4 semanas. La dosis debe ser individualizada según la función renal del paciente (ver Tabla de dosis a continuación). El tiempo de perfusión no debe ser inferior a 2 horas.
+ Infecciones mucocutáneas por VHS que no responden a aciclovir
+ Para el tratamiento de inducción, Foscavir se administrará en forma de perfusiones intermitentes durante 1 hora a una dosis de 40 mg/kg, cada 8 horas, en pacientes con función renal normal. La dosis debe ajustarse individualmente según la función renal (ver Tabla de dosis a continuación). La duración de cada perfusión no debe ser inferior a 1 h.
+ El tiempo hasta la curación depende del tamaño de la lesión inicial y el tratamiento con Foscavir debe continuar hasta la completa reepitelización, habitualmente 2-3 semanas. La respuesta clínica a Foscavir debe ser evidente después de una semana de tratamiento; debe reconsiderarse el tratamiento en pacientes que no responden en ese periodo de tiempo.
+ No se ha establecido la eficacia de la terapia de mantenimiento con Foscavir después del tratamiento de inducción en infecciones por VHS que no responden a aciclovir. En caso de producirse una recidiva, deberá confirmarse la falta de respuesta a aciclovir.
+ Tratamiento anticipado en pacientes de alto riesgo y tratamiento de infección por CMV, en pacientes con TCMH
+ Tratamiento de inducción: se administra una dosis de 60 mg/kg durante 14 días en forma de perfusión intermitente cada 12 horas, en pacientes con función renal normal.
+ La dosis debe ajustarse individualmente según la función renal (ver Tabla de dosis a continuación).
+ La duración de cada perfusión no debe ser inferior a 1 hora.
+ Tratamiento de mantenimiento: una vez finalizado el tratamiento de inducción de la enfermedad por CMV, se administra 90 mg/kg, 5 días a la semana durante durante 14 días, en forma de perfusión única diaria de 2 horas de duración, en pacientes con función renal normal.
+ La posología debe ser individualizada según la función renal del paciente (ver Tabla de dosis a continuación).
+ Los pacientes que presenten una progresión de la infección durante la terapia de mantenimiento podrán pasar de nuevo al tratamiento de inducción.
+ Tabla 1 Tabla de dosis de Foscavir
+ Tratamiento de inducción
+ Aclaramiento de creatinina (ml/min/kg)
+ | 
+ Tratamiento anticipado y tratamiento por CMV (TCMH)
+ | 
+ Enfermedad por retinitis por CMV (VIH) y CMV en tracto gastrointestinal (VIH)
+ | 
+ Infección por VHS
+ | 
+ | 
+ 60 mg/kg durante 1 hora
+ | 
+ 60 mg/kg durante 1 hora
+ | 
+ 90 mg/kg durante al menos 2 horas
+ | 
+ 40 mg/kg durante 1 hora
+ | 
+ | 
+ (mg/kg)
+ | 
+ | 
+ (mg/kg)
+ | 
+ | 
+ (mg/kg)
+ | 
+ | 
+ (mg/kg)
+ | 
+ | 
+ | 
+ | 
+ >1,4
+ | 
+ 60
+ | 
+ Cada 12 h
+ | 
+ 60
+ | 
+ Cada 8 h
+ | 
+ 90
+ | 
+ Cada 12 h
+ | 
+ 40
+ | 
+ Cada 8 h
+ | 
+ 1,4>
+ | 
+ -
+ | 
+ >1
+ | 
+ 45
+ | 
+ Cada 12 h
+ | 
+ 45
+ | 
+ Cada 8 h
+ | 
+ 70
+ | 
+ Cada 12 h
+ | 
+ 30
+ | 
+ Cada 8 h
+ | 
+ 1>
+ | 
+ -
+ | 
+ >0,8
+ | 
+ 35
+ | 
+ Cada 12 h
+ | 
+ 35
+ | 
+ Cada 8 h
+ | 
+ 50
+ | 
+ Cada 12 h
+ | 
+ 20
+ | 
+ Cada 8 h
+ | 
+ 0,8>
+ | 
+ -
+ | 
+ >0,6
+ | 
+ 25
+ | 
+ Cada 12 h
+ | 
+ 40
+ | 
+ Cada 12 h
+ | 
+ 80
+ | 
+ Cada 24 h
+ | 
+ 25
+ | 
+ Cada 12 h
+ | 
+ 0,6>
+ | 
+ -
+ | 
+ >0,5
+ | 
+ 20
+ | 
+ Cada 12 h
+ | 
+ 30
+ | 
+ Cada 12 h
+ | 
+ 60
+ | 
+ Cada 24 h
+ | 
+ 20
+ | 
+ Cada 12 h
+ | 
+ 0,5>
+ | 
+ -
+ | 
+ >0,4
+ | 
+ 15
+ | 
+ Cada 12 h
+ | 
+ 25
+ | 
+ Cada 12 h
+ | 
+ 50
+ | 
+ Cada 24 h
+ | 
+ 15
+ | 
+ Cada 12 h
+ | 
+ <0,4
+ | 
+ | 
+ | 
+ Tratamiento no recomendado
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Tratamiento de mantenimiento
+ Aclaramiento de creatinina (ml/min/kg)
+ | 
+ 90 mg/kg durante al menos 2 horas
+ | 
+ 120 mg/kg
+ durante al menos 2 horas
+ | 
+ (mg/kg)
+ | 
+ | 
+ (mg/kg)
+ | 
+ | 
+ | 
+ | 
+ >1,4
+ | 
+ 90
+ | 
+ Cada 24 h
+ | 
+ 120
+ | 
+ Cada 24 h
+ | 
+ 1,4>
+ | 
+ -
+ | 
+ >1
+ | 
+ 70
+ | 
+ Cada 24 h
+ | 
+ 90
+ | 
+ Cada 24 h
+ | 
+ 1>
+ | 
+ -
+ | 
+ >0,8
+ | 
+ 50
+ | 
+ Cada 24 h
+ | 
+ 65
+ | 
+ Cada 24 h
+ | 
+ 0,8>
+ | 
+ -
+ | 
+ >0,6
+ | 
+ 80
+ | 
+ Cada 48 h
+ | 
+ 105
+ | 
+ Cada 48 h
+ | 
+ 0,6>
+ | 
+ -
+ | 
+ >0,5
+ | 
+ 60
+ | 
+ Cada 48 h
+ | 
+ 80
+ | 
+ Cada 48 h
+ | 
+ 0,5>
+ | 
+ -
+ | 
+ >0,4
+ | 
+ 50
+ | 
+ Cada 48 h
+ | 
+ 65
+ | 
+ Cada 48 h
+ | 
+ <0,4
+ | 
+ Tratamiento no recomendado
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Hidratación
+ Los pacientes clínicamente deshidratados deben corregir su estado antes de comenzar el tratamiento con Foscavir.
+ La toxicidad renal de Foscavir puede reducirse mediante una adecuada hidratación del paciente. Para ello, se recomienda favorecer la diuresis mediante hidratación con 0,5 - 1,0 litro de suero fisiológico antes de la primera perfusión de Foscavir y añadiendo posteriormente 0,5 - 1,0 litro de suero fisiológico a cada perfusión. En pacientes colaboradores puede utilizarse una pauta de hidratación similar aunque por vía oral.
+ Pacientes con alteración de la función renal
+ Debe reducirse la dosis para aquellos pacientes con insuficiencia renal de acuerdo con los índices de evacuación de creatinina descritos en la tabla superior. No se recomienda el empleo de Foscavir en pacientes sometidos a hemodiálisis, ya que no se han establecido las pautas de dosis.
+ Pacientes con alteración de la función hepática
+ No es necesario reducir la dosis para pacientes con insuficiencia hepática.
+ Pacientes de edad avanzada
+ No requiere ajuste de dosis.
+ Población pediátrica
+ La seguridad y la eficacia de foscarnet en niños no ha sido establecida.
+ 4.2.2. Forma de administración
+ Foscavir debe administrarse únicamente por vía intravenosa, bien mediante un catéter venoso central o en una vena periférica.
+ Para las instrucciones de administración, ver sección 6.6.
+ NO adminsitrar este medicamento mediante inyección intravenosa rápida.
+ Para su administración en una vena periférica, la solución debe diluirse inmediatamente antes de su administración.La solución de Foscavir puede administrarse sin dilución por vía venosa central.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes listados en la sección 6.1.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Foscavir debe ser utilizado con precaución en pacientes con función renal reducida. Puesto que en algún momento de la administración de Foscavir puede producirse una insuficiencia de la función renal, debe controlarse la creatinina sérica cada dos días durante la terapia de inducción y una vez a la semana durante la terapia de mantenimiento, llevándose a cabo los ajustes apropiados de la dosis según la función renal. Se debe mantener una hidratación adecuada en todos los pacientes (ver sección 4.2). Deberá supervisarse de cerca la función renal de los pacientes con enfermedades renales o que reciban un tratamiento simultáneo con otros productos médicos nefrotóxicos (ver sección 4.5).
+ Debido a la tendencia de Foscavir a quelar iones metálicos bivalentes, como el calcio, la administración de Foscavir puede asociarse con una brusca reducción del calcio sérico ionizado proporcional a la velocidad de perfusión de Foscavir, que puede no reflejarse en los niveles de calcio sérico total. Deberán valorarse los electrolitos, especialmente calcio y magnesio, antes y durante el tratamiento con Foscavir y corregirse las deficiencias.
+ Se ha asociado Foscarnet con casos de prolongación del intervalo QT y más raramente con casos de torsade de pointes (véase la sección 4.8). Deberá realizarse una monitorización cuidadosa de aquellos pacientes con prolongación de los intervalos de conducción cardíaca conocida, especialmente QTc, de los pacientes con alteraciones electrolíticas significativas (hipopotasemia, hipomagnesemia), bradicardia, además de pacientes con enfermedades cardiacas subyacentes como insuficiencia cardiaca congestiva o que estén tomando medicaciones conocidas por prolongar el intervalo QT, debido al aumento del riesgo de padecer arritmia ventricular. Se debe aconsejar a los pacientes que comuniquen de inmediato cualquier síntoma cardiaco. Foscavir se deposita en dientes, huesos y cartílagos. Los resultados de los estudios muestran que el depósito es mayor en animales jóvenes. La seguridad de Foscavir y su efecto sobre el desarrollo del esqueleto no ha sido estudiado en niños. Por favor consulte la sección 5.3.
+ Se han asociado convulsiones, relacionadas con las alteraciones en los minerales y electrolitos del plasma, con el tratamiento con Foscavir. Se han descrito casos de estado epiléptico. Por ese motivo, se deberá controlar atentamente a los pacientes por si se diesen dichos cambios y sus posibles secuelas. Puede que sean necesarios suplementos minerals y de electrolitos.
+ Foscavir se elimina en altas concentraciones por la orina y puede provocar una importante irritación genital y/o ulceraciones. Para evitar irritaciones y ulceraciones se recomienda extremar la higiene personal y la limpieza de la región genital tras la micción.
+ Si los pacientes sufriesen parestesia en las extremidades o nauseas, se recomienda reducer la velocidad de perfusión.
+ En caso de estar indicados los diuréticos, se recomiendan tiazidas.
+ Desarrollo de resistencia: Si la administración de Foscavir no conduce a una respuesta terapéutica o conduce a una condición peor después de una respuesta inicial, puede ser el resultado de una menor sensibilidad de los virus hacia foscarnet. En este caso, se debería considerar la terminación de la terapia con Foscavir y un cambio a otro producto médico adecuado.
+ Cuando se administre Foscavir para el tratamiento de la viremia por CMV, compruebe si la infección afecta a órganos específicos. Si hay síntomas de infección, modifique la dosis rápidamente según las recomendaciones para la enfermedad por CMV (véase sección 4.2) y tome las medidas necesarias..
+ No se ha establecido la seguridad y eficacia de Foscavir para el tratamiento de otras infecciones por VHS (p. ej. retinitis, encefalitis); enfermedad congénita o neonatal; o VHS en individuos inmunocompetentes
+ Advertencia sobre excipientes:
+ Este medicamento contiene 1,38 g de sodio por frasco de 250 ml, equivalente al 69% de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ La dosis máxima diaria recomendada de este producto es de 12g de Foscavir al día (180 mg/Kg/día para un paciente promedio de 70 Kg) lo que equivale a un 138% de la ingesta alimentaria máxima diaria de sodio recomendada por la OMS.
+ Foscavir se considera alto en sodio. Esto debe tenerse especialmente en cuenta para quienes siguen una dieta baja en sodio. Su uso debe evitarse cuando no se pueda tolerar una carga de solución salina (por ejemplo, en miocardiopatía).
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Puesto que Foscavir puede afectar la función renal, se puede producir una toxicidad aditiva cuando se utilice en combinación con otros fármacos nefrotóxicos como aminoglucósidos, amfotericina B,ciclosporina A, aciclovir, metorexato y tacrolimus. Por otro lado, dado que Foscavir puede reducir los niveles séricos de calcio ionizado, se aconseja una extrema precaución cuando se emplea simultáneamente con otros fármacos que se sabe que, influyen en los niveles séricos de calcio, como pentamidina intravenosa. Durante el tratamiento simultáneo con Foscavir y con pentamidina intravenosa, se ha observado insuficiencia renal y hipocalcemia sintomática (signos de Trousseau y de Chvostek). Se ha descrito función renal anormal relacionada con el uso de Foscavir en combinación con ritonavir y/o saquinavir.
+ Debido al mayor riesgo potencial de prolongación de QT y torsade de pointes, deberá utilizarse Foscavir con precaución con fármacos conocidos por prolongar el intervalo QT, en particular con los de clase IA (por ej. quinidina) y III (por ej. amiodarona, sotalol), antiarrítmicos o fármacos neurolépticos. Se deberá realizar un seguimiento cardíaco estricto en casos de coadministración.
+ No se produce interacción farmacocinética con zidovudina (AZT), ganciclovir, didanosina (ddI),zalcitabina (ddC) o probenecid.
+ Las interacciones de fármacos (incompatibilidades por perfusión) se describen en la sección 6.2.
+ 4.6. Fertilidad, embarazo y lactancia
+ 4.6.1. Embarazo
+ No hay datos, o la cantidad es limitada, sobre el uso de foscarnet en mujeres embarazadas.
+ Los estudios con animals son insuficientes en relación a la toxicidad reproductiva (ver sección 5.3).
+ No se recomienda el uso de Foscavir durante el embarazo.
+ 4.6.2. Lactancia
+ No hay información suficiente sobre la secreción de foscarnet en la leche materna.
+ Los datos farmacodinámicos/toxicológicos disponibles en animales han mostrado secreción de foscarnet en la leche (para más información ver sección 5.3).
+ No se puede excluir que haya algún riesgo para los recién nacidos/bebes.
+ No debe tomarse Foscavir si se está dando el pecho.
+ Se deberá tomar una decision sobre si detener la lactancia o detener/abstenerse de la terapia con Foscavir teniendo en cuenta las ventajas de la lactancia para el niño y las ventajas de la terapia para la mujer.
+ 4.6.3. Fertilidad
+ No hay datos disponibles relativos a la influencia de Foscavir sobre la fertilidad.
+ No se observó ningún efecto sobre la fertilidad en los estudios con animales (ver sección 5.3).
+ Mujeres con potencial de quedarse embarazadas/anticonceptivos para hombres y mujeres
+ Las mujeres capaces de tener hijos deberían utilizar métodos anticonceptivos durante la terapia con Foscavir.
+ Los hombres tratados con Foscavir no deben procrear durante o hasta 6 meses después de la terapia.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ Foscavir tiene una influencia moderada sobre la capacidad para conducir y utilizar máquinas. Debido a la enfermedad misma y posibles reacciones adversas de Foscavir (como mareos y convulsiones, ver sección 4.8), la capacidad para conducir y utilizar máquinas puede verse afectada. Se recomienda que el médico advierta al paciente al respecto y, en función de la fase de la enfermedad y de la tolerancia a la medicación, dé una recomendación para cada caso individual.
+ 4.8. Reacciones adversas
+ La mayoría de los pacientes que reciben Foscavir están gravemente inmunocomprometidos y padecen infecciones víricas graves. El estado físico del paciente, la gravedad de la enfermedad de base, la presencia de otras infecciones y las terapias simultáneas contribuyen a los acontecimientos adversos observados durante el uso de Foscavir.
+ Las reacciones adversas comunicadas con Foscavir durante los ensayos clínicos y vigilancia postcomercialización se muestran en la tabla que aparece abajo. Se clasifican por Clase de Órgano Sistema (COS) y en orden de frecuencia, utilizando la siguiente convención: muy frecuentes (?1/10); frecuentes (?1/100 a <1/10); poco frecuentes (?1/1.000 a <1/100); raras (?1/10.000 a <1/1.000); muy raras (<1/10.000); frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Tenga en cuenta que en estos ensayos clínicos no se proporcionó de manera consistente hidratación ni atención al equilibrio electrolítico; la frecuencia de algunos acontecimientos adversos será inferior si se siguen las recomendaciones actuales (ver secciones 4.2 y 4.4).
+ Tabla 2 Frecuencia de acontecimientos adversos
+ | 
+ SOC
+ | 
+ Frecuencia
+ | 
+ Acontecimiento
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ Muy frecuente
+ | 
+ Granulocitopenia, anemia
+ | 
+ Frecuente
+ | 
+ Leucopenia, trombocitopenia, neutropenia
+ | 
+ Poco frecuente
+ | 
+ Pancitopenia
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ Frecuente
+ | 
+ Sepsis
+ | 
+ Frecuencia no conocida
+ | 
+ Hipersensibilidad (incluyendo reacciones anafilácticas), reacciones anafilactoides
+ | 
+ Trastornos endocrinos
+ | 
+ Frecuencia no conocida
+ | 
+ Diabetes insípida
+ | 
+ Trastornos del metabolismo y de la nutrición
+ | 
+ Muy frecuente
+ | 
+ Pérdida del apetito, hipopotasemia, hipomagnesemia, hipocalcemia
+ | 
+ Frecuente
+ | 
+ Hiperfosfatemia, hiponatremia, hipofosfatemia, aumento de la fosfatasa alcalina, aumento de lactato deshidrogenasa en sangre, hipercalcemia, deshidratación
+ | 
+ Poco frecuente
+ | 
+ Acidosis
+ | 
+ Frecuencia no conocida
+ | 
+ Hipernatremia
+ | 
+ Trastornos psiquiátricos
+ | 
+ Frecuente
+ | 
+ Reacciones agresivas, agitación, ansiedad, confusión, depresión, nerviosismo
+ | 
+ Frecuencia no conocida
+ | 
+ Cambios del estado mental
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Muy frecuente
+ | 
+ Mareo, cefalea, parestesia
+ | 
+ Frecuente
+ | 
+ Coordination abnormal, convulsion, hipoestesia, contracciones musculares involuntarias, neuropatía periférica, temblor
+ | 
+ Frecuencia no conocida
+ | 
+ Encefalopatía
+ | 
+ Trastornos cardiacos
+ | 
+ Frecuente
+ | 
+ Palpitaciones, taquicardia
+ | 
+ Frecuencia no conocida
+ | 
+ Prolongación del intervalo QT en el ECG, arritmia ventricular, torsade de pointes
+ | 
+ Trastornos vasculares
+ | 
+ Frecuente
+ | 
+ Hipertensión, hipotensión, tromboflebitisa
+ | 
+ Trastornos gastrointestinales
+ | 
+ Muy frecuente
+ | 
+ Diarrea, náuseas, vómitos
+ | 
+ Frecuente
+ | 
+ Dolor abdominal, estreñimiento, dispepsia, pancreatitis, hemorragia gastrointestinal
+ | 
+ Frecuencia no conocida
+ | 
+ Ulceración esofágica
+ | 
+ Trastornos hepatobiliares
+ | 
+ Frecuente
+ | 
+ Función hepática anormal
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Muy frecuente
+ | 
+ Erupción
+ | 
+ Frecuente
+ | 
+ Prurito
+ | 
+ Poco frecuente
+ | 
+ Urticaria, angioedema
+ | 
+ Frecuencia no conocida
+ | 
+ Eritema multiforme, necrólisis epidérmica tóxica, síndrome de Stevens Johnsonb
+ | 
+ Trastornos musculoesqueletales y del tejido conjuntivo
+ | 
+ Frecuente
+ | 
+ Mialgia
+ | 
+ Frecuencia no conocida
+ | 
+ Debilidad muscular, miopatía, miositis, rabdomiólisis
+ | 
+ Trastornos renales y urinarios
+ | 
+ Frecuente
+ | 
+ Insuficiencia renal, fallo renal agudo, disuria, poliuria, proteinuria
+ | 
+ Poco frecuentes
+ | 
+ Alteración renal tubular, glomerulonefritis, síndrome nefrótico
+ | 
+ Frecuencia no conocida
+ | 
+ Dolor renal, acidosis tubular renal, necrosis tubular renal, necrosis tubular aguda, nefropatía por cristales, hematuria
+ | 
+ Trastornos del aparato reproductor y de la mama
+ | 
+ Frecuente
+ | 
+ Incomodidad y ulceración genitalc
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ Muy frecuente
+ | 
+ Astenia, escalofríos, fatiga, pirexia
+ | 
+ Frecuente
+ | 
+ Malestar general, edema, dolor en el pechod, dolor en el lugar de la inyección, inflamación en el lugar de la inyección
+ | 
+ Frecuencia no conocida
+ | 
+ Extravasación
+ | 
+ Exploraciones complementarias
+ | 
+ Muy frecuente
+ | 
+ Aumento de la creatinina sérica, descenso de la concentración de hemoglobina
+ | 
+ Frecuente
+ | 
+ Descenso del aclaramiento renal de creatinina, electrocardiograma anormal, aumento de la gamma-GT, ALT y AST séricas, aumento de la lipasa
+ | 
+ Poco frecuente
+ | 
+ Aumento de la amilasa, aumento de creatina quinasa en sangre
+ | 
+ | 
+ | 
+ | 
+ aSe ha observado tromboflebitis en venas periféricas después de perfusión de una solución de foscarnet sin diluir. 
+ b Se han registrado casos de erupciones vesiculoampollosas incluyendo eritema multiforme, necrólisis epidérmica tóxica, y síndrome de Stevens Johnson. En la mayoría de los casos, los pacientes estaban tomando otros medicamentos que se han asociado con necrólisis epidérmica tóxica o con el síndrome de Stevens Johnson.
+ c Foscarnet se secreta en altas concentraciones en la orina y puede estar asociado con una irritación y ulceración significativa en la zona genital, sobre todo después de una terapia prolongada.
+ d Se ha registrado dolor de pecho pasajero como parte de las reacciones a la infusión de foscarnet.
+ Notificación de sospechas de reacciones adversas:
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaram.es.
+ 4.9. Sobredosis
+ Durante la utilización de Foscavir se ha comunicado sobredosis, siendo la dosis más elevada de unas 20 veces la dosis recomendada. Algunos de los casos fueron sobredosis relativas ya que la dosis del fármaco no se había ajustado de inmediato para un paciente que sufría función renal reducida.
+ Hay casos en los que se ha descrito que no se produjeron secuelas clínicas después de una sobredosis.
+ El patrón de acontecimientos adversos asociados con una sobredosis de Foscavir se corresponde con el perfil conocido de acontecimientos adveros del fármaco.
+ La hemodiálisis aumenta la eliminación de Foscavir, y puede ser beneficiosa en casos pertinentes.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Foscavir es incompatible con solución de glucosa al 30%, amfotericina B, aciclovir sódico, ganciclovir, pentamidina isetionato, trimetoprima-sulfametoxazol y vancomicina clorhidrato. Tampoco es compatible con soluciones que contengan calcio.
+ No se recomienda la perfusión simultánea de otros fármacos en el mismo sistema.
+ 6.3. Periodo de validez
+ Sin abrir: 2 años
+ Después de la primera apertura: la solución debe ser utilizada en un plazo de 24 horas ( no contiene conservante ).
+ Desde un punto de vista microbiológico, el producto debe utilizarse inmediatamente. Si no se utiliza inmediatamente, las condiciones de conservación y el tiempo, antes del uso, son responsabilidad del profesional no debiendo superar las 24 horas conservado entre 2 y 8ºC, a menos que la reconstitución haya tenido lugar en condiciones asépticas controladas y validadas.
+ 6.4. Precauciones especiales de conservación
+ Antes de la apertura: Conservar a temperatura inferior a 25ºC. No conservar en nevera.Si se conserva en nevera o se expone a temperaturas inferiores al punto de congelación, puede precipitar. Este precipitado se puede volver a solubilizar manteniendo el frasco a temperatura ambiente y agitando repetidamente.
+ Para las condiciones de conservación tras la primera apertura del medicamento, ver sección 6.3
+ 6.5. Naturaleza y contenido del envase
+ Frasco de vidrio de 250 ml para perfusión.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con la normativa local.
+ Las dosis de Foscavir a dispensar individualmente pueden ser transferidas asépticamente a bolsas de plástico de perfusión por los servicios de farmacia hospitalaria.
+ La estabilidad físico-química de Foscavir y de las diluciones en partes iguales con cloruro de sodio 9 mg/ml (0,9%) o glucosa 50 mg/ml, en bolsas de PVC, es de 7 días.
+ Instrucciones de administración
+ Foscavir debe administrarse únicamente por vía intravenosa, bien mediante un catéter venoso central o en una vena periférica.
+ NO adminsitrar este medicamento mediante inyección intravenosa rápida.
+ Para su administración en una vena periférica, la solución debe diluirse inmediatamente antes de su administración en glucosa al 5% o en suero fisiológico hasta una concentración de 12 mg/ml.
+ La solución de Foscavir puede administrarse sin dilución por vía venosa central.
+ El contacto accidental con la piel o con los ojos de la solución de Foscavir puede causar irritación local y sensación de quemazón. En caso de producirse un contacto accidental deberá lavarse la zona expuesta con agua.

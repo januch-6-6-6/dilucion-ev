@@ -1,0 +1,40 @@
+id: mepivacaina
+nombre: Mepivacaína en bloqueos oculares
+comerciales: []
+grupo: anestesico-local
+familias:
+- bloqueo
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: mepivacaina-3
+  forma: solucion
+  cantidad:
+    valor: 30
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-29363/25
+  - F-29940/26
+  usoDirecto: true
+  nota: Mepivacaína al 3 % (30 mg/ml), expresada por 1 ml. El ISP no distingue si es de uso dental ni informa el envase.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: 'F-29363/25 y F-29940/26: mepivacaína clorhidrato solución inyectable 3 %'
+dosis: []
+protocolos: []
+sinPauta:
+  motivo: 'Ninguna fuente consultada trae una dosis oftálmica de mepivacaína: la ficha técnica revisada (Mepivacaína Physan
+    20 mg/ml, infiltración) no incluye vías oculares y ni la guía RCoA/RCOphth 2012 ni las páginas de EyeWiki sobre bloqueos
+    la mencionan.'
+pediatria:
+  estado: sin_datos
+  motivo: No se recomienda en menores de 4 años (ficha técnica CIMA); no hay pauta oftálmica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'No uses esta ficha para dosificar: no hay una dosis oftálmica respaldada. Consulta el protocolo de anestesia de tu pabellón.'
+discrepancias: []
+meta: {}

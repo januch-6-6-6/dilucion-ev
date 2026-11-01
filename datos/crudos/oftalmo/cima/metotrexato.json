@@ -1,0 +1,16 @@
+{
+ "id": "metotrexato",
+ "familia": "intravitreo",
+ "resultados": 99,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "62121",
+   "nombre": "METOTREXATO PFIZER 25 MG/ML SOLUCION INYECTABLE EFG",
+   "vias": "VIA INTRAMUSCULAR VIA INTRATECAL VIA INTRAVENOSA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/62121/FT_62121.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

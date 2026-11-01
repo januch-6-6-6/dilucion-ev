@@ -1,0 +1,16 @@
+{
+ "id": "adrenalina",
+ "familia": "intracameral",
+ "resultados": 55,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "35403",
+   "nombre": "ADRENALINA LEVEL 1mg/ml SOLUCION INYECTABLE JERINGA PRECARGADA",
+   "vias": "VIA INTRACARDIACA VIA INTRAMUSCULAR VIA INTRAVENOSA VIA SUBCUTANEA SOLUCION INYECTABLE EN JERINGA PRECARGADA",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/35403/FT_35403.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

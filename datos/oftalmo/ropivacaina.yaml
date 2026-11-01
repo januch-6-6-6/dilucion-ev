@@ -1,0 +1,68 @@
+id: ropivacaina
+nombre: Ropivacaína en bloqueos oculares
+comerciales: []
+grupo: anestesico-local
+familias:
+- bloqueo
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: ropivacaina-7-5
+  forma: solucion
+  cantidad:
+    valor: 7.5
+    unidad: mg
+  volumenMl: 1
+  registrosIsp: []
+  usoDirecto: true
+  nota: Ropivacaína al 0,75 % (7,5 mg/ml), expresada por 1 ml. No aparece en el ISP (31-oct-2026). La ficha técnica española
+    es de uso epidural y perineural.
+  fuente:
+    ref: CIMA-OFT-ROPIVACAINA-73054
+    detalle: Ropivacaína Kabi 7,5 mg/ml solución inyectable
+- id: ropivacaina-10
+  forma: solucion
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 1
+  registrosIsp: []
+  usoDirecto: true
+  nota: Ropivacaína al 1 % (10 mg/ml), expresada por 1 ml.
+  fuente:
+    ref: CIMA-OFT-ROPIVACAINA-73054
+    detalle: Ropivacaína Kabi 10 mg/ml solución inyectable
+dosis:
+- indicacion: Anestesia subtenoniana en cirugía vitreorretinal y de catarata
+  via: subtenoniana
+  poblacion: adulto
+  texto: 'Publicado: 2 a 4 ml de ropivacaína al 1 % (estudio citado por Lohmann 2023), o 4 ml al 0,75 % sin hialuronidasa
+    (reporte de caso, que describe un síndrome transitorio del ápex orbitario).'
+  estatus: off_label
+  condicion: 'Sin guía de sociedad: solo un estudio citado y un reporte de caso. La ficha técnica consultada no incluye vías
+    oculares.'
+  presentaciones:
+  - ropivacaina-7-5
+  - ropivacaina-10
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-PMC10614322
+    detalle: 'Estudio citado: 2,0–4,0 ml de ropivacaína 1,0 % en el espacio subtenoniano'
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-PMC12771858
+    detalle: 4 ml de ropivacaína 0,75 % sin hialuronidasa, sin compresión ocular posterior
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica de bloqueos oculares.
+conservacion: []
+contraindicaciones: []
+alertas:
+- Se describió un síndrome transitorio del ápex orbitario, con evidencia en resonancia, tras 4 ml de ropivacaína al 0,75 %
+  en el espacio subtenoniano durante una cirugía combinada (Cao 2026, reporte de caso).
+- 'Anestesia del tronco cerebral con bloqueos retrobulbar, peribulbar y subtenoniano: los síntomas aparecen dentro de 10 minutos
+  (RCoA/RCOphth 2012).'
+discrepancias: []
+meta: {}

@@ -1,0 +1,267 @@
+EYLEA 40 MG/ML SOLUCION INYECTABLE EN JERINGA PRECARGADA | VIA INTRAVITREA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/112797001/FT_112797001.html
+
+ 4.1. Indicaciones terapéuticas
+ Eylea está indicado en adultos para el tratamiento de:
+ la degeneración macular asociada a la edad (DMAE) neovascular (exudativa) (ver sección 5.1).
+ la alteración visual debida al edema macular secundario a la oclusión de la vena retiniana (oclusión de la rama venosa retiniana (ORVR) u oclusión de la vena central retiniana (OVCR)) (ver sección 5.1).
+ la alteración visual debida al edema macular diabético (EMD) (ver sección 5.1).
+ la alteración visual debida a la neovascularización coroidea miópica (NVC miópica) (ver sección 5.1).
+ EYLEA está indicado en recién nacidos pretérmino para el tratamiento de:
+ la retinopatía del prematuro (ROP) con afectación de la zona I (estadio 1+, 2+, 3 o 3+), afectación de la zona II (estadio 2+ o 3+) o ROP‑PA (ROP agresiva posterior).
+ 4.2. Posología y forma de administración
+ Eylea se administra exclusivamente por inyección intravítrea.
+ Eylea debe ser administrado únicamente por un médico cualificado con experiencia en la administración de inyecciones intravítreas.
+ Posología
+ DMAE exudativa
+ La dosis recomendada de Eylea es 2 mg de aflibercept, equivalente a 0,05 ml.
+ El tratamiento con Eylea se inicia con una inyección mensual para las tres primeras dosis. Después, el intervalo de tratamiento se amplía a dos meses.
+ En función de la valoración de los resultados visuales y/o anatómicos por parte del médico, el intervalo entre tratamientos puede mantenerse en dos meses o ampliarse más, utilizando una pauta posológica de “tratar y extender”, aumentando los intervalos entre inyecciones en incrementos de 2 o 4 semanas para mantener unos resultados visuales y/o anatómicos estables.
+ Si se observa un deterioro de los resultados visuales y/o anatómicos, se debe reducir el intervalo entre dosis consecuentemente.
+ No es necesario realizar una monitorización entre inyecciones. De acuerdo al criterio médico, el programa de visitas de monitorización puede ser más frecuente que las visitas para administrar las inyecciones.
+ No se han estudiado intervalos de tratamiento superiores a cuatro meses ni inferiores a 4 semanas entre inyecciones (ver sección 5.1).
+ Edema macular secundario a OVR (OVR de rama o central)
+ La dosis recomendada de Eylea es 2 mg de aflibercept, equivalente a 0,05 ml.
+ Después de la inyección inicial, el tratamiento se administra mensualmente. El intervalo entre dos dosis no debe ser inferior a un mes.
+ Si los resultados visuales y anatómicos indican que el paciente no se está beneficiando del tratamiento continuado, se debe interrumpir el tratamiento con Eylea.
+ El tratamiento se administra mensualmente y de forma continuada hasta que se observa una agudeza visual máxima y/o no hay signos de actividad de la enfermedad. Pueden ser necesarias tres o más inyecciones mensuales consecutivas.
+ El tratamiento se puede entonces continuar con una pauta de “tratar y extender”, aumentando gradualmente los intervalos para mantener unos resultados visuales y/o anatómicos estables, aunque no se dispone de datos suficientes para concretar la duración de estos intervalos. Si se observa un deterioro de los resultados visuales y/o anatómicos, se debe reducir el intervalo entre dosis según corresponda.
+ El médico responsable debe determinar el programa de monitorización y tratamiento en base a la respuesta individual de cada paciente.
+ La monitorización de la actividad de la enfermedad puede incluir examen clínico, técnicas de análisis funcional o de imagen (por ejemplo, tomografía de coherencia óptica o angiografía con fluoresceína).
+ Edema macular diabético
+ La dosis recomendada de Eylea es 2 mg de aflibercept, equivalente a 0,05 ml.
+ El tratamiento con Eylea se inicia con una inyección mensual para las cinco primeras dosis consecutivas, seguido de una inyección cada dos meses.
+ En función de la valoración de los resultados visuales y/o anatómicos por parte del médico, el intervalo entre tratamientos puede mantenerse en 2 meses o individualizarse, como en una pauta posológica de “tratar y extender”, donde los intervalos entre tratamientos se suelen aumentar en incrementos de 2 semanas para mantener unos resultados visuales y/o anatómicos estables. Existen datos limitados para intervalos de tratamiento superiores a 4 meses. Si se observa un deterioro de los resultados visuales y/o anatómicos, se debe reducir el intervalo entre dosis según corresponda. No se han estudiado intervalos de tratamiento inferiores a 4 semanas (ver sección 5.1).
+ El programa de monitorización se determinará según criterio médico.
+ Si los resultados visuales y anatómicos indican que el paciente no se beneficia del tratamiento continuado, se debe interrumpir el tratamiento con Eylea.
+ Neovascularización coroidea miópica
+ La dosis recomendada de Eylea es una única inyección intravítrea de 2 mg de aflibercept equivalente a 0,05 ml.
+ Se pueden administrar dosis adicionales si los resultados visuales y/o anatómicos indican que la enfermedad persiste. Las recurrencias se deben tratar como una nueva manifestación de la enfermedad.
+ El programa de monitorización se determinará según criterio médico.
+ El intervalo entre dos dosis no debe ser inferior a un mes.
+ Retinopatía del prematuro (ROP)
+ La dosis recomendada de Eylea es una única inyección intravítrea de 0,4 mg de aflibercept equivalente a 0,01 ml.
+ El tratamiento de la ROP se inicia con una única inyección por ojo y se puede administrar de forma bilateral el mismo día. En total, se pueden administrar hasta 2 inyecciones por ojo dentro de los 6 meses posteriores al inicio del tratamiento si hay signos de actividad de la enfermedad. El intervalo de tratamiento entre las 2 dosis inyectadas en el mismo ojo debe ser de al menos 4 semanas.
+ Poblaciones especiales
+ Insuficiencia hepática y/o renal
+ No se han realizado estudios específicos con Eylea en pacientes con insuficiencia hepática y/o renal.
+ Los datos disponibles no sugieren que sea necesario ajustar la dosis de Eylea en estos pacientes (ver sección 5.2).
+ Pacientes de edad avanzada
+ No se necesitan consideraciones especiales. La experiencia en pacientes mayores de 75 años con EMD es limitada.
+ Población pediátrica
+ No se ha establecido la seguridad y eficacia de Eylea en niños ni adolescentes menores de 18 años de edad para indicaciones distintas de la ROP (ver sección 4.4). No existe una recomendación de uso específica para Eylea en las indicaciones de DMAE exudativa, OVCR, ORVR, EMD y NVC miópica en la población pediátrica.
+ Forma de administración
+ Las inyecciones intravítreas deben realizarse teniendo en cuenta los estándares médicos y las directrices pertinentes, por un médico cualificado que tenga experiencia en la administración de inyecciones intravítreas. En general, deben asegurarse unas medidas de anestesia y de asepsia adecuadas, que incluyan el uso de un microbicida tópico de amplio espectro (p. ej., povidona yodada aplicada en la piel de la zona periocular, párpado y superficie ocular). Se recomienda el lavado quirúrgico de las manos, uso de guantes estériles, un campo estéril y un blefarostato estéril para los párpados (o equivalente).
+ Inmediatamente después de la inyección intravítrea, se debe monitorizar a los pacientes a fin de detectar una elevación de la presión intraocular. Una monitorización adecuada puede consistir en la comprobación de la perfusión de la cabeza del nervio óptico o en la realización de una tonometría. En caso necesario, debe estar disponible un equipo de paracentesis estéril.
+ Tras la inyección intravítrea, se debe instruir a los pacientes adultos sobre la necesidad de notificar inmediatamente cualquier síntoma que sugiera endoftalmitis (p. ej., dolor ocular, enrojecimiento del ojo, fotofobia o visión borrosa).
+ Los profesionales sanitarios deben observar a los pacientes con ROP en busca de signos que sugieran endoftalmitis (p. ej., enrojecimiento/irritación del ojo, secreción ocular, hinchazón palpebral, fotofobia).
+ También se debe instruir a los padres y cuidadores para que observen y notifiquen sin demora cualquier signo que sugiera endoftalmitis.
+ Cada jeringa precargada debe usarse exclusivamente para el tratamiento de un solo ojo. La extracción de múltiples dosis de una jeringa precargada puede aumentar el riesgo de contaminación y posterior infección.
+ Adultos
+ La jeringa precargada contiene más cantidad que la dosis recomendada de 2 mg de aflibercept (equivalente a 0,05 ml de solución inyectable). El volumen extraíble de la jeringa es la cantidad que puede extraerse de la jeringa y no debe utilizarse en su totalidad. Para la jeringa precargada de Eylea, el volumen extraíble es de al menos 0,09 ml. El exceso de volumen debe eliminarse antes de administrar la dosis recomendada (ver sección 6.6).
+ Si se inyecta todo el volumen de la jeringa precargada puede dar lugar a una sobredosis. Para eliminar las burbujas y el exceso de medicamento, apriete lentamente el émbolo hasta alinear la base de la cúpula del émbolo (no la punta de la cúpula) con la línea de dosificación de la jeringa (equivalente a 0,05 ml, es decir, 2 mg de aflibercept) (ver secciones 4.9 y 6.6).
+ La aguja de inyección se debe introducir 3,5 – 4,0 mm por detrás del limbo en la cavidad vítrea, evitando el meridiano horizontal y en dirección al centro del globo. Seguidamente debe liberarse el volumen de inyección de 0,05 ml; las inyecciones siguientes se deben aplicar cada vez en un punto escleral distinto.
+ Tras la inyección, debe desecharse todo resto de producto no utilizado.
+ Población pediátrica
+ Para el tratamiento de recién nacidos pretérmino, se debe utilizar el dispositivo dosificador pediátrico PICLEO en combinación con la jeringa precargada para la administración de una dosis única de 0,4 mg de aflibercept (equivalente a 0,01 ml de solución inyectable) (ver sección 6.6).
+ La aguja de inyección se debe introducir en el ojo a 1,0‑2,0 mm del limbo, dirigida hacia el nervio óptico.
+ Tras la inyección, debe desecharse todo resto de producto no utilizado.
+ Para la manipulación del medicamento antes de la administración, ver sección 6.6. 
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo aflibercept o a alguno de los excipientes incluidos en la sección 6.1.
+ Infección ocular o periocular activa o sospecha de éstas.
+ Inflamación intraocular activa grave. 
+ 4.4. Advertencias y precauciones especiales de empleo
+ Trazabilidad
+ Con objeto de mejorar la trazabilidad de los medicamentos biológicos, el nombre y el número de lote del medicamento administrado deben estar claramente registrados.
+ Reacciones relacionadas con la inyección intravítrea
+ Las inyecciones intravítreas, incluidas las de Eylea, se han asociado a endoftalmitis, inflamación intraocular, desprendimiento retiniano regmatógeno, desgarro retiniano y catarata traumática iatrogénica (ver sección 4.8). Siempre que se administre Eylea, se deben emplear técnicas de inyección asépticas adecuadas. Además, se deben monitorizar los pacientes durante la semana siguiente a la inyección para, en caso de infección, poder instaurar inmediatamente el tratamiento. Se debe instruir a los pacientes adultos sobre la necesidad de notificar inmediatamente cualquier síntoma que sugiera endoftalmitis o cualquiera de los acontecimientos indicados anteriormente.
+ Los profesionales sanitarios deben observar a los pacientes con ROP en busca de signos que sugieran endoftalmitis (p. ej., enrojecimiento/irritación del ojo, secreción ocular, hinchazón palpebral, fotofobia).
+ También se debe instruir a los padres y cuidadores para que observen y notifiquen sin demora cualquier signo que sugiera endoftalmitis.
+ La jeringa precargada contiene más cantidad que la dosis recomendada de 2 mg de aflibercept (equivalente a 0,05 ml) para pacientes adultos. El exceso de volumen debe eliminarse antes de la administración (ver secciones 4.2 y 6.6).
+ La jeringa precargada contiene más cantidad que la dosis recomendada de 0,4 mg (equivalente a 0,01 ml) para los recién nacidos pretérmino (ver sección 6.6). La jeringa precargada se debe utilizar en combinación con el dispositivo dosificador pediátrico PICLEO para evitar un volumen superior al recomendado, que podría provocar un aumento de la presión intraocular (ver las secciones 4.9 y 6.6).
+ Se han observado aumentos de la presión intraocular en los 60 minutos siguientes a la administración de una inyección intravítrea, incluidas las de Eylea (ver sección 4.8). Es necesario tener especial precaución en los pacientes con glaucoma mal controlado (no inyectar Eylea cuando la presión intraocular sea ≥ 30 mmHg). Por consiguiente, en todos los casos, se debe monitorizar y tratar adecuadamente tanto la presión intraocular como la perfusión de la cabeza del nervio óptico.
+ Inmunogenicidad
+ Dado que se trata de una proteína terapéutica, hay un potencial de inmunogenicidad con Eylea (ver sección 4.8). Se debe instruir a los pacientes sobre la necesidad de notificar cualquier signo o síntoma de inflamación intraocular, p. ej., dolor, fotofobia o enrojecimiento, ya que puede ser un signo clínico atribuible a hipersensibilidad.
+ Efectos sistémicos
+ Se han notificado acontecimientos adversos sistémicos, incluyendo hemorragias no oculares y acontecimientos tromboembólicos arteriales tras la inyección intravítrea de inhibidores del VEGF, existiendo un riesgo teórico de que puedan relacionarse con la inhibición del VEGF. Los datos sobre seguridad del tratamiento de pacientes con OVCR, ORVR, EMD o NVC miópica con antecedentes de ictus, de ataques isquémicos transitorios o de infarto de miocardio en los últimos 6 meses son limitados. Se debe tener precaución cuando se traten tales pacientes.
+ Otros
+ Al igual que ocurre con otros tratamientos anti-VEGF intravítreos para la DMAE, OVCR, ORVR, EMD y NVC miópica son pertinentes las siguientes afirmaciones:
+ No se ha estudiado sistemáticamente la seguridad y eficacia del tratamiento con Eylea aplicado en los dos ojos a la vez (ver sección 5.1). Si se realiza el tratamiento bilateral a la vez, se podría producir un incremento de la exposición sistémica que podría aumentar el riesgo de acontecimientos adversos sistémicos.
+ Uso concomitante de otros anti-VEGF (factor de crecimiento endotelial vascular)
+ No hay datos disponibles sobre el uso concomitante de Eylea con otros medicamentos anti-VEGF (por vía sistémica u ocular).
+ Entre los factores de riesgo asociados con el desarrollo de un desgarro del epitelio pigmentario de la retina tras la terapia con anti-VEGF para la DMAE exudativa, se incluye el desprendimiento amplio y/o importante del epitelio pigmentario de la retina. Cuando se inicie un tratamiento con Eylea se debe tener precaución en pacientes con estos factores de riesgo de desarrollar desgarros del epitelio pigmentario de la retina.
+ El tratamiento se debe aplazar en pacientes con desprendimiento de retina regmatógeno o con agujeros maculares en estadio 3 o 4.
+ En caso de rotura retiniana, se debe aplazar la dosis y el tratamiento no se debe reanudar hasta que se haya reparado la rotura.
+ La dosis se debe aplazar y el tratamiento no se debe reanudar antes del siguiente tratamiento programado en caso de:
+ Una disminución en la mejor agudeza visual corregida (MAVC) de ≥30 letras comparado con la última evaluación de la agudeza visual.
+ Una hemorragia subretiniana que afecte al centro de la fóvea o, si el tamaño de la hemorragia es de ≥50% del área total de la lesión.
+ La dosis se debe aplazar en los 28 días previos o posteriores a una cirugía intraocular planificada o realizada.
+ No se debe usar Eylea durante el embarazo salvo que el beneficio esperado supere el riesgo potencial para el feto (ver sección 4.6).
+ Las mujeres en edad fértil deben utilizar métodos anticonceptivos efectivos durante el tratamiento y durante al menos 3 meses después de la última inyección intravítrea de aflibercept (ver sección 4.6).
+ La experiencia en el tratamiento de pacientes con OVCR y ORVR isquémicas es limitada. No se recomienda el tratamiento en pacientes que presenten signos clínicos de pérdida irreversible de la función visual isquémica.
+ Población pediátrica
+ Las advertencias y precauciones para los adultos también son aplicables a los recién nacidos pretérmino con ROP. No se ha establecido el perfil de seguridad a largo plazo en recién nacidos pretérmino.
+ Poblaciones con datos limitados
+ Solo existe experiencia limitada en el tratamiento de sujetos con EMD debido a diabetes de tipo I, de pacientes diabéticos con una hemoglobina glicosilada (en inglés, HbA1c) superior al 12% o con retinopatía diabética proliferativa.
+ Eylea no ha sido estudiado en pacientes con infecciones sistémicas activas ni en pacientes con enfermedades oculares concurrentes, tales como desprendimiento de retina o agujero macular. Tampoco existe experiencia en el tratamiento con Eylea de pacientes diabéticos con hipertensión no controlada. El médico debe tener en cuenta esta falta de información a la hora de tratar a dichos pacientes.
+ Para la NVC miópica no existe experiencia con Eylea en el tratamiento de pacientes no asiáticos, en pacientes que se han sometido a tratamiento para la NVC miópica con anterioridad, ni en pacientes con lesiones extrafoveales.
+ Información sobre excipientes
+ Este medicamento contiene
+ menos de 1 mmol de sodio (23 mg) por unidad de dosis; esto es, esencialmente “exento de sodio”
+ 0,003 mg de polisorbato 20 en cada dosis de 0,01 ml o 0,015 mg de polisorbato 20 en cada dosis de 0,05 ml equivalente a 0,3 mg/ml. Los polisorbatos pueden causar reacciones alérgicas. 
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ No se han realizado estudios de interacciones.
+ No se ha estudiado el uso conjunto de terapia fotodinámica (TFD) con verteporfina y Eylea, por lo que no se ha establecido un perfil de seguridad.
+ Población pediátrica
+ No se han realizado estudios de interacciones.
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ Las mujeres en edad fértil deben utilizar métodos anticonceptivos efectivos durante el tratamiento y durante al menos 3 meses después de la última inyección intravítrea de aflibercept (ver sección 4.4).
+ Embarazo
+ No hay datos relativos al uso de aflibercept en mujeres embarazadas.
+ Los estudios realizados en animales han mostrado toxicidad fetoembrionaria (ver sección 5.3).
+ Aunque la exposición sistémica tras la administración ocular es muy baja, no se debe usar Eylea durante el embarazo a menos que el beneficio potencial supere al riesgo potencial para el feto.
+ Lactancia
+ Según datos muy limitados en humanos, aflibercept se puede excretar en la leche materna a niveles bajos. Aflibercept es una molécula proteica de gran tamaño y se espera que la cantidad de medicamento absorbida por el lactante sea mínima. Se desconocen los efectos de aflibercept en un recién nacido o lactante.
+ Como medida de precaución, no se recomienda la lactancia durante el uso de Eylea.
+ Fertilidad
+ Los resultados de los estudios en animales con elevada exposición sistémica indican que aflibercept puede alterar la fertilidad masculina y femenina (ver sección 5.3). No se prevé que se produzcan estos efectos tras una administración ocular con una exposición sistémica muy baja.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La inyección de Eylea tiene una influencia leve en la capacidad para conducir y utilizar máquinas debido a las posibles alteraciones visuales transitorias asociadas o bien a la inyección o al examen ocular. Los pacientes no deben conducir ni utilizar máquinas hasta que su función visual se haya recuperado lo suficiente. 
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ La población total de seguridad en los ocho estudios de fase III estuvo constituida por 3.102 pacientes. De ellos, 2.501 fueron tratados con la dosis recomendada de 2 mg.
+ Se produjeron reacciones adversas oculares graves en el ojo en estudio relacionadas con el procedimiento de inyección en menos de 1 de cada 1.900 inyecciones intravítreas de Eylea, que incluyeron ceguera, endoftalmitis, desprendimiento de retina, catarata traumática, catarata, hemorragia vítrea, desprendimiento de vítreo y aumento de la presión intraocular (ver sección 4.4).
+ Las reacciones adversas observadas más frecuentemente (en al menos 5% de los pacientes tratados con Eylea) fueron hemorragia conjuntival (25%), hemorragia retiniana (11%), agudeza visual reducida (11%), dolor ocular (10%), catarata (8%), aumento de la presión intraocular (8%), desprendimiento de vítreo (7%) y partículas flotantes en el vítreo (7%).
+ Tabla de reacciones adversas
+ Los datos de seguridad descritos a continuación incluyen todas las reacciones adversas de los ocho estudios de fase III en las indicaciones de DMAE exudativa, OVCR, ORVR, EMD y NVC miópica con una posibilidad razonable de relación causal con el procedimiento de inyección o con el medicamento.
+ Las reacciones adversas se enumeran según clasificación por órganos y sistemas y por frecuencia, utilizando el criterio siguiente:
+ Muy frecuentes (≥1/10), frecuentes (≥1/100 a <1/10), poco frecuentes (≥1/1.000 a <1/100), raras (≥1/10.000 a <1/1.000), frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ En cada grupo de frecuencia, las reacciones adversas se presentan en orden de gravedad decreciente.
+ Tabla 1: Todas las reacciones adversas relacionadas con el tratamiento, notificadas en pacientes de los estudios de fase III (datos agrupados de los estudios de fase III para las indicaciones de DMAE exudativa, OVCR, ORVR, EMD y NVC miópica) o durante la vigilancia poscomercialización
+ Clasificación por órganos
+ y sistemas- MedDRA
+ | 
+ Frecuencia
+ | 
+ Reacción Adversa
+ | 
+ Trastornos del sistema
+ inmunológico
+ | 
+ Poco frecuentes
+ | 
+ Hipersensibilidad***
+ | 
+ Trastornos oculares
+ | 
+ Muy frecuentes
+ | 
+ Agudeza visual reducida, Hemorragia retiniana, Hemorragia conjuntival, Dolor ocular
+ | 
+ Frecuentes
+ | 
+ Desgarro del epitelio pigmentario retiniano*,
+ Desprendimiento del epitelio pigmentario
+ retiniano, Degeneración retiniana, Hemorragia
+ vítrea, Catarata, Catarata cortical, Catarata
+ nuclear, Catarata subcapsular, Erosión corneal,
+ Abrasión corneal, Aumento de la presión
+ intraocular, Visión borrosa, Partículas flotantes en el vítreo, Desprendimiento de vítreo, Dolor en el lugar de inyección, Sensación de cuerpo extraño en los ojos, Aumento del lagrimeo, Edema palpebral, Hemorragia en el lugar de inyección, Queratitis punteada, Hiperemia conjuntival, Hiperemia ocular
+ | 
+ Poco frecuentes
+ | 
+ Endoftalmitis**, Desprendimiento de retina,
+ Desgarro retiniano, Iritis, Uveítis, Iridociclitis,
+ Opacidad lenticular, Defecto en el epitelio
+ corneal, Irritación en el lugar de inyección,
+ Sensación anormal en el ojo, Irritación palpebral, Células flotantes en la cámara anterior, Edema corneal
+ | 
+ Raras
+ | 
+ Ceguera, Catarata traumática, Vitritis, Hipopion
+ | 
+ Frecuencia no
+ conocida
+ | 
+ Escleritis****
+ | 
+ *Asociadas a DMAE exudativa. Observadas únicamente en los estudios de DMAE exudativa.
+ **Endoftalmitis en cultivo positivo y cultivo negativo.
+ ***Durante el periodo poscomercialización, las notificaciones de hipersensibilidad incluyeron erupción, prurito, urticaria y casos aislados de reacciones anafilácticas/anafilactoides graves.
+ ****Procedente de notificaciones poscomercialización.
+ Descripción de reacciones adversas seleccionadas
+ En los ensayos de fase III en DMAE exudativa se observó un aumento de la incidencia de hemorragia conjuntival en los pacientes en tratamiento con medicamentos antitrombóticos. Este aumento de la incidencia fue comparable entre los pacientes tratados con ranibizumab o con Eylea.
+ Los acontecimientos tromboembólicos arteriales (ATA) son acontecimientos adversos potencialmente relacionados con la inhibición sistémica del VEGF. Tras el uso intravítreo de inhibidores del VEGF, existe un riesgo teórico de acontecimientos tromboembólicos arteriales, incluidos ictus e infarto de miocardio.
+ Se observó una tasa de incidencia baja de eventos tromboembólicos arteriales en los ensayos clínicos con Eylea en pacientes con DMAE, EMD, OVR, NVC miópica y ROP. No se observaron diferencias notables entre los grupos tratados con aflibercept y los respectivos grupos comparadores en todas las indicaciones.
+ Al igual que con todas las proteínas terapéuticas, Eylea presenta un potencial de inmunogenicidad.
+ Población pediátrica
+ La seguridad de Eylea para el tratamiento de la ROP se evaluó en un estudio de fase III de 6 meses, que incluyó a 75 recién nacidos pretérmino tratados con 0,4 mg de aflibercept al inicio del estudio. No se ha establecido el perfil de seguridad a largo plazo en recién nacidos pretérmino.
+ Las reacciones adversas notificadas en más de un paciente tratado con 0,4 mg de aflibercept fueron desprendimiento de retina, hemorragia retiniana, hemorragia conjuntival, hemorragia en el lugar de inyección, aumento de la presión intraocular y edema palpebral.
+ Las reacciones adversas establecidas para las indicaciones en los adultos se consideran aplicables a los recién nacidos pretérmino con ROP, aunque no todas se observaron en el estudio de fase III.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ En los ensayos clínicos, se han usado dosis de hasta 4 mg en intervalos mensuales y en casos aislados se produjeron sobredosis con 8 mg.
+ La sobredosificación con un volumen de inyección elevado puede aumentar la presión intraocular. Por lo tanto, en caso de sobredosis se debe monitorizar la presión intraocular e iniciarse el tratamiento adecuado, si el médico responsable del tratamiento lo considera necesario (ver sección 6.6).
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otros medicamentos.
+ 6.3. Periodo de validez
+ 2 años
+ 6.4. Precauciones especiales de conservación
+ Conservar en nevera (entre 2 ºC y 8 ºC).
+ No congelar.
+ Conservar en el embalaje original para protegerlo de la luz.
+ El blíster sin abrir de Eylea puede conservarse fuera de la nevera por debajo de 25°C durante un máximo de 24 horas. Tras la apertura del blíster, se procederá empleando condiciones asépticas.
+ 6.5. Naturaleza y contenido del envase
+ Solución en jeringa precargada (vidrio tipo I) marcada con una línea de dosificación, con un tapón de émbolo (goma elastomérica) y un adaptador Luer Lock con cápsula de cierre en el extremo (goma elastomérica). Cada jeringa precargada contiene un volumen extraíble de al menos 0,09 ml. Tamaño de envase: 1 jeringa precargada. 
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La jeringa precargada es para un solo uso en un único ojo. La extracción de múltiples dosis de una jeringa precargada puede aumentar el riesgo de contaminación y de posterior infección.
+ No abra el blíster de la jeringa precargada estéril fuera de la sala limpia. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ La jeringa precargada contiene más cantidad que la dosis recomendada de 2 mg de aflibercept (equivalente a 0,05 ml) para pacientes adultos y de 0,4 mg de aflibercept (equivalente a 0,01 ml) para recién nacidos pretérmino.Ver las siguientes secciones “Uso en la población adulta” y “Uso en la población pediátrica”.
+ Antes de su administración, la solución debe inspeccionarse visualmente para detectar la presencia de partículas y/o cambio de color o cualquier otro cambio del aspecto físico. En caso de observar alguna alteración, no utilizar el medicamento.
+ Para la inyección intravítrea debe usarse una aguja de inyección de 30 G x ½ pulgada (1,27 cm).
+ Instrucciones de uso de la jeringa precargada:
+ Uso en la población pediátrica
+ Para preparar la jeringa precargada para la administración a recién nacidos pretérmino, siga los pasos 1 y 2 indicados a continuación y luego siga las instrucciones de uso incluidas en el envase del dispositivo dosificador pediátrico PICLEO.
+ Uso en la población adulta
+ Para preparar la jeringa precargada para la administración a adultos, siga todos los pasos indicados a continuación.
+ Cuando esté preparado para administrar Eylea, abra la caja y extraiga el blíster esterilizado.
+ Despegue cuidadosamente la lámina del blíster, asegurando la esterilidad de su contenido.
+ Mantenga la jeringa en la bandeja estéril hasta que esté preparado para el ensamblaje.
+ | 
+ Utilizando una técnica aséptica, extraer la jeringa del blíster esterilizado.
+ | 
+ Para retirar la cápsula de cierre de la jeringa, mantener la jeringa con una mano mientras se utiliza la otra para coger la cápsula de cierre entre el índice y el pulgar. Nota importante: debe girar la cápsula de cierre (no la rompa).
+ | 
+ | 
+ | 
+ Para no poner en peligro la esterilidad del medicamento, no tirar del émbolo hacia atrás.
+ | 
+ | 
+ Utilizando una técnica aséptica, encajar firmemente la aguja de inyección en la punta de la jeringa con el adaptador Luer-Lock realizando un movimiento giratorio.
+ | 
+ | 
+ | 
+ Mantener la jeringa con la aguja apuntando hacia arriba y comprobar que no hay burbujas en su interior. Si las hay, golpear suavemente la jeringa con el dedo hasta que éstas asciendan a su parte superior.
+ | 
+ | 
+ | 
+ El exceso de volumen debe eliminarse antes de la administración. Eliminar todas las burbujas y expulsar el exceso de medicamento, apretando lentamente el émbolo hasta alinear la base de la cúpula del émbolo (no la punta del émbolo) con la línea de dosificación de la jeringa (equivalente a 0,05 ml, es decir, 2 mg de aflibercept).
+ Nota: Este posicionamiento exacto del émbolo es muy importante, porque un posicionamiento incorrecto del émbolo puede hacer que se administre más o menos de la dosis recomendada.
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Inyectar mientras se presiona el émbolo cuidadosamente y con una presión constante. No aplicar presión adicional una vez que el émbolo haya llegado al fondo de la jeringa. No administrar la solución residual observada en la jeringa.
+ La jeringa precargada es para un solo uso. La extracción de múltiples dosis de una jeringa precargada puede aumentar el riesgo de contaminación y posterior infección. La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ | 
+ | 
+ | 
+ | 
+ | 

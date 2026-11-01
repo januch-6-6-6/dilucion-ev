@@ -1,0 +1,57 @@
+id: cefazolina
+nombre: Cefazolina subconjuntival
+comerciales: []
+grupo: antibiotico
+familias:
+- periocular
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-1g
+  forma: polvo
+  cantidad:
+    valor: 1000
+    unidad: mg
+  registrosIsp:
+  - F-13893/24
+  usoDirecto: false
+  nota: Vial de uso intravenoso e intramuscular; el uso subconjuntival es off-label. Hay otras solicitudes registradas.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-13893/24 Cefazolina polvo para solución inyectable 1 g
+dosis:
+- indicacion: Profilaxis de endoftalmitis al final de la cirugía
+  via: subconjuntival
+  poblacion: adulto
+  texto: 50 mg bajo la conjuntiva (0,5 ml a 100 mg/ml en el estudio de Panahibazaz). Otra serie la combina con betametasona
+    2 mg; en cirugía retiniana se usó 0,3 ml de cefazolina con 0,2 ml de BSS, sin ventaja analgésica al mezclarla con lidocaína.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía.
+  presentaciones:
+  - vial-1g
+  fuente:
+    ref: WEB-OFT-SUBCONJUNTIVALES-PMC4255380
+    detalle: 50 mg de cefazolina (0,5 cc de 100 mg/ml) bajo la conjuntiva
+  tambien:
+  - ref: WEB-OFT-SUBCONJUNTIVALES-PMC9768931
+    detalle: 'Al final de la cirugía: cefazolina subconjuntival 50 mg y betametasona 2 mg'
+  - ref: WEB-OFT-SUBCONJUNTIVALES-29121356
+    detalle: 0,3 ml de cefazolina + 0,2 ml de BSS (0,5 ml) subconjuntival
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- La guía ESCRS recomienda un antibiótico intracameral (p. ej. cefuroxima 1 mg/0,1 ml) al final de la cirugía de catarata;
+  los antibióticos subconjuntivales adicionales los respalda una sola guía (Surawatsatien 2025).
+- 'Con cefuroxima subconjuntival se describió toxicidad retinal por sobredosis y por penetración escleral accidental (Ku 2022;
+  Raharja 2022): el mismo riesgo vale para cualquier antibiótico subconjuntivo si hay error de dilución.'
+- 'Ninguna guía de sociedad fija la dosis subconjuntival de antibióticos: las cifras salen de estudios aislados. Verifica
+  el protocolo de tu pabellón.'
+discrepancias: []
+meta: {}

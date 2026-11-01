@@ -1,0 +1,85 @@
+PROKAM 50 MG POLVO PARA SOLUCION INYECTABLE | USO INTRACAMERAL POLVO PARA SOLUCION INYECTABLE
+https://cima.aemps.es/cima/dochtml/ft/76098/FT_76098.html
+
+ 4.1. Indicaciones terapéuticas
+ Profilaxis antibiótica de la endoftalmitis postoperatoria tras la cirugía de catarata (ver sección 5.1).
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso adecuado de agentes antibacterianos,, incluyendo las guías sobre la profilaxis antibiótica en la cirugía del ojo.
+ 4.2. Posología y forma de administración
+ Uso intracameral. Un vial para un solo uso.
+ 4.2.1. Posología
+ Adultos:
+ La dosis recomendada es de 0,1 ml de solución reconstituida (ver sección 6.6), es decir, 1 mg de cefuroxima.
+ NO INYECTAR MÁS DE LA DOSIS RECOMENDADA (ver sección 4.9).
+ Población pediátrica:
+ En la población pediátrica, no se ha establecido ni la dosis óptima, ni la seguridad de Prokam.
+ Pacientes de edad avanzada:
+ No es necesario ajustar la dosis.
+ Pacientes con insuficiencia renal y hepática:
+ No es necesario un ajuste de la dosis teniendo en cuenta la baja dosis y la despreciable exposición sistémica esperada a la cefuroxima al utilizar Prokam.
+ 4.2.2. Forma de administración
+ Tras la reconstitución, Prokam debe administrarse mediante inyección intraocular en la cámara anterior del ojo (uso intracameral), por un cirujano oftálmico en las condiciones asépticas recomendadas de la cirugía de catarata. Para la reconstitución de Prokam, solamente podrá usarse una solución inyectable de cloruro de sodio 9 mg/ml (0,9 %) (ver sección 6.6).
+ Tras la reconstitución y antes de su administración, debe observarse Prokam en cuanto a la ausencia de partículas y de coloración.
+ Al final de la cirugía de catarata, inyectar lentamente 0,1 ml de la solución reconstituida en la cámara anterior del ojo.
+ Para consultar las instrucciones de reconstitución del medicamento antes de la administración, ver la sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad a la cefuroxima o a los antibióticos del grupo de las cefalosporinas.
+ 4.4. Advertencias y precauciones especiales de empleo
+ El tratamiento con Prokam es solamente para uso intracameral.
+ Se debe tener un especial cuidado con los pacientes que hayan experimentado una reacción alérgica a las penicilinas o a cualquier otro antibiótico betalactámico, dado que pueden ocurrir reacciones cruzadas.
+ Se deberá considerar un antibiótico profiláctico alternativo en los pacientes que tengan riesgo de infecciones con cepas resistentes, p.ej. aquellos con una infección anterior conocida o colonización con MRSA (Staphylococcus aureus resistente a meticilina).
+ Dada la ausencia de datos para grupos especiales de pacientes (pacientes con grave riesgo de infección, pacientes con cataratas complicadas, pacientes sometidos a operaciones combinadas con cirugía de catarata, pacientes con grave enfermedad de la tiroides, pacientes con menos de 2000 células endoteliales corneales), solamente deberá utilizarse Prokam tras una cuidadosa evaluación de la relación riesgo/beneficio.
+ El uso de cefuroxima no se debe tener como una acción única, dado que otras medidas como el tratamiento antiséptico profiláctico, son también importantes.
+ La toxicidad en el endotelio de la córnea no ha sido reportada a la concentración recomendada de cefuroxima, sin embargo, el riesgo no puede excluirse y en la vigilancia postquirúrgica, los médicos deben tener en cuenta este riesgo potencial.
+ Este medicamento contiene menos de 1 mmol de sodio (23 mg) por dosis; esto es, esencialmente “exento de sodio”.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Es improbable una interacción sistémica debido a que es despreciable la exposición sistémica prevista.
+ En la bibliografía no se ha informado de incompatibilidades con los productos más comúnmente utilizados en la cirugía de catarata.
+ 4.6. Fertilidad, embarazo y lactancia
+ Fertilidad:
+ No hay datos sobre los efectos de la cefuroxima de sodio sobre la fertilidad en los humanos. Los estudios de reproducción en animales no han mostrado efectos sobre la fertilidad.
+ Embarazo:
+ Los datos sobre el uso de la cefuroxima en las mujeres embarazadas son limitados. Los estudios con animales no han mostrado ningún efecto perjudicial sobre el desarrollo embrionario y fetal. Cefuroxima alcanza al embrión/feto a través de la placenta. No se esperan efectos durante el embarazo, dado que es despreciable la exposición sistémica a la cefuroxima utilizando Prokam. Puede utilizarse Prokam durante el embarazo.
+ Lactancia:
+ Es de esperar que la cefuroxima se elimine en la leche humana en muy pequeñas cantidades. No se esperan reacciones adversas tras el uso de Prokam a las dosis terapéuticas. Puede utilizarse cefuroxima durante la lactancia.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No procede.
+ 4.8. Reacciones adversas
+ No hay informes publicados de reacciones adversas cuando cefuroxima se administra mediante inyección intraocular, excepto lo siguiente:
+ Trastornos oculares
+ Frecuencia no conocida (no puede estimarse a partir de los datos disponibles): Edema macular.
+ Trastornos del sistema inmunológico
+ Muy raros (<1/10.000): reacción anafiláctica.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de Medicamentos de Uso Humano: https//: www.notificaram.es
+ 4.9. Sobredosis
+ Los casos notificados de sobredosis son aquellos descritos en la literatura después de una dilución incorrecta y un uso no autorizado de la cefuroxima destinada al uso sistémico
+ Por error, se administró intracameral una alta dosis de cefuroxima (3 veces la dosis recomendada) a 6 pacientes tras una dilución incorrecta debida a un protocolo interno de dilución de cefuroxima. Estas inyecciones no causaron ninguna reacción adversa detectable en ningún paciente incluso en los tejidos oculares.
+ Debido a un error de dilución, se obtuvieron datos de toxicidad tras una inyección intracameral durante una cirugía de catarata de 40 a 50 veces la dosis recomendada de cefuroxima en 6 pacientes. La agudeza visual media fue 20/200. Se observó una grave inflamación del segmento anterior y la tomografía de coherencia óptica de la retina mostró un edema macular extenso. A las seis semanas después de la cirugía, la agudeza visual media alcanzó a 20/25. El perfil de la tomografía de coherencia óptica macular volvió a la normalidad. Sin embargo, se observó en todos los pacientes una disminución del 30% del electrorretinograma escotópico.
+ La administración de cefuroxima diluida incorrectamente (10-100 mg por ojo) a 16 pacientes provocó una toxicidad ocular incluyendo edema corneal que se resolvió en semanas, aumento transitorio de la presión intraocular, pérdida de células endoteliales y cambios en la electrorretinografía. Un número de estos pacientes tuvo pérdida de visión permanente y grave.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Este medicamento no debe mezclarse con otros productos medicinales, excepto con los mencionados en la sección 6.6.
+ 6.3. Periodo de validez
+ 18 meses.
+ Después de la reconstitución: el producto debe utilizarse inmediatamente y no volverse a utilizar.
+ 6.4. Precauciones especiales de conservación
+ No conservar a temperatura superior a 25ºC.
+ Mantener el vial en el embalaje exterior para protegerlo de la luz.
+ Para las condiciones de almacenamiento del medicamento tras la reconstitución, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Vial de vidrio de 8 ml del tipo I, cerrado con un tapón de bromobutilo y sellado con una cápsula de aluminio del tipo flip-off.
+ Caja con viales de 1×50 mg, 10×50 mg o 20×50 mg.
+ Caja con 10 viales de 50 mg junto con 10 agujas con filtro estéril de 5 micras.
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Prokam debe administrarse mediante inyección intracameral, por parte de un cirujano oftalmólogo en las condiciones asépticas recomendadas de la cirugía de catarata.
+ EL VIAL ES PARA UN SOLO USO.
+ USAR UN VIAL PARA CADA PACIENTE. Pegar la etiqueta desprendible en la historia del paciente.
+ Para preparar el producto para la administración intracameral, seguir las siguientes instrucciones:
+ 1. Desprender la cápsula flip-off.
+ 2. Antes de introducir una aguja estéril, debe desinfectarse la parte exterior del tapón de goma del vial.
+ 3. Introducir la aguja verticalmente en el centro del tapón del vial, manteniendo el vial en posición vertical. Después, inyectar en el vial, 5 ml de solución para inyección de cloruro de sodio 9 mg/ml (0,9%).
+ 4. Agitar suavemente hasta que la solución esté libre de partículas visibles.
+ 5. Acople una aguja (18G x 1 ½), 1,2 mm x 40 mm) con filtro estéril de 5 micras (copolímero acrílico con una membrana de nylon sin tejer) a una jeringa estéril de 1 ml. Introducir esta jeringa verticalmente en el centro del tapón del vial, manteniendo el vial en posición vertical.
+ 6. Asépticamente, aspirar por lo menos 0,1 ml de la solución. 

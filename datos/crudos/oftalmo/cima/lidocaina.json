@@ -1,0 +1,16 @@
+{
+ "id": "lidocaina",
+ "familia": "intracameral",
+ "resultados": 72,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "44792",
+   "nombre": "LIDOCAINA B. BRAUN 20 mg/ml solucion inyectable",
+   "vias": "VIA EPIDURAL VIA INTRADERMICA VIA INTRAMUSCULAR VIA INTRAVENOSA VIA SUBCUTANEA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/44792/FT_44792.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

@@ -213,6 +213,12 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .alerta-roja p { margin: 4px 0; }
 .alerta-roja p::before { content: '⚠ '; }
 .pasos { color: var(--suave); font-size: 0.9rem; }
+.resultado .coincide { margin-top: 12px; padding: 12px 16px; border-radius: 12px; background: var(--verde-estado-fondo); color: var(--verde-estado); font-size: 1rem; font-weight: 650; border-left: 5px solid var(--verde); }
+.resultado .coincide p, .resultado .coincide ul { margin: 4px 0; }
+.resultado .coincide p::before { content: '✓ '; }
+.resultado .alerta-roja { font-size: 1rem; }
+.boton-paso { min-height: 44px; min-width: 44px; padding: 8px 16px; margin: 6px 8px 6px 0; font: inherit; font-weight: 700; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie); color: var(--primario); cursor: pointer; }
+.boton-paso:disabled { opacity: 0.5; cursor: not-allowed; }
 .aviso, .aviso-fijo { background: var(--ambar-suave); color: var(--ambar-texto); padding: 12px 16px; border-radius: 12px; font-weight: 600; }
 
 /* ====== Aviso inicial ====== */
@@ -226,7 +232,7 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .compatibilidad td:last-child cite { white-space: nowrap; }
 
 /* ====== Secciones (EV / Orales) y verificación ====== */
-.secciones { display: flex; gap: 8px; margin-top: 12px; }
+.secciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .secciones a { color: #fff; text-decoration: none; font-weight: 700; padding: 6px 16px; border-radius: 999px; background: rgba(255, 255, 255, 0.15); }
 .secciones a[aria-current='page'] { background: #fff; color: var(--primario); }
 .etiqueta.fuente-unica { background: var(--ambar-suave); color: var(--ambar-texto); }
@@ -234,6 +240,12 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 /* ====== Ficha oral ====== */
 .aviso-fuente-unica { margin: 12px 0; }
 .etiqueta.off-label { background: var(--ambar-suave); color: var(--ambar-texto); }
+.etiqueta.oftalmologia { background: var(--cian-suave); color: var(--cian-texto); }
+
+/* ====== Oftalmología (pabellón) ====== */
+.protocolo { margin: 12px 0; padding: 12px 14px; border: 1px solid var(--borde); border-radius: 12px; background: var(--superficie-2); }
+.protocolo h4 { margin: 0 0 6px; }
+.protocolo ol { margin: 8px 0; padding-left: 22px; }
 .tabla-discrepancias ul { margin: 0; padding-left: 16px; }
 
 /* ====== Portada (inicio) ====== */
@@ -296,3 +308,5 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
   .compatibilidad td:first-child { font-size: 0.9rem; }
   .compatibilidad cite { font-size: 0.7rem; }
 }
+
+.solo-lector { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

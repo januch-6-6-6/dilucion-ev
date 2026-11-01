@@ -107,3 +107,22 @@ describe('DosisOral.presentaciones: ids inexistentes (I-4)', () => {
     expect(rutas(r)).toContain('dosis.1.presentaciones.0')
   })
 })
+
+describe('uso oftalmológico (usos y oftalmica)', () => {
+  const conUsos = (extra: Record<string, unknown>) => fichaOralValida('x', { usos: ['oftalmologia'], ...extra })
+  it('acepta usos: ["oftalmologia"]', () => {
+    expect(FichaOral.safeParse(conUsos({})).success).toBe(true)
+  })
+  it('rechaza un uso desconocido', () => {
+    expect(FichaOral.safeParse(fichaOralValida('x', { usos: ['otro'] })).success).toBe(false)
+  })
+  it('acepta una dosis con oftalmica: true en una ficha marcada', () => {
+    const r = FichaOral.safeParse(conUsos({ dosis: [dosisAdulto, { ...dosisPed, oftalmica: true }] }))
+    expect(r.success).toBe(true)
+  })
+  it('rechaza oftalmica: true si la ficha no tiene usos oftalmologia', () => {
+    const r = FichaOral.safeParse(fichaOralValida('x', { dosis: [{ ...dosisAdulto, oftalmica: true }, dosisPed] }))
+    expect(r.success).toBe(false)
+    expect(rutas(r)).toContain('dosis.0.oftalmica')
+  })
+})

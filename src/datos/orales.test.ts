@@ -6,11 +6,13 @@ import { fuentesOrales, obtenerOral, orales, verificacion } from './cargarOrales
 const ESPERADOS_FUENTE_UNICA = [
   'carbamazepina',
   'ciclobenzaprina',
+  'doxiciclina',
   'empagliflozina',
   'escitalopram',
   'flucloxacilina',
   'gemfibrozilo',
   'isosorbide',
+  'minociclina',
   'mirtazapina',
   'paracetamol-tramadol',
   'quetiapina',
@@ -25,10 +27,13 @@ const ESPERADOS_SOLO_ADULTO = [
   'acido-acetilsalicilico',
   'ciclobenzaprina',
   'domperidona',
+  'doxiciclina',
   'escitalopram',
+  'famciclovir',
   'gemfibrozilo',
   'isosorbide',
   'levonorgestrel',
+  'minociclina',
   'mirtazapina',
   'paracetamol-tramadol',
   'quetiapina',
@@ -47,10 +52,10 @@ const ESPERADOS_ALTO_RIESGO = [
 ].sort()
 
 describe('datos reales de medicamentos orales', () => {
-  it('hay exactamente 79 fichas orales y ningún id está repetido', () => {
-    expect(orales).toHaveLength(79)
+  it('hay exactamente 86 fichas orales y ningún id está repetido', () => {
+    expect(orales).toHaveLength(86)
     const ids = orales.map((o) => o.id)
-    expect(new Set(ids).size).toBe(79)
+    expect(new Set(ids).size).toBe(86)
   })
 
   it('validarOrales sobre los datos reales no da errores', () => {
@@ -58,7 +63,7 @@ describe('datos reales de medicamentos orales', () => {
     expect(errores).toEqual([])
   })
 
-  it('los ids con verificacion fuente_unica son exactamente los 15 esperados', () => {
+  it('los ids con verificacion fuente_unica son exactamente los 17 esperados', () => {
     const fuenteUnica = orales
       .filter((o) => verificacion(o) === 'fuente_unica')
       .map((o) => o.id)
@@ -66,7 +71,7 @@ describe('datos reales de medicamentos orales', () => {
     expect(fuenteUnica).toEqual(ESPERADOS_FUENTE_UNICA)
   })
 
-  it('los ids solo_adulto son exactamente los 13 esperados', () => {
+  it('los ids solo_adulto son exactamente los 16 esperados', () => {
     const soloAdulto = orales
       .filter((o) => o.pediatria.estado === 'solo_adulto')
       .map((o) => o.id)
@@ -96,12 +101,38 @@ describe('datos reales de medicamentos orales', () => {
     }
   })
 
-  it('ninguna ficha tiene meta.revisadoPor y todas las presentaciones están en sin_verificar', () => {
+  it('ninguna ficha tiene meta.revisadoPor y todas las presentaciones están en sin_verificar, salvo las sin registro', () => {
+    const SIN_REGISTRO = ['famciclovir', 'metazolamida']
     for (const ficha of orales) {
       expect(ficha.meta?.revisadoPor).toBeUndefined()
       for (const p of ficha.presentaciones) {
-        expect(p.registroChile).toBe('sin_verificar')
+        expect(p.registroChile, `${ficha.id}.${p.id}`).toBe(SIN_REGISTRO.includes(ficha.id) ? 'no_registrado' : 'sin_verificar')
       }
+    }
+  })
+
+  it('11 orales llevan usos oftalmologia y cada uno tiene al menos una dosis oftálmica', () => {
+    const OFTALMICOS = [
+      'acetazolamida', 'aciclovir', 'azitromicina', 'cotrimoxazol', 'doxiciclina', 'famciclovir',
+      'metazolamida', 'minociclina', 'pirimetamina', 'prednisona', 'valaciclovir',
+    ]
+    const conUso = orales.filter((o) => o.usos?.includes('oftalmologia')).map((o) => o.id).sort()
+    expect(conUso).toEqual(OFTALMICOS)
+    for (const id of OFTALMICOS) {
+      const ficha = obtenerOral(id)!
+      expect(ficha.dosis.some((d) => d.oftalmica), `${id} sin dosis oftálmica`).toBe(true)
+    }
+    // ninguna ficha fuera de las 11 puede traer dosis oftálmicas (el validador ya lo exige; aquí se fija el conjunto)
+    const huerfanas = orales.filter((o) => !o.usos && o.dosis.some((d) => d.oftalmica))
+    expect(huerfanas).toEqual([])
+  })
+
+  it('las dosis oftálmicas de las 4 fichas preexistentes se suman sin tocar las dosis anteriores', () => {
+    const previas = { aciclovir: 10, azitromicina: 4, prednisona: 3, cotrimoxazol: 4 }
+    for (const [id, n] of Object.entries(previas)) {
+      const ficha = obtenerOral(id)!
+      expect(ficha.dosis.filter((d) => !d.oftalmica), id).toHaveLength(n)
+      expect(ficha.dosis.filter((d) => d.oftalmica).length, id).toBeGreaterThan(0)
     }
   })
 

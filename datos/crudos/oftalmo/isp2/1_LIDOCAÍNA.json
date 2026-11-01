@@ -1,0 +1,128 @@
+[
+ {
+  "Producto": "F-25920/26",
+  "Nombre": "ALCREM CREMA TÓPICA",
+  "FechaRegistro": "2021-01-12",
+  "Titular": "GALENICUM HEALTH CHILE S.p.A.",
+  "PA": "LIDOCAINA//PRILOCAINA"
+ },
+ {
+  "Producto": "F-24665/24",
+  "Nombre": "ALPHACAINE 100 SOLUCIÓN INYECTABLE",
+  "FechaRegistro": "2019-02-20",
+  "Titular": "DROGUERÍA GLOBAL PHARMA S.p.A.",
+  "PA": "EPINEFRINA//LIDOCAINA"
+ },
+ {
+  "Producto": "F-4087/25",
+  "Nombre": "ENDOGEL GEL TÓPICO",
+  "FechaRegistro": "1985-04-24",
+  "Titular": "SYNTHON CHILE LTDA.",
+  "PA": "CLORHEXIDINA//LIDOCAINA"
+ },
+ {
+  "Producto": "F-26056/26",
+  "Nombre": "GESIPROCT CREMA RECTAL (LIDOCAÍNA//TRIBENÓSIDO)",
+  "FechaRegistro": "2021-03-29",
+  "Titular": "EUROFARMA CHILE SpA",
+  "PA": "LIDOCAINA//TRIBENOSIDO"
+ },
+ {
+  "Producto": "F-6160/25",
+  "Nombre": "LIDOCAÍNA CLORHIDRATO 2% SOLUCIÓN INYECTABLE",
+  "FechaRegistro": "1983-10-21",
+  "Titular": "LABORATORIO SANDERSON SpA",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-29966/26",
+  "Nombre": "LIDOCAÍNA CLORHIDRATO SOLUCIÓN INYECTABLE 2%",
+  "FechaRegistro": "2026-08-26",
+  "Titular": "SEVEN PHARMA CHILE S.p.A.",
+  "PA": "LIDOCAINA CLORHIDRATO"
+ },
+ {
+  "Producto": "F-27504/23",
+  "Nombre": "LIDOCAÌNA PARCHE 5%",
+  "FechaRegistro": "2023-05-17",
+  "Titular": "ASCEND LABORATORIES S.p.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-26843/22",
+  "Nombre": "LIDOCAÍNA PARCHE 5%",
+  "FechaRegistro": "2022-06-07",
+  "Titular": "BPH SpA",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-27405/23",
+  "Nombre": "LIDOCAÍNA PARCHE 5%",
+  "FechaRegistro": "2023-03-27",
+  "Titular": "ZERICUM S.p.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-25999/26",
+  "Nombre": "LIDOCAÍNA SOLUCIÓN TÓPICA SPRAY AL 10 %",
+  "FechaRegistro": "2021-02-24",
+  "Titular": "BPH SpA",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-25730/25",
+  "Nombre": "MYDRANE SOLUCIÓN INYECTABLE",
+  "FechaRegistro": "2020-11-10",
+  "Titular": "THEA PHARMA S.p.A.",
+  "PA": "FENILEFRINA//LIDOCAINA//TROPICAMIDA"
+ },
+ {
+  "Producto": "B-891/25",
+  "Nombre": "OTICUM SOLUCIÓN ÓTICA",
+  "FechaRegistro": "2000-10-23",
+  "Titular": "LABORATORIOS SAVAL S.A.",
+  "PA": "BETAMETASONA//NEOMICINA//POLIMIXINA B"
+ },
+ {
+  "Producto": "F-11846/22",
+  "Nombre": "OTIPAX SOLUCIÓN ÓTICA PARA GOTAS",
+  "FechaRegistro": "2002-01-29",
+  "Titular": "AXON PHARMA S.p.A.",
+  "PA": "FENAZONA//LIDOCAINA"
+ },
+ {
+  "Producto": "F-10448/26",
+  "Nombre": "PROLONG 1000 SPRAY TÓPICO 11,5%",
+  "FechaRegistro": "1993-06-24",
+  "Titular": "LABORATORIO MAVER S.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-28118/24",
+  "Nombre": "XYLESTESIN ISOBÁRICO SOLUCIÓN INYECTABLE 2% (LIDOCAÍNA CLORHIDRATO)",
+  "FechaRegistro": "2024-03-04",
+  "Titular": "CRISTALIA CHILE S.p.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-28110/24",
+  "Nombre": "XYLESTESIN SOLUCIÓN INYECTABLE 1% (LIDOCAÍNA CLORHIDRATO)",
+  "FechaRegistro": "2024-02-28",
+  "Titular": "CRISTALIA CHILE S.p.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-28109/24",
+  "Nombre": "XYLESTESIN SOLUCIÓN INYECTABLE 2% (LIDOCAÍNA CLORHIDRATO)",
+  "FechaRegistro": "2024-02-28",
+  "Titular": "CRISTALIA CHILE S.p.A.",
+  "PA": "LIDOCAINA"
+ },
+ {
+  "Producto": "F-28589/24",
+  "Nombre": "XYLESTESIN SOLUCIÓN TÓPICA SPRAY 10% (LIDOCAÍNA)",
+  "FechaRegistro": "2024-11-12",
+  "Titular": "CRISTALIA CHILE S.p.A.",
+  "PA": "LIDOCAINA"
+ }
+]

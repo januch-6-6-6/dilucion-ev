@@ -1,0 +1,388 @@
+GENTA GOBENS 40 MG/ML SOLUCION INYECTABLE Y PARA PERFUSION | VIA INTRAMUSCULAR VIA INTRAVENOSA SOLUCION INYECTABLE Y PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/51885/FT_51885.html
+
+ 4.1. Indicaciones terapéuticas
+ Para el tratamiento de infecciones graves debidas a bacterias sensibles a la gentamicina cuando los agentes antimicrobianos menos tóxicos no son eficaces.
+ Genta Gobens 20 mg/ml solución inyectable, Genta Gobens 40 mg/ml solución inyectable y Genta Gobens 80 mg/ml solución inyectable, para todas las indicaciones, excepto las infecciones complicadas del tracto urinario, solo deben usarse en combinación con otros antibióticos relevantes (predominantemente junto con un antibiótico betalactámico o con un antibiótico eficaz contra bacterias anaeróbicas).
+ En estas condiciones, Genta Gobens 20 mg/ml solución inyectable, Genta Gobens 40 mg/ml solución inyectable y Genta Gobens 80 mg/ml solución inyectable se pueden utilizar en:
+ Infecciones del tracto urinario complicadas y recurrentes
+ Infecciones nosocomiales del tracto respiratorio inferior, como neumonía grave
+ Infecciones intraabdominales, como peritonitis
+ Infecciones de la piel y los tejidos blandos, como quemaduras graves
+ Septicemia y bacteriemia
+ Tratamiento de endocarditis bacteriana
+ Tratamiento de infecciones quirúrgicas
+ Se deben tener en cuenta las recomendaciones oficiales sobre el uso apropiado de los agentes antibacterianos.
+ 4.2. Posología y forma de administración
+ Posología
+ Posología para pacientes con función renal normal
+ Adultos y adolescentes
+ Tratamiento de infecciones bacterianas
+ La dosis diaria recomendada en adolescentes y adultos con función renal normal es de 3 a 6 mg/kg de peso corporal por día, en 1 (preferente) o hasta 2 dosis únicas.
+ Puede ser necesaria una dosis diaria máxima de 6 mg/kg para el tratamiento de infecciones graves y cuando la sensibilidad del patógeno es relativamente baja.
+ La gentamicina tiene un efecto postantibiótico de larga duración (ver sección 5.1). En estudios in vitro e in vivo recientes, se muestra que la captación de aminoglucósidos en la corteza renal es limitada y, por lo tanto, con niveles máximos de gentamicina sérica más altos (después de una dosis única diaria) se almacena menos aminoglucósido en los riñones que con dosis múltiples convencionales.
+ En el caso de un tratamiento combinado (por ejemplo, con un antibiótico betalactámico en la dosis normal), también es posible administrar la dosis diaria total como una dosis única una vez al día.
+ Debido a la necesidad de ajustar la dosis una vez al día, no se recomienda la dosificación de gentamicina en pacientes con inmunidad debilitada (por ejemplo, neutropenia), insuficiencia renal grave, ascitis, endocarditis bacteriana, pacientes con quemaduras extensas (más del 20 % de la piel) ni en el embarazo.
+ La duración del tratamiento debe limitarse a 7-10 días. Una duración del tratamiento más prolongada puede requerirse en el caso de infecciones difíciles y complicadas.
+ Población pediátrica
+ La dosis diaria en recién nacidos es de 4 a 7 mg/kg de peso corporal al día. Debido a la semivida más prolongada, los recién nacidos reciben la dosis diaria requerida en una dosis única.
+ La dosis diaria recomendada en bebés lactantes tras el primer mes de vida es de 4,5 a 7,5 mg/kg de peso corporal al día en 1 (preferentemente) o hasta 2 dosis únicas.
+ La dosis diaria recomendada en niños más mayores (de 2 a 12 años) con función renal normal es de 3 a 6 mg/kg de peso corporal por día, en 1 (preferentemente) o hasta 2 dosis únicas.
+ Un vial de 2 ml de Genta Gobens 20 mg/ml solución inyectable contiene 40 mg de gentamicina (como sulfato).
+ Un vial de 2 ml de Genta Gobens 40 mg/ml solución inyectable contiene 80 mg de gentamicina (como sulfato).
+ Un vial de 3 ml de Genta Gobens 80 mg/ml solución inyectable contiene 240 mg de gentamicina (como sulfato)
+ Para evitar una sobredosis, especialmente en niños, los viales de Genta Gobens 20 mg/ml solución inyectable, Genta Gobens 40 mg/ml solución inyectable y Genta Gobens 80 mg/ml solución inyectable no deben administrarse a niños que necesiten menos de 40 mg, 80 mg , o 240 mg de gentamicina, respectivamente.
+ Posología en pacientes con insuficiencia renal
+ En caso de insuficiencia renal, la dosis diaria recomendada debe reducirse y ajustarse a la función renal.
+ Se debe supervisar a los pacientes con insuficiencia renal para ajustar las concentraciones terapéuticas en plasma, ya sea disminuyendo la dosis o aumentando el intervalo de dosificación (ver sección 4.4).
+ La reducción de la dosis y la prolongación del intervalo son soluciones igualmente adecuadas. No obstante, debe recordarse que las dosis determinadas de la forma descrita a continuación son solo aproximadas, y que una misma dosis puede dar lugar a diferentes concentraciones en los organismos de diferentes pacientes. Por lo tanto, los niveles séricos de gentamicina deben determinarse en cada paciente, de modo que la dosis pueda adaptarse en consecuencia.
+ 1) Ampliación del intervalo posológico en la dosis normal:
+ Dado que el aclaramiento de gentamicina es directamente proporcional al aclaramiento de creatinina, se puede utilizar la siguiente ecuación aproximada:
+ Intervalo de dosis normal × (aclaramiento de creatinina normal/aclaramiento de creatinina del paciente) = intervalo de dosis posterior.
+ Basado en un aclaramiento de creatinina normal de 100 ml/min y un aclaramiento de creatinina de 30 ml/min en el paciente, el intervalo de aplicación con una dosis constante sería en este caso de 26 horas (8 x 100/30 [h]).
+ Dosis normal (80 mg) en el intervalo de dosificación ampliado:
+ Urea en sangre
+ (mmol/l)
+ | 
+ Aclaramiento de creatinina
+ (ml/min)
+ | 
+ Intervalo posológico y dosis
+ | 
+ ? 6,7
+ | 
+ > 72
+ | 
+ 80 mg* cada 8 horas
+ | 
+ 6,7 – 16,7
+ | 
+ 30 – 72
+ | 
+ 80 mg* cada 12 horas
+ | 
+ 16,7 – 33,3
+ | 
+ 12 – 30
+ | 
+ 80 mg* cada 24 horas
+ | 
+ > 33,3
+ | 
+ 6 – 12
+ | 
+ 80 mg* cada 48 horas
+ | 
+ *En caso de que el peso del paciente sea <60 kg, la dosis se debe disminuir a 60 mg.
+ 2) Reducción de la dosis en el intervalo de dosificación normal:
+ Después de la dosis inicial habitual, la división de la dosis normal recomendada por la creatinina sérica se puede tomar como una guía aproximada para la medición de la dosis reducida que debe administrarse cada 8 horas.
+ Por tanto, se pueden administrar 30 mg cada 8 horas a un paciente que pese 60 kg con un nivel de creatinina sérica de 2,0 mg/100 ml después de una dosis inicial de 60 mg (1 mg/kg; 60:2).
+ Alternativamente, después de la dosis inicial habitual, las dosis posteriores cada 8 horas se pueden calcular con la fórmula:
+ Dosis normal × aclaramiento de la creatinina del paciente / aclaramiento de la creatinina normal (100 ml/min) = dosis posterior.
+ Dosis reducida en el intervalo de dosis normal (cada 8 horas):
+ Creatinina sérica (mg/100 ml)
+ | 
+ Tasa aproximada de aclaramiento de creatinina (ml/min)
+ | 
+ Porcentaje de dosis normal
+ | 
+ ? 1,0
+ 1,1 – 1,3
+ 1,4 – 1,6
+ 1,7 – 1,9
+ 2,0 – 2,2
+ 2,3 – 2,5
+ 2,6 – 3,0
+ 3,1 – 3,5
+ 3,6 – 4,0
+ 4,1 – 5,1
+ 5,2 – 6,6
+ 6,7 – 8,0
+ | 
+ > 100
+ 70 – 100
+ 55 – 70
+ 45 – 55
+ 40 – 45
+ 35 – 40
+ 30 – 35
+ 25 – 30
+ 20 – 25
+ 15 – 20
+ 10 – 15
+ <10
+ | 
+ 100
+ 80
+ 65
+ 55
+ 50
+ 40
+ 35
+ 30
+ 25
+ 20
+ 15
+ 10
+ | 
+ Se debe preferir el aclaramiento de creatinina como parámetro, especialmente en pacientes de edad avanzada y en pacientes con concentraciones de creatinina sérica fluctuantes, como se observa en infecciones graves (p. ej., sepsis).
+ Se debe destacar que la función renal puede cambiar durante el tratamiento con gentamicina.
+ Posología en pacientes que reciben hemodiálisis
+ La gentamicina es dializable. En el caso de una hemodiálisis de 4 a 5 horas, debe esperarse una reducción de la concentración del 50 al 60 %, y en el caso de una hemodiálisis de 8 a 12 horas, una reducción de la concentración del 70 al 80 %. La dosis debe ajustarse individualmente después de cada diálisis, en función de la concentración sérica de gentamicina en ese momento.
+ La dosis normal recomendada después de la diálisis es de 1 a 1,7 mg/kg de peso corporal.
+ Los pacientes de edad avanzada pueden requerir dosis de mantenimiento más bajas que los adultos más jóvenes debido a la insuficiencia renal.
+ En pacientes obesos, la dosis inicial debe basarse en el peso corporal ideal más el 40 % del exceso de peso.
+ En pacientes con insuficiencia hepática, no se requiere ajuste de la dosis.
+ Consejos de seguimiento:
+ Se recomienda el control de la concentración sérica de gentamicina, especialmente en pacientes de edad avanzada, recién nacidos y pacientes con insuficiencia renal. Se toman muestras de sangre antes del inicio del siguiente intervalo de dosificación (nivel valle). El nivel valle no debe exceder los 2 µg/ml si se administra gentamicina dos veces al día, ni 1 µg/ml para una dosis única diaria. Véase la sección 4.4.
+ Forma de administración
+ Genta Gobens puede administrarse por vía intramuscular directa o intravenosa previa dilución. La posología a emplear es la misma y se emplea la vía intravenosa en situaciones especiales cuando la intramuscular no sea factible o resulte difícil, como en el caso de septicemia, pacientes en shock, grandes quemados, trastornos hemorrágicos, etc.
+ Para el cálculo de la dosis correcta debe tenerse en cuenta:
+ El peso del paciente antes del tratamiento.
+ El estado de la función renal determinando la concentración de creatinina sérica o el aclaramiento de creatinina. Debe realizarse un seguimiento de la función renal durante el tratamiento.
+ Siempre que sea posible, deben determinarse las concentraciones de gentamicina en suero, para asegurar niveles adecuados. Se recomienda medir las concentraciones séricas mínimas y máximas intermitentemente durante el tratamiento. Deben evitarse concentraciones máximas (30-90 minutos después de la inyección) superiores a 12 µg/ml y concentraciones mínimas (justo antes de la siguiente dosis) superiores a 2 µg/ml.
+ Para consultar las instrucciones de dilución del medicamento antes de la administración intravenosa, ver sección 6.6.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo, otros aminoglucósidos o a alguno de los excipientes incluidos en la sección 6.1.
+ Miastenia gravis.
+ 4.4. Advertencias y precauciones especiales de empleo
+ En pacientes con insuficiencia renal avanzada o con sordera del oído interno preexistente, la gentamicina debe usarse solo si el médico considera que su uso es esencial. La frecuencia o dosis de administración debe reducirse en pacientes con insuficiencia renal (ver sección 4.2).
+ Insuficiencia renal
+ La insuficiencia renal, como la restricción de la filtración glomerular, se observa en aproximadamente el 10 % de los pacientes tratados con gentamicina, y suele ser reversible. Los factores de riesgo más importantes son una dosis total elevada, una duración prolongada del tratamiento, y un nivel sérico elevado (nivel valle alto); además, otros factores de riesgo potenciales son la edad, la hipovolemia y el shock. Los signos clínicos de daño renal son: proteinuria, cilindruria, hematuria, oliguria, aumento de las concentraciones séricas de creatinina y urea. En casos aislados, puede producirse insuficiencia renal aguda. (Ver también sección 4.8)
+ Trastornos neuromusculares
+ Dado que la gentamicina tiene propiedades de bloqueo neuromuscular, se debe tener especial precaución en pacientes con enfermedades neuromusculares preexistentes (por ejemplo, enfermedad de Parkinson). Es obligatorio realizar un seguimiento especialmente cuidadoso. (Ver también sección 4.8)
+ Se ha informado de casos de bloqueo neuromuscular y parálisis respiratoria por la administración de aminoglucósidos a pacientes que han recibido relajantes musculares de tipo curare durante la anestesia. También se debe observar cuidadosamente a estos pacientes. (Ver también sección 4.8)
+ Efecto sobre el nervio vestibulococlear
+ Es posible que se dañe el nervio vestibulococlear (octavo par craneal), por lo que tanto el equilibrio como la audición pueden verse afectados. El daño vestibular es la reacción ototóxica más frecuente. La hipoacusia se manifiesta inicialmente por la disminución de la agudeza de los tonos agudos y suele ser irreversible. Los factores de riesgo importantes son insuficiencia renal preexistente o antecedentes de daño en el octavo par craneal; además, el riesgo aumenta en proporción al nivel de la dosis total y diaria, o por asociación con sustancias potencialmente ototóxicas. Los síntomas de los efectos ototóxicos son: mareos, zumbidos/ruidos en los oídos (tinnitus), vértigo y, con menor frecuencia, pérdida auditiva.
+ Con gentamicina, el mecanismo vestibular puede verse afectado si se superan los niveles valle de 2 µg/ml. Esto suele ser reversible si se observa rápidamente y se ajusta la dosis. (Ver también sección 4.8)
+ Diarrea asociada a antibióticos, colitis pseudomembranosa
+ Se ha informado de casos de diarrea asociada a antibióticos y colitis pseudomembranosa con el uso de gentamicina. Estos diagnósticos deben considerarse en cualquier paciente que desarrolle diarrea durante o poco después del tratamiento. Se debe suspender la administración de gentamicina si se produce diarrea grave y/o con sangre durante el tratamiento, y se debe instaurar el tratamiento adecuado. No se deben administrar medicamentos que inhiban la peristalsis (ver sección 4.8).
+ Embarazo y lactancia
+ La gentamicina se debe utilizar durante el embarazo y la lactancia solo después de una evaluación pormenorizada del riesgo y el beneficio (ver sección 4.6).
+ Dosificación de gentamicina una vez al día en pacientes de edad avanzada
+ La experiencia sobre la administración de gentamicina una vez al día en pacientes de edad avanzada es limitada. La dosificación de gentamicina una vez al día puede no ser adecuada; por tanto, la vigilancia estrecha de estos pacientes está justificada.
+ Supervisión
+ Para evitar eventos adversos, se recomienda la supervisión continua (antes, durante y después del tratamiento) de la función renal (creatinina sérica, aclaramiento de creatinina), el control de la función del vestíbulo y la cóclea, así como de los parámetros hepáticos y de laboratorio.
+ Advertencias sobre excipientes
+ Pueden producir reacciones alérgicas (posiblemente retardadas) y, excepcionalmente, broncoespasmo porque contienen parahidroxibenzoato de metilo (E-218) y parahidroxibenzoato de propilo (E-216).
+ Estos medicamentos pueden producir reacciones alérgicas graves y broncoespasmo porque contienen metabisulfito de sodio (E-223).
+ Este medicamento contiene menos de 23 mg de sodio (1 mmol) por vial, esto es esencialmente “exento de sodio”.
+ Alergenicidad / resistencia cruzada
+ Puede producirse resistencia cruzada e hipersensibilidad a los aminoglucósidos.
+ Nefrotoxicidad y ototoxicidad
+ Para reducir el riesgo de nefrotoxicidad y ototoxicidad, deben tenerse en cuenta las siguientes instrucciones:
+ La evaluación regular de la función auditiva, vestibular y renal es particularmente necesaria en pacientes con factores de riesgo adicionales. Se ha descrito que la función hepática o auditiva alterada, la bacteriemia y la fiebre aumentan el riesgo de ototoxicidad. Se ha descrito que la depleción de volumen o la hipotensión y la enfermedad hepática son factores de riesgo adicionales de nefrotoxicidad.
+ Supervisión de la función renal antes, durante y después del tratamiento.
+ Posología estrictamente de acuerdo con el aclaramiento de creatinina (o concentración de creatinina sérica). En pacientes con insuficiencia renal, la dosis debe ajustarse de acuerdo con la función renal (ver sección 4.2).
+ En pacientes con insuficiencia renal que reciben adicionalmente gentamicina de manera local (inhalación, intratraqueal, instilación), la cantidad de gentamicina absorbida después de la administración local también debe tenerse en cuenta para ajustar la dosis del tratamiento sistémico.
+ Supervisión de las concentraciones séricas de gentamicina durante el tratamiento para evitar que los niveles máximos (pico) superen los 10-12 µg/ml (umbral tóxico para el sistema cocleo-vestibular) con dosis diarias múltiples convencionales o niveles mínimos (valle) superiores a 2 µg/ml (ver sección 4.2).
+ En pacientes con daño preexistente en el oído (deterioro de la función auditiva o del equilibrio), o si el tratamiento es a largo plazo, se requiere un control adicional de la función del equilibrio y la audición.
+ Debe evitarse el tratamiento prolongado. En caso posible, la duración del tratamiento debe limitarse a 7-10 días /ver sección 4.2).
+ Evitar la terapia con aminoglucósidos inmediatamente después de un tratamiento previo con aminoglucósidos; si es posible, debe haber un intervalo de 7 a 14 días entre tratamientos.
+ Si es posible, evitar la administración simultánea de otras sustancias potencialmente ototóxicas y nefrotóxicas. Si esto es inevitable, está indicada una supervisión especialmente cuidadosa de la función renal (ver sección 4.5).
+ Asegurar una adecuada hidratación y producción de orina.
+ Ototoxicidad
+ Existe un mayor riesgo de ototoxicidad en pacientes con mutaciones del ADN mitocondrial (en particular la sustitución el nucleótido 1555 A por G en el gen 12S del ARNr), aunque los niveles séricos de aminoglucósidos estén dentro de los límites recomendados durante el tratamiento. En estos pacientes deben considerarse opciones de tratamiento alternativas.
+ En pacientes con historial materno de dichas mutaciones o sordera inducida por aminoglucósidos, se deben considerar tratamientos alternativos o un test genético previo a la administración.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Relajantes musculares y éter
+ La actividad de bloqueo neuromuscular de los aminoglucósidos se ve reforzada por el éter y los relajantes musculares.
+ Si se administra gentamicina durante o inmediatamente después de la cirugía, el bloqueo neuromuscular puede intensificarse y prolongarse si se utilizan relajantes musculares no despolarizantes. Estas interacciones pueden causar bloqueo neuromuscular y parálisis respiratoria. Debido al aumento del riesgo, estos pacientes deben ser controlados con especial cuidado.
+ La inyección con cloruro de calcio puede revertir el bloqueo neuromuscular debido a los aminoglucósidos.
+ Anestesia con metoxiflurano
+ Los aminoglucósidos pueden aumentar el efecto dañino para los riñones del metoxiflurano. Cuando se usa al mismo tiempo, es posible que se produzcan nefropatías extremadamente graves. Se debe informar al anestesista sobre el uso de aminoglucósidos antes de un procedimiento quirúrgico.
+ Fármacos potencialmente nefrotóxicos u ototóxicos
+ Debido al mayor riesgo de efectos no deseados, se requiere una vigilancia cuidadosa de los pacientes que están siendo tratados de forma simultánea o secuencial con fármacos potencialmente nefrotóxicos u ototóxicos como p. ej. anfotericina B, colistina, ciclosporina, cisplatino, vancomicina, estreptomicina, viomicina, otros aminoglucósidos, algunas cefalosporinas y diuréticos del asa como ácido etacrínico y furosemida.
+ En el caso de medicamentos que contienen cisplatino, debe tenerse en cuenta que la nefrotoxicidad de la gentamicina puede aumentar incluso de 3 a 4 semanas después de la administración de estas sustancias.
+ Otros antibióticos
+ Se ha notificado una reducción de la semivida sérica de la gentamicina en pacientes con insuficiencia renal grave que reciben carbenicilina de manera simultánea con gentamicina.
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se dispone de datos adecuados sobre la administración de gentamicina a mujeres embarazadas. Los estudios en animales han demostrado toxicidad sobre la reproducción (ver sección 5.3). La gentamicina atraviesa la placenta. Debido al riesgo potencial de daño renal y del oído interno para el feto, la gentamicina no debe usarse durante el embarazo a menos que se trate de una indicación que ponga en peligro la vida y si no hay alternativas de tratamiento disponibles.
+ En caso de exposición a gentamicina durante el embarazo, se recomienda la supervisión de la función renal y auditiva del recién nacido.
+ Lactancia
+ La gentamicina se excreta en la leche materna, y se detectó en concentraciones bajas en el suero de los niños amamantados. Se debe tomar la decisión de interrumpir la lactancia o interrumpir/abstenerse del tratamiento con gentamicina. Puede producirse diarrea e infección fúngica de las membranas mucosas en el lactante amamantado, por lo que es posible que deba interrumpirse la lactancia. Se debe tener en cuenta la posibilidad de sensibilización.
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios sobre los efectos sobre la capacidad de conducir y manejar maquinaria. En el caso de la administración a pacientes ambulatorios, se recomienda precaución al conducir y utilizar máquinas debido a los posibles efectos no deseados como mareos y vértigo.
+ 4.8. Reacciones adversas
+ En determinadas condiciones, la gentamicina muestra efectos ototóxicos y/o nefrotóxicos. La insuficiencia renal se observa frecuentemente en pacientes tratados con gentamicina, y es generalmente reversible al suspender el fármaco. En la mayoría de los casos, la nefrotoxicidad está asociada con una dosis excesivamente alta o un tratamiento prolongado, anomalías renales preexistentes, o con otras sustancias que se ha informado que son nefrotóxicas.
+ Las reacciones adversas consideradas, al menos, posiblemente relacionadas con el tratamiento se enumeran a continuación según clasificación de órganos del sistema corporal y frecuencia absoluta. Las frecuencias se definen como:
+ muy frecuente (?1/10);
+ frecuente (>1/100, <1/10);
+ poco frecuente (>1/1 000 a <1/100);
+ raras (>1/10 000 a <1/1 000);
+ muy raras (<1/10 000),
+ frecuencia no conocida (no puede estimarse a partir de los datos disponibles).
+ Clasificación de Órganos del Sistema
+ | 
+ Frecuentes (≥1/100 a <1/10)
+ | 
+ Poco frecuentes (>1/1 000 a <1/100)
+ | 
+ Raras (>1/10 000 a <1/1 000)
+ | 
+ Muy raras (<1/10 000)
+ | 
+ Frecuencia no conocida
+ (no se puede estimar a partir de los datos disponibles posteriores a la comercialización)
+ | 
+ Infecciones e infestaciones
+ | 
+ | 
+ | 
+ | 
+ Sobreinfección (con gérmenes resistentes a la gentamicina), colitis pseudomembranosa (ver también sección 4.4)1
+ | 
+ | 
+ Trastornos de la sangre y del sistema linfático
+ | 
+ | 
+ Discrasia
+ | 
+ | 
+ Trombocitopenia, reticulocitopenia, leucopenia, eosinofilia, granulocitopenia, anemia
+ | 
+ | 
+ Trastornos del sistema inmunológico
+ | 
+ | 
+ | 
+ | 
+ Reacciones de hipersensibilidad de diversa gravedad, que van desde erupción cutánea y picazón, fiebre medicamentosa hasta reacciones de hipersensibilidad aguda grave (anafilaxia), hasta shock anafiláctico7
+ | 
+ | 
+ Trastornos del metabolismo y nutricionales
+ | 
+ | 
+ | 
+ Hipopotasemia, hipocalcemia, hipomagnesemia, síndrome pseudo-Bartter en pacientes tratados con dosis altas durante un período prolongado (más de 4 semanas), pérdida de apetito, pérdida de peso
+ | 
+ Hipofosfatemia6
+ | 
+ | 
+ Trastornos psiquiátricos
+ | 
+ | 
+ | 
+ | 
+ Confusión, alucinaciones, depresión mental
+ | 
+ | 
+ Trastorno del sistema nervioso
+ | 
+ | 
+ | 
+ Polineuropatías, parestesias periféricas
+ | 
+ Encefalopatía, convulsiones, bloqueo neuromuscular, mareos, trastornos del equilibrio, dolor de cabeza (ver también sección 4.4).
+ | 
+ | 
+ Trastornos oculares
+ | 
+ | 
+ | 
+ | 
+ Trastornos visuales
+ | 
+ | 
+ Trastornos auditivos y del laberinto
+ | 
+ | 
+ | 
+ | 
+ Daño vestibular, pérdida de audición, enfermedad de Meniére, vértigo por acúfenos (ver también sección 4.4).
+ | 
+ Pérdida de audición irreversible y sordera
+ | 
+ Trastornos vasculares
+ | 
+ | 
+ | 
+ | 
+ Hipotensión, hipertensión
+ | 
+ | 
+ Trastornos gastrointestinales
+ | 
+ | 
+ | 
+ Vómitos, náuseas, aumento de la salivación, estomatitis
+ | 
+ | 
+ | 
+ Trastornos hepatobiliares
+ | 
+ | 
+ | 
+ Aumento de la aspartato aminotransferasa (AST), aumento de la alanina aminotransferasa (ALT), aumento de la fosfatasa alcalina (ALP), aumento reversible de la bilirrubina sérica (todo reversible)
+ | 
+ | 
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ | 
+ Exantema alérgico de la piel
+ | 
+ Enrojecimiento de la piel
+ | 
+ Necrólisis epidérmica tóxica2, síndrome de Stevens-Johnson2, eritema multiforme2, alopecia
+ | 
+ | 
+ Trastornos musculoesqueléticos y del tejido conjuntivo
+ | 
+ | 
+ | 
+ Dolor muscular (mialgia)
+ | 
+ Amiostasia
+ | 
+ | 
+ Trastornos renales y urinarios
+ | 
+ Deterioro de la función renal5
+ | 
+ | 
+ Aumento de nitrógeno ureico en sangre (reversible)
+ | 
+ Insuficiencia renal aguda, hiperfosfaturia, aminoaciduria, síndrome similar a Fanconi en pacientes tratados con un ciclo prolongado de dosis altas, ver también sección 4.4.
+ | 
+ | 
+ Trastornos generales y en el lugar de administración
+ | 
+ | 
+ | 
+ Aumento de la temperatura corporal
+ | 
+ Dolor en el lugar de inyección.
+ | 
+ | 
+ 1 Por lo general, en estos casos también intervienen otros antibióticos.
+ 2 Puede producirse como reacciones de hipersensibilidad.
+ Notificación de sospechas de reacciones adversas:
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaram.es.
+ 4.9. Sobredosis
+ La gentamicina tiene una ventana terapéutica estrecha. En caso de acumulación (p. ej. como resultado de insuficiencia renal), pueden producirse daños renales y daños en el nervio vestibulococlear.
+ Tratamiento en caso de sobredosis
+ Suspender la medicación. No existe un antídoto específico. La gentamicina se puede depurar de la sangre mediante hemodiálisis (la eliminación es más lenta y discontinua con la diálisis peritoneal).
+ Tratamiento del bloqueo neuromuscular
+ En caso de bloqueo neuromuscular (generalmente causado por interacciones, ver sección 4.5), se recomienda la administración de cloruro de calcio y respiración artificial, si resulta necesario.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ Este medicamento no debe mezclarse con otros. En ningún caso se pueden mezclar aminoglucósidos en una solución para perfusión con antibióticos betalactámicos (por ejemplo, penicilinas, cefalosporinas), eritromicina o lipifisano (una emulsión especial de aceite en agua para nutrición parenteral), ya que esto puede causar inactivación físico-química. Esto también se aplica a una combinación de gentamicina con diazepam, furosemida, acetato de flecainida o heparina sódica.
+ Los siguientes principios activos o solución para reconstitución/dilución no deben administrarse simultáneamente:
+ Gentamicina es incompatible con amfotericina B, cefalotina sódica, nitrofurantoína sódica, sulfadiazina sódica y tetraciclinas.
+ La adición de gentamicina a soluciones que contienen bicarbonato puede provocar la liberación de dióxido de carbono.
+ 6.3. Periodo de validez
+ 3 años.
+ 6.4. Precauciones especiales de conservación
+ No requiere condiciones especiales de conservación.
+ 6.5. Naturaleza y contenido del envase
+ Genta Gobens 20 mg/ml Solución inyectable y para perfusión: Envase conteniendo 1 vial de vidrio, cerrado por un tapón y sellado con una cápsula de aluminio. Envase clínico con 100 viales. Cada vial de 2 ml contiene 40 mg de gentamicina (como sulfato).
+ Genta Gobens 40 mg/ml Solución inyectable y para perfusión: Envase conteniendo 1 vial de vidrio, cerrado por un tapón y sellado con una cápsula de aluminio. Envase clínico con 100 viales. Cada vial de 2 ml contiene 80 mg de gentamicina (como sulfato).
+ Genta Gobens 80 mg/ml Solución inyectable y para perfusión: Envase conteniendo 1 vial de vidrio, cerrado por un tapón y sellado con una cápsula de aluminio. Envase clínico con 50 viales. Cada vial de 3 ml contiene 240 mg de gentamicina (como sulfato).
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Para la administración intravenosa en adultos, puede diluirse una dosis única de gentamicina en 50 a 200 ml de solución salina isotónica o en solución acuosa de dextrosa al 5% (sin excederse de la concentración de 1 mg/ml). En lactantes y niños, el volumen de diluyente dependerá de las necesidades de líquido del paciente. La solución puede administrase por infusión o en un período de 30 minutos a 2 horas.
+ La gentamicina es compatible físicamente a una concentración de 0,8 mg/ml con las siguientes soluciones, pudiendo mantenerse a temperatura ambiente sin menoscabo de su actividad hasta 24 horas: agua para inyección; solución salina isotónica; dextrosa al 5%; dextrosa al 10%; solución Ringer; solución de lactato de Ringer.
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él, se realizará de acuerdo con las normativas locales.

@@ -1,0 +1,117 @@
+id: bupivacaina
+nombre: Bupivacaína en bloqueos oculares
+comerciales: []
+grupo: anestesico-local
+familias:
+- bloqueo
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: bupivacaina-0-5
+  forma: solucion
+  cantidad:
+    valor: 50
+    unidad: mg
+  volumenMl: 10
+  registrosIsp:
+  - F-3026/25
+  usoDirecto: true
+  nota: Bupivacaína al 0,5 % (5 mg/ml), la concentración de la tabla de la ficha técnica. Hay otras solicitudes registradas
+    (F-10858/21).
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-3026/25 Bupivacaína clorhidrato solución inyectable 50 mg/10 mL
+- id: bupivacaina-0-75
+  forma: solucion
+  cantidad:
+    valor: 7.5
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-28146/24
+  usoDirecto: true
+  nota: 'Bupivacaína al 0,75 % (7,5 mg/ml), expresada por 1 ml: el ISP no informa el contenido del envase. Es la concentración
+    de la mezcla más usada en el bloqueo retrobulbar.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-28146/24 Bupivacaína clorhidrato solución inyectable 0,75 %
+dosis:
+- indicacion: Bloqueo retrobulbar en cirugía ocular
+  via: retrobulbar
+  poblacion: adulto
+  texto: 'Ficha técnica (bupivacaína 5 mg/ml): 2 a 4 ml (10 a 20 mg), con inicio de acción en 5 minutos y duración de 4 a
+    8 horas. En la práctica se usa mezclada con lidocaína al 2 % (la combinación más usada lleva bupivacaína al 0,75 %). Sin
+    vasoconstrictor.'
+  estatus: autorizada
+  condicion: Autorizada en la ficha de referencia (Bupivacaína Physan, CIMA). Confirma la indicación en la ficha del producto
+    chileno.
+  presentaciones:
+  - bupivacaina-0-5
+  - bupivacaina-0-75
+  fuente:
+    ref: CIMA-OFT-BUPIVACAINA-57110
+    detalle: '4.2 Posología, tabla de dosis: bloqueo retrobulbar 2–4 ml, 10–20 mg, inicio 5 min, duración 4–8 h; indicación
+      cirugía ocular'
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    detalle: 'Mezcla: lidocaína 2 % con bupivacaína 0,75 %; «Slowly inject 2 to 4 ml of anesthetic»'
+- indicacion: Bloqueo peribulbar en cirugía ocular
+  via: peribulbar
+  poblacion: adulto
+  texto: 'Ficha técnica (bupivacaína 5 mg/ml): 6 a 10 ml (30 a 50 mg), con inicio de acción en 10 minutos y duración de 4
+    a 8 horas.'
+  estatus: autorizada
+  condicion: Autorizada en la ficha de referencia (Bupivacaína Physan, CIMA). Confirma la indicación en la ficha del producto
+    chileno.
+  presentaciones:
+  - bupivacaina-0-5
+  fuente:
+    ref: CIMA-OFT-BUPIVACAINA-57110
+    detalle: '4.2 Posología, tabla de dosis: bloqueo peribulbar 6–10 ml, 30–50 mg, inicio 10 min, duración 4–8 h; indicación
+      cirugía ocular'
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
+    detalle: 'Peribulbar: «commonly 6-10mL»; la combinación de lidocaína y bupivacaína es la más popular'
+- indicacion: Anestesia subtenoniana
+  via: subtenoniana
+  poblacion: adulto
+  texto: Lidocaína 2 %, sola o mezclada con igual volumen de bupivacaína 0,5 o 0,75 %, en 2 a 5 ml. Evitar el vasoconstrictor.
+  estatus: off_label
+  condicion: Técnica descrita en EyeWiki; la ficha técnica no menciona la vía subtenoniana.
+  presentaciones:
+  - bupivacaina-0-5
+  - bupivacaina-0-75
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/SUB-TENON
+    detalle: Lidocaína 2 %, sola o con igual volumen de bupivacaína 0,5 o 0,75 %, 2-5 ml
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-PMC10614322
+    detalle: 'Mezcla subtenoniana: 2,0 ml de lidocaína 20 mg/ml y 2,0 ml de bupivacaína 2,5 mg/ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica de bloqueos oculares.
+conservacion: []
+contraindicaciones:
+- Hipersensibilidad a la bupivacaína o a otros anestésicos locales de tipo amida (CIMA 4.3).
+alertas:
+- 'La administración retrobulbar puede alcanzar de forma ocasional el espacio subaracnoideo y causar ceguera temporal, colapso
+  cardiovascular, apnea y convulsiones: hay que diagnosticarlo y tratarlo rápido (CIMA 4.4).'
+- 'Anestesia del tronco cerebral con bloqueos retrobulbar, peribulbar y subtenoniano: los síntomas aparecen dentro de 10 minutos
+  (RCoA/RCOphth 2012).'
+- 'Todos los anestésicos locales son miotóxicos: evitar inyectarlos dentro de un músculo (RCoA/RCOphth 2012).'
+- Agujas finas y cortas, no más de 25 G ni de 25 mm (RCoA/RCOphth 2012). La guía RCoA/RCOphth 2012 no trae dosis.
+discrepancias:
+- campo: Concentración de la bupivacaína en la mezcla con lidocaína
+  valores:
+  - fuente: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    valor: 0,75 % (retrobulbar)
+  - fuente: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/SUB-TENON
+    valor: 0,5 o 0,75 % (subtenoniana)
+  mostrado: 0,5 o 0,75 % según la técnica
+  motivo: EyeWiki da 0,75 % para el bloqueo retrobulbar y 0,5 o 0,75 % para el subtenoniano; la ficha técnica usa la de 5
+    mg/ml (0,5 %).
+meta: {}

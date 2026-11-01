@@ -34,10 +34,12 @@ def pres(id, forma, *, mg=None, mg_ml=None, gotas_por_ml=None, partible='no', re
 
 
 def dosis(indicacion, poblacion, regimen, unidad, *, base=None, min=None, max=None, tomas=None, intervalo_h=None,
-          tope_toma=None, tope_dia=None, estatus='autorizada', condicion=None, texto=None, presentaciones=None, fuente):
+          tope_toma=None, tope_dia=None, estatus='autorizada', condicion=None, texto=None, presentaciones=None, oftalmica=False,
+          fuente):
     """Dosis oral. `tope_toma`/`tope_dia` = (valor, unidad) o None.
 
     `presentaciones` = ids de las presentaciones de la ficha a las que aplica la dosis (Ruling 14); None = todas.
+    `oftalmica` = pauta de uso oftalmológico (la ficha debe llevar `usos=['oftalmologia']`).
     """
     d = {'indicacion': indicacion, 'poblacion': poblacion, 'regimen': regimen}
     if base is not None:
@@ -57,6 +59,8 @@ def dosis(indicacion, poblacion, regimen, unidad, *, base=None, min=None, max=No
         d['texto'] = texto
     if presentaciones is not None:
         d['presentaciones'] = list(presentaciones)
+    if oftalmica:
+        d['oftalmica'] = True
     d['fuente'] = fuente
     return d
 
@@ -68,7 +72,7 @@ def discrepancia(campo, valores, mostrado, motivo):
 
 def ficha_oral(id, nombre, grupo, presentaciones, dosis, administracion, *, comerciales=(), alto_riesgo=False,
                pediatria='con_dosis', motivo_solo_adulto=None, discrepancias=(), renal=None, hepatico=None,
-               fuente_ajuste=None, alertas=(), ajusteRenalHepatico=None):
+               fuente_ajuste=None, alertas=(), ajusteRenalHepatico=None, usos=None):
     ped = {'estado': pediatria}
     if motivo_solo_adulto:
         ped['motivo'] = motivo_solo_adulto
@@ -82,12 +86,11 @@ def ficha_oral(id, nombre, grupo, presentaciones, dosis, administracion, *, come
         if hepatico:
             ajuste['hepatico'] = hepatico
         ajuste['fuente'] = fuente_ajuste
+    cabecera = {'id': id, 'nombre': nombre, 'comerciales': list(comerciales), 'grupo': grupo, 'ambitos': ['aps']}
+    if usos:
+        cabecera['usos'] = list(usos)
     return {
-        'id': id,
-        'nombre': nombre,
-        'comerciales': list(comerciales),
-        'grupo': grupo,
-        'ambitos': ['aps'],
+        **cabecera,
         'altoRiesgo': alto_riesgo,
         'presentaciones': list(presentaciones),
         'dosis': list(dosis),

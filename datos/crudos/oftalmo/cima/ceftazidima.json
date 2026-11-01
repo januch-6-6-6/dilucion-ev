@@ -1,0 +1,16 @@
+{
+ "id": "ceftazidima",
+ "familia": "intravitreo",
+ "resultados": 22,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "67007",
+   "nombre": "CEFTAZIDIMA NORMON 1 g POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE EFG",
+   "vias": "VIA INTRAMUSCULAR VIA INTRAVENOSA POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/67007/FT_67007.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

@@ -1,0 +1,96 @@
+id: ganciclovir
+nombre: Ganciclovir intravítreo
+comerciales: []
+grupo: antiviral
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vial-500
+  forma: polvo
+  cantidad:
+    valor: 500
+    unidad: mg
+  registrosIsp:
+  - F-27539/23
+  usoDirecto: false
+  nota: Vial de uso intravenoso; el uso intravítreo es off-label. Medicamento peligroso (lista NIOSH 2).
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-27539/23 Cymevene liofilizado para solución inyectable 500 mg (ganciclovir)
+dosis:
+- indicacion: Retinitis por citomegalovirus y otras infecciones intraoculares por CMV
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenMl: 0.1
+  texto: '2 mg en 0,1 ml (20 mg/ml) en inyección intravítrea: dos dosis semanales durante tres semanas como inducción y luego
+    una inyección semanal de mantenimiento. Se han descrito dosis de hasta 3000 µg/0,1 ml.'
+  estatus: off_label
+  condicion: Preparación magistral del PNT (2017); el ganciclovir no tiene indicación intravítrea en su ficha.
+  fuente:
+    ref: SEFH-PNT-GANCICLOVIR-20MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Composición: 10 mg de ganciclovir en 0,5 ml (20 mg/ml) = 2 mg/0,1 ml'
+  tambien:
+  - ref: WEB-OFT-FOSCARNET-IV-PMC13665908
+    detalle: 'Guía NIH citada por Su 2026: ganciclovir intravítreo 2 mg por inyección'
+protocolos:
+- id: pnt-sefh-20-mg-ml
+  dosis: 0
+  titulo: Desde el vial de 500 mg (PNT SEFH)
+  partida: vial-500
+  pasos:
+  - tipo: reconstituir
+    diluyente: 'agua para inyección: agregar 10 ml (queda a 50 mg/ml)'
+    volumenMl: 10
+  - tipo: diluir
+    tomarMl: 2
+    llevarAMl: 5
+    diluyente: cloruro de sodio 0,9 %
+  - tipo: texto
+    texto: Homogeneizar la mezcla en la misma jeringa de 5 ml (queda a 20 mg/ml).
+  - tipo: texto
+    texto: 'Filtrar (0,22 µm) 0,5 ml sobre una jeringa de insulina de 1 ml, tapar, envasar y etiquetar. No usar agua bacteriostática
+      con parabenos: precipita.'
+  resultado:
+    valor: 10
+    unidad: mg
+    volumenMl: 0.5
+  fuente:
+    ref: SEFH-PNT-GANCICLOVIR-20MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: Método específico, pasos 1 a 5
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: El PNT y las fuentes consultadas no traen una pauta pediátrica.
+conservacion:
+- texto: 'Jeringa preparada: 9 días refrigerada (2–8 °C) o 45 días congelada (−20 °C), protegida de la luz y la humedad. No
+    usar si hay partículas, precipitado u oscurecimiento.'
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-GANCICLOVIR-20MG-ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad al ganciclovir, al valganciclovir o a algún excipiente (ficha técnica de uso intravenoso, CIMA 4.3).
+alertas:
+- 'Potencial mutagénico y carcinogénico: medicamento peligroso (NIOSH 2). Preparar en cabina de seguridad biológica con doble
+  guante, bata y mascarilla FFP3 (PNT SEFH).'
+- 'No usar agua bacteriostática con parabenos: son incompatibles con el ganciclovir y producen precipitación (PNT SEFH).'
+discrepancias:
+- campo: Dosis intravítrea de ganciclovir por 0,1 ml
+  valores:
+  - fuente: SEFH-PNT-GANCICLOVIR-20MG-ML-INYECCIN-INTRAVTREA-PNT
+    valor: 2 mg/0,1 ml (20 mg/ml, PNT SEFH)
+  - fuente: CONSENSO-SEFH-SEO-SERV-2025
+    valor: 200 y 400 µg/0,1 ml (tabla 4 del consenso, estudios de estabilidad)
+  mostrado: 2 mg/0,1 ml
+  motivo: 'La tabla del consenso es de periodos de validez: lista las concentraciones de los estudios de estabilidad, que
+    no coinciden con la dosis del PNT ni con la guía NIH citada. Se muestra la dosis del PNT; confirma con tu servicio de
+    farmacia.'
+meta: {}

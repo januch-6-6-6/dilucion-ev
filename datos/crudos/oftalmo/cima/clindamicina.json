@@ -1,0 +1,15 @@
+{
+ "id": "clindamicina",
+ "familia": "intravitreo",
+ "resultados": 25,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "63667",
+   "nombre": "CLINDAMICINA NORMON 300 mg/2 ml SOLUCION INYECTABLE EFG",
+   "vias": "VIA INTRAMUSCULAR VIA INTRAVENOSA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/63667/FT_63667.html",
+   "tipo": "parenteral"
+  }
+ ]
+}

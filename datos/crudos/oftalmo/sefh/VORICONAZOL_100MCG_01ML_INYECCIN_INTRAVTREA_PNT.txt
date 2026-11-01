@@ -1,0 +1,104 @@
+                  VORICONAZOL 100 MCG/0,1ML INYECCIÓN INTRAVÍTREA
+
+FORMA FARMACÉUTICA:
+Inyectables
+
+CANTIDAD Y UNIDAD DEL LOTE PATRÓN
+0.5 ml
+
+COMPOSICIÓN:
+VORICONAZOL                                 0.5mg
+AGUA PARA INYECTABLES                       0.2ml
+SODIO CLORURO 0,9% c.s.p.                   0.5ml
+
+MATERIAL Y EQUIPO:
+CFLH o CSB según riesgo del trabajador e información del SPRL (ver entorno), jeringa 20ml,
+aguja, filtro con sistema cerrado hidrofílico 0,22mcm.
+
+METODOLOGÍA:
+PG de Elaboración de inyectables
+
+MÉTODO ESPECIFICO:
+1. Desprecintar el vial, limpiar el elastómero con alcohol de 70º y dejar secar.
+2. Reconstituir el vial de voriconazol 200mg (Vfend®) con 19ml de API (se obtienen 20mL de
+líquido extraíbles de concentración 10mg/mL), a través de un filtro de sistema cerrado para la
+preparación de biopeligrosos.
+3. Agitar suavemente hasta que la solución esté libre de partículas visibles.
+4. Tomar una alícuota de 1 mL de esta solución y diluirla hasta 10 mL de cloruro sódico 0,9%
+(concentración final 1000 µg/ml o 1mg/ml).
+5. Filtrar (con filtro de 0,22 mcm) 0,5 mL de esta solución sobre las jeringas de 1mL a través
+de su cono.
+6. Tapar las jeringas con tapón estéril.
+
+ENTORNO:
+Lista NIOSH 3. Trabajar en CFLH. Valorar junto con el SPRL la necesidad de trabajar en CSB
+si el personal elaborador se encuentra en riesgo reproductivo, con técnica aséptica con la
+indumentaria necesaria para el trabajo en condiciones estériles.
+
+ENVASADO:
+Jeringa estéril 1 ml.
+
+CONSERVACIÓN:
+Conservar refrigerado (2-8ºC) o congelado (-20ºC) protegido de la luz y la humedad. La
+estabilidad microbiológica es de 9 días regrigerado o 45 días congelado.
+
+CARACTERÍSTICAS DEL PRODUCTO ACABADO:
+Liquido límpido, transparente ligeramente amarillento. No presenta turbidez ni partículas en
+suspensión. Desechar en caso de que aparezca precipitado. El pH descrito en la literatura
+está en torno a 6,28 y la osmolaridad en torno a 563 mOsm/kg. CONTROLES A REALIZAR -
+Características organolépticas (color, aspecto) - Ausencia de turbidez - Ausencia de
+cristalización - pH - Osmolaridad
+
+PLAZO DE VALIDEZ:
+9 dias
+INDICACIONES Y POSOLOGÍA:
+INDICACIONES
+Voriconazol es un antifúngico triazólico de segunda generación que inhibe la síntesis de
+ergosterol de la membrana celular fúngica inhibiendo por tanto el crecimiento microbiano. Se
+utiliza de forma tópica oftálmica (FFT) en queratitis causadas por hongos sensibles.
+
+POSOLOGÍA
+La dosis recomendada es de 100 microgramos/0,1 ml vía intravítrea
+
+OBSERVACIONES:
+- Esta fórmula contiene sulfobutiléter beta-ciclodextrina sódica (SBECD), cloruro sódico 0.9% y
+agua para inyección como excipientes.
+- Desechar el preparado si contiene partículas o precipitados o sí presenta un color amarillo
+oscuro.
+- Se debe tener en cuenta para la preparación el volumen muerto de la jeringa y de la aguja
+(0,4 mL aprox), por lo que normalmente se preparan 0,5 mL.
+
+BIBLIOGRAFÍA
+(1) Amoros-Reboredo P, Bastida-Fernandez C, Guerrero-Molina L, Soy-Muner D, Lopez-
+Cabezas C. Stability of frozen 1% voriconazole ophthalmic solution. American journal of
+health-system pharmacy : AJHP : official journal of the American Society of Health-System
+Pharmacists. 2015;72(6):479-82.
+(2) Mithal K, Pathengay A, Bawdekar A, Jindal A, Vira D, Relhan N, et al. Filamentous fungal
+endophthalmitis: results of combination therapy with intravitreal amphotericin B and
+voriconazole. Clinical ophthalmology (Auckland, NZ). 2015;9:649-55.
+(3) Uyhazi KE, Kolomeyer AM, Gray IN, Traband A, Kohli AA, O Brien JM, et al. Management
+of Presumed Endogenous Fungal Endophthalmitis in a Child With Acute Lymphoblastic
+Leukemia. Journal of pediatric ophthalmology and strabismus. 2017;54:e42-e6.
+(4) Dupuis A, Tournier N, LeMoal G, et al. Preparation and stability of voriconazole eye drop
+solution.
+(5) Instituto Nacional de Seguridad e Higiene en el Trabajo (INSHT). Medicamentos
+peligrosos. Medidas de prevención para su preparación y administración. Editado septiembre
+2016. Disponible en:
+http://www.insht.es/InshtWeb/Contenidos/Documentacion/FICHAS%20DE%20PUBLICACIONES
+/EN%20CATALOGO/Higiene/2016%20medicamentos%20peligrosos/Medicamentos%20peligrosos.pdf
+(6) Khan FA, Slain D, Khakoo RA. Candida endophthalmitis: focus on current and future
+antifungal treatment options. Pharmacotherapy. 2007 Dec; 27(12):1711-21.
+(7) Riddell J 4th, Comer GM, Kauffman CA.Treatment of endogenous fungal endophthalmitis:
+focus on new antifungal agents. Clin Infect Dis. 2011 Mar 1; 52(5):648-53. Epub 2011 Jan 16
+(8) Ozdemir HG, Oz Y, Ilkit M, Kiraz N. Antifungal susceptibility of ocular fungal pathogens
+recovered from around the world against itraconazole, voriconazole, amphotericin B, and
+caspofungin. Med Mycol. 2012 Feb; 50(2):130-5. Epub 2011 May 23.
+(9) Guía de buenas prácticas de preparación de medicamentos en servicios de farmacia
+hospitalaria. Junio 2014
+
+EVIDENCIA CIENTÍFICA:
+Categoría I: presenta estudios de estabilidad y experiencia clínica
+
+FECHA ÚLTIMA REVISIÓN:
+17/09/2017
+

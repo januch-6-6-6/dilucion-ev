@@ -1,0 +1,105 @@
+id: famciclovir
+nombre: Famciclovir
+comerciales:
+- Famvir
+grupo: antiviral-antifungico
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: comprimido-250-mg
+  forma: comprimido
+  cantidad:
+    valor: 250
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: no_registrado
+  fuente:
+    ref: CIMA-OFT-FAMCICLOVIR-60609
+    detalle: Famvir 250 mg comprimidos recubiertos (la ficha no menciona ranura ni partición)
+dosis:
+- indicacion: Herpes zóster oftálmico (adultos inmunocompetentes)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 3
+  estatus: autorizada
+  condicion: 7 días; empezar apenas se diagnostique
+  oftalmica: true
+  fuente:
+    ref: CIMA-OFT-FAMCICLOVIR-60609
+    detalle: '4.2 Herpes zoster y zoster oftálmico en adultos inmunocompetentes: "500 mg tres veces al día durante siete días"'
+- indicacion: Queratitis herpética epitelial dendrítica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: 7 a 10 días
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial dendrítica: "Famciclovir (Famvir): 250 mg twice daily for 7-10 days"'
+- indicacion: Queratitis herpética epitelial geográfica (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 500
+  max: 500
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: 14 a 21 días
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'App. VI, epitelial geográfica: "Famciclovir (Famvir): 500 mg twice daily for 14-21 days"'
+- indicacion: Profilaxis de queratitis herpética recurrente (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 250
+  max: 250
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: Al menos un año; la duración óptima no está establecida
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-HERPES-HSV-KERATITIS
+    detalle: 'Profilaxis: "Famciclovir (Famvir): 250 mg twice daily"; "at least one year is recommended"'
+pediatria:
+  estado: solo_adulto
+  motivo: La seguridad y la eficacia no están establecidas en menores de 18 años (CIMA 4.2); la guía MEEI/Harvard lo indica
+    igual.
+discrepancias: []
+administracion:
+  comida: indiferente
+  texto: Puede administrarse con independencia de las comidas.
+  fuente:
+    ref: CIMA-OFT-FAMCICLOVIR-60609
+    detalle: '4.2 Forma de administración: "con independencia de las comidas"'
+ajusteRenalHepatico:
+  renal: Hay que ajustar la dosis según el aclaramiento de creatinina; en hemodiálisis dar la dosis justo después de la diálisis
+    (CIMA 4.2, Tabla 1).
+  hepatico: No hace falta ajustar en insuficiencia hepática leve o moderada; no hay datos en insuficiencia grave (CIMA 4.2).
+  fuente:
+    ref: CIMA-OFT-FAMCICLOVIR-60609
+    detalle: 4.2 Pacientes con insuficiencia renal / hepática
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones.
+- 'No registrado en Chile: solo por importación o uso compasivo.'
+- La guía MEEI/Harvard lo prefiere en mayores de 65 años (con o sin función renal reducida), porque aciclovir y valaciclovir
+  dan más reacciones del sistema nervioso central en ancianos.
+- Para la profilaxis la guía lo propone como alternativa extrapolada de los estudios de herpes genital; solo aciclovir y valaciclovir
+  tienen estudio ocular que demuestre menos recurrencias (HEDS).
+meta: {}

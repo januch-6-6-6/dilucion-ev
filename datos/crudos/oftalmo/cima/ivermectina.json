@@ -1,0 +1,15 @@
+{
+ "id": "ivermectina",
+ "familia": "oral",
+ "resultados": 10,
+ "tipo": "oral",
+ "sel": [
+  {
+   "nregistro": "85728",
+   "nombre": "IVERGALEN 3 MG COMPRIMIDOS EFG",
+   "vias": "VIA ORAL COMPRIMIDO",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/85728/FT_85728.html",
+   "tipo": "oral"
+  }
+ ]
+}

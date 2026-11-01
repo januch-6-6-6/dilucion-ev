@@ -1,0 +1,132 @@
+id: lidocaina
+nombre: Lidocaína intracameral y de bloqueos
+comerciales: []
+grupo: anestesico-local
+familias:
+- intracameral
+- bloqueo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: lidocaina-1
+  forma: solucion
+  cantidad:
+    valor: 10
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-28110/24
+  usoDirecto: true
+  nota: 'Lidocaína al 1 % (10 mg/ml), expresada por 1 ml: el ISP no informa el contenido de la ampolla. Para uso intracameral
+    debe ser lidocaína SIN conservantes; el ISP no informa si las ampollas de Chile los llevan: confírmalo en el rótulo.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-28110/24 Xylestesin solución inyectable 1 % (lidocaína clorhidrato)
+- id: lidocaina-2
+  forma: solucion
+  cantidad:
+    valor: 20
+    unidad: mg
+  volumenMl: 1
+  registrosIsp:
+  - F-6160/25
+  - F-28109/24
+  - F-29966/26
+  usoDirecto: true
+  nota: 'Lidocaína al 2 % (20 mg/ml), expresada por 1 ml: el ISP no informa el contenido de la ampolla. Es la concentración
+    de los bloqueos.'
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: 'F-6160/25, F-28109/24 y F-29966/26: lidocaína clorhidrato 2 % solución inyectable'
+dosis:
+- indicacion: Anestesia intracameral en cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 10
+      unidad: mg
+    volumenMl: 1
+  texto: 'Lidocaína al 1 % sin conservantes: 0,15 ml (150 µl) en la técnica de Lundberg, o 0,5 ml en los casos publicados.
+    Las inyecciones intracamerales no son totalmente seguras: se describe toxicidad epitelial y endotelial.'
+  estatus: off_label
+  condicion: La ficha técnica de lidocaína consultada (B. Braun, CIMA) no incluye la vía intracameral.
+  presentaciones:
+  - lidocaina-1
+  fuente:
+    ref: WEB-OFT-LIDOCAINA-IC-14709298
+    detalle: 'Dosis/volumen: 150 microL de lidocaína 1 % (Xylocaine) intracameral'
+  tambien:
+  - ref: WEB-OFT-LIDOCAINA-IC-PMC6034170
+    detalle: 'Volumen: 0,5 ml de lidocaína 1 % sin conservantes y sin adrenalina intracameral'
+- indicacion: Bloqueo retrobulbar
+  via: retrobulbar
+  poblacion: adulto
+  texto: La mezcla más usada es lidocaína 2 % con bupivacaína 0,75 %. Inyectar lentamente 2 a 4 ml (EyeWiki, retrobulbar);
+    otra página de EyeWiki dice cerca de 5 ml. No usar vasoconstrictor.
+  estatus: off_label
+  condicion: Técnica descrita en guías; la ficha técnica de lidocaína consultada no incluye vías oculares.
+  presentaciones:
+  - lidocaina-2
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    detalle: 'Mezcla: lidocaína 2 % con bupivacaína 0,75 %; «Slowly inject 2 to 4 ml of anesthetic»'
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
+    detalle: 'Retrobulbar: «usually at a volume near 5mL»'
+- indicacion: Bloqueo peribulbar
+  via: peribulbar
+  poblacion: adulto
+  texto: Lidocaína con bupivacaína, comúnmente 6 a 10 ml.
+  estatus: off_label
+  condicion: Técnica descrita en guías; la ficha técnica de lidocaína consultada no incluye vías oculares.
+  presentaciones:
+  - lidocaina-2
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
+    detalle: 'Peribulbar: «commonly 6-10mL»; la combinación de lidocaína y bupivacaína es la más popular'
+- indicacion: Anestesia subtenoniana
+  via: subtenoniana
+  poblacion: adulto
+  texto: Lidocaína 2 %, sola o mezclada con igual volumen de bupivacaína 0,5 o 0,75 %, en 2 a 5 ml. Con 2 ml suele bastar
+    para analgesia; para acinesia se necesitan 3 a 5 ml o más. Evitar el vasoconstrictor.
+  estatus: off_label
+  condicion: Técnica descrita en guías; la ficha técnica de lidocaína consultada no incluye vías oculares.
+  presentaciones:
+  - lidocaina-2
+  fuente:
+    ref: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/SUB-TENON
+    detalle: Lidocaína 2 %, sola o con igual volumen de bupivacaína 0,5 o 0,75 %, 2-5 ml
+  tambien:
+  - ref: WEB-OFT-BLOQUEOS-PMC10614322
+    detalle: 'Mezcla subtenoniana: 2,0 ml de lidocaína 20 mg/ml y 2,0 ml de bupivacaína 2,5 mg/ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'Para uso intracameral debe ser lidocaína SIN conservantes; el ISP no informa si las ampollas de Chile los llevan: confírmalo
+  en el rótulo.'
+- 'No repetir la lidocaína intracameral si hubo ruptura de la cápsula posterior: riesgo de toxicidad retiniana (Eshraghi 2015).'
+- Se han descrito pérdida visual completa y transitoria tras la lidocaína intracameral, y edema macular quístico después (Eshraghi
+  2015; Mohammadpour 2018).
+- 'Agujas finas y cortas, no más de 25 G ni de 25 mm. Perforación del globo: 1 de cada 874 a más de 16.000 bloqueos con aguja
+  afilada; el riesgo sube en ojos miopes con longitud axial sobre 26 mm (RCoA/RCOphth 2012).'
+- 'Todos los anestésicos locales son miotóxicos: evitar inyectarlos dentro de un músculo (RCoA/RCOphth 2012).'
+- 'Anestesia del tronco cerebral con bloqueos retrobulbar, peribulbar y subtenoniano: los síntomas aparecen dentro de 10 minutos
+  (RCoA/RCOphth 2012).'
+discrepancias:
+- campo: Volumen del bloqueo retrobulbar
+  valores:
+  - fuente: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/RETROBULBAR
+    valor: 2 a 4 ml
+  - fuente: WEB-OFT-BLOQUEOS-EYEWIKI.ORG/OCULAR_ANESTHESIA
+    valor: cerca de 5 ml
+  mostrado: 2 a 4 ml (retrobulbar) con la otra cifra citada
+  motivo: Dos páginas de EyeWiki dan volúmenes distintos; la guía RCoA/RCOphth 2012 no trae dosis.
+meta: {}

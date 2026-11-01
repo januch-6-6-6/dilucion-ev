@@ -1,0 +1,22 @@
+{
+ "id": "bupivacaina",
+ "familia": "periocular",
+ "resultados": 36,
+ "tipo": "ocular",
+ "sel": [
+  {
+   "nregistro": "45669",
+   "nombre": "BUPIVACAÍNA/ADRENALINA PHYSAN 5 MG/ML + 0,005 MG/ML SOLUCIÓN INYECTABLE",
+   "vias": "VIA EPIDURAL VIA INTRAARTICULAR VIA INTRAMUSCULAR VIA PERINEURAL USO RETROBULBAR VIA SUBCUTANEA USO PERIOSEO INFILTRACION SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/45669/FT_45669.html",
+   "tipo": "ocular"
+  },
+  {
+   "nregistro": "57110",
+   "nombre": "BUPIVACAINA PHYSAN 5 MG/ML SOLUCIÓN INYECTABLE",
+   "vias": "VIA EPIDURAL VIA INTRAARTICULAR VIA INTRAMUSCULAR VIA PERINEURAL USO RETROBULBAR VIA SUBCUTANEA USO PERIOSEO INFILTRACION SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/57110/FT_57110.html",
+   "tipo": "ocular"
+  }
+ ]
+}

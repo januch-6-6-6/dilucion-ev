@@ -1,0 +1,15 @@
+{
+ "id": "fluorouracilo",
+ "familia": "periocular",
+ "resultados": 4,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "71868",
+   "nombre": "FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG",
+   "vias": "VIA INTRAVENOSA SOLUCION INYECTABLE Y PARA PERFUSION",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/71868/FT_71868.html",
+   "tipo": "parenteral"
+  }
+ ]
+}

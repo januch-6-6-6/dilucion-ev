@@ -1,0 +1,16 @@
+{
+ "id": "dexametasona",
+ "familia": "periocular",
+ "resultados": 51,
+ "tipo": "parenteral",
+ "sel": [
+  {
+   "nregistro": "67455",
+   "nombre": "DEXAMETASONA KERN PHARMA 4 mg/ml SOLUCION INYECTABLE EFG",
+   "vias": "VIA INTRAARTICULAR VIA INTRALESIONAL VIA INTRAMUSCULAR VIA INTRAVENOSA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/67455/FT_67455.html",
+   "tipo": "parenteral"
+  }
+ ],
+ "corregido": true
+}

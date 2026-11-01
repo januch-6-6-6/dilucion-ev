@@ -1,0 +1,86 @@
+id: aflibercept
+nombre: Aflibercept intravítreo (Eylia / Eylea)
+comerciales: []
+grupo: anti-vegf
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: eylia-vial
+  forma: solucion
+  cantidad:
+    valor: 4
+    unidad: mg
+  volumenMl: 0.1
+  registrosIsp:
+  - B-2275/22
+  usoDirecto: true
+  nota: 'Eylia 40 mg/ml (ISP B-2275/22). Cantidad: 40 mg/ml × 0,1 ml extraíbles.'
+  fuente:
+    ref: CIMA-OFT-AFLIBERCEPT-112797002
+    detalle: 6.5 Cada vial contiene un volumen extraíble de al menos 0,1 ml (40 mg/ml)
+- id: eylia-jeringa
+  forma: jeringa_precargada
+  cantidad:
+    valor: 3.6
+    unidad: mg
+  volumenMl: 0.09
+  registrosIsp: []
+  usoDirecto: true
+  nota: 'Jeringa precargada. Cantidad: 40 mg/ml × 0,09 ml extraíbles.'
+  fuente:
+    ref: CIMA-OFT-AFLIBERCEPT-112797001
+    detalle: 'Volumen extraíble de la jeringa precargada: al menos 0,09 ml (40 mg/ml)'
+dosis:
+- indicacion: Degeneración macular neovascular, edema macular (diabético y por oclusión venosa) y neovascularización coroidea
+    miópica
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 2
+      unidad: mg
+    volumenMl: 0.05
+  texto: '2 mg (0,05 ml) en inyección intravítrea. El vial (0,1 ml extraíbles) y la jeringa (0,09 ml extraíbles) traen más
+    que la dosis: elimina el exceso antes de inyectar.'
+  estatus: autorizada
+  presentaciones:
+  - eylia-vial
+  - eylia-jeringa
+  fuente:
+    ref: CIMA-OFT-AFLIBERCEPT-112797002
+    detalle: '4.2 y 6.6: la dosis recomendada es de 2 mg de aflibercept, equivalente a 0,05 ml'
+  tambien:
+  - ref: SEFH-PNT-AFLIBERCEPT-2MG-005ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Posología: 2 mg de aflibercept equivalentes a 50 µl'
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: aflibercept 2 mg/0,05 ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: La ficha técnica española trae una dosis para recién nacidos pretérmino con retinopatía del prematuro (0,4 mg/0,01
+    ml con el dispositivo dosificador PICLEO); no se carga aquí porque exige ese dispositivo y no se comprobó la indicación
+    en Chile.
+conservacion:
+- texto: Conservar en nevera (2–8 °C). Las alícuotas de farmacia duran 9 días refrigeradas según el PNT; el consenso da 28
+    días de estabilidad fisicoquímica a 2–8 °C.
+  horas: 216
+  fuente:
+    ref: SEFH-PNT-AFLIBERCEPT-2MG-005ML-INYECCIN-INTRAVTREA-PNT
+    detalle: 'Conservación y plazo de validez: 9 días'
+contraindicaciones:
+- Hipersensibilidad al aflibercept; infección ocular o periocular activa o sospechada; inflamación intraocular activa grave
+  (CIMA 4.3).
+alertas:
+- 'La presentación trae más volumen que la dosis: elimina el exceso hasta la marca de 0,05 ml antes de inyectar. Inyectar
+  todo el contenido puede causar una sobredosis (CIMA 4.2 y 6.6).'
+- 'Cada vial o jeringa es para un solo ojo: extraer varias dosis de un mismo envase aumenta el riesgo de contaminación e infección
+  (CIMA 4.2).'
+- En Chile también está registrado Eylia 8 mg/0,07 mL (ISP B-3222/26). Su posología no se carga porque no se consultó su ficha
+  técnica.
+discrepancias: []
+meta: {}

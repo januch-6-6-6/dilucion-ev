@@ -1,0 +1,460 @@
+FLUOROURACILO ACCORD 50 mg/ml SOLUCION INYECTABLE O PARA PERFUSION EFG | VIA INTRAVENOSA SOLUCION INYECTABLE Y PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/71868/FT_71868.html
+
+ 4.1. Indicaciones terapéuticas
+ Fluorouracilo está indicado en adultos.
+ Fluorouracilo está indicado para el tratamiento de las siguientes neoplasias malignas y enfermedades:
+ Tratamiento de cáncer colorrectal metastásico
+ Tratamiento adyuvante en cáncer de colon y recto
+ Tratamiento de cáncer gástrico avanzado
+ Tratamiento de cáncer de páncreas avanzado
+ Tratamiento de cáncer de esófago avanzado
+ Tratamiento de cáncer de mama avanzado o metastásico
+ Tratamiento adyuvante en paciente con cáncer de mama invasivo primario operable
+ Tratamiento de carcinoma de células escamosas de cabeza y cuello inoperable localmente avanzado e inoperable en pacientes no tratados previamente
+ Tratamiento de carcinoma de células escamosas de cabeza y cuello localmente recurrente o metastásico
+ 4.2. Posología y forma de administración
+ Posología
+ Fluorouracilo debe ser administrado únicamente bajo la supervisión de un médico cualificado con extensa experiencia en tratamiento citotóxico.
+ Durante el tratamiento los pacientes deben monitorizarse estrecha y frecuentemente. Los riesgos y beneficios de los pacientes individualmente deben ser cuidadosamente considerados antes de cada tratamiento.
+ Forma de administración
+ Fluorouracilo puede administrarse por inyección intravenosa en forma de bolo, perfusión o perfusión continua de hasta unos cuantos días.
+ Esto son recomendaciones generales. Por favor consulte las directrices locales e internacionales para obtener unas recomendaciones más actualizadas 
+ Precauciones que deben tomarse antes de manipular y administrar el medicamento
+ Para obtener instrucciones sobre la dilución del medicamento antes de la administración, ver sección 6.6
+ Administración intravenosa:
+ La dosis de fluorouracilo y la pauta de tratamiento dependen del régimen de tratamiento escogido, de la indicación, del estado del paciente y de los tratamientos previos que haya recibido. Los regímenes de tratamiento varían en la combinación de 5-fluorouracilo con otros agentes citotóxicos o con la dosis de ácido folínico usado de forma concomitante.
+ El número de ciclos a realizar debe decidirlo el médico que trate al paciente en función de los protocolos de tratamiento y directrices locales; teniendo en cuenta el éxito del tratamiento y la tolerancia en pacientes individuales.
+ El tratamiento inicial debe ser administrado en el hospital.
+ Se recomienda la reducción de la dosis en pacientes con:
+ 1. Caquexia
+ 2. Intervención quirúrgica importante en los 30 días anteriores
+ 3. Función reducida de la médula ósea 
+ 4. Insuficiencia hepática o renal
+ Los pacientes adultos y de edad avanzada que reciben 5-fluorouracilo deben ser monitorizados antes de cada dosis debido a toxicidad hematológica (recuento de plaquetas, leucocitos y granulocitos), gastrointestinal (estomatitis, diarrea, hemorragias del tracto gastrointestinal) y neurológica, y, si fuera necesario, la dosis de 5-fluorouracilo debería ser reducida o retenida.
+ La necesidad de ajuste de dosis o de interrupción del tratamiento con fluorouracilo depende de la incidencia de efectos adversos. Toxicidades hematológicas tales como reducción de leucocitos (≤ 3500/mm3) y/o recuento de plaquetas (≤ 100000/mm3) pueden requerir la interrupción del tratamiento. El médico decidirá si el tratamiento debe ser reanudado según el estado clínico del paciente.
+ Cáncer colorrectal:
+ Fluorouracilo se usa en el tratamiento de cáncer colorrectal en varios regímenes de tratamiento. Preferiblemente fluorouracilo se usa junto con ácido folínico. En los regímenes de tratamiento usados comúnmente también se combinan flurouracilo y ácido folínico con otros agentes quimioterápicos como el irinotecan (FOLFIRI y FLIRI), oxaliplatino (FOLFOX) o ambos, irinotecan y oxaliplatino (FOLFIRINOX).
+ El rango de dosis de fluorouracilo más usado se encuentra entre 200-600 mg/m2 de superficie corporal. La dosis también puede variar según si la administración es por bolus intravenoso o perfusión intravenosa continua.
+ Los esquemas de dosis también varían según el régimen quimioterapéutico; la dosis de fluorouracilo puede repetirse semanalmente, bimensualmente o mensualmente.
+ El número de ciclos varía según el régimen de tratamiento usado y depende también de la decisión clínica basada en el éxito del tratamiento y la tolerancia.
+ Cáncer de mama:
+ Fluorouracilo se usa comúnmente es regímenes quimioterapéuticos en combinación con ciclofosfamida y metrotrexato (CMF), epirubicina y ciclifosfamida (FEC) o metotrexato y leucovorina (MFL). El rango de dosis habitual es de 500-600 mg/m2 de superficie corporal como bolus intravenoso y se repite cada 3-4 semanas según sea necesario. En el tratamiento adyuvante de cáncer de mama invasivo primario, la duración del tratamiento normalmente es de 6 ciclos.
+ Cáncer gástrico y cáncer de la unión gastroesofágica:
+ La quimioterapia preoperatoria con el régimen ECF (epirubicina, cisplatino, fluorouracilo) se recomienda actualmente. La dosis recomendada de fluorouracilo es de 200 mg/m2 de superficie corporal al día administrada como perfusión intravenosa continua durante 3 semanas. Se recomienda realizar 6 ciclos, pero dependerá del éxito del tratamiento y la tolerancia del paciente al medicamento.
+ Cáncer de esófago:
+ El fluorouracilo se usa comúnmente en combinación con cisplatino, o cisplatino y epirubicina, o epirubicina y oxaliplatino. La dosis varía entre 200-1000 mg/m2 de superficie corporal al día administrada como perfusión intravenosa continua durante varios días y se repite cíclicamente según el régimen.
+ En cánceres que afectan la parte inferior del esófago, comúnmente se recomienda la quimioterapia preoperatoria con régimen ECF (epirubicina, cisplatino, fluorouracilo). La dosis recomendada de fluorouracilo es de 200 mg/m2 de superficie corporal al día administrada como perfusión intravenosa continua durante 3 semanas y se repite cíclicamente.
+ En relación a la administración de 5-fluorouracilo y cisplatino en combinación con radioterapia, por favor consulte la bibliografía.
+ Cáncer de páncreas:
+ Fluorouracilo se usa preferiblemente en combinación con ácido folínico o gemcitabina. La dosis varía entre 200-500 mg/m2 de superficie corporal al día administrada como bolus intravenoso o perfusión intravenosa según el régimen y la repetición cíclica.
+ Cáncer de cabeza y cuello:
+ Fluorouracilo se usa preferiblemente en combinación con cisplatino o carboplatino. La dosis varía entre 600-1200 mg/m2 de superficie corporal al día administrada como perfusión intravenosa continua durante varios días y se repite cíclicamente según el régimen.
+ En relación a la administración de 5-fluorouracilo y cisplatino o carboplatino en combinación con radioterapia, por favor consulte la bibliografía.
+ Poblaciones especiales
+ Insuficiencia renal o hepática.
+ Se recomienda precaución y puede ser necesario reducir la dosis en pacientes con insuficiencia renal o hepática.
+ Población pediátrica
+ El fluorouracilo no está recomendado para uso en niños debido a la ausencia de datos sobre seguridad y eficacia.
+ Pacientes de edad avanzada
+ No se recomiendan ajustes de dosis en pacientes de edad avanzada, pero se debe tener cuidado para considerar cualquier condición concomitante al determinar la dosis..
+ 4.3. Contraindicaciones
+ El fluorouracilo está contraindicado en pacientes que:
+ Tiene hipersensibilidad conocida al principio activo o a alguno de los excipientes incluidos en la sección 6.1
+ Padecen infecciones potencialmente graves (p. ej. herpes zóster, varicela)
+ Están gravemente debilitados
+ Padecen depresión de la médula ósea tras la radioterapia o el tratamiento con otros antineoplásicos
+ Tratamiento de neoplasias no malignas
+ Tienen insuficiencia hepática grave
+ Se han tratado con con brivudina, sorivudina o sus análogos químicamente relacionados, que son potentes inhibidores de la enzima que metaboliza el 5-FU, la dihidropirimidina deshidrogenasa (DPD) (ver sección 4.5). El fluorouracilo no se debe usar en las 4 semanas siguientes al tratamiento con brivudina, sorivudina o sus análogos químicamente relacionados.
+ Fluorouracilo (5-FU) no debe administrarse a pacientes homocigotos para dihidropirimidina deshidrogenasa (DPD).
+ Están en periodo de lactancia (ver sección 4.6).
+ Tienen deficiencia completa conocida de dihidropirimidina deshidrogenasa (DPD) (ver sección 4.4).
+ 4.4. Advertencias y precauciones especiales de empleo
+ El fluorouracilo sólo se administra por o bajo la estrecha supervisión de un médico cualificado que esté familiarizado con el uso de potentes antimetabolitos y disponga de las instalaciones necesarias para el control periódico de los efectos clínicos, bioquímicos y hematológicos durante y después de la administración.
+ Todos los pacientes deben ser ingresados en el hospital para el tratamiento inicial.
+ Efectos hematológicos
+ Fluorouracilo, puede producir mielosupresión (incluyendo, pero no limitado a, leucopenia, granulocitopenia, pancitopenia y trombocitopenia).
+ El tratamiento adecuado con fluorouracilo normalmente produce leucocitopenia, alcanzándose el valor más bajo del recuento de leucocitos por lo general entre los días 7 y 14 del primer ciclo, aunque a veces se demora hasta 20 días. Normalmente se recupera la normalidad el día 30. Se recomienda el control diario de las plaquetas y el recuento de leucocitos; el tratamiento se debe detener si las plaquetas descienden por debajo de 100.000/mm3 o el número de leucocitos desciende por debajo de 3.500/mm3. Si el recuento total es inferior a 2.000/mm3, y especialmente si hay granulocitopenia, se recomienda emplazar al paciente en aislamiento protector en el hospital y tratarlo con las medidas apropiadas para prevenir una infección sistémica. Se debe discontinuar el tratamiento en caso de toxicidad severa.
+ Efectos gastrointestinales
+ El tratamiento también se debe detener al primer signo de úlcera bucal o indicio de efectos adversos gastrointestinales tales como estomatitis, diarrea, hemorragia digestiva o hemorragia en cualquier lugar. La relación entre dosis efectiva y tóxica es pequeña y la respuesta terapéutica es improbable sin cierta toxicidad. Por tanto, se debe tener precaución en la selección de los pacientes y el ajuste de la dosis. El tratamiento se debe detener en caso de toxicidad severa.
+ Pacientes de riesgo especial
+ El fluorouracilo debe utilizarse con extrema precaución en pacientes que hayan recibido previamente altas dosis de irradiación pélvica o agentes alquilantes, y en aquellos que presenten una afectación generalizada de la médula ósea por tumores metastásicos. El tratamiento con fluorouracilo puede potenciar la necrosis causada por la radiación.
+ Los pacientes que toman fenitoína concomitantemente con fluorouracilo deben someterse a pruebas periódicas debido a la posibilidad de un nivel plasmático elevado de fenitoína (ver sección 4.5).
+ Debe tenerse especial cuidado en el tratamiento de pacientes ancianos o debilitados, ya que estos pacientes pueden presentar un mayor riesgo de toxicidad grave.
+ Insuficiencia renal y hepática
+ El fluorouracilo debe usarse con precaución en pacientes con función renal o hepática reducida o ictericia.
+ Cardiotoxicidad
+ Se ha asociado cardiotoxicidad con la terapia con fluoropirimidina, incluyedo infarton de miocardio, angina, arritmia, miocarditis, choque cardiogénico, muerte súbita, miocardipatía por estrés (síndrome Takotsubo) y cambios electrocardiográficos (incluyendo casos muy raros de prolongación de la QT). Estos eventos adversos son más frecuentes en pacientes que reciben perfusión continua de 5-fluorouracilo que en aquellos que reciben por inyección en bolo. El historial previo de enfermedad arterial coronaria puede ser un factor de riesgo para algunas reacciones adversas cardíacas. Por lo tanto, se debe tener precaución en el tratamiento de pacientes que han experimentado dolor en el pecho durante el curso del tratamiento o en pacientes con historia de enfermedades del corazón. La función cardiaca se debe monitorizar regularmente durante el tratamiento con fluorouracilo. En caso de cardiotoxicidad severa el tratamiento se debe detener.
+ Efectos inmunosupresores
+ Debe evitarse la vacunación con una vacuna viva en pacientes que reciben 5-fluorouracilo debido al potencial de infecciones graves o mortales. Debe evitarse el contacto con personas que hayan sido tratadas recientemente con la vacuna del virus de la polio. Pueden administrarse vacunas muertas o inactivadas; sin embargo, la respuesta a dichas vacunas puede verse disminuida.
+ Síndrome mano-pie
+ La administración de fluorouracilo se ha asociado con la aparición del síndrome de eritrodisestesia palmo-plantar, también conocido como síndrome mano-pie. La infusión continua de fluorouracilo puede aumentar la incidencia y gravedad de la eritrodisestesia palmo-plantar. La interrupción de la terapia va seguida de una resolución gradual a lo largo de 5 a 7 días.
+ Encefalopatía
+ Se han reportado casos de encefalopatía asociado con el tratamiento con 5 -fluorouracilo a partir de datos durante la etapa de postcomercialización (incluyendo encefalopatía hiperamonémica, leucoencefalopatía, síndrome de encefalopatía reversible posterior (PRES), encefalopatía de Wernicke). Los signos y síntomas de la encefalopatía son estado mental alterado, confusión, desorientación, coma o ataxia. Si un paciente desarrolla cualquiera de estos síntomas detener el tratamiento y controlar los niveles de amonio y vitamina B1 en suero inmediatamente. En caso de niveles elevados de amonio en suero o deficiencia de vitamina B1, iniciar terapia adecuada. La encefalopatía hiperamoniémica a menudo ocurre junto con acidosis láctica.
+ Es necesaria la precaución cuando se administre fluorouracilo en pacientes con insuficiencia hepática y/o renal. Los pacientes con función hepática y/o renal disminuida peden tener mayor riesgo de hiperamonemia y encefalopatía hiperamonémica.
+ Síndrome de lisis tumoral
+ Se han notificado casos de síndrome de lisis tumoral asociados con el tratamiento con fluorouracilo a partir de fuentes posteriores a la comercialización. Los pacientes con mayor riesgo de síndrome de lisis tumoral (p. ej., con insuficiencia renal, hiperuricemia, carga tumoral alta, progresión rápida) deben ser monitoreados de cerca. Se deben considerar medidas preventivas (por ejemplo, hidratación, corrección de niveles altos de ácido úrico)).
+ Deficiencia de dihidropirimidina deshidrogenasa (DPD):
+ La actividad de la DPD determina la tasa del catabolismo del 5-fluorouracilo (ver sección 5.2). Por lo tanto, los pacientes con deficiencia de DPD presentan un mayor riesgo de toxicidad relacionada con las fluoropirimidinas, que incluye, por ejemplo, estomatitis, diarrea, mucositis, neutropenia y neurotoxicidad.
+ La toxicidad relacionada con la deficiencia de DPD se suele producir durante el primer ciclo de tratamiento o después de aumentar la dosis.
+ Deficiencia completa de DPD
+ La deficiencia completa de DPD es rara (0,01-0,5% de la población caucásica). Los pacientes con una deficiencia completa de DPD presentan un aumento del riesgo de toxicidad potencialmente mortal o mortal y no deben recibir tratamiento con Fluorouracilo Accord (ver sección 4.3).
+ Deficiencia parcial de DPD
+ Se estima que la deficiencia parcial de DPD afecta a un 3-9% de la población caucásica. Los pacientes con una deficiencia parcial de DPD presentan un riesgo incrementado de toxicidad grave y potencialmente mortal. Se debe considerar una dosis de inicio reducida para limitar esta toxicidad. La deficiencia de DPD se debe considerar como un parámetro a tener en cuenta en combinación con otras medidas habituales para la reducción de dosis. La reducción de la dosis inicial puede afectar a la eficacia del tratamiento. Si no se experimenta una toxicidad grave, es posible aumentar las dosis posteriores bajo una estrecha monitorización.
+ Pruebas para la deficiencia de DPD
+ Se recomienda un análisis fenotípico y/o genotípico antes de iniciar el tratamiento con Fluorouracilo Accord, a pesar de las dudas respecto a las metodologías óptimas de las pruebas antes del tratamiento. Se deben tener en cuenta las directrices clínicas correspondientes.
+ El deterioro de la función renal puede dar lugar a un aumento de los niveles de uracilo en sangre, lo que aumenta el riesgo de diagnóstico erróneo en pacientes con deficiencia de DPD con insuficiencia renal moderada o grave.
+ Caracterización genotípica de la deficiencia de DPD
+ La realización de pruebas para detectar mutaciones raras del gen DPYD antes del tratamiento puede servir para identificar a pacientes con deficiencia de DPD.
+ Hay cuatro variantes del gen DPYD (c.1905+1G>A [también conocida como DPYD*2A], c.1679T>G [DPYD*13], c.2846A>T y c.1236G>A/HapB3) que pueden provocar una ausencia total o una reducción de la actividad enzimática de la DPD. Otras variantes raras también pueden estar asociadas con un aumento del riesgo de toxicidad grave o potencialmente mortal.
+ También se conoce que ciertas mutaciones homocigotas y heterocigotas compuestas en el locus del gen DPYD (p. ej., combinaciones de las cuatro variantes con al menos un alelo de c.1905+1G>A o c.1679T>G) provocan una ausencia total o casi total de actividad enzimática de la DPD.
+ Los pacientes con determinadas variantes heterocigotas del gen DPYD (como las variantes c.1905+1G>A, c.1679T>G, c.2846A>T y c.1236G>A/HapB3) presentan un mayor riesgo de toxicidad grave cuando son tratados con fluoropirimidinas.
+ La frecuencia del genotipo c.1905+1G>A heterocigoto en el gen DPYD en los pacientes caucásicos es de aproximadamente un 1%, de un 1,1% para c.2846A>T, de un 2,6 a 6,3% para la variante c.1236G>A/HapB3 y de un 0,07 a 0,1% para c.1679T>G.
+ Los datos sobre la frecuencia de las cuatro variantes del gen DPYD en otras poblaciones distintas de la caucásica son limitados. En el momento actual, las cuatro variantes del gen DPYD (c.1905+1G>A, c.1679T>G, c.2846A>T y c.1236G>A/HapB3) se consideran prácticamente ausentes en poblaciones de origen africano(-americano) o asiático.
+ Caracterización fenotípica de la deficiencia de DPD
+ Para la caracterización fenotípica de la deficiencia de DPD, se recomienda la medición previa al tratamiento de los niveles plasmáticos de uracilo (U), el sustrato endógeno de la DPD.
+ Las concentraciones elevadas de uracilo antes del tratamiento están relacionadas con un aumento del riesgo de toxicidad. A pesar de las dudas acerca de los umbrales que definen la deficiencia completa y parcial de DPD, un nivel de uracilo en sangre ≥ 16 ng/ml y < 150 ng/ml se debe considerar indicativo de deficiencia parcial de DPD y asociado con un aumento del riesgo de toxicidad por fluoropirimidinas. Un nivel de uracilo en sangre ≥ 150 ng/ml se debe considerar indicativo de deficiencia completa de DPD y asociado con un riesgo de toxicidad por fluoropirimidinas potencialmente mortal o mortal. Los niveles de uracilo en sangre se deben interpretar con precaución en pacientes con deterioro de la función renal (ver más arriba "Pruebas de deficiencia de DPD").
+ Monitorización farmacoterapéutica (MFT) del 5-fluorouracilo
+ La monitorización farmacoterapéutica del 5-fluororuracilo puede mejorar los resultados clínicos en pacientes que reciben perfusiones continuas de 5-fluorouracilo al reducir las toxicidades y mejorar la eficacia. El Área Bajo la Curva (AUC) debe estar entre 20 y 30 mg x h/l.
+ Reacciones de fotosensibilidad
+ Algunos pacientes pueden experimentar reacciones de fotosensibilidad tras la administración de fluorouracilo, se recomienda advertir a los pacientes que eviten la exposición prolongada a la luz solar (ver sección 4.8).
+ Combinación de 5-fluorouracilo y ácido folínico
+ El perfil de toxicidad del 5-fluorouracilo puede ser mejorado o modificado por el ácido folínico. Las manifestaciones más comunes son leucopenia, mucositis, estomatitis y/o diarrea que pueden ser dosis limitantes. Cuando ácido folínico y 5-fluorouracilo son utilizados en combinación, la dosis de fluorouracilo debe reducirse más en casos de toxicidad que cuando fluorouracilo se utiliza solo. Las toxicidades observadas en pacientes tratados con la combinación son cualitativamente similares a las observadas en pacientes tratados con 5-fluorouracilo solo.
+ Se observa toxicidad gastrointestinal más comúnmente y puede ser más grave o incluso potencialmente mortal (particularmente la estomatitis y la diarrea). En casos severos, 5-fluorouracilo y ácido folínico deben ser retirados e iniciarse una terapia intravenosa de apoyo. Deben indicarse a los pacientes que deben consultar a su médico inmediatamente si se produce diarrea (úlceras de leves a moderadas) y/o diarrea (heces acuosas o deposiciones) dos veces al día.
+ Sodio:
+ Fluorouracilo inyectable BP contiene 7,78 mmol (178,2 mg) de sodio por dosis diaria máxima (600 mg/m2). Esto debe tomarse en consideración para pacientes con una dieta controlada de sodio.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Brivudina y sorivudina
+ La brivudina, la sorivudina o sus análogos químicamente relacionados inhiben de forma irreversible la DPD, lo que provoca un aumento significativo de la exposición al fluorouracilo. Esto puede dar lugar a un aumento de las toxicidades relacionadas con la fluoropirimidina, con un desenlace potencialmente mortal. Por lo tanto, se puede utilizar una terapia antiviral diferente o debe haber un intervalo de al menos 4 semanas entre la administración de brivudina, sorivudina o los análogos y el inicio del tratamiento con fluorouracilo (ver sección 4.3). En caso de administración accidental de análogos de nucleósidos que inhiben la actividad DPD a pacientes tratados con fluorouracilo, deben tomarse medidas eficaces para reducir la toxicidad del fluorouracilo. Se recomienda la hospitalización inmediata.
+ Agentes citotóxicos
+ Se ha informado de que diversos agentes modulan bioquímicamente la eficacia antineoplásica o la toxicidad del fluorouracilo. Los fármacos más habituales incluyen metotrexato, metronidazol, leucovorina, interferón alfa y alopurinol.
+ Folinato de calcio (ácido folínico)
+ El ácido folínico potencia la unión del fluorouracilo a la timidilato sintasa. La eficacia y la toxicidad del 5-fluorouracilo pueden aumentarse cuando 5-fluorouracilo se usa en combinación con ácido folínico. Los efectos secundarios pueden ser más pronunciados y puede producirse diarrea severa. Se han observado diarreas mortales si se administran 600 mg/m² de fluorouracilo (bolo i.v. una vez por semana) junto con ácido folínico.
+ En combinación con otras sustancias mielosupresoras, es necesario un ajuste de la dosificación. Radioterapia concomitante o previa puede requerir una reducción de la dosis. Puede aumentarse la cardiotoxicidad de antraciclinas.
+ El fluorouracilo no se debe administrar conjuntamente con clozapina debido al mayor riesgo de agranulocitosis.
+ Se ha informado de mayor incidencia de infarto cerebral en pacientes con cáncer orofaríngeo tratados con 5-fluorouracilo y cisplatino.
+ Fenitoína
+ El nivel de fenitoína debe controlarse regularmente en pacientes que toman fluorouracilo y puede ser necesario reducir la dosis de fenitoína. Se ha notificado toxicidad asociada a concentraciones plasmáticas elevadas de fenitoína durante el uso concomitante de fenitoína con fluorouracilo o sus análogos. No se han realizado estudios formales de interacción medicamentosa con fenitoína, pero se presume que el mecanismo de interacción es la inhibición de la isoenzima CYP2C9 o CYP2C19 por el fluorouracilo (ver sección 4.4).
+ Warfarina
+ Se ha notificado de notables elevaciones del tiempo de protrombina e IIN en un número reducido de pacientes estabilizados con un tratamiento con warfarina tras el inicio del régimen de fluorouracilo. La respuesta anticoagulante adecuada a la warfarina y a otros tratamientos con derivados cumarínicos debe controlarse regularmente en los pacientes que toman fluorouracilo.
+ La cimetidina, el metronidazol y el interferon pueden aumentar el nivel plasmático de 5-fluorouracilo, y de ese modo, aumentar la toxicidad del 5-fluorouracilo.
+ El fluorouracilo mejora la acción de otros fármacos citostáticos y de la radioterapia (ver sección 4.2).
+ En pacientes que recibieron ciclofosfamida, metotrexato y 5-fluorouracilo, la adición de diuréticos tiazídicos produjo una disminución más marcada del número de granulocitos en comparación con pacientes que no recibieron las tiazidas.
+ Se ha observado hepatotoxicidad (aumento de fosfatasas alcalinas, transaminasas y bilirrubina) de forma frecuente en pacientes que recibieron 5-fluorouracilo en combinación con levamisol.
+ En pacientes con cáncer de mama se ha notificado un aumento del riesgo de eventos tromboembólicos, en la terapia combinada con 5-fluorouracilo, ciclofosfamida, metotrexato y tamoxifeno.
+ Puede darse mucositis grave, potencialmente peligrosa para la vida tras la administración concomitante de vinorelbina y 5-fluorouracilo/ácido folínico.
+ Se deben evitar las vacunaciones con vacunas atenuadas en pacientes inmunodeprimidos.
+ 4.6. Fertilidad, embarazo y lactancia
+ Mujeres en edad fértil
+ Se debe aconsejar a las mujeres en edad fértil que eviten quedarse embarazadas y que utilicen un método anticonceptivo altamente eficaz durante el tratamiento con fluorouracilo y durante al menos 6 meses después. Si el medicamento se utiliza durante el embarazo, o si la paciente se queda embarazada mientras toma el medicamento, debe informarse a la paciente del riesgo potencial para el feto y se recomienda el asesoramiento genético si es apropiado y está disponible.
+ Embarazo:
+ El fluorouracilo puede causar daño fetal cuando se administra a mujeres embarazadas. No existen estudios adecuados y bien controlados en mujeres embarazadas, sin embargo, se han notificado defectos fetales y abortos espontáneos. Basándose en los efectos teratogénicos detectados en estudios con animales, el fluorouracilo puede considerarse un agente que puede causar malformaciones fetales (ver sección 5.3). El fluorouracilo debe utilizarse durante el embarazo sólo si el beneficio potencial justifica el riesgo potencial para el feto. Se han comunicado embarazos satisfactorios en pacientes que han recibido quimioterapia durante el segundo y tercer trimestre.
+ Lactancia:
+ Dado que se desconoce si el fluorouracilo pasa a la leche materna, se debe interrumpir la lactancia si la madre recibe tratamiento con fluorouracilo.
+ Fertilidad:
+ Se desconocen por completo los efectos del fluorouracilo sobre las gónadas y la capacidad reproductora de los seres humanos. Sin embargo, los estudios realizados en animales indican un deterioro de la fertilidad de machos y hembras (ver sección 5.3). Además, los fármacos que inhiben la síntesis de ADN, ARN y proteínas (como el fluorouracilo), presumiblemente interfieren en la gametogénesis.
+ Los hombres deben evitar concebir un hijo durante el tratamiento y hasta 6 meses después del cese del tratamiento con fluorouracilo. Se debe buscar asesoramiento sobre la conservación de la fertilidad antes del tratamiento tant para hombres como para mujeres dado que el tratamiento con fluorouracilo puede causar esterilidad irreversible.
+ .
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ No se han realizado estudios de los efectos sobre la capacidad para conducir y utilizar máquinas. 
+ El fluorouracilo puede inducir efectos adversos como náuseas y vómitos. También puede producir acontecimientos adversos sobre el sistema nervioso y cambios visuales que podrían interferir en la conducción o el uso de maquinaria pesada.
+ 4.8. Reacciones adversas
+ Se han observado y notificado los siguientes efectos indeseables durante el tratamiento con Fluorouracilo Inyectable con las siguientes frecuencias::
+ Muy frecuente (≥ 1/10)
+ Frecuente (≥ 1/100 a < 1/10)
+ Poco frecuente (≥ 1/1.000 a < 1/100)
+ Raras (≥ 1/10.000 a < 1/1.000)
+ Muy raras (< 1/10.000)
+ Desconocida (no se puede calcular la frecuencia a partir de los datos disponibles)
+ Trastornos de la sangre y del sistema linfático:
+ | 
+ Muy frecuentes
+ | 
+ Mielodepresióna, Neutropenia, Trombocitopenia, Leucopenia, Agranulocitosis, Anemia, Pancitopenia
+ | 
+ Frecuentes
+ | 
+ Neutropenia febril
+ | 
+ Desconocida
+ | 
+ Granulocitopenia
+ | 
+ Trastornos del sistema inmunológico:
+ | 
+ Muy frecuentes
+ | 
+ Broncoespasmo, Immunodepresión
+ | 
+ Raras
+ | 
+ Hipersensibilidad, Reacciones anafilácticas, Choque anafiláctico
+ | 
+ Infecciones e infestaciones
+ | 
+ Muy frecuentes
+ | 
+ Infecciones, faringitis
+ | 
+ Frecuentes
+ | 
+ Sepsis
+ | 
+ Desconocida
+ | 
+ Shock séptico, Sepsis neutropénica, Neumonía, Infección urinaria, Celulitis
+ | 
+ Investigaciones
+ | 
+ Frecuentes
+ | 
+ Cambios en el electrocardiograma
+ | 
+ Trastornos endocrinos
+ | 
+ Raras
+ | 
+ Incremento de la tiroxina
+ Incremento de triyodotironina
+ | 
+ Trastornos del metabolismo y la nutrición:
+ | 
+ Muy frecuentes
+ | 
+ Hiperuricemia
+ | 
+ Poco frecuente
+ | 
+ Deshidratación
+ | 
+ Desconocida
+ | 
+ Disminución en el apetito, acidosis láctica, síndrome de lisis tumoral, hipertrigliceridemia, deficiencia de vitamina B1.
+ | 
+ Trastornos psiquiátricos
+ | 
+ Poco frecuentes
+ | 
+ Euforia
+ | 
+ Raras
+ | 
+ Estado de confusión
+ | 
+ Muy raras
+ | 
+ Desorientación
+ | 
+ Trastornos del sistema nervioso
+ | 
+ Poco frecuentes
+ | 
+ Nistagmo, Dolor de cabeza, Mareos, Síntomas de la enfermedad de Parkinson, Signos piramidales, Somnolencia
+ | 
+ Muy raras
+ | 
+ Leucoencefalopatía
+ Síndrome cerebeloso
+ Disartria
+ Miastenia
+ Afasia
+ Convulsión
+ Coma
+ | 
+ Desconocidas
+ | 
+ Neuropatía periférica, Epilepsia,
+ Encefalopatía hiperamoniémica,
+ Síndrome de encefalopatía reversible posterior (PRES)
+ Encefalopatía de Wernicke
+ | 
+ Trastornos renales y urinarios
+ | 
+ Raras
+ | 
+ Insuficiencia renal
+ | 
+ Trastornos oculares
+ | 
+ Poco frecuentes
+ | 
+ Lagrimación excesiva, Visión borrosa, Alteración del movimiento del ojo, Neuritis óptica, Diplopía, Reducción de la agudeza visual, Fotofobia, Conjuntivitis, Blefaritis, Ectropion, Dacriostenosis
+ | 
+ Trastornos cardíacos
+ | 
+ Muy frecuentes
+ | 
+ Anomalías isquémicas en el ECG
+ | 
+ Frecuentes
+ | 
+ Infarto de miocardio, Angina de pecho
+ | 
+ Poco frecuentes
+ | 
+ Arritmia, Isquemia del miocardio, Miocarditis, Insuficiencia cardiaca, Miocardiopatía dilatada, Shock cardiaco
+ | 
+ Muy raras
+ | 
+ Parada cardiaca, Muerte cardiaca súbitab
+ | 
+ Desconocida
+ | 
+ Trombo intracardíaco, Pericarditis, Miocardiopatía por estrés (síndrome Takotsubo)
+ | 
+ Trastornos vasculares
+ | 
+ Poco frecuentes
+ | 
+ Hipotensión
+ | 
+ Raras
+ | 
+ Isquemia cerebral, Isquemia intestinal, Isquemia periférica, Síndrome de Raynaud, Tromboembolia, Tromboflebitis
+ | 
+ Trastornos gastrointestinales
+ | 
+ Muy frecuentes
+ | 
+ Inflamación de las mucosas (estomatitis, esofagitis, proctitis), Anorexia, Diarrea acuosa, Náuseas, Vómitos
+ | 
+ Poco frecuentes
+ | 
+ Úlcera gastrointestinal
+ Hemorragia gastrointestinal
+ Exfoliación mucosal gastrointestinal
+ | 
+ Desconocida
+ | 
+ Melena, Neumatosis intestinal, enterocolitis, colitis (incluida colitis necrosante)
+ | 
+ Trastornos hepatobiliares
+ | 
+ Poco frecuentes
+ | 
+ Daño de las células hepáticas
+ | 
+ Muy raras
+ | 
+ Necrosis hepática, Esclerosis biliar, Colecistitis
+ | 
+ Trastornos de la piel y del tejido subcutáneo
+ | 
+ Muy frecuentes
+ | 
+ Alopecia
+ Síndrome de eritrodisestesia palmo-plantar (síndrome mano-pie)
+ | 
+ Poco frecuentes
+ | 
+ Dermatitis
+ Piel seca
+ Erosión fisuras
+ Eritema
+ Exantema maculopapuloso y pruriginoso
+ Exantema
+ Urticaria
+ Fotosensibilidad
+ Hiperpigmentación de la piel
+ Hiperpigmentación o despigmentación cerca de las venas
+ Pigmentación de las uñas
+ Onicodistrofia
+ Engrosamiento del lecho ungueal
+ Paroniquia
+ Onicólisis
+ | 
+ Desconocidas
+ | 
+ Lupus eritematoso cutáneo
+ | 
+ Trastornos del aparato reproductor y de la mama
+ | 
+ Poco frecuentes
+ | 
+ Azoospermia
+ Trastornos de la ovulación
+ | 
+ Trastornos generales y alteraciones en el lugar de administración
+ | 
+ Muy frecuentes
+ | 
+ Retraso en la cicatrización de heridas, Epistaxis, Mal estar, Astenia, Fatiga
+ | 
+ No conocida
+ | 
+ Pirexia, Dlor en el pecho, Decoloración de venas próxima al lugar de inyección, Reacción local causada por extravasación (dolor, hinchazón, eritema)
+ | 
+ | 
+ | 
+ Descripción de reacciones adversas seleccionadas
+ Mielosupresión
+ El inicio observado de la mielosupresión varió entre 7 y 10 días, el punto más bajo entre 9 y 14 días y la recuperación se produjo entre 21 y 28 días.
+ Trastornos cardiacos
+ Los eventos adversos cardiotóxicos ocurren principalmente durante o dentro de las horas posteriores al primer ciclo de tratamiento.
+ Existe un mayor riesgo de cardiotoxicidad en pacientes con cardiopatía coronaria previa o miocardiopatía (ver sección 4.4).
+ Trastornos hepatobiliares
+ Se han informado casos fatales de necrosis hepática.
+ Notificación de sospechas de reacciones adversas:
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del Sistema Español de Farmacovigilancia de medicamentos de Uso Humano: https://www.notificaRAM.es.
+ 4.9. Sobredosis
+ Las dosis elevadas o el tratamiento prolongado con fluorouracilo pueden provocar síntomas de intoxicación potencialmente mortales como náuseas, vómitos, diarreas, úlcera y hemorragia gastrointestinal, depresión de la médula ósea (incluida trombocitopenia, leucocitopenia, agranulocitosis).
+ El tratamiento consiste en la interrupción del fármaco y medidas de apoyo (véase la sección 4.4).
+ Los pacientes expuestos a una sobredosis de fluorouracilo deben ser hematológicamente monitorizados durante al menos 4 semanas. En caso de aparecer anomalías, se debe utilizar la terapia adecuada.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ El fluorouracilo es incompatible con folinato cálcico, carboplatino, cisplatino, cistarrabina, diazepam, doxorubicina, droperidol, filgrastim, nitrato de galio, metotrexato, metoclopramida, morfina, ondansetrón, nutrición parenteral, vinorrelbina, otras antraciclinas.
+ Las soluciones formuladas son alcalinas y se recomienda evitar las mezclas con fármacos o preparaciones ácidas.
+ En ausencia de estudios de compatibilidad este medicamento no debe mezclarse con otros medicamentos.
+ 6.3. Periodo de validez
+ Periodo de validez del vial sin abrir:
+ 18 meses.
+ Periodo de validez después de la dilución
+ En uso: se ha demostrado la estabilidad fisicoquímica en condiciones de uso durante 24 horas a 25°C con las inyecciones de glucosa al 5% o cloruro sódico 0,9% o agua para inyectables con una concentración de fluorouracilo de 0,98 mg/ml.
+ Desde el punto de vista microbiológico, el producto se debe usar inmediatamente. Si no se utiliza de inmediato, los tiempos de conservación en condiciones de uso y las condiciones previas al uso serán responsabilidad del usuario.
+ 6.4. Precauciones especiales de conservación
+ Conservar por debajo de 25°C. No refrigerar o congelar.
+ Conservar el envase en el embalaje exterior para protegerlo de la luz
+ El pH de la inyección de fluorouracilo es 8,9 y el fármaco tiene la estabilidad máxima en el intervalo de pH entre 8,6 y 9,4.
+ Para las condiciones de conservación del medicamento diluido, ver sección 6.3.
+ En caso de formación de un precipitado como resultado de la exposición a bajas temperaturas, calentar a 60 ºC y agitar enérgicamente el producto para su redisolución. Dejar enfriar hasta temperatura ambiente antes de usar. Desechar el medicamento si la solución se vuelve amarilla o marrón.
+ 6.5. Naturaleza y contenido del envase
+ Fluorouracilo Accord 50 mg/ml, 5 ml se acondiciona en viales de vidrio transparente Tipo I de 5 ml con tapón de caucho.
+ Fluorouracilo Accord 50 mg/ml, 10 ml se acondiciona en viales de vidrio transparente tipo I de 10 ml con tapón de caucho.
+ Fluorouracilo Accord 50 mg/ml, 20 ml se acondiciona en viales de vidrio transparente tipo I de 20 ml con tapón de caucho.
+ Fluorouracilo Accord 50 mg/ml, 50 ml se acondiciona en viales de vidrio transparente tipo I de 50 ml con tapón de caucho.
+ Fluorouracilo Accord 50 mg/ml, 100 ml se acondiciona en viales de vidrio transparente tipo I de 100 ml con tapón de caucho.
+ Tamaños de envase:
+ Envase de 1 vial de 5 ml
+ Envase de 1 vial de 10 ml
+ Envase de 1 vial de 20 ml
+ Envase de 1 vial de 50 ml
+ Envase de 1 vial de 100 ml
+ Puede que solamente estén comercializados algunos tamaños de envases.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ Directrices de manipulación citotóxica
+ Fluorouracilo Accord sólo debe prepararse por un médico o bajo la supervisión de un médico cualificado con experiencia en el uso de fármacos quimioterápicos para el tratamiento del cáncer. La preparación solamente debe realizarse en una cabina aséptica o cámara acondicionada para el manejo de citostáticos.
+ Si el medicamento se derrama, los operadores deben utilizar guantes, mascarillas faciales, protección ocular y un mandil desechable y limpiar el material derramado con un material absorbente guardado en el área para dicho fin. El área se debe limpiar a continuación y todo el material contaminado se debe depositar en una bolsa o contenedor de residuos citotóxicos y sellar para su incineración.
+ Contaminación
+ El Fluorouracilo es irritante, se debe evitar el contacto con la piel y las mucosas.
+ En caso de contacto con la piel o los ojos, el área afectada se debe lavar con abundante agua o suero salino normal. La crema de hidrocortisona al 1% se puede usar para tratar el escozor transitorio de la piel. Se debe buscar consejo médico si los ojos están afectados o si se inhala o ingiere la preparación.
+ Primeros auxilios
+ Contacto con los ojos: lavar inmediatamente con agua abundante y consultar al médico.
+ Contacto con la piel: lavar a fondo con agua y jabón y quitar la ropa contaminada.
+ Inhalación o ingestión: consultar al médico.
+ Directrices para preparación
+ a) Los fármacos quimioterápicos deben ser preparados para la administración sólo por profesionales que han sido formados en el uso seguro de la preparación.
+ b) Las operaciones tales como la reconstitución del polvo y la transferencia a jeringas deben ser realizadas sólo en el área designada para ello.
+ c) El personal que lleve a cabo estos procedimientos debe estar adecuadamente protegido con ropa especial, dos pares de guantes (uno de látex y otro de PVC; con el primero debajo del de PVC) para cubrir las diferentes permeabilidades a los diversos antineoplásicos, y gafas protectoras. Para la preparación y administración de productos citotóxicos se deben usar siempre jeringas y accesorios con cierre Luer Lock.
+ (d) Se recomienda a las empleadas embarazadas que no manipulen los fármacos quimioterápicos.
+ (e) Remítase a las directrices locales antes de comenzar.
+ Eliminación
+ Las jeringas, envases, materiales absorbentes, soluciones y demás materiales contaminados deben colocarse en una bolsa de plástico gruesa u otro envase impermeable, marcado como residuo citotóxico, e incinerarse a una temperatura mínima de 700°C.
+ Se puede lograr la inactivación química mediante hipoclorito sódico al 5% durante 24 horas.
+ Instrucciones de uso
+ Diluyentes
+ Se ha demostrado la estabilidad fisicoquímica en condiciones de uso durante 24 horas a 25°C con las inyecciones de glucosa al 5% o cloruro sódico 0,9% o agua para inyectables con una concentración de fluorouracilo de 0,98 mg/ml.
+ Desde el punto de vista microbiológico, el producto se debe usar inmediatamente. Si no se utiliza de inmediato, los tiempos de conservación en condiciones de uso y las condiciones previas al uso serán responsabilidad del usuario.
+ El producto se debe desechar si la solución presenta un color marrón o amarillo oscuro.
+ La fracción sobrante de las soluciones se debe desechar después de su uso: no se deben juntar para elaborar preparaciones de varias dosis.

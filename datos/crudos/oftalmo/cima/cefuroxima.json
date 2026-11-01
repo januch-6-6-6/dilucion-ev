@@ -1,0 +1,22 @@
+{
+ "id": "cefuroxima",
+ "familia": "intracameral",
+ "resultados": 44,
+ "tipo": "ocular",
+ "sel": [
+  {
+   "nregistro": "76098",
+   "nombre": "PROKAM 50 MG POLVO PARA SOLUCION INYECTABLE",
+   "vias": "USO INTRACAMERAL POLVO PARA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/76098/FT_76098.html",
+   "tipo": "ocular"
+  },
+  {
+   "nregistro": "81381",
+   "nombre": "XIMARACT 50 MG POLVO PARA SOLUCION INYECTABLE",
+   "vias": "USO INTRACAMERAL POLVO PARA SOLUCION INYECTABLE",
+   "url": "https://cima.aemps.es/cima/dochtml/ft/81381/FT_81381.html",
+   "tipo": "ocular"
+  }
+ ]
+}

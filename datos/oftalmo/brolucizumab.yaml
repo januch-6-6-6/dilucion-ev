@@ -1,0 +1,75 @@
+id: brolucizumab
+nombre: Brolucizumab intravítreo (Beovu)
+comerciales: []
+grupo: anti-vegf
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: no_registrado
+presentaciones:
+- id: beovu-jeringa
+  forma: jeringa_precargada
+  cantidad:
+    valor: 19.8
+    unidad: mg
+  volumenMl: 0.165
+  registrosIsp: []
+  usoDirecto: true
+  nota: 'Beovu 120 mg/ml. Cantidad: 120 mg/ml × 0,165 ml. No aparece en el ISP (31-oct-2026).'
+  fuente:
+    ref: CIMA-OFT-BROLUCIZUMAB-1191417
+    detalle: 6.5 Jeringa precargada con 0,165 ml de solución (120 mg/ml)
+- id: beovu-vial
+  forma: solucion
+  cantidad:
+    valor: 27.6
+    unidad: mg
+  volumenMl: 0.23
+  registrosIsp: []
+  usoDirecto: true
+  nota: 'Cantidad: 120 mg/ml × 0,23 ml.'
+  fuente:
+    ref: CIMA-OFT-BROLUCIZUMAB-1191417
+    detalle: '4.2 y 6.6: el vial contiene 0,23 ml (120 mg/ml)'
+dosis:
+- indicacion: Degeneración macular neovascular y edema macular diabético
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 6
+      unidad: mg
+    volumenMl: 0.05
+  texto: '6 mg (0,05 ml) en inyección intravítrea. La jeringa (0,165 ml) y el vial (0,23 ml) traen más que la dosis: expulsa
+    el exceso antes de inyectar.'
+  estatus: autorizada
+  condicion: Autorizada en España (CIMA). No figura en el registro del ISP.
+  presentaciones:
+  - beovu-jeringa
+  - beovu-vial
+  fuente:
+    ref: CIMA-OFT-BROLUCIZUMAB-1191417
+    detalle: '4.2 Posología: 6 mg de brolucizumab (0,05 ml de solución) en inyección intravítrea'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: No se ha establecido la seguridad y eficacia en menores de 18 años; no hay datos (CIMA 4.2).
+conservacion:
+- texto: Conservar en nevera (2–8 °C) y proteger de la luz en el blíster sellado. Antes de usar, el blíster sin abrir puede
+    estar hasta 24 horas por debajo de 25 °C.
+  horas: 24
+  fuente:
+    ref: CIMA-OFT-BROLUCIZUMAB-1191417
+    detalle: 6.3 y 6.4
+contraindicaciones:
+- Hipersensibilidad al principio activo o a algún excipiente; infecciones oculares o perioculares activas o sospechadas; inflamación
+  intraocular activa (CIMA 4.3).
+alertas:
+- 'La presentación trae más volumen que la dosis: elimina el exceso hasta la marca de 0,05 ml antes de inyectar. Inyectar
+  todo el contenido puede causar una sobredosis (CIMA 4.2).'
+- Si se inyecta todo el volumen de la jeringa o del vial puede haber una sobredosis (CIMA 4.2).
+discrepancias: []
+meta: {}

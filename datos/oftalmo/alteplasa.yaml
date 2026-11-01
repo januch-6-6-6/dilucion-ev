@@ -1,0 +1,115 @@
+id: alteplasa
+nombre: Alteplasa (Actilyse) de uso ocular
+comerciales: []
+grupo: fibrinolitico
+familias:
+- intracameral
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: actilyse-50
+  forma: polvo
+  cantidad:
+    valor: 50
+    unidad: mg
+  registrosIsp:
+  - B-936/25
+  usoDirecto: false
+  nota: En el ISP figura como «activador del plasminógeno tisular humano recombinante» y no informa el tamaño del vial; se
+    toma el de 50 mg como ejemplo. Todo uso ocular es off-label y se prepara en condiciones estériles.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-936/25 Actilyse, activador del plasminógeno tisular humano recombinante, liofilizado
+dosis:
+- indicacion: Fibrina en cámara anterior, obstrucción de un dispositivo de drenaje
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 6
+      max: 25
+      unidad: mcg
+    volumenMl: 0.1
+  texto: '6 a 25 µg en 0,1 ml. Fibrina ya establecida: 10 a 25 µg (empezar con menos para reducir el riesgo de sangrado).
+    Administrar después de 5 a 9 días del posoperatorio se asocia con menos complicaciones.'
+  estatus: off_label
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Intracameral: «Dose: 6-25 µg in 0.1 mL»; fibrina establecida 10-25 µg'
+- indicacion: Endoftalmitis o TASS con fibrina
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 25
+      unidad: mcg
+    volumenMl: 0.1
+  texto: Unos 25 µg en 0,05 a 0,1 ml. En endoftalmitis mejora la visualización (la fibrina se despeja en 2 a 14 horas); en
+    TASS, cerca del 80 % de la fibrina se resuelve en 24 horas.
+  estatus: off_label
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Intravítrea/intracameral: «Dose: ~25 µg in 0.05-0.1 mL»'
+  tambien:
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: alteplasa intravítrea 25 µg/0,1 ml'
+- indicacion: Hemorragia submacular
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      min: 12.5
+      max: 25
+      unidad: mcg
+    volumenMl: 0.1
+  texto: 12,5 a 25 µg en 0,1 ml inyectados en el vítreo.
+  estatus: off_label
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Subretiniana: «12.5-25 µg in 0.1 mL injected intravitreally»'
+- indicacion: Hemorragia submacular
+  via: subretiniana
+  poblacion: adulto
+  texto: 25 a 50 µg en 0,1 a 0,2 ml directamente al espacio subretiniano con una cánula de 41 G.
+  estatus: off_label
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Subretiniana: «25-50 µg in 0.1-0.2 mL injected directly into the subretinal space through a 41-gauge cannula»'
+- indicacion: Profilaxis de fibrina en cirugía pediátrica
+  via: intracameral
+  poblacion: pediatrico
+  texto: Unos 20 µg al terminar la cirugía reducen la fibrina posoperatoria precoz.
+  estatus: off_label
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Intracameral: «Pediatric Prophylaxis: ~20 µg at the conclusion of surgery reduces early postoperative fibrin
+      formation»'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: con_dosis
+  motivo: EyeWiki trae una dosis de profilaxis pediátrica (~20 µg).
+conservacion:
+- texto: Usar inmediatamente después de prepararla.
+  fuente:
+    ref: WEB-OFT-EYEWIKI-TPA-EYEWIKI.ORG/TISSUE
+    detalle: 'Preparación: «Use immediately after preparation»'
+- texto: 'Preparación intravítrea de 25 µg/0,1 ml: 365 días congelada a −70 °C.'
+  horas: 8760
+  fuente:
+    ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: alteplasa intravítrea, 365 días a −70 °C'
+contraindicaciones: []
+alertas:
+- 'El riesgo principal es el sangrado intraocular (hipema o resangrado), que depende de la dosis: sobre todo con más de 25
+  µg o en los primeros 5 a 9 días (EyeWiki).'
+- 'Toxicidad retiniana a dosis altas: evitar más de 50 µg por vía intravítrea (EyeWiki).'
+- Toxicidad endotelial dependiente de la dosis in vitro; el efecto clínico es mínimo con 25 µg/0,1 ml (EyeWiki).
+- 'Preparación según EyeWiki: reconstituir a 1 mg/ml y diluir con suero sin conservantes hasta la concentración deseada, con
+  técnica estéril estricta. La fuente no da los volúmenes de la dilución final (solo el valor deseado); el vial de 50 mg se
+  reconstituye con los 50 ml de agua que trae (CIMA 6.6).'
+discrepancias: []
+meta: {}

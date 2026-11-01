@@ -60,6 +60,12 @@ function Dosis({ f }: { f: TFichaOral }) {
                         <span className={`etiqueta ${d.estatus === 'autorizada' ? 'autorizada' : 'off-label'}`}>
                           {d.estatus === 'autorizada' ? 'Autorizada' : 'Off-label'}
                         </span>
+                        {d.oftalmica && (
+                          <>
+                            {' '}
+                            <span className="etiqueta oftalmologia">Oftalmología</span>
+                          </>
+                        )}
                       </>
                     }
                     fuente={d.fuente}

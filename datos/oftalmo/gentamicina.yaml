@@ -1,0 +1,50 @@
+id: gentamicina
+nombre: Gentamicina subconjuntival
+comerciales: []
+grupo: antibiotico
+familias:
+- periocular
+modo: informativa
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: amp-80
+  forma: solucion
+  cantidad:
+    valor: 80
+    unidad: mg
+  volumenMl: 2
+  registrosIsp:
+  - B-1988/22
+  usoDirecto: false
+  nota: Ampolla de uso intravenoso e intramuscular (40 mg/ml); el uso subconjuntival es off-label.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: B-1988/22 Gentamicina solución inyectable 80 mg/2 mL
+dosis:
+- indicacion: Profilaxis tras cirugía de catarata
+  via: subconjuntival
+  poblacion: adulto
+  texto: 20 mg (0,5 ml de la ampolla de 40 mg/ml) bajo la conjuntiva, junto con dexametasona 2 mg, al final de la cirugía.
+  estatus: off_label
+  condicion: La ficha técnica consultada es la de uso sistémico o general y no incluye esta vía.
+  presentaciones:
+  - amp-80
+  fuente:
+    ref: WEB-OFT-SUBCONJUNTIVALES-PMC13417846
+    detalle: Gentamicina subconjuntival 40 mg/ml, 0,5 ml (20 mg) y dexametasona 4 mg/ml, 0,5 ml (2 mg)
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: sin_datos
+  motivo: Las fuentes consultadas no traen una pauta pediátrica.
+conservacion: []
+contraindicaciones: []
+alertas:
+- 'RIESGO DE INFARTO MACULAR: se notificaron 23 casos tras inyecciones subconjuntivas profilácticas de aminoglucósidos después
+  de cirugía ocular de rutina; 93 casos se atribuyeron a gentamicina (Campochiaro y Conway 1991).'
+- Una sola serie respalda esta dosis; ninguna guía de sociedad fija la dosis subconjuntival de antibióticos. Verifica el protocolo
+  de tu pabellón.
+discrepancias: []
+meta: {}

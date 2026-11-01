@@ -1,0 +1,78 @@
+id: faricimab
+nombre: Faricimab intravítreo (Vabysmo)
+comerciales: []
+grupo: anti-vegf
+familias:
+- intravitreo
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: vabysmo-vial
+  forma: solucion
+  cantidad:
+    valor: 28.8
+    unidad: mg
+  volumenMl: 0.24
+  registrosIsp:
+  - B-2970/23
+  usoDirecto: true
+  nota: 'Vabysmo 120 mg/ml. El ISP lo registra como «6 mg/0,05 mL» sin distinguir vial de jeringa. Cantidad: 120 mg/ml × 0,24
+    ml.'
+  fuente:
+    ref: CIMA-OFT-FARICIMAB-1221683001
+    detalle: 6.5 Vial con 0,24 ml de solución estéril (120 mg/ml)
+- id: vabysmo-jeringa
+  forma: jeringa_precargada
+  cantidad:
+    valor: 21
+    unidad: mg
+  volumenMl: 0.175
+  registrosIsp: []
+  usoDirecto: true
+  fuente:
+    ref: CIMA-OFT-FARICIMAB-1221683002
+    detalle: 6.5 Cada jeringa precargada contiene 21 mg de faricimab en 0,175 ml
+dosis:
+- indicacion: Degeneración macular neovascular, edema macular diabético y edema por oclusión venosa retiniana
+  via: intravitrea
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 6
+      unidad: mg
+    volumenMl: 0.05
+  texto: '6 mg (0,05 ml) en inyección intravítrea. La jeringa contiene 21 mg en 0,175 ml: se elimina el exceso hasta la marca
+    de dosis de 0,05 ml.'
+  estatus: autorizada
+  presentaciones:
+  - vabysmo-vial
+  - vabysmo-jeringa
+  fuente:
+    ref: CIMA-OFT-FARICIMAB-1221683002
+    detalle: '4.2 Posología: 6 mg (0,05 ml de solución) mediante inyección intravítrea'
+  tambien:
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: faricimab 6 mg/0,05 ml'
+protocolos: []
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La ficha técnica no establece la seguridad ni la eficacia en menores de 18 años (CIMA).
+conservacion:
+- texto: Conservar en nevera (2–8 °C). Antes del uso, el vial o la jeringa sin abrir pueden estar hasta 24 horas a 20–25 °C
+    en su embalaje original.
+  horas: 24
+  fuente:
+    ref: CIMA-OFT-FARICIMAB-1221683002
+    detalle: 6.3 Periodo de validez
+contraindicaciones:
+- Hipersensibilidad al faricimab; infección ocular o periocular activa o sospechada; inflamación intraocular activa (CIMA
+  4.3).
+alertas:
+- 'La presentación trae más volumen que la dosis: elimina el exceso hasta la marca de 0,05 ml antes de inyectar. Inyectar
+  todo el contenido puede causar una sobredosis (CIMA 4.2 y 6.6).'
+- Cada jeringa o vial es para un solo ojo (CIMA 4.2).
+discrepancias: []
+meta: {}

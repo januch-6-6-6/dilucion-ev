@@ -1,0 +1,1977 @@
+VFEND 200 mg POLVO PARA SOLUCION PARA PERFUSION | VIA INTRAVENOSA POLVO PARA SOLUCION PARA PERFUSION
+https://cima.aemps.es/cima/dochtml/ft/02212025/FT_02212025.html
+
+ 4.1. Indicaciones terapéuticas
+ VFEND es un medicamento antifúngico triazólico de amplio espectro indicado en adultos y niños de 2 años de edad o mayores, para:
+ Tratamiento de aspergilosis invasiva.
+ Tratamiento de candidemia en pacientes no neutropénicos.
+ Tratamiento de infecciones invasivas graves por Candida (incluyendo C. krusei) resistentes a fluconazol.
+ Tratamiento de infecciones fúngicas graves por Scedosporium spp. y Fusarium spp.
+ VFEND se debe administrar principalmente a pacientes con infecciones progresivas que impliquen una posible amenaza para la vida.
+ Profilaxis de infecciones fúngicas invasivas en los receptores de trasplantes alogénicos de células madre hematopoyéticas (TCMH) de alto riesgo.
+ 4.2. Posología y forma de administración
+ Posología
+ Antes del inicio y durante el tratamiento con voriconazol se deberán monitorizar y corregir, siempre que sea necesario, las alteraciones electrolíticas, tales como hipopotasemia, hipomagnesemia e hipocalcemia (ver sección 4.4).
+ Se recomienda administrar VFEND a una velocidad de perfusión máxima de 3 mg/kg/hora durante 1 a 3 horas.
+ VFEND también se presenta en forma de polvo para solución para perfusión 200 mg, polvo y disolvente para solución para perfusión 200 mg y de polvo para suspensión oral 40 mg/ml.
+ Tratamiento
+ Adultos
+ El tratamiento debe iniciarse con la dosis de carga especificada de VFEND intravenoso u oral, para alcanzar concentraciones plasmáticas el día 1 cercanas al equilibrio estacionario. Dada su alta biodisponibilidad oral (96%; ver sección 5.2), cuando clínicamente esté indicado, es adecuado el cambio entre la administración intravenosa y la oral.
+ En la tabla siguiente se proporciona información detallada sobre las recomendaciones posológicas:
+ | 
+ Vía Intravenosa
+ | 
+ Vía Oral
+ | 
+ Pacientes con peso igual
+ o superior a 40 kg
+ | 
+ Pacientes con peso
+ inferior a 40 kg*
+ | 
+ Dosis de carga
+ (primeras 24 horas)
+ | 
+ 6 mg/kg cada 12 horas
+ | 
+ 400 mg cada 12 horas
+ | 
+ 200 mg cada 12 horas
+ | 
+ Dosis de mantenimiento
+ (tras las primeras
+ 24 horas)
+ | 
+ 4 mg/kg dos veces al día
+ | 
+ 200 mg dos veces al día
+ | 
+ 100 mg dos veces al día
+ | 
+ | 
+ | 
+ | 
+ | 
+ *Pacientes con una edad de 15 años o superior.
+ Duración del tratamiento
+ La duración del tratamiento debe ser la más corta posible en función de la respuesta clínica y micológica del paciente. En caso de tratamientos prolongados con voriconazol que superen los 180 días (6 meses) es necesario realizar una cuidadosa evaluación del balance beneficio-riesgo (ver secciones 4.4 y 5.1).
+ Ajuste de la dosis (adultos)
+ Si un paciente no puede tolerar el tratamiento intravenoso con 4 mg/kg dos veces al día, se reducirá la dosis a 3 mg/kg dos veces al día.
+ Si la respuesta del paciente al tratamiento es inadecuada, la dosis de mantenimiento puede incrementarse a 300 mg dos veces al día para la administración oral. Para pacientes con un peso inferior a 40 kg, la dosis oral puede incrementarse a 150 mg dos veces al día.
+ Si los pacientes son incapaces de tolerar el tratamiento a estas dosis tan elevadas, reducir la dosis oral en pasos de 50 mg hasta la dosis de mantenimiento de 200 mg dos veces al día (o 100 mg 2 veces al día para pacientes con peso inferior a 40 kg).
+ En caso de uso como profilaxis, consulte la información que figura más adelante.
+ Niños (de 2 a <12 años) y adolescentes jóvenes con un peso corporal bajo (de 12 a 14 años y < 50 kg)
+ Voriconazol debe dosificarse como en los niños ya que en dichos adolescentes jóvenes, el metabolismo de voriconazol puede ser mas similar al de niños que al de adultos.
+ El régimen de dosis recomendado es el siguiente:
+ | 
+ Vía intravenosa
+ | 
+ Vía oral
+ | 
+ Dosis de carga
+ (primeras 24 horas)
+ | 
+ 9 mg/kg cada 12 horas
+ | 
+ No se recomienda
+ | 
+ Dosis de mantenimiento
+ (después de las primeras
+ 24 horas)
+ | 
+ 8 mg/kg dos veces al día
+ | 
+ 9 mg/kg dos veces al día (una
+ dosis máxima de 350 mg dos
+ veces al día)
+ | 
+ Nota: Basado en un análisis farmacocinético poblacional en 112 pacientes inmunocomprometidos de 2 a < 12 años y 26 pacientes adolescentes inmunocomprometidos de 12 a < 17 años.
+ Se recomienda iniciar el tratamiento con el régimen intravenoso y solo debe considerarse el régimen oral tras una mejoría clínica significativa. Se debe tener en cuenta que una dosis intravenosa de 8 mg/kg de voriconazol proporcionará una exposición dos veces mayor que una dosis oral de 9 mg/kg.
+ Todos los demás adolescentes (12 a 14 años con un peso corporal ≥ 50 kg y de 15 a 17 años con independencia del peso corporal)
+ Voriconazol debe dosificarse como en los adultos.
+ Ajuste de la dosis (niños [de 2 a < 12 años] y adolescentes jóvenes con un peso corporal bajo [de 12 a 14 años y < 50 kg])
+ Si la repuesta del paciente al tratamiento es inadecuada, la dosis intravenosa debería incrementarse en pasos de 1 mg/kg. Si el paciente es incapaz de tolerar el tratamiento, reducir la dosis en pasos de 1 mg/kg.
+ No se ha estudiado el uso en pacientes pediátricos de 2 a < 12 años de edad con insuficiencia hepática o renal (ver secciones 4.8 y 5.2).
+ Profilaxis en adultos y niños
+ La profilaxis se debe iniciar el día del trasplante y puede durar hasta 100 días. Debe ser lo más corta posible en función del riesgo de presentar infección fúngica invasiva (IFI) determinada por neutropenia o inmunosupresión. Únicamente puede prolongarse hasta 180 días tras el trasplante en caso de inmunosupresión persistente o enfermedad de injerto contra huésped (EIcH) (ver sección 5.1).
+ Dosis
+ El régimen posológico recomendado para la profilaxis es el mismo que para el tratamiento en los respectivos grupos de edad. Consulte las tablas de tratamiento anteriores.
+ Duración de la profilaxis
+ No se han estudiado adecuadamente en los ensayos clínicos la seguridad y la eficacia del uso de voriconazol durante periodos superiores a 180 días.
+ El uso de voriconazol en la profilaxis durante más de 180 días (6 meses) requiere una cuidadosa evaluación del balance beneficio-riesgo (ver secciones 4.4 y 5.1).
+ Las siguientes instrucciones son aplicables tanto al tratamiento como a la profilaxis.
+ Ajuste de la dosis
+ Durante el uso como profilaxis, no se recomienda realizar ajustes de la dosis en caso de ausencia de eficacia o aparición de acontecimientos adversos relacionados con el tratamiento. Si aparecen acontecimientos adversos relacionados con el tratamiento, se debe considerar la suspensión del tratamiento con voriconazol y el empleo de fármacos antifúngicos alternativos (ver secciones 4.4 y 4.8).
+ Ajustes de la dosis en caso de administración concomitante
+ Se puede administrar de forma concomitante rifabutina o fenitoína con voriconazol si la dosis de mantenimiento de voriconazol se incrementa a 5 mg/kg por vía intravenosa dos veces al día, ver secciones 4.4 y 4.5.
+ Se puede administrar, de forma conjunta, efavirenz con voriconazol si la dosis de mantenimiento de voriconazol se aumenta a 400 mg cada 12 horas y la dosis de efavirenz se reduce al 50%, es decir, a 300 mg una vez al día. Cuando el tratamiento con voriconazol se interrumpa, se debe restablecer la dosis inicial de efavirenz (ver secciones 4.4 y 4.5).
+ Pacientes de edad avanzada
+ No es necesario el ajuste de dosis en los pacientes de edad avanzada (ver sección 5.2).
+ Insuficiencia renal
+ En pacientes con insuficiencia renal de moderada a grave (aclaramiento de creatinina <50 ml/min), se produce acumulación del excipiente de la forma intravenosa, SBECD. Se deberá administrar voriconazol por vía oral a estos pacientes, a menos que una valoración del riesgo-beneficio en estos pacientes justifique el uso de voriconazol por vía intravenosa. Los niveles de creatinina sérica deberán ser cuidadosamente monitorizados en estos pacientes y, si se incrementaran, se deberá considerar el cambio al tratamiento con voriconazol por vía oral (ver sección 5.2).
+ Voriconazol es hemodializado con un aclaramiento de 121 ml/min. Una sesión de hemodiálisis de 4 horas no elimina una cantidad suficiente de voriconazol como para justificar un ajuste de la dosis.
+ El excipiente de la forma intravenosa, SBECD, es hemodializado con un aclaramiento de 55 ml/min.
+ Insuficiencia hepática
+ Se recomienda utilizar las pautas normales de dosis de carga, pero reducir a la mitad la dosis de mantenimiento en los pacientes con cirrosis hepática leve a moderada (Child Pugh A y B) en tratamiento con voriconazol (ver sección 5.2).
+ Voriconazol no se ha estudiado en pacientes con cirrosis hepática crónica grave (Child-Pugh C).
+ Los datos sobre la seguridad de VFEND en pacientes con pruebas de función hepática anormales (aspartato transaminasa [AST], alanino transaminasa [ALT], fosfatasa alcalina [FA] o bilirrubina total > 5 veces el límite superior de la normalidad) son limitados.
+ Se ha asociado voriconazol con elevaciones de los valores de las pruebas de función hepática y signos clínicos de daño hepático, como ictericia, y sólo debe usarse en pacientes con insuficiencia hepática grave si el beneficio es superior al riesgo potencial. Los pacientes con insuficiencia hepática grave deben ser controlados cuidadosamente por si hubiese toxicidad farmacológica (ver la sección 4.8).
+ Población pediátrica
+ No se ha establecido la seguridad y la eficacia de VFEND en niños menores de 2 años de edad. Los datos actualmente disponibles están descritos en las secciones 4.8 y 5.1; sin embargo, no se puede hacer una recomendación posológica.
+ Forma de administración
+ VFEND precisa ser reconstituido y diluido (ver la sección 6.6) antes de la administración en perfusión intravenosa. No se debe administrar en forma de bolus.
+ 4.3. Contraindicaciones
+ Hipersensibilidad al principio activo o a alguno de los excipientes incluidos en la sección 6.1.
+ Los fármacos que causan interacciones recogidos en esta sección y en la sección 4.5 deben servir únicamente como guía y no se consideran una lista completa de todos los fármacos que podrían estar contraindicados.
+ Está contraindicada la administración concomitante de voriconazol con medicamentos cuyo metabolismo es altamente dependiente del CYP3A4, y para los cuales concentraciones plasmáticas elevadas están asociadas con reacciones graves o potencialmente mortales (ver sección 4.5):
+ Terfenadina
+ Astemizol
+ Cisaprida
+ Pimozida
+ Lurasidona
+ Quinidina
+ Ivabradina
+ Alcaloides ergotamínicos (p. ej.: ergotamina y dihidroergotamina)
+ Sirolimus
+ Naloxegol
+ Tolvaptán
+ Finerenona
+ Eplerenona
+ Voclosporina
+ Venetoclax: la administración conjunta con venetoclax está contraindicada al inicio y durante la fase de ajuste de dosis.
+ La administración concomitante de voriconazol está contraindicada con medicamentos que inducen el CYP3A4 ya que reducen significativamente las concentración plasmáticas de voriconazol:
+ La administración concomitante con rifampicina, carbamazepina y barbitúricos de acción prolongada p. ej., fenobarbital y hierba de San Juan (ver sección 4.5).
+ Efavirenz
+ La administración concomitante de dosis estándar de voriconazol con dosis de 400 mg una vez al día de efavirenz o superiores está contraindicada (ver sección 4.5). Para información sobre la administración de voriconazol y dosis inferiores de efavirenz ver sección 4.4.
+ Ritonavir
+ La administración concomitante con dosis altas de ritonavir (dosis de 400 mg y superiores, dos veces al día) está contraindicada (ver sección 4.5). Para información sobre la administración de voriconazol y dosis inferiores de ritonavir ver sección 4.4.
+ 4.4. Advertencias y precauciones especiales de empleo
+ Hipersensibilidad
+ Se recomienda tener precaución al prescribir VFEND a pacientes que hayan presentado reacciones de hipersensibilidad a otros compuestos azólicos (ver también la sección 4.8).
+ Duración del tratamiento
+ La duración del tratamiento con la formulación intravenosa no debe ser superior a 6 meses (ver sección 5.3).
+ Cardiovascular
+ Se ha asociado prolongación del intervalo QTc con voriconazol. Raramente se han comunicado casos de torsades de pointes en pacientes que recibían voriconazol y que presentaban factores de riesgo, tales como antecedentes de haber sido tratados con quimioterapia cardiotóxica, cardiomiopatía, hipocaliemia y medicaciones concomitantes, que pueden haber contribuido a la aparición de estos casos. Voriconazol deberá ser administrado con precaución a pacientes en situaciones potencialmente proarrítmicas tales como:
+ Prolongación del intervalo QTc adquirida o congénita
+ Cardiomiopatía, en particular con insuficiencia cardíaca asociada
+ Bradicardia sinusal
+ Arritmias sintomáticas
+ Medicación concomitante de la que se conoce que prolongue el intervalo QTc. Antes del inicio y durante el tratamiento con voriconazol se deben monitorizar y corregir, siempre que sea necesario, las alteraciones electrolíticas, tales como hipopotasemia, hipomagnesemia e hipocalcemia (ver sección 4.2). Se ha llevado a cabo un ensayo en voluntarios sanos, en el que se examinó el efecto sobre el intervalo QTc del tratamiento con voriconazol a dosis únicas hasta cuatro veces la dosis diaria habitual. Ningún individuo experimentó un intervalo que excediese el umbral de 500 mseg, considerado como de potencial relevancia clínica (ver sección 5.1).
+ Reacciones relacionadas con la perfusión
+ Las reacciones relacionadas con la perfusión, predominantemente enrojecimiento y nauseas, se han notificado durante la administración de la formulación intravenosa de voriconazol. Dependiendo de la gravedad de los síntomas, se debe considerar detener el tratamiento (ver sección 4.8).
+ Toxicidad hepática
+ En los ensayos clínicos se han notificado casos de reacciones hepáticas graves durante el tratamiento con voriconazol (incluyendo hepatitis clínica, colestasis y fallo hepático fulminante, incluso letalidad). Los casos de reacciones hepáticas tuvieron lugar principalmente en pacientes con patologías graves subyacentes (predominantemente neoplasias hematológicas). Ha habido reacciones hepáticas transitorias, incluyendo hepatitis e ictericia, en pacientes sin ningún otro factor de riesgo identificable.
+ La insuficiencia hepática generalmente era reversible tras la suspensión del tratamiento (ver sección 4.8).
+ Monitorización de la función hepática
+ Se debe controlar cuidadosamente a los pacientes que estén recibiendo VFEND por si se produjera toxicidad hepática. El control clínico deberá incluir la evaluación analítica de la función hepática (en concreto de AST y ALT) al inicio del tratamiento con VFEND y, al menos, una vez a la semana durante el primer mes de tratamiento. La duración del tratamiento deberá ser lo más breve posible; no obstante, si basándose en la evaluación del balance beneficio-riesgo, el tratamiento se prolongase (ver sección 4.2), la frecuencia del control clínico puede reducirse a 1 vez al mes siempre que no se produzcan cambios en las pruebas de función hepática.
+ Si se produjera una elevación considerable en las pruebas de función hepática, deberá suspenderse el tratamiento con VFEND, a menos que la valoración médica del balance beneficio-riesgo del tratamiento para el paciente justifique la prolongación de su uso.
+ La monitorización de la función hepática se debe realizar tanto en adultos como en niños.
+ Reacciones adversas dermatológicas graves
+ Fototoxicidad
+ Además, se ha asociado el uso de VFEND con fototoxicidad, incluidas reacciones tales como efélides, lentigo y queratosis actínica, y pseudoporfiria. Se recomienda que todos los pacientes, niños incluidos, eviten la exposición directa a la luz solar durante el tratamiento y que utilicen medidas tales como ropa protectora y pantallas solares con un elevado factor de protección solar (FPS).
+ Carcinoma de células escamosas de la piel (CCE)
+ Se han notificado casos de carcinoma de células escamosas (CCE) de la piel (incluido el CCE cutáneo in situ o enfermedad de Bowen) en pacientes, algunos de los cuales habían notificado reacciones fototóxicas previas. Si se producen reacciones fototóxicas, se debe solicitar una consulta multidisciplinar, considerar la interrupción del tratamiento con VFEND y el uso de agentes antifúngicos alternativos y remitir al paciente a un dermatólogo. Si se continúa el tratamiento con VFEND, aun así, se debe realizar una evaluación dermatológica de manera sistemática y regular, para permitir la detección y manejo temprano de las lesiones precancerosas. Se debe interrumpir el tratamiento con VFEND si se identifican lesiones cutáneas precancerosas o carcinoma de células escamosas (ver más abajo la sección Tratamiento a largo plazo).
+ Reacciones adversas cutáneas graves
+ Se han notificado reacciones adversas cutáneas graves (SCARs, por sus siglas en ingles) tales como síndrome de Stevens-Johnson (SJS, por sus siglas en ingles), necrólisis epidérmica tóxica (TEN, por sus siglas en ingles ) y reacción al fármaco con eosinofilia y síntomas sistémicos (DRESS, por sus siglas en ingles), que pueden ser potencialmente mortales o mortales con el uso de voriconazol. Si un paciente presenta una erupción cutánea, se debe controlar estrechamente e interrumpir el tratamiento con VFEND si las lesiones progresan.
+ Acontecimientos suprarrenales
+ Se han notificado casos reversibles de insuficiencia suprarrenal en pacientes que reciben azoles, incluyendo voriconazol. Se ha notificado insuficiencia suprarrenal en pacientes que reciben azoles con o sin la administración concomitante de corticosteroides. En pacientes que reciben azoles sin corticosteroides, la insuficiencia suprarrenal está relacionada con la inhibición directa de la esteroidogénesis por los azoles. En pacientes que toman corticosteroides, la inhibición del CYP3A4 asociado al metabolismo de voriconazol puede conducir a un exceso de corticosteroides e inhibición suprarrenal (ver sección 4.5). También se ha notificado síndrome de Cushing con y sin insuficiencia suprarrenal posterior en pacientes que reciben voriconazol de forma concomitante con corticosteroides.
+ Los pacientes en tratamiento a largo plazo con voriconazol y corticosteroides (incluidos los corticosteroides inhalados, por ejemplo, budesonida y los corticosteroides intranasales) se deben monitorizar estrechamente para detectar insuficiencia de la corteza suprarrenal tanto durante como cuando se suspende el tratamiento con voriconazol (ver sección 4.5). Se debe indicar a los pacientes que soliciten atención médica inmediata si presentan signos y síntomas del síndrome de Cushing o insuficiencia suprarrenal.
+ Tratamiento a largo plazo
+ La exposición prolongada (ya sea terapéutica o profiláctica) durante más de 180 días (6 meses) requiere una cuidadosa evaluación del balance beneficio-riesgo y, por lo tanto, los médicos deben considerar la necesidad de limitar la exposición a VFEND (ver las secciones 4.2 y 5.1).
+ Se ha notificado casos de carcinoma de células escamosas de la piel (CCE) (incluido el CCE cutáneo in situ o enfermedad de Bowen) relacionados con el tratamiento con VFEND a largo plazo (ver sección 4.8).
+ En pacientes trasplantados, se han notificado casos de periostitis no infecciosa con niveles elevados de fluoruro y fosfatasa alcalina. Si un paciente desarrolla dolor óseo y existen hallazgos radiológicos compatibles con periostitis, la interrupción del tratamiento con VFEND se debe considerar tras la consulta multidisciplinar. (ver sección 4.8).
+ Reacciones adversas visuales
+ Se han notificado casos de reacciones adversas visuales prolongados, incluida visión borrosa, neuritis óptica y papiledema (ver sección 4.8).
+ Reacciones adversas renales
+ Se ha observado insuficiencia renal aguda en pacientes gravemente enfermos en tratamiento con VFEND. Es probable que los pacientes tratados con voriconazol estén recibiendo al mismo tiempo otros medicamentos nefrotóxicos y tengan patologías concurrentes que puedan ocasionar insuficiencia renal (ver sección 4.8).
+ Monitorización de la función renal
+ Los pacientes deben ser monitorizados por si se produjese una insuficiencia renal, lo que debe incluir una evaluación analítica, especialmente de la creatinina sérica.
+ Monitorización de la función pancreática
+ Debe monitorizarse cuidadosamente la función pancreática durante el tratamiento con VFEND en los pacientes, especialmente niños, con factores de riesgo de pancreatitis aguda (por ejemplo, quimioterapia reciente, trasplante de células madre hematopoyéticas [HSCT]. En estos casos, puede considerarse la monitorización de la amilasa sérica o de la lipasa.
+ Población pediátrica
+ No se ha establecido la eficacia y la seguridad en niños menores de dos años (ver también secciones 4.8 y 5.1). Voriconazol está indicado en pacientes pediátricos de dos años de edad o mayores. Se observó una mayor frecuencia del aumento de las enzimas hepáticas en la población pediátrica (ver sección 4.8). Debe monitorizarse la función hepática tanto en niños como en adultos. La biodisponibilidad oral puede estar limitada en pacientes pediátricos de 2 a <12 años de edad con malabsorción y con peso corporal muy bajo para su edad. En ese caso, se recomienda la administración de voriconazol intravenoso.
+ Reacciones adversas dermatológicas graves (incluyendo CCE).
+ La frecuencia de las reacciones de fototoxicidad es mayor en la población pediátrica. Se ha notificado una evolución hacia el CCE, por lo que la adopción de medidas rigurosas en relación con la fotoprotección está justificada en esta población de pacientes. En los niños que presenten lesiones de fotoenvejecimiento, como lentigos y efélides, se recomienda evitar el sol y realizar un seguimiento dermatológico, incluso tras la suspensión del tratamiento.
+ Profilaxis
+ En caso de aparición de acontecimientos adversos relacionados con el tratamiento (hepatotoxicidad, reacciones cutáneas graves, como fototoxicidad y CCE, trastornos visuales graves o prolongados y periostitis), se debe considerar la suspensión del tratamiento con voriconazol y el empleo de fármacos antifúngicos alternativos.
+ Fenitoína (sustrato del CYP2C9 y potente inductor del CYP450)
+ Se recomienda monitorizar cuidadosamente las concentraciones de fenitoína cuando se administra de forma concomitante con voriconazol. Debe evitarse el uso concomitante de voriconazol y fenitoína a menos que el beneficio sea superior al riesgo (ver sección 4.5).
+ Efavirenz (inductor del CYP450; inhibidor y sustrato del CYP3A4):
+ Cuando se administra voriconazol concomitantemente con efavirenz, la dosis de voriconazol se debe aumentar a 400 mg cada 12 horas y la dosis de de efavirenz se debe reducir a 300 mg cada 24 horas (ver secciones 4.2, 4.3 y 4.5).
+ Glasdegib (sustrato del CYP3A4)
+ Se espera que la administración concomitante de voriconazol incremente las concentraciones plasmáticas de glasdegib y el riesgo de prolongación del intervalo QTc (ver sección 4.5). Si no se puede evitar el uso concomitante, se recomienda una monitorización frecuente del electrocardiograma ECG.
+ Inhibidores de la tirosin quinasa (sustrato del CYP3A4)
+ Se espera que la administración concomitante de voriconazol con inhibidores de la tirosin quinasa metabolizados por el CYP3A4 incremente las concentraciones plasmáticas del inhibidor de la tirosin quinasa y el riesgo de reacciones adversas. Si no se puede evitar el uso concomitante, se recomienda una reducción de la dosis del inhibidor de la tirosin quinasa y una estrecha monitorización clínica (ver sección 4.5).
+ Rifabutina (inductor potente del CYP450)
+ Se recomienda monitorizar cuidadosamente el recuento total de células sanguíneas y las reacciones adversas de la rifabutina (p.ej. uveítis) cuando se administra rifabutina de forma concomitante con voriconazol. Debe evitarse el uso concomitante de voriconazol y rifabutina a menos que el beneficio sea superior al riesgo (ver sección 4.5).
+ Ritonavir (inductor potente del CYP450; inhibidor y sustrato del CYP3A4)
+ Se debe evitar la administración concomitante de voriconazol y dosis bajas de ritonavir (100 mg dos veces al día), a menos que el balance beneficio/riesgo para el paciente justifique el uso de voriconazol (ver secciones 4.3 y 4.5).
+ Everolimus (sustrato del CYP3A4, sustrato de la gp-P)
+ No se recomienda la administración concomitante de voriconazol con everolimus, ya que se espera que voriconazol incremente significativamente los niveles de everolimus. Actualmente no hay datos suficientes para realizar recomendaciones de dosis en esta situación (ver sección 4.5).
+ Metadona (sustrato del CYP3A4)
+ Se recomienda una monitorización frecuente de las reacciones adversas y de la toxicidad relacionadas con metadona, incluyendo la prolongación del QTc, cuando se administra concomitantemente con voriconazol, puesto que se incrementan los niveles de metadona tras la coadministración de voriconazol. Puede ser necesaria una reducción de la dosis de metadona (ver sección 4.5).
+ Opiáceos de acción corta (sustratos del CYP3A4)
+ Se debe valorar la reducción de la dosis de alfentanilo, fentanilo y de otros opiáceos de acción corta con estructura similar a alfentanilo y metabolizados por el CYP3A4 (por ejemplo sufentanilo) cuando se administren de forma concomitante con voriconazol (ver sección 4.5). Dado que la semivida de eliminación de alfentanilo se cuadruplica cuando éste se administra conjuntamente con voriconazol, y que en un estudio independiente publicado se evidenció un incremento de la de fentanilo, puede ser necesaria una monitorización frecuente de las reacciones adversas asociadas a opiáceos (incluido un período más largo de monitorización de la función respiratoria).
+ Opiáceos de acción prolongada (sustratos del CYP3A4)
+ Debería considerarse una reducción de la dosis de oxicodona y de otros opiáceos de acción prolongada que se metabolizan a través del CYP3A4 (por ejemplo hidrocodona) cuando se administran concomitantemente con voriconazol. Puede ser necesaria una monitorización frecuente de las reacciones adversas asociadas a opiáceos (ver sección 4.5).
+ Fluconazol (inhibidor del CYP2C9, CYP2C19 y CYP3A4)
+ La administración concomitante de voriconazol oral y fluconazol oral puede resultar en un incremento significativo de la Cmax y del AUCτ de voriconazol en sujetos sanos. No se ha establecido qué reducción de dosis y/o frecuencia de voriconazol y fluconazol podría eliminar este efecto. Se recomienda monitorizar las reacciones adversas asociadas a voriconazol cuando se administra voriconazol secuencialmente tras la administración de fluconazol (ver sección 4.5).
+ Excipientes
+ Sodio
+ Este medicamento contiene 221 mg de sodio por vial equivalente al 11% de la ingesta máxima diaria de 2 g de sodio recomendada por la OMS para un adulto.
+ Ciclodextrinas
+ El polvo para solución para perfusión contiene ciclodextrinas (CDs) (3.200 mg de CDs en cada vial, lo que equivale a 160 mg/ml cuando se reconstituye en 20 ml, ver secciones 2 y 6.1) que pueden alterar las propiedades del principio activo (tales como la toxicidad) y de otros medicamentos. La seguridad de las ciclodextrinas se ha tenido en cuenta durante la evaluación de la seguridad y el desarrollo del medicamento.
+ Como las ciclodextrinas se eliminan renalmente, en pacientes con insuficiencia renal de moderada a grave se puede producir una acumulación de ciclodextrinas.
+ 4.5. Interacción con otros medicamentos y otras formas de interacción
+ Voriconazol es metabolizado por, e inhibe, las enzimas del citocromo P450, CYP2C19, CYP2C9 y CYP3A4. Los inhibidores o inductores de estas isoenzimas pueden incrementar o reducir, respectivamente, las concentraciones plasmáticas de voriconazol, y voriconazol tiene el potencial de incrementar las concentraciones plasmáticas de sustancias que se metabolizan a través de estas isoenzimas CYP450 en particular para las sustancias metabolizadas por el CYP3A4 dado que voriconazol es un inhibidor potente del CYP3A4 aunque el incremento en el AUC es dependiente del sustrato (ver Tabla de interacciones).
+ A menos que se indique otra cosa, los estudios de interacción han sido realizados en adultos varones sanos utilizando dosis múltiples hasta alcanzar el estado estacionario, con 200 mg de voriconazol por vía oral dos veces al día (BID). Estos resultados son relevantes para otras poblaciones y vías de administración.
+ Voriconazol debe administrarse con precaución en pacientes con medicación concomitante que se sabe que prolonga el intervalo QTc. Cuando además existe la posibilidad de que voriconazol incremente las concentraciones plasmáticas de sustancias metabolizadas por las isoenzimas CYP3A4 (ciertos antihistamínicos, quinidina, cisaprida, pimozida e ivabradina), está contraindicada la administración concomitante (ver a continuación y la sección 4.3).
+ Tabla de interacciones
+ En la siguiente tabla se enumeran las interacciones entre voriconazol y otros medicamentos (“QD” significa una vez al día, “BID” dos veces al día como, “TID” tres veces al día y “ND” no determinado) ordenadas por clase terapéutica. La dirección de la flecha para cada parámetro farmacocinético se basa en el intervalo de confianza del 90% de la tasa media geométrica, estando dentro (↔), por debajo (↓) o por encima (↑) del rango del 80-125%. El asterisco (*) indica una interacción bidireccional. AUC?, AUCt y AUC0-? representa el área bajo la curva sobre un intervalo de dosis, desde tiempo cero hasta el tiempo con medida detectable, y de tiempo cero hasta el infinito, respectivamente.
+ Los medicamentos recogidos en la tabla deben servir únicamente como guía y no se consideran una lista completa de todos los medicamentos que podrían estar contraindicados o que podrían interactuar con voriconazol.
+ Medicamento
+ | 
+ Interacción
+ Cambios en la media
+ geométrica (%)
+ | 
+ Recomendaciones relativas a la
+ administración concomitante
+ | 
+ Antiácidos
+ | 
+ Cimetidina (400 mg BID)
+ [inhibidor no específico del
+ CYP450 y aumenta el pH gástrico]
+ | 
+ Cmax voriconazol ↑ 18%
+ voriconazol ↑ 23%
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Omeprazol (40 mg QD)*
+ [inhibidor del CYP2C19; sustrato del CYP2C19 y CYP3A4]
+ | 
+ Cmax omeprazol ↑116%
+ omeprazol ↑ 280%
+ Cmax voriconazol ↑ 15%
+ voriconazol ↑ 41%
+ Otros inhibidores de la bomba
+ de protones que son sustratos del
+ CYP2C19 también podrían ser
+ inhibidos por voriconazol y
+ producir concentraciones
+ plasmáticas incrementadas de
+ estos medicamentos.
+ | 
+ No se recomienda ajustar la dosis
+ de voriconazol.
+ Cuando se inicia voriconazol en
+ pacientes que ya están en
+ tratamiento con dosis de 40 mg o
+ mayores de omeprazol, se
+ recomienda reducir la dosis de
+ omeprazol a la mitad.
+ | 
+ Ranitidina (150 mg BID)
+ [aumenta el pH gástrico]
+ | 
+ Cmax y voriconazol ↔
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Antiarrítmicos
+ | 
+ Digoxina (0,25 mg QD)
+ [sustrato de la P-gp]
+ | 
+ Cmax digoxina ↔
+ digoxina ↔
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Quinidina
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las concentraciones
+ plasmáticas de quinidina puede
+ producir prolongación del intervalo
+ QTc y casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Antibióticos
+ | 
+ Flucloxacilina
+ [inductor del CYP450]
+ | 
+ Se han notificado
+ concentraciones plasmáticas de
+ voriconazol significativamente
+ reducidas.
+ | 
+ Si no se puede evitar la
+ administración concomitante de
+ voriconazol con flucloxacilina,
+ se debe vigilar la posible pérdida
+ de eficacia de voriconazol (p. ej.,
+ mediante la monitorización
+ terapéutica del medicamento);
+ puede ser necesario aumentar la
+ dosis de voriconazol.
+ | 
+ Antibióticos macrólidos
+ Azitromicina (500 mg QD)
+ Eritromicina (1 g BID)
+ [inhibidor del CYP3A4]
+ | 
+ Cmax y voriconazol ↔
+ Cmax y voriconazol ↔
+ Se desconoce el efecto de
+ voriconazol sobre eritromicina o
+ azitromicina.
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Rifabutina
+ [inductor potente del CYP450]
+ 300 mg QD
+ 300 mg QD (administrado
+ concomitantemente con 350 mg de
+ voriconazol BID)*
+ 300 mg QD (administrado
+ concomitantemente con 400 mg de
+ voriconazol BID)*
+ | 
+ Cmax voriconazol ↓ 69%
+ voriconazol ↓ 78%
+ Comparado con 200 mg BID de
+ voriconazol,
+ Cmax voriconazol ↓ 4%
+ voriconazol ↓ 32%
+ Cmax rifabutina ↑ 195%
+ rifabutina ↑ 331%
+ Comparado con 200 mg BID de
+ voriconazol,
+ Cmax voriconazol ↑ 104%
+ voriconazol ↑ 87%
+ | 
+ Se debe evitar la administración
+ concomitante de voriconazol y
+ rifabutina, a menos que los
+ beneficios superen los riesgos.
+ Se debe incrementar la dosis de
+ mantenimiento de voriconazol a
+ 5 mg/kg BID por vía intravenosa,
+ o de 200 a 350 mg BID por vía oral
+ (100 mg a 200 mg BID por vía oral
+ en pacientes con un peso inferior a
+ 40 kg) (ver sección 4.2).
+ Se recomienda monitorizar
+ estrechamente el recuento total de
+ células sanguíneas y las reacciones
+ adversas de rifabutina (p. ej.,
+ uveítis) cuando se administra
+ rifabutina concomitantemente con
+ voriconazol.
+ | 
+ Rifampicina (600 mg QD)
+ [inductor potente del CYP450]
+ | 
+ Cmax voriconazol ↓ 93%
+ voriconazol ↓ 96%
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Fármacos antineoplásicos
+ | 
+ Glasdegib
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de glasdegib y el
+ riesgo de prolongación del QTc.
+ | 
+ Si no se puede evitar el uso
+ concomitante, se recomienda una
+ monitorización frecuente del ECG
+ (ver sección 4.4).
+ | 
+ Tretinoína
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado,
+ voriconazol puede incrementar las
+ concentraciones de tretinoína y el
+ riesgo de reacciones adversas
+ (pseudotumor cerebral,
+ hipercalcemia).
+ | 
+ Se recomienda ajustar la dosis de
+ tretinoína durante el tratamiento
+ con voriconazol y después de su
+ suspensión.
+ | 
+ Inhibidores de la tirosin quinasa
+ (que incluyen, entre otros: axitinib,
+ bosutinib, cabozantinib, ceritinib,
+ cobimetinib, dabrafenib, dasatinib,
+ nilotinib, sunitinib, ibrutinib,
+ ribociclib)
+ [sustratos del CYP3A4]
+ | 
+ Aunque no se ha estudiado,
+ voriconazol puede incrementar las
+ concentraciones plasmáticas de los
+ inhibidores de la tirosin quinasa
+ metabolizados por el CYP3A4.
+ | 
+ Si no se puede evitar el uso
+ concomitante, se recomienda la
+ reducción de la dosis del
+ inhibidor de la tirosin quinasa y
+ una estrecha monitorización
+ clínica (ver sección 4.4).
+ | 
+ Venetoclax
+ [sustrato del CYP3A]
+ | 
+ Aunque no se ha estudiado
+ clínicamente, es probable que
+ voriconazol incremente
+ significativamente las
+ concentraciones plasmáticas de
+ venetoclax.
+ | 
+ La administración concomitante
+ de voriconazol al inicio y durante
+ la fase de ajuste de la dosis de
+ venetoclax está contraindicada
+ (ver sección 4.3). Se requiere una
+ reducción de la dosis de
+ venetoclax como se indica en la
+ ficha técnica de venetoclax
+ durante la dosis diaria fija; se
+ recomienda monitorizar
+ estrechamente la aparición de
+ signos de toxicidad.
+ | 
+ Alcaloides de la vinca (que
+ incluyen, entre otros:vincristina y
+ vinblastina)
+ [sustratos del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de los alcaloides de la
+ vinca y cause neurotoxicidad.
+ | 
+ Se debe considerar reducir la
+ dosis de los alcaloides de la
+ vinca.
+ | 
+ Anticoagulantes
+ | 
+ Warfarina (dosis única de 30 mg,
+ administrada
+ concomitantemente con
+ 300 mg BID de voriconazol)
+ [sustrato del CYP2C9]
+ Otras cumarinas orales
+ (que incluyen, entre otros:
+ fenprocumon, acenocumarol)
+ [sustratos del CYP2C9 y
+ CYP3A4]
+ | 
+ El incremento máximo del tiempo
+ de protrombina fue de dos veces
+ aproximadamente.
+ Aunque no se ha estudiado,
+ voriconazol puede incrementar las
+ concentraciones plasmáticas de las
+ cumarinas pudiendo provocar un
+ incremento del tiempo de
+ protrombina.
+ | 
+ Se recomienda monitorizar
+ estrechamente el tiempo de
+ protrombina u otras pruebas
+ adecuadas de anticoagulación, y
+ se debe ajustar la dosis del
+ anticoagulante
+ convenientemente.
+ | 
+ Anticonvulsivos
+ | 
+ Carbamazepina y barbitúricos
+ de acción prolongada (que incluyen,
+ entre otros:
+ fenobarbital, mefobarbital)
+ [inductores potentes del
+ CYP450]
+ | 
+ Aunque no se ha estudiado, es
+ probable que carbamazepina y
+ los barbitúricos de acción
+ prolongada reduzcan
+ significativamente las
+ concentraciones plasmáticas de
+ voriconazol.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Fenitoína
+ [sustrato del CYP2C9 e inductor
+ potente del CYP450]
+ 300 mg QD
+ 300 mg QD (administrado
+ concomitantemente con 400 mg de
+ voriconazol BID)*
+ | 
+ Cmax voriconazol ↓ 49%
+ voriconazol ↓ 69%
+ Cmax fenitoína ↑ 67%
+ fenitoína ↑ 81%
+ Comparado con 200 mg BID de
+ voriconazol,
+ Cmax voriconazol ↑ 34%
+ voriconazol ↑ 39%
+ | 
+ Se debe evitar el uso
+ concomitante de voriconazol y
+ fenitoína, a menos que los
+ beneficios superen los riesgos. Se
+ recomienda monitorizar
+ cuidadosamente los niveles
+ plasmáticos de fenitoína.
+ La fenitoína se puede administrar
+ concomitantemente con voriconazol si la dosis de mantenimiento de
+ voriconazol se incrementa a
+ 5 mg/kg IV BID, o de 200 mg a
+ 400 mg BID por vía oral (100 mg a
+ 200 mg BID por vía oral en
+ pacientes con un peso inferior a
+ 40 kg) (ver sección 4.2).
+ | 
+ Antidiabéticos
+ | 
+ Sulfonilureas (que incluyen, entre otros: tolbutamida, glipizida,
+ gliburida)
+ [sustratos del CYP2C9]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de las sulfonilureas y
+ cause hipoglucemia.
+ | 
+ Se recomienda monitorizar
+ estrechamente la glucemia. Se
+ debe considerar reducir la dosis
+ de las sulfonilureas.
+ | 
+ Antifúngicos
+ | 
+ | 
+ | 
+ Fluconazol (200 mg QD)
+ [inhibidor del CYP2C9
+ CYP2C19 y CYP3A4]
+ | 
+ Cmax voriconazol ↑ 57%
+ voriconazol ↑ 79%
+ Cmax fluconazol ND
+ fluconazol ND
+ | 
+ No se ha establecido qué
+ reducción de dosis y/o frecuencia
+ de voriconazol y fluconazol
+ podría eliminar este efecto. Se
+ recomienda monitorizar las
+ reacciones adversas asociadas a
+ voriconazol si se utiliza
+ voriconazol secuencialmente
+ después de fluconazol.
+ | 
+ Antihistamínicos
+ | 
+ Astemizol
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las concentraciones
+ plasmáticas de astemizol puede
+ producir prolongación del intervalo
+ QTc y casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Terfenadina
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las concentraciones
+ plasmáticas de terfenadina puede
+ producir prolongación del intervalo
+ QTc y casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Fármacos anti-VIH
+ | 
+ Indinavir (800 mg TID)
+ [inhibidor y sustrato del CYP3A4]
+ | 
+ Cmax indinavir ↔
+ indinavir ↔
+ Cmax voriconazol ↔
+ voriconazol ↔
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Ritonavir (inhibidor de la proteasa)
+ [inductor potente del CYP450;
+ inhibidor y sustrato del CYP3A4]
+ Dosis alta (400 mg BID)
+ Dosis baja (100 mg BID)*
+ | 
+ Cmax y ritonavir ↔
+ Cmax voriconazol ↓ 66%
+ voriconazol ↓ 82%
+ Cmax ritonavir ↓ 25%
+ AUC? ritonavir ↓ 13%
+ Cmax voriconazol ↓ 24%
+ voriconazol ↓ 39%
+ | 
+ La administración concomitante
+ de voriconazol con dosis altas de
+ ritonavir (400 mg y mayores
+ BID) está contraindicada (ver
+ sección 4.3).
+ Se debe evitar la administración
+ concomitante de voriconazol con
+ dosis bajas de ritonavir (100 mg
+ BID), a menos que el balance
+ beneficio/riesgo para el paciente
+ justifique la utilización de
+ voriconazol.
+ | 
+ Otros inhibidores de la proteasa del
+ VIH (que incluyen, entre otros:
+ saquinavir, amprenavir y
+ nelfinavir)*
+ [sustratos e inhibidores del
+ CYP3A4]
+ | 
+ No se ha estudiado clínicamente.
+ En estudios in vitro se ha
+ observado que voriconazol puede
+ inhibir el metabolismo de los
+ inhibidores de la proteasa del VIH,
+ y el metabolismo de voriconazol
+ puede también inhibirse por los
+ inhibidores de la proteasa del VIH.
+ | 
+ Monitorizar estrechamente la
+ aparición de toxicidad
+ farmacológica y/o falta de
+ eficacia, pudiendo ser necesario
+ un ajuste de la dosis.
+ | 
+ Efavirenz (un inhibidor de la
+ transcriptasa inversa no
+ nucleósido [ITINN])
+ [inductor del CYP450;
+ inhibidor y sustrato del
+ CYP3A4]
+ Efavirenz 400 mg QD,
+ administrado con voriconazol
+ 200 mg BID* concomitantemente.
+ Efavirenz 300 mg QD,
+ administrado con voriconazol
+ 400 mg BID* concomitantemente.
+ | 
+ Cmax efavirenz ↑ 38%
+ efavirenz ↑ 44%
+ Cmax voriconazol ↓ 61%
+ voriconazol ↓ 77%
+ Comparado con efavirenz
+ 600 mg QD,
+ Cmax efavirenz ↔
+ efavirenz ↑ 17%
+ Comparado con 200 mg BID de
+ voriconazol,
+ Cmax voriconazol ↑ 23%
+ voriconazol ↓ 7%
+ | 
+ El uso de dosis estándar de
+ voriconazol con efavirenz, dosis
+ de 400 mg QD o superiores, está
+ contraindicado (ver sección 4.3).
+ Voriconazol puede ser
+ administrado concomitantemente
+ con efavirenz si la dosis de
+ mantenimiento de voriconazol se
+ incrementa a 400 mg BID y la
+ dosis de efavirenz se reduce a
+ 300 mg QD. Cuando se
+ interrumpe el tratamiento con
+ voriconazol, debe restablecerse
+ la dosis inicial de efavirenz (ver
+ las secciones 4.2 y 4.4).
+ | 
+ Otros inhibidores de la
+ transcriptasa inversa no
+ nucleósidos (ITINNs) (que
+ incluyen, entre otros:
+ delavirdina, nevirapina)*
+ [sustratos del CYP3A4, inhibidores
+ o inductores del CYP450]
+ | 
+ No se ha estudiado clínicamente.
+ En estudios in vitro se ha
+ observado que el metabolismo de
+ voriconazol puede ser inhibido por
+ ITINNs y que voriconazol puede
+ inhibir el metabolismo de los
+ ITINNs.
+ Los hallazgos del efecto de
+ efavirenz sobre voriconazol
+ sugieren que el metabolismo de
+ voriconazol puede ser inducido por
+ un ITINN.
+ | 
+ Monitorizar estrechamente la
+ aparición de toxicidad
+ farmacológica y/o falta de eficacia,
+ pudiendo ser necesario un ajuste de
+ la dosis.
+ | 
+ Antipsicóticos
+ | 
+ Lurasidona
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ lurasidona.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Pimozida
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las
+ concentraciones plasmáticas de
+ pimozida puede producir
+ prolongación del intervalo QTc y
+ casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Antivirales
+ | 
+ Letermovir
+ [inductor del CYP2C9 y
+ CYP2C19]
+ | 
+ Cmax voriconazol ↓ 39%
+ AUC0-12 voriconazol ↓ 44%
+ C12 voriconazol ↓ 51%
+ | 
+ Si no se puede evitar la
+ administración concomitante de
+ voriconazol con letermovir, se debe
+ monitorizar si hay pérdida
+ de eficacia de voriconazol.
+ | 
+ Benzodiazepinas
+ | 
+ [sustratos del CYP3A4]
+ Midazolam (0,05 mg/kg
+ dosis IV única)
+ Midazolam (7,5 mg dosis oral
+ única)
+ Otras benzodiazepinas
+ (que incluyen, entre otros:
+ triazolam, alprazolam)
+ | 
+ En un estudio independiente
+ publicado,
+ midazolam ↑ 3,7 veces
+ En un estudio independiente
+ publicado,
+ Cmax midazolam ↑ 3,8 veces
+ midazolam ↑ 10,3 veces
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de otras
+ benzodiazepinas que se
+ metabolizan por el CYP3A4
+ causando un efecto sedante
+ prolongado.
+ | 
+ Se debe considerar la reducción de
+ la dosis de las benzodiazepinas.
+ | 
+ Fármacos cardiovasculares
+ | 
+ Ivabradina
+ [sustratos del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las concentraciones
+ plasmáticas de ivabradina puede
+ producir prolongación del intervalo
+ QTc y casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Mavacamten
+ [sustratos del CYP2C19 CYP3A4
+ y CYP2C9]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de mavacamten con un
+ aumento del riesgo de insuficiencia
+ cardíaca.
+ | 
+ Consulte la ficha técnica de
+ mavacamten para obtener más
+ información.
+ | 
+ Potenciadores reguladores de la conductancia transmembrana de la fibrosis quística
+ | 
+ Ivacaftor
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de ivacaftor con riesgo
+ de un incremento de las reacciones
+ adversas.
+ | 
+ Se recomienda reducir la dosis de
+ ivacaftor.
+ | 
+ Derivados ergotamínicos
+ | 
+ Alcaloides ergotamínicos (que
+ incluyen, entre otros:
+ ergotamina y dihidroergotamina)
+ [sustratos del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de los alcaloides
+ ergotamínicos y produzca ergotismo.
+ | 
+ Contraindicado (ver
+ sección 4.3)
+ | 
+ Procinéticos
+ | 
+ Cisaprida
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, el
+ incremento de las concentraciones
+ plasmáticas de cisaprida puede
+ producir prolongación del intervalo
+ QTc y casos raros de torsades de
+ pointes.
+ | 
+ Contraindicado (ver
+ sección 4.3)
+ | 
+ Hierbas medicinales
+ | 
+ Hierba de San Juan
+ [inductor del CYP450;
+ inductor de la P-gp]
+ 300 mg TID (administrado
+ concomitantemente con una
+ dosis única de 400 mg de
+ voriconazol)
+ | 
+ En un estudio independiente
+ publicado,
+ voriconazol ↓ 59%
+ | 
+ Contraindicado (ver
+ sección 4.3)
+ | 
+ Inmunosupresores
+ | 
+ [sustratos del CYP3A4]
+ Ciclosporina (en receptores de
+ trasplante renal estables en
+ tratamiento crónico con
+ ciclosporina)
+ Everolimus
+ [también sustrato de la P-gp]
+ Sirolimus (dosis única de
+ 2 mg)
+ Tacrolimus (0,1 mg/kg en
+ dosis única)
+ Voclosporina
+ | 
+ Cmax ciclosporina ↑ 13%
+ ciclosporina ↑ 70%
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ everolimus.
+ En un estudio independiente
+ publicado, Cmax sirolimus ↑
+ 6,6 veces
+ sirolimus ↑ 11 veces
+ Cmax tacrolimus ↑ 117%
+ tacrolimus ↑ 221%
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ voclosporina.
+ | 
+ Cuando se inicia voriconazol en
+ pacientes que ya están en
+ tratamiento con ciclosporina se
+ recomienda reducir a la mitad la
+ dosis de ciclosporina y
+ monitorizar cuidadosamente los
+ niveles de ciclosporina. Se han
+ asociado niveles elevados de
+ ciclosporina con nefrotoxicidad.
+ Cuando se suspende voriconazol
+ se deben monitorizar
+ estrechamente los niveles de
+ ciclosporina e incrementar la
+ dosis tanto como sea necesario.
+ No se recomienda la
+ administración concomitante de
+ voriconazol y everolimus, ya que
+ se espera que voriconazol
+ incremente significativamente las
+ concentraciones de everolimus
+ (ver sección 4.4).
+ La administración concomitante
+ de voriconazol con sirolimus está
+ contraindicada (ver
+ sección 4.3).
+ Cuando se inicia voriconazol en
+ pacientes que ya están en
+ tratamiento con tacrolimus, se
+ recomienda reducir la dosis de
+ tacrolimus a la tercera parte de la
+ dosis original y monitorizar
+ cuidadosamente los niveles de
+ tacrolimus. Se han asociado
+ niveles altos de tacrolimus con
+ nefrotoxicidad. Cuando se
+ suspende voriconazol, se deben
+ monitorizar cuidadosamente los
+ niveles de tacrolimus e
+ incrementar la dosis tanto como
+ sea necesario.
+ Contraindicado (ver sección 4.3)
+ | 
+ Ácido micofenólico (dosis única de
+ 1 g)
+ [sustrato de UDP‑glucuronil
+ transferasa]
+ | 
+ Cmax ácido micofenólico ↔
+ ácido micofenólico ↔
+ | 
+ No precisa ajuste de dosis.
+ | 
+ Fármacos hipolipemiante/inhibidores de HMG-CoA reductasa
+ | 
+ Estatinas (p. ej., lovastatina)
+ [sustratos de CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente las concentraciones
+ plasmáticas de las estatinas que son
+ metabolizadas por el CYP3A4, pudiendo producir rabdomiolisis.
+ | 
+ Si no se puede evitar la
+ administración concomitante de
+ voriconazol con las estatinas que
+ son metabolizadas por el
+ CYP3A4, se debe considerar
+ reducir la dosis de la estatina.
+ | 
+ Antagonistas de los receptores de mineralocorticoides no esteroideos
+ | 
+ Finerenona
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ finerenona.
+ | 
+ Contraindicado (ver
+ sección 4.3)
+ | 
+ Eplerenona
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ eplerenona.
+ | 
+ Contraindicado (ver
+ sección 4.3)
+ | 
+ Medicamentos antiinflamatorios no esteroideos (AINEs)
+ | 
+ [sustratos del CYP2C9]
+ Ibuprofeno (dosis única de
+ 400 mg)
+ Diclofenaco (dosis única de 50 mg)
+ | 
+ Cmax S-ibuprofeno ↑ 20%
+ S-ibuprofeno ↑ 100%
+ Cmax diclofenaco ↑ 114%
+ diclofenaco ↑ 78%
+ | 
+ Se recomienda monitorizar
+ frecuentemente las reacciones
+ adversas y toxicidad relacionadas
+ con los AINEs. Puede ser necesario
+ reducir la dosis de los AINEs.
+ | 
+ Opioides
+ | 
+ Opiáceos de acción prolongada
+ [sustratos del CYP3A4
+ Oxicodona (dosis única de
+ 10 mg)
+ | 
+ En un estudio independiente publicado,
+ Cmax oxicodona ↑ 1,7 veces
+ oxicodona ↑ 3,6 veces
+ | 
+ Se debe considerar una reducción
+ de la dosis de oxicodona y de
+ otros opiáceos de acción
+ prolongada que se metabolizan
+ por el CYP3A4 (p. ej.,
+ hidrocodona). Puede ser
+ necesario monitorizar
+ frecuentemente las reacciones
+ adversas asociadas a los
+ opiáceos.
+ | 
+ Metadona (32-100 mg QD)
+ [sustrato del CYP3A4]
+ | 
+ Cmax R-metadona (activa) ↑ 31%
+ R-metadona (activa) ↑47%
+ Cmax S-metadona ↑ 65%
+ S-metadona ↑ 103%
+ | 
+ Se recomienda monitorizar
+ frecuentemente las reacciones
+ adversas y toxicidad relacionadas
+ con metadona, incluida la
+ prolongación del intervalo QTc.
+ Puede ser necesario reducir la
+ dosis de metadona.
+ | 
+ Opiáceos de acción corta
+ [sustratos del CYP3A4]
+ Alfentanilo (dosis única de
+ 20 μg/kg, con naloxona de
+ forma concomitante)
+ Fentanilo (dosis única de
+ 5 μg/kg)
+ | 
+ En un estudio independiente
+ publicado,
+ alfentanilo ↑ 6 veces
+ En un estudio independiente
+ publicado,
+ fentanilo ↑ 1,34 veces
+ | 
+ Se debe considerar una reducción
+ de la dosis de alfentanilo, de
+ fentanilo y de otros opiáceos de
+ acción corta de estructura similar
+ al fentanilo y que se metabolizan
+ por el CYP3A4 (p. ej.,
+ sufentanilo). Se recomienda
+ monitorizar de manera
+ prolongada y frecuente en busca
+ de síntomas de depresión
+ respiratoria y de otras reacciones
+ adversas asociadas a los
+ opiáceos.
+ | 
+ Antagonistas de receptores opioides
+ | 
+ Naloxegol
+ [sustrato del CYP3A4]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ naloxegol.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ Anticonceptivos orales
+ | 
+ Anticonceptivos orales*
+ [sustrato del CYP3A4;
+ inhibidor del CYP2C19]
+ Noretisterona/etinilestradiol
+ (1 mg/0,035 mg QD)
+ | 
+ Cmax etinilestradiol ↑ 36%
+ etinilestradiol ↑ 61%
+ Cmax noretisterona ↑ 15
+ noretisterona ↑ 53%
+ Cmax voriconazol ↑ 14%
+ voriconazol ↑ 46%
+ | 
+ Se recomienda monitorizar las
+ reacciones adversas relacionadas
+ con los anticonceptivos orales,
+ además de las de voriconazol.
+ | 
+ Esteroides
+ | 
+ Corticosteroides
+ Prednisolona (dosis única de
+ 60 mg)
+ [sustrato del CYP3A4]
+ | 
+ Cmax prednisolona ↑ 11%
+ prednisolona ↑ 34%
+ | 
+ No se precisa ajuste de dosis.
+ Los pacientes en tratamiento a
+ largo plazo con voriconazol y
+ corticosteroides (incluidos los
+ corticosteroides inhalados, por
+ ejemplo, budesonida y los
+ corticosteroides intranasales) se
+ deben monitorizar estrechamente
+ para detectar insuficiencia de la
+ corteza suprarrenal tanto durante
+ como cuando se suspende el
+ tratamiento con voriconazol (ver
+ sección 4.4).
+ | 
+ Antagonistas del receptor de vasopresina
+ | 
+ Tolvaptán
+ [sustrato del CYP3A]
+ | 
+ Aunque no se ha estudiado, es
+ probable que voriconazol
+ incremente significativamente las
+ concentraciones plasmáticas de
+ tolvaptán.
+ | 
+ Contraindicado (ver sección 4.3)
+ | 
+ | 
+ | 
+ | 
+ 4.6. Fertilidad, embarazo y lactancia
+ Embarazo
+ No se dispone de información adecuada sobre la utilización de VFEND en mujeres embarazadas.
+ Los estudios en animales han demostrado toxicidad sobre la reproducción (ver sección 5.3). Se desconoce el posible riesgo para humanos.
+ VFEND no debe utilizarse durante el embarazo a menos que los beneficios para la madre superen claramente a los riesgos potenciales para el feto.
+ Mujeres en edad fértil
+ Las mujeres en edad fértil deben utilizar siempre métodos anticonceptivos eficaces durante el tratamiento.
+ Lactancia
+ No se ha estudiado la excreción de voriconazol en la leche materna. Debe interrumpirse la lactancia al comienzo del tratamiento con VFEND.
+ Fertilidad
+ En un estudio con animales, no se ha demostrado alteraciones en la fertilidad en ratas macho y hembra (ver sección 5.3).
+ 4.7. Efectos sobre la capacidad para conducir y utilizar máquinas
+ La influencia de VFEND sobre la capacidad para conducir y utilizar máquinas es moderada. Puede producir cambios transitorios y reversibles de la visión, incluyendo visión borrosa, percepción visual alterada/aumentada y/o fotofobia. Los pacientes deben evitar realizar tareas potencialmente peligrosas, como conducir o manejar maquinaria mientras presenten estos síntomas.
+ 4.8. Reacciones adversas
+ Resumen del perfil de seguridad
+ El perfil de seguridad de voriconazol en adultos se basa en una base de datos de seguridad compuesta por más de 2000 sujetos (de ellos, 1.603 pacientes adultos en ensayos clínicos terapéuticos) y otros 270 adultos en ensayos clínicos de profilaxis. Esto representa una población heterogénea, incluyendo pacientes con neoplasias hematológicas, pacientes infectados por el VIH con candidiasis esofágica e infecciones fúngicas refractarias, pacientes no neutropénicos con candidemia o aspergilosis y voluntarios sanos.
+ Las reacciones adversas notificadas más frecuentemente fueron alteración visual, pirexia, erupción cutánea, vómitos, nauseas, diarrea, cefalea, edema periférico, prueba anormal de función hepática, dificultad respiratoria y dolor abdominal.
+ Generalmente la gravedad de estas reacciones adversas fue de leve a moderada. No se observaron diferencias significativas al analizar los datos de seguridad por edad, raza o sexo.
+ Tabla de reacciones adversas
+ Dado que la mayoría de los estudios fueron abiertos, en la tabla siguiente se enumeran todas las reacciones adversas con una relación causal con el tratamiento y sus categorías de frecuencia en 1.873 adultos incluidos en estudios terapéuticos (1.603) y de profilaxis (270), enumeradas según el sistema de clasificación de órganos.
+ Las categorías de frecuencias se definen como: Muy frecuentes (≥1/10); Frecuentes (≥1/100 a <1/10); Poco frecuentes (≥1/1.000 a <1/100); Raras (≥1/10.000 a <1/1.000); Muy raras (<1/10.000); No conocidas (no se puede estimar la frecuencia en base a los datos disponibles).
+ Dentro de cada intervalo de frecuencia las reacciones adversas se presentan en orden decreciente de gravedad.
+ Reacciones adversas notificadas en sujetos tratados con voriconazol
+ Clasificación
+ por órganos y
+ sistemas
+ | 
+ Muy
+ frecuentes
+ ≥1/10
+ | 
+ Frecuentes
+ ≥1/100
+ a <1/10
+ | 
+ Poco frecuentes
+ ≥1/1.000 a <1/100
+ | 
+ Raras
+ ≥1/10.000 a
+ <1/1.000
+ | 
+ No conocidas
+ (no puede
+ estimarse a
+ partir de los
+ datos
+ disponibles)
+ | 
+ Infecciones e
+ infestaciones
+ | 
+ | 
+ sinusitis
+ | 
+ colitis
+ pseudomembranosa
+ | 
+ | 
+ | 
+ Neoplasias
+ benignas,
+ malignas y no
+ especificadas
+ (incl quistes y
+ pólipos)
+ | 
+ | 
+ carcinoma de
+ células
+ escamosas
+ (incluido el
+ CCE cutáneo in
+ situo o
+ enfermedad de
+ Bowen)*,**
+ | 
+ | 
+ | 
+ carcinoma de células escamosas*
+ | 
+ Trastornos de
+ la sangre y del
+ sistema
+ linfático
+ | 
+ | 
+ agranulocitosis1,
+ pancitopenia,
+ trombocitopenia2,
+ leucopenia,
+ anemia
+ | 
+ insuficiencia de
+ médula ósea,
+ linfadenopatía,
+ eosinofilia
+ | 
+ coagulación
+ intravascular
+ diseminada
+ | 
+ | 
+ Trastornos del
+ sistema
+ inmunológico
+ | 
+ | 
+ | 
+ hipersensibilidad
+ | 
+ reacción
+ anafilactoide
+ | 
+ | 
+ Trastornos
+ endocrinos
+ | 
+ | 
+ | 
+ insuficiencia
+ suprarrenal,
+ hipotiroidismo
+ | 
+ hipertiroidismo
+ | 
+ | 
+ Trastornos del
+ metabolismo y
+ de la nutrición
+ | 
+ edema
+ periférico
+ | 
+ hipoglucemia,
+ hipopotasemia,
+ hiponatremia
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ psiquiátricos
+ | 
+ | 
+ depresión,
+ alucinación,
+ ansiedad,
+ insomnio,
+ agitación,
+ estado c
+ onfusional
+ | 
+ | 
+ | 
+ | 
+ Trastornos del
+ sistema
+ nervioso
+ | 
+ cefalea
+ | 
+ convulsión,
+ síncope,
+ temblor,
+ hipertonía3,
+ parestesia,
+ somnolencia,
+ mareo
+ | 
+ edema en el
+ cerebro,
+ encefalopatía4,
+ trastorno
+ extrapiramidal5,
+ neuropatía
+ periférica,
+ ataxia,
+ hipoestesia,
+ disgeusia
+ | 
+ encefalopatía
+ hepática,
+ síndrome de
+ Guillain-Barré,
+ nistagmo
+ | 
+ | 
+ Trastornos
+ oculares
+ | 
+ alteración
+ visual6
+ | 
+ hemorragia r
+ etiniana
+ | 
+ trastorno del nervio
+ óptico7,
+ papiledema8,
+ crisis oculogira,
+ diplopía,
+ escleritis,
+ blefaritis
+ | 
+ atrofia óptica,
+ opacidad
+ corneal
+ | 
+ | 
+ Trastornos del
+ oído y del
+ laberinto
+ | 
+ | 
+ | 
+ hipoacusia,
+ vértigo,
+ acúfenos
+ | 
+ | 
+ | 
+ Trastornos
+ cardiacos
+ | 
+ | 
+ arritmia
+ supraventricular,
+ taquicardia,
+ bradicardia
+ | 
+ fibrilación
+ ventricular,
+ extrasístoles
+ ventriculares,
+ taquicardia
+ ventricular,
+ intervalo QT del
+ electrocardiograma
+ prolongado,
+ taquicardia
+ supraventricular
+ | 
+ torsades de
+ pointes,
+ bloqueo
+ auriculoventricular
+ completo,
+ bloqueo de
+ rama,
+ ritmo nodal
+ | 
+ | 
+ Trastornos
+ vasculares
+ | 
+ | 
+ hipotensión,
+ flebitis
+ | 
+ tromboflebitis,
+ linfangitis
+ | 
+ | 
+ | 
+ Trastornos
+ respiratorios,
+ torácicos y
+ mediastínicos
+ | 
+ dificultad
+ respiratoria9
+ | 
+ síndrome de
+ sufrimiento r
+ espiratorio
+ agudo, edema
+ pulmonar,
+ | 
+ | 
+ | 
+ | 
+ Trastornos
+ gastrointestinales
+ | 
+ diarrea, vómitos,
+ dolor abdominal, náuseas
+ | 
+ queilitis,
+ dispepsia,
+ estreñimiento,
+ gingivitis
+ | 
+ peritonitis,
+ pancreatitis, l
+ engua hinchada,
+ duodenitis,
+ gastroenteritis,
+ glositis
+ | 
+ | 
+ | 
+ Trastornos
+ hepatobiliares
+ | 
+ prueba
+ anormal de
+ función
+ hepática
+ | 
+ ictericia,
+ ictericia
+ colestática,
+ hepatitis10
+ | 
+ insuficiencia
+ hepática,
+ hepatomegalia,
+ colecistitis,
+ colelitiasis
+ | 
+ | 
+ | 
+ Trastornos de
+ la piel y del
+ tejido
+ subcutáneo
+ | 
+ erupción
+ cutánea
+ | 
+ dermatitis
+ exfoliativa,
+ alopecia,
+ erupción
+ maculopapular,
+ prurito,
+ eritema
+ fototoxicidad**
+ | 
+ síndrome de
+ Stevens-Johnson8,
+ purpura,
+ urticaria,
+ dermatitis alérgica,
+ erupción papular,
+ erupción macular,
+ eczema
+ | 
+ Necrólisis
+ epidérmica
+ tóxica8,
+ reacción a
+ fármacos con
+ eosinofilia y
+ síntomas
+ sistémicos
+ (DRESS)8, angioedema,
+ queratosis
+ actínica*,
+ pseudoporfiria,
+ eritema
+ multiforme,
+ psoriasis,
+ erupción
+ medicamentosa
+ | 
+ lupus
+ eritematoso
+ cutáneo*,
+ efélides*,
+ lentigo*
+ | 
+ Trastornos
+ musculoesqueléticos
+ y del tejido
+ conjuntivo
+ | 
+ | 
+ dolor de espalda
+ | 
+ artritis
+ periostitis*,**
+ | 
+ | 
+ | 
+ Trastornos renales y
+ urinarios
+ | 
+ | 
+ insuficiencia
+ renal aguda,
+ hematuria
+ | 
+ necrosis tubular
+ renal,
+ proteinuria,
+ nefritis
+ | 
+ | 
+ | 
+ Trastornos
+ generales y
+ alteraciones en
+ el lugar de
+ administración
+ | 
+ pirexia
+ | 
+ dolor torácico,
+ edema de cara11,
+ astenia,
+ escalofrío
+ | 
+ reacción en el lugar
+ de perfusión,
+ enfermedad de tipo
+ gripal
+ | 
+ | 
+ | 
+ Exploraciones
+ complementarias
+ | 
+ | 
+ creatinina
+ elevada en
+ sangre
+ | 
+ urea elevada en
+ sangre,
+ colesterol elevado
+ en sangre
+ | 
+ | 
+ | 
+ * RA identificada después de comercialización
+ ** La categoría de frecuencia se basa en un estudio observacional que utiliza datos reales de fuentes de datos secundarias en Suecia.
+ 1 Incluye neutropenia febril y neutropenia.
+ 2 Incluye púrpura trombocitopénica inmune.
+ 3 Incluye rigidez de nuca y tetania.
+ 4 Incluye encefalopatía hipoxico-isquémica y la encefalopatía metabólica.
+ 5 Incluye acatisia y parkinsonismo.
+ 6 Ver el párrafo «Alteraciones visuales» de la sección 4.8.
+ 7 Se ha notificado neuritis óptica prolongada tras la comercialización. Ver sección 4.4.
+ 8 Ver sección 4.4.
+ 9 Incluye disnea y disnea de esfuerzo.
+ 10 Incluye lesión hepática inducida por medicamentos, hepatitis tóxica, lesión traumática hepatocelular y hepatotoxicidad.
+ 11 Incluye edema periorbital, edema de labio y edema de la boca.
+ Descripción de algunas reacciones adversas
+ Alteraciones visuales
+ En los ensayos clínicos fueron muy frecuentes las alteraciones visuales (como visión borrosa, fotofobia, cloropsia, cromatopsia, ceguera para los colores, cianopsia, trastorno del ojo, halo visual, ceguera nocturna, oscilopsia, fotopsia, escotoma centelleante, agudeza visual disminuida, claridad visual, defecto del campo visual, células flotantes en el vítreo y xantopsia) con voriconazol. Estas alteraciones visuales fueron transitorias y completamente reversibles, resolviéndose la mayoría espontáneamente en 60 minutos y no se han observado efectos visuales clínicamente significativos a largo plazo. Hubo evidencias de atenuación con la administración repetida de voriconazol. Las alteraciones visuales fueron generalmente leves, raramente obligaron al abandono del tratamiento y no se asociaron con secuelas a largo plazo. Las alteraciones visuales pueden asociarse a mayores concentraciones plasmáticas y/o dosis.
+ Se desconoce el mecanismo de acción, aunque lo más probable es que sea a nivel de la retina. En un ensayo con voluntarios sanos en el que se estudiaba el efecto de voriconazol sobre la función retiniana, voriconazol originó un descenso de la amplitud de la onda del electrorretinograma (ERG). El ERG mide las corrientes eléctricas en la retina. Las variaciones en el ERG no progresaron durante los 29 días de tratamiento, siendo totalmente reversibles tras la retirada de voriconazol.
+ Se han notificado acontecimientos adversos visuales prolongados después de la comercialización (ver Sección 4.4).
+ Reacciones dermatológicas
+ Las reacciones dermatológicas fueron muy frecuentes en pacientes tratados con voriconazol en ensayos clínicos, si bien estos pacientes padecían enfermedades subyacentes graves y recibían múltiples medicaciones concomitantes. La mayoría de las erupciones cutáneas fueron de intensidad de leve a moderada. Algunos pacientes han presentado reacciones adversas cutáneas graves (SCARs) durante el tratamiento con VFEND, incluyendo síndrome de Stevens-Johnson (SJS) (poco frecuente), necrolisis tóxica epidérmica (TEN) (rara), reacción a fármacos con eosinofilia y síntomas sistémicos (DRESS) (rara) y eritema multiforme (rara) (ver sección 4.4).
+ Si un paciente desarrolla una erupción cutánea, debe ser monitorizado cuidadosamente y suspenderse el tratamiento con VFEND si las lesiones progresan. Se han registrado reacciones de fotosensibilidad, como efélides, lentigo y queratosis actínica, especialmente durante tratamientos prolongados (ver sección 4.4).
+ Ha habido notificaciones de carcinoma de células escamosas en la piel (incluido el CCE cutáneo in situ o enfermedad de Bowen) en pacientes tratados con VFEND durante largos períodos de tiempo; no se ha establecido el mecanismo (ver sección 4.4).
+ Pruebas de función hepática
+ En el programa clínico de voriconazol, la incidencia global del aumento de las transaminasas > 3 x LSN (que no constituían necesariamente un acontecimiento adverso) fue del 18,0% (319/1.768) en los adultos y del 25,8% (73/283) en los sujetos pediátricos que recibieron voriconazol para los usos terapéutico y profiláctico agrupados. Las alteraciones de las pruebas de función hepática pueden estar asociadas a mayores concentraciones plasmáticas y/o dosis. En la mayoría de los casos se resolvieron durante el tratamiento con o sin ajuste de dosis, siendo necesaria, en algunos casos, la suspensión del tratamiento.
+ En pacientes con otros trastornos subyacentes graves se ha asociado voriconazol a casos de toxicidad hepática grave, incluyendo ictericia, hepatitis y fallo hepático letales (ver sección 4.4).
+ Profilaxis
+ En un ensayo abierto, comparativo, multicéntrico, que comparó voriconazol e itraconazol como profilaxis primaria en adultos y adolescentes receptores de TCMH alogénicos sin IFI probada o probable previa, se notificó la suspensión permanente del tratamiento con voriconazol debido a acontecimientos adversos en el 39,3% de los sujetos, frente al 39,6% de los sujetos en el brazo de tratamiento con itraconazol. Los acontecimientos adversos hepáticos emergentes durante el tratamiento, provocaron la suspensión permanente de la medicación del estudio en 50 sujetos (21,4%) tratados con voriconazol y en 18 sujetos (7,1%) tratados con itraconazol.
+ Población pediátrica
+ Se ha investigado la seguridad de voriconazol en 288 pacientes pediátricos de 2 a <12 años de edad (169) y de 12 a <18 años de edad (119) que recibieron voriconazol para uso profiláctico (183) y uso terapéutico (105) en ensayos clínicos. La seguridad de voriconazol también se evaluó en otros 158 pacientes pediátricos de 2 a <12 años de edad en programas de uso compasivo. En general, el perfil de seguridad de voriconazol en la población pediátrica fue similar al de los adultos. No obstante, se observó una mayor tendencia de aumentos en la frecuencia de las enzimas hepáticas, notificadas en ensayos clínicos en los pacientes pediatricos en comparación con los adultos (14,2% de transaminasas elevadas en los pacientes pediátricos frente al 5,3% en los adultos). Los datos de la experiencia pos-comercialización sugieren que podría haber una mayor incidencia de reacciones cutáneas (especialmente eritema) en la población pediátrica en comparación con los adultos. En 22 pacientes de menos de 2 años de edad que recibieron voriconazol bajo uso compasivo, se notificaron las siguientes reacciones adversas (para las que no se excluye una posible relación con voriconazol): reacción de fotosensibilidad (1), arritmia (1), pancreatitis (1), niveles aumentados de bilirrubina en sangre (1), elevación de enzimas hepáticas (1), erupción cutánea (1) y papiledema (1). Durante la experiencia post-comercialización se han notificado casos de pancreatitis en pacientes pediátricos.
+ Notificación de sospechas de reacciones adversas
+ Es importante notificar sospechas de reacciones adversas al medicamento tras su autorización. Ello permite una supervisión continuada de la relación beneficio/riesgo del medicamento. Se invita a los profesionales sanitarios a notificar las sospechas de reacciones adversas a través del sistema nacional de notificación incluido en el Apéndice V.
+ 4.9. Sobredosis
+ En los ensayos clínicos hubo 3 casos de sobredosis accidental. Todos ocurrieron en niños, que recibieron una dosis de voriconazol por vía intravenosa hasta cinco veces mayor que la recomendada. Se notificó una única reacción adversa de fotofobia, de 10 minutos de duración.
+ No se conoce ningún antídoto frente a voriconazol.
+ Voriconazol es hemodializado con un aclaramiento de 121 ml/min. El excipiente intravenoso, SBECD, es hemodializado con un aclaramiento de 55 ml/min. En caso de sobredosis, la hemodiálisis puede ayudar a eliminar voriconazol y SBECD del organismo.
+ 5. PROPIEDADES FARMACOLÓGICAS
+
+ 6.2. Incompatibilidades
+ No debe perfundirse VFEND por la misma vía o cánula simultáneamente con otros medicamentos de administración intravenosa. Se debe revisar la bolsa para comprobar que la perfusión haya finalizado. Cuando la perfusión de VFEND se haya completado, la vía o cánula puede usarse para la administración de otros medicamentos intravenosos.
+ Hemoderivados y perfusión de soluciones concentradas de electrolitos:
+ Antes del inicio del tratamiento con voriconazol se deberán corregir las alteraciones electrolíticas, tales como hipopotasemia, hipomagnesemia e hipocalcemia (ver secciones 4.2 y 4.4). No debe administrarse VFEND simultáneamente con ningún hemoderivado ni con una perfusión de soluciones concentradas de electrolitos, incluso aunque las dos perfusiones se realicen por vías/cánulas separadas.
+ Nutrición Parenteral Total:
+ La Nutrición Parenteral Total (NPT) no necesita interrumpirse cuando se prescribe con VFEND, pero debe perfundirse en una vía o cánula separada. Si la NPT se perfunde a través de un catéter multi-lumen, necesita administrarse utilizando un puerto diferente al utilizado para VFEND.
+ VFEND no debe ser diluido en soluciones de perfusión de bicarbonato de sodio al 4,2%.
+ En ausencia de estudios de compatibilidad, este medicamento no debe mezclarse con otras concentraciones.
+ Este medicamento no debe mezclarse con otros, excepto con los mencionados en la sección 6.6.
+ 6.3. Periodo de validez
+ 3 años.
+ Desde un punto de vista microbiológico, el producto debe utilizarse inmediatamente una vez reconstituido. Si no se utiliza inmediatamente, el tiempo y condiciones de conservación hasta su utilización, son responsabilidad del usuario, que debe mantenerlo a 2-8?C (en nevera) durante un periodo máximo de 24 horas, a menos que la reconstitución se haya realizado en condiciones asépticas controladas y validadas.
+ Se ha demostrado que la estabilidad química y física en uso es de 24 horas entre 2 ºC y 8 ºC.
+ 6.4. Precauciones especiales de conservación
+ El vial sin reconstituir no requiere ninguna temperatura especial de conservación.
+ Para las condiciones de conservación después de la reconstitución del medicamento, ver sección 6.3.
+ 6.5. Naturaleza y contenido del envase
+ Vial transparente de vidrio tipo I de 30 ml, provisto de un tapón de goma y cápsula de aluminio con sello de plástico.
+ 6.6. Precauciones especiales de eliminación y otras manipulaciones
+ La eliminación del medicamento no utilizado y de todos los materiales que hayan estado en contacto con él se realizará de acuerdo con la normativa local.
+ El polvo se reconstituye con 19 ml de agua para preparaciones inyectables o con 19 ml de cloruro de sodio 9 mg/ml (0,9%) para perfusión para obtener un volumen extraíble de 20 ml de concentrado transparente que contiene 10 mg/ml de voriconazol. Desechar el vial de VFEND si el vacío no permite introducir el disolvente dentro del vial. Se recomienda el uso de una jeringa estándar de 20 ml (no automática) para asegurar la dispensación de la cantidad exacta (19,0 ml) de agua para preparaciones inyectables o de cloruro de sodio para perfusión (9 mg/ml [0,9%]). Esta especialidad es para un único uso y cualquier resto de solución no utilizada debe ser desechada, debiéndose utilizar únicamente soluciones transparentes sin partículas.
+ Para la administración, se añade el volumen requerido del concentrado reconstituido a una solución de perfusión compatible (ver la tabla más adelante) para obtener una solución final de voriconazol que contenga entre 0,5 a 5 mg/ml.
+ La solución concentrada reconstituida puede diluirse con:
+ Solución para inyección de cloruro de sodio 9 mg/ml (0,9%)
+ Perfusión intravenosa de lactato de sodio compuesto
+ Sueros con glucosa 50 mg/ml (al 5%) y solución de Ringer lactato para perfusión intravenosa
+ Suero con glucosa 50 mg/ml (al 5%) y cloruro de sodio 4,5 mg/ml (al 0,45%) para perfusión intravenosa
+ Suero con glucosa 50 mg/ml (al 5%) para perfusión intravenosa
+ Suero con glucosa 50 mg/ml (al 5%) en 20 mEq de cloruro potásico para perfusión intravenosa
+ Suero con cloruro de sodio 4,5 mg/ml (al 0,45%) para perfusión intravenosa
+ Suero con glucosa 50 mg/ml (al 5%) y cloruro de sodio 9 mg/ml (al 0,9%) para perfusión intravenosa
+ Se desconoce la compatibilidad de voriconazol con otros diluyentes distintos a los descritos anteriormente o en la sección 6.2.
+ Volúmenes requeridos de VFEND concentrado 10 mg/ml
+ Peso
+ corporal
+ (kg)
+ | 
+ Volumen de VFEND concentrado (10 mg/ml) requerido para:
+ | 
+ Dosis de 3 mg/kg
+ (número de
+ viales)
+ | 
+ Dosis de 4 mg/kg
+ (número de
+ viales)
+ | 
+ Dosis de 6 mg/kg
+ (número de
+ viales)
+ | 
+ Dosis de
+ 8 mg/kg
+ (número de
+ viales)
+ | 
+ Dosis de
+ 9 mg/kg
+ (número de
+ viales)
+ | 
+ 10
+ | 
+ -
+ | 
+ 4,0 ml (1)
+ | 
+ -
+ | 
+ 8,0 ml (1)
+ | 
+ 9,0 ml (1)
+ | 
+ 15
+ | 
+ -
+ | 
+ 6,0 ml (1)
+ | 
+ -
+ | 
+ 12,0 ml (1)
+ | 
+ 13,5 ml (1)
+ | 
+ 20
+ | 
+ -
+ | 
+ 8,0 ml (1)
+ | 
+ -
+ | 
+ 16,0 ml (1)
+ | 
+ 18,0 ml (1)
+ | 
+ 25
+ | 
+ -
+ | 
+ 10,0 ml (1)
+ | 
+ -
+ | 
+ 20,0 ml (1)
+ | 
+ 22,5 ml (2)
+ | 
+ 30
+ | 
+ 9,0 ml (1)
+ | 
+ 12,0 ml (1)
+ | 
+ 18,0 ml (1)
+ | 
+ 24,0 ml (2)
+ | 
+ 27,0 ml (2)
+ | 
+ 35
+ | 
+ 10,5 ml (1)
+ | 
+ 14,0 ml (1)
+ | 
+ 21,0 ml (2)
+ | 
+ 28,0 ml (2)
+ | 
+ 31,5 ml (2)
+ | 
+ 40
+ | 
+ 12,0 ml (1)
+ | 
+ 16,0 ml (1)
+ | 
+ 24,0 ml (2)
+ | 
+ 32,0 ml (2)
+ | 
+ 36,0 ml (2)
+ | 
+ 45
+ | 
+ 13,5 ml (1)
+ | 
+ 18,0 ml (1)
+ | 
+ 27,0 ml (2)
+ | 
+ 36,0 ml (2)
+ | 
+ 40,5 ml (3)
+ | 
+ 50
+ | 
+ 15,0 ml (1)
+ | 
+ 20,0 ml (1)
+ | 
+ 30,0 ml (2)
+ | 
+ 40,0 ml (2)
+ | 
+ 45,0 ml (3)
+ | 
+ 55
+ | 
+ 16,5 ml (1)
+ | 
+ 22,0 ml (2)
+ | 
+ 33,0 ml (2)
+ | 
+ 44,0 ml (3)
+ | 
+ 49,5 ml (3)
+ | 
+ 60
+ | 
+ 18,0 ml (1)
+ | 
+ 24,0 ml (2)
+ | 
+ 36,0 ml (2)
+ | 
+ 48,0 ml (3)
+ | 
+ 54,0 ml (3)
+ | 
+ 65
+ | 
+ 19,5 ml (1)
+ | 
+ 26,0 ml (2)
+ | 
+ 39,0 ml (2)
+ | 
+ 52,0 ml (3)
+ | 
+ 58,5 ml (3)
+ | 
+ 70
+ | 
+ 21,0 ml (2)
+ | 
+ 28,0 ml (2)
+ | 
+ 42,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 75
+ | 
+ 22,5 ml (2)
+ | 
+ 30,0 ml (2)
+ | 
+ 45,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 80
+ | 
+ 24,0 ml (2)
+ | 
+ 32,0 ml (2)
+ | 
+ 48,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 85
+ | 
+ 25,5 ml (2)
+ | 
+ 34,0 ml (2)
+ | 
+ 51,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 90
+ | 
+ 27,0 ml (2)
+ | 
+ 36,0 ml (2)
+ | 
+ 54,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 95
+ | 
+ 28,5 ml (2)
+ | 
+ 38,0 ml (2)
+ | 
+ 57,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ 100
+ | 
+ 30,0 ml (2)
+ | 
+ 40,0 ml (2)
+ | 
+ 60,0 ml (3)
+ | 
+ -
+ | 
+ -
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ Encontrará información adicional para los profesionales médicos o sanitarios al final del prospecto.

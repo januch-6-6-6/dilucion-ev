@@ -1,0 +1,103 @@
+id: metazolamida
+nombre: Metazolamida
+comerciales:
+- Neptazane
+grupo: antiglaucomatoso
+ambitos:
+- aps
+usos:
+- oftalmologia
+altoRiesgo: false
+presentaciones:
+- id: comprimido-25-mg
+  forma: comprimido
+  cantidad:
+    valor: 25
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: no_registrado
+  fuente:
+    ref: DAILYMED-OFT-METAZOLAMIDA
+    detalle: 'Descripción: "Each tablet ... contains 25 mg or 50 mg methazolamide USP"'
+- id: comprimido-50-mg
+  forma: comprimido
+  cantidad:
+    valor: 50
+    unidad: mg
+  partible: 'no'
+  liberacionProlongada: false
+  registroChile: no_registrado
+  fuente:
+    ref: DAILYMED-OFT-METAZOLAMIDA
+    detalle: 'Descripción: "Each tablet ... contains 25 mg or 50 mg methazolamide USP"'
+dosis:
+- indicacion: Glaucoma crónico de ángulo abierto, glaucoma secundario y preoperatorio del glaucoma agudo de ángulo cerrado
+    (adultos)
+  poblacion: adulto
+  regimen: fija
+  base: toma
+  unidad: mg
+  min: 50
+  max: 100
+  tomasPorDia: 3
+  topeDiario:
+    valor: 300
+    unidad: mg
+  estatus: autorizada
+  condicion: Autorizada por la FDA; sin registro en Chile (importación o uso compasivo)
+  texto: 50 a 100 mg, 2 o 3 veces al día
+  oftalmica: true
+  fuente:
+    ref: DAILYMED-OFT-METAZOLAMIDA
+    detalle: 'DOSAGE AND ADMINISTRATION: "varies from 50 mg to 100 mg two or three times daily"; tope diario de 300 mg según
+      Deitz 2023 («maximum dose of 100 mg three times per day»)'
+- indicacion: Glaucoma congénito primario (niños)
+  poblacion: pediatrico
+  regimen: por_peso
+  base: dia
+  unidad: mg/kg
+  max: 2
+  tomasPorDia: 2
+  estatus: off_label
+  condicion: La etiqueta de la FDA dice que la seguridad y eficacia en niños no están establecidas
+  texto: Menos de 2 mg/kg/día repartidos en 2 tomas
+  oftalmica: true
+  fuente:
+    ref: WEB-OFT-ORAL-GLAUCOMA-AGUDO-PRIMARY_CONGENITAL_GLAUCOMA
+    detalle: '"methazolamide (Neptazane, dose < 2 mg/kg/day, divided into 2 doses"'
+pediatria:
+  estado: con_dosis
+discrepancias:
+- campo: Uso en niños
+  valores:
+  - fuente: DAILYMED-OFT-METAZOLAMIDA
+    valor: 'Etiqueta FDA: «The safety and effectiveness of methazolamide in children have not been established»'
+  - fuente: WEB-OFT-ORAL-GLAUCOMA-AGUDO-PRIMARY_CONGENITAL_GLAUCOMA
+    valor: 'EyeWiki: dosis < 2 mg/kg/día en 2 tomas en glaucoma congénito'
+  mostrado: Se muestra la pauta de EyeWiki como off-label
+  motivo: La etiqueta no la respalda; es práctica de especialista.
+administracion:
+  comida: indiferente
+  texto: La etiqueta de la FDA no da indicación sobre las comidas.
+  fuente:
+    ref: DAILYMED-OFT-METAZOLAMIDA
+    detalle: DOSAGE AND ADMINISTRATION (no menciona relación con las comidas)
+ajusteRenalHepatico:
+  renal: Contraindicada en enfermedad renal marcada; en enfermedad renal leve hay que ajustar la dosis (etiqueta FDA; Deitz
+    2023).
+  hepatico: Contraindicada en enfermedad o disfunción hepática marcada (etiqueta FDA).
+  fuente:
+    ref: DAILYMED-OFT-METAZOLAMIDA
+    detalle: 'CONTRAINDICATIONS: "marked kidney or liver disease or dysfunction"'
+alertas:
+- Esta ficha carga solo el uso oftalmológico del fármaco; no carga sus otras indicaciones.
+- 'No registrada en Chile: solo por importación o uso compasivo.'
+- Contraindicada en enfermedad renal o hepática marcada, con sodio o potasio bajos y en acidosis hiperclorémica (etiqueta
+  FDA).
+- 'El uso prolongado está contraindicado en glaucoma de ángulo cerrado: puede cerrarse el ángulo aunque baje la presión (etiqueta
+  FDA).'
+- 'Es una sulfonamida: se han descrito reacciones graves (Stevens-Johnson, necrólisis epidérmica, discrasias sanguíneas) (etiqueta
+  FDA).'
+- Con aspirina en dosis altas hay riesgo de anorexia, taquipnea, letargo, coma y muerte (etiqueta FDA).
+meta: {}
