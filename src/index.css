@@ -173,7 +173,8 @@ h3 { font-size: 1.05rem; margin: 20px 0 8px; }
 .pestanas button {
   flex: 0 0 auto; padding: 9px 14px; border: none; border-radius: 10px; background: none; color: var(--suave); font-size: 0.95rem; font-weight: 650; cursor: pointer;
 }
-.pestanas button[aria-selected='true'] { background: var(--superficie); color: var(--texto); box-shadow: var(--sombra); }
+.pestanas button[aria-selected='true'],
+.pestanas button[aria-pressed='true'] { background: var(--superficie); color: var(--texto); box-shadow: var(--sombra); }
 [role='tabpanel'] { background: var(--superficie); border-radius: 18px; padding: 6px 16px 14px; box-shadow: var(--sombra); }
 dl { margin: 0; }
 .dato { display: grid; grid-template-columns: minmax(0, 1fr); padding: 10px 0; border-bottom: 1px solid var(--borde); }
