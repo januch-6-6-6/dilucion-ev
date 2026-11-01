@@ -1,0 +1,126 @@
+id: cefuroxima
+nombre: Cefuroxima intracameral
+comerciales: []
+grupo: antibiotico
+familias:
+- intracameral
+modo: intraocular
+componentes: []
+altoRiesgo: true
+registroChile: verificado
+presentaciones:
+- id: aprokam-50
+  forma: polvo
+  cantidad:
+    valor: 50
+    unidad: mg
+  registrosIsp:
+  - F-25555/25
+  usoDirecto: false
+  nota: Vial de un solo uso. La ficha técnica de referencia es la de Prokam/Ximaract (CIMA), el mismo medicamento en España.
+  fuente:
+    ref: ISP-REGISTRO-OFTALMO
+    detalle: F-25555/25 Aprokam polvo para solución inyectable 50 mg
+- id: vial-750
+  forma: polvo
+  cantidad:
+    valor: 750
+    unidad: mg
+  registrosIsp: []
+  usoDirecto: false
+  nota: 'Vial de cefuroxima de uso sistémico. No aparece en el ISP (búsqueda por principio activo, 31-oct-2026): el PNT español
+    parte de él y en Chile solo está registrada la presentación de 50 mg.'
+  fuente:
+    ref: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
+    detalle: 'Composición y método: reconstituir un vial de cefuroxima 750 mg'
+dosis:
+- indicacion: Profilaxis de endoftalmitis tras cirugía de catarata
+  via: intracameral
+  poblacion: adulto
+  final:
+    cantidad:
+      valor: 1
+      unidad: mg
+    volumenMl: 0.1
+  texto: Inyectar lentamente 0,1 ml (1 mg) en la cámara anterior al final de la cirugía. No inyectar más de la dosis recomendada.
+  estatus: autorizada
+  condicion: Autorizada con Aprokam (ficha técnica). Con el vial de 750 mg es una preparación magistral del PNT de la SEFH.
+  fuente:
+    ref: CIMA-OFT-CEFUROXIMA-76098
+    detalle: '4.2.1 Posología: 0,1 ml de solución reconstituida, es decir, 1 mg de cefuroxima'
+  tambien:
+  - ref: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
+    detalle: 'Indicaciones y posología: 1 mg (0,1 ml) intracameral al final de la cirugía'
+  - ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla 4: cefuroxima 1 mg/0,1 ml'
+protocolos:
+- id: aprokam-ficha-tecnica
+  dosis: 0
+  titulo: 'Aprokam: reconstitución de la ficha técnica'
+  partida: aprokam-50
+  pasos:
+  - tipo: reconstituir
+    diluyente: cloruro de sodio 9 mg/ml (0,9 %)
+    volumenMl: 5
+  - tipo: texto
+    texto: Agitar suavemente hasta que la solución esté libre de partículas visibles.
+  - tipo: texto
+    texto: Con una jeringa de 1 ml y una aguja con filtro de 5 micras, aspirar al menos 0,1 ml de la solución.
+  resultado:
+    valor: 1
+    unidad: mg
+    volumenMl: 0.1
+  fuente:
+    ref: CIMA-OFT-CEFUROXIMA-76098
+    detalle: 6.6 Instrucciones de reconstitución (pasos 3 a 6)
+- id: pnt-sefh-750
+  dosis: 0
+  titulo: Desde el vial de 750 mg (PNT SEFH)
+  partida: vial-750
+  pasos:
+  - tipo: reconstituir
+    diluyente: agua para inyección
+    volumenMl: 7.5
+  - tipo: diluir
+    tomarMl: 1
+    llevarAMl: 10
+    diluyente: cloruro de sodio 0,9 %
+  - tipo: texto
+    texto: Homogeneizar la mezcla en la misma jeringa (queda a 10 mg/ml).
+  - tipo: texto
+    texto: Filtrar (5 µm) 0,2 ml de esta solución sobre una jeringa de insulina de 1 ml, tapar, envasar y etiquetar. Trabajar
+      en campana de flujo laminar con técnica aséptica.
+  resultado:
+    valor: 1
+    unidad: mg
+    volumenMl: 0.1
+  fuente:
+    ref: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
+    detalle: Método específico, pasos 1 a 6
+sinPauta: null
+pediatria:
+  estado: no_establecida
+  motivo: La ficha técnica no establece la dosis óptima ni la seguridad en población pediátrica.
+conservacion:
+- texto: 'Aprokam, ya reconstituido: usar inmediatamente y no volver a usar. Un vial por paciente.'
+  fuente:
+    ref: CIMA-OFT-CEFUROXIMA-76098
+    detalle: 6.3 Periodo de validez
+- texto: 'Jeringa preparada según el PNT: 7 días en refrigerador (2–8 °C) o 4 meses congelada (−21 °C).'
+  horas: 168
+  fuente:
+    ref: SEFH-PNT-PN-CEFUROXIMA-INTRACAMERULAR
+    detalle: Plazo de validez
+- texto: 'Jeringa preparada en farmacia: 120 días a −21 °C (categoría A+ del consenso).'
+  fuente:
+    ref: CONSENSO-SEFH-SEO-SERV-2025
+    detalle: 'Tabla de estabilidad: cefuroxima 1 mg/0,1 ml'
+contraindicaciones:
+- Hipersensibilidad a la cefuroxima o a las cefalosporinas (CIMA 4.3).
+alertas:
+- NO INYECTAR MÁS DE LA DOSIS RECOMENDADA. Un error de dilución que dio 40 a 50 veces la dosis causó inflamación grave del
+  segmento anterior y mala agudeza visual en 6 pacientes (CIMA 4.9).
+- 'Reacción anafiláctica: muy rara, menos de 1 en 10.000 (CIMA 4.8).'
+- Pegar la etiqueta desprendible del vial en la historia clínica del paciente (CIMA 6.6).
+discrepancias: []
+meta: {}
