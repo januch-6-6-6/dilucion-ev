@@ -63,3 +63,6 @@ Rama: **`oftalmologia-v1`** (desde main f9a1ff7). Decisiones de Héctor en [`DEC
 4. Decidir con Héctor la unión a `main` y el push (publica el sitio).
 
 **Menores diferidos:** los botones «Agregar/Quitar paso» del verificador usan el estilo del navegador; el texto de «Concentración final» hereda el tamaño grande de `.resultado`.
+
+## Crudos de terceros fuera del repo (1-nov-2026)
+`pediamecum/`, `web/` y `sefh/consenso-2025.txt` (texto completo con copyright) están en `.gitignore` y fuera del historial de la rama (repo público). Siguen en el disco local: sin ellos un clon limpio NO puede regenerar las fichas con `generar-oftalmo.py`/`generar-orales.py` (los YAML de `datos/` sí están versionados). Respaldo de la rama antes de reescribirla: `oftalmologia-v1-respaldo` (borrar cuando ya no haga falta; contiene los archivos).

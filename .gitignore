@@ -32,3 +32,8 @@ __pycache__/
 datos/crudos/oftalmo/pdf/
 datos/crudos/oftalmo/**/*.pdf
 datos/crudos/oftalmo/__pycache__/
+
+# Crudos de terceros con copyright (texto completo): quedan solo en disco, no en el repo público
+datos/crudos/oftalmo/pediamecum/
+datos/crudos/oftalmo/web/
+datos/crudos/oftalmo/sefh/consenso-2025.txt
