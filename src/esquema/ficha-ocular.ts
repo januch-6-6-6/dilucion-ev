@@ -158,6 +158,9 @@ export const FichaOcular = z
   })
 
 export type UnidadOcular = z.infer<typeof UnidadOcular>
+export type FamiliaOcular = z.infer<typeof FamiliaOcular>
+export type ViaOcular = z.infer<typeof ViaOcular>
+export type FormaOcular = z.infer<typeof FormaOcular>
 export type CantidadOcular = z.infer<typeof CantidadOcular>
 export type RangoOcular = z.infer<typeof RangoOcular>
 export type DosisFinal = z.infer<typeof DosisFinal>

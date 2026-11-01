@@ -47,10 +47,10 @@ export const PEDIATRIA = {
 } as const
 
 const num = (n: number) => String(n).replace('.', ',')
-const unidad = (u: CantidadOcular['unidad']) => (u === 'mcg' ? 'µg' : u)
+export const unidadTexto = (u: CantidadOcular['unidad']) => (u === 'mcg' ? 'µg' : u)
 
 export const cantidadTexto = (c: CantidadOcular | RangoOcular): string =>
-  'min' in c ? `${num(c.min)}–${num(c.max)} ${unidad(c.unidad)}` : `${num(c.valor)} ${unidad(c.unidad)}`
+  'min' in c ? `${num(c.min)}–${num(c.max)} ${unidadTexto(c.unidad)}` : `${num(c.valor)} ${unidadTexto(c.unidad)}`
 
 export const finalTexto = (f: DosisFinal): string => `${cantidadTexto(f.cantidad)} en ${num(f.volumenMl)} ml`
 
