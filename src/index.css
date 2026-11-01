@@ -226,7 +226,7 @@ cite { color: var(--suave); font-size: 0.78rem; font-style: normal; }
 .compatibilidad td:last-child cite { white-space: nowrap; }
 
 /* ====== Secciones (EV / Orales) y verificación ====== */
-.secciones { display: flex; gap: 8px; margin-top: 12px; }
+.secciones { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .secciones a { color: #fff; text-decoration: none; font-weight: 700; padding: 6px 16px; border-radius: 999px; background: rgba(255, 255, 255, 0.15); }
 .secciones a[aria-current='page'] { background: #fff; color: var(--primario); }
 .etiqueta.fuente-unica { background: var(--ambar-suave); color: var(--ambar-texto); }

@@ -47,3 +47,19 @@ Rama: **`oftalmologia-v1`** (desde main f9a1ff7). Decisiones de Héctor en [`DEC
    - Si los bloqueos van como fichas o como texto informativo.
    - Si entran los orales con evidencia débil (tranexámico en el hipema, glicerol).
 4. Spec en `docs/superpowers/specs/AAAA-MM-DD-oftalmologia-design.md`: `FichaOcular`, verificador de dilución, marca `oftalmologia` en orales y centro `/oftalmologia`. **Héctor la aprueba** → plan → implementación.
+
+---
+
+## Estado al 1-nov-2026 (implementación completa en la rama `oftalmologia-v1`, sin push)
+
+**Hecho:** spec, plan y las 14 tareas. 41 fichas de pabellón (`datos/oftalmo/`, 88 fuentes), 7 orales nuevos y 4 ampliados con pautas oftálmicas (`scripts/orales/tanda4.py`, 11 con `usos: [oftalmologia]`), centro `/oftalmologia` (Pabellón · Orales · Colirios), ficha, verificador `/oftalmologia/m/:id/verificar`, rutas, Acerca y README. Informe de revisión: `informes/oftalmologia-revision.md` (regenerar con `python3 scripts/informe-oftalmo.py`). Capturas a 390 px en `docs/capturas/oftalmo/`.
+
+**Conteos:** 27 contrastadas, 12 de una sola fuente, 2 sin pauta; 9 sin registro en Chile (con aviso); 12 con protocolo citado y 6 sin pasos publicados.
+
+**Falta:**
+1. **Revisión clínica** (enfermera de oftalmología / químico farmacéutico): ninguna ficha está firmada (`meta.revisadoPor` vacío).
+2. Cotejar con el original antes de citar: autores del PPP de cierre angular de la AAO, conversión de metilprednisolona del ONTT y el estudio ZEDS (no se citan hoy).
+3. Citas por WebFetch recortadas a ~125 caracteres: cotejar con el original.
+4. Decidir con Héctor la unión a `main` y el push (publica el sitio).
+
+**Menores diferidos:** los botones «Agregar/Quitar paso» del verificador usan el estilo del navegador; el texto de «Concentración final» hereda el tamaño grande de `.resultado`.
